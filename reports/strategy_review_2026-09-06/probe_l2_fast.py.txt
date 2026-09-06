@@ -1,0 +1,68 @@
+"""Compare public L2 subscriptions in isolated read-only connections."""
+import asyncio
+import hashlib
+import json
+import time
+from datetime import datetime, timezone
+from pathlib import Path
+
+from websockets.asyncio.client import connect
+
+OUT = Path('/workspaces/hyperbot/reports/strategy_review_2026-09-06')
+
+
+def quantile(values, q):
+    return sorted(values)[int(q * (len(values) - 1))] if values else None
+
+
+async def probe(fast):
+    subscription = {'type': 'l2Book', 'coin': 'BTC', 'fast': fast}
+    records = []
+    messages = []
+    async with connect('wss://api.hyperliquid.xyz/ws', open_timeout=15) as ws:
+        await ws.send(json.dumps({'method': 'subscribe', 'subscription': subscription}))
+        deadline = time.monotonic() + 40
+        while (remaining := deadline - time.monotonic()) > 0:
+            try:
+                raw = await asyncio.wait_for(ws.recv(), remaining)
+            except asyncio.TimeoutError:
+                break
+            received_ms = time.time_ns() // 1_000_000
+            obj = json.loads(raw)
+            if obj.get('channel') == 'l2Book':
+                data = obj['data']
+                records.append({'received_ms': received_ms, 'exchange_ms': data['time'],
+                                'level_counts': list(map(len, data['levels']))})
+            else:
+                messages.append(obj)
+    intervals = [b['received_ms'] - a['received_ms'] for a, b in zip(records, records[1:])]
+    ages = [r['received_ms'] - r['exchange_ms'] for r in records]
+    distinct = sorted({r['exchange_ms'] for r in records})
+    return {'subscription': subscription, 'records': records, 'other_messages': messages,
+            'summary': {'count': len(records), 'distinct_exchange_ts': len(distinct),
+                        'median_receive_interval_ms': quantile(intervals, .5),
+                        'p99_receive_interval_ms': quantile(intervals, .99),
+                        'median_apparent_age_ms': quantile(ages, .5),
+                        'p99_apparent_age_ms': quantile(ages, .99),
+                        'age_le_500ms_count': sum(a <= 500 for a in ages),
+                        'level_counts': sorted({tuple(r['level_counts']) for r in records})}}
+
+
+async def main():
+    started = datetime.now(timezone.utc).isoformat()
+    results = await asyncio.gather(probe(False), probe(True), return_exceptions=True)
+    result = {'started_at': started, 'finished_at': datetime.now(timezone.utc).isoformat(),
+              'duration_seconds_per_connection': 40, 'location': 'local workspace',
+              'clock_offset_independently_calibrated': False,
+              'script_sha256': hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
+              'results': [str(r) if isinstance(r, Exception) else r for r in results],
+              'limitations': 'No execution latency, sustained coverage or queue readiness measured.'}
+    p = OUT / 'fast_l2_probe.json'
+    with p.open('x') as f:
+        json.dump(result, f, indent=2)
+        f.write('\n')
+    (OUT / 'fast_l2_probe.json.sha256').write_text(hashlib.sha256(p.read_bytes()).hexdigest() + '  fast_l2_probe.json\n')
+    print(json.dumps([r if isinstance(r, str) else {'subscription': r['subscription'], 'summary': r['summary'], 'other_messages': r['other_messages']} for r in result['results']], indent=2))
+
+
+asyncio.run(main())

@@ -1,0 +1,160 @@
+{
+  "catalog_issues": [],
+  "code_version": "source-sha256:ad52f3c1a75e2c66f6e9f37a907da635026b72ded1bf6ca170e4fe45d47d7acd",
+  "config_sha256": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+  "definitions": [
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1715,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "79963",
+      "tick": null,
+      "underlying": "BTC"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1716,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "2513",
+      "tick": null,
+      "underlying": "ETH"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1717,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "106.41",
+      "tick": null,
+      "underlying": "SOL"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1718,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "86.762",
+      "tick": null,
+      "underlying": "HYPE"
+    }
+  ],
+  "duration_seconds": 40.245298887006356,
+  "maximum_l2_levels_per_side": 5,
+  "metrics": {
+    "acknowledged_subscription_count": 16,
+    "clock_healthy": true,
+    "clock_violation_count": 0,
+    "connected": false,
+    "dropped_events": 0,
+    "last_message_receive_ms": 1788710948360,
+    "malformed_messages": 0,
+    "maximum_negative_latency_ms": 0,
+    "missing_subscription_count": 0,
+    "persisted_events": 853,
+    "persistence_queue_capacity": 10000,
+    "persistence_queue_depth": 0,
+    "received_messages": 619,
+    "reconnects": 0,
+    "subscription_ack_grace_active": false,
+    "subscription_last_receive_ms": [
+      [
+        "l2Book:#17150",
+        1788710948359
+      ],
+      [
+        "l2Book:#17151",
+        1788710948359
+      ],
+      [
+        "l2Book:#17160",
+        1788710948359
+      ],
+      [
+        "l2Book:#17161",
+        1788710948360
+      ],
+      [
+        "l2Book:#17170",
+        1788710948360
+      ],
+      [
+        "l2Book:#17171",
+        1788710948360
+      ],
+      [
+        "l2Book:#17180",
+        1788710948360
+      ],
+      [
+        "l2Book:#17181",
+        1788710948360
+      ],
+      [
+        "trades:#17150",
+        1788710946891
+      ],
+      [
+        "trades:#17151",
+        1788710946891
+      ],
+      [
+        "trades:#17160",
+        1788710909338
+      ],
+      [
+        "trades:#17161",
+        1788710909352
+      ],
+      [
+        "trades:#17170",
+        1788710909559
+      ],
+      [
+        "trades:#17171",
+        1788710909561
+      ],
+      [
+        "trades:#17180",
+        1788710909561
+      ],
+      [
+        "trades:#17181",
+        1788710909562
+      ]
+    ]
+  },
+  "observed_ms": 1788710908498,
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "reasons": [
+    "public witness only; fees, specification and execution need qualification"
+  ],
+  "run_id": "hb2-witness-1788710907795049301",
+  "verdict": "DATA_BLOCKED"
+}

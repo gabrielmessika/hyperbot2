@@ -1,0 +1,258 @@
+{
+  "source_repository": "/workspaces/hyperbot",
+  "source_git_head": "56997fed4e6fa65b06e55df4305bd24d47e1c621",
+  "files": [
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/build_info.py",
+      "source_sha256": "5d161fb7f522f912cd31bfb3d2184755891ab08cc6d71891914983028d1b4999",
+      "destination": "src/hyperbot2/build_info.py",
+      "initial_port_sha256": "d4621bf7faccf212d73af084def4c16deaace9979ad9fc6b3f7065ec65139440",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/__init__.py",
+      "source_sha256": "864158629f57247a490a62523575a022e8454d694b04e42ff612773a5387988c",
+      "destination": "src/hyperbot2/__init__.py",
+      "initial_port_sha256": "864158629f57247a490a62523575a022e8454d694b04e42ff612773a5387988c",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/models.py",
+      "source_sha256": "041c615318e5b8e0220cc18f09a424be164b01870406d4ea1bce1714f3624117",
+      "destination": "src/hyperbot2/models.py",
+      "initial_port_sha256": "041c615318e5b8e0220cc18f09a424be164b01870406d4ea1bce1714f3624117",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/segmented_store.py",
+      "source_sha256": "2ed0d84df8c2b9232ae9264c5d3791f187577438be2596981b2e33bbd40936f9",
+      "destination": "src/hyperbot2/segmented_store.py",
+      "initial_port_sha256": "3abff3388dedadabbefff6db9edc49e54b5992a6c0b505cfa112ff24edf5695c",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/event_store.py",
+      "source_sha256": "9324d1df27107ec52bd53bc790dbe2880140b2767a48576c94dc0cb0b2fa66b4",
+      "destination": "src/hyperbot2/event_store.py",
+      "initial_port_sha256": "9c2d2ed761a087a7a8c5c729692e9e335e68542384eeba7fc8f97836726f1a11",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/execution/__init__.py",
+      "source_sha256": "4c0925506e015df41bf8f545555e08109b620edcd41dcafee53f2c1629c08048",
+      "destination": "src/hyperbot2/execution/__init__.py",
+      "initial_port_sha256": "f8c2fe6482140703f3788862ffc56a7d79fc75e8bf09d0d3991585c5b956a3c3",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/execution/shadow.py",
+      "source_sha256": "14ebeb94b4cdb29e4b145e520d527ea048a02bc69d7885a1d62e6b078f3600be",
+      "destination": "src/hyperbot2/execution/shadow.py",
+      "initial_port_sha256": "d41c79fed035f9c66ab7c9995f0b443fa3ba19931ad94a23767a39f8068e87a7",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/replay/engine.py",
+      "source_sha256": "1ee5b2fd0527649593869ef0de7ac258b91fbdc286f1b217ca0ff6c224b5b380",
+      "destination": "src/hyperbot2/replay/engine.py",
+      "initial_port_sha256": "33a5fb8024fd1594412a4636708c4d1a1071af2c6fe0260af7e731dfdd7ce4d8",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/replay/__init__.py",
+      "source_sha256": "60330a3d55acbc0a9b28c5329f91f959ed18c3ce3ece5702a82f599457d1caff",
+      "destination": "src/hyperbot2/replay/__init__.py",
+      "initial_port_sha256": "e54d2d9f37f858acf8c0f4bc0741c54e8426f43683c38ecf34a84afe9edc7682",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/strategies/__init__.py",
+      "source_sha256": "368f6ac9f80c4fa4fa77e410462b75563159dc0339fe36815763d7f9dfb1a675",
+      "destination": "src/hyperbot2/strategies/__init__.py",
+      "initial_port_sha256": "e54d2d9f37f858acf8c0f4bc0741c54e8426f43683c38ecf34a84afe9edc7682",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/strategies/common.py",
+      "source_sha256": "0cc711e71deec8eda5a7399a807f286bfe66bc8af4bd9336b28865cb10e6c3db",
+      "destination": "src/hyperbot2/strategies/common.py",
+      "initial_port_sha256": "732f1540849545ee63678b7dc7b2370e34be237fd68cd0567603bef325f7093b",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/legacy/policy.py",
+      "source_sha256": "6551c0e5730d698786e47b7f103a4ca219bde7abd7287709a27f22d23283fab1",
+      "destination": "src/hyperbot2/legacy/policy.py",
+      "initial_port_sha256": "8fb5f6e27f8175618cb0631ee8ab5def155ccd4bed232694bbf41c5d764bcd10",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/legacy/manifest.py",
+      "source_sha256": "9138a908a8eaa6806eb6c7fdf399eef7e113f17a8b546438e0725f1c3024b1e3",
+      "destination": "src/hyperbot2/legacy/manifest.py",
+      "initial_port_sha256": "180cfb17cd28c26ec31c7fb1e4471a56c4312dc9e13f93b8585e323cb9354508",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/legacy/__init__.py",
+      "source_sha256": "65f0b0eb967e6fc31d38615e9eca124c7461ac5044fda4059711b44e44f7f859",
+      "destination": "src/hyperbot2/legacy/__init__.py",
+      "initial_port_sha256": "06d234a63d3e8bba6cbb5cc11a10a5b97e51586b5cf04145658700ec3127ec4c",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/legacy/adapters.py",
+      "source_sha256": "392f17e3b62d57c72ebc80428ae5fba458cf9f640b378a32dc6520973ebb73d6",
+      "destination": "src/hyperbot2/legacy/adapters.py",
+      "initial_port_sha256": "37cbeca35a4ad85652098e4c19346bcebe36338c81db7e96ae080e14a8d466d2",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/legacy/importer.py",
+      "source_sha256": "5b72fa0ff938db63c667b557e57cf8b1d3c4d95948a976d83ee23de4e582721d",
+      "destination": "src/hyperbot2/legacy/importer.py",
+      "initial_port_sha256": "89b61e0b02446b6a42d41c530dfbf559062ec1a5bacba1ac4c12427e23f3d898",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/research/gates.py",
+      "source_sha256": "96c6cb42dca47b9fefc9cf69cefbdef21aea22b3b7fa61b3c2edd43227fb0c9f",
+      "destination": "src/hyperbot2/research/gates.py",
+      "initial_port_sha256": "0b7d5e3fbdd7d0726d3629c7a16aed03214b1c5146123000290536f818c166b3",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/research/journal.py",
+      "source_sha256": "b393b0d555939aa31dedc637c5cba97c20edf8b72a89faac3d2b7953cbf0c2b4",
+      "destination": "src/hyperbot2/research/journal.py",
+      "initial_port_sha256": "3eec85d5c100505fcb705816f54b7e3a792ef0962209b632655c2f65fbc81107",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/research/growth.py",
+      "source_sha256": "b781f69997de993e29e4c8c990ac3630804b6fd03da0c3fbd18da9865969b402",
+      "destination": "src/hyperbot2/research/growth.py",
+      "initial_port_sha256": "50d9b007f946ba4232e386b43262e78de1b6262a9bfe1f621441d1f5acea7bd7",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/research/__init__.py",
+      "source_sha256": "fec0d7111e0dc9294efb1f7564495911397a876f413e35bd1202fdd3a11cab2b",
+      "destination": "src/hyperbot2/research/__init__.py",
+      "initial_port_sha256": "de7e1063ac8e896d32167e5a58079999870e06754df05fd4f0da815f0822684a",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/research/outcomes.py",
+      "source_sha256": "43221f219613ad9afda2e0616954c829aee7998c5f656623af86e536970668b9",
+      "destination": "src/hyperbot2/research/outcomes.py",
+      "initial_port_sha256": "cac08ec05d965293007afa3a5b49e40c831f41741ec14cfc15baef675bdb53a3",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/risk/__init__.py",
+      "source_sha256": "931de9517ef9fc678cee52b0c9518f8af1b84e19439b82cd2f3785c4a8d5ff79",
+      "destination": "src/hyperbot2/risk/__init__.py",
+      "initial_port_sha256": "00cdf72b1019e8ad1d7878e6ba0e0b90f21cb3bf5113ba2dcf4dfb818dcc8db4",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/risk/supervisor.py",
+      "source_sha256": "711088d523cd16a40647d4afd858866daff0482241c6cf18ef439a367550cdd9",
+      "destination": "src/hyperbot2/risk/supervisor.py",
+      "initial_port_sha256": "766cc11896459c698ba9b7b7ad88f95942344bbc297011e26020a47795c5d689",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/services/public_collector.py",
+      "source_sha256": "e03c3a2ad58808fc5c0d8ff5292a389b382522bdaced907346938502fd5fccd7",
+      "destination": "src/hyperbot2/services/public_collector.py",
+      "initial_port_sha256": "96a386da7b51cf4dff145cf295bae5ea519538159d4874e6787719a6580261ef",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/src/hyperbot/services/__init__.py",
+      "source_sha256": "92e3ab8fcecb1fdb642fe14014ce2a4d57ec9f87f3ad8470a35764002ed553ae",
+      "destination": "src/hyperbot2/services/__init__.py",
+      "initial_port_sha256": "e54d2d9f37f858acf8c0f4bc0741c54e8426f43683c38ecf34a84afe9edc7682",
+      "transformation": "namespace hyperbot -> hyperbot2; narrowed package exports"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_segmented_store.py",
+      "source_sha256": "65b82618bd2bd19fa15d53c900d6f81dd08e6a912a3bbda41aa6ed4732eab0e8",
+      "destination": "tests/test_segmented_store.py",
+      "initial_port_sha256": "651bdb77d63f6bea65992acca94016f047f344063bfd17e0ee652586de703a43",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_research.py",
+      "source_sha256": "62a32b0987a011d3b4d2d04479cda3a40c8b0681055e2b219087716ba5d9902f",
+      "destination": "tests/test_research.py",
+      "initial_port_sha256": "191807e4f260cafe6ce6386dccb6aca75d459e9077d2bbc4e5bcd14988bebb7d",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_event_store.py",
+      "source_sha256": "6d622f27d115944c48fbfb4eb8c813e485c4907eaa7730ff90b1d59146d17812",
+      "destination": "tests/test_event_store.py",
+      "initial_port_sha256": "8a693221da21292c5c34744dd68db95c813d0dfe2acdc31f311c913579e2d30c",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_legacy_adapters.py",
+      "source_sha256": "39d9241a58599ba5b9ef10092d2cc28b9a99c858d5dbbafdd141a177cc2c5799",
+      "destination": "tests/test_legacy_adapters.py",
+      "initial_port_sha256": "c9bd7fb5ecd3fbb487b9344741fe8073b0b2b0ebdd778b751441f3a40aecca75",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_public_collector.py",
+      "source_sha256": "143ca09ac3b34249ed403a8428ad3a5f7ae6757428c953817618306769e81aea",
+      "destination": "tests/test_public_collector.py",
+      "initial_port_sha256": "8b43768eabf9dbf095f68b8248cf2cd77a11768cd17640fe4210ff043733a0ac",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_legacy_importer.py",
+      "source_sha256": "325927ca0f4731fb792b0f2f57c6fa3a862f7007f779803948d97fb1a5429644",
+      "destination": "tests/test_legacy_importer.py",
+      "initial_port_sha256": "4925057ec4e15afc5f7a12cf177241e5f846cb0f8ecfc108fd52829259fd1124",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_replay_engine.py",
+      "source_sha256": "2d0b6220560eab47fb66876d3dee496591bad9b099b20a6ba47c9d14c82c1bd4",
+      "destination": "tests/test_replay_engine.py",
+      "initial_port_sha256": "10883314c7fe991856de84c49a611c49af2f3ce278c947bc7dedd9f0dac2a3f6",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_package.py",
+      "source_sha256": "04dcb6972ead5b8a12e2b86ddb05c945c68b0ad66b926582ad940e92f2987bbb",
+      "destination": "tests/test_package.py",
+      "initial_port_sha256": "f4087574724647c18975e9c52798694059ea2d1ad65a717782fd6a1451d464c8",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_legacy_policy.py",
+      "source_sha256": "212625f564f0701c27520e5c87b89adb6d5d436bed25c49c3a1342f07acb6e6a",
+      "destination": "tests/test_legacy_policy.py",
+      "initial_port_sha256": "101e15f3b16fa4a8f0430cbe0611ffe4b52407d1efd26d055c1653701092295c",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_legacy_manifest.py",
+      "source_sha256": "40c7555bd25c8cf635fde1d1ae8015a73d8f3f6445c9e4462b8014cbf1b10571",
+      "destination": "tests/test_legacy_manifest.py",
+      "initial_port_sha256": "8ff021603435bf3bdd137649aae02a745f93c57a4c6f984819ee705334a9c926",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    },
+    {
+      "source_path": "/workspaces/hyperbot/tests/test_models.py",
+      "source_sha256": "1be1d312084f3420b8e12be7e542b44a2b192ad963f4061761ee083476935542",
+      "destination": "tests/test_models.py",
+      "initial_port_sha256": "6f4d232327beb486e0f08e09be6002aa2a8dfb628acf74d15ecbf4a24202d515",
+      "transformation": "namespace hyperbot -> hyperbot2"
+    }
+  ]
+}

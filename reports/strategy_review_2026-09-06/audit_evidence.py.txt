@@ -1,0 +1,170 @@
+"""Read-only exploratory audit; no simulated fills or order endpoints."""
+import csv
+import hashlib
+import json
+import subprocess
+from collections import Counter, defaultdict
+from datetime import datetime, timezone
+from pathlib import Path
+
+ROOT = Path('/workspaces/hyperbot')
+OUT = ROOT / 'reports/strategy_review_2026-09-06'
+OUT.mkdir(exist_ok=True)
+RAW = ROOT / 'tmp/strategy_review_public_2026-09-06'
+RAW.mkdir(exist_ok=True)
+
+
+def sha(path):
+    with path.open('rb') as f:
+        return hashlib.file_digest(f, 'sha256').hexdigest()
+
+
+def quantiles(values):
+    values.sort()
+    if not values:
+        return None
+    return {str(q): values[int(q * (len(values) - 1))] for q in (0.1, 0.5, 0.9, 0.99)}
+
+
+def info(payload, name):
+    start = datetime.now(timezone.utc).isoformat()
+    result = subprocess.run(['curl', '--fail-with-body', '--max-time', '25', '-sS',
+                             'https://api.hyperliquid.xyz/info', '-H',
+                             'Content-Type: application/json', '--data-binary',
+                             json.dumps(payload)], capture_output=True, check=True)
+    path = RAW / f'{name}.json'
+    with path.open('xb') as f:
+        f.write(result.stdout)
+    requests.append({'request': payload, 'started_at': start,
+                     'received_at': datetime.now(timezone.utc).isoformat(),
+                     'raw_path': str(path), 'sha256': sha(path)})
+    return json.loads(result.stdout)
+
+
+settlements_path = Path('/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet_paper/settlements.csv')
+with settlements_path.open() as f:
+    rows = list(csv.DictReader(f))
+by_underlying = defaultdict(list)
+for row in rows:
+    by_underlying[row['underlying']].append(float(row['net_pnl_usdc']))
+
+
+def pnl_summary(values):
+    wins = sum(x for x in values if x > 0)
+    losses = -sum(x for x in values if x < 0)
+    return {'count': len(values), 'net_pnl_usd': sum(values),
+            'gross_wins_usd': wins, 'gross_losses_usd': losses,
+            'profit_factor': wins / losses if losses else None}
+
+
+settlements = {'source': str(settlements_path), 'sha256': sha(settlements_path),
+               'tier': 'B', 'execution': 'legacy paper, not actual maker fills',
+               'first_ts': min(r['ts'] for r in rows), 'last_ts': max(r['ts'] for r in rows),
+               'distinct_dates': len({r['ts'][:10] for r in rows}),
+               'distinct_markets': len({r['market_id'] for r in rows}),
+               'results': dict(Counter(r['result'] for r in rows)),
+               'all': pnl_summary([float(r['net_pnl_usdc']) for r in rows]),
+               'by_underlying': {k: pnl_summary(v) for k, v in by_underlying.items()}}
+
+book_path = Path('/workspaces/trident/server-data/hip4/logs/hip4_nautilus_shadow/book_snapshots.jsonl')
+count = invalid = duplicate = out_of_order = pairs = 0
+first = last = None
+spreads = defaultdict(list)
+latest = {}
+last_pair = {}
+pair_ask_sums = []
+pair_bid_sums = []
+latencies = []
+markets = set()
+h = hashlib.sha256()
+with book_path.open('rb') as f:
+    for line in f:
+        h.update(line)
+        row = json.loads(line)
+        count += 1
+        ts = row['ts_event']
+        first = min(first, ts) if first else ts
+        last = max(last, ts) if last else ts
+        mid = row['market_id']
+        key = (mid, row['side_name'])
+        markets.add(mid)
+        previous = latest.get(key)
+        if previous and previous['ts_event'] == ts:
+            duplicate += 1
+            continue
+        if previous and previous['ts_event'] > ts:
+            out_of_order += 1
+            continue
+        bid, ask = row.get('best_bid'), row.get('best_ask')
+        bid = float(bid) if bid not in (None, '') else None
+        ask = float(ask) if ask not in (None, '') else None
+        if bid is None or ask is None or not (0 < bid < ask < 1):
+            invalid += 1
+            latest.pop(key, None)
+            continue
+        row['best_bid'], row['best_ask'] = bid, ask
+        latest[key] = row
+        spreads[mid.split('_')[0]].append(ask - bid)
+        if row.get('source_latency_ms') is not None:
+            latencies.append(float(row['source_latency_ms']))
+        other = latest.get((mid, 'NO' if row['side_name'] == 'YES' else 'YES'))
+        if other and other['ts_event'] == ts and last_pair.get(mid) != ts:
+            last_pair[mid] = ts
+            pairs += 1
+            pair_ask_sums.append(ask + other['best_ask'])
+            pair_bid_sums.append(bid + other['best_bid'])
+books = {'source': str(book_path), 'sha256': h.hexdigest(), 'tier': 'B',
+         'rows': count, 'first_exchange_ts': first, 'last_exchange_ts': last,
+         'distinct_markets': len(markets), 'duplicate_consecutive_exchange_ts': duplicate,
+         'out_of_order': out_of_order, 'invalid_rows_after_timestamp_filter': invalid,
+         'unique_valid_observation_spread_probability_points': {
+             k: {'count': len(v), 'quantiles': quantiles(v)} for k, v in spreads.items()},
+         'source_latency_ms_quantiles': quantiles(latencies),
+         'same_exchange_ts_complement_pairs': pairs,
+         'pair_ask_sum_below_one': sum(x < 1 - 1e-9 for x in pair_ask_sums),
+         'pair_bid_sum_above_one': sum(x > 1 + 1e-9 for x in pair_bid_sums),
+         'pair_ask_sum_quantiles': quantiles(pair_ask_sums),
+         'pair_bid_sum_quantiles': quantiles(pair_bid_sums),
+         'limits': ['event-weighted, not time-weighted', 'same exchange timestamp is not simultaneous receipt',
+                    'no fills, queue position, fees, markout or attainable return inferred',
+                    'duplicate count tests consecutive timestamps per market-side only']}
+
+requests = []
+metadata = info({'type': 'outcomeMeta'}, 'outcome_meta')
+crypto = [o for o in metadata['outcomes'] if o.get('name') == 'template:binaryPrice'
+          and any(o.get('description', '').startswith('perp:' + c + '|')
+                  for c in ('BTC', 'ETH', 'SOL', 'HYPE'))]
+selected = []
+for coin in ('BTC', 'ETH', 'SOL', 'HYPE'):
+    options = [o for o in crypto if o['description'].startswith('perp:' + coin + '|')]
+    options.sort(key=lambda o: o['description'].split('time:')[-1])
+    if options:
+        selected.append(options[0])
+snapshots = []
+for outcome in selected:
+    for side in (0, 1):
+        coin = '#' + str(10 * outcome['outcome'] + side)
+        book = info({'type': 'l2Book', 'coin': coin}, f'book_{coin[1:]}')
+        snapshots.append({'definition': outcome, 'side': side, 'book': book})
+perp_meta, contexts = info({'type': 'metaAndAssetCtxs'}, 'perps_context')
+perps = [{'meta': m, 'context': contexts[i]} for i, m in enumerate(perp_meta['universe'])
+         if m['name'] in ('BTC', 'ETH', 'SOL', 'HYPE')]
+result = {'run_id': 'strategy-review-20260906', 'generated_at': datetime.now(timezone.utc).isoformat(),
+          'analysis_script_sha256': sha(Path(__file__)),
+          'code_version': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
+          'kind': 'descriptive_audit_no_strategy_backtest', 'settlements': settlements,
+          'books': books, 'public_api': {'endpoint': 'https://api.hyperliquid.xyz/info',
+          'requests': requests, 'outcome_meta_top_level': {k: v for k, v in metadata.items() if k not in ('outcomes', 'questions')},
+          'total_outcomes': len(metadata['outcomes']), 'binary_crypto_outcomes': crypto,
+          'selected_books': snapshots, 'perps': perps}}
+path = OUT / 'evidence.json'
+with path.open('x') as f:
+    json.dump(result, f, indent=2, ensure_ascii=False)
+    f.write('\n')
+(OUT / 'evidence.json.sha256').write_text(sha(path) + '  evidence.json\n')
+print(json.dumps({'settlements': settlements, 'books': books,
+                  'outcome_meta_top_level': result['public_api']['outcome_meta_top_level'],
+                  'binary_crypto_count': len(crypto), 'selected_books': [
+                      {'description': s['definition']['description'], 'side': s['side'],
+                       'time': s['book'].get('time'), 'bbo': [l[:1] for l in s['book'].get('levels', [])]}
+                      for s in snapshots], 'perps': perps}, indent=2))

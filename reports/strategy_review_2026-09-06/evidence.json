@@ -1,0 +1,580 @@
+{
+  "run_id": "strategy-review-20260906",
+  "generated_at": "2026-09-06T15:17:47.490575+00:00",
+  "analysis_script_sha256": "64f7d2ac55d07c6f00ba50df3d217f80b6dd7e9946a556057c48091f048e4465",
+  "code_version": "0bc2b560acda5d30bbf08e285d9a8d787a05e655",
+  "kind": "descriptive_audit_no_strategy_backtest",
+  "settlements": {
+    "source": "/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet_paper/settlements.csv",
+    "sha256": "b1e13ba3e1d4790d335e88528a3a2a923285972cb694fa672e3194c13cd3d760",
+    "tier": "B",
+    "execution": "legacy paper, not actual maker fills",
+    "first_ts": "2026-05-24T16:05:45.707728Z",
+    "last_ts": "2026-07-06T06:05:45.133147Z",
+    "distinct_dates": 39,
+    "distinct_markets": 93,
+    "results": {
+      "EARLY_EXIT": 38,
+      "YES": 32,
+      "NO": 29
+    },
+    "all": {
+      "count": 99,
+      "net_pnl_usd": 43.66203616,
+      "gross_wins_usd": 542.99587552,
+      "gross_losses_usd": 499.33383935999996,
+      "profit_factor": 1.0874405712538169
+    },
+    "by_underlying": {
+      "BTC": {
+        "count": 45,
+        "net_pnl_usd": -26.84020898,
+        "gross_wins_usd": 247.00056551999998,
+        "gross_losses_usd": 273.8407745,
+        "profit_factor": 0.901986075561585
+      },
+      "HYPE": {
+        "count": 18,
+        "net_pnl_usd": 5.9515351199999955,
+        "gross_wins_usd": 94.90247,
+        "gross_losses_usd": 88.95093488,
+        "profit_factor": 1.0669080671049602
+      },
+      "ETH": {
+        "count": 17,
+        "net_pnl_usd": -20.659868700000008,
+        "gross_wins_usd": 49.846819999999994,
+        "gross_losses_usd": 70.50668870000001,
+        "profit_factor": 0.7069800173440848
+      },
+      "SOL": {
+        "count": 19,
+        "net_pnl_usd": 85.21057872,
+        "gross_wins_usd": 151.24602000000002,
+        "gross_losses_usd": 66.03544128,
+        "profit_factor": 2.290376456465167
+      }
+    }
+  },
+  "books": {
+    "source": "/workspaces/trident/server-data/hip4/logs/hip4_nautilus_shadow/book_snapshots.jsonl",
+    "sha256": "e23544528c2e64b6c72ae42e93458e4ed6a002993aa4808e75ce933cb435d959",
+    "tier": "B",
+    "rows": 892492,
+    "first_exchange_ts": "2026-05-27T08:13:37.566000Z",
+    "last_exchange_ts": "2026-07-06T20:10:43.088000Z",
+    "distinct_markets": 115,
+    "duplicate_consecutive_exchange_ts": 2,
+    "out_of_order": 0,
+    "invalid_rows_after_timestamp_filter": 73522,
+    "unique_valid_observation_spread_probability_points": {
+      "BTC": {
+        "count": 337246,
+        "quantiles": {
+          "0.1": 0.0010000000000000009,
+          "0.5": 0.0040000000000000036,
+          "0.9": 0.009499999999999953,
+          "0.99": 0.019199999999999995
+        }
+      },
+      "HYPE": {
+        "count": 161430,
+        "quantiles": {
+          "0.1": 0.010800000000000032,
+          "0.5": 0.03950000000000001,
+          "0.9": 0.14,
+          "0.99": 0.38
+        }
+      },
+      "ETH": {
+        "count": 164638,
+        "quantiles": {
+          "0.1": 0.008699999999999986,
+          "0.5": 0.0353,
+          "0.9": 0.0746,
+          "0.99": 0.19160000000000002
+        }
+      },
+      "SOL": {
+        "count": 155654,
+        "quantiles": {
+          "0.1": 0.010000000000000009,
+          "0.5": 0.035599999999999965,
+          "0.9": 0.0675,
+          "0.99": 0.1521
+        }
+      }
+    },
+    "source_latency_ms_quantiles": {
+      "0.1": 387.435,
+      "0.5": 459.678,
+      "0.9": 595.29,
+      "0.99": 1062.814
+    },
+    "same_exchange_ts_complement_pairs": 409349,
+    "pair_ask_sum_below_one": 0,
+    "pair_bid_sum_above_one": 0,
+    "pair_ask_sum_quantiles": {
+      "0.1": 1.0019,
+      "0.5": 1.015,
+      "0.9": 1.0659,
+      "0.99": 1.2287
+    },
+    "pair_bid_sum_quantiles": {
+      "0.1": 0.9340999999999999,
+      "0.5": 0.985,
+      "0.9": 0.9981,
+      "0.99": 0.9997
+    },
+    "limits": [
+      "event-weighted, not time-weighted",
+      "same exchange timestamp is not simultaneous receipt",
+      "no fills, queue position, fees, markout or attainable return inferred",
+      "duplicate count tests consecutive timestamps per market-side only"
+    ]
+  },
+  "public_api": {
+    "endpoint": "https://api.hyperliquid.xyz/info",
+    "requests": [
+      {
+        "request": {
+          "type": "outcomeMeta"
+        },
+        "started_at": "2026-09-06T15:17:45.691285+00:00",
+        "received_at": "2026-09-06T15:17:46.210351+00:00",
+        "raw_path": "/workspaces/hyperbot/tmp/strategy_review_public_2026-09-06/outcome_meta.json",
+        "sha256": "ba28438fb1cd67f4e5ca80dbf4a0aac7b84e7d8b79adf8cb567e113cf9687445"
+      },
+      {
+        "request": {
+          "type": "l2Book",
+          "coin": "#17890"
+        },
+        "started_at": "2026-09-06T15:17:46.253887+00:00",
+        "received_at": "2026-09-06T15:17:46.515815+00:00",
+        "raw_path": "/workspaces/hyperbot/tmp/strategy_review_public_2026-09-06/book_17890.json",
+        "sha256": "14429b9ef9349d68d3c615c1fc02e45abea02e748c7b0064ea08d598d643a901"
+      },
+      {
+        "request": {
+          "type": "l2Book",
+          "coin": "#17891"
+        },
+        "started_at": "2026-09-06T15:17:46.515940+00:00",
+        "received_at": "2026-09-06T15:17:46.773621+00:00",
+        "raw_path": "/workspaces/hyperbot/tmp/strategy_review_public_2026-09-06/book_17891.json",
+        "sha256": "aeaaaee838fd6cdb83f871bc5a7f8be383d49fa01d2a2a990df70d9688cd37ce"
+      },
+      {
+        "request": {
+          "type": "metaAndAssetCtxs"
+        },
+        "started_at": "2026-09-06T15:17:46.773822+00:00",
+        "received_at": "2026-09-06T15:17:47.489086+00:00",
+        "raw_path": "/workspaces/hyperbot/tmp/strategy_review_public_2026-09-06/perps_context.json",
+        "sha256": "15489ad71b4c99dcef5dbc811ecb548ed38944c6d2ca7180eeb09aa5123a7656"
+      }
+    ],
+    "outcome_meta_top_level": {
+      "deployers": [
+        {
+          "deployer": "0x08e9c89f46dccee91bdb85c6532eb93a4c335efe",
+          "venue": "skew",
+          "subDeployers": [
+            [
+              "registerAndAssociateNamedOutcomeFromTemplate",
+              [
+                "0x1c867861e0cffb0eba07d9d94f716189c130dac6"
+              ]
+            ],
+            [
+              "registerQuestionFromTemplate",
+              [
+                "0x1c867861e0cffb0eba07d9d94f716189c130dac6"
+              ]
+            ],
+            [
+              "registerStandaloneOutcomeFromTemplate",
+              [
+                "0x1c867861e0cffb0eba07d9d94f716189c130dac6"
+              ]
+            ],
+            [
+              "settleOutcome",
+              [
+                "0x1c867861e0cffb0eba07d9d94f716189c130dac6"
+              ]
+            ],
+            [
+              "settleQuestion",
+              [
+                "0x1c867861e0cffb0eba07d9d94f716189c130dac6"
+              ]
+            ]
+          ]
+        },
+        {
+          "deployer": "0x0c46eb73fae2816f219fcf11f50d6d3c59b5819e",
+          "venue": "out",
+          "subDeployers": [
+            [
+              "registerAndAssociateNamedOutcomeFromTemplate",
+              [
+                "0x6947a610ef50f8b5d4b59abcd94dd75aaaa645b9",
+                "0xf1923927d7d2847191fb7ef8b1a16028aa5ae754"
+              ]
+            ],
+            [
+              "registerQuestionFromTemplate",
+              [
+                "0x6947a610ef50f8b5d4b59abcd94dd75aaaa645b9",
+                "0xf1923927d7d2847191fb7ef8b1a16028aa5ae754"
+              ]
+            ],
+            [
+              "registerStandaloneOutcomeFromTemplate",
+              [
+                "0x6947a610ef50f8b5d4b59abcd94dd75aaaa645b9",
+                "0xf1923927d7d2847191fb7ef8b1a16028aa5ae754"
+              ]
+            ],
+            [
+              "settleOutcome",
+              [
+                "0x6947a610ef50f8b5d4b59abcd94dd75aaaa645b9",
+                "0xf1923927d7d2847191fb7ef8b1a16028aa5ae754"
+              ]
+            ],
+            [
+              "settleQuestion",
+              [
+                "0x6947a610ef50f8b5d4b59abcd94dd75aaaa645b9",
+                "0xf1923927d7d2847191fb7ef8b1a16028aa5ae754"
+              ]
+            ]
+          ]
+        },
+        {
+          "deployer": "0x7aca09667816a4817b8bc697fb239ad42ff9f553",
+          "venue": "txyz",
+          "subDeployers": [
+            [
+              "registerAndAssociateNamedOutcomeFromTemplate",
+              [
+                "0x8ef95fa212d22448c9c7eafa277b4c8bbf3f9d57"
+              ]
+            ],
+            [
+              "registerQuestionFromTemplate",
+              [
+                "0x8ef95fa212d22448c9c7eafa277b4c8bbf3f9d57"
+              ]
+            ],
+            [
+              "registerStandaloneOutcomeFromTemplate",
+              [
+                "0x8ef95fa212d22448c9c7eafa277b4c8bbf3f9d57"
+              ]
+            ],
+            [
+              "settleOutcome",
+              [
+                "0x8ef95fa212d22448c9c7eafa277b4c8bbf3f9d57"
+              ]
+            ],
+            [
+              "settleQuestion",
+              [
+                "0x8ef95fa212d22448c9c7eafa277b4c8bbf3f9d57"
+              ]
+            ]
+          ]
+        }
+      ],
+      "feeScale": "1.0"
+    },
+    "total_outcomes": 145,
+    "binary_crypto_outcomes": [
+      {
+        "outcome": 1210,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:BTC-USDC mark|seconds:1|threshold:100000|time:20261001-0000",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "out",
+        "deployerFeeScale": "1.0"
+      },
+      {
+        "outcome": 1741,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79700|time:20260906-1630",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "skew",
+        "deployerFeeScale": "1.0"
+      },
+      {
+        "outcome": 1742,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79950|time:20260906-1630",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "skew",
+        "deployerFeeScale": "1.0"
+      },
+      {
+        "outcome": 1743,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:80200|time:20260906-1630",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "skew",
+        "deployerFeeScale": "1.0"
+      },
+      {
+        "outcome": 1788,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:the Hyperliquid BTC perp trade|seconds:90|threshold:79528|time:20260906-1600",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "skew",
+        "deployerFeeScale": "1.0"
+      },
+      {
+        "outcome": 1789,
+        "name": "template:binaryPrice",
+        "description": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79513|time:20260906-1530",
+        "sideSpecs": [
+          {
+            "name": "template:Yes"
+          },
+          {
+            "name": "template:No"
+          }
+        ],
+        "quoteToken": "USDC",
+        "venue": "out",
+        "deployerFeeScale": "1.0"
+      }
+    ],
+    "selected_books": [
+      {
+        "definition": {
+          "outcome": 1789,
+          "name": "template:binaryPrice",
+          "description": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79513|time:20260906-1530",
+          "sideSpecs": [
+            {
+              "name": "template:Yes"
+            },
+            {
+              "name": "template:No"
+            }
+          ],
+          "quoteToken": "USDC",
+          "venue": "out",
+          "deployerFeeScale": "1.0"
+        },
+        "side": 0,
+        "book": {
+          "coin": "#17890",
+          "time": 1788707866154,
+          "levels": [
+            [
+              {
+                "px": "0.70666",
+                "sz": "26.0",
+                "n": 1
+              },
+              {
+                "px": "0.2",
+                "sz": "11.0",
+                "n": 1
+              }
+            ],
+            [
+              {
+                "px": "0.73067",
+                "sz": "45.0",
+                "n": 1
+              }
+            ]
+          ]
+        }
+      },
+      {
+        "definition": {
+          "outcome": 1789,
+          "name": "template:binaryPrice",
+          "description": "perp:BTC|priceDescription:BTC-USDC perp mark|seconds:60|threshold:79513|time:20260906-1530",
+          "sideSpecs": [
+            {
+              "name": "template:Yes"
+            },
+            {
+              "name": "template:No"
+            }
+          ],
+          "quoteToken": "USDC",
+          "venue": "out",
+          "deployerFeeScale": "1.0"
+        },
+        "side": 1,
+        "book": {
+          "coin": "#17891",
+          "time": 1788707866154,
+          "levels": [
+            [
+              {
+                "px": "0.26933",
+                "sz": "45.0",
+                "n": 1
+              }
+            ],
+            [
+              {
+                "px": "0.29334",
+                "sz": "26.0",
+                "n": 1
+              },
+              {
+                "px": "0.8",
+                "sz": "11.0",
+                "n": 1
+              }
+            ]
+          ]
+        }
+      }
+    ],
+    "perps": [
+      {
+        "meta": {
+          "szDecimals": 5,
+          "name": "BTC",
+          "maxLeverage": 40,
+          "marginTableId": 56
+        },
+        "context": {
+          "funding": "0.0000125",
+          "openInterest": "34768.08024",
+          "prevDayPx": "79691.0",
+          "dayNtlVlm": "982950882.5449295044",
+          "premium": "-0.0002914566",
+          "oraclePx": "79600.2",
+          "markPx": "79571.0",
+          "midPx": "79576.5",
+          "impactPxs": [
+            "79576.0",
+            "79577.0"
+          ],
+          "dayBaseVlm": "12309.27593"
+        }
+      },
+      {
+        "meta": {
+          "szDecimals": 4,
+          "name": "ETH",
+          "maxLeverage": 25,
+          "marginTableId": 55
+        },
+        "context": {
+          "funding": "0.0000125",
+          "openInterest": "915585.3115999995",
+          "prevDayPx": "2458.3",
+          "dayNtlVlm": "650687140.3202284575",
+          "premium": "-0.0001008614",
+          "oraclePx": "2478.65",
+          "markPx": "2478.4",
+          "midPx": "2478.35",
+          "impactPxs": [
+            "2478.3",
+            "2478.4"
+          ],
+          "dayBaseVlm": "261190.7615000003"
+        }
+      },
+      {
+        "meta": {
+          "szDecimals": 2,
+          "name": "SOL",
+          "maxLeverage": 20,
+          "marginTableId": 54
+        },
+        "context": {
+          "funding": "0.0000125",
+          "openInterest": "5807146.6199999982",
+          "prevDayPx": "102.81",
+          "dayNtlVlm": "196991601.2010000348",
+          "premium": "-0.0002366192",
+          "oraclePx": "105.655",
+          "markPx": "105.63",
+          "midPx": "105.625",
+          "impactPxs": [
+            "105.62",
+            "105.63"
+          ],
+          "dayBaseVlm": "1874586.9700000014"
+        }
+      },
+      {
+        "meta": {
+          "szDecimals": 2,
+          "name": "HYPE",
+          "maxLeverage": 10,
+          "marginTableId": 52
+        },
+        "context": {
+          "funding": "0.0000125",
+          "openInterest": "23968905.0799999982",
+          "prevDayPx": "85.258",
+          "dayNtlVlm": "374757460.6951697469",
+          "premium": "0.000614307",
+          "oraclePx": "89.369",
+          "markPx": "89.37",
+          "midPx": "89.426",
+          "impactPxs": [
+            "89.4239",
+            "89.4285"
+          ],
+          "dayBaseVlm": "4298358.7799999993"
+        }
+      }
+    ]
+  }
+}

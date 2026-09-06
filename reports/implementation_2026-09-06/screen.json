@@ -1,0 +1,111 @@
+{
+  "adapter": "LegacyHip4Adapter@1.0.1",
+  "by_underlying": {
+    "BTC": {
+      "ask_to_mid_30s_sum": "28.88830",
+      "bid_to_mid_30s_sum": "28.79900",
+      "bounded_covered_ms": 6290743967,
+      "clock_ambiguous": 0,
+      "fresh_at_receipt_500ms": 250450,
+      "gaps": 3790,
+      "markout_30s_count": 12801,
+      "min_order_depth_both_sides": 278004,
+      "observations": 337246,
+      "observed_elapsed_ms": 6465230748,
+      "spread_median_1e5_bin": "0.004"
+    },
+    "ETH": {
+      "ask_to_mid_30s_sum": "0.42010",
+      "bid_to_mid_30s_sum": "0.42010",
+      "bounded_covered_ms": 3708221732,
+      "clock_ambiguous": 0,
+      "fresh_at_receipt_500ms": 111011,
+      "gaps": 258,
+      "markout_30s_count": 20,
+      "min_order_depth_both_sides": 147947,
+      "observations": 164638,
+      "observed_elapsed_ms": 3750677163,
+      "spread_median_1e5_bin": "0.0353"
+    },
+    "HYPE": {
+      "ask_to_mid_30s_sum": "0.14640",
+      "bid_to_mid_30s_sum": "0.14640",
+      "bounded_covered_ms": 3635217786,
+      "clock_ambiguous": 0,
+      "fresh_at_receipt_500ms": 108129,
+      "gaps": 150,
+      "markout_30s_count": 14,
+      "min_order_depth_both_sides": 132331,
+      "observations": 161430,
+      "observed_elapsed_ms": 3733794314,
+      "spread_median_1e5_bin": "0.0395"
+    },
+    "SOL": {
+      "ask_to_mid_30s_sum": "0.35940",
+      "bid_to_mid_30s_sum": "0.35940",
+      "bounded_covered_ms": 3507551248,
+      "clock_ambiguous": 0,
+      "fresh_at_receipt_500ms": 104479,
+      "gaps": 408,
+      "markout_30s_count": 16,
+      "min_order_depth_both_sides": 139155,
+      "observations": 155654,
+      "observed_elapsed_ms": 3668337578,
+      "spread_median_1e5_bin": "0.0356"
+    }
+  },
+  "candidate_pnl_usd": null,
+  "code_version": "source-sha256:ad52f3c1a75e2c66f6e9f37a907da635026b72ded1bf6ca170e4fe45d47d7acd",
+  "config_sha256": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+  "counts": {
+    "duplicate_or_out_of_order": 2,
+    "invalid_book": 73522,
+    "missing_markout_30s": 805649,
+    "raw_records": 892492,
+    "unresolved_markout_tail": 468,
+    "valid_records": 818968
+  },
+  "first_exchange_ms": 1779869617566,
+  "interpretation": "spread and unconditional quote-to-mid markouts; no fills",
+  "last_exchange_ms": 1783368643088,
+  "legacy_paper": {
+    "by_underlying": {
+      "BTC": "-26.84020898",
+      "ETH": "-20.65986870",
+      "HYPE": "5.95153512",
+      "SOL": "85.21057872"
+    },
+    "closure_types": {
+      "EARLY_EXIT": 38,
+      "NO": 29,
+      "YES": 32
+    },
+    "distinct_markets": 93,
+    "mode": "legacy_paper",
+    "net_pnl_usd": "43.66203616",
+    "profit_factor": "1.087440571253816816425745875",
+    "sha256": "b1e13ba3e1d4790d335e88528a3a2a923285972cb694fa672e3194c13cd3d760",
+    "source_path": "/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet_paper/settlements.csv",
+    "tier": "B"
+  },
+  "limits": [
+    "event weighted; YES/NO representations are not independent liquidity",
+    "coverage summed by market-side; no portfolio uptime qualification",
+    "30s markouts use first future event within 30-35s; missing labels retained",
+    "tick-binned median, not a return",
+    "B data cannot qualify execution"
+  ],
+  "missing_for_candidate": [
+    "qualified historical outcome specifications and effective fees",
+    "causal reference, volatility and calibration joined to each decision",
+    "tier A qualified merged queue for central/pessimistic fills"
+  ],
+  "promotion_authorized": false,
+  "run_id": "hb2-screen-1788710906583017183",
+  "schema": "hip4_nautilus_book_snapshots",
+  "source_complete_scan": true,
+  "source_path": "/workspaces/trident/server-data/hip4/logs/hip4_nautilus_shadow/book_snapshots.jsonl",
+  "source_sha256": "e23544528c2e64b6c72ae42e93458e4ed6a002993aa4808e75ce933cb435d959",
+  "tier": "B",
+  "verdict": "DATA_BLOCKED"
+}

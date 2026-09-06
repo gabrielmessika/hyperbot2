@@ -1,0 +1,164 @@
+{
+  "kind": "hyperbot2_strategy_replay_input",
+  "schema_version": 1,
+  "decision_config_sha256": "658ad5c7212009148f7f559ba08f47be1ca49be2f557c495a9ba1e3c270783e7",
+  "strategy": {
+    "kind": "growth",
+    "parameters": {
+      "order_notional_usd": "10",
+      "minimum_half_spread_bps": "4",
+      "adverse_selection_bps": "2",
+      "inventory_skew_bps_per_unit": "0.5",
+      "maximum_oracle_deviation_bps": "10",
+      "stale_after_ms": 500,
+      "ttl_ms": 1000
+    }
+  },
+  "risk_limits": {
+    "reference_equity_usd": "1000",
+    "daily_loss_stop_pct": "1.5",
+    "soft_drawdown_pct": "8",
+    "hard_drawdown_pct": "12",
+    "unknown_loss_stop_usd": "5",
+    "stale_book_ms": 500,
+    "outcome_order_notional_usd": "10",
+    "max_outcome_inventory_per_market_usd": "50",
+    "max_outcome_settlement_loss_per_market_usd": "25",
+    "max_correlated_settlement_loss_usd": "30",
+    "max_total_settlement_loss_usd": "50",
+    "max_outcome_markets": 4,
+    "growth_min_order_usd": "10",
+    "growth_max_order_usd": "20",
+    "max_growth_inventory_per_symbol_usd": "50",
+    "max_growth_gross_inventory_usd": "150",
+    "max_growth_net_delta_usd": "75"
+  },
+  "config": {
+    "run_id": "strategy-replay-fixture",
+    "code_version": "test-fixture",
+    "model": "central",
+    "dataset_tiers": [
+      "A"
+    ],
+    "placement_latency_ms": 0,
+    "cancel_latency_ms": 0,
+    "central_queue_fraction": "0.5",
+    "markout_tolerance_ms": 250
+  },
+  "events": [
+    {
+      "type": "book",
+      "market": "cash:TEST",
+      "timestamp_ms": 0,
+      "source_sequence": 0,
+      "receive_ts_ms": 100,
+      "bids": [
+        {
+          "price": "100",
+          "size": "0.1",
+          "order_count": 1
+        }
+      ],
+      "asks": [
+        {
+          "price": "101",
+          "size": "0.1",
+          "order_count": 1
+        }
+      ]
+    },
+    {
+      "type": "trade",
+      "market": "cash:TEST",
+      "timestamp_ms": 200,
+      "source_sequence": 1,
+      "receive_ts_ms": 210,
+      "aggressor_side": "sell",
+      "price": "100",
+      "size": "0.2"
+    },
+    {
+      "type": "trade",
+      "market": "cash:TEST",
+      "timestamp_ms": 300,
+      "source_sequence": 2,
+      "receive_ts_ms": 310,
+      "aggressor_side": "buy",
+      "price": "101",
+      "size": "0.2"
+    },
+    {
+      "type": "mark",
+      "market": "cash:TEST",
+      "timestamp_ms": 30200,
+      "source_sequence": 3,
+      "receive_ts_ms": 30210,
+      "bid": "101",
+      "ask": "102"
+    },
+    {
+      "type": "mark",
+      "market": "cash:TEST",
+      "timestamp_ms": 30300,
+      "source_sequence": 4,
+      "receive_ts_ms": 30310,
+      "bid": "101",
+      "ask": "102"
+    }
+  ],
+  "cycles": [
+    {
+      "state": {
+        "context": {
+          "run_id": "strategy-replay-fixture",
+          "code_version": "test-fixture",
+          "config_hash": "658ad5c7212009148f7f559ba08f47be1ca49be2f557c495a9ba1e3c270783e7",
+          "time_source": "replay"
+        },
+        "market": "cash:TEST",
+        "observed_ts_ms": 100,
+        "now_ts_ms": 100,
+        "best_bid": "100",
+        "best_ask": "101",
+        "bid_size": "0.1",
+        "ask_size": "0.1",
+        "oracle_px": "100.5",
+        "mark_px": "100.5",
+        "microprice": "100.5",
+        "tick_size": "0.01",
+        "size_increment": "0.001",
+        "maker_fee_bps": "1.5",
+        "inventory_units": "0",
+        "data_healthy": true,
+        "expiry_ts_ms": null
+      },
+      "metadata": {
+        "strategy_kind": "growth",
+        "dex": "cash",
+        "data_age_ms": 0,
+        "order_type": "ALO",
+        "intent_definition_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "current_definition_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "tick_size": "0.01",
+        "outcome_market_id": null,
+        "outcome_token_side": null,
+        "correlation_group": null
+      },
+      "portfolio": {
+        "observed_at_ms": 100,
+        "equity_usd": "1000",
+        "peak_equity_usd": "1000",
+        "daily_pnl_usd": "0",
+        "unknown_loss_usd": "0",
+        "heartbeat_healthy": true,
+        "orphan_order_count": 0,
+        "reconciliation_attempted": true,
+        "local_positions": [],
+        "exchange_positions": [],
+        "outcome_exposures": [],
+        "growth_inventory_usd": [],
+        "growth_active_dexes": []
+      }
+    }
+  ]
+}

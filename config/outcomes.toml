@@ -1,0 +1,14 @@
+[outcomes]
+live_enabled = false
+shadow_only = true
+public_data_only = true
+equity_usd = "1000"
+order_usd = "10"
+additional_margin = "0"
+placement_ms = 350
+cancel_ms = 350
+clock_uncertainty_ms = 50
+stale_ms = 500
+ttl_ms = 1000
+no_entry_before_expiry_ms = 1800000
+monthly_infrastructure_usd = "20"

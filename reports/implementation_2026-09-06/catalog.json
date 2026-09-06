@@ -1,0 +1,101 @@
+{
+  "attestations_sha256": null,
+  "code_version": "source-sha256:2d54a86506de1eddad683f77979a7862f9feee3ed98313303159b2ce02e5976c",
+  "config_sha256": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+  "definitions": [
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1715,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "79963",
+      "tick": null,
+      "underlying": "BTC"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1716,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "2513",
+      "tick": null,
+      "underlying": "ETH"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1717,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "106.41",
+      "tick": null,
+      "underlying": "SOL"
+    },
+    {
+      "active": false,
+      "deployer_fee_scale": null,
+      "expiry_ms": 1788760800000,
+      "fee_scale": "1.0",
+      "fees": null,
+      "observed_ms": 1788710908498,
+      "outcome_id": 1718,
+      "settlement_rule": null,
+      "size_increment": null,
+      "specification_sha256": null,
+      "strike": "86.762",
+      "tick": null,
+      "underlying": "HYPE"
+    }
+  ],
+  "input_sha256": "c33ef707899cba55017be51d6c071d92d02c4d613951a13f438318411bba5c2e",
+  "issues": [],
+  "qualification": {
+    "outcome:1715": [
+      "market_status_unqualified",
+      "tick_or_lot_unknown",
+      "settlement_rule_unqualified",
+      "specification_provenance_missing",
+      "fees_unknown_or_expired"
+    ],
+    "outcome:1716": [
+      "market_status_unqualified",
+      "tick_or_lot_unknown",
+      "settlement_rule_unqualified",
+      "specification_provenance_missing",
+      "fees_unknown_or_expired"
+    ],
+    "outcome:1717": [
+      "market_status_unqualified",
+      "tick_or_lot_unknown",
+      "settlement_rule_unqualified",
+      "specification_provenance_missing",
+      "fees_unknown_or_expired"
+    ],
+    "outcome:1718": [
+      "market_status_unqualified",
+      "tick_or_lot_unknown",
+      "settlement_rule_unqualified",
+      "specification_provenance_missing",
+      "fees_unknown_or_expired"
+    ]
+  },
+  "run_id": "hb2-catalog-1788711150016141169",
+  "verdict": "DATA_BLOCKED"
+}

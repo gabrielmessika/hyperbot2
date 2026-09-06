@@ -1,0 +1,27 @@
+{
+  "cpu_seconds": 26.366126047,
+  "limits": {
+    "additional_margin": "0",
+    "cancel_ms": 350,
+    "clock_uncertainty_ms": 50,
+    "equity_usd": "1000",
+    "inventory_charge": "0.001",
+    "live_enabled": false,
+    "max_cpu_seconds": 86400,
+    "max_memory_bytes": 4294967296,
+    "max_output_bytes": 10737418240,
+    "max_wall_seconds": 86400,
+    "maximum_probability": "0.85",
+    "minimum_probability": "0.15",
+    "monthly_infrastructure_usd": "20",
+    "no_entry_before_expiry_ms": 1800000,
+    "order_usd": "10",
+    "placement_ms": 350,
+    "public_data_only": true,
+    "shadow_only": true,
+    "stale_ms": 500,
+    "ttl_ms": 1000
+  },
+  "peak_rss_bytes": 30560256,
+  "wall_seconds": 26.35395153700665
+}

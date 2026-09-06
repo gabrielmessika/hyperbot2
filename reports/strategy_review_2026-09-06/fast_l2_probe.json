@@ -1,0 +1,745 @@
+{
+  "started_at": "2026-09-06T15:18:31.317687+00:00",
+  "finished_at": "2026-09-06T15:19:12.303009+00:00",
+  "duration_seconds_per_connection": 40,
+  "location": "local workspace",
+  "clock_offset_independently_calibrated": false,
+  "script_sha256": "3b746ab492559bdd7eb9455754d0b223d64f244eabd814617bfeac8d0eb86d0d",
+  "results": [
+    {
+      "subscription": {
+        "type": "l2Book",
+        "coin": "BTC",
+        "fast": false
+      },
+      "records": [
+        {
+          "received_ms": 1788707912060,
+          "exchange_ms": 1788707911483,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707916723,
+          "exchange_ms": 1788707916370,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707922115,
+          "exchange_ms": 1788707921759,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707927488,
+          "exchange_ms": 1788707927187,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707932929,
+          "exchange_ms": 1788707932514,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707938233,
+          "exchange_ms": 1788707937939,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707943680,
+          "exchange_ms": 1788707943378,
+          "level_counts": [
+            20,
+            20
+          ]
+        },
+        {
+          "received_ms": 1788707949075,
+          "exchange_ms": 1788707948776,
+          "level_counts": [
+            20,
+            20
+          ]
+        }
+      ],
+      "other_messages": [
+        {
+          "channel": "subscriptionResponse",
+          "data": {
+            "method": "subscribe",
+            "subscription": {
+              "type": "l2Book",
+              "coin": "BTC",
+              "nSigFigs": null,
+              "mantissa": null,
+              "fast": false
+            }
+          }
+        }
+      ],
+      "summary": {
+        "count": 8,
+        "distinct_exchange_ts": 8,
+        "median_receive_interval_ms": 5392,
+        "p99_receive_interval_ms": 5441,
+        "median_apparent_age_ms": 302,
+        "p99_apparent_age_ms": 415,
+        "age_le_500ms_count": 7,
+        "level_counts": [
+          [
+            20,
+            20
+          ]
+        ]
+      }
+    },
+    {
+      "subscription": {
+        "type": "l2Book",
+        "coin": "BTC",
+        "fast": true
+      },
+      "records": [
+        {
+          "received_ms": 1788707912058,
+          "exchange_ms": 1788707911483,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707912219,
+          "exchange_ms": 1788707912018,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707912780,
+          "exchange_ms": 1788707912528,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707913365,
+          "exchange_ms": 1788707913090,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707914018,
+          "exchange_ms": 1788707913693,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707914487,
+          "exchange_ms": 1788707914227,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707914984,
+          "exchange_ms": 1788707914752,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707915530,
+          "exchange_ms": 1788707915299,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707916058,
+          "exchange_ms": 1788707915836,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707916757,
+          "exchange_ms": 1788707916370,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707917159,
+          "exchange_ms": 1788707916930,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707917720,
+          "exchange_ms": 1788707917447,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707918205,
+          "exchange_ms": 1788707917989,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707918775,
+          "exchange_ms": 1788707918542,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707919319,
+          "exchange_ms": 1788707919091,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707919862,
+          "exchange_ms": 1788707919609,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707920401,
+          "exchange_ms": 1788707920144,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707920925,
+          "exchange_ms": 1788707920684,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707921858,
+          "exchange_ms": 1788707921230,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707922141,
+          "exchange_ms": 1788707921759,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707922541,
+          "exchange_ms": 1788707922308,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707923142,
+          "exchange_ms": 1788707922871,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707923653,
+          "exchange_ms": 1788707923420,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707924189,
+          "exchange_ms": 1788707923956,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707924737,
+          "exchange_ms": 1788707924467,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707925371,
+          "exchange_ms": 1788707925107,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707925790,
+          "exchange_ms": 1788707925569,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707926354,
+          "exchange_ms": 1788707926107,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707926913,
+          "exchange_ms": 1788707926634,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707927469,
+          "exchange_ms": 1788707927187,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707928003,
+          "exchange_ms": 1788707927741,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707928547,
+          "exchange_ms": 1788707928277,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707929068,
+          "exchange_ms": 1788707928795,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707929602,
+          "exchange_ms": 1788707929321,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707930136,
+          "exchange_ms": 1788707929868,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707930696,
+          "exchange_ms": 1788707930426,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707931222,
+          "exchange_ms": 1788707930940,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707931895,
+          "exchange_ms": 1788707931477,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707932347,
+          "exchange_ms": 1788707932014,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707932934,
+          "exchange_ms": 1788707932514,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707933419,
+          "exchange_ms": 1788707933066,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707933875,
+          "exchange_ms": 1788707933609,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707934427,
+          "exchange_ms": 1788707934142,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707934958,
+          "exchange_ms": 1788707934676,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707935481,
+          "exchange_ms": 1788707935198,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707936082,
+          "exchange_ms": 1788707935774,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707936858,
+          "exchange_ms": 1788707936304,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707937134,
+          "exchange_ms": 1788707936841,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707937667,
+          "exchange_ms": 1788707937411,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707938206,
+          "exchange_ms": 1788707937939,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707938763,
+          "exchange_ms": 1788707938492,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707939312,
+          "exchange_ms": 1788707939023,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707939797,
+          "exchange_ms": 1788707939566,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707940375,
+          "exchange_ms": 1788707940103,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707940909,
+          "exchange_ms": 1788707940653,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707941483,
+          "exchange_ms": 1788707941206,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707942112,
+          "exchange_ms": 1788707941758,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707942536,
+          "exchange_ms": 1788707942295,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707943076,
+          "exchange_ms": 1788707942839,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707943648,
+          "exchange_ms": 1788707943378,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707944168,
+          "exchange_ms": 1788707943916,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707944706,
+          "exchange_ms": 1788707944448,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707945304,
+          "exchange_ms": 1788707945061,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707945818,
+          "exchange_ms": 1788707945545,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707946352,
+          "exchange_ms": 1788707946062,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707946960,
+          "exchange_ms": 1788707946616,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707947476,
+          "exchange_ms": 1788707947167,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707947945,
+          "exchange_ms": 1788707947687,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707948482,
+          "exchange_ms": 1788707948238,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707949075,
+          "exchange_ms": 1788707948776,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707949588,
+          "exchange_ms": 1788707949312,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707950110,
+          "exchange_ms": 1788707949847,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707950634,
+          "exchange_ms": 1788707950385,
+          "level_counts": [
+            5,
+            5
+          ]
+        },
+        {
+          "received_ms": 1788707951165,
+          "exchange_ms": 1788707950910,
+          "level_counts": [
+            5,
+            5
+          ]
+        }
+      ],
+      "other_messages": [
+        {
+          "channel": "subscriptionResponse",
+          "data": {
+            "method": "subscribe",
+            "subscription": {
+              "type": "l2Book",
+              "coin": "BTC",
+              "nSigFigs": null,
+              "mantissa": null,
+              "fast": true
+            }
+          }
+        }
+      ],
+      "summary": {
+        "count": 74,
+        "distinct_exchange_ts": 74,
+        "median_receive_interval_ms": 537,
+        "p99_receive_interval_ms": 776,
+        "median_apparent_age_ms": 270,
+        "p99_apparent_age_ms": 575,
+        "age_le_500ms_count": 71,
+        "level_counts": [
+          [
+            5,
+            5
+          ]
+        ]
+      }
+    }
+  ],
+  "limitations": "No execution latency, sustained coverage or queue readiness measured."
+}

@@ -1,0 +1,95 @@
+{
+  "counts": {
+    "books": 591,
+    "distinct_exchange_updates": 590,
+    "fast_confirmed_in_payload": 591,
+    "fresh_at_activation_base": 0,
+    "fresh_at_activation_latency_x2": 0,
+    "fresh_at_receipt": 560,
+    "negative_age": 0
+  },
+  "interpretation": "event-weighted receipt observations; no time-coverage gate",
+  "levels_per_side": {
+    "2": 20,
+    "3": 131,
+    "4": 150,
+    "5": 881
+  },
+  "per_coin": {
+    "#17150": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17151": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17160": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17161": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17170": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17171": {
+      "books": 74,
+      "distinct_exchange_updates": 74,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17180": {
+      "books": 74,
+      "distinct_exchange_updates": 73,
+      "fast_confirmed_in_payload": 74,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    },
+    "#17181": {
+      "books": 73,
+      "distinct_exchange_updates": 73,
+      "fast_confirmed_in_payload": 73,
+      "fresh_at_activation_base": 0,
+      "fresh_at_activation_latency_x2": 0,
+      "fresh_at_receipt": 70,
+      "negative_age": 0
+    }
+  },
+  "queue_qualified": false,
+  "raw_bytes": 858271,
+  "raw_sha256": "91a5799b33d3498b41221427cf655c78ff0fd0e020e1c15c8f69375bd1003a07"
+}
