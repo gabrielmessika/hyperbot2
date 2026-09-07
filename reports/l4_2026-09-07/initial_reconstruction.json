@@ -1,0 +1,106 @@
+{
+  "end_ms": 1788710410000,
+  "outcome_id": 1715,
+  "promotion_authorized": false,
+  "reconstructor_sha256": "eb37a9f32648db58cf4d1e2467a4b7dd533817cf9e05d94dd8c9beaf9de5badf",
+  "requests": [
+    {
+      "bytes": 145253,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-00.json",
+      "received_ms": 1788766432285,
+      "sent_ms": 1788766431506,
+      "sha256": "cfa4dc7d4e29488ffff9b579e4a5c108e217cba5c9d63484cfca461b2c4a63bc",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317150/l4?timestamp=1788710400000"
+    },
+    {
+      "bytes": 145253,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-01.json",
+      "received_ms": 1788766432896,
+      "sent_ms": 1788766432288,
+      "sha256": "d2d16a040bf67d5051331ef340d24d4a8369b91693c44088b3aa11a2fac05f02",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317150/l4?timestamp=1788710410000"
+    },
+    {
+      "bytes": 1500,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-02.json",
+      "received_ms": 1788766433209,
+      "sent_ms": 1788766432902,
+      "sha256": "88ab2f64ef3da5d0eab6f780d955adc1cd73ea0ed028920d2fe6565c1695dc89",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317150/l4/diffs?start=1788710400000&end=1788710410000&limit=1000"
+    },
+    {
+      "bytes": 146871,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-03.json",
+      "received_ms": 1788766433827,
+      "sent_ms": 1788766433213,
+      "sha256": "9bdfe58a274137202ccf1f9792ff784c11ea51bb2c502b1a7d25c48f091a4ca9",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317151/l4?timestamp=1788710400000"
+    },
+    {
+      "bytes": 146725,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-04.json",
+      "received_ms": 1788766434435,
+      "sent_ms": 1788766433829,
+      "sha256": "1e712ea8f3f37d4cd730d5ae62399d9b0c8308d7c81c8f4c108736351df61347",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317151/l4?timestamp=1788710410000"
+    },
+    {
+      "bytes": 9000,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/l4_2026-09-07/initial/response-05.json",
+      "received_ms": 1788766434747,
+      "sent_ms": 1788766434439,
+      "sha256": "0617d6cc8cb8e22fd1ab80f293323290e66999ed5ee8113fa8228bcb3e527e29",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317151/l4/diffs?start=1788710400000&end=1788710410000&limit=1000"
+    }
+  ],
+  "response_bytes": 594602,
+  "results": [
+    {
+      "applied_events": 6,
+      "checkpoint_matched": true,
+      "coin": "#17150",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841997,
+      "initial_orders": 992,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842246,
+      "target_orders": 992
+    },
+    {
+      "applied_events": 38,
+      "checkpoint_matched": true,
+      "coin": "#17151",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841848,
+      "initial_orders": 1003,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842306,
+      "target_orders": 1002
+    }
+  ],
+  "script_sha256": "010d93576e82f4f0b99ebbf2b2cf9859ac3d7aaac95ebd60b5903fa012eee904",
+  "start_ms": 1788710400000,
+  "verdict": "CHECKPOINTS_MATCHED_RESEARCH_ONLY"
+}

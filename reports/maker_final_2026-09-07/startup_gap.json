@@ -1,0 +1,56 @@
+[
+  {
+    "coin": "#18960",
+    "first_ws_diff_block": 1138656181,
+    "rest_events": [
+      {
+        "block_number": 1138656180,
+        "diff_type": "new",
+        "new_size": 554.0,
+        "oid": 538247637125,
+        "price": 0.39174,
+        "seq": 767,
+        "timestamp": "2026-09-07T08:09:21.179Z"
+      },
+      {
+        "block_number": 1138656181,
+        "diff_type": "remove",
+        "new_size": null,
+        "oid": 538247637125,
+        "price": 0.39174,
+        "seq": 986,
+        "timestamp": "2026-09-07T08:09:21.232Z"
+      }
+    ],
+    "rest_page_complete": true,
+    "snapshot_last_block": 1138656146,
+    "unknown_removed_oid": 538247637125
+  },
+  {
+    "coin": "#18971",
+    "first_ws_diff_block": 1138657172,
+    "rest_events": [
+      {
+        "block_number": 1138657064,
+        "diff_type": "new",
+        "new_size": 38.0,
+        "oid": 538248287320,
+        "price": 0.59933,
+        "seq": 90,
+        "timestamp": "2026-09-07T08:10:21.908Z"
+      },
+      {
+        "block_number": 1138657172,
+        "diff_type": "remove",
+        "new_size": null,
+        "oid": 538248287320,
+        "price": 0.59933,
+        "seq": 334,
+        "timestamp": "2026-09-07T08:10:29.149Z"
+      }
+    ],
+    "rest_page_complete": true,
+    "snapshot_last_block": 1138657018,
+    "unknown_removed_oid": 538248287320
+  }
+]

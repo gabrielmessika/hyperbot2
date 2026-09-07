@@ -1,0 +1,80 @@
+{
+  "active_subscriptions": [
+    "#18960",
+    "#18961"
+  ],
+  "channel": "hip4_l4_orders",
+  "counts": {
+    "l4_batch": 190,
+    "subscribed": 2
+  },
+  "diff_event_age_ms": {
+    "max": 2973,
+    "min": 486,
+    "n": 269,
+    "p50": 585,
+    "p90": 1791,
+    "p95": 2120,
+    "p99": 2761
+  },
+  "diff_events": 269,
+  "diff_events_with_age_0_to_100_ms": 0,
+  "diff_events_with_age_0_to_500_ms": 11,
+  "diff_fields": [
+    "bn",
+    "coin",
+    "exchange",
+    "hash",
+    "oid",
+    "px",
+    "ro",
+    "side",
+    "status",
+    "sz",
+    "tif",
+    "trig",
+    "ts",
+    "type",
+    "user"
+  ],
+  "limits": [
+    "event ages, not time coverage or order placement latency",
+    "snapshot envelope time is not a chain completeness watermark",
+    "no sequence or continuity qualification from a quiet subscription",
+    "local clock and provider timestamps may have offsets"
+  ],
+  "outcome_id": 1896,
+  "per_coin_diff_age_ms": {
+    "#18960": {
+      "max": 2973,
+      "min": 486,
+      "n": 154,
+      "p50": 585,
+      "p90": 1845,
+      "p95": 2166,
+      "p99": 2973
+    },
+    "#18961": {
+      "max": 2761,
+      "min": 486,
+      "n": 115,
+      "p50": 583,
+      "p90": 1537,
+      "p95": 2120,
+      "p99": 2357
+    }
+  },
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "raw_path": "/data/archive-l4-2026-09-07-orders/raw/archive-l4.jsonl",
+  "raw_sha256": "3c281059fdf405f883be5808049e205f9c39e2397d05a12db1863f2b1fd8500b",
+  "received_bytes": 93523,
+  "run_id": "archive-witness-1788766933791362371",
+  "script_sha256": "6c925521c93c80048b000c8b8b38dd93a72f63236cfd418dbf322f01deacc1ff",
+  "seconds_elapsed": 30.09901379980147,
+  "seconds_requested": 30,
+  "snapshot_envelope_age_ms": {
+    "n": 0
+  },
+  "stop_reason": "duration"
+}

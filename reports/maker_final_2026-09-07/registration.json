@@ -1,0 +1,10 @@
+{
+  "capture_script_sha256": "f8da066891e8e29284b232cff058f5e0d9a8e927cb9a6dcdc256bcae85714795",
+  "outcome_ids": [
+    1896,
+    1897
+  ],
+  "protocol_sha256": "ae3c70c697ae308539b9b28cf6c06f66aab74bb15ae7cb8b582ccfc6d4577c44",
+  "registered_ms": 1788768404225,
+  "seconds_each": 60
+}

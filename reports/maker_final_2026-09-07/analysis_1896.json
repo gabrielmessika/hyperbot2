@@ -1,0 +1,1160 @@
+{
+  "analyzer_sha256": "92b07179731d697bda905f6cc055591e87c790cdffb883d093363b136b95bce9",
+  "archive_event_age_ms": {
+    "max": 1986,
+    "min": 474,
+    "n": 75,
+    "p50": 531,
+    "p90": 1211,
+    "p95": 1986,
+    "p99": 1986
+  },
+  "archive_events_under_100_ms": 0,
+  "archive_raw_sha256": "b36fe0310b6fe85730dd731da38abe84348ce489eecd0afe3f48c8bb554a6930",
+  "archive_stop_reason": "duration",
+  "capture": {
+    "archive_script_sha256": "6c925521c93c80048b000c8b8b38dd93a72f63236cfd418dbf322f01deacc1ff",
+    "ended_ms": 1788768622773,
+    "native": {
+      "messages": 224,
+      "raw_sha256": "7ebcbda4f90671d39f69b8c12a9215b28f50e673e3ab6a4f6451d566c83514a0",
+      "seconds_elapsed": 60.261454444378614,
+      "stop_reason": "duration",
+      "wire_bytes": 98452
+    },
+    "outcome_id": 1896,
+    "promotion_authorized": false,
+    "queue_qualified": false,
+    "run_id": "paired-1896-1788768562508",
+    "script_sha256": "f8da066891e8e29284b232cff058f5e0d9a8e927cb9a6dcdc256bcae85714795",
+    "seconds_requested": 60,
+    "started_ms": 1788768562508
+  },
+  "completed_blocks": {},
+  "depth_comparisons": [],
+  "depth_matches": 0,
+  "limits": [
+    "per-coin ordering assumed from provider contract, not independently proved",
+    "completion needs next changed block on each coin; quiet intervals censored",
+    "event age and block-confirmation wait are not measured order latency",
+    "native windows overlap and are not independent trials",
+    "native depth has no block ID; alignment uses exchange timestamps",
+    "historical equality does not authorize a trade at an earlier receipt"
+  ],
+  "native_admissible_100_ms": 0,
+  "native_age_ms": {
+    "max": 799,
+    "min": 332,
+    "n": 222,
+    "p50": 419,
+    "p90": 501,
+    "p95": 613,
+    "p99": 788
+  },
+  "native_fresh_at_receipt_500_ms": 196,
+  "native_raw_sha256": "7ebcbda4f90671d39f69b8c12a9215b28f50e673e3ab6a4f6451d566c83514a0",
+  "native_time_coverage_by_coin": {
+    "#18960": {
+      "fresh_ms": 8125,
+      "observed_ms": 58971,
+      "stale_ms": 50846
+    },
+    "#18961": {
+      "fresh_ms": 7790,
+      "observed_ms": 58953,
+      "stale_ms": 51163
+    }
+  },
+  "native_windows": {
+    "count": 216,
+    "details": [
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563032
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563337
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563861
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768564368
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565013
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565514
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566154
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566602
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567116
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567597
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568187
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568674
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569238
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569803
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768570325
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571304
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571442
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571941
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768572494
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573006
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573558
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574050
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574624
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575171
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575792
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576346
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576864
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768577354
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578045
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578444
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579013
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579513
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580022
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580520
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581461
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581621
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582152
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582664
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583210
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583742
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584273
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584777
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585396
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585876
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768586678
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587089
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587545
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588058
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588635
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589176
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589688
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590290
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590709
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591482
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591939
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592504
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592980
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768593478
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594023
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594545
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595063
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595629
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596381
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596715
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597283
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597750
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598333
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598892
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599389
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599953
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768600528
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601048
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601615
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602129
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602729
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603123
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603757
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604279
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604800
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605349
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605863
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606663
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606984
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768607551
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608101
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608593
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609081
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609615
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610212
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610769
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611531
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611788
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612346
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612847
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613537
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613987
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768614524
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615035
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615606
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616164
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616753
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617146
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617692
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618256
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618840
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619279
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619908
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768620471
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563052
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563341
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563864
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768564371
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565018
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565517
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566157
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566605
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567120
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567612
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568191
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568678
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569241
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569806
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768570327
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571308
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571445
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571944
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768572497
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573010
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573561
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574053
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574628
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575174
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575796
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576349
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576867
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768577357
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578053
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578448
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579016
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579516
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580025
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580523
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581463
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581624
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582157
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582667
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583214
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583745
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584276
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584780
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585399
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585879
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768586682
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587093
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587548
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588060
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588638
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589181
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589691
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590294
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590712
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591485
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591942
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592507
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592983
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768593481
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594026
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594548
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595065
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595632
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596384
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596723
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597287
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597754
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598336
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598896
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599391
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599956
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768600531
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601051
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601619
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602133
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602732
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603126
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603761
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604282
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604803
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605352
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605866
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606666
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606987
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768607554
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608104
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608596
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609084
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609618
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610217
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610772
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611535
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611791
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612350
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612850
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613540
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613990
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768614527
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615038
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615609
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616167
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616756
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617149
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617695
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618259
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618843
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619282
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619911
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768620474
+      }
+    ],
+    "passing": 0
+  },
+  "outcome_id": 1896,
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "reconstruction_error": "'sz'",
+  "reconstructor_sha256": "dd756aa9452ea0ddb05292847294ad14efa311602c9107f6f3fbdd80c5cc3b10",
+  "run_id": "paired-1896-1788768562508"
+}

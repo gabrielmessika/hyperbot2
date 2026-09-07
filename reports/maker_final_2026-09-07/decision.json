@@ -1,0 +1,23 @@
+{
+  "archive_events": 168,
+  "bots_running": false,
+  "candidate": "HIP-4 maker",
+  "decision": "NO_GO_CURRENT_TRANSPORT_AND_ASSUMPTIONS",
+  "diagnostic_complete": true,
+  "execution_status": "DATA_BLOCKED",
+  "historical_depth_comparisons": 183,
+  "historical_depth_matches": 183,
+  "mypy_modules": 45,
+  "native_admissible_100_ms": 0,
+  "native_books": 444,
+  "native_exposure_windows": 432,
+  "native_exposure_windows_fresh": 0,
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "research_bundle": "96c30efdd33dc76b",
+  "rest_checkpoints_matched": 6,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "runtime_release_unchanged": "b44a0baa421ac7f2",
+  "tests_passed": 174
+}

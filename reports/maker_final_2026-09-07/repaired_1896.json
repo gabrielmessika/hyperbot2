@@ -1,0 +1,2389 @@
+{
+  "analyzer_sha256": "21f2b652560ef3c9d25333983106299eb2928927395957c3204649e6d7065ab8",
+  "archive_event_age_ms": {
+    "max": 1986,
+    "min": 474,
+    "n": 75,
+    "p50": 531,
+    "p90": 1211,
+    "p95": 1986,
+    "p99": 1986
+  },
+  "archive_events_under_100_ms": 0,
+  "archive_raw_sha256": "b36fe0310b6fe85730dd731da38abe84348ce489eecd0afe3f48c8bb554a6930",
+  "archive_stop_reason": "duration",
+  "capture": {
+    "archive_script_sha256": "6c925521c93c80048b000c8b8b38dd93a72f63236cfd418dbf322f01deacc1ff",
+    "ended_ms": 1788768622773,
+    "native": {
+      "messages": 224,
+      "raw_sha256": "7ebcbda4f90671d39f69b8c12a9215b28f50e673e3ab6a4f6451d566c83514a0",
+      "seconds_elapsed": 60.261454444378614,
+      "stop_reason": "duration",
+      "wire_bytes": 98452
+    },
+    "outcome_id": 1896,
+    "promotion_authorized": false,
+    "queue_qualified": false,
+    "run_id": "paired-1896-1788768562508",
+    "script_sha256": "f8da066891e8e29284b232cff058f5e0d9a8e927cb9a6dcdc256bcae85714795",
+    "seconds_requested": 60,
+    "started_ms": 1788768562508
+  },
+  "completed_blocks": {
+    "#18960": 21,
+    "#18961": 21
+  },
+  "depth_comparisons": [
+    {
+      "blocks": [
+        1138656199,
+        1138656199
+      ],
+      "confirmation_minus_native_receipt_ms": 1226,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 396,
+      "native_exchange_ms": 1788768562921,
+      "native_receive_ms": 1788768563337
+    },
+    {
+      "blocks": [
+        1138656199,
+        1138656199
+      ],
+      "confirmation_minus_native_receipt_ms": 702,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -128,
+      "native_exchange_ms": 1788768563454,
+      "native_receive_ms": 1788768563861
+    },
+    {
+      "blocks": [
+        1138656199,
+        1138656213
+      ],
+      "confirmation_minus_native_receipt_ms": 487,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -359,
+      "native_exchange_ms": 1788768563994,
+      "native_receive_ms": 1788768564368
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656225
+      ],
+      "confirmation_minus_native_receipt_ms": 6218,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -158,
+      "native_exchange_ms": 1788768564547,
+      "native_receive_ms": 1788768565013
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656230
+      ],
+      "confirmation_minus_native_receipt_ms": 5717,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -273,
+      "native_exchange_ms": 1788768565073,
+      "native_receive_ms": 1788768565514
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 6191,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -518,
+      "native_exchange_ms": 1788768565604,
+      "native_receive_ms": 1788768566154
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 5743,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -966,
+      "native_exchange_ms": 1788768566157,
+      "native_receive_ms": 1788768566602
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 5229,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1480,
+      "native_exchange_ms": 1788768566692,
+      "native_receive_ms": 1788768567116
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 4748,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1961,
+      "native_exchange_ms": 1788768567211,
+      "native_receive_ms": 1788768567597
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 4158,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2551,
+      "native_exchange_ms": 1788768567771,
+      "native_receive_ms": 1788768568187
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 3671,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3038,
+      "native_exchange_ms": 1788768568293,
+      "native_receive_ms": 1788768568674
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 3107,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3602,
+      "native_exchange_ms": 1788768568843,
+      "native_receive_ms": 1788768569238
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 2542,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4167,
+      "native_exchange_ms": 1788768569382,
+      "native_receive_ms": 1788768569803
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 2020,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4689,
+      "native_exchange_ms": 1788768569904,
+      "native_receive_ms": 1788768570325
+    },
+    {
+      "blocks": [
+        1138656221,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 1041,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5668,
+      "native_exchange_ms": 1788768570520,
+      "native_receive_ms": 1788768571304
+    },
+    {
+      "blocks": [
+        1138656319,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 903,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -211,
+      "native_exchange_ms": 1788768570988,
+      "native_receive_ms": 1788768571442
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656236
+      ],
+      "confirmation_minus_native_receipt_ms": 10734,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 106,
+      "native_exchange_ms": 1788768571526,
+      "native_receive_ms": 1788768571941
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656335
+      ],
+      "confirmation_minus_native_receipt_ms": 10181,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -149,
+      "native_exchange_ms": 1788768572056,
+      "native_receive_ms": 1788768572494
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 9671,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -134,
+      "native_exchange_ms": 1788768572599,
+      "native_receive_ms": 1788768573006
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 9119,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -686,
+      "native_exchange_ms": 1788768573137,
+      "native_receive_ms": 1788768573558
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 8627,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1178,
+      "native_exchange_ms": 1788768573671,
+      "native_receive_ms": 1788768574050
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 8053,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1752,
+      "native_exchange_ms": 1788768574216,
+      "native_receive_ms": 1788768574624
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 7506,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2299,
+      "native_exchange_ms": 1788768574756,
+      "native_receive_ms": 1788768575171
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 6885,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2920,
+      "native_exchange_ms": 1788768575295,
+      "native_receive_ms": 1788768575792
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 6331,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3474,
+      "native_exchange_ms": 1788768575846,
+      "native_receive_ms": 1788768576346
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 5813,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3992,
+      "native_exchange_ms": 1788768576405,
+      "native_receive_ms": 1788768576864
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 5323,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4482,
+      "native_exchange_ms": 1788768576948,
+      "native_receive_ms": 1788768577354
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 4632,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5173,
+      "native_exchange_ms": 1788768577568,
+      "native_receive_ms": 1788768578045
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 4233,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5572,
+      "native_exchange_ms": 1788768578034,
+      "native_receive_ms": 1788768578444
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 3664,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6141,
+      "native_exchange_ms": 1788768578539,
+      "native_receive_ms": 1788768579013
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 3164,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6641,
+      "native_exchange_ms": 1788768579082,
+      "native_receive_ms": 1788768579513
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 2655,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -7150,
+      "native_exchange_ms": 1788768579582,
+      "native_receive_ms": 1788768580022
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 2157,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -7648,
+      "native_exchange_ms": 1788768580119,
+      "native_receive_ms": 1788768580520
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 1216,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -8589,
+      "native_exchange_ms": 1788768580664,
+      "native_receive_ms": 1788768581461
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 1056,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -8749,
+      "native_exchange_ms": 1788768581203,
+      "native_receive_ms": 1788768581621
+    },
+    {
+      "blocks": [
+        1138656331,
+        1138656344
+      ],
+      "confirmation_minus_native_receipt_ms": 525,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -9280,
+      "native_exchange_ms": 1788768581743,
+      "native_receive_ms": 1788768582152
+    },
+    {
+      "blocks": [
+        1138656484,
+        1138656484
+      ],
+      "confirmation_minus_native_receipt_ms": 1925,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 13,
+      "native_exchange_ms": 1788768582280,
+      "native_receive_ms": 1788768582664
+    },
+    {
+      "blocks": [
+        1138656484,
+        1138656484
+      ],
+      "confirmation_minus_native_receipt_ms": 1379,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -533,
+      "native_exchange_ms": 1788768582814,
+      "native_receive_ms": 1788768583210
+    },
+    {
+      "blocks": [
+        1138656484,
+        1138656484
+      ],
+      "confirmation_minus_native_receipt_ms": 847,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1065,
+      "native_exchange_ms": 1788768583348,
+      "native_receive_ms": 1788768583742
+    },
+    {
+      "blocks": [
+        1138656484,
+        1138656484
+      ],
+      "confirmation_minus_native_receipt_ms": 316,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1596,
+      "native_exchange_ms": 1788768583867,
+      "native_receive_ms": 1788768584273
+    },
+    {
+      "blocks": [
+        1138656510,
+        1138656510
+      ],
+      "confirmation_minus_native_receipt_ms": 2149,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -188,
+      "native_exchange_ms": 1788768584407,
+      "native_receive_ms": 1788768584777
+    },
+    {
+      "blocks": [
+        1138656510,
+        1138656510
+      ],
+      "confirmation_minus_native_receipt_ms": 1530,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -807,
+      "native_exchange_ms": 1788768584968,
+      "native_receive_ms": 1788768585396
+    },
+    {
+      "blocks": [
+        1138656510,
+        1138656510
+      ],
+      "confirmation_minus_native_receipt_ms": 1050,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1287,
+      "native_exchange_ms": 1788768585491,
+      "native_receive_ms": 1788768585876
+    },
+    {
+      "blocks": [
+        1138656510,
+        1138656510
+      ],
+      "confirmation_minus_native_receipt_ms": 248,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2089,
+      "native_exchange_ms": 1788768586095,
+      "native_receive_ms": 1788768586678
+    },
+    {
+      "blocks": [
+        1138656541,
+        1138656541
+      ],
+      "confirmation_minus_native_receipt_ms": 533,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 70,
+      "native_exchange_ms": 1788768586602,
+      "native_receive_ms": 1788768587089
+    },
+    {
+      "blocks": [
+        1138656548,
+        1138656548
+      ],
+      "confirmation_minus_native_receipt_ms": 786,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 80,
+      "native_exchange_ms": 1788768587130,
+      "native_receive_ms": 1788768587545
+    },
+    {
+      "blocks": [
+        1138656548,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 16652,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 20,
+      "native_exchange_ms": 1788768587681,
+      "native_receive_ms": 1788768588058
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 16078,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -304,
+      "native_exchange_ms": 1788768588217,
+      "native_receive_ms": 1788768588635
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 15537,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -845,
+      "native_exchange_ms": 1788768588736,
+      "native_receive_ms": 1788768589176
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 15025,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1357,
+      "native_exchange_ms": 1788768589287,
+      "native_receive_ms": 1788768589688
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 14423,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1959,
+      "native_exchange_ms": 1788768589840,
+      "native_receive_ms": 1788768590290
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 14004,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2378,
+      "native_exchange_ms": 1788768590377,
+      "native_receive_ms": 1788768590709
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 13231,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3151,
+      "native_exchange_ms": 1788768590933,
+      "native_receive_ms": 1788768591482
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 12774,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3608,
+      "native_exchange_ms": 1788768591470,
+      "native_receive_ms": 1788768591939
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 12209,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4173,
+      "native_exchange_ms": 1788768592003,
+      "native_receive_ms": 1788768592504
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 11733,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4649,
+      "native_exchange_ms": 1788768592539,
+      "native_receive_ms": 1788768592980
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 11235,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5147,
+      "native_exchange_ms": 1788768593076,
+      "native_receive_ms": 1788768593478
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 10690,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5692,
+      "native_exchange_ms": 1788768593611,
+      "native_receive_ms": 1788768594023
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 10168,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6214,
+      "native_exchange_ms": 1788768594148,
+      "native_receive_ms": 1788768594545
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 9650,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6732,
+      "native_exchange_ms": 1788768594682,
+      "native_receive_ms": 1788768595063
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 9084,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -7298,
+      "native_exchange_ms": 1788768595221,
+      "native_receive_ms": 1788768595629
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 8332,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -8050,
+      "native_exchange_ms": 1788768595763,
+      "native_receive_ms": 1788768596381
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 7998,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -8384,
+      "native_exchange_ms": 1788768596299,
+      "native_receive_ms": 1788768596715
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 7430,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -8952,
+      "native_exchange_ms": 1788768596836,
+      "native_receive_ms": 1788768597283
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 6963,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -9419,
+      "native_exchange_ms": 1788768597383,
+      "native_receive_ms": 1788768597750
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 6380,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -10002,
+      "native_exchange_ms": 1788768597924,
+      "native_receive_ms": 1788768598333
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 5821,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -10561,
+      "native_exchange_ms": 1788768598467,
+      "native_receive_ms": 1788768598892
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 5324,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -11058,
+      "native_exchange_ms": 1788768598996,
+      "native_receive_ms": 1788768599389
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 4760,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -11622,
+      "native_exchange_ms": 1788768599554,
+      "native_receive_ms": 1788768599953
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 4185,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -12197,
+      "native_exchange_ms": 1788768600090,
+      "native_receive_ms": 1788768600528
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 3665,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -12717,
+      "native_exchange_ms": 1788768600626,
+      "native_receive_ms": 1788768601048
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 3098,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -13284,
+      "native_exchange_ms": 1788768601165,
+      "native_receive_ms": 1788768601615
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 2584,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -13798,
+      "native_exchange_ms": 1788768601698,
+      "native_receive_ms": 1788768602129
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 1984,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -14398,
+      "native_exchange_ms": 1788768602231,
+      "native_receive_ms": 1788768602729
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 1590,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -14792,
+      "native_exchange_ms": 1788768602765,
+      "native_receive_ms": 1788768603123
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 956,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -15426,
+      "native_exchange_ms": 1788768603301,
+      "native_receive_ms": 1788768603757
+    },
+    {
+      "blocks": [
+        1138656559,
+        1138656555
+      ],
+      "confirmation_minus_native_receipt_ms": 434,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -15948,
+      "native_exchange_ms": 1788768603860,
+      "native_receive_ms": 1788768604279
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 7740,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -87,
+      "native_exchange_ms": 1788768604393,
+      "native_receive_ms": 1788768604800
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 7191,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -636,
+      "native_exchange_ms": 1788768604938,
+      "native_receive_ms": 1788768605349
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 6677,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1150,
+      "native_exchange_ms": 1788768605476,
+      "native_receive_ms": 1788768605863
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 5877,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1950,
+      "native_exchange_ms": 1788768606089,
+      "native_receive_ms": 1788768606663
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 5556,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2271,
+      "native_exchange_ms": 1788768606573,
+      "native_receive_ms": 1788768606984
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 4989,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2838,
+      "native_exchange_ms": 1788768607094,
+      "native_receive_ms": 1788768607551
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 4439,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3388,
+      "native_exchange_ms": 1788768607646,
+      "native_receive_ms": 1788768608101
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 3947,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -3880,
+      "native_exchange_ms": 1788768608182,
+      "native_receive_ms": 1788768608593
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 3459,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4368,
+      "native_exchange_ms": 1788768608702,
+      "native_receive_ms": 1788768609081
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 2925,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -4902,
+      "native_exchange_ms": 1788768609247,
+      "native_receive_ms": 1788768609615
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 2328,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -5499,
+      "native_exchange_ms": 1788768609793,
+      "native_receive_ms": 1788768610212
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 1771,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6056,
+      "native_exchange_ms": 1788768610330,
+      "native_receive_ms": 1788768610769
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 1009,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -6818,
+      "native_exchange_ms": 1788768610867,
+      "native_receive_ms": 1788768611531
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 752,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -7075,
+      "native_exchange_ms": 1788768611410,
+      "native_receive_ms": 1788768611788
+    },
+    {
+      "blocks": [
+        1138656803,
+        1138656803
+      ],
+      "confirmation_minus_native_receipt_ms": 194,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -7633,
+      "native_exchange_ms": 1788768611935,
+      "native_receive_ms": 1788768612346
+    },
+    {
+      "blocks": [
+        1138656918,
+        1138656918
+      ],
+      "confirmation_minus_native_receipt_ms": 2482,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -307,
+      "native_exchange_ms": 1788768612476,
+      "native_receive_ms": 1788768612847
+    },
+    {
+      "blocks": [
+        1138656918,
+        1138656918
+      ],
+      "confirmation_minus_native_receipt_ms": 1792,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -997,
+      "native_exchange_ms": 1788768613080,
+      "native_receive_ms": 1788768613537
+    },
+    {
+      "blocks": [
+        1138656918,
+        1138656918
+      ],
+      "confirmation_minus_native_receipt_ms": 1342,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1447,
+      "native_exchange_ms": 1788768613567,
+      "native_receive_ms": 1788768613987
+    },
+    {
+      "blocks": [
+        1138656918,
+        1138656918
+      ],
+      "confirmation_minus_native_receipt_ms": 805,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -1984,
+      "native_exchange_ms": 1788768614087,
+      "native_receive_ms": 1788768614524
+    },
+    {
+      "blocks": [
+        1138656918,
+        1138656918
+      ],
+      "confirmation_minus_native_receipt_ms": 294,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -2495,
+      "native_exchange_ms": 1788768614640,
+      "native_receive_ms": 1788768615035
+    },
+    {
+      "blocks": [
+        1138656960,
+        1138656960
+      ],
+      "confirmation_minus_native_receipt_ms": 638,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -277,
+      "native_exchange_ms": 1788768615166,
+      "native_receive_ms": 1788768615606
+    },
+    {
+      "blocks": [
+        1138656972,
+        1138656972
+      ],
+      "confirmation_minus_native_receipt_ms": 395,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 94,
+      "native_exchange_ms": 1788768615778,
+      "native_receive_ms": 1788768616164
+    },
+    {
+      "blocks": [
+        1138656977,
+        1138656978
+      ],
+      "confirmation_minus_native_receipt_ms": 510,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": -194,
+      "native_exchange_ms": 1788768616255,
+      "native_receive_ms": 1788768616753
+    },
+    {
+      "blocks": [
+        1138656983,
+        1138656987
+      ],
+      "confirmation_minus_native_receipt_ms": 361,
+      "error": null,
+      "exact_top5_match": true,
+      "last_applied_event_minus_native_receipt_ms": 117,
+      "native_exchange_ms": 1788768616776,
+      "native_receive_ms": 1788768617146
+    }
+  ],
+  "depth_matches": 101,
+  "historical_rest_baseline": {
+    "historical_only": true,
+    "manifest_sha256": "b343bd28d6486eb9d2bfdd7840824f70476062d7501cb8bef4f7fde9f3f1d608",
+    "selection": {
+      "exchange_ms": 1788768562298,
+      "native_index": 0,
+      "outcome_id": 1896,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-00.json",
+        "data/maker_final_2026-09-07/rest/response-01.json"
+      ]
+    }
+  },
+  "limits": [
+    "per-coin ordering assumed from provider contract, not proved",
+    "completion needs next changed block per coin; quiet intervals censored",
+    "event age and block-confirmation wait are not measured order latency",
+    "native windows overlap and are not independent trials",
+    "native depth has no block ID; alignment uses exchange timestamps",
+    "historical equality does not authorize a trade at an earlier receipt"
+  ],
+  "native_admissible_100_ms": 0,
+  "native_age_ms": {
+    "max": 799,
+    "min": 332,
+    "n": 222,
+    "p50": 419,
+    "p90": 501,
+    "p95": 613,
+    "p99": 788
+  },
+  "native_fresh_at_receipt_500_ms": 196,
+  "native_raw_sha256": "7ebcbda4f90671d39f69b8c12a9215b28f50e673e3ab6a4f6451d566c83514a0",
+  "native_time_coverage_by_coin": {
+    "#18960": {
+      "fresh_ms": 8125,
+      "observed_ms": 58971,
+      "stale_ms": 50846
+    },
+    "#18961": {
+      "fresh_ms": 7790,
+      "observed_ms": 58953,
+      "stale_ms": 51163
+    }
+  },
+  "native_windows": {
+    "count": 216,
+    "details": [
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563032
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563337
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563861
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768564368
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565013
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565514
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566154
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566602
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567116
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567597
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568187
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568674
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569238
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569803
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768570325
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571304
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571442
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571941
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768572494
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573006
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573558
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574050
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574624
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575171
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575792
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576346
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576864
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768577354
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578045
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578444
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579013
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579513
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580022
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580520
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581461
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581621
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582152
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582664
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583210
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583742
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584273
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584777
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585396
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585876
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768586678
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587089
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587545
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588058
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588635
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589176
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589688
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590290
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590709
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591482
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591939
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592504
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592980
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768593478
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594023
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594545
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595063
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595629
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596381
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596715
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597283
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597750
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598333
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598892
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599389
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599953
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768600528
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601048
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601615
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602129
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602729
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603123
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603757
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604279
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604800
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605349
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605863
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606663
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606984
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768607551
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608101
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608593
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609081
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609615
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610212
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610769
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611531
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611788
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612346
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612847
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613537
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613987
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768614524
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615035
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615606
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616164
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616753
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617146
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617692
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618256
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618840
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619279
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619908
+      },
+      {
+        "coin": "#18960",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768620471
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563052
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563341
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768563864
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768564371
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565018
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768565517
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566157
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768566605
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567120
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768567612
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568191
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768568678
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569241
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768569806
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768570327
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571308
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571445
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768571944
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768572497
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573010
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768573561
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574053
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768574628
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575174
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768575796
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576349
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768576867
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768577357
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578053
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768578448
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579016
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768579516
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580025
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768580523
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581463
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768581624
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582157
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768582667
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583214
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768583745
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584276
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768584780
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585399
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768585879
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768586682
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587093
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768587548
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588060
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768588638
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589181
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768589691
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590294
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768590712
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591485
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768591942
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592507
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768592983
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768593481
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594026
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768594548
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595065
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768595632
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596384
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768596723
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597287
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768597754
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598336
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768598896
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599391
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768599956
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768600531
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601051
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768601619
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602133
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768602732
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603126
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768603761
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604282
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768604803
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605352
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768605866
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606666
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768606987
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768607554
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608104
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768608596
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609084
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768609618
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610217
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768610772
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611535
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768611791
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612350
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768612850
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613540
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768613990
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768614527
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615038
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768615609
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616167
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768616756
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617149
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768617695
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618259
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768618843
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619282
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768619911
+      },
+      {
+        "coin": "#18961",
+        "fresh_through_1350_ms": false,
+        "start_ms": 1788768620474
+      }
+    ],
+    "passing": 0
+  },
+  "outcome_id": 1896,
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "reconstruction_error": null,
+  "reconstructor_sha256": "86a147c2f55797c96f97f0a71c0cfa94f0626d0d766c604f06da3e4d7b778195",
+  "run_id": "paired-1896-1788768562508"
+}

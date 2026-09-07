@@ -1,6 +1,6 @@
 # HyperBot2 — suivi de l’implémentation
 
-Date : 6 septembre 2026. Version 0.2.0. Développement, installation et validation
+Date : 7 septembre 2026. Version 0.2.0. Développement, installation et validation
 publique bornée sur serveur explicitement demandés. Trading réel interdit.
 
 | Lot | Statut |
@@ -77,3 +77,51 @@ sonde bornée et wrapper serveur livrés séparément ; [procédure](docs/L4_RES
 Déclencheur manquant : clé de données 0xArchive stockée hors Git. Aucun achat,
 ordre ou relance des services ; gates inchangées. 163 tests, lint et types passent.
 Les fenêtres historiques réservées de cette vague sont désormais consommées.
+
+## Accès 0xArchive et diagnostic L4 du 7 septembre
+
+Le prérequis de clé ci-dessus est résolu : clé fournie dans `keys.txt`, ignorée
+par Git, permissions 0600, installation protégée sur le serveur. Authentification
+REST et WebSocket fonctionnelles. Aucun abonnement supplémentaire souscrit.
+
+**Reconstruction historique validée sur l’échantillon ; aucun GO économique.**
+Huit carnets YES/NO BTC/ETH/SOL/HYPE reconstruits exactement sur une minute
+(369 diffs). La profondeur YES fusionnée avec le complément NO reproduit les
+prix, tailles et nombres d’ordres de trois captures natives Hyperliquid.
+Cette preuve reste de classe B pour les historiques ; elle ne qualifie pas les
+fills maker ni la priorité entre les deux carnets.
+
+Deux témoins serveur de 30 s testent `hip4_l4_diffs` puis `hip4_l4_orders` :
+âges médians 541/585 ms ; aucun des 156/269 événements sous les 100 ms
+disponibles avant placement selon l’hypothèse 350 + 50 ms. Pas de séquence
+`seq` observée dans les diffs WebSocket ; continuité complète non démontrée.
+Le statut d’exécution reste `DATA_BLOCKED`, les gates inchangées.
+
+Livrés : lecture sûre de la clé nommée, témoin L4 borné avec horloges de
+réception et stockage HyperBot réutilisé, fusion de profondeur duale et audit
+offline reproductible. 167 tests passent, lint/format et types vérifiés.
+Les outils de recherche sont installés séparément ; runtime courant inchangé,
+anciens bots arrêtés, aucune collecte permanente. Voir le
+[rapport L4 et la prochaine piste bornée](reports/l4_2026-09-07/REPORT.md).
+
+## Diagnostic maker final — terminé le 7 septembre
+
+**NO-GO du candidat maker HIP-4 avec le transport et les hypothèses actuels.**
+La comparaison simultanée serveur est terminée : BTC puis ETH, 60 s chacun,
+444 carnets natifs et 168 événements L4. Aucun carnet natif admissible à
+100 ms ; 0/432 fenêtres natives fraîches pendant les 1 350 ms d’exposition
+hypothétique. Les fenêtres se chevauchent, sans interprétation statistique
+d’essais indépendants. Les limites et gates restent inchangées.
+
+Un raccord snapshot WebSocket/diffs incomplet est confirmé par REST. Après
+réparation strictement historique par checkpoint REST : 183/183 comparaisons
+de profondeur concordantes et 6/6 checkpoints REST concordants. Cela prouve
+la cohérence des données historiques, sans restaurer une réception causale
+passée ni qualifier les fills. L’absence de seq seule n’est pas un gap.
+
+Capture simultanée, fermeture conservatrice des blocs et analyse offline
+livrées et installées séparément. 174 tests, lint/format et types passent.
+Les bots restent arrêtés. **Suspendre cette piste maker** ; réouverture
+conditionnée à une amélioration démontrée du transport ou à une nouvelle
+conception validée, sans assouplir les gates pour forcer un résultat.
+Voir [la décision finale et les preuves](reports/maker_final_2026-09-07/REPORT.md).

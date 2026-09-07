@@ -19,6 +19,25 @@ from hyperbot2.research.artifacts import file_sha256, write_json
 from hyperbot2.research.l4_archive import ArchiveBook
 
 
+def read_key(path: Path) -> str:
+    """Accept a raw key or one explicitly named dotenv assignment."""
+    lines = [
+        s.strip()
+        for s in path.read_text().splitlines()
+        if s.strip() and not s.lstrip().startswith("#")
+    ]
+    named = []
+    for line in lines:
+        name, separator, value = line.partition("=")
+        if separator and name.strip().removeprefix("export ") == "OXARCHIVE_API_KEY":
+            named.append(value.strip().strip("\"'"))
+    if len(named) == 1:
+        return named[0]
+    if not named and len(lines) == 1 and "=" not in lines[0]:
+        return lines[0]
+    raise ValueError("provide a raw key or one OXARCHIVE_API_KEY assignment")
+
+
 class ArchiveProbe:
     def __init__(self, output: Path, key: str) -> None:
         if not key or any(c in key for c in "\r\n\x00"):
@@ -180,7 +199,7 @@ def main() -> None:
         parser.error("nonnegative outcome and a 1..60000 ms window required")
     args.output.mkdir(parents=True, exist_ok=False)
     key = (
-        args.key_file.read_text().strip()
+        read_key(args.key_file)
         if args.key_file
         else os.environ.get("OXARCHIVE_API_KEY", "")
     )

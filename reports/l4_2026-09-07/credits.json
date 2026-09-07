@@ -1,0 +1,37 @@
+{
+  "freshness": {
+    "data": {
+      "coin": "#18960",
+      "exchange": "hip4",
+      "measured_at": "2026-09-07T07:44:43.901335141Z",
+      "open_interest": {
+        "lag_ms": 698,
+        "last_updated": "2026-09-07T07:44:43.203Z"
+      },
+      "orderbook": {
+        "lag_ms": 5415273,
+        "last_updated": "2026-09-07T06:14:28.628Z"
+      },
+      "symbol": "#18960",
+      "trades": {
+        "lag_ms": 113100,
+        "last_updated": "2026-09-07T07:42:50.801Z"
+      }
+    },
+    "meta": {
+      "count": 1,
+      "request_id": "87399664-c0f9-4ec1-8773-b36db03617f5"
+    },
+    "success": true
+  },
+  "headers": {
+    "x-credits-limit": "50000",
+    "x-credits-remaining": "49962",
+    "x-credits-reset": "1790812800",
+    "x-credits-used": "38",
+    "x-ratelimit-limit": "15",
+    "x-ratelimit-remaining": "14",
+    "x-ratelimit-reset": "1788767084",
+    "x-request-id": "780e810e-9c41-4b1c-94ab-984ba49b43ab"
+  }
+}

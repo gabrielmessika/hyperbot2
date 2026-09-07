@@ -1,0 +1,238 @@
+{
+  "execution_status": "DATA_BLOCKED",
+  "historical_reconstruction": "CHECKPOINTS_MATCHED_RESEARCH_ONLY",
+  "inputs": {
+    "data/feasibility_2026-09-06/server_capture/raw/outcomes-fast-public.jsonl": "ae90a5ab734526321fd6a2adc876f4094eba79da856247d38b0b178199f00c31",
+    "data/l4_2026-09-07/cross-source/response-00.json": "854bc324a98bb0540353dc14f98068e5c7b8957d268a2c2650f8098de0db808d",
+    "data/l4_2026-09-07/cross-source/response-01.json": "ff6a067dc4ad66d40b7c647dec62569a96ab1f71ec283420b43cf3654a46a937",
+    "data/l4_2026-09-07/cross-source/response-02.json": "0f03c1e3d0df62158404d98e6c89cb1b26734b22b4f17121dabcfe049f02236f",
+    "data/l4_2026-09-07/cross-source/response-03.json": "8f9408af9d04eda41d951b04a253ad68ca54c05eadb893af4539c88e7160d350",
+    "data/l4_2026-09-07/cross-source/response-04.json": "2e242a329c8390a2fb6c31b3d57394972137e4412ecbb42ad5de461692b31714",
+    "data/l4_2026-09-07/cross-source/response-05.json": "d3cddfe438b332a0db47a7fb846f08cc78a5acbf395222353d0659c4fd4120c3",
+    "data/l4_2026-09-07/reconstruction-1715/response-00.json": "04e0e144a12e1b8e08dccb3ad8c216bb6b8407259da058c89ee5abef9e8a9a9a",
+    "data/l4_2026-09-07/reconstruction-1715/response-01.json": "090ddccb4b8ae7a8b2d8b0de0618b6113a5d1d1240148dd37e27a62e4bc0eddc",
+    "data/l4_2026-09-07/reconstruction-1715/response-02.json": "b23bd88db6b43ecd074f4b914de35602d4345b6a2d8a983f17f1406081c0df30",
+    "data/l4_2026-09-07/reconstruction-1715/response-03.json": "de77d78e2be0a255c0082ae6ca908461379292f95f16c091cacc6c71e191b07b",
+    "data/l4_2026-09-07/reconstruction-1715/response-04.json": "abc5dd477ea269ee4a3b30603c44f6c558b194a6ebdedbde95476ea5e04dd103",
+    "data/l4_2026-09-07/reconstruction-1715/response-05.json": "9659d56fe677a37fd81ac88ebba59a22feec3df763e9b37020ecfbf9a303593f",
+    "data/l4_2026-09-07/reconstruction-1716/response-00.json": "a31df7373e62d3b5bd2b556abcc07ea11d3a937afa439b46072485520657ecd6",
+    "data/l4_2026-09-07/reconstruction-1716/response-01.json": "6ab7ab7d1684e8cff345b9ea265a7e3b0fe14d46abfd5655e80a855d5f042c45",
+    "data/l4_2026-09-07/reconstruction-1716/response-02.json": "35a733af77936d73bd3b59f865fd734e69756952379d37ed513e510dd5b1edd4",
+    "data/l4_2026-09-07/reconstruction-1716/response-03.json": "c08853f5d6014901deb763df295ee24ff3f5b4505117ae8400615640441a9e7b",
+    "data/l4_2026-09-07/reconstruction-1716/response-04.json": "4fbd5ca06b49303c66a441ac4dd00e02849734829984f48be8f816bae29138f4",
+    "data/l4_2026-09-07/reconstruction-1716/response-05.json": "016421b9aee9c870711ee10324a3f4e120e1064d2128c8def4e3610134aa85ee",
+    "data/l4_2026-09-07/reconstruction-1717/response-00.json": "a41b9bfd3237dd2eecc9a93cbced78ba9684b6d41d81727be28910fb7ebb2f84",
+    "data/l4_2026-09-07/reconstruction-1717/response-01.json": "af31dced06ddf449d477066cc90948658519c36a674828f02443af924af8dab1",
+    "data/l4_2026-09-07/reconstruction-1717/response-02.json": "3c4db787b0776b8d2498435c9511af03e5f756387291df128cde3c0c4c15f40a",
+    "data/l4_2026-09-07/reconstruction-1717/response-03.json": "c80c7b8ea5f0aa9b7cf6286e0fb769bcb20b4267905714a6d722793f079018a4",
+    "data/l4_2026-09-07/reconstruction-1717/response-04.json": "46755b9f843844b5a377003e3dda56459134afbf128a3e06a2963c0153cb074f",
+    "data/l4_2026-09-07/reconstruction-1717/response-05.json": "d1db7283290f5e5c58123bd4c27f89ae37ca7904a5f8c7ece9989f2e8271d75d",
+    "data/l4_2026-09-07/reconstruction-1718/response-00.json": "e8f2f44978af4b356369590a740488ed45ca02a9d8fcc4625d7b63f6ae3d2694",
+    "data/l4_2026-09-07/reconstruction-1718/response-01.json": "89a26e99c96a5fb95afd04afe5c1808597b07b08ff39b3421b2026e2333e63c3",
+    "data/l4_2026-09-07/reconstruction-1718/response-02.json": "7d35f98ffbcea4b6b9532bf9857cfa7aa34d7ed67319197a7f0d960a2c30870b",
+    "data/l4_2026-09-07/reconstruction-1718/response-03.json": "d291d89bbae564c13f6dbbf7235d0b2dbd810ccbf8311f04c5b83e1bc208e80c",
+    "data/l4_2026-09-07/reconstruction-1718/response-04.json": "12a84c49c3f113841ed6dd7aee5057a67387d9492e9d6851dafdeb7da31668e7",
+    "data/l4_2026-09-07/reconstruction-1718/response-05.json": "a4eaec48a9e7a29af3e7cc0ba289adb26d2155ddcbd8fbd1ef8c3068adcf4d13",
+    "data/l4_2026-09-07/ws-local/raw/archive-l4.jsonl": "dbb926ad11d279985c5b9264e37d764f77cc5ffa41969ea1e9a26ed548d2e1a4",
+    "data/l4_2026-09-07/ws-server-diffs/raw/archive-l4.jsonl": "6bdb41ebbdce9382cb794595dba7944758eb4386de21d63cafc585ecd0c20b92",
+    "data/l4_2026-09-07/ws-server-orders/raw/archive-l4.jsonl": "3c281059fdf405f883be5808049e205f9c39e2397d05a12db1863f2b1fd8500b"
+  },
+  "limits": [
+    "bounded sampled evidence; no economic backtest or fill validation",
+    "local sequence is not an exchange completeness watermark"
+  ],
+  "native_depth_checks": [
+    {
+      "exchange_ms": 1788713354349,
+      "matched": true,
+      "native_index": 0
+    },
+    {
+      "exchange_ms": 1788713381742,
+      "matched": true,
+      "native_index": 50
+    },
+    {
+      "exchange_ms": 1788713409179,
+      "matched": true,
+      "native_index": 100
+    }
+  ],
+  "probe_sha256": "010d93576e82f4f0b99ebbf2b2cf9859ac3d7aaac95ebd60b5903fa012eee904",
+  "promotion_authorized": false,
+  "queue_qualified": false,
+  "reconstructions": [
+    {
+      "applied_events": 17,
+      "checkpoint_matched": true,
+      "coin": "#17150",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841997,
+      "initial_orders": 992,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842913,
+      "target_orders": 992
+    },
+    {
+      "applied_events": 82,
+      "checkpoint_matched": true,
+      "coin": "#17151",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841848,
+      "initial_orders": 1003,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842791,
+      "target_orders": 1001
+    },
+    {
+      "applied_events": 10,
+      "checkpoint_matched": true,
+      "coin": "#17160",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841755,
+      "initial_orders": 8,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842730,
+      "target_orders": 8
+    },
+    {
+      "applied_events": 95,
+      "checkpoint_matched": true,
+      "coin": "#17161",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137842153,
+      "initial_orders": 18,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137843003,
+      "target_orders": 17
+    },
+    {
+      "applied_events": 5,
+      "checkpoint_matched": true,
+      "coin": "#17170",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137842033,
+      "initial_orders": 4,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137843036,
+      "target_orders": 3
+    },
+    {
+      "applied_events": 4,
+      "checkpoint_matched": true,
+      "coin": "#17171",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841489,
+      "initial_orders": 5,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842387,
+      "target_orders": 5
+    },
+    {
+      "applied_events": 1,
+      "checkpoint_matched": true,
+      "coin": "#17180",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137841474,
+      "initial_orders": 1,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137842605,
+      "target_orders": 2
+    },
+    {
+      "applied_events": 155,
+      "checkpoint_matched": true,
+      "coin": "#17181",
+      "excluded_boundary_events": 0,
+      "initial_block": 1137842151,
+      "initial_orders": 7,
+      "limits": [
+        "checkpoint equality is not a continuity proof between checkpoints",
+        "provider history has no historical local receipt timestamps",
+        "dual-side priority and fill attribution still require audit"
+      ],
+      "queue_qualified": false,
+      "target_block": 1137843035,
+      "target_orders": 6
+    }
+  ],
+  "reconstructor_sha256": "9e1ef1cd614ba4c07324acac52646535bfa58b8687ac53990dd80832e72710b6",
+  "run_id": "l4-evidence-offline-2026-09-07",
+  "script_sha256": "ae4734a6da428a7d166fdbac0597f2cffcb0a221b3fb8dc5bd802e4c6f88fbaa",
+  "witnesses": [
+    {
+      "admissible_100_ms": 0,
+      "event_age_ms": {
+        "max": 2466,
+        "min": 1443,
+        "n": 218,
+        "p50": 2155,
+        "p90": 2368,
+        "p95": 2380,
+        "p99": 2432
+      },
+      "source": "ws-local"
+    },
+    {
+      "admissible_100_ms": 0,
+      "event_age_ms": {
+        "max": 2347,
+        "min": 484,
+        "n": 156,
+        "p50": 541,
+        "p90": 1908,
+        "p95": 2125,
+        "p99": 2344
+      },
+      "source": "ws-server-diffs"
+    },
+    {
+      "admissible_100_ms": 0,
+      "event_age_ms": {
+        "max": 2973,
+        "min": 486,
+        "n": 269,
+        "p50": 585,
+        "p90": 1791,
+        "p95": 2120,
+        "p99": 2761
+      },
+      "source": "ws-server-orders"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "checks": [
+    {
+      "exchange_ms": 1788768562298,
+      "native_index": 0,
+      "outcome_id": 1896,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-00.json",
+        "data/maker_final_2026-09-07/rest/response-01.json"
+      ]
+    },
+    {
+      "exchange_ms": 1788768589287,
+      "native_index": 50,
+      "outcome_id": 1896,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-02.json",
+        "data/maker_final_2026-09-07/rest/response-03.json"
+      ]
+    },
+    {
+      "exchange_ms": 1788768616255,
+      "native_index": 100,
+      "outcome_id": 1896,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-04.json",
+        "data/maker_final_2026-09-07/rest/response-05.json"
+      ]
+    },
+    {
+      "exchange_ms": 1788768624323,
+      "native_index": 0,
+      "outcome_id": 1897,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-06.json",
+        "data/maker_final_2026-09-07/rest/response-07.json"
+      ]
+    },
+    {
+      "exchange_ms": 1788768651376,
+      "native_index": 50,
+      "outcome_id": 1897,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-08.json",
+        "data/maker_final_2026-09-07/rest/response-09.json"
+      ]
+    },
+    {
+      "exchange_ms": 1788768678348,
+      "native_index": 100,
+      "outcome_id": 1897,
+      "snapshot_paths": [
+        "data/maker_final_2026-09-07/rest/response-10.json",
+        "data/maker_final_2026-09-07/rest/response-11.json"
+      ]
+    }
+  ],
+  "queue_qualified": false,
+  "repair_historical_only": true,
+  "requests": [
+    {
+      "bytes": 4143,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-00.json",
+      "received_ms": 1788768848122,
+      "sent_ms": 1788768847620,
+      "sha256": "db20f42e5659035c863e45fd018a20432955378977352cfd75563bb55f4357b1",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318960/l4?timestamp=1788768562298"
+    },
+    {
+      "bytes": 4426,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-01.json",
+      "received_ms": 1788768848451,
+      "sent_ms": 1788768848123,
+      "sha256": "108d59b9aea39fc0843e101cc8dc7194375417e1a5d5ae5a92d4b877ec8f95ae",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318961/l4?timestamp=1788768562298"
+    },
+    {
+      "bytes": 4289,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-02.json",
+      "received_ms": 1788768848782,
+      "sent_ms": 1788768848451,
+      "sha256": "55f3afd9ea3e4dd6344c86d9a7dc0ad6d5ab48361a1e0be0e637fb2ecc92006b",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318960/l4?timestamp=1788768589287"
+    },
+    {
+      "bytes": 4716,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-03.json",
+      "received_ms": 1788768849102,
+      "sent_ms": 1788768848782,
+      "sha256": "5f99aec081750e0a15f43c182678eff8c3cb63fcab7096905af866dde6c57f9f",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318961/l4?timestamp=1788768589287"
+    },
+    {
+      "bytes": 4143,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-04.json",
+      "received_ms": 1788768849423,
+      "sent_ms": 1788768849103,
+      "sha256": "0fa301bae38d59685cf4035a08f72ca41726a56cdfa10054ad8f2fc3394648a7",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318960/l4?timestamp=1788768616255"
+    },
+    {
+      "bytes": 4716,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-05.json",
+      "received_ms": 1788768849764,
+      "sent_ms": 1788768849423,
+      "sha256": "1c15c49689cf4baf7aa2962925612860dd5006586de0b02b9f9b0b66145cb568",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318961/l4?timestamp=1788768616255"
+    },
+    {
+      "bytes": 1074,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-06.json",
+      "received_ms": 1788768850098,
+      "sent_ms": 1788768849767,
+      "sha256": "04a85da967a8c1d04af2140e52791656ebd34703fb336c4d57d795c033bb896b",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318970/l4?timestamp=1788768624323"
+    },
+    {
+      "bytes": 2095,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-07.json",
+      "received_ms": 1788768850417,
+      "sent_ms": 1788768850098,
+      "sha256": "704c7cd497978de71946e6a7e87bc0f73295eb258be15e717a8e4ff9d2180ef3",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318971/l4?timestamp=1788768624323"
+    },
+    {
+      "bytes": 1074,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-08.json",
+      "received_ms": 1788768850743,
+      "sent_ms": 1788768850418,
+      "sha256": "0c2db90a72186b921115f4380b1cd0ac9609feaaa84f7edc5838ef42fff15509",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318970/l4?timestamp=1788768651376"
+    },
+    {
+      "bytes": 2095,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-09.json",
+      "received_ms": 1788768851063,
+      "sent_ms": 1788768850744,
+      "sha256": "bf69a81b216b9526ea9a9fc9bd3ac229dc0c8f983ba607f5af595d9387df4392",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318971/l4?timestamp=1788768651376"
+    },
+    {
+      "bytes": 1074,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-10.json",
+      "received_ms": 1788768851378,
+      "sent_ms": 1788768851063,
+      "sha256": "114e3f6cc1b087b817aefaa7018c7e4218e70cac3b06c7da3ef242fbb3314043",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318970/l4?timestamp=1788768678348"
+    },
+    {
+      "bytes": 2095,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-11.json",
+      "received_ms": 1788768851703,
+      "sent_ms": 1788768851378,
+      "sha256": "9bca10aa29e9ac0440128cf0312ef142182f7fe0e9661d85c192a8c0744f42b5",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318971/l4?timestamp=1788768678348"
+    },
+    {
+      "bytes": 15340,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-12.json",
+      "received_ms": 1788768852083,
+      "sent_ms": 1788768851703,
+      "sha256": "4e33fc2bdbd14eecbb578b511d714a37864d1c22a3551ff8093295167198f5dc",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318960/l4/diffs?start=1788768531232&end=1788768561232&limit=1000"
+    },
+    {
+      "bytes": 11111,
+      "curl_exit": 0,
+      "http_status": "200",
+      "path": "data/maker_final_2026-09-07/rest/response-13.json",
+      "received_ms": 1788768852461,
+      "sent_ms": 1788768852084,
+      "sha256": "953f6677f336d5d91115fce271ae2e9b037675517b3e92fb4777677025fa991d",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2318971/l4/diffs?start=1788768599149&end=1788768629149&limit=1000"
+    }
+  ],
+  "response_bytes": 62391
+}

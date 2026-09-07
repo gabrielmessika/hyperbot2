@@ -12,6 +12,17 @@ module = runpy.run_path(
 )
 
 
+def test_key_file_accepts_named_assignment_without_exposing_contents(
+    tmp_path: Path,
+) -> None:
+    path = tmp_path / "keys.txt"
+    path.write_text('OXARCHIVE_API_KEY="fake-key"\n')
+    assert module["read_key"](path) == "fake-key"
+    path.write_text("WRONG_NAME=fake-key\n")
+    with pytest.raises(ValueError, match="OXARCHIVE_API_KEY assignment"):
+        module["read_key"](path)
+
+
 def test_credential_only_sent_over_stdin(
     tmp_path: Path, monkeypatch: pytest.MonkeyPatch
 ) -> None:

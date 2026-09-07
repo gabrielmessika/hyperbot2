@@ -1,0 +1,13 @@
+{
+  "economic_go": false,
+  "live_enabled": false,
+  "mypy_source_files": 44,
+  "offline_audit": "passed: 8 checkpoints, 3 native comparisons, 3 witnesses",
+  "public_data_only": true,
+  "ruff_check": "passed",
+  "ruff_format": "passed",
+  "running_containers": 0,
+  "server_cli_checks": 3,
+  "shadow_only": true,
+  "tests_passed": 167
+}

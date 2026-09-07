@@ -2,7 +2,7 @@ from decimal import Decimal
 
 import pytest
 
-from hyperbot2.research.l4_archive import ArchiveBook
+from hyperbot2.research.l4_archive import ArchiveBook, L4Order, canonical_yes_levels
 
 
 def snapshot() -> dict:
@@ -85,3 +85,22 @@ def test_reductions_removals_and_priority_ambiguity() -> None:
                 new_size=Decimal(20),
             )
         )
+
+
+def test_canonical_depth_adds_complementary_liquidity_once() -> None:
+    yes = ArchiveBook("#10", 100, (L4Order(1, "u", "B", Decimal("0.4"), Decimal(10)),))
+    no = ArchiveBook(
+        "#11",
+        100,
+        (
+            L4Order(2, "v", "A", Decimal("0.6"), Decimal(5)),
+            L4Order(3, "v", "B", Decimal("0.5"), Decimal(7)),
+        ),
+    )
+    bids, asks = canonical_yes_levels(yes, no)
+    assert (bids[0].price, bids[0].size, bids[0].order_count) == (Decimal("0.4"), 15, 2)
+    assert (asks[0].price, asks[0].size) == (Decimal("0.5"), 7)
+    with pytest.raises(ValueError, match="matching"):
+        canonical_yes_levels(yes, ArchiveBook("#21", 100, ()))
+    with pytest.raises(ValueError, match="duplicate"):
+        canonical_yes_levels(yes, ArchiveBook("#11", 100, yes.orders))

@@ -1,0 +1,21 @@
+{
+  "checks": [
+    {
+      "exit_code": 0,
+      "help_contains_usage": true,
+      "script": "probe_l4_archive.py"
+    },
+    {
+      "exit_code": 0,
+      "help_contains_usage": true,
+      "script": "witness_archive_l4.py"
+    },
+    {
+      "exit_code": 0,
+      "help_contains_usage": true,
+      "script": "audit_l4_evidence.py"
+    }
+  ],
+  "key_mode": "0o600",
+  "running_containers": []
+}

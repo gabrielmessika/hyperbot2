@@ -5,7 +5,19 @@ L4 et des diffs HIP-4 peuvent être récupérés puis réconciliés. Elle ne qua
 pas automatiquement la priorité duale, les fills, la fraîcheur historique à
 réception, l’OOS ou une promotion. Elle ne contient aucun client d’ordre.
 
+**Diagnostic maker clôturé le 7 septembre : NO-GO avec le transport actuel.**
+Le [rapport final](../reports/maker_final_2026-09-07/REPORT.md) documente le
+raccord WebSocket incomplet, sa réparation historique REST et l’insuffisance
+de fraîcheur sur deux témoins simultanés. Suspendre la collecte maker dans
+ces conditions ; les commandes ci-dessous restent des outils de diagnostic.
+
 ## Accès nécessaire
+
+**Mise à jour du 7 septembre : accès fourni et testé avec succès.** La clé de
+`keys.txt` est ignorée par Git et protégée en 0600. Une copie protégée est
+installée au chemin serveur ci-dessous. Le format brut et la ligne
+`OXARCHIVE_API_KEY=...` sont acceptés, sans exécution shell du fichier.
+Voir les [résultats mesurés](../reports/l4_2026-09-07/REPORT.md).
 
 Le contrôle du 6 septembre a confirmé HTTP 401 sans authentification sur le
 route L4 de 0xArchive. Le fournisseur documente un compte gratuit et une clé
@@ -67,3 +79,36 @@ Après un test positif : auditer continuité et références temporelles, joindr
 fills/annulations et règles duales, mesurer un flux live de données en lecture
 seule, puis reprendre les gates du plan. Aucun simple rapprochement de deux
 snapshots ne donne un GO économique.
+
+## Témoin temps réel et audit offline
+
+Depuis un environnement Python 3.11+ synchronisé (`uv sync`), le témoin utilise
+le stockage append-only existant et conserve les messages originaux, leur
+horloge fournisseur, l’horloge locale et la séquence locale. Exemple historique
+du test du 7 septembre (choisir un outcome actif pour une nouvelle mesure) :
+
+```bash
+uv run python scripts/witness_archive_l4.py \
+  --outcome-id 1896 --seconds 30 --channel hip4_l4_diffs \
+  --key-file keys.txt --output data/l4-new-witness
+```
+
+Le canal `hip4_l4_orders` permet un témoin distinct des événements de cycle
+d’ordre. Il n’a fourni aucun snapshot initial pendant notre test. Les deux
+canaux restent en lecture seule : 120 s maximum, arrêt sur gap/erreur,
+100 000 messages maximum, aucun reconnect automatique. La clé passe en
+en-tête mémoire WebSocket et ne figure pas dans les rapports.
+
+Reproduire le diagnostic livré sans requête ni clé, avec les raws conservés
+localement et un nouveau nom de rapport :
+
+```bash
+uv run python scripts/audit_l4_evidence.py \
+  --data data/l4_2026-09-07 \
+  --native data/feasibility_2026-09-06/server_capture/raw/outcomes-fast-public.jsonl \
+  --output data/l4-audit-new.json
+```
+
+Les fichiers bruts sont nécessaires, ne sont pas versionnés et restent
+checksumés. Le script refuse les divergences et compare les reconstructions,
+la profondeur duale aux captures natives et les statistiques de fraîcheur.

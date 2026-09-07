@@ -1,0 +1,31 @@
+{
+  "files": {
+    "data/maker_final_2026-09-07/metadata.json": "f10d3fa7b32f6cd21baa2bef2076176cf8ac35f498734b6f11a6fb81b84a2a86",
+    "data/maker_final_2026-09-07/rest/manifest.json": "b343bd28d6486eb9d2bfdd7840824f70476062d7501cb8bef4f7fde9f3f1d608",
+    "data/maker_final_2026-09-07/rest/response-00.json": "db20f42e5659035c863e45fd018a20432955378977352cfd75563bb55f4357b1",
+    "data/maker_final_2026-09-07/rest/response-01.json": "108d59b9aea39fc0843e101cc8dc7194375417e1a5d5ae5a92d4b877ec8f95ae",
+    "data/maker_final_2026-09-07/rest/response-02.json": "55f3afd9ea3e4dd6344c86d9a7dc0ad6d5ab48361a1e0be0e637fb2ecc92006b",
+    "data/maker_final_2026-09-07/rest/response-03.json": "5f99aec081750e0a15f43c182678eff8c3cb63fcab7096905af866dde6c57f9f",
+    "data/maker_final_2026-09-07/rest/response-04.json": "0fa301bae38d59685cf4035a08f72ca41726a56cdfa10054ad8f2fc3394648a7",
+    "data/maker_final_2026-09-07/rest/response-05.json": "1c15c49689cf4baf7aa2962925612860dd5006586de0b02b9f9b0b66145cb568",
+    "data/maker_final_2026-09-07/rest/response-06.json": "04a85da967a8c1d04af2140e52791656ebd34703fb336c4d57d795c033bb896b",
+    "data/maker_final_2026-09-07/rest/response-07.json": "704c7cd497978de71946e6a7e87bc0f73295eb258be15e717a8e4ff9d2180ef3",
+    "data/maker_final_2026-09-07/rest/response-08.json": "0c2db90a72186b921115f4380b1cd0ac9609feaaa84f7edc5838ef42fff15509",
+    "data/maker_final_2026-09-07/rest/response-09.json": "bf69a81b216b9526ea9a9fc9bd3ac229dc0c8f983ba607f5af595d9387df4392",
+    "data/maker_final_2026-09-07/rest/response-10.json": "114e3f6cc1b087b817aefaa7018c7e4218e70cac3b06c7da3ef242fbb3314043",
+    "data/maker_final_2026-09-07/rest/response-11.json": "9bca10aa29e9ac0440128cf0312ef142182f7fe0e9661d85c192a8c0744f42b5",
+    "data/maker_final_2026-09-07/rest/response-12.json": "4e33fc2bdbd14eecbb578b511d714a37864d1c22a3551ff8093295167198f5dc",
+    "data/maker_final_2026-09-07/rest/response-13.json": "953f6677f336d5d91115fce271ae2e9b037675517b3e92fb4777677025fa991d",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1896/archive/raw/archive-l4.jsonl": "b36fe0310b6fe85730dd731da38abe84348ce489eecd0afe3f48c8bb554a6930",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1896/archive/report.json": "aa8c5274986ff54cbf17524db167a6b396423089ca26e53481debff1155e9fab",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1896/capture.json": "1e26e7a5a1322eeb71eaa859cf5e929294aaf241226d466c98946d5e22e8529a",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1896/raw/native.jsonl": "7ebcbda4f90671d39f69b8c12a9215b28f50e673e3ab6a4f6451d566c83514a0",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1897/archive/raw/archive-l4.jsonl": "6400e51b81da466ea02fe6b58b646919afea3c2f432d257eae0ed0c5296ee622",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1897/archive/report.json": "9a78289cb56ddab02d95826ef7c11d0c7d1d5f4b88ce1b44528cce1e8c0e5711",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1897/capture.json": "5d633ce952fe6ecc03205231a94714d8ac77e186c9af8e373bc40458167f4823",
+    "data/maker_final_2026-09-07/server/maker-final-2026-09-07-1897/raw/native.jsonl": "f22768dd848840f85faaa6f40e2ef6a3fb3272c4ce117b5d46b005a1b6a49bbf"
+  },
+  "historical_rest_class": "B",
+  "raw_in_git": false,
+  "run_id": "maker-final-2026-09-07"
+}

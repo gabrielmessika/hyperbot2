@@ -6,6 +6,8 @@ from dataclasses import dataclass, replace
 from decimal import Decimal
 from typing import Any
 
+from hyperbot2.models import BookLevel
+
 
 def _number(value: object) -> Decimal:
     if isinstance(value, float):
@@ -146,3 +148,37 @@ class ArchiveBook:
             and self.block <= target.block
             and (self.last_event is None or self.last_event[0] <= target.block)
         )
+
+
+def canonical_yes_levels(
+    yes: ArchiveBook, no: ArchiveBook
+) -> tuple[tuple[BookLevel, ...], tuple[BookLevel, ...]]:
+    """Merge physical YES/NO depth; caller must qualify temporal alignment.
+
+    This aggregates depth only and makes no assertion about dual queue priority.
+    """
+    yes_id, no_id = int(yes.coin.lstrip("#")), int(no.coin.lstrip("#"))
+    if yes_id % 10 != 0 or no_id != yes_id + 1:
+        raise ValueError("a matching YES/NO pair is required")
+    if {o.oid for o in yes.orders} & {o.oid for o in no.orders}:
+        raise ValueError("physical books contain duplicate economic orders")
+    levels: list[dict[Decimal, tuple[Decimal, int]]] = [{}, {}]
+    for side_index, book in enumerate((yes, no)):
+        for order in book.orders:
+            price = order.price if side_index == 0 else Decimal(1) - order.price
+            if not 0 < price < 1:
+                raise ValueError("outcome price outside strict payoff bounds")
+            bid = (order.side == "B") if side_index == 0 else (order.side == "A")
+            bucket = levels[0 if bid else 1]
+            size, count = bucket.get(price, (Decimal(0), 0))
+            bucket[price] = (size + order.size, count + 1)
+    bids, asks = (
+        tuple(
+            BookLevel(price, *bucket[price])
+            for price in sorted(bucket, reverse=index == 0)
+        )
+        for index, bucket in enumerate(levels)
+    )
+    if bids and asks and bids[0].price >= asks[0].price:
+        raise ValueError("merged physical books cross")
+    return bids, asks

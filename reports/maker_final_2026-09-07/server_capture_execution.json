@@ -1,0 +1,19 @@
+{
+  "events": [
+    {
+      "installed_path": "/opt/hyperbot2/research/f8da066891e8e292/compare_maker_feeds.py",
+      "script_sha256": "f8da066891e8e29284b232cff058f5e0d9a8e927cb9a6dcdc256bcae85714795"
+    },
+    {
+      "exit_code": 125,
+      "outcome_id": 1896,
+      "stderr": "docker: Error response from daemon: failed to create task for container: failed to create shim task: OCI runtime create failed: runc create failed: unable to start container process: error during container init: error mounting \"/opt/hyperbot2/research/f8da066891e8e292/compare_maker_feeds.py\" to rootfs at \"/research/scripts/compare_maker_feeds.py\": create mountpoint for /research/scripts/compare_maker_feeds.py mount: make mountpoint \"/research/scripts/compare_maker_feeds.py\": read-only file system\n\nRun 'docker run --help' for more information\n",
+      "stdout": ""
+    },
+    {
+      "running_containers": []
+    }
+  ],
+  "ssh_exit": 0,
+  "stderr": ""
+}
