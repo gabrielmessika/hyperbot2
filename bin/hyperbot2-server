@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+set -euo pipefail
+release="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+install_root="$(cd "$release/../.." && pwd)"
+image="$(cat "$release/image.txt")"
+[[ "$image" =~ ^hyperbot2:[a-f0-9]{16}$ ]] || { echo "Invalid image manifest" >&2; exit 1; }
+command="${1:-status}"
+case "$command" in
+    start)
+        seconds="${2:-900}"
+        blocked="${3:-300}"
+        [[ "$seconds" =~ ^[0-9]+$ && "$blocked" =~ ^[0-9]+$ ]] || exit 2
+        (( seconds >= 1 && seconds <= 86400 && blocked >= 1 && blocked <= seconds )) || exit 2
+        if docker container inspect hyperbot2 >/dev/null 2>&1; then
+            [[ "$(docker inspect -f '{{index .Config.Labels "app"}}' hyperbot2)" == hyperbot2 ]] || exit 1
+            [[ "$(docker inspect -f '{{.State.Running}}' hyperbot2)" == false ]] || { echo "HyperBot2 is already running" >&2; exit 1; }
+            docker rm hyperbot2 >/dev/null
+        fi
+        exec docker run -d --name hyperbot2 --label app=hyperbot2 --restart=no \
+            --read-only --cap-drop=ALL --security-opt=no-new-privileges --memory=4g --cpus=1 \
+            --pids-limit=128 --stop-timeout=30 --tmpfs /tmp:rw,noexec,nosuid,size=64m \
+            --log-driver=json-file --log-opt max-size=10m --log-opt max-file=3 \
+            --mount "type=bind,src=$install_root/shared/data,dst=/data" \
+            "$image" run --data-root /data --seconds "$seconds" --blocked-seconds "$blocked" --public-network
+        ;;
+    stop)
+        [[ "$(docker inspect -f '{{index .Config.Labels "app"}}' hyperbot2)" == hyperbot2 ]] || exit 1
+        exec docker stop --timeout 30 hyperbot2
+        ;;
+    status) exec "$release/bin/hyperbot2" status --data-root /data ;;
+    health) exec "$release/bin/hyperbot2" health --data-root /data ;;
+    logs) exec docker logs --tail 100 hyperbot2 ;;
+    *) echo "Usage: hyperbot2-server {start [seconds [blocked-seconds]]|stop|status|health|logs}" >&2; exit 2 ;;
+esac

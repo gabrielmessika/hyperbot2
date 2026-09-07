@@ -1,0 +1,270 @@
+{
+  "qualification": "provider claims only; L4 content inaccessible without authentication",
+  "selected_markets": [
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "BTC above 79,963 on Sep 7 at 06:00 UTC? \u2014 Yes",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17150",
+        "#17151"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 40.260000000000005,
+        "l4_orders": 20.64,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.44
+      },
+      "slug": "btc-above-79963-yes-sep-07-0600",
+      "symbol": "#17150"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "BTC above 79,963 on Sep 7 at 06:00 UTC? \u2014 No",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17150",
+        "#17151"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 43.58,
+        "l4_orders": 27.89,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.61
+      },
+      "slug": "btc-above-79963-no-sep-07-0600",
+      "symbol": "#17151"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "ETH above 2,513 on Sep 7 at 06:00 UTC? \u2014 Yes",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17160",
+        "#17161"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 34.550000000000004,
+        "l4_orders": 4.35,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.01
+      },
+      "slug": "eth-above-2513-yes-sep-07-0600",
+      "symbol": "#17160"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "ETH above 2,513 on Sep 7 at 06:00 UTC? \u2014 No",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17160",
+        "#17161"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 40.2,
+        "l4_orders": 18.78,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.02
+      },
+      "slug": "eth-above-2513-no-sep-07-0600",
+      "symbol": "#17161"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "SOL above 106.41 on Sep 7 at 06:00 UTC? \u2014 Yes",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17170",
+        "#17171"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 36.84,
+        "l4_orders": 10.32,
+        "oi": 0.59,
+        "orderbook": 6.64
+      },
+      "slug": "sol-above-106.41-yes-sep-07-0600",
+      "symbol": "#17170"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "SOL above 106.41 on Sep 7 at 06:00 UTC? \u2014 No",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17170",
+        "#17171"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 33.99,
+        "l4_orders": 2.94,
+        "oi": 0.59,
+        "orderbook": 6.64
+      },
+      "slug": "sol-above-106.41-no-sep-07-0600",
+      "symbol": "#17171"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "HYPE above 86.762 on Sep 7 at 06:00 UTC? \u2014 Yes",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17180",
+        "#17181"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 38.83,
+        "l4_orders": 15.38,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.02
+      },
+      "slug": "hype-above-86.762-yes-sep-07-0600",
+      "symbol": "#17180"
+    },
+    {
+      "coverage_by_type": {
+        "l4_orderbook": "2026-09-06T00:00:00Z",
+        "l4_orders": "2026-09-06T00:00:00Z",
+        "oi": "2026-09-06T00:00:00Z",
+        "orderbook": "2026-09-06T00:00:00Z",
+        "trades": "2026-09-06T00:00:00Z"
+      },
+      "coverage_from": "2026-09-06T00:00:00Z",
+      "data_types": [
+        "l2_orderbook",
+        "l4_orderbook",
+        "l4_orders",
+        "trades",
+        "oi"
+      ],
+      "display_title": "HYPE above 86.762 on Sep 7 at 06:00 UTC? \u2014 No",
+      "exchange": "hip4",
+      "is_settled": false,
+      "outcome_pair": [
+        "#17180",
+        "#17181"
+      ],
+      "size_per_day": {
+        "l4_orderbook": 39.45,
+        "l4_orders": 16.62,
+        "oi": 0.59,
+        "orderbook": 6.64,
+        "trades": 0.01
+      },
+      "slug": "hype-above-86.762-no-sep-07-0600",
+      "symbol": "#17181"
+    }
+  ],
+  "sha256": "55fa468b1d2fef9797fc8a41a048302239f5cfad4708095dabd0eccdc5ca5517",
+  "source": "https://api.0xarchive.io/v1/symbols",
+  "stored_path": "data/search_2026-09-06/provider/symbols.json"
+}

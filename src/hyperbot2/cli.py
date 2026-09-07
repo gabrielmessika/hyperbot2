@@ -10,6 +10,7 @@ import time
 from dataclasses import asdict
 from pathlib import Path
 
+from hyperbot2 import __version__
 from hyperbot2.models import EventContext, TimeSource
 from hyperbot2.outcomes.catalog import discover_recurring
 from hyperbot2.outcomes.config import load_config
@@ -27,6 +28,7 @@ from hyperbot2.research.opportunity_screen import (
     legacy_paper_summary,
     screen_legacy,
 )
+from hyperbot2.services.runtime import prepare_capture, read_health, run_service
 
 
 def parser() -> argparse.ArgumentParser:
@@ -34,6 +36,7 @@ def parser() -> argparse.ArgumentParser:
         description="HyperBot2: public research only; no live execution"
     )
     p.add_argument("--config", type=Path, default=Path("config/outcomes.toml"))
+    p.add_argument("--version", action="version", version=f"HyperBot2 {__version__}")
     sub = p.add_subparsers(dest="command", required=True)
     cat = sub.add_parser("catalog", help="qualify a saved public outcomeMeta response")
     cat.add_argument("--input", type=Path, required=True)
@@ -62,11 +65,35 @@ def parser() -> argparse.ArgumentParser:
     collect.add_argument("--seconds", type=int, default=40)
     collect.add_argument("--public-network", action="store_true")
     collect.add_argument("--output", type=Path, required=True)
+    service = sub.add_parser(
+        "run", help="bounded public shadow service with health and graceful shutdown"
+    )
+    service.add_argument("--data-root", type=Path, required=True)
+    service.add_argument("--seconds", type=int, default=900)
+    service.add_argument("--blocked-seconds", type=int, default=300)
+    service.add_argument("--public-network", action="store_true")
+    service.add_argument("--attestations", type=Path)
+    for command in ("health", "status"):
+        status = sub.add_parser(
+            command, help="read runtime state without network access"
+        )
+        status.add_argument("--data-root", type=Path, required=True)
+    prepare = sub.add_parser(
+        "prepare", help="join a recorded public capture into causal replay windows"
+    )
+    prepare.add_argument("--capture", type=Path, required=True)
+    prepare.add_argument("--output", type=Path, required=True)
+    prepare.add_argument("--references", type=Path)
+    prepare.add_argument("--attestations", type=Path)
     return p
 
 
-def main() -> int:
+def _main() -> int:
     args = parser().parse_args()
+    if args.command in ("health", "status"):
+        status, healthy = read_health(args.data_root)
+        print(json.dumps(status, default=str))
+        return 0 if args.command == "status" or healthy else 1
     config, config_hash = load_config(args.config)
     root = Path(__file__).resolve().parents[2]
     version, source_files = source_version(root)
@@ -75,8 +102,58 @@ def main() -> int:
         run_id,
         version,
         config_hash,
-        TimeSource.EXCHANGE if args.command == "witness" else TimeSource.REPLAY,
+        TimeSource.EXCHANGE
+        if args.command in ("witness", "run")
+        else TimeSource.REPLAY,
     )
+    if args.command == "run":
+        if not args.public_network:
+            raise ValueError("run requires --public-network")
+        result = asyncio.run(
+            run_service(
+                root=args.data_root,
+                config=config,
+                context=context,
+                source_files=source_files,
+                seconds=args.seconds,
+                blocked_seconds=args.blocked_seconds,
+                attestations=args.attestations,
+            )
+        )
+        print(
+            json.dumps(
+                {
+                    "run_id": run_id,
+                    "state": "STOPPED",
+                    "verdict": result["verdict"],
+                    "stop_reason": result["stop_reason"],
+                }
+            )
+        )
+        return 0
+    if args.command == "prepare":
+        result = prepare_capture(
+            capture=args.capture,
+            output=args.output,
+            config=config,
+            context=context,
+            attestations=args.attestations,
+            references=args.references,
+        )
+        write_json(
+            args.output / "source_manifest.json",
+            {"code_version": version, "files": source_files},
+        )
+        print(
+            json.dumps(
+                {
+                    "run_id": run_id,
+                    "verdict": result["verdict"],
+                    "output": str(args.output),
+                }
+            )
+        )
+        return 2 if result["verdict"] == "DATA_BLOCKED" else 0
     if args.command in ("replay", "shadow"):
         result = run_campaign(
             source=args.input,
@@ -197,6 +274,19 @@ def main() -> int:
             },
         )
         raise
+
+
+def main() -> int:
+    try:
+        return _main()
+    except (ValueError, OSError, RuntimeError) as error:
+        print(
+            json.dumps({"error": type(error).__name__, "reason": str(error)}),
+            file=sys.stderr,
+        )
+        return 1
+    except KeyboardInterrupt:
+        return 130
 
 
 if __name__ == "__main__":

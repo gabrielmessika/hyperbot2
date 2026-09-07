@@ -1,0 +1,17 @@
+{
+  "all_variants_reported": true,
+  "development_summary_sha256": "cb0bb9c8ff9edd72ecc7be7a6de54e75a522e36a9548d4f910a050e5335c0d86",
+  "holdout_blocks": [
+    3,
+    4,
+    5
+  ],
+  "locked_at": "2026-09-06T17:31:29.066682+00:00",
+  "parameters_changed_after_development": false,
+  "protocol_sha256": "6098fcdc3a00a027ab052636b2258e531c476b87df906be4d38ee1e96e902e62",
+  "script_sha256": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+  "strategies": [
+    "breakout24",
+    "reversion24"
+  ]
+}

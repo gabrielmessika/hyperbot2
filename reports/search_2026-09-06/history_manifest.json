@@ -1,0 +1,527 @@
+{
+  "classification": "public historical research; not receipt-causal A books",
+  "end_ms_exclusive": 1788652800000,
+  "metadata_keys": [
+    "outcomes",
+    "questions",
+    "deployers",
+    "feeScale"
+  ],
+  "requests": [
+    {
+      "path": "data/search_2026-09-06/history/request-000.json",
+      "request": {
+        "req": {
+          "coin": "BTC",
+          "endTime": 1788652799999,
+          "interval": "1h",
+          "startTime": 1773100800000
+        },
+        "type": "candleSnapshot"
+      },
+      "returncode": 0,
+      "sha256": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-001.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1773100800000,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-002.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1774897200086,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-003.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1776697200042,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-004.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1778497200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-005.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1780297200014,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-006.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1782097200038,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-007.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1783897200071,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-008.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1785697200003,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-009.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1787497200015,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-010.json",
+      "request": {
+        "coin": "BTC",
+        "endTime": 1788652799999,
+        "startTime": 1788649200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-011.json",
+      "request": {
+        "req": {
+          "coin": "ETH",
+          "endTime": 1788652799999,
+          "interval": "1h",
+          "startTime": 1773100800000
+        },
+        "type": "candleSnapshot"
+      },
+      "returncode": 0,
+      "sha256": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-012.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1773100800000,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-013.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1774897200086,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-014.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1776697200042,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-015.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1778497200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-016.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1780297200014,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-017.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1782097200038,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-018.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1783897200071,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-019.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1785697200003,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-020.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1787497200015,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-021.json",
+      "request": {
+        "coin": "ETH",
+        "endTime": 1788652799999,
+        "startTime": 1788649200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-022.json",
+      "request": {
+        "req": {
+          "coin": "SOL",
+          "endTime": 1788652799999,
+          "interval": "1h",
+          "startTime": 1773100800000
+        },
+        "type": "candleSnapshot"
+      },
+      "returncode": 0,
+      "sha256": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-023.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1773100800000,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-024.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1774897200086,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-025.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1776697200042,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-026.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1778497200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-027.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1780297200014,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-028.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1782097200038,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-029.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1783897200071,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-030.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1785697200003,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-031.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1787497200015,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-032.json",
+      "request": {
+        "coin": "SOL",
+        "endTime": 1788652799999,
+        "startTime": 1788649200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-033.json",
+      "request": {
+        "req": {
+          "coin": "HYPE",
+          "endTime": 1788652799999,
+          "interval": "1h",
+          "startTime": 1773100800000
+        },
+        "type": "candleSnapshot"
+      },
+      "returncode": 0,
+      "sha256": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-034.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1773100800000,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-035.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1774897200086,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-036.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1776697200042,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-037.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1778497200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-038.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1780297200014,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-039.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1782097200038,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-040.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1783897200071,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-041.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1785697200003,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-042.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1787497200015,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-043.json",
+      "request": {
+        "coin": "HYPE",
+        "endTime": 1788652799999,
+        "startTime": 1788649200060,
+        "type": "fundingHistory"
+      },
+      "returncode": 0,
+      "sha256": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-044.json",
+      "request": {
+        "type": "outcomeMeta"
+      },
+      "returncode": 0,
+      "sha256": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815"
+    },
+    {
+      "path": "data/search_2026-09-06/history/request-045.json",
+      "request": {
+        "type": "spotMeta"
+      },
+      "returncode": 0,
+      "sha256": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+    }
+  ],
+  "response_bytes": 4063911,
+  "script_sha256": "bdc44785e8c89d0c44d1dba54001987fb7c008b6a08ee582a1c35dc256cdd699",
+  "start_ms": 1773100800000
+}

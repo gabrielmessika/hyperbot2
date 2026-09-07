@@ -1,0 +1,40 @@
+{
+  "legacy_latency_source": {
+    "path": "/workspaces/hyperbot/config/hyperbot_backtest.example.json",
+    "sha256": "65c7516fd42aab31c77bf3542c8ed43537e78917f73857284e28afcaf7aeeb0c"
+  },
+  "observed_at": "2026-09-06T17:12:22.598918+00:00",
+  "results": [
+    {
+      "command": "docker ps --format \"{{.Names}}\"",
+      "stderr": "",
+      "stdout": ""
+    },
+    {
+      "command": "timedatectl show -p NTPSynchronized -p TimeUSec",
+      "stderr": "",
+      "stdout": "NTPSynchronized=yes\nTimeUSec=Sun 2026-09-06 17:12:21 UTC\n"
+    },
+    {
+      "command": "timedatectl timesync-status --no-pager",
+      "stderr": "",
+      "stdout": "       Server: 2a01:4f8:0:a0a1::2:1 (ntp.hetzner.com)\nPoll interval: 34min 8s (min: 32s; max 34min 8s)\n         Leap: normal\n      Version: 4\n      Stratum: 2\n    Reference: ED11CC5F\n    Precision: 1us (-23)\nRoot distance: 31.188ms (max: 5s)\n       Offset: +1.282ms\n        Delay: 4.195ms\n       Jitter: 2.227ms\n Packet count: 149\n    Frequency: -4.950ppm\n"
+    },
+    {
+      "command": "nproc",
+      "stderr": "",
+      "stdout": "4\n"
+    },
+    {
+      "command": "free -m",
+      "stderr": "",
+      "stdout": "               total        used        free      shared  buff/cache   available\nMem:            7751         760        3676           4        3629        6990\nSwap:              0           0           0\n"
+    },
+    {
+      "command": "df -h /opt/hyperbot2",
+      "stderr": "",
+      "stdout": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda1        75G   31G   42G  43% /\n"
+    }
+  ],
+  "server": "trident-hetzner"
+}

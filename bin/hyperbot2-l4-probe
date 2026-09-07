@@ -1,0 +1,10 @@
+#!/bin/sh
+set -eu
+research_root=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+export PYTHONPATH="$research_root/src${PYTHONPATH:+:$PYTHONPATH}"
+research_python=${HYPERBOT2_PYTHON:-python3}
+if [ -z "${HYPERBOT2_PYTHON:-}" ] && [ -x "$research_root/.venv/bin/python" ]; then
+    research_python="$research_root/.venv/bin/python"
+fi
+"$research_python" -c 'import sys; sys.exit("Python 3.11+ required") if sys.version_info < (3, 11) else None'
+exec "$research_python" "$research_root/scripts/probe_l4_archive.py" "$@"

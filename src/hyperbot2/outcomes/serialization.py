@@ -43,6 +43,7 @@ def window_from_payload(raw: dict[str, Any]) -> OutcomeWindow:
         "future_books",
         "trades",
         "healthy",
+        "exposure_healthy",
     }
     if set(raw) - allowed or raw.get("schema_version") != 1:
         raise ValueError("unknown window schema/fields")
@@ -58,6 +59,7 @@ def window_from_payload(raw: dict[str, Any]) -> OutcomeWindow:
     if (
         type(d.get("active", False)) is not bool
         or type(raw.get("healthy", True)) is not bool
+        or type(raw.get("exposure_healthy", True)) is not bool
     ):
         raise ValueError("status must be boolean")
     f = raw.get("fair")
@@ -82,4 +84,5 @@ def window_from_payload(raw: dict[str, Any]) -> OutcomeWindow:
         tuple(_book(x) for x in raw.get("future_books", [])),
         tuple(trades),
         raw.get("healthy", True),
+        raw.get("exposure_healthy", True),
     )

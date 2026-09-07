@@ -1,0 +1,816 @@
+{
+  "activation_sensitivity": [
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 792,
+      "placement_ms": 0
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 744,
+      "placement_ms": 50
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 596,
+      "placement_ms": 100
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 24,
+      "placement_ms": 150
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 200
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 250
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 300
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 350
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 700
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 744,
+      "placement_ms": 0
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 596,
+      "placement_ms": 50
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 24,
+      "placement_ms": 100
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 150
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 200
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 250
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 300
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 350
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 700
+    }
+  ],
+  "books": 896,
+  "channels": {
+    "l2Book": 896,
+    "trades": 244
+  },
+  "contexts": [
+    {
+      "code_version": "source-sha256:a690498efd3f334c5dbddb1375b763804f4b2f572abdb21de243c4f1b5cc02d8",
+      "config_hash": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+      "run_id": "hb2-run-1788713353331737536",
+      "time_source": "exchange"
+    }
+  ],
+  "diagnostic_script_sha256": "6937a0333de3105840f784bb12543d607825999248d0e9fe8254c927e8e287d6",
+  "fast_confirmed": 896,
+  "fixed_assumptions": {
+    "cancel_ms": 350,
+    "stale_ms": 500,
+    "ttl_ms": 1000
+  },
+  "fresh_at_receipt": 792,
+  "level_fields": [
+    "n",
+    "px",
+    "sz"
+  ],
+  "limits": [
+    "short observational sample",
+    "not order latency measurements",
+    "pooled coin-time is not portfolio uptime",
+    "no fill qualification"
+  ],
+  "negative_age": 0,
+  "payload_integrity_verified": true,
+  "per_coin": {
+    "#17150": {
+      "age_ms": {
+        "max": 815,
+        "min": 336,
+        "n": 112,
+        "p50": 386,
+        "p90": 533,
+        "p95": 649,
+        "p99": 804
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1043,
+        "min": 128,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 986
+      },
+      "time_coverage": {
+        "fresh_ms": 10852,
+        "observed_ms": 60673,
+        "stale_ms": 49821
+      }
+    },
+    "#17151": {
+      "age_ms": {
+        "max": 816,
+        "min": 337,
+        "n": 112,
+        "p50": 386,
+        "p90": 535,
+        "p95": 650,
+        "p99": 805
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1043,
+        "min": 127,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 986
+      },
+      "time_coverage": {
+        "fresh_ms": 10793,
+        "observed_ms": 60672,
+        "stale_ms": 49879
+      }
+    },
+    "#17160": {
+      "age_ms": {
+        "max": 816,
+        "min": 337,
+        "n": 112,
+        "p50": 387,
+        "p90": 573,
+        "p95": 708,
+        "p99": 805
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1043,
+        "min": 127,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 985
+      },
+      "time_coverage": {
+        "fresh_ms": 10767,
+        "observed_ms": 60435,
+        "stale_ms": 49668
+      }
+    },
+    "#17161": {
+      "age_ms": {
+        "max": 816,
+        "min": 337,
+        "n": 112,
+        "p50": 387,
+        "p90": 573,
+        "p95": 708,
+        "p99": 805
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1042,
+        "min": 127,
+        "n": 111,
+        "p50": 539,
+        "p90": 682,
+        "p95": 782,
+        "p99": 985
+      },
+      "time_coverage": {
+        "fresh_ms": 10736,
+        "observed_ms": 60432,
+        "stale_ms": 49696
+      }
+    },
+    "#17170": {
+      "age_ms": {
+        "max": 816,
+        "min": 337,
+        "n": 112,
+        "p50": 387,
+        "p90": 573,
+        "p95": 708,
+        "p99": 807
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1042,
+        "min": 126,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 987
+      },
+      "time_coverage": {
+        "fresh_ms": 10706,
+        "observed_ms": 60432,
+        "stale_ms": 49726
+      }
+    },
+    "#17171": {
+      "age_ms": {
+        "max": 1011,
+        "min": 338,
+        "n": 112,
+        "p50": 387,
+        "p90": 573,
+        "p95": 708,
+        "p99": 816
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1041,
+        "min": 6,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 987
+      },
+      "time_coverage": {
+        "fresh_ms": 10675,
+        "observed_ms": 60198,
+        "stale_ms": 49523
+      }
+    },
+    "#17180": {
+      "age_ms": {
+        "max": 1013,
+        "min": 338,
+        "n": 112,
+        "p50": 388,
+        "p90": 573,
+        "p95": 708,
+        "p99": 817
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1042,
+        "min": 4,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 986
+      },
+      "time_coverage": {
+        "fresh_ms": 10651,
+        "observed_ms": 60196,
+        "stale_ms": 49545
+      }
+    },
+    "#17181": {
+      "age_ms": {
+        "max": 1014,
+        "min": 339,
+        "n": 112,
+        "p50": 388,
+        "p90": 573,
+        "p95": 708,
+        "p99": 817
+      },
+      "distinct_exchange_times": 112,
+      "exchange_interval_ms": {
+        "max": 664,
+        "min": 430,
+        "n": 111,
+        "p50": 540,
+        "p90": 605,
+        "p95": 610,
+        "p99": 625
+      },
+      "receipt_interval_ms": {
+        "max": 1042,
+        "min": 4,
+        "n": 111,
+        "p50": 540,
+        "p90": 683,
+        "p95": 782,
+        "p99": 987
+      },
+      "time_coverage": {
+        "fresh_ms": 10632,
+        "observed_ms": 60195,
+        "stale_ms": 49563
+      }
+    }
+  },
+  "pooled_coin_time": {
+    "fresh_fraction": 0.1775789319024156,
+    "fresh_ms": 85812,
+    "observed_ms": 483233
+  },
+  "raw_path": "data/feasibility_2026-09-06/server_capture/raw/outcomes-fast-public.jsonl",
+  "raw_sha256": "ae90a5ab734526321fd6a2adc876f4094eba79da856247d38b0b178199f00c31",
+  "receipt_age_excluding_first_per_coin_ms": {
+    "max": 817,
+    "min": 336,
+    "n": 888,
+    "p50": 387,
+    "p90": 518,
+    "p95": 650,
+    "p99": 808
+  },
+  "receipt_age_ms": {
+    "max": 1014,
+    "min": 336,
+    "n": 896,
+    "p50": 387,
+    "p90": 573,
+    "p95": 707,
+    "p99": 816
+  },
+  "wall_minus_monotonic_range_ms": 1.014892578125,
+  "windows": {
+    "complete": 36,
+    "count": 37,
+    "details": [
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1016,
+          "100": 1016,
+          "350": 1016
+        },
+        "now_ms": 1788713354882
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1002,
+          "100": 1002,
+          "350": 1002
+        },
+        "now_ms": 1788713356350
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 946,
+          "100": 946,
+          "350": 946
+        },
+        "now_ms": 1788713357993
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1004,
+          "100": 1004,
+          "350": 1004
+        },
+        "now_ms": 1788713359952
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1065,
+          "100": 1065,
+          "350": 1065
+        },
+        "now_ms": 1788713361479
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 913,
+          "100": 913,
+          "350": 913
+        },
+        "now_ms": 1788713363110
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 933,
+          "100": 933,
+          "350": 919
+        },
+        "now_ms": 1788713365119
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 917,
+          "100": 917,
+          "350": 917
+        },
+        "now_ms": 1788713366837
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1209,
+          "100": 1209,
+          "350": 1209
+        },
+        "now_ms": 1788713368500
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 974,
+          "100": 974,
+          "350": 974
+        },
+        "now_ms": 1788713369883
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 918,
+          "100": 918,
+          "350": 918
+        },
+        "now_ms": 1788713371747
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 960,
+          "100": 960,
+          "350": 960
+        },
+        "now_ms": 1788713373350
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 923,
+          "100": 923,
+          "350": 923
+        },
+        "now_ms": 1788713375158
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 911,
+          "100": 911,
+          "350": 911
+        },
+        "now_ms": 1788713376588
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 932,
+          "100": 932,
+          "350": 932
+        },
+        "now_ms": 1788713378201
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 964,
+          "100": 964,
+          "350": 964
+        },
+        "now_ms": 1788713380053
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1006,
+          "100": 1006,
+          "350": 1006
+        },
+        "now_ms": 1788713381513
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1005,
+          "100": 1005,
+          "350": 1005
+        },
+        "now_ms": 1788713383216
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1002,
+          "100": 1002,
+          "350": 1002
+        },
+        "now_ms": 1788713385006
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1029,
+          "100": 1029,
+          "350": 1029
+        },
+        "now_ms": 1788713386770
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1249,
+          "100": 1249,
+          "350": 1249
+        },
+        "now_ms": 1788713388524
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1130,
+          "100": 1130,
+          "350": 921
+        },
+        "now_ms": 1788713390045
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 914,
+          "100": 914,
+          "350": 914
+        },
+        "now_ms": 1788713391822
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 899,
+          "100": 899,
+          "350": 899
+        },
+        "now_ms": 1788713393472
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 944,
+          "100": 944,
+          "350": 944
+        },
+        "now_ms": 1788713395183
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 903,
+          "100": 903,
+          "350": 903
+        },
+        "now_ms": 1788713396699
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 945,
+          "100": 945,
+          "350": 945
+        },
+        "now_ms": 1788713398300
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 935,
+          "100": 935,
+          "350": 935
+        },
+        "now_ms": 1788713400111
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 929,
+          "100": 929,
+          "350": 929
+        },
+        "now_ms": 1788713401529
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 935,
+          "100": 935,
+          "350": 935
+        },
+        "now_ms": 1788713403105
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 996,
+          "100": 996,
+          "350": 987
+        },
+        "now_ms": 1788713405159
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1050,
+          "100": 1050,
+          "350": 1050
+        },
+        "now_ms": 1788713406911
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 993,
+          "100": 993,
+          "350": 993
+        },
+        "now_ms": 1788713408586
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1020,
+          "100": 1020,
+          "350": 967
+        },
+        "now_ms": 1788713410425
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 942,
+          "100": 942,
+          "350": 942
+        },
+        "now_ms": 1788713412215
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": true,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1159,
+          "100": 1159,
+          "350": 1159
+        },
+        "now_ms": 1788713413914
+      },
+      {
+        "current_freshness_only_pass": false,
+        "exposure_healthy": false,
+        "max_age_during_exposure_ms_by_activation": {
+          "0": 1758,
+          "100": 1758,
+          "350": 1758
+        },
+        "now_ms": 1788713415555
+      }
+    ],
+    "freshness_only_pass": 0,
+    "limits": "Counterfactual necessary condition; no replay or quotes executed",
+    "path": "data/feasibility_2026-09-06/server_capture/windows.jsonl",
+    "sha256": "99e5eabee1b723a49f61c4f2d80d86ad8671def77a1ef67b3f6cfda009033fc0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "files": {
+    "Dockerfile": "10c3ec4806626a2f85aae0bd92b380d67612a6d778cc56ebe016efb75f3c22a5",
+    "bin/hyperbot2": "cccc573df5086531e1fc850513001e5d13d2d96f2ea68147d4391a302fd825d6",
+    "bin/hyperbot2-server": "099afa54f556fe835442747427df65beeec9deec0376833537a65120a4fbbb20",
+    "config/outcomes.toml": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+    "dist/hyperbot2-0.2.0-py3-none-any.whl": "4db9c9d26037ebb10ec5511821b34de8b5c8ffeba7fd67027f550639bd00e7ae",
+    "requirements.lock": "dcb13b4219ca09e64b70688c7d219b2afe09ca4cd3f00ccab812b1986491958a"
+  },
+  "live_enabled": false,
+  "release": "b44a0baa421ac7f2"
+}

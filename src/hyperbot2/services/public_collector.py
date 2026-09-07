@@ -227,6 +227,12 @@ class PublicWebSocketCollector:
         """Run until stop is set, then drain every queued event."""
 
         writer = asyncio.create_task(self._writer(), name="hyperbot2-public-writer")
+
+        def writer_finished(task: asyncio.Task[None]) -> None:
+            if task.cancelled() or task.exception() is not None:
+                stop.set()
+
+        writer.add_done_callback(writer_finished)
         delay = self.config.reconnect_initial_seconds
         try:
             while not stop.is_set():
@@ -266,7 +272,8 @@ class PublicWebSocketCollector:
             self._enqueue_control(CollectorControlKind.SHUTDOWN, "requested")
         finally:
             self._connected = False
-            await self._queue.put(None)
+            if not writer.done():
+                await self._queue.put(None)
             await writer
         return self.metrics
 

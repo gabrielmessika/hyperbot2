@@ -17,6 +17,7 @@ encodées en chaînes, les horloges en millisecondes entières UTC.
 | `future_books` | Observations après décision jusqu’à TTL + latence d’annulation ; utilisées uniquement pour exécution/risque postérieurs |
 | `trades` | Identifiant stable du match économique, côté YES/NO, horloges, séquence, côté agressif, prix et quantité |
 | `healthy` | État causal du flux à la décision |
+| `exposure_healthy` | Intégrité pendant l’exposition ; faux sur gap ou queue de capture incomplète, ce qui invalide le résultat économique |
 
 Un fichier voisin `windows.jsonl.sha256` doit contenir son SHA-256. Il identifie
 l’entrée entière ; ses preuves de qualité doivent être conservées séparément.
@@ -33,9 +34,9 @@ placée devant l’ordre, sans avantage supposé de priorité du côté dual.
 
 Les flux bruts du témoin se trouvent dans `raw/outcomes-fast-public.jsonl`,
 au format `JsonlEventStore` HyperBot, et leurs contrôles dans le flux voisin.
-Ils ne sont pas directement des fenêtres qualifiées. La jointure des références
-de settlement/calibrations et la qualification de file restent à fournir avec
-des preuves réelles. `CausalFairValueModel` est une brique de calcul testée,
+La commande `prepare` et le service `run` les assemblent désormais automatiquement
+en fenêtres. La qualification des références de settlement/calibrations et de
+la file reste à fournir avec des preuves réelles. `CausalFairValueModel` est une brique de calcul testée,
 pas une calibration rentable préentraînée ni un connecteur de référence qualifié.
 
 ## Attestations du catalogue

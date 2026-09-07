@@ -5,6 +5,10 @@ et simulation d’un maker sélectif sur les outcomes quotidiens BTC, ETH, SOL e
 HYPE. Capital de référence : 1 000 $. Le [rapport de validation](reports/implementation_2026-09-06/REPORT.md)
 sépare les tests logiciels des preuves économiques encore manquantes.
 
+**Version 0.2.0 : exécutable serveur, service public borné, healthcheck et
+assemblage automatique des captures.** Voir [l’exploitation serveur](docs/SERVER.md)
+et [le rapport d’acceptation](reports/server_2026-09-06/REPORT.md).
+
 Le noyau HyperBot est repris dans ce dépôt : collector, stockage vérifiable,
 adaptateurs legacy, moteur de file, superviseur de risque et outils statistiques.
 Voir la [provenance et les adaptations](reports/reuse/README.md).
@@ -96,6 +100,12 @@ Les caps de la fondation et la limite de fraîcheur de 500 ms restent actifs.
 Une campagne interrompue conserve son diagnostic et ne reprend pas avec un
 portefeuille fictivement réinitialisé : la reprise de session n’est pas implémentée.
 
+Le service `run` marque une interruption non finalisée au démarrage suivant.
+Chaque nouvelle session possède un identifiant distinct ; ses résultats ne
+sont jamais raccordés artificiellement au capital d’une session interrompue.
+Le redémarrage automatique est désactivé. Les arrêts SIGTERM/SIGINT finalisent
+les fenêtres, les rapports et les checksums avant de sortir.
+
 Les commandes retournent `0` si le traitement finit sans blocage de données
 (ce n’est pas un PASS économique), `2` pour `DATA_BLOCKED`, et un code non nul
 avec `failure.json` pour une erreur d’exécution après création du run.
@@ -105,5 +115,6 @@ Tous les rapports excluent une promotion automatique.
 
 Le [suivi](FOLLOW_UP.md) liste les livraisons et les conditions restantes.
 Le dépôt ne contient aucune passerelle signant ou envoyant des ordres réels.
-`live_enabled=true` est refusé par la configuration. Aucun déploiement,
-redémarrage des anciens bots ou collecte permanente n’est effectué par ces commandes.
+`live_enabled=true` est refusé par la configuration. Le déploiement HyperBot2
+sur serveur a été explicitement demandé après la livraison initiale. Il reste
+séparé des anciens bots, qui ne sont pas redémarrés.

@@ -1,0 +1,23 @@
+{
+  "at": "2026-09-06T17:31:50.560064+00:00",
+  "probes": [
+    {
+      "authenticated": false,
+      "response": {
+        "sha256": "debb599dcbf27cd0a7a506a50ad60245172f3003714b5ac2a9c773bc9500faad",
+        "stored_path": "data/search_2026-09-06/provider/openapi.json"
+      },
+      "status": "200",
+      "url": "https://docs.0xarchive.io/openapi.json"
+    },
+    {
+      "authenticated": false,
+      "response": {
+        "code": 401,
+        "error": "Missing authentication credentials. Provide X-API-Key header or Bearer token."
+      },
+      "status": "401",
+      "url": "https://api.0xarchive.io/v1/hyperliquid/hip4/orderbook/%2317150/l4?depth=2"
+    }
+  ]
+}

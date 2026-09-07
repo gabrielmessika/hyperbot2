@@ -11,8 +11,9 @@ Lire `/home/goldadm/.codex/RTK.md` et préfixer les commandes shell avec `rtk`.
 - Modèles immuables, montants `Decimal`, raw append-only, provenance checksumée.
 - Aucun client de signature, ordre exchange ou dépendance de trading live.
   `live_enabled=false`, `shadow_only=true`, `public_data_only=true` obligatoires.
-- Les services serveur ont été arrêtés à la demande de l’utilisateur : aucun
-  déploiement ou redémarrage implicite lors du développement.
+- L’utilisateur a ensuite autorisé un exécutable HyperBot2 propre sur le serveur.
+  Installation et validation publique bornée de HyperBot2 autorisées ; les anciens
+  services restent arrêtés, le trading réel reste interdit.
 - B/C servent à l’exploration et au modèle optimiste uniquement. Les modèles
   maker central/pessimiste exigent A, causalité, file et mécanique duale qualifiées.
 - Frais/settlement/tick inconnus, donnée stale, gap ou divergence : fail-closed.

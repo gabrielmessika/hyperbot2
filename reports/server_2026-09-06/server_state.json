@@ -1,0 +1,21 @@
+{
+  "cap_drop": [
+    "ALL"
+  ],
+  "exit_code": 0,
+  "image": "hyperbot2:b44a0baa421ac7f2",
+  "memory_bytes": 4294967296,
+  "nano_cpus": 1000000000,
+  "oom": false,
+  "readonly": true,
+  "restart": {
+    "MaximumRetryCount": 0,
+    "Name": "no"
+  },
+  "running_containers": [],
+  "security_options": [
+    "no-new-privileges"
+  ],
+  "state": "exited",
+  "user": "1000:1000"
+}

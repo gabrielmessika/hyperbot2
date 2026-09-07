@@ -1,0 +1,14 @@
+{
+  "files": {
+    "scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "scripts/fetch_research_history.py": "bdc44785e8c89d0c44d1dba54001987fb7c008b6a08ee582a1c35dc256cdd699",
+    "scripts/probe_l4_archive.py": "a25b27d3f6645c262b29a8c0d4053758b08137057e5f78f276a11b061e7eecf2",
+    "scripts/screen_outcome_baskets.py": "2c645d2299a217c202c9d5ce78e61bb51444a55d402518ad2053f117fac53e50",
+    "src/hyperbot2/research/l4_archive.py": "eb37a9f32648db58cf4d1e2467a4b7dd533817cf9e05d94dd8c9beaf9de5badf"
+  },
+  "lint": "passed",
+  "mypy_source_modules": 44,
+  "observed_at": "2026-09-06T17:40:19.416375+00:00",
+  "runtime_deployment_changed": false,
+  "tests_passed": 163
+}

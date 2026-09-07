@@ -1,0 +1,11 @@
+{
+  "end_ms": 1788710410000,
+  "outcome_id": 1715,
+  "promotion_authorized": false,
+  "reason": "OXARCHIVE_API_KEY or --key-file required; no network call",
+  "reconstructor_sha256": "eb37a9f32648db58cf4d1e2467a4b7dd533817cf9e05d94dd8c9beaf9de5badf",
+  "results": [],
+  "script_sha256": "a25b27d3f6645c262b29a8c0d4053758b08137057e5f78f276a11b061e7eecf2",
+  "start_ms": 1788710400000,
+  "verdict": "DATA_BLOCKED"
+}

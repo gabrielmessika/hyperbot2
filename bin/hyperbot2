@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+release="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+install_root="$(cd "$release/../.." && pwd)"
+image="$(cat "$release/image.txt")"
+[[ "$image" =~ ^hyperbot2:[a-f0-9]{16}$ ]] || { echo "Invalid image manifest" >&2; exit 1; }
+exec docker run --rm --read-only --cap-drop=ALL --security-opt=no-new-privileges \
+    --memory=4g --cpus=1 --pids-limit=128 --tmpfs /tmp:rw,noexec,nosuid,size=64m \
+    --mount "type=bind,src=$install_root/shared/data,dst=/data" \
+    --label app=hyperbot2-cli "$image" "$@"

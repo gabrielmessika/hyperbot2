@@ -72,6 +72,7 @@ class OutcomeWindow:
     future_books: tuple[OutcomeBook, ...] = ()
     trades: tuple[OutcomeTrade, ...] = ()
     healthy: bool = True
+    exposure_healthy: bool = True
 
 
 class OutcomeSession:
@@ -121,6 +122,9 @@ class OutcomeSession:
         self.last_frame_ms = window.now_ms
         self.first_ms = window.now_ms if self.first_ms is None else self.first_ms
         self.counts["frames"] += 1
+        if not window.exposure_healthy:
+            self.blocked = True
+            self.counts["exposure_integrity_failure"] += 1
         if window.now_ms <= self.last_end_ms:
             self.counts["window_busy"] += 1
             return
@@ -334,6 +338,9 @@ class OutcomeSession:
         if self.finished:
             raise ValueError("session already finalized")
         self.finished = True
+        if not self.counts["frames"]:
+            self.blocked = True
+            self.counts["no_observations"] += 1
         end_ms = max(self.last_end_ms, self.last_frame_ms, 0)
         trading_pnl = self.ledger.realized
         residual = {

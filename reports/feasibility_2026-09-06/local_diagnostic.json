@@ -1,0 +1,436 @@
+{
+  "activation_sensitivity": [
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 560,
+      "placement_ms": 0
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 560,
+      "placement_ms": 50
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 552,
+      "placement_ms": 100
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 544,
+      "placement_ms": 150
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 480,
+      "placement_ms": 200
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 185,
+      "placement_ms": 250
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 16,
+      "placement_ms": 300
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 350
+    },
+    {
+      "clock_uncertainty_ms": 0,
+      "passing_books": 0,
+      "placement_ms": 700
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 560,
+      "placement_ms": 0
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 552,
+      "placement_ms": 50
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 544,
+      "placement_ms": 100
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 480,
+      "placement_ms": 150
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 185,
+      "placement_ms": 200
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 16,
+      "placement_ms": 250
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 300
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 350
+    },
+    {
+      "clock_uncertainty_ms": 50,
+      "passing_books": 0,
+      "placement_ms": 700
+    }
+  ],
+  "books": 591,
+  "channels": {
+    "l2Book": 591,
+    "trades": 244
+  },
+  "contexts": [
+    {
+      "code_version": "source-sha256:ad52f3c1a75e2c66f6e9f37a907da635026b72ded1bf6ca170e4fe45d47d7acd",
+      "config_hash": "23a866e9a7695b1216ad749d6608211075a9d846761c86ef21f1b87fef2785c0",
+      "run_id": "hb2-witness-1788710907795049301",
+      "time_source": "replay"
+    }
+  ],
+  "diagnostic_script_sha256": "6937a0333de3105840f784bb12543d607825999248d0e9fe8254c927e8e287d6",
+  "fast_confirmed": 591,
+  "fixed_assumptions": {
+    "cancel_ms": 350,
+    "stale_ms": 500,
+    "ttl_ms": 1000
+  },
+  "fresh_at_receipt": 560,
+  "level_fields": [
+    "n",
+    "px",
+    "sz"
+  ],
+  "limits": [
+    "short observational sample",
+    "not order latency measurements",
+    "pooled coin-time is not portfolio uptime",
+    "no fill qualification"
+  ],
+  "negative_age": 0,
+  "payload_integrity_verified": true,
+  "per_coin": {
+    "#17150": {
+      "age_ms": {
+        "max": 631,
+        "min": 193,
+        "n": 74,
+        "p50": 267,
+        "p90": 333,
+        "p95": 502,
+        "p99": 631
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 888,
+        "min": 193,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 888
+      },
+      "time_coverage": {
+        "fresh_ms": 16117,
+        "observed_ms": 39255,
+        "stale_ms": 23138
+      }
+    },
+    "#17151": {
+      "age_ms": {
+        "max": 658,
+        "min": 194,
+        "n": 74,
+        "p50": 267,
+        "p90": 334,
+        "p95": 503,
+        "p99": 658
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 887,
+        "min": 194,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 887
+      },
+      "time_coverage": {
+        "fresh_ms": 16087,
+        "observed_ms": 39228,
+        "stale_ms": 23141
+      }
+    },
+    "#17160": {
+      "age_ms": {
+        "max": 865,
+        "min": 194,
+        "n": 74,
+        "p50": 267,
+        "p90": 334,
+        "p95": 503,
+        "p99": 865
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 887,
+        "min": 194,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 887
+      },
+      "time_coverage": {
+        "fresh_ms": 16074,
+        "observed_ms": 39021,
+        "stale_ms": 22947
+      }
+    },
+    "#17161": {
+      "age_ms": {
+        "max": 865,
+        "min": 194,
+        "n": 74,
+        "p50": 267,
+        "p90": 334,
+        "p95": 503,
+        "p99": 865
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 887,
+        "min": 194,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 887
+      },
+      "time_coverage": {
+        "fresh_ms": 16069,
+        "observed_ms": 39022,
+        "stale_ms": 22953
+      }
+    },
+    "#17170": {
+      "age_ms": {
+        "max": 880,
+        "min": 194,
+        "n": 74,
+        "p50": 267,
+        "p90": 334,
+        "p95": 503,
+        "p99": 880
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 888,
+        "min": 194,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 888
+      },
+      "time_coverage": {
+        "fresh_ms": 16064,
+        "observed_ms": 39007,
+        "stale_ms": 22943
+      }
+    },
+    "#17171": {
+      "age_ms": {
+        "max": 1087,
+        "min": 194,
+        "n": 74,
+        "p50": 268,
+        "p90": 335,
+        "p95": 503,
+        "p99": 1087
+      },
+      "distinct_exchange_times": 74,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 888,
+        "min": 3,
+        "n": 73,
+        "p50": 539,
+        "p90": 633,
+        "p95": 683,
+        "p99": 888
+      },
+      "time_coverage": {
+        "fresh_ms": 16053,
+        "observed_ms": 38800,
+        "stale_ms": 22747
+      }
+    },
+    "#17180": {
+      "age_ms": {
+        "max": 589,
+        "min": 195,
+        "n": 74,
+        "p50": 268,
+        "p90": 335,
+        "p95": 503,
+        "p99": 589
+      },
+      "distinct_exchange_times": 73,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 0,
+        "n": 73,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 888,
+        "min": 2,
+        "n": 73,
+        "p50": 539,
+        "p90": 634,
+        "p95": 682,
+        "p99": 888
+      },
+      "time_coverage": {
+        "fresh_ms": 16046,
+        "observed_ms": 38799,
+        "stale_ms": 22753
+      }
+    },
+    "#17181": {
+      "age_ms": {
+        "max": 589,
+        "min": 195,
+        "n": 73,
+        "p50": 268,
+        "p90": 324,
+        "p95": 443,
+        "p99": 589
+      },
+      "distinct_exchange_times": 73,
+      "exchange_interval_ms": {
+        "max": 651,
+        "min": 466,
+        "n": 72,
+        "p50": 539,
+        "p90": 568,
+        "p95": 604,
+        "p99": 651
+      },
+      "receipt_interval_ms": {
+        "max": 888,
+        "min": 194,
+        "n": 72,
+        "p50": 539,
+        "p90": 634,
+        "p95": 682,
+        "p99": 888
+      },
+      "time_coverage": {
+        "fresh_ms": 16040,
+        "observed_ms": 38798,
+        "stale_ms": 22758
+      }
+    }
+  },
+  "pooled_coin_time": {
+    "fresh_fraction": 0.4121116917257077,
+    "fresh_ms": 128550,
+    "observed_ms": 311930
+  },
+  "raw_path": "data/validation/witness-40s/raw/outcomes-fast-public.jsonl",
+  "raw_sha256": "91a5799b33d3498b41221427cf655c78ff0fd0e020e1c15c8f69375bd1003a07",
+  "receipt_age_excluding_first_per_coin_ms": {
+    "max": 589,
+    "min": 193,
+    "n": 583,
+    "p50": 267,
+    "p90": 324,
+    "p95": 442,
+    "p99": 588
+  },
+  "receipt_age_ms": {
+    "max": 1087,
+    "min": 193,
+    "n": 591,
+    "p50": 268,
+    "p90": 334,
+    "p95": 503,
+    "p99": 631
+  },
+  "wall_minus_monotonic_range_ms": 55.3798828125
+}

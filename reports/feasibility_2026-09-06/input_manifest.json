@@ -1,0 +1,27 @@
+[
+  {
+    "bytes": 1184966,
+    "sha256": "ae90a5ab734526321fd6a2adc876f4094eba79da856247d38b0b178199f00c31",
+    "source": "/opt/hyperbot2/shared/data/runs/hb2-run-1788713353331737536/raw/outcomes-fast-public.jsonl"
+  },
+  {
+    "bytes": 102715,
+    "sha256": "99e5eabee1b723a49f61c4f2d80d86ad8671def77a1ef67b3f6cfda009033fc0",
+    "source": "/opt/hyperbot2/shared/data/runs/hb2-run-1788713353331737536/windows.jsonl"
+  },
+  {
+    "bytes": 5891,
+    "sha256": "f3a1fcd95f9f79ed277d8ea105b67fe0bd3536827dc96520a916b8d84bfbe688",
+    "source": "/opt/hyperbot2/shared/data/runs/hb2-run-1788713353331737536/manifest.json"
+  },
+  {
+    "bytes": 63145,
+    "sha256": "20fb067e912b8814b9d4098366293e40e63c7d4f20875eb99ab9bc11296abae9",
+    "source": "/opt/hyperbot2/shared/data/runs/hb2-run-1788713353331737536/outcome_meta.json"
+  },
+  {
+    "bytes": 5348,
+    "sha256": "37884aa7ad15bade4c62501f950f6fddf92f0e80aba0f465fd591ebff7616161",
+    "source": "/opt/hyperbot2/shared/data/runs/hb2-run-1788713353331737536/result.json"
+  }
+]

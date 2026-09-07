@@ -1,0 +1,871 @@
+{
+  "book_requests": 32,
+  "candidates": [
+    {
+      "coins": [
+        "#17200",
+        "#17210",
+        "#17220",
+        "#17190"
+      ],
+      "kind": "complete_yes_basket",
+      "question": {
+        "description": "class:priceBucket|underlying:BTC|expiry:20260907-0600|priceThresholds:78363,81562|period:1d",
+        "fallbackOutcome": 1719,
+        "name": "Recurring",
+        "namedOutcomes": [
+          1720,
+          1721,
+          1722
+        ],
+        "question": 208,
+        "settledNamedOutcomes": []
+      },
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#17960",
+        "#17971"
+      ],
+      "kind": "nested_binary_cover",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "BTC",
+          "priceDescription": "the Hyperliquid BTC perp trade",
+          "seconds": "90",
+          "time": "20260906-2030"
+        },
+        "venue": "skew"
+      },
+      "thresholds": [
+        "79475",
+        "79725"
+      ],
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#17960",
+        "#17981"
+      ],
+      "kind": "nested_binary_cover",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "BTC",
+          "priceDescription": "the Hyperliquid BTC perp trade",
+          "seconds": "90",
+          "time": "20260906-2030"
+        },
+        "venue": "skew"
+      },
+      "thresholds": [
+        "79475",
+        "79975"
+      ],
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#17970",
+        "#17981"
+      ],
+      "kind": "nested_binary_cover",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "BTC",
+          "priceDescription": "the Hyperliquid BTC perp trade",
+          "seconds": "90",
+          "time": "20260906-2030"
+        },
+        "venue": "skew"
+      },
+      "thresholds": [
+        "79725",
+        "79975"
+      ],
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#15260",
+        "#15291"
+      ],
+      "kind": "nested_binary_cover",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "thresholds": [
+        "7625",
+        "7700"
+      ],
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#15260",
+        "#15521"
+      ],
+      "kind": "nested_binary_cover",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "thresholds": [
+        "7625",
+        "7775"
+      ],
+      "verdict": "MISSING_LEG_LIQUIDITY"
+    },
+    {
+      "coins": [
+        "#15290",
+        "#15521"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1604,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.00050000500005000050000500",
+      "min_quantity_for_10_usd_each_leg": "10.00010000100001000010000100",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.99998",
+      "thresholds": [
+        "7700",
+        "7775"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.99998"
+    },
+    {
+      "coins": [
+        "#15270",
+        "#15301"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1565,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "19.95052270369483680472428378",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.50024",
+      "thresholds": [
+        "7625",
+        "7700"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.50024"
+    },
+    {
+      "coins": [
+        "#15270",
+        "#15531"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 2630,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "13.22261596234198973925001322",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.75528",
+      "thresholds": [
+        "7625",
+        "7775"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.75528"
+    },
+    {
+      "coins": [
+        "#15300",
+        "#15531"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1617,
+      "max_quantity_at_top_and_50_usd_per_leg": "47.0",
+      "min_quantity_for_10_usd_each_leg": "14.31086051204258912088383875",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.45505",
+      "thresholds": [
+        "7700",
+        "7775"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.45505"
+    },
+    {
+      "coins": [
+        "#15280",
+        "#15511"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1604,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "19.21008145074535116028891963",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.51956",
+      "thresholds": [
+        "7625",
+        "7700"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.51956"
+    },
+    {
+      "coins": [
+        "#15280",
+        "#15541"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 2118,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "13.85962967069519902428207118",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.72052",
+      "thresholds": [
+        "7625",
+        "7775"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.72052"
+    },
+    {
+      "coins": [
+        "#15510",
+        "#15541"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1065,
+      "max_quantity_at_top_and_50_usd_per_leg": "60.0",
+      "min_quantity_for_10_usd_each_leg": "14.71778644491868422989182427",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:SP500",
+          "priceDescription": "the Pyth US500 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.40097",
+      "thresholds": [
+        "7700",
+        "7775"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.40097"
+    },
+    {
+      "coins": [
+        "#15160",
+        "#15201"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1204,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.00050000500005000050000500",
+      "min_quantity_for_10_usd_each_leg": "10.00010000100001000010000100",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.99998",
+      "thresholds": [
+        "28875",
+        "29400"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.99998"
+    },
+    {
+      "coins": [
+        "#15160",
+        "#15231"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 3017,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.00050000500005000050000500",
+      "min_quantity_for_10_usd_each_leg": "10.00010000100001000010000100",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.99998",
+      "thresholds": [
+        "28875",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.99998"
+    },
+    {
+      "coins": [
+        "#15200",
+        "#15231"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1813,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.00050000500005000050000500",
+      "min_quantity_for_10_usd_each_leg": "10.00010000100001000010000100",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260907-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.99998",
+      "thresholds": [
+        "29400",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.99998"
+    },
+    {
+      "coins": [
+        "#15180",
+        "#15211"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1205,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "21.33469875405359276327018263",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.46772",
+      "thresholds": [
+        "28875",
+        "29400"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.46772"
+    },
+    {
+      "coins": [
+        "#15180",
+        "#15241"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 2414,
+      "max_quantity_at_top_and_50_usd_per_leg": "50.05005005005005005005005005",
+      "min_quantity_for_10_usd_each_leg": "12.45174947080064749097248163",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.8021",
+      "thresholds": [
+        "28875",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.8021"
+    },
+    {
+      "coins": [
+        "#15210",
+        "#15241"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1209,
+      "max_quantity_at_top_and_50_usd_per_leg": "62.25874735400323745486240817",
+      "min_quantity_for_10_usd_each_leg": "13.67446567025393482749661557",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260909-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.53439",
+      "thresholds": [
+        "29400",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.53439"
+    },
+    {
+      "coins": [
+        "#15190",
+        "#15221"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1809,
+      "max_quantity_at_top_and_50_usd_per_leg": "53.68205194275345980824771046",
+      "min_quantity_for_10_usd_each_leg": "20.10131060545147543619844014",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.42889",
+      "thresholds": [
+        "28875",
+        "29400"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.42889"
+    },
+    {
+      "coins": [
+        "#15190",
+        "#15251"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 2955,
+      "max_quantity_at_top_and_50_usd_per_leg": "53.68205194275345980824771046",
+      "min_quantity_for_10_usd_each_leg": "13.11957177717719293642255517",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.69363",
+      "thresholds": [
+        "28875",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.69363"
+    },
+    {
+      "coins": [
+        "#15220",
+        "#15251"
+      ],
+      "kind": "nested_binary_cover",
+      "max_exchange_timestamp_skew_ms": 1146,
+      "max_quantity_at_top_and_50_usd_per_leg": "65.59785888588596468211277584",
+      "min_quantity_for_10_usd_each_leg": "14.23426757576188917199265512",
+      "spec": {
+        "quote": "USDC",
+        "spec": {
+          "perp": "xyz:XYZ100",
+          "priceDescription": "the Pyth US100 index price",
+          "seconds": "90",
+          "time": "20260911-2000"
+        },
+        "venue": "skew"
+      },
+      "sum_best_asks": "1.46475",
+      "thresholds": [
+        "29400",
+        "29925"
+      ],
+      "verdict": "NO_VISIBLE_BUY_BASKET_EDGE",
+      "zero_fee_margin_per_bundle": "-0.46475"
+    }
+  ],
+  "limits": [
+    "sequential REST snapshots are not atomic",
+    "fees set to zero",
+    "payoff/settlement descriptions require independent qualification",
+    "no queue or actual execution proof",
+    "no short/split strategy tested"
+  ],
+  "metadata_path": "data/search_2026-09-06/history/request-044.json",
+  "metadata_sha256": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+  "promotion_authorized": false,
+  "requests": [
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-000.json",
+      "request": {
+        "coin": "#15160",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "7308ada474d5785e631b9b87fbda8828bbbdc46b06b324aec47ec583e7cb8639"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-001.json",
+      "request": {
+        "coin": "#15180",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "09deaf98f0692806456907ac33c7f88ecdace43988afae603cf46130997ea958"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-002.json",
+      "request": {
+        "coin": "#15190",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "7ca199a2a1372f6ae9264da2f330fef128b9e1b7e4acb80361b8b4118d1b4140"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-003.json",
+      "request": {
+        "coin": "#15200",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "8a45f7272560087bc0607e93537157f1927d4dff6876416f9e9ffba2f4be7dd7"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-004.json",
+      "request": {
+        "coin": "#15201",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "86e1dee0a965e700ca2016f74ad31816dece71f8cdd3fc98f4c7d29f06ed7a2b"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-005.json",
+      "request": {
+        "coin": "#15210",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "54ba994079f30fd7c326339ab285df251bd5cc0fa1dcd6c4ee2df72525485602"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-006.json",
+      "request": {
+        "coin": "#15211",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "a2fee5edd1176493b1c9107016956cf0ba59e717be9e70a8b4ca10d6324a3b1a"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-007.json",
+      "request": {
+        "coin": "#15220",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "13dec403370ca69423e767952d2e7d9435ef6e4061e9bd1391255b232f83115b"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-008.json",
+      "request": {
+        "coin": "#15221",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "0053fc9b4f39f98e38cd23d72f84cbbe42cd64181a6e8bca8f7e61227dc1a83e"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-009.json",
+      "request": {
+        "coin": "#15231",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "47df0ffa74fe5ca771bab94d3b71a729dea65bac1fdba8c111fda6290021fbfb"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-010.json",
+      "request": {
+        "coin": "#15241",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "8bc19ab4300dd8018cdd3c40268d2f55b2d067f744a495da68b1e614843cfd92"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-011.json",
+      "request": {
+        "coin": "#15251",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "ef310eabe2cea88f8c5c78e8f973d77f98579502974636994f256b12667038bf"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-012.json",
+      "request": {
+        "coin": "#15260",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "2d4976b80e7872e5c7aae34756d014ba943c416f874cad1a246862a744245289"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-013.json",
+      "request": {
+        "coin": "#15270",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "431e69b74e52ca56aedb7549eaa02f2ef0219b6ae84731bb64638b4a30457260"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-014.json",
+      "request": {
+        "coin": "#15280",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "1281e120659af56e08e620727cc86250018fbfce22eab9b16a322068faeb07cf"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-015.json",
+      "request": {
+        "coin": "#15290",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "3a2b0378c843348ad896cc7453b47be7d5e7a8e7b07c0d383247f8a3e95c20fd"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-016.json",
+      "request": {
+        "coin": "#15291",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "1cf73400667dd3623efea9638a949faa6a44f315df6090202bc73189cc93277e"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-017.json",
+      "request": {
+        "coin": "#15300",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "82b740157086914e8abb724c366e1bec3873387c903967b6ba9a9f7700784b2a"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-018.json",
+      "request": {
+        "coin": "#15301",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "78a994a25dfd17763dc5a4c0e7f0fdb7de0a73a2360fdf79b6255859c2e3a99b"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-019.json",
+      "request": {
+        "coin": "#15510",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "35132af29823f6f23890f07c45591a9d648926af7e7595b02394dac605bf2e4f"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-020.json",
+      "request": {
+        "coin": "#15511",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "a8db43becd3ff865967798477374499e5bdd40b8f28a9c9a805ae67775e68ef0"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-021.json",
+      "request": {
+        "coin": "#15521",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "b4c596325de8791603a92feca3ccd81f9d68e7997ca5006a7427653e22621aa0"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-022.json",
+      "request": {
+        "coin": "#15531",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "cba40656e3f8709feee31f7ac36b968e6be994b0de3dfb4cb32bcb8795fa8749"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-023.json",
+      "request": {
+        "coin": "#15541",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "fda88935d0dc6e4a40ab016dd4b02c5f53bd77e7c98f208257ea6443acde7ee4"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-024.json",
+      "request": {
+        "coin": "#17190",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "c3bfa7bf4a6498080938658a5de894507e3d1aaafef19f4d470da4a536472e37"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-025.json",
+      "request": {
+        "coin": "#17200",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "cae0b045d2093a94195b3e8de009064dd327bc4ef12c2f9d1f54655104cca2d0"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-026.json",
+      "request": {
+        "coin": "#17210",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "c3f80645d3bf6170b338272b8aa63bdd1362ffa4c002e1d7c2340f2477d997f0"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-027.json",
+      "request": {
+        "coin": "#17220",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "0a8266fee21941165d29b937fe39c26c5b3bffd276df5e45ed2bd687e5c6da44"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-028.json",
+      "request": {
+        "coin": "#17960",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "e5f37d571d2f08f834b49589341d0463c02fa968dc8f7942f46770d2aaba738b"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-029.json",
+      "request": {
+        "coin": "#17970",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "837e752376fc2739d839583658169d50fd21d14508904540c9d4ac0c44829094"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-030.json",
+      "request": {
+        "coin": "#17971",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "955f4db6b6e38e4f953cbc94362754d6a20079cfbeb0acded8f823f983f65f32"
+    },
+    {
+      "path": "data/search_2026-09-06/baskets/raw/request-031.json",
+      "request": {
+        "coin": "#17981",
+        "type": "l2Book"
+      },
+      "returncode": 0,
+      "sha256": "54e1c1fe1010c499a682dfec1596a4fe7d975647a3d6553c343a0d4104205bab"
+    }
+  ],
+  "script_sha256": "2c645d2299a217c202c9d5ce78e61bb51444a55d402518ad2053f117fac53e50",
+  "verdict": "EXPLORATORY_ONLY"
+}
