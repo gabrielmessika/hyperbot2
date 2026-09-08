@@ -1,0 +1,808 @@
+{
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 97,
+      "sha256": "78f1d5c0d56903ec1ccb4d9d216434ccc21419b2d6bbd27ab0a231a7fde9934a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "88dbdceaec7c22cd558cb038e19390556344872722adfd17cf8664c8899a43cd",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 97,
+      "sha256": "e71dbaaa4a9aa435f70c54267141457b7929ee10849120ddb8d4de8077243abf",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "7defa1693bd84c543b8a4b801edaf8b11cc5cc2beb0526b2463124d213733fd5",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 84,
+      "sha256": "a74204955a6ada0213a7eecb3d6b8864bb9ea0afb063608d7b2e0f76e862743b",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 68,
+      "sha256": "212eab923e1f018134c31e1ebf85b543d1d3b3b753c611867f8d0d9c7cdd09ab",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 97,
+      "sha256": "54f274fbb330c88b6ffded4d4f0b4a928df77f49b8f5f6229f26a5a9f477b31e",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "63389c57047c569718236e71c3d526b53a05c9c9a6bbd75a5fa46feb5d827217",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 97,
+      "sha256": "5d9103c075110ca4add4e0586a6d9d0fdbc1e16aeb5941b6349617b1a8e8e9b3",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "703dd769eac1762d4c388cda5523ea0f05d7cf8f6b04960d88c67bcad8c2a722",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 236,
+      "sha256": "bca5a90bdd208a7f7976464965a002b04c6f43374b7014777a76728f7783ae9b",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 94,
+      "sha256": "92731cf9cae56fab9859682a2fd2fc5ae1a8da872dccedab2676e0da9cdca4ff",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 237,
+      "sha256": "f64a4b73f25ea1c619faff61dbf23e995e96348142edf89f358d9cc71cd626b0",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 94,
+      "sha256": "5fb349a5fd250afe0bf87afd024a2982909a1c182a69558494a23c639ffa8b1a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 233,
+      "sha256": "20009cb61012c73c847df51cf0d97785e9f4eca60e7b8091dea08e8b35ee7b8f",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 92,
+      "sha256": "c8e6f9fd170925ab8a8e0b1815612d33ba1642f5ea0051dec8053c24fa6893e4",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 237,
+      "sha256": "9d2ff8f714d79612ff0c87340925c5d496578f469fd069079c45204fa5882550",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 94,
+      "sha256": "993a544876d015980c6a5572c1dd2bcae001505a4eba04e0d0a38aa7d81d74b3",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 238,
+      "sha256": "a89249893eea84035cb522a6c729e79d70b4c646defd34befe9e51bd732b3ca8",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 95,
+      "sha256": "b92832cc325600825bcb6c6dafb43651535e84b39813b2bbeb9bef9327f4b7d5",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-0.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "bf35f6eed6a4c7dbfbb63bc9c93a39aa9da8664390228ec08927066c2022c104",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "02023b5059b0fdd82d39937613483f65c3404355bcf9a96bd5aa050fafb693f2",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "f81f90923535a00bb21c180a2f16c07e69d5ce6ad7b7c7ca4639304aaabdcdf2",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "5ad388d4f379b391afe1844c886c966fa5a515ffacdd08ccb3303e5b35121f1f",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "09d3f7187209353d24049ac49f79718664c47a704618964f945be5816ad251a7",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "4394880771b942235e866872a4b1405c6a87d3ad82ee88313c7a499d4d43a1b7",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "87a84cc8acf6d2619327b2ca458dcd80bf2c970b5fd3a027df3d894bf7376863",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "062619b743bf00c868c67469504c1ee1edb85ef72e229f2462395cb1e20b448c",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 33,
+      "sha256": "f9a0e5aaab73569d507518c01524f42a7a153bb6cc83d4c799614b5e27700994",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 32,
+      "sha256": "6608fc277ae2d63fef13bfcfe305225fe9e0c84311d7b4ceacff6e80cce010d6",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "b8ca6c7f3ed0e4ae1143390986fb6c05f8cf94cadd4d22653c6da0436f226596",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "1c89e65346988c3f4a18e7494873c9e4cd5d892d101304b6322d10f10484e8e8",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "03061d47293ec554cb74c50c949e70452d41894aa18f93533b4cfdf607e44513",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "d924cf5a46fd3e0caab73a9c759544c5a89176d6be876e6390cc303d40891674",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "6f5323527e3ce6522e1973b4b29cabd6ed3d72981ea0473566f5c446a96dce0b",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "459c5ae36600a400d75e08df32f5335a50f5430b2f5ff209ee0765b55f1d07a5",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "ac9f8873b35cd44bf681302dfb011400f194bbfb79bbf4d5a185ee41989e59bb",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "65707a8715bf4c424af80e5dff9ef42f7c531f39f78b8af7796058399d316717",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 39,
+      "sha256": "235404e8ab38f470feab49b7da7994248bd8e2edb7740f0f2cb11aa3e5d0cb6e",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 38,
+      "sha256": "716329515104dd1882b7f3d67f5c50b1b86fb98203bc70ce7a2a51bb4fc1c8f8",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/collective_trend-cap-1.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "e7d01599d347c3ca614ae1ecebf9880c4699e76c91ded1fbc56e867b92d08c3c",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 41,
+      "sha256": "f14d781c2542548678fe78438d73499eeb50e0f54415b061bec0320479906a01",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 44,
+      "sha256": "bc66fdd319dc01c0dc31446ba8d5b0fd42948656560e2ae5495255eeebbf875e",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 41,
+      "sha256": "177cff77e7a3e805bc171cd7665e9bddb0ed6e2fee1a134d173cb07b93ee7f0c",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "d76ecc14d225313b6471f20108394eea6a4e9db58811771cad387d71207c9669",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "31e162d4dd4e95aa6b58b0447591927433be8ccd6cc1b9ad2134a0487b8eba13",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 44,
+      "sha256": "e5501da546fd5aace0480a1f83489c285f2d9fd8e93e6585726965c5a8f48acd",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 42,
+      "sha256": "436e571287b9324da3d743e4e4932eb35a84623a134ba6acd0ddda8c73ce0f69",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "24d960cffca48c7c36b0baeba919281f4de9fb074feacb177b2c1239ce717a08",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 44,
+      "sha256": "997df644b78d159d9136722881d7f4f8e748f90e65d3b930102058df8f932361",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 108,
+      "sha256": "7068254b9e098efa9a010a7187e0c331133821102c250afd1af58880c4bc60e6",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "58f4a7052d15f5ec3ecaf0266e40661bfc5e2209d32a235b25fd915a958f336c",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 225,
+      "sha256": "0d983d0c0205b41fe022ce2617b420686e20cd99fe0b6d9a054f1878a91dc5c6",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "1bc026d1834e782f78b91eddae566ef3a048a17e8f7e467075d3a4181ecff49a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 112,
+      "sha256": "cff48bd1b8652c37fcb86b21abfce26646487d589a621304695393d1de415653",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "4e69860a4512abaa6d711b29d7950a2860b8b8cb69733bf72665d69a8000412a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 108,
+      "sha256": "e2eee08db608857e48e6340851536338c5df0c5935f344df1be8877f08ea99cc",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "68026f1180b00baf38f0d0a66065f3e347bb31b3c9e1196fea1a55900c5cd4a2",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 235,
+      "sha256": "76a60f83f1e178918c122259dadd83f85784ad71b81135cd8c8f574fa40a53de",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 85,
+      "sha256": "9bc09b3d6e70c46ad589d47c405a5fde3f8a30523ddc3b65bcc36a2b1c9d98be",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-0.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "ce046fb274fd7b71509542ea5653011a266e522aae6572676f5c0ff28cd58704",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "c375a7ea4444decc3fffff3f9c48f16b898be774f1c0705205c2f26ae7f2f05a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "de62d51e31afec88e4d32ebd744b16b7d560eedf027960faa48625d75b88bc6c",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "bfa0e22ef32b025d3cbaca9806424ea39cde19864ddc872f3d897cde5a69802f",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "34461597038e4935d5ab6396ee512dbfe0dfeda4594d84a5c88459650c4f6a06",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "78dc966c6124ace58acb0e0f1eff3893f3be1dc9ae3c4c5c747e6acfa1cde901",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "0c6841cf524039d79447ff038f8a2fffbabf46a6c717ddc85edd29074c1684bc",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 43,
+      "sha256": "8d241a31a471a0da1bfb3b1338e09e18e32dcb52dc36870d37cf018b4214ef83",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 44,
+      "sha256": "b1e1ffc47ea2b1ae74680460d630fb4bf6ded0db4a7bde5b822d8ee2890e2a8f",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 44,
+      "sha256": "26dddf9696a1d15d45fadea7fb2ba1fc26ce9f25570ebb0e1f5d56728ba51d21",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "25897b7d72f5fecae7f0d371e84c993203b0c7a3be0c6847920929b6e850a92a",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "3e9acd085aa176ae12f3a0611973bcc2926f245aa007249bdb63a382899a899e",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "fd658d3b7d47737d4c12d1c1a8c50b522c6ccdff6e07debbbdbae62c7878f947",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "d3d8ff38fb0b8f90d75016a03b54c7e30ad8a05874e011c39dcb3f9a0fb01279",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "2ddc8a3fedae7e42014930ea8f5122d60fc2e2c22e20d3c0256d9c23e2cd8d86",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "580aa639e9bcf6113e2ac55b830b08010c60a119d1b1abd3df086e0e40a77183",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "a1b08fc97f70366657f579094e862b0a4111e6dd631aa3478590237cff7043ed",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 49,
+      "sha256": "42a08a06f98c065621c18a6975b0d076114612fbc1e53a3556782e7d7f8ea519",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 51,
+      "sha256": "25fa4961f6d925004a33691a86d50c68e7b88d1b52d84d3d96d8e4dbc7d569f7",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 17544,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 50,
+      "sha256": "9a6556bce9c51ca267b90508e8e1594e3c9ff5d107a71ea2011eb1ee31a0af35",
+      "source": "data/collective_trend_2026-09-07/continuous_2024_2025_run1/unconditional_control-cap-1.5-dd-0.3-zero_cost-infra-20.json"
+    }
+  ],
+  "script_sha256": "7933d1c5b45bce7c1baca9c668a22937ca3b9bf582d118c8e943e855990a7b73"
+}

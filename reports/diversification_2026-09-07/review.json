@@ -1,0 +1,13 @@
+{
+  "decision": "DIVERSIFIED_RESEARCH_CANDIDATE_UNQUALIFIED",
+  "live_enabled": false,
+  "portfolio_summary_sha256": "1d374b87308a41f1e8c30fc2c08c1d829ebe11495ccc0a6f077632121e7aa212",
+  "preferred_preliminary_case": {
+    "drawdown_limit": "0.3",
+    "gross_cap": "1.5",
+    "monthly_infra": "0"
+  },
+  "promotion_authorized": false,
+  "reason": "6.54 percent central monthly equivalent, 3.17 percent cost stress, 4.84 percent delay; all paid scenarios positive with conservative OHLC envelope below 30 percent at 1.5x without infra. Selected prior sample, execution netting and independent validation remain unqualified.",
+  "target_10_percent_demonstrated": false
+}

@@ -30,6 +30,7 @@ class PublicResearchClient:
             "outcomeMeta",
             "l2Book",
             "spotMeta",
+            "settledOutcome",
         }:
             raise ValueError("public research request type required")
         if len(self.records) >= 100 or self.total_bytes >= 50_000_000:

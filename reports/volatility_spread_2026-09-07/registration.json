@@ -1,0 +1,13 @@
+{
+  "code_version": "source-sha256:a64be45cb6f984aa63df69381dec2366d7a9d6dd767c7ab238e04681b8f99b11",
+  "live_enabled": false,
+  "native_selection_sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102",
+  "network_data_calls": 0,
+  "new_tests_passed": 4,
+  "prior_periods_already_explored": true,
+  "protocol_sha256": "9afd1024379ff377a04a5f3fd2ccf9e7b99a593b459d8ff701323a1f0343deb3",
+  "qualification_sha256": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+  "registered_at_utc": "2026-09-07T17:48:12.264202+00:00",
+  "registered_before_first_volatility_spread_pnl": true,
+  "script_sha256": "649f3bc42472dd4d7703ec990d40d4674d3716a0667275de5468b47df17fd57b"
+}

@@ -1,0 +1,77 @@
+{
+  "artifacts": [
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "native_2026",
+      "sha256": "7b39b85327d259aa72536f0238cff278b406ef9b4e70d691800b86a54dc496ce"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "native_2026",
+      "sha256": "92ef2d43a132d66d30844eea636ed5c684c5692a69f665188cc3adb11f6af207"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "native_2026",
+      "sha256": "e43a2b402fe3b6b46f2b7213b51214e7c574df06142afa81f57669b3e01de5f3"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "native_2026",
+      "sha256": "eb861aaf1c182ad1b3d96a2f2efd8914bccd11d593d4231467df76e105b29913"
+    },
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "transfer_2025",
+      "sha256": "48737956e602bd0570b0ceffb83b98ba54b2cbcbc08f46fc36cb76cdc332ea73"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "transfer_2025",
+      "sha256": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "transfer_2025",
+      "sha256": "66d57f235a6b7618de56e1c9076a513023c306f8dc60c3c2bb414cc290ae5ba0"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "transfer_2025",
+      "sha256": "6a04687164a012b6e04a72082bb3ededd24e2c14fe00d46eee5424f3ef047ee6"
+    },
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "transfer_2024",
+      "sha256": "0064b4a4cad137faff10c7943d8291d7e3e7d119953405bf54d58b40e1ed9042"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "transfer_2024",
+      "sha256": "f06f0f48469e516d99f700501ea00bc22bdf05b7dea9fd126e4a112d5eba21ff"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "transfer_2024",
+      "sha256": "ff90722bb93b9581a7dde877e44bf64319c65363da7f84ddd2a291124e0f5974"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "transfer_2024",
+      "sha256": "a012d6ec13858fde1d4ad1f1afac5ad2db49bd4fbd2c05a3810456bd7c803548"
+    }
+  ],
+  "exact_matches": 12
+}

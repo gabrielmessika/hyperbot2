@@ -1,0 +1,39 @@
+{
+  "artifacts": [
+    {
+      "left": "data/microstructure_2026-09-07/pilot_verified/2026-08-16/seconds.csv.gz",
+      "matched": true,
+      "right": "data/microstructure_2026-09-07/reproduction_day/2026-08-16/seconds.csv.gz",
+      "sha256": "a4279e03edfcc5c376724cf8410eb89a6164b787280837593fad62edcf58de66"
+    },
+    {
+      "left": "data/microstructure_2026-09-07/pilot_final/events.json",
+      "matched": true,
+      "right": "data/microstructure_2026-09-07/pilot_reproduced/events.json",
+      "sha256": "e7f123421c2f891266e8db2b2663a1920c9c8efe97e407c36dd31764ed9f75ab"
+    },
+    {
+      "left": "data/microstructure_2026-09-07/pilot_final/summary.json",
+      "matched": true,
+      "right": "data/microstructure_2026-09-07/pilot_reproduced/summary.json",
+      "sha256": "e2695c19174d054409f2b80082d908461eff0bf15683c959dc7f662a7d646e1f"
+    },
+    {
+      "left": "data/microstructure_2026-09-07/replication_final/events.json",
+      "matched": true,
+      "right": "data/microstructure_2026-09-07/replication_reproduced/events.json",
+      "sha256": "2192cd03a91f6e50e4c4a9a9c7e688291b8505121de24fe65143b3e990e3bd04"
+    },
+    {
+      "left": "data/microstructure_2026-09-07/replication_final/summary.json",
+      "matched": true,
+      "right": "data/microstructure_2026-09-07/replication_reproduced/summary.json",
+      "sha256": "a76305fb4943440edd77aeeac73954451cf609bfa21877c6c1d985252dbdd496"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "55 source files passed",
+  "pytest": "221 passed",
+  "ruff_check": "passed",
+  "ruff_format": "174 files already formatted"
+}

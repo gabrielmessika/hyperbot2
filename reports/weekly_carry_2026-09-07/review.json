@@ -1,0 +1,36 @@
+{
+  "criteria_by_panel": {
+    "continuous_2024_2025": {
+      "carry": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "twenty_baskets": true
+      },
+      "reverse_control": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "twenty_baskets": true
+      }
+    },
+    "native_2026": {
+      "carry": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "twenty_baskets": true
+      },
+      "reverse_control": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "twenty_baskets": true
+      }
+    }
+  },
+  "decision": "WEEKLY_CARRY_CROSS_PERIOD_SCREEN_FAILED",
+  "independent_audit_sha256": "a7383f7c063e82a77b7bf6b18decaea69adb39d3ae9d7426c407bc57503f8f2a",
+  "live_enabled": false,
+  "market_data_network_calls": 0,
+  "native_fills_qualified": false,
+  "portfolio_justified": false,
+  "promotion_authorized": false,
+  "reproduction_sha256": "5a5f4ad761fdf60161e33ff0cc083f4b32c403a0e199fe0e09f3a1aac66c8b5b"
+}

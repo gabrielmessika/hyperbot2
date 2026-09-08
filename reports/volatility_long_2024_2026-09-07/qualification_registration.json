@@ -1,0 +1,11 @@
+{
+  "code_version": "source-sha256:99a2086919f64ce4d45707e4aedcda49b4503d83cdd1ea1e7659971fc752ce66",
+  "fetcher_sha256": "935e53a9b5fb60faab82553e0c3e2b17cceaa8cc9eae4b8b68a9141e6b51a4d5",
+  "financial_results_computed": false,
+  "live_enabled": false,
+  "metadata_sha256": "6cb535d6a9dcd8bb948ebd6729692ebbab92c5a4202b2d31342582e1257b888e",
+  "native_selection_sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102",
+  "protocol_sha256": "6d197036a9a89d4f4cd71cf599ab56bed4d645ee5e542a502dca1ce4e7e9dd58",
+  "qualifier_sha256": "9ce9984b404dd6b490c644e71f3914d762c4b392fee6494df9c03fc3a76a3d38",
+  "registered_at_utc": "2026-09-07T17:56:58.218728+00:00"
+}

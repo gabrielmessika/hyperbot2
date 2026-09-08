@@ -1,0 +1,36 @@
+{
+  "data_purchase_usd": 0,
+  "full_funding_year_qualified": false,
+  "live_enabled": false,
+  "market_calls": 2,
+  "other_coins_qualified": false,
+  "promotion_authorized": false,
+  "response_bytes": 312275,
+  "results": [
+    {
+      "complete_ordered_buckets": true,
+      "duplicate_buckets": 0,
+      "expected_rows": 2190,
+      "first_ms": 1735689600000,
+      "last_ms": 1767211200000,
+      "missing_buckets": 0,
+      "route": "candleSnapshot",
+      "rows": 2190,
+      "schema_values_valid": true,
+      "zero_volume_candles": 0
+    },
+    {
+      "complete_ordered_buckets": true,
+      "duplicate_buckets": 0,
+      "expected_rows": 48,
+      "first_ms": 1735689600054,
+      "last_ms": 1735858800038,
+      "missing_buckets": 0,
+      "route": "fundingHistory",
+      "rows": 48,
+      "schema_values_valid": true,
+      "zero_volume_candles": null
+    }
+  ],
+  "strategy_tested": false
+}

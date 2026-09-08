@@ -1,0 +1,3533 @@
+{
+  "code_version": "source-sha256:901c7a4057242de4ebc28936cf1f81bdc87e2a942b91eab01745f498547c8239",
+  "coins": [
+    "ARB",
+    "BNB",
+    "DOGE",
+    "ENA",
+    "FARTCOIN",
+    "INJ",
+    "JUP",
+    "LINK",
+    "NEAR",
+    "TAO",
+    "UNI",
+    "WLD",
+    "XMR",
+    "XRP",
+    "ZEC"
+  ],
+  "decision": "TRANSFER_AND_PASSIVE_REVIEW_REQUIRED",
+  "exploratory_screen_passes": [],
+  "historical_venue": "Binance USDT perpetual futures",
+  "hypothetical_execution_constraints": "Hyperliquid reference lots/ticks/fees and fixed 2x margin",
+  "live_enabled": false,
+  "native_fill_validation": false,
+  "panel": "prior_transfer",
+  "promotion_authorized": false,
+  "protocol_sha256": "bb5ccadf1e35c80aa45ea30a8d231f8fcb69818c7ffb70e714c29f1694a72c5d",
+  "results": [
+    {
+      "artifact": "candidate-base-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "729.1679229579702999999999998",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0256263013853263278985541892",
+      "fees_usd": "5.14281066570",
+      "funding_cost_usd": "0.5979563763297000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737280800000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3139871486106209091895142770",
+      "max_observed_gross_ratio": "1.807145921714455276537306232",
+      "max_ohlc_drawdown_envelope": "0.3888036277564466427502522005",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "428.4757449579702999999999998",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-270.8320770420297000000000002",
+          "return": "-0.2708320770420297000000000002"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        }
+      ],
+      "native_orders": 110,
+      "net_total_usd": "-270.8320770420297000000000002",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-265.0913100000000000000000002",
+      "rejected": {
+        "halted": 2737,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 46,
+      "scenario": "base",
+      "sha256": "e2ebf72f21d86e3b7e6e41a68fda2ed244e6231c5d3e06f8dcbfa2cd1b62549c",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-base-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "503.8960716243503666666664722",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0547757077597305279388402920",
+      "fees_usd": "4.86662270715",
+      "funding_cost_usd": "0.6217613351663000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737252000000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5219472379382936225878967244",
+      "max_observed_gross_ratio": "1.806852218648201068284069239",
+      "max_ohlc_drawdown_envelope": "0.5315603149170067738153050947",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "466.8843852579275222222222130",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-273.4372617089829666666666830",
+          "return": "-0.273437261708982966666666683"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0256917478462677925375492804"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0291944926594162075383419757"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0291023635713484994833628691"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0309738547388770517329844421"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0309328063860649304118311477"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0329841936069101263667731896"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0341092600439895205253330436"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0341746327689158818201202579"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0365633254133583006246038852"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0367267141023370949369958254"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0393978930604125539482019174"
+        }
+      ],
+      "native_orders": 94,
+      "net_total_usd": "-496.1039283756496333333335278",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-247.2822109999999999999999998",
+      "rejected": {
+        "halted": 2745,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 38,
+      "scenario": "base",
+      "sha256": "be5b33c1e4a00c727e1dab6205570715d9c4b0f150d947508ee311f3a41487ea",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-cost_stress-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "737.9186748837336999999999999",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0246704472037411519800436778",
+      "fees_usd": "9.7808317704",
+      "funding_cost_usd": "0.6288293458663000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737252000000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3029498790683337646352750400",
+      "max_observed_gross_ratio": "1.807309586316927363115305959",
+      "max_ohlc_drawdown_envelope": "0.3345459945816553231522549824",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "469.3733655199391999999999999",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-262.0813251162663000000000001",
+          "return": "-0.2620813251162663000000000001"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        }
+      ],
+      "native_orders": 94,
+      "net_total_usd": "-262.0813251162663000000000001",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-251.6716640000000000000000001",
+      "rejected": {
+        "halted": 2745,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 38,
+      "scenario": "cost_stress",
+      "sha256": "ac816363e5727f5cd0522594e80bcbddf819475ea1f44c14111b83bf356d6cc9",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-cost_stress-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "498.0327285716511666666664719",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0556845694234093958993255496",
+      "fees_usd": "9.6788308617",
+      "funding_cost_usd": "0.6276282333155000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737252000000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5255571194654529320091132078",
+      "max_observed_gross_ratio": "1.806277410723504682889795447",
+      "max_ohlc_drawdown_envelope": "0.5351447322197460894783073903",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "463.2406452873177222222222127",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-279.3006047616821666666666833",
+          "return": "-0.2793006047616821666666666833"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0259007663805435165394896842"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0294383236358721649448648675"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0293527974435406657009235596"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0312484535525437259361342971"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0312158871206062203568012402"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0332957738080793360424790971"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0344425656844796869315777980"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0345204894022252576485868695"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0369465866346699544118090805"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0371264571239254931386793192"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0398432441918913574940341398"
+        }
+      ],
+      "native_orders": 94,
+      "net_total_usd": "-501.9672714283488333333335281",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-248.3274790000000000000000000",
+      "rejected": {
+        "halted": 2745,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 38,
+      "scenario": "cost_stress",
+      "sha256": "b837b7883a1d16a0c9d404a20de54500a441f20674645847c6e80a453c001b76",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-delay-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "701.1225298388618000000000000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0287623087578615751082981240",
+      "fees_usd": "5.14026370260",
+      "funding_cost_usd": "0.6388244585382000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737284400000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3324449760503160171854589157",
+      "max_observed_gross_ratio": "1.788136500173906210850074209",
+      "max_ohlc_drawdown_envelope": "0.3803427556056982373184911795",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "438.1891638388618000000000000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-298.8774701611382000000000000",
+          "return": "-0.2988774701611382000000000"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        }
+      ],
+      "native_orders": 110,
+      "net_total_usd": "-298.8774701611382000000000000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-293.0983820000000000000000000",
+      "rejected": {
+        "halted": 2737,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 46,
+      "scenario": "delay",
+      "sha256": "7d01d844cc6872e200994d61bb2e6270eff5bd282de6dd1d3edcf4a9e029bf49",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-delay-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "460.4270799727473666666664718",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0617586025876237950540416808",
+      "fees_usd": "5.08204133100",
+      "funding_cost_usd": "0.6394953629193000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737284400000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5577484739303603791213600937",
+      "max_observed_gross_ratio": "1.786817939739027239632043307",
+      "max_ohlc_drawdown_envelope": "0.5667935742847122697942662388",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "431.8824779727473666666666566",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-316.9062533605859666666666834",
+          "return": "-0.3169062533605859666666666834"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0273266542967202343926819285"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0311044918089647188626870382"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0310674586175444909178051112"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0331323793972886906948982426"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0331623402024061683710567625"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0354431286320190318661302334"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0367455042663807696121011779"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0369166877253922101896554877"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0396094953538434979008565057"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0399126912561372599983022551"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0429576705393275457056362488"
+        }
+      ],
+      "native_orders": 110,
+      "net_total_usd": "-539.5729200272526333333335282",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-290.5180500000000000000000002",
+      "rejected": {
+        "halted": 2737,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 46,
+      "scenario": "delay",
+      "sha256": "67872f88c7d59864eb9d10cd363ed5a44ef0bd6251c4dc368885d4c96881c5b6",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-funding_adverse-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "742.2681280111664000000000001",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0241992160001419104981297825",
+      "fees_usd": "4.90429902645",
+      "funding_cost_usd": "4.0622399623836000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737252000000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3012756065975870257044391192",
+      "max_observed_gross_ratio": "1.806867095136312571737313654",
+      "max_ohlc_drawdown_envelope": "0.3334358283842662085988855104",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "471.2219357850826000000000001",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-257.7318719888335999999999999",
+          "return": "-0.2577318719888335999999999999"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        }
+      ],
+      "native_orders": 94,
+      "net_total_usd": "-257.7318719888335999999999999",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-248.7653329999999999999999999",
+      "rejected": {
+        "halted": 2745,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 39,
+      "scenario": "funding_adverse",
+      "sha256": "4c6ba4a1f6351b81a9fbfedcbd7bd1e5ba018f9d3333494a22f2644d579c05c3",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-funding_adverse-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "500.7745394741687666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0552583528245430955226042474",
+      "fees_usd": "4.85680883625",
+      "funding_cost_usd": "4.0266033562479000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737252000000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5246597188605543558266139043",
+      "max_observed_gross_ratio": "1.807623687024367160885690387",
+      "max_ohlc_drawdown_envelope": "0.5342093429705641258453714231",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "464.5179990155149444444444350",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-276.5587938591645666666666832",
+          "return": "-0.2765587938591645666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0258026035954506381934970493"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0293237986180460432921032174"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0292351554410889026979275897"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0311194423570055974469095219"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0310828709898048251434285052"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0331493434554886712387076994"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0342858984798781696225631619"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0343578929856078793288443763"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0367663711298776203047217553"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0369384519928794579164710144"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0396337428329069017230148714"
+        }
+      ],
+      "native_orders": 94,
+      "net_total_usd": "-499.2254605258312333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-247.0087150000000000000000000",
+      "rejected": {
+        "halted": 2745,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 38,
+      "scenario": "funding_adverse",
+      "sha256": "418ab1bd8b42e6c4a4c45b1e10d842ff4ba3ec56dea705f67159db2050637124",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-zero_cost-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "735.5413800000000000000000000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0249290881290091550945681799",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737280800000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3108481811250203691246144391",
+      "max_observed_gross_ratio": "1.807086879449455618081542741",
+      "max_ohlc_drawdown_envelope": "0.3855710968258050504449672625",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "432.6804980000000000000000000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-264.4586200000000000000000000",
+          "return": "-0.2644586200000000000000000"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-25",
+          "return": "0"
+        }
+      ],
+      "native_orders": 110,
+      "net_total_usd": "-264.4586200000000000000000000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-264.4586200000000000000000001",
+      "rejected": {
+        "halted": 2737,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 46,
+      "scenario": "zero_cost",
+      "sha256": "340806f00ef8475e784df977a607f3036e913f4151fb050749d6a897ac56ee4c",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "candidate-zero_cost-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "494.5801966666666666666664719",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0562243420380245682764621935",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737280800000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "352.5",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5326756001348712283425816303",
+      "max_observed_gross_ratio": "1.807527338934403334693071016",
+      "max_ohlc_drawdown_envelope": "0.5421332706249347391121372588",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "426.5948744444444444444444345",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-282.7531366666666666666666833",
+          "return": "-0.2827531366666666666666666833"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0260254420352780536616637631"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0295838140921820863334999168"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0295022877032709466648349937"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0314124360182510103822711857"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0313850112896331818743253527"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0334820116461345160663136186"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0346418918732798030802888934"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0347274355579039790921390934"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0371760454663995435884906212"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0373659359261759709269104708"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0401102231519973218792165321"
+        }
+      ],
+      "native_orders": 110,
+      "net_total_usd": "-505.4198033333333333333335281",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-262.0864700000000000000000001",
+      "rejected": {
+        "halted": 2737,
+        "target_below_minimum": 31
+      },
+      "residual_hours": 0,
+      "round_trips": 46,
+      "scenario": "zero_cost",
+      "sha256": "948d35ebf5f259c90baf085b9609eb5a24f4adc40697fcd77b26eb1b6f06e500",
+      "start_ms": 1735689600000,
+      "strategy": "candidate",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-base-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "755.7968625291150000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0227495088452936274015001374",
+      "fees_usd": "0.33769405980",
+      "funding_cost_usd": "1.3988154110850000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1743966000000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3022080112954529139000012053",
+      "max_observed_gross_ratio": "0.5341888055170050760549592167",
+      "max_ohlc_drawdown_envelope": "0.3103263108538782851507313032",
+      "max_residual_notional_usd": "19.75206000",
+      "minimum_margin_envelope_buffer_usd": "697.0734201833717000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-15.7491067062735000",
+          "return": "-0.0157491067062735"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-151.8931808723754000",
+          "return": "-0.1543236403515728964162328920"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-46.8389539051342000",
+          "return": "-0.0562726255865142597600322005"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-29.7218959871019000",
+          "return": "-0.0378372835338066551808012754"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-244.2031374708850000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-242.466628",
+      "rejected": {
+        "below_minimum": 91
+      },
+      "residual_hours": 71,
+      "round_trips": 15,
+      "scenario": "base",
+      "sha256": "47b5d8be0fb0513490f0320e73221dff23c1d3a82557526551d3c47fc70bd0df",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-base-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "546.5699402167843666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0484389948082663423651993205",
+      "fees_usd": "0.34913209635",
+      "funding_cost_usd": "1.5318693535323000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741539600000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4868891670289128299203264051",
+      "max_observed_gross_ratio": "0.5358104950370665224876179069",
+      "max_ohlc_drawdown_envelope": "0.4912549326523108367549652580",
+      "max_residual_notional_usd": "10.11218000",
+      "minimum_margin_envelope_buffer_usd": "546.5699402167843666666664720",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-37.1448867086474666666666832",
+          "return": "-0.0371448867086474666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-169.0422969020690666666666816",
+          "return": "-0.1755635864301820153487075383"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-63.9095428391657666666666832",
+          "return": "-0.0805095880535956415312621029"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0274008909464450160022653604"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0291119472703877351918614215"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0290176113692434398224298897"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0308809566812381652301681256"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0318649776765152539481183108"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0318520397049716114112250514"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0339966365799851765949438748"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0340578222909890969977145290"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0364339438179331137037109141"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-453.4300597832156333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-208.215725",
+      "rejected": {
+        "below_minimum": 143
+      },
+      "residual_hours": 143,
+      "round_trips": 15,
+      "scenario": "base",
+      "sha256": "6f0f55005fc3c4595461fb199d50c628766c88dfe942c196277c8f2590e3d7a2",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-cost_stress-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "755.7232853123520000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0227573285789518339065698851",
+      "fees_usd": "0.6743989899",
+      "funding_cost_usd": "1.4083866977480000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1743966000000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3018660919030723124760317390",
+      "max_observed_gross_ratio": "0.5334985559417452204021525732",
+      "max_ohlc_drawdown_envelope": "0.3099203076531110081761706210",
+      "max_residual_notional_usd": "19.75206000",
+      "minimum_margin_envelope_buffer_usd": "697.1781109359137000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-16.3262316119895000",
+          "return": "-0.0163262316119895"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-151.6145241595064000",
+          "return": "-0.1541309009469306007336072259"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-46.5097098716832000",
+          "return": "-0.0558971133297216038453073922"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-29.8262490444689000",
+          "return": "-0.0379686420015378622695910842"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-244.2767146876480000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-242.193929",
+      "rejected": {
+        "below_minimum": 91
+      },
+      "residual_hours": 71,
+      "round_trips": 15,
+      "scenario": "cost_stress",
+      "sha256": "d9808c6cfee949b19c40f31a6f2bf6b4a976c2659d2f1221deb6eb9aac6c6f79",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-cost_stress-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "546.0364449894238666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0485153686139787093037636095",
+      "fees_usd": "0.6982183395",
+      "funding_cost_usd": "1.5313183377428000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741539600000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4872133560465326856847034485",
+      "max_observed_gross_ratio": "0.5359212475242721838082056136",
+      "max_ohlc_drawdown_envelope": "0.4915779487245817720811542951",
+      "max_residual_notional_usd": "10.11218000",
+      "minimum_margin_envelope_buffer_usd": "546.0364449894238666666664720",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-37.4970447218500666666666832",
+          "return": "-0.0374970447218500666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-169.0202642914309666666666816",
+          "return": "-0.1756049302130053897184290545"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-64.1129126639617666666666832",
+          "return": "-0.0807993840221460684379032137"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0274209332418345641481714513"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0291338414719769885205449418"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0290400894979361755681852012"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0309055936878837090096919907"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0318912104812314257431579915"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0318791256624905235118393506"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0340264981964321072672489990"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0340887914221996798907723451"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0364682427916655601415135754"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-453.9635550105761333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-208.400685",
+      "rejected": {
+        "below_minimum": 143
+      },
+      "residual_hours": 143,
+      "round_trips": 15,
+      "scenario": "cost_stress",
+      "sha256": "c533c405e8e234fb2e78b1268f0bebce26c2a1c10715daf5af867aef3a1348cd",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-delay-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "756.2120981544742000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0227053909953576606943763552",
+      "fees_usd": "0.33737209785",
+      "funding_cost_usd": "1.4354107476758000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1743966000000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3029144847133764325609086648",
+      "max_observed_gross_ratio": "0.5347220165349947782198137338",
+      "max_ohlc_drawdown_envelope": "0.3112674700675758002778550679",
+      "max_residual_notional_usd": "19.88274000",
+      "minimum_margin_envelope_buffer_usd": "697.7700879609817000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-14.4732299188145000",
+          "return": "-0.0144732299188145"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-152.4174924783639000",
+          "return": "-0.1546558623321902118281677641"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-46.6093008068749000",
+          "return": "-0.0559462030491221145818585433"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-30.2878786414725000",
+          "return": "-0.0385097006167242793102518099"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-243.7879018455258000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-242.015119",
+      "rejected": {
+        "below_minimum": 51
+      },
+      "residual_hours": 31,
+      "round_trips": 15,
+      "scenario": "delay",
+      "sha256": "2a5df7a0aca7e677b0b9c45dfc9842d3c1946b0dffd1bc0c74b56092e0189ec9",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-delay-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "547.1830969852236666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0483513013224815870855033822",
+      "fees_usd": "0.34928674515",
+      "funding_cost_usd": "1.5522419362930000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741539600000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4875415282739001533805977363",
+      "max_observed_gross_ratio": "0.5367911097323512788231296596",
+      "max_ohlc_drawdown_envelope": "0.4919355580731434500204015831",
+      "max_residual_notional_usd": "10.17175000",
+      "minimum_margin_envelope_buffer_usd": "547.1830969852236666666664720",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-35.6677097015198666666666832",
+          "return": "-0.0356677097015198666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-169.6893879702632666666666816",
+          "return": "-0.1759656807901154142648715658"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-64.1264720096598666666666832",
+          "return": "-0.0806984770414186187336765890"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0273778920910493153852153887"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0290868244347296165061412058"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0289918197465561975723655981"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0308526893463334654108933100"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0318348810414838473229112217"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0318209660642653502526033296"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0339623806966850715256328935"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0340222982752502915214767506"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0363946029205992234203379514"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-452.8169030147763333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-207.582041",
+      "rejected": {
+        "below_minimum": 139
+      },
+      "residual_hours": 139,
+      "round_trips": 15,
+      "scenario": "delay",
+      "sha256": "c2ca5591b670c7a77636dce68753e6006a16d73ba52f2b7b9b89d8f7040e9ba7",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-funding_adverse-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "756.0069051815571000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0227271895069362415365956966",
+      "fees_usd": "0.34140128130",
+      "funding_cost_usd": "9.4233355371429000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741633200000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3019355381148832516378126918",
+      "max_observed_gross_ratio": "0.5348559699121827352724649922",
+      "max_ohlc_drawdown_envelope": "0.3090235755846011207480011717",
+      "max_residual_notional_usd": "10.00500000",
+      "minimum_margin_envelope_buffer_usd": "697.0936904651171000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-18.3958731812685000",
+          "return": "-0.0183958731812685"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-155.9498177844378000",
+          "return": "-0.1588724145749606901167615627"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-69.6474038527366000",
+          "return": "-0.0843541941108476460133399777"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-243.9930948184429000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-234.228358",
+      "rejected": {
+        "below_minimum": 113
+      },
+      "residual_hours": 113,
+      "round_trips": 15,
+      "scenario": "funding_adverse",
+      "sha256": "8abc39f651cf9708b0060d508acb57ac614aa55743e13e44ffc65df8e4a35a5f",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-funding_adverse-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "547.3345840375383666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0483296495866051178413834663",
+      "fees_usd": "0.35295602535",
+      "funding_cost_usd": "9.2610216037783000",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741528800000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4855269679669794477298617993",
+      "max_observed_gross_ratio": "0.5364824494770113945557951782",
+      "max_ohlc_drawdown_envelope": "0.4899097663956990095295847091",
+      "max_residual_notional_usd": "10.11218000",
+      "minimum_margin_envelope_buffer_usd": "547.3345840375383666666664720",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-39.7745474831102666666666832",
+          "return": "-0.0397745474831102666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-173.0716463360142666666666816",
+          "return": "-0.1802406360739224941421220590"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-56.4858888100037666666666832",
+          "return": "-0.0717596591243874451071410834"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0273722159198737882301589570"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0290806242430689130385753773"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0289854547069129177692599593"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0308457135638850821818922573"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0318274540964106664996748751"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0318132983207433949093647990"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0339539280399990519835376369"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0340135330937604278799135596"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0363848964083164244420559668"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-452.6654159624616333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-199.718105",
+      "rejected": {
+        "below_minimum": 146
+      },
+      "residual_hours": 146,
+      "round_trips": 15,
+      "scenario": "funding_adverse",
+      "sha256": "3c1c98c23e50ca9c1c392b471d38d2078088bb6847811a89cf0e18686243dab4",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-zero_cost-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "755.607170",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0227696706524194159491775852",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1743973200000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3031059138473720750345230139",
+      "max_observed_gross_ratio": "0.5336508320986159127899687798",
+      "max_ohlc_drawdown_envelope": "0.3097090004486525876116711952",
+      "max_residual_notional_usd": "19.75206000",
+      "minimum_margin_envelope_buffer_usd": "698.885624000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-13.53803000",
+          "return": "-0.01353803"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-152.36219000",
+          "return": "-0.1544531818089246765387215079"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-46.36404000",
+          "return": "-0.0555857238087270566118600343"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-32.12857000",
+          "return": "-0.0407859747483337495896783863"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-244.392830",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-244.392830",
+      "rejected": {
+        "below_minimum": 87
+      },
+      "residual_hours": 69,
+      "round_trips": 15,
+      "scenario": "zero_cost",
+      "sha256": "a3257673d3c21fab5fcab40f7528a0e2e652de3ef66d21558b486c4bf6a590a9",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_0.5-zero_cost-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "548.2277066666666666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0482021090796694909072162346",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "0.5",
+      "halt_at_ms": 1741539600000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4858617817375073913011888684",
+      "max_observed_gross_ratio": "0.5359706206295104509834866662",
+      "max_ohlc_drawdown_envelope": "0.4902347229583458914123687406",
+      "max_residual_notional_usd": "10.11218000",
+      "minimum_margin_envelope_buffer_usd": "548.2277066666666666666664720",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-35.0573766666666666666666832",
+          "return": "-0.0350573766666666666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-169.7335466666666666666666816",
+          "return": "-0.1759001442804265940689592896"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-63.6480366666666666666666832",
+          "return": "-0.0800393739637185479308936531"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0273387986872565001547923018"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0290441234200605849171656237"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0289479850639204317927769176"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0308046504608236591162945007"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0317837373811898264644849443"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0317681665942987831648540706"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0339041790903609368910235604"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0339619478562743045849671471"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0363277747775462852178441122"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-451.7722933333333333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-208.438960",
+      "rejected": {
+        "below_minimum": 143
+      },
+      "residual_hours": 143,
+      "round_trips": 15,
+      "scenario": "zero_cost",
+      "sha256": "a3768e29f63890d367f07eb2bdbdd334166a12f182085938b38c2003a795ac17",
+      "start_ms": 1735689600000,
+      "strategy": "passive_0.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-base-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "841.9209595282261000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0140431314096662502861929236",
+      "fees_usd": "1.27531620090",
+      "funding_cost_usd": "4.5608422708739000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3193014146557496670228966880",
+      "max_observed_gross_ratio": "1.617710725417666683169995242",
+      "max_ohlc_drawdown_envelope": "0.3387350889081230032401561563",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "515.8267393074417000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-158.0790404717739000",
+          "return": "-0.1580790404717739"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-158.0790404717739000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-152.242882",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "base",
+      "sha256": "1c31a424bda960e81a373df129fc0719ec4e3e1c1651653aac5f9998ff64e7de",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-base-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "628.0188529588441666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0375126840592088659927469418",
+      "fees_usd": "1.28132703675",
+      "funding_cost_usd": "4.5182496710725000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737968400000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4864007148130650935007300965",
+      "max_observed_gross_ratio": "1.623979443807859590216928911",
+      "max_ohlc_drawdown_envelope": "0.4977664427387964855278988904",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "509.8112955779307333333333266",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-149.3144803744891666666666832",
+          "return": "-0.1493144803744891666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0219430873525202535049683984"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0248391807387193230455391616"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0246502078109859975250077848"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0261156372910256484109440983"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0259509222512943272219759467"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0275303920568182802380831629"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0283097711557755877437025505"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0281947393501965348754250143"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0299798377050584019408578278"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0299094259005350616549462777"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0318593001406870149143082232"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-371.9811470411558333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-122.848237",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "base",
+      "sha256": "4222b0149763c810acab55360ee453cd73709f7f2b9addbce38ed4e57dc29a09",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-cost_stress-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "840.0153578662490000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0142267423782628792123917262",
+      "fees_usd": "2.5476489504",
+      "funding_cost_usd": "4.5540291833510000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3201608974184970082336271372",
+      "max_observed_gross_ratio": "1.617572072093321938429878647",
+      "max_ohlc_drawdown_envelope": "0.3387804884485292910973052731",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "515.2665875797648000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-159.9846421337510000",
+          "return": "-0.1599846421337510"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-159.9846421337510000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-152.882964",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "cost_stress",
+      "sha256": "27fba21f68f4c253e382b9a413cfaac7861561a241d7532bb0e699a0ebe29b2b",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-cost_stress-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "626.2327630970821666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0377379634692265605567407624",
+      "fees_usd": "2.5601147226",
+      "funding_cost_usd": "4.5094028469845000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737968400000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4872901460975101639203307381",
+      "max_observed_gross_ratio": "1.624108135975592309404270877",
+      "max_ohlc_drawdown_envelope": "0.4986411690874492269836341605",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "509.1910518002080333333333266",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-151.1005702362511666666666832",
+          "return": "-0.1511005702362511666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0219892557494845461159210741"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0248926175709715245468722020"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0247045918649324968027800958"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0261747138841187832650767172"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0260112041000539918660657052"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0275960507450062631915302050"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0283792047185215037960544611"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0282659105642533697255211949"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0300577163038727838536080630"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0299895293164144124231552099"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0319472636947821162655323530"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-373.7672369029178333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-123.364386",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "cost_stress",
+      "sha256": "5c2c7ac2b72ea3c0f608ea1d1386f16e886eabe384aad1d7a83806af1b21406c",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-delay-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "846.0511143248499000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0136464831213139805724492870",
+      "fees_usd": "1.27755386325",
+      "funding_cost_usd": "4.6253688119001000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3203359616375142079275550710",
+      "max_observed_gross_ratio": "1.615143746508037504462468929",
+      "max_ohlc_drawdown_envelope": "0.3397977765989628881083914979",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "518.8614871748323000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-153.9488856751501000",
+          "return": "-0.1539488856751501"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-153.9488856751501000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-148.045963",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "delay",
+      "sha256": "03d45e5e5d04b355255020d7e25ad324d2f93c18159bc4543871a99cc608551f",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-delay-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "632.4630591670857666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0369546783457070545441832600",
+      "fees_usd": "1.28226503565",
+      "funding_cost_usd": "4.5784754639309000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737968400000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4859677034936474986234454391",
+      "max_observed_gross_ratio": "1.619129027424137542377975657",
+      "max_ohlc_drawdown_envelope": "0.4973874107569244499749478313",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "513.4462836405721333333333266",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-144.8702741662475666666666832",
+          "return": "-0.1448702741662475666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0218290466378848494770584309"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0247072078559520031354573591"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0245159211095551950206288790"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0259697918480521168320113567"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0258021326410716723904725556"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0273683659371881102550677436"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0281384698777139298633152197"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0280191945632286971183572779"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0297877978180092405144657189"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0297119548170712344818479442"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0316425142651173063687162958"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-367.5369408329142333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-118.342867",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "delay",
+      "sha256": "b2b574e4d6305ca6032e4e1760c637373022fffae1fe71ead1654f20cf8cec00",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-funding_adverse-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "834.7420719566547000",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0147368406707979350496702810",
+      "fees_usd": "1.27531620090",
+      "funding_cost_usd": "11.7397298424453000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3228970228529968956965815673",
+      "max_observed_gross_ratio": "1.620271449196104259701235028",
+      "max_ohlc_drawdown_envelope": "0.3423133478361449068341146514",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "514.5613399472765000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-165.2579280433453000",
+          "return": "-0.1652579280433453"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0E-16",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-165.2579280433453000",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-152.242882",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "funding_adverse",
+      "sha256": "8787db857533ca5c790ad139917185fa32286aa4e843c231989c51aac41a970b",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-funding_adverse-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "620.8482501274397666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0384206983373457523350755422",
+      "fees_usd": "1.28132703675",
+      "funding_cost_usd": "11.6888525024769000",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737968400000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.4905870284074384859039845237",
+      "max_observed_gross_ratio": "1.626568118963408339296691846",
+      "max_ohlc_drawdown_envelope": "0.5018965411649005411447608684",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "508.5489900316967333333333266",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-156.4850832058935666666666832",
+          "return": "-0.1564850832058935666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0221296224820918176702397536"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0250551136690580950215692520"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0248700049980385719676923893"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0263544402247498964095717336"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0261946421216984661663046670"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0277959005258124011043050486"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0285906020565493338494220871"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0284826609969289895149471027"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0302949642261268171553747928"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0302336341815628486801564346"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0322154109368895821421643210"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-379.1517498725602333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-122.848237",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "funding_adverse",
+      "sha256": "e7eeed6af74c3add492abb02eb33e1bd512182869ffe9e336285d320536b42b6",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-zero_cost-infra-0.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "848.398700",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0134218191368734214994886405",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.3160213812172846756991916439",
+      "max_observed_gross_ratio": "1.616193258083650086978443467",
+      "max_ohlc_drawdown_envelope": "0.3362029862013469944317268585",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "517.090600000",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-151.601300",
+          "return": "-0.1516013"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-151.601300",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-151.601300",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "zero_cost",
+      "sha256": "272de1d951e752671cee91c714797a9dbe75e09e6b795b4481bed7e23ed4a1d7",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    },
+    {
+      "artifact": "passive_1.5-zero_cost-infra-20.json",
+      "cash_and_episode_reconciliation_passed": true,
+      "days": "365",
+      "drawdown_limit": "0.3",
+      "end_equity": "605.1708266666666666666664720",
+      "end_ms_exclusive": 1767225600000,
+      "equivalent_monthly_compound": "-0.0404399397040136246474411665",
+      "fees_usd": "0.000000",
+      "funding_cost_usd": "0",
+      "gross_cap_at_entry": "1.5",
+      "halt_at_ms": 1737975600000,
+      "halted": true,
+      "infrastructure_usd": "243.3333333333333333333334553",
+      "live_enabled": false,
+      "longest_underwater_days": "346.2083333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.5064766437538451561627648491",
+      "max_observed_gross_ratio": "1.623054497690409556446899701",
+      "max_ohlc_drawdown_envelope": "0.5173809418025760382742417587",
+      "max_residual_notional_usd": "0",
+      "minimum_margin_envelope_buffer_usd": "510.9190593333333333333333266",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2025-01",
+          "pnl_usd": "-172.1625066666666666666666832",
+          "return": "-0.1721625066666666666666666832"
+        },
+        {
+          "month": "2025-02",
+          "pnl_usd": "-18.6666666666666666666666816",
+          "return": "-0.0225487089156886378924095626"
+        },
+        {
+          "month": "2025-03",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0255405484053371375458387147"
+        },
+        {
+          "month": "2025-04",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0253644825412208351570396499"
+        },
+        {
+          "month": "2025-05",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0268920686996237816938644612"
+        },
+        {
+          "month": "2025-06",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0267437781313344867152243586"
+        },
+        {
+          "month": "2025-07",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0283946167323944033514294628"
+        },
+        {
+          "month": "2025-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0292244333156126425426448868"
+        },
+        {
+          "month": "2025-09",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0291331082392858333152708350"
+        },
+        {
+          "month": "2025-10",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0310075584024361778427109708"
+        },
+        {
+          "month": "2025-11",
+          "pnl_usd": "-20.0000000000000000000000160",
+          "return": "-0.0309675424645522799419594258"
+        },
+        {
+          "month": "2025-12",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0330224169801523769365304391"
+        }
+      ],
+      "native_orders": 30,
+      "net_total_usd": "-394.8291733333333333333335280",
+      "promotion_authorized": false,
+      "realized_pnl_usd": "-151.495840",
+      "rejected": {},
+      "residual_hours": 0,
+      "round_trips": 15,
+      "scenario": "zero_cost",
+      "sha256": "b04ec7e8498ed35daedb49dba3d442fc13e12ab010ea0f1063b5a96159b973e4",
+      "start_ms": 1735689600000,
+      "strategy": "passive_1.5",
+      "terminal_flat": true,
+      "terminal_positions": {
+        "ARB": "0",
+        "BNB": "0",
+        "DOGE": "0",
+        "ENA": "0",
+        "FARTCOIN": "0",
+        "INJ": "0",
+        "JUP": "0",
+        "LINK": "0",
+        "NEAR": "0",
+        "TAO": "0",
+        "UNI": "0",
+        "WLD": "0",
+        "XMR": "0",
+        "XRP": "0",
+        "ZEC": "0"
+      }
+    }
+  ],
+  "run_id": "prior-transfer-20260907-v1-prior_transfer",
+  "script_sha256": "3eb1d947426588498ddae36aa2226d80a53c723d832721d47228a47ebc71e7a0"
+}

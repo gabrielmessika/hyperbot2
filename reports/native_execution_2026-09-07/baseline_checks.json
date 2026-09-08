@@ -1,0 +1,52 @@
+[
+  {
+    "economic_match": true,
+    "sha256": "0d1294a621284dc74988885ca3cd5bd07e13469f33fbd4516072b41b979eae0e",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-0.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "01d8f75c87d7989d410215e16290faa74d032a884c187e8b6e9b9cc0c4f22d03",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-20.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "e233b5c18176ea5847be7e00337c5cb974dc46e691062f7fa5bd63bc5b6c5397",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-0.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "3c9387f699e576ac32674577a9acbefa433d812fb97284345a0716bb5cc193b3",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-20.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "3d915194c9252561e59f0378e8f4551f8248c4efc22af01ef6f89a3d4c26ddd5",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-delay-infra-0.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "7ad77229271f9a2a2a299c42b9d2fd2eaca6776471931b4c319a744e43ef95e2",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-delay-infra-20.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "9d634bf619c7cda6490d220d198c22f3d3f2b6c307be7e0f8924f61a3a50d49b",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-funding_adverse-infra-0.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "cb8c0c1f90be7e951ebf356d0a8419ea2b37e19eecc0142327fc1d2021537122",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-funding_adverse-infra-20.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "745e86f687d70121be034555019af7125b211c54116a00d6aa9e292f03672d6d",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-zero_cost-infra-0.json"
+  },
+  {
+    "economic_match": true,
+    "sha256": "ecf5ac086914e48ea9457a780d880d870fbd05b28ca021f3dca3fff418752a90",
+    "source": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-zero_cost-infra-20.json"
+  }
+]

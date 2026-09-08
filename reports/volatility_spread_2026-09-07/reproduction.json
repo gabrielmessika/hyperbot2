@@ -1,0 +1,77 @@
+{
+  "artifacts": [
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "original_native",
+      "sha256": "2467dfb4416a92274785b489ca6c90af71c6b48feadf26b258cfecfcfa3fbbdb"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "original_native",
+      "sha256": "e81ce77739d8aa33073aa3d75f10e8cc9eaa1fb3d03281ede9a7a8b807446a37"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "original_native",
+      "sha256": "8bc3093e6c312187017e6d4f7b809da09c20ba208c378de48910bca0945a1e1c"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "original_native",
+      "sha256": "cf2b1a9fec6b8e7fcf9edd0764207064f3d539a21bc9601ad1a23fdccfdd5c82"
+    },
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "matched_native",
+      "sha256": "84b557137868d65bf2410c99d9fa060bf51fb33f0e0d3fcaaa4bc62e0aeeac19"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "matched_native",
+      "sha256": "c92ef115b2ae37d817a7c788d707ebd4b15f67c65d894fbaeaf7d41dbb366053"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "matched_native",
+      "sha256": "0d4e98c5136d0cfda9612fa9745258d1edab7e5014bbd1db1d9cf0f0646e26ea"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "matched_native",
+      "sha256": "da5661366bb1f49090b6095c337c2a5cd149d7493a2437fb2ad6c588e2d06044"
+    },
+    {
+      "artifact": "quality",
+      "identical": true,
+      "panel": "prior_transfer",
+      "sha256": "f2f40b8189922674d915098cecc65c17998f007bc253037d827f428bb3c77fe4"
+    },
+    {
+      "artifact": "selections",
+      "identical": true,
+      "panel": "prior_transfer",
+      "sha256": "8824a8889609cba2da5f23f3ae0637ca9e3f737ca9f7ef3cd0245ee27c0023d6"
+    },
+    {
+      "artifact": "events",
+      "identical": true,
+      "panel": "prior_transfer",
+      "sha256": "ca8a2cd97ae467614d82f2d3c149ec23b2bff30823453fb45bf77e16ca07d9d9"
+    },
+    {
+      "artifact": "summary",
+      "identical": true,
+      "panel": "prior_transfer",
+      "sha256": "0fd877107f4fe574f372f927c4c835af40aead227cbedd8577cd44e8e829a045"
+    }
+  ],
+  "exact_matches": 12
+}

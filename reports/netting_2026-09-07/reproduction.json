@@ -1,0 +1,118 @@
+{
+  "artifacts": [
+    {
+      "artifact": "quality.json",
+      "identical": true,
+      "sha256": "ea656c4e7072d6fe2d606b167414b29920260297e92e2c0225cfc5d5f4947c3b"
+    },
+    {
+      "artifact": "shared-cap-1.5-base-infra-0.json",
+      "identical": true,
+      "sha256": "1f009324bde4c817002a8692e5975bb58d9a72736d0824737ffb944cf3034166"
+    },
+    {
+      "artifact": "shared-cap-1.5-base-infra-20.json",
+      "identical": true,
+      "sha256": "43f27e75a6d2adb9888e1dbe811e287bca97b06184eaa690a0c1fce425591652"
+    },
+    {
+      "artifact": "shared-cap-1.5-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "b59da0a6e8f7b2f22ae31299eb944f14aaeca8ffd63d69c109d3f76945753878"
+    },
+    {
+      "artifact": "shared-cap-1.5-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "75204353370af40629146288248374842d8b79cd28275a7ca1fa168070926d79"
+    },
+    {
+      "artifact": "shared-cap-1.5-delay-infra-0.json",
+      "identical": true,
+      "sha256": "e5e6b755fd08a28f9b796fd16e76e9a9896869764f349e0107398dca9b912ee5"
+    },
+    {
+      "artifact": "shared-cap-1.5-delay-infra-20.json",
+      "identical": true,
+      "sha256": "081eccc6392728fc51b02a4cff3c1b416b09572592a41936e91cf7b00be7fc9c"
+    },
+    {
+      "artifact": "shared-cap-1.5-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "aed1e5bf8bbace68f3558e7be1bddaaac972a710758ae41048c96e0e02332296"
+    },
+    {
+      "artifact": "shared-cap-1.5-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "6f81125def04d347d276b88b860c9ca5f2d3a35c3b2466f68409f4bac554e798"
+    },
+    {
+      "artifact": "shared-cap-1.5-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "a382f5dd8156609a43d9aa58af8114ce2cab37c35f66d0ffa57fb2ce3364d4fd"
+    },
+    {
+      "artifact": "shared-cap-1.5-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "934ef834ea2ff57495f31ef0e1738a9a09d0a57b8d3e9f03ddca11a0e8eca833"
+    },
+    {
+      "artifact": "shared-cap-2-base-infra-0.json",
+      "identical": true,
+      "sha256": "f4659edfcf447707aa6f7d0e236ceeea6bbd5697b8b223bd6ed01b830751e263"
+    },
+    {
+      "artifact": "shared-cap-2-base-infra-20.json",
+      "identical": true,
+      "sha256": "38c48fe81e3d3be22e527c347ba4257caf64f01763b64fd63d96dbb00b33d558"
+    },
+    {
+      "artifact": "shared-cap-2-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "4241c774b69bc202b708e66f0d69f20b0fd31fb5f37a95b0a224d3893699920f"
+    },
+    {
+      "artifact": "shared-cap-2-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "03fd5e16e13ba7311bd9ca20dce2f7ef29dd3e679979b904d18808d0549f9de2"
+    },
+    {
+      "artifact": "shared-cap-2-delay-infra-0.json",
+      "identical": true,
+      "sha256": "41009f08b9722bed705f3b905d0c24b62fe4ba5a13a5c5a40dec02108db47c78"
+    },
+    {
+      "artifact": "shared-cap-2-delay-infra-20.json",
+      "identical": true,
+      "sha256": "0bad17a290687756eb2b088dd27298ce724257a00b26e4312981ae82dfaf96f3"
+    },
+    {
+      "artifact": "shared-cap-2-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "31af8bcc860c5efcccad8d888e592a579dd3ba0b60d914bda32574a35c570637"
+    },
+    {
+      "artifact": "shared-cap-2-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "ecd0aa757a2030879d891a1667f7aa4f053e8749ae9da970d2189e22b4ec1da4"
+    },
+    {
+      "artifact": "shared-cap-2-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "c9fa42a609997f75180b4d1ebe46b14f93bd5848ca6774ea914c7c867d2ed94d"
+    },
+    {
+      "artifact": "shared-cap-2-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "d467f02a02cc1735bd10019a9a010f02615f574cd08fddfaa67c1030808ee671"
+    },
+    {
+      "artifact": "summary.json",
+      "identical": true,
+      "sha256": "419ba101679594ae34c319b85bd9198b517f8e60c6e3c66587daa5268dcecb4b"
+    }
+  ],
+  "exact_count": 22,
+  "mypy_sources": 68,
+  "ruff_files": 274,
+  "tests_passed": 275
+}

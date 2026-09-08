@@ -1,0 +1,129 @@
+{
+  "artifacts": [
+    {
+      "artifact": "baseline_checks.json",
+      "identical": true,
+      "sha256": "68d13d42e25c901ae7bb9fa6506b72f93d399e2926269ebc5ed99024abb87723"
+    },
+    {
+      "artifact": "native-dd-0.2-base-infra-0.json",
+      "identical": true,
+      "sha256": "9ba5f473a364c34f40d161d74fe1c8ca0ad325c8ce5fa980f6cd6b2d846d3bd4"
+    },
+    {
+      "artifact": "native-dd-0.2-base-infra-20.json",
+      "identical": true,
+      "sha256": "58ca09edeb272dd88b0f103f3739570f25fd11a1802226adbc2d770161de799d"
+    },
+    {
+      "artifact": "native-dd-0.2-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "1d7499be41fa43cd661d311081c40ec963485a049ef97aab99a0e5e8ed9df71f"
+    },
+    {
+      "artifact": "native-dd-0.2-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "47bf8a3e3b59d38c52eaf233e439601ae036a8b8dc05a626888229ba746225d3"
+    },
+    {
+      "artifact": "native-dd-0.2-delay-infra-0.json",
+      "identical": true,
+      "sha256": "7c1a95c7e6df444d02704c23145bf3764aa437da304cdf77b3a4219b699594b3"
+    },
+    {
+      "artifact": "native-dd-0.2-delay-infra-20.json",
+      "identical": true,
+      "sha256": "f0e41267b2d6cfe94681d00565780845c6ea53834b2ec76102b9bf691397e188"
+    },
+    {
+      "artifact": "native-dd-0.2-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "f68bfba5f6573bd49cb4f7f160cf93c2808d371649321689bf5395bb76afd7b2"
+    },
+    {
+      "artifact": "native-dd-0.2-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "2f14cfa311f537d99591d7fed5ecccdf93cc1faa6574fbd0922d513e3f5856e8"
+    },
+    {
+      "artifact": "native-dd-0.2-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "af4e137ef52c2770f23d0438206cbe152d6cdab4dd6d07b0ea2e7ce87fedf162"
+    },
+    {
+      "artifact": "native-dd-0.2-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "0c22fd75c7c4a0b4fd9bff51476bb28509cc97e78d471ca479733cec57dc8115"
+    },
+    {
+      "artifact": "native-dd-0.3-base-infra-0.json",
+      "identical": true,
+      "sha256": "a592958c635af2d42f9ffdd4d4e99affe13a0bf1cf75827d33f43f2eed6e36f5"
+    },
+    {
+      "artifact": "native-dd-0.3-base-infra-20.json",
+      "identical": true,
+      "sha256": "8d44979a70f08ba12fc5b45af7740bd7822fbd640dd3a8db028380da9d3bdae2"
+    },
+    {
+      "artifact": "native-dd-0.3-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "22c1c3049b0943e08bffe318a1876235ba975962c6bf5889ba3a99f01d64e2c6"
+    },
+    {
+      "artifact": "native-dd-0.3-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "a3830325d073c8b17245a8ecc548219918260d1dae941adcc369b1a0e3ed3b42"
+    },
+    {
+      "artifact": "native-dd-0.3-delay-infra-0.json",
+      "identical": true,
+      "sha256": "2c8d56624df8f93515916f70f4d6b6089e9e2a07659c4da980712c99c7e6f803"
+    },
+    {
+      "artifact": "native-dd-0.3-delay-infra-20.json",
+      "identical": true,
+      "sha256": "c10c6323a4d9d4d88ab943116bfd3f6b823c075b1c4e5fadd41ef5a2a01f51e2"
+    },
+    {
+      "artifact": "native-dd-0.3-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "80670aed4a0c540232a21514d6745d149fdc8f178451e35a05e59ec4c5db5075"
+    },
+    {
+      "artifact": "native-dd-0.3-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "b883cedbd19dcef4bde87949fd572f2923b102ddc739b4fc681afebb3a5ebf65"
+    },
+    {
+      "artifact": "native-dd-0.3-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "3ce48fc569424d49e6553186ec2559155599efe98732b1f641057f0d28a43923"
+    },
+    {
+      "artifact": "native-dd-0.3-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "ebaa4e561ebf85fe999d666bfa69cea72c355502e2106cc8ab1988f9853fbaf4"
+    },
+    {
+      "artifact": "quality.json",
+      "identical": true,
+      "sha256": "5cae8a57906385dcd9301c18635c242065198e02ca625e4524409418659ee609"
+    },
+    {
+      "artifact": "summary.json",
+      "identical": true,
+      "sha256": "272466dba21ad4e3ff946ec743b7d0dbfd272a66373286db7159af0e4275f485"
+    },
+    {
+      "artifact": "audit/uncertainty.json",
+      "identical": true,
+      "sha256": "46d6a49ae661fe7d9a421e83dce200a17d7cd46da1f19aafe2902a2dc24ea6a2"
+    }
+  ],
+  "baseline_full_economic_matches": 10,
+  "exact_count": 24,
+  "mypy_sources": 69,
+  "ruff_files": 280,
+  "tests_passed": 289
+}

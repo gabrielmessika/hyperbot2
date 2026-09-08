@@ -1,0 +1,52 @@
+[
+  {
+    "full_economic_match": true,
+    "sha256": "51cdeddf5126e072a83a2406e5c655ba51fcd4f654e3335c0dd3fe344c61c824",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-base-infra-0.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "f8b83d178b2d946c223abe0b2b32c99e36ed21f37a4ffa79005adc5d5a34f6c2",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-base-infra-20.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "904faa6e4b246523c1b11cb43ac05d1286db11cd5e40d2aa392e7b5f33be61a1",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-cost_stress-infra-0.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "3497d4deb42b5de5919326c1e17f2dd3fed31f0e19e79d517baf2eda59925c44",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-cost_stress-infra-20.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "361ddff90f9af25fa318288d71410b875eb2f423a6eda600402d003a230e85b1",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-delay-infra-0.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "f66232ab84723534a60eb233b0c61047873278f922b3aaf7d7b9b2f75920a75a",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-delay-infra-20.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "f153effae56b82f9b687a65ea6f69be7936b6fd9f8bf37405c5c1c822a694e6e",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-funding_adverse-infra-0.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "9936ddb46f973dac4fa6e5ee69a8b3c20b53c26bc43186d85d7a3b2620a1800c",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-funding_adverse-infra-20.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "1dc8924d8148640803de4d4724cc78ae291cd4119ef8096132ade7120bea4d14",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-zero_cost-infra-0.json"
+  },
+  {
+    "full_economic_match": true,
+    "sha256": "1b65c3ca4ccfb00b4383d40c124ad3d8fc6817ee5687877abd6523fd3642b155",
+    "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-zero_cost-infra-20.json"
+  }
+]

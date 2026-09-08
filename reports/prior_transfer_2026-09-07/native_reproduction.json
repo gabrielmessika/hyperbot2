@@ -1,0 +1,331 @@
+{
+  "checks": [
+    {
+      "identical": true,
+      "sha256": "d616c24e95da358a554756170a093ce59a350e8d449d5f52ab5357cdbffbb0ed",
+      "source": "data/prior_transfer_2026-09-07/original_final/baseline_checks.json"
+    },
+    {
+      "identical": true,
+      "sha256": "a592958c635af2d42f9ffdd4d4e99affe13a0bf1cf75827d33f43f2eed6e36f5",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "8d44979a70f08ba12fc5b45af7740bd7822fbd640dd3a8db028380da9d3bdae2",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "22c1c3049b0943e08bffe318a1876235ba975962c6bf5889ba3a99f01d64e2c6",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "a3830325d073c8b17245a8ecc548219918260d1dae941adcc369b1a0e3ed3b42",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "2c8d56624df8f93515916f70f4d6b6089e9e2a07659c4da980712c99c7e6f803",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "c10c6323a4d9d4d88ab943116bfd3f6b823c075b1c4e5fadd41ef5a2a01f51e2",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "80670aed4a0c540232a21514d6745d149fdc8f178451e35a05e59ec4c5db5075",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "b883cedbd19dcef4bde87949fd572f2923b102ddc739b4fc681afebb3a5ebf65",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "3ce48fc569424d49e6553186ec2559155599efe98732b1f641057f0d28a43923",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "ebaa4e561ebf85fe999d666bfa69cea72c355502e2106cc8ab1988f9853fbaf4",
+      "source": "data/prior_transfer_2026-09-07/original_final/candidate-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "47656503651a078b8316891e05890271e3be43bc132e84cf564f13b7d407249e",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "fda50264a0a35ec0aae302eab637f81868f67e74801add6aa7d0d30d5f92fb07",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "7faeb761210d665ebb75f54ae6182492bac02eb392008a5bf9e0110061253ffc",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "8c296f2207b25c58344b928c64b717d7fb2ced36a5f6371bf1838b97ee460691",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "a7ba5590b583346c16d9ee377cdb73e3227aba1d5b2fba34baafb1e1572a3a2d",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "11644fc955db233d305008d3dac7e2ecd9b8f250f9965ebe4daef20dec777542",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "1ea684f24b2c64b11b03a506c419be19089e8073dc4e9695f0641d5de8dcd847",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "3260807f52633b4063d9265817bd132d149ad1f46c92d976599bd9c969259e99",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "77392cd9c48a3d103d06270a70c0b40781d77729b32b274885d659c9e2872fc1",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "555d274fe3e7596b3c763a09a0f474aed29a18fe9c5647b0b79097b789969c90",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_0.5-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "106889218de0abb7350cd02fa41d912180b7300829f3e534da2d57cb1cbebd9b",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "ea542a5e482c3769ee99cf0acfa1ea1430c07c6ac84da0f143958fc77394e6f5",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "1d0426a93e54b3827f15c7d4bd95837c6a0b7f5794fa53a8ef3f68c861379a62",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "79a6ffc09565bce77d5e0cdec87b1e9cdb1e5d4389816ff92528a98e90069ea4",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "a6066fadfa6d197e495c7aeab2bfe383e3e71b9dadc52327ed41a9172b4c0079",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "d002203a50137745847c685fda7f6a9a692642d00100102c9bf1db79435629e8",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "d85896d05fa48268ca0312216812e7a9277845fd475e16685e5a0fae84d91a31",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "b29783b95fb91b7cdcecefcacfe15be7d8b335b0b45f74584b3d58ff8efab2ea",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "4f5758c165daccb57a20cfc82e3493aa2f48cd42c502fb5b1bbfbd4420963ac2",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "948af079a698c02fa2562e25c3586dc30d19f6fb2fc5bd3906ea2f2e06aa49bd",
+      "source": "data/prior_transfer_2026-09-07/original_final/passive_1.5-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "974f997a56dcaf43058c4e06f7069dbf5d68bd363f8176118c4c33821853bb9a",
+      "source": "data/prior_transfer_2026-09-07/original_final/quality.json"
+    },
+    {
+      "identical": true,
+      "sha256": "8fab1323fd85eafc1ddfdf9149d745851f0a83ca456e5b2fc5ecfdd3248e97b1",
+      "source": "data/prior_transfer_2026-09-07/original_final/summary.json"
+    },
+    {
+      "identical": true,
+      "sha256": "f526df76486168e69b3426361ed8433317fe77de938445bcff474d0c74a0ce51",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "2ba94ca46f8d110e54071910d010899904088c4bab4312d11c8ebdb61e9d731f",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "a0edd31ec50e00bada431e5331ceea84e31f34cc65d6cd41c269213ba6c06f60",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "3320a35f4c9bec0c28d3b8d96cc10fa1f3b23640983dcd1817638e5b073ac86f",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "3d1ca3b951404b79f0fa0276db8ef6a7dba51828bee72608dd2334f62b7e33ad",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "ca17fec7265b0aa980b3ca77d772cc83acae85851165da83ab853b7c182eaddb",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "cee1d0c1092f6c5bcd7a1f39a37b34f8bb00ea224527187f801eda4f2a30efd4",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "32b3911473d0451321012af3555d6c2cdf37c4f35d7253128c4289ca026370e7",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "31b3ba874673b1af7200361e2f14556b7b0ee491e51234b53127e867ab810a74",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "1b8852e6cf48ea428e1123bac1273bf9eaa802ea43c7526995d8a13752b59680",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/candidate-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "51cdeddf5126e072a83a2406e5c655ba51fcd4f654e3335c0dd3fe344c61c824",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "f8b83d178b2d946c223abe0b2b32c99e36ed21f37a4ffa79005adc5d5a34f6c2",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "904faa6e4b246523c1b11cb43ac05d1286db11cd5e40d2aa392e7b5f33be61a1",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "3497d4deb42b5de5919326c1e17f2dd3fed31f0e19e79d517baf2eda59925c44",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "361ddff90f9af25fa318288d71410b875eb2f423a6eda600402d003a230e85b1",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "f66232ab84723534a60eb233b0c61047873278f922b3aaf7d7b9b2f75920a75a",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "f153effae56b82f9b687a65ea6f69be7936b6fd9f8bf37405c5c1c822a694e6e",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "9936ddb46f973dac4fa6e5ee69a8b3c20b53c26bc43186d85d7a3b2620a1800c",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "1dc8924d8148640803de4d4724cc78ae291cd4119ef8096132ade7120bea4d14",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "1b65c3ca4ccfb00b4383d40c124ad3d8fc6817ee5687877abd6523fd3642b155",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_0.5-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "cf32a1c549e8c514d74c7e1d99e4039e8969efeb565d5d088ecea6dac7cc1ddb",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-base-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "cf94c3dfe20308b276ca2099ec8029fe48d0766e6593893fb05b436eb5d9a4f5",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-base-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "752f3a90a7e9f8f920e32659491e19f23d44bec0d84cb1237e0ddf4d546195e5",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-cost_stress-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "11199a1c3eff5cdf9005157fe325030c0dc96c6044421501c42401df915cbd0f",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-cost_stress-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "01cd4fae6fde483699d19fcbfe3d14a80f81189afb422e1f051ac82b1671bc6b",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-delay-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "b02bf8e51a5761ce3b6bb98a1e6f370a96048ce27386afdc475f74d967e546be",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-delay-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "2d61a68753b4100b0dc1d3d98092e22a8b01491d8eccf41830f9d002a65500e0",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-funding_adverse-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "4a41f730ea515ddbdef0482d20bf07f577440602ce3a315faf51162d6ab468f0",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-funding_adverse-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "cd3611468d0f4a0d0f081a2eea194efc943ac29af5d4aee1ac11e4a9736e0002",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-zero_cost-infra-0.json"
+    },
+    {
+      "identical": true,
+      "sha256": "b28b5dde7ed7df45ba5c1d02076760d148b38de0b582c0b8c69d070e425f45f4",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/passive_1.5-zero_cost-infra-20.json"
+    },
+    {
+      "identical": true,
+      "sha256": "2c14080ab9b99a70883ee8751e487489be9c66d763d121e92910b4280029fbb1",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/quality.json"
+    },
+    {
+      "identical": true,
+      "sha256": "f6f40aa48c2d063ae66480c3815bdd1e865887730e20fd4cc5a7eb1461fe7cd1",
+      "source": "data/prior_transfer_2026-09-07/matched_run1/summary.json"
+    }
+  ],
+  "exact_artifacts": 65,
+  "old_native_full_economic_matches": 20
+}

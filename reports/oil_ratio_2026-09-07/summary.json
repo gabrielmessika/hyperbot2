@@ -1,0 +1,1816 @@
+{
+  "candidates_requiring_replication": [],
+  "code_version": "source-sha256:22382316c4631565a1eb7269abb824afcc19ed2612887120061fcffb4980d258",
+  "decision": "HYPOTHESIS_NOT_CONFIRMED",
+  "end_ms_exclusive": 1788652800000,
+  "evaluation_start_ms": 1775001600000,
+  "limitations": [
+    "different underlying futures contracts",
+    "conservative roll blackout, historical oracle timeline unqualified",
+    "hourly OHLC assumed fills, not native marks/depth",
+    "independent extrema envelope is not an observed path",
+    "158 days do not validate 12 months"
+  ],
+  "live_enabled": false,
+  "partial_calendar_months": [
+    "2026-09"
+  ],
+  "promotion_authorized": false,
+  "protocol_sha256": "792d87aa8bee936f184624d65c3ad70667a6d9adc5d1257baf354cf51fc45d7b",
+  "results": [
+    {
+      "artifact": "cap-0.5-base-infra-0.json",
+      "days": "158",
+      "end_equity": "998.73900170634876070",
+      "equivalent_monthly_compound": "-0.0002395524459595550637166963",
+      "green_months": 3,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0055897169935493800560770955",
+      "max_ohlc_drawdown_envelope": "0.0176557325356121603238256838",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-1.82199082249843720",
+          "return": "-0.0018219908224984372"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "0.97728952520278440",
+          "return": "0.000979073387930145577417253"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "0.47989573652171850",
+          "return": "0.000480301447777749345107433"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-1.06508096396078340",
+          "return": "-0.0010654696532151121482979549"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.16888823108347840",
+          "return": "0.000169130067888479604976485"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-1.26099829365123930",
+      "net_trading_usd": "-1.26099829365123930",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "b40aa1bbf7bcaffeb0a3e6e2cf50fe8d23d4ce8b2c40deb78f6b9c476ff92eb4",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-0.5-base-infra-20.json",
+      "days": "158",
+      "end_equity": "893.4416807417996114666665824",
+      "equivalent_monthly_compound": "-0.0211666138094483419555490972",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1065583192582003885333334176",
+      "max_ohlc_drawdown_envelope": "0.1088683862669658768566908739",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-21.7724268665436784000000160",
+          "return": "-0.021772426866543678400000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-19.7446235376495702666666832",
+          "return": "-0.0201840799420564658349897958"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-19.5424252400119880000000160",
+          "return": "-0.0203889127587017055282213500"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-21.6510213764975386666666832",
+          "return": "-0.0230589912937800417234849484"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.5144889041642798666666832",
+          "return": "-0.0223642468790218804513042333"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037170229779105581225679095"
+        }
+      ],
+      "net_total_usd": "-106.5583192582003885333334176",
+      "net_trading_usd": "-1.2249859248670552000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "ac7ad673593963ad332d1059e0685a15e21be0ad3e0dbe362697df8172979a0b",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-0.5-cost_stress-infra-0.json",
+      "days": "158",
+      "end_equity": "991.78647343497773090",
+      "equivalent_monthly_compound": "-0.0015647447779572356474495405",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0097833260903620478826965792",
+      "max_ohlc_drawdown_envelope": "0.0187997624919055331983359818",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-4.14569616819786240",
+          "return": "-0.0041456961681978624"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-0.16711947596770500",
+          "return": "-0.0001678151867443564874010502"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-0.29793289303924950",
+          "return": "-0.0002992233883496239873124269"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-3.38777987522815260",
+          "return": "-0.0034034724307596947852019400"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-0.21499815258929960",
+          "return": "-0.0002167316871468179568535026"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-8.21352656502226910",
+      "net_trading_usd": "-8.21352656502226910",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 5,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "aa7f34173cb3503646ac1cc303602db162b6c7f2166098c1b058c8a440cc87c3",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-0.5-cost_stress-infra-20.json",
+      "days": "158",
+      "end_equity": "886.8054833088154848666665824",
+      "equivalent_monthly_compound": "-0.0225512529086605997901565867",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1131945166911845151333334176",
+      "max_ohlc_drawdown_envelope": "0.1153157075743552729916502001",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-24.0757176150241836000000160",
+          "return": "-0.024075717615024183600000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-20.8512748908578354666666832",
+          "return": "-0.0213656686970645225907826573"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-20.2822587831757880000000160",
+          "return": "-0.0212363438439031589733166492"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-23.7923174491933510666666832",
+          "return": "-0.0254520249392738241368917162"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.8596146196000236666666832",
+          "return": "-0.0228975307791793787442978908"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037447342717932397706250233"
+        }
+      ],
+      "net_total_usd": "-113.1945166911845151333334176",
+      "net_trading_usd": "-7.8611833578511818000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "cb3d6d3b56032a699fa37df2f19c231c043f9bf8f80263df71566e2592362cd5",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-0.5-delay-infra-0.json",
+      "days": "158",
+      "end_equity": "993.97811673469024750",
+      "equivalent_monthly_compound": "-0.0011461947541447662710254925",
+      "green_months": 2,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "156.375",
+      "max_hourly_drawdown": "0.0081334183930233934",
+      "max_ohlc_drawdown_envelope": "0.0202108074119394918971122433",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-6.83002903173645340",
+          "return": "-0.0068300290317364534"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "1.69390861102067620",
+          "return": "0.001705557619074252648642319"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "0.73313410886898230",
+          "return": "0.000736919013663472992472986"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-1.61889695346295760",
+          "return": "-0.0016260564577888921779027284"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-6.02188326530975250",
+      "net_trading_usd": "-6.02188326530975250",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "045f5e6c7c5b442589f5df651f179568107a09b01295df37c43aa7bcf7030869",
+      "unrecovered_at_end_days": "156.375"
+    },
+    {
+      "artifact": "cap-0.5-delay-infra-20.json",
+      "days": "158",
+      "end_equity": "888.7252147640169902666665824",
+      "equivalent_monthly_compound": "-0.0221498414334109648609433603",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1112747852359830097333334176",
+      "max_ohlc_drawdown_envelope": "0.1150733407703759708769796921",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-26.7434633379672862000000160",
+          "return": "-0.026743463337967286200000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-19.0566953420981620666666832",
+          "return": "-0.0195803414867951479701472715"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-19.3105795871626268000000160",
+          "return": "-0.0202374583928357253005098064"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-22.1640469687549346666666832",
+          "return": "-0.0237076709252975567199828750"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0226428133378675047417932043"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037366755135556043827075149"
+        }
+      ],
+      "net_total_usd": "-111.2747852359830097333334176",
+      "net_trading_usd": "-5.9414519026496764000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "b4f08706735aa10f7727f45a0b72a582de7853346e0118f05d18cf3ba2ed8697",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-0.5-funding_adverse-infra-0.json",
+      "days": "158",
+      "end_equity": "998.62988057708371930",
+      "equivalent_monthly_compound": "-0.0002602937559455371222089849",
+      "green_months": 3,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0056079177293785479696663186",
+      "max_ohlc_drawdown_envelope": "0.0176647904106438102008826993",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-1.84339570213527560",
+          "return": "-0.0018433957021352756"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "0.95275573022149380",
+          "return": "0.000954515279585504169354446"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "0.45715261586648250",
+          "return": "0.000457560137214239856732579"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-1.10455253749371360",
+          "return": "-0.0011050315547007096472153103"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.16792047062473220",
+          "return": "0.000168179136846463353936862"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-1.37011942291628070",
+      "net_trading_usd": "-1.37011942291628070",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "51adf25fce6cafacd3770ab60dba162997b97f56a92705fbccb7be3bae52d2de",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-0.5-funding_adverse-infra-20.json",
+      "days": "158",
+      "end_equity": "893.3359432537946300666665824",
+      "equivalent_monthly_compound": "-0.0211886104592964963149793513",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1066640567462053699333334176",
+      "max_ohlc_drawdown_envelope": "0.1089738503619918926444321888",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-21.7934518090495784000000160",
+          "return": "-0.021793451809049578400000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-19.7684495999300454666666832",
+          "return": "-0.0202088706485239690874275013"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-19.5639433722495400000000160",
+          "return": "-0.0204123181257194182024096338"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-21.6894219670198466666666832",
+          "return": "-0.0231015220159787094994412896"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.5154566646230260666666832",
+          "return": "-0.0223678566823592080164227527"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037174612985743785561389550"
+        }
+      ],
+      "net_total_usd": "-106.6640567462053699333334176",
+      "net_trading_usd": "-1.3307234128720366000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "7d3604644f4867ea520b50d266027c4f9aca16986fabd90ecaedfad1bd4217c5",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-0.5-zero_cost-infra-0.json",
+      "days": "158",
+      "end_equity": "1004.082725",
+      "equivalent_monthly_compound": "0.000773922100539509362356054",
+      "green_months": 4,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "91.08333333333333333333333333",
+      "max_hourly_drawdown": "0.0046823254023416266843189932",
+      "max_ohlc_drawdown_envelope": "0.0167835087940653406095311988",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-0.030021",
+          "return": "-0.000030021"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "1.868283",
+          "return": "0.001868339089407803111657215"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "1.087086",
+          "return": "0.001085091317863840979952511"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "0.695969",
+          "return": "0.000693938986972338443678462"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.461408",
+          "return": "0.000459743124407948381590623"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "4.082725",
+      "net_trading_usd": "4.082725",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 1,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "96d9f0f9486bcc66a2de7d9f51cfeb31fb5d2741f7e4d416d98b4787681c1b04",
+      "unrecovered_at_end_days": "36.41666666666666666666666667"
+    },
+    {
+      "artifact": "cap-0.5-zero_cost-infra-20.json",
+      "days": "158",
+      "end_equity": "898.5436236666666666666665824",
+      "equivalent_monthly_compound": "-0.0201077501133773674317925692",
+      "green_months": 0,
+      "gross_cap": "0.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1014563763333333333333334176",
+      "max_ohlc_drawdown_envelope": "0.1039088400392386720109640824",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-20.0156420000000000000000160",
+          "return": "-0.020015642000000000000000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-18.8645596666666666666666832",
+          "return": "-0.0192498579315759514058148707"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-18.9646200000000000000000160",
+          "return": "-0.0197317962161286522521761634"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-20.0271986666666666666666832",
+          "return": "-0.0212567941324640988413821408"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.2510226666666666666666832",
+          "return": "-0.0219611844702804284174236792"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0036959956759748251704509802"
+        }
+      ],
+      "net_total_usd": "-101.4563763333333333333334176",
+      "net_trading_usd": "3.8769569999999999999999157",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "bf70a2c12dd036acb15ad22d936c082469c3f9b48c284829939ad67ec387342a",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-1-base-infra-0.json",
+      "days": "158",
+      "end_equity": "997.46150641174711940",
+      "equivalent_monthly_compound": "-0.0004824888229428208650483673",
+      "green_months": 3,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0111349026059591225908446166",
+      "max_ohlc_drawdown_envelope": "0.0350549092354054026285316975",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-3.63555085463433520",
+          "return": "-0.0036355508546343352"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "1.95965719887249240",
+          "return": "0.001966807628025461696916053"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "0.95710713297614700",
+          "return": "0.000958713835410602732672179"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-2.13907074964380880",
+          "return": "-0.0021406093908244819358909622"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.31936368417662400",
+          "return": "0.000320278995834074829759615"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-2.53849358825288060",
+      "net_trading_usd": "-2.53849358825288060",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "902f434d13b68de248f05bfe24c52cc26dd010ed7103f94d7b53c55252e6b58f",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1-base-infra-20.json",
+      "days": "158",
+      "end_equity": "892.2252161690182411666665824",
+      "equivalent_monthly_compound": "-0.0214198034008751409568122179",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.1078552675012673498549333006",
+      "max_ohlc_drawdown_envelope": "0.1128525993311570361562019889",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-23.5538912714336748000000160",
+          "return": "-0.023553891271433674800000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-18.7921148987189138666666832",
+          "return": "-0.0192454194150952049946396392"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-19.0947986956944281000000160",
+          "return": "-0.0199391417137316556509688343"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-22.6296246460107998666666832",
+          "return": "-0.0241110254561793876761341386"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.3710209857906088666666832",
+          "return": "-0.0222408159340613147982086052"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037220719239245904869895604"
+        }
+      ],
+      "net_total_usd": "-107.7747838309817588333334176",
+      "net_trading_usd": "-2.4414504976484255000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "f26e9f5376256ee10a77ae3f26509f053f8054f2440b9c2f74228b0d0eaf1aa4",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1-cost_stress-infra-0.json",
+      "days": "158",
+      "end_equity": "983.61571436056383100",
+      "equivalent_monthly_compound": "-0.0031317930896060021201882795",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0194926535049758887565496452",
+      "max_ohlc_drawdown_envelope": "0.0373078265255508985273950639",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-8.27393536314146800",
+          "return": "-0.008273935363141468"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-0.34302820759870100",
+          "return": "-0.0003458900797613986593477216"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-0.59376733103815020",
+          "return": "-0.0005989282741580564530194271"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-6.73219746204531820",
+          "return": "-0.0067947823740286424666077933"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-0.44135727561253160",
+          "return": "-0.0004485078033926362966401130"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-16.38428563943616900",
+      "net_trading_usd": "-16.38428563943616900",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 5,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "b767369ca920a81f60d8937dc851b4869c1c154320f6bda2b5bb45c22c71a2c9",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1-cost_stress-infra-20.json",
+      "days": "158",
+      "end_equity": "878.9798855846295066666665824",
+      "equivalent_monthly_compound": "-0.0241948872437113348715535181",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1210201144153704933333334176",
+      "max_ohlc_drawdown_envelope": "0.1256839207612543271213246218",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-28.1448129073277740000000160",
+          "return": "-0.028144812907327774000000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-21.0301323020743932666666832",
+          "return": "-0.0216391624815900107046730752"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-20.5699364049836258000000160",
+          "return": "-0.0216337761624442946705667143"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-26.8797841965481382666666832",
+          "return": "-0.0288950672404747681575729491"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-21.0621152711032286666666832",
+          "return": "-0.0233149107286730170495026918"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037779478555486375933245955"
+        }
+      ],
+      "net_total_usd": "-121.0201144153704933333334176",
+      "net_trading_usd": "-15.6867810820371600000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "8467a480d2204fba535dd269f9487b2032f47aaa50748fa79150dcedc0f92957",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-1-delay-infra-0.json",
+      "days": "158",
+      "end_equity": "987.96328472439246910",
+      "equivalent_monthly_compound": "-0.0022966769092577250906458579",
+      "green_months": 2,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "156.375",
+      "max_hourly_drawdown": "0.016205921014888313",
+      "max_ohlc_drawdown_envelope": "0.0400738056842620831751414581",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-13.61644763708419300",
+          "return": "-0.013616447637084193"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "3.35202237563028300",
+          "return": "0.003398295082678941505348054"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "1.44863916923138330",
+          "return": "0.001463662826926337036052831"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-3.22092918338500420",
+          "return": "-0.0032495767569646628565382631"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-12.03671527560753090",
+      "net_trading_usd": "-12.03671527560753090",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "97111d8154cef50b2db2efadfac66fae816ba918a88e60c2ae3d704bce228a37",
+      "unrecovered_at_end_days": "156.375"
+    },
+    {
+      "artifact": "cap-1-delay-infra-20.json",
+      "days": "158",
+      "end_equity": "882.8100918577385715666665824",
+      "equivalent_monthly_compound": "-0.0233889425292892732060202547",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1171899081422614284333334176",
+      "max_ohlc_drawdown_envelope": "0.1256675482537928182737691548",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-33.4360559040752036000000160",
+          "return": "-0.033436055904075203600000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-17.4607126708758558666666832",
+          "return": "-0.0180647258544365904021948883"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-18.6302989323950289000000160",
+          "return": "-0.0196293704578607485359513998"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-23.6628406349153400666666832",
+          "return": "-0.0254309822549321264749015660"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0227905124261771863023578751"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037616183098290141433567463"
+        }
+      ],
+      "net_total_usd": "-117.1899081422614284333334176",
+      "net_trading_usd": "-11.8565748089280951000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "600dae4b6a8e668578ded5e1fd8b988d02d05ad438331bea472d95f7cf5d20e3",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-1-funding_adverse-infra-0.json",
+      "days": "158",
+      "end_equity": "997.25214046187033430",
+      "equivalent_monthly_compound": "-0.0005223271791108641524701573",
+      "green_months": 3,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0111712501572897961025332721",
+      "max_ohlc_drawdown_envelope": "0.0350732721798730214269208569",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-3.67836150832461520",
+          "return": "-0.0036783615083246152"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "1.91086795955419620",
+          "return": "0.001917922772857815602955369"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "0.91085203332684190",
+          "return": "0.000912464808990212132565138"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-2.21931688026558340",
+          "return": "-0.0022212196692491821004463858"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.32809885757949480",
+          "return": "0.000329111189907211719816602"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-2.74785953812966570",
+      "net_trading_usd": "-2.74785953812966570",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "4630874c05977ab46948d309de6071ed5c641767618c39aa9dfd0265da8f553f",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1-funding_adverse-infra-20.json",
+      "days": "158",
+      "end_equity": "892.0010959849696965666665824",
+      "equivalent_monthly_compound": "-0.0214664812957089925447591638",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.1080793674684304372611103136",
+      "max_ohlc_drawdown_envelope": "0.1130754440065964985270280466",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-23.5960124704541948000000160",
+          "return": "-0.023596012470454194800000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-18.8398807431507316666666832",
+          "return": "-0.0192951698106216924253815935"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-19.1378911359510701000000160",
+          "return": "-0.0199860155579329598698230473"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-22.7197975858916184666666832",
+          "return": "-0.0242105316400864007634734503"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.3719887462493550666666832",
+          "return": "-0.0222472927396400963755954682"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037230036332583497652344777"
+        }
+      ],
+      "net_total_usd": "-107.9989040150303034333334176",
+      "net_trading_usd": "-2.6655706816969701000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "bf1f7615046ebdd6240a486ef98ce8b597bda89d862094e62ba3d5685b3197ff",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1-zero_cost-infra-0.json",
+      "days": "158",
+      "end_equity": "1008.198944",
+      "equivalent_monthly_compound": "0.001551616802469319708963741",
+      "green_months": 4,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "91.08333333333333333333333333",
+      "max_hourly_drawdown": "0.0093223455325839562091295550",
+      "max_ohlc_drawdown_envelope": "0.0333423404010725819757576251",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-0.056661",
+          "return": "-0.000056661"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "3.752351",
+          "return": "0.003752563624007499888951208"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "2.177672",
+          "return": "0.002169653632765923304901309"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "1.405934",
+          "return": "0.001397724657112452690639997"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.919648",
+          "return": "0.000913001988278730589534524"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "8.198944",
+      "net_trading_usd": "8.198944",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 1,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "543295af13dfda4ca1dfb4cfeff402f642e52d62abad0cdf603c7ada1ab29f20",
+      "unrecovered_at_end_days": "36.41666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1-zero_cost-infra-20.json",
+      "days": "158",
+      "end_equity": "902.4490216666666666666665796",
+      "equivalent_monthly_compound": "-0.0193005051317573218007216996",
+      "green_months": 0,
+      "gross_cap": "1",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.0979319374122403471545373363",
+      "max_ohlc_drawdown_envelope": "0.1029452504171121071670447503",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-20.0185460000000000000000188",
+          "return": "-0.0200185460000000000000000188"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-17.0644776666666666666666832",
+          "return": "-0.0174130618462363948641284017"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-17.9297340000000000000000160",
+          "return": "-0.0186202283692973933094666086"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-19.3724866666666666666666832",
+          "return": "-0.0205002626478138694110137638"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-19.8324006666666666666666832",
+          "return": "-0.0214261932896505499276528402"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0036800599116697667767367099"
+        }
+      ],
+      "net_total_usd": "-97.5509783333333333333334204",
+      "net_trading_usd": "7.7823549999999999999999129",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "ad0cbb1e36ceafc80476832d16b3273bf2933353e368bf4f850cae2c243f597a",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1.5-base-infra-0.json",
+      "days": "158",
+      "end_equity": "996.19438663275093840",
+      "equivalent_monthly_compound": "-0.0007237012559291133391275517",
+      "green_months": 3,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0166622697165410994601793265",
+      "max_ohlc_drawdown_envelope": "0.0521890202231259159875433742",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-5.46188904051655520",
+          "return": "-0.0054618890405165552"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "2.94158826602991400",
+          "return": "0.002957743130820807291141930"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "1.43382142616224560",
+          "return": "0.001437444217937996075772930"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-3.20063694024770000",
+          "return": "-0.0032041181484455775201067649"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.48150292132303400",
+          "return": "0.000483576068161613302345704"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-3.80561336724906160",
+      "net_trading_usd": "-3.80561336724906160",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "c43b09a2b16e5c9c8acbe76e5d643348226ec3f90300dd8a742f230c9d97cc41",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1.5-base-infra-20.json",
+      "days": "158",
+      "end_equity": "890.9578040053367504666665824",
+      "equivalent_monthly_compound": "-0.0216838946444288058997573022",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.1094121457649673461923545112",
+      "max_ohlc_drawdown_envelope": "0.1194530322741709874259369460",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-25.3423281796392100000000160",
+          "return": "-0.025342328179639210000000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-17.8719195922432120666666832",
+          "return": "-0.0183366120320624599425334216"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-18.6410667129174206000000160",
+          "return": "-0.0194830103495029924611809310"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-23.6192207859019122666666832",
+          "return": "-0.0251765225029558888478247930"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.2343273906281612666666832",
+          "return": "-0.0221254936806134438637803491"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037273469389991197387331716"
+        }
+      ],
+      "net_total_usd": "-109.0421959946632495333334176",
+      "net_trading_usd": "-3.7088626613299162000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "base",
+      "sha256": "c8f6c3a0c489c02074547aa12d69819f6590df428534c881a31a29cee6da07f9",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1.5-cost_stress-infra-0.json",
+      "days": "158",
+      "end_equity": "975.45057508916850690",
+      "equivalent_monthly_compound": "-0.0047083340008315419665627790",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0291487193589085856010459954",
+      "max_ohlc_drawdown_envelope": "0.0555205252824027996361755683",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-12.42536037782601760",
+          "return": "-0.0124253603778260176"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-0.52423572087314240",
+          "return": "-0.0005308314934795251012095950"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-0.89109313933120410",
+          "return": "-0.0009027838252324023213834021"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-10.04860564411538260",
+          "return": "-0.0101896372466951495059988010"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-0.66013002868574640",
+          "return": "-0.0006762860249607069062018234"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-24.54942491083149310",
+      "net_trading_usd": "-24.54942491083149310",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 5,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "fb38e437df5aad1a65c21cfa589f4f422b983d40fe73ee3114ae503e95c3a08f",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1.5-cost_stress-infra-20.json",
+      "days": "158",
+      "end_equity": "871.1855844899281626666665824",
+      "equivalent_monthly_compound": "-0.0258437746598131445662906328",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1288144155100718373333334176",
+      "max_ohlc_drawdown_envelope": "0.1378434810635250914862253224",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-32.2157969104996184000000160",
+          "return": "-0.032215796910499618400000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-21.2226580384832642666666832",
+          "return": "-0.0219291221852281044754103538"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-20.8555155717511148000000160",
+          "return": "-0.0220329208182940272451244231"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-29.9318903752121744666666832",
+          "return": "-0.0323341205761073527076757462"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-21.2552212807923320666666832",
+          "return": "-0.0237283265422817803141851734"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0038116194691708124444848886"
+        }
+      ],
+      "net_total_usd": "-128.8144155100718373333334176",
+      "net_trading_usd": "-23.4810821767385040000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "cost_stress",
+      "sha256": "03f72196b9beb6de145e3f2048a405a0f83cf3f78370d2fb64bd20c4c0ddce77",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-1.5-delay-infra-0.json",
+      "days": "158",
+      "end_equity": "981.92274746076471790",
+      "equivalent_monthly_compound": "-0.0034578008309025174926587658",
+      "green_months": 2,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "156.375",
+      "max_hourly_drawdown": "0.0242258856580027032",
+      "max_ohlc_drawdown_envelope": "0.0595655078367774663061879137",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-20.37070368621794320",
+          "return": "-0.0203707036862179432"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "4.97680964667581240",
+          "return": "0.005080298910417339906431757"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "2.13740248370666150",
+          "return": "0.002170819854526171649224884"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-4.82076098339981280",
+          "return": "-0.0048855259164571422486563003"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-18.07725253923528210",
+      "net_trading_usd": "-18.07725253923528210",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "2026e4506c61b2f96de98a08d330c5a714427f073bbe5a244653fcf37c763d7c",
+      "unrecovered_at_end_days": "156.375"
+    },
+    {
+      "artifact": "cap-1.5-delay-infra-20.json",
+      "days": "158",
+      "end_equity": "876.9262478308646265666665824",
+      "equivalent_monthly_compound": "-0.0246281821215528011360763349",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "158",
+      "max_hourly_drawdown": "0.1230737521691353734333334176",
+      "max_ohlc_drawdown_envelope": "0.1361181511091292765551961180",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-40.1098850071643728000000160",
+          "return": "-0.040109885007164372800000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-15.8823100837811456666666832",
+          "return": "-0.0165459669140354540915084838"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-17.9586058289175679000000160",
+          "return": "-0.0190237895656463309699526114"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-25.1229512492722870666666832",
+          "return": "-0.0271291755062554064929096201"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.6666666666666666666666832",
+          "return": "-0.0229393545991419743529463857"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037867617742084590561031370"
+        }
+      ],
+      "net_total_usd": "-123.0737521691353734333334176",
+      "net_trading_usd": "-17.7404188358020401000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 17,
+      "scenario": "delay",
+      "sha256": "cbfa2a55ee8b883535931ba8467f60f1117dc711433dc1ebac78bc43a9613795",
+      "unrecovered_at_end_days": "158"
+    },
+    {
+      "artifact": "cap-1.5-funding_adverse-infra-0.json",
+      "days": "158",
+      "end_equity": "995.86491959028839840",
+      "equivalent_monthly_compound": "-0.0007864602291402895370259352",
+      "green_months": 3,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "136.25",
+      "max_hourly_drawdown": "0.0167167461944490284286086775",
+      "max_ohlc_drawdown_envelope": "0.0522169681346370476495045254",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-5.52614229024761520",
+          "return": "-0.0055261422902476152"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "2.86608634435939620",
+          "return": "0.002882012756936536314337995"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "1.36447024915691380",
+          "return": "0.001368109496958925530126505"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-3.31809435292709180",
+          "return": "-0.0033223988052980731601254083"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "0.47859963994679540",
+          "return": "0.000480817980269883606747760"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0E-17",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "-4.13508040971160160",
+      "net_trading_usd": "-4.13508040971160160",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 2,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "27665ec06af9c95eceec4d4f1b2b0e29f8c6a99e96996826b34fde3d76e28637",
+      "unrecovered_at_end_days": "136.25"
+    },
+    {
+      "artifact": "cap-1.5-funding_adverse-infra-20.json",
+      "days": "158",
+      "end_equity": "890.6603536042294520666665824",
+      "equivalent_monthly_compound": "-0.0217459186103026521156810299",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.1097094726566255193817934818",
+      "max_ohlc_drawdown_envelope": "0.1197444056336881841880590488",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-25.4021892549902484000000160",
+          "return": "-0.025402189254990248400000016"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-17.9423672769693654666666832",
+          "return": "-0.0184100221436509481203069717"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-18.7067429246697004000000160",
+          "return": "-0.0195543160835990672868194393"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-23.7274858676651174666666832",
+          "return": "-0.0252972106618617358947139452"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-20.2275277381427828666666832",
+          "return": "-0.0221254193333480378228112912"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0037285871052981338631998960"
+        }
+      ],
+      "net_total_usd": "-109.3396463957705479333334176",
+      "net_trading_usd": "-4.0063130624372146000000843",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "funding_adverse",
+      "sha256": "4b770ef112b7235094fc3e4cde6c3aaae8a8f3459d11f823ff546bedb9e435e5",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1.5-zero_cost-infra-0.json",
+      "days": "158",
+      "end_equity": "1012.296724",
+      "equivalent_monthly_compound": "0.002323276930482717642789735",
+      "green_months": 4,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "91.08333333333333333333333333",
+      "max_hourly_drawdown": "0.0139544662567697140714191417",
+      "max_ohlc_drawdown_envelope": "0.0496604650093315426928123097",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-0.112237",
+          "return": "-0.000112237"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "5.636164",
+          "return": "0.005636796657146408141410567"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "3.274048",
+          "return": "0.003256061752571304054110291"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "2.108683",
+          "return": "0.002090292657457009665389148"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "1.390066",
+          "return": "0.001375068597085053524298779"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "0.000000",
+          "return": "0"
+        }
+      ],
+      "net_total_usd": "12.296724",
+      "net_trading_usd": "12.296724",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 1,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "9f7c0a7ca1a546f1dfe74c7b9bc86fe52ff30734006b1e26dfa8143689087d48",
+      "unrecovered_at_end_days": "36.41666666666666666666666667"
+    },
+    {
+      "artifact": "cap-1.5-zero_cost-infra-20.json",
+      "days": "158",
+      "end_equity": "906.3301076666666666666665762",
+      "equivalent_monthly_compound": "-0.0185010843061014752522598484",
+      "green_months": 0,
+      "gross_cap": "1.5",
+      "halt_at_ms": null,
+      "halted": false,
+      "hourly_drawdown_le_20pct": true,
+      "infrastructure_usd": "105.3333333333333333333333333",
+      "live_enabled": false,
+      "longest_underwater_days": "157.1666666666666666666666667",
+      "max_hourly_drawdown": "0.0944973844899575614890339876",
+      "max_ohlc_drawdown_envelope": "0.1064393745325102403648712864",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-04",
+          "pnl_usd": "-20.0544690000000000000000222",
+          "return": "-0.0200544690000000000000000222"
+        },
+        {
+          "month": "2026-05",
+          "pnl_usd": "-15.2639516666666666666666832",
+          "return": "-0.0155763266261241479825338206"
+        },
+        {
+          "month": "2026-06",
+          "pnl_usd": "-16.8890480000000000000000160",
+          "return": "-0.0175073810486477697291215994"
+        },
+        {
+          "month": "2026-07",
+          "pnl_usd": "-18.7193076666666666666666832",
+          "return": "-0.0197504274910594234639664439"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "-19.4097826666666666666666832",
+          "return": "-0.0208915531868029787595453771"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "-3.3333333333333333333333360",
+          "return": "-0.0036643589080253400370888779"
+        }
+      ],
+      "net_total_usd": "-93.6698923333333333333334238",
+      "net_trading_usd": "11.6634409999999999999999095",
+      "ohlc_envelope_le_20pct": true,
+      "promotion_authorized": false,
+      "red_months": 6,
+      "round_trips": 18,
+      "scenario": "zero_cost",
+      "sha256": "f63bca51fdeeb132310c42770f1ca3f74772f385c2fe6f7aa84e661c2ef6257c",
+      "unrecovered_at_end_days": "157.1666666666666666666666667"
+    }
+  ],
+  "run_id": "oil-ratio-20260907-v1",
+  "scripts": {
+    "/workspaces/hyperbot2/scripts/investigate_oil_ratio.py": "70360e93c37b53262894a6ca5cb666d35e246a4fe29b84765e96344a065e49a7",
+    "scripts/fetch_oil_history.py": "22c5301990edf62501f934dd5fe2804de06514a53278d44f04cb76e0bd19d69a",
+    "scripts/investigate_commodity_trend.py": "bc9d726e3ce46932386db64570b3e5af1edd2acdc2dbdc93cb0007ff7b2f1d18",
+    "scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd"
+  },
+  "sources": {
+    "data/commodity_trend_2026-09-07/history/manifest.json": "b10e1ffb1e4c39307a673c422dfad0836af1b0e5926c490cdfc00d256108044b",
+    "data/commodity_trend_2026-09-07/history/request-000.json": "270d9ddc4c941602211b3396c92f1df7bb2926e0306141b2e42a42fe8e8639c8",
+    "data/commodity_trend_2026-09-07/history/request-001.json": "4048bf6d2638539f9105179aaffcec346e0daf0a2848750969c482c32a6ec3f8",
+    "data/commodity_trend_2026-09-07/history/request-002.json": "67a2074a82ff4a5e3690f5e80d48c6220829772124bfee4f7ffc3c8cc8d3a071",
+    "data/commodity_trend_2026-09-07/history/request-003.json": "06eba538c3e316539bf94b97d70a7346b335390e36de4d0bb6bdffd1e0571c9e",
+    "data/commodity_trend_2026-09-07/history/request-004.json": "41e9ca163f8c46dd278ad1811a0ee34c61596d68a7e50b008b1bdf10f30fc9f0",
+    "data/commodity_trend_2026-09-07/history/request-005.json": "8af4dc25cec863a82e817e58504a2e5a0e1ecc5eee3f7f0dead54f414e2f8cea",
+    "data/commodity_trend_2026-09-07/history/request-006.json": "dbee44096000ffc9c01278bdedcbc0b7581cb04515db8900fb5173eba40ea98d",
+    "data/commodity_trend_2026-09-07/history/request-007.json": "f92c7c621ea447b54223ca621fe0bd9749b212127ed15721a50686d9ffe039b3",
+    "data/commodity_trend_2026-09-07/history/request-008.json": "09415b0ebca1d77ffb07c31b0f6dc732537be04e8b63d71bc77e3cb34ead65f4",
+    "data/commodity_trend_2026-09-07/history/request-009.json": "6aa91d4a570c3e1ee9bf68c160703579fd02a1a0a09923c115f3c18f642682e9",
+    "data/commodity_trend_2026-09-07/history/request-010.json": "55c4465c0658915dc82e46e9fcb26da39311394b8d614e1a0d2bf8a8b4e5dea9",
+    "data/commodity_trend_2026-09-07/history/request-011.json": "2144be2eee917ce9ef16c8d118aded9549a9ffa6b8f74eb490e78637ad504101",
+    "data/commodity_trend_2026-09-07/history/request-012.json": "b176ba8636ecc6367fd8e79b954ff6bf3fb985a4a4eb9fcc86ee5beb4f38d9a0",
+    "data/commodity_trend_2026-09-07/history/request-013.json": "d186aaf0d72596b72ba230ae88a69a2b5cfc51b71d7aaa13a16a4ddc98c39f3e",
+    "data/commodity_trend_2026-09-07/history/request-014.json": "edfd142e1051410e634416efb56a751d758596af95ab22508b1ffaec02d2555d",
+    "data/commodity_trend_2026-09-07/history/request-015.json": "f1c25ff65c8aa797f97d78e259126ae1367175abcec12c0514f543293afe1834",
+    "data/commodity_trend_2026-09-07/history/request-016.json": "6872fcf5142ad0c80cfa9fe987275e182a2be243eb06f1e77ca9e581c2ae8715",
+    "data/commodity_trend_2026-09-07/history/request-017.json": "180af3ae735c34658f8a950c14f4588f5dad1359aac7e0cfb2c4b2e1c2d04c86",
+    "data/commodity_trend_2026-09-07/history/request-018.json": "fc95df645b181fea3ff70861f314722a58794a28188b09276efce3ba88df2523",
+    "data/commodity_trend_2026-09-07/history/request-019.json": "4d2b9420dd8f0e90a4ee3e3383f4cad342890b036036b97d396086dbc0d724f8",
+    "data/commodity_trend_2026-09-07/history/request-020.json": "48357a438ed01681db065926a26a36fe039d34cc49804601083eb9cabc5e13ed",
+    "data/commodity_trend_2026-09-07/history/request-021.json": "8c77ee871822f5efc8cda8b56cfe55617675ff423aa23b4e322b85f9b4bb80cb",
+    "data/commodity_trend_2026-09-07/history/request-022.json": "95376480834007215e377143950398d497911ca72b627e72d9b67b7584a47702",
+    "data/commodity_trend_2026-09-07/history/request-023.json": "098a91c0c093150747805d7a6a4dc10d9eebca48836545c27ebe368d7a67fa54",
+    "data/commodity_trend_2026-09-07/history/request-024.json": "5ec0780719f45f33be921e22c3cb137f63cd9cd4058dfc4c6e4d509bbb267051",
+    "data/commodity_trend_2026-09-07/history/request-025.json": "86a2c969e034e5021cc3bf2f0cefae6cd40e6c7fc96c985244d1b13a1fcb3e28",
+    "data/commodity_trend_2026-09-07/history/request-026.json": "dcf95f1ceac756c1915bda999deb481ad71320efae455cf580124c92ec5e4813",
+    "data/commodity_trend_2026-09-07/history/request-027.json": "5d16441274485edcf5de813fa5d598672030411310eb718eac7933f05a00ed43",
+    "data/commodity_trend_2026-09-07/history/request-028.json": "7f4a1f2e48b8e53b734363adc1be0868fb1aee9d22fb26291c8a0a8d1a262f36",
+    "data/commodity_trend_2026-09-07/history/request-029.json": "06f5713ea283c22c1afd81bd43032bd22995aa8192ae7a3f37fa47014654f66a",
+    "data/commodity_trend_2026-09-07/history/request-030.json": "531b522a5bffdb91b37f28898ba9ecbe147bf7691198179bc5a2ea9555810124",
+    "data/commodity_trend_2026-09-07/history/request-031.json": "9eef850f01eb3cd7290a09f083f99a63b17f1d8c498104162e5bd7ca9020eb80",
+    "data/commodity_trend_2026-09-07/history/request-032.json": "d67950f6a16679ef8258794c8f8a93ed5646106ed4b10cfd2b3fa0dfe9f42ab5",
+    "data/oil_ratio_2026-09-07/history/manifest.json": "de6b18c7647676f2a9dac7ecbd53a36ead7f2950ef51b5c2a21c29760304e7f4",
+    "data/oil_ratio_2026-09-07/history/request-000.json": "7a58b091a3d52d1816fe2ebdc2aaac30d191d7d702cf141da32258fd9ce209bf",
+    "data/oil_ratio_2026-09-07/history/request-001.json": "7f54e2fef271c4341f203872173b952e710352ac92d50febb9f29a8e705cb2f6",
+    "data/oil_ratio_2026-09-07/history/request-002.json": "35eefa1a15e5ef0f2270626ed444a8229c47c8d140f7f9c3e56e34798fa08cbc",
+    "data/oil_ratio_2026-09-07/history/request-003.json": "bffda7ab02b3907ac5b8cab047df5d60c47a3ab11fedd343057199aadee6de7f",
+    "data/oil_ratio_2026-09-07/history/request-004.json": "1b9cbd61338af9ae2d4c067d1119322b5cf29a205e20d73b8000ae07d124c339",
+    "data/oil_ratio_2026-09-07/history/request-005.json": "39ef7721a801c1ce5871cd90a0e58ed62b67bd8542d1c8e315eb8ddbdf0432ec",
+    "data/oil_ratio_2026-09-07/history/request-006.json": "3062493a27460a3657b317a4d541faa1ecff7947db9d2567f12fbbdec9f65b6e",
+    "data/oil_ratio_2026-09-07/history/request-007.json": "ac33d9a74d226c2ee4ab4d206f38c99d488a56a645f4a1b104a986d8e7942b1b",
+    "data/oil_ratio_2026-09-07/history/request-008.json": "9295b66dbaf69c3e24536c84ac5b763aeb8135495a0ee1d3e63b82c41b4edd18",
+    "data/weekend_repricing_2026-09-07/xyz_meta.json": "bb94edc88c9fdef2c546c33730d616b4aa7a642301e7ca604ea7ed2a2665b22c"
+  }
+}

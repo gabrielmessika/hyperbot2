@@ -1,0 +1,22 @@
+{
+  "annual_funding_acquisition_justified": false,
+  "config_sha256": "6531dc07b860dd7be73befdef3ebb111148ea9d4801fb3a7bd381f7b286a1049",
+  "criteria_by_panel": {
+    "native_2025": {
+      "positive_central_lower_bound": false,
+      "positive_price_ceilings": false,
+      "twenty_baskets": true
+    },
+    "native_2026": {
+      "positive_central_lower_bound": false,
+      "positive_price_ceilings": true,
+      "twenty_baskets": true
+    }
+  },
+  "decision": "NATIVE_PRICE_CEILING_CROSS_PERIOD_SCREEN_FAILED",
+  "funding_signed_profitability_not_measured": true,
+  "live_enabled": false,
+  "native_fills_qualified": false,
+  "portfolio_simulated": false,
+  "promotion_authorized": false
+}

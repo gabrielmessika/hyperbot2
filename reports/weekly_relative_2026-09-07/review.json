@@ -1,0 +1,10 @@
+{
+  "decision": "POSITIVE_SMALL_RETURN_RESEARCH_SUSPENDED",
+  "live_enabled": false,
+  "producer_decision": "WEEKLY_RESEARCH_CANDIDATE_UNQUALIFIED",
+  "promotion_authorized": false,
+  "reason": "0.5x passes preliminary positive/risk screen without infrastructure but only 1.3163 percent monthly equivalent; larger registered caps exceed the risk envelope. No target-relevant robust edge demonstrated.",
+  "red_month_is_veto": false,
+  "risk_limit_drawdown": "0.20",
+  "summary_sha256": "dd7b3f5f9b416103989cf63d451f8312d2ec4f6070496cd2fc23d58f15940a59"
+}

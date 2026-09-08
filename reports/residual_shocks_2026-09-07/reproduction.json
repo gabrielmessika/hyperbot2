@@ -1,0 +1,26 @@
+{
+  "artifacts": [
+    {
+      "left": "data/residual_shocks_2026-09-07/run1/events.json",
+      "matched": true,
+      "right": "data/residual_shocks_2026-09-07/reproduced/events.json",
+      "sha256": "27c6a5c9fc468ccaf8aaecf5a443b3bb96f63baf28cdbb0a9340f4bb5194411b"
+    },
+    {
+      "left": "data/residual_shocks_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/residual_shocks_2026-09-07/reproduced/quality.json",
+      "sha256": "50ffc17f9ee0c05f5b26f51f1cbaaff2e68b69cb3b3edee6535eeae250e35368"
+    },
+    {
+      "left": "data/residual_shocks_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/residual_shocks_2026-09-07/reproduced/summary.json",
+      "sha256": "6e4adfeccc7a5ac4fd109d075b967efc5ddc6918afb5a2b5c025a9fa5da578fd"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "65 sources passed",
+  "ruff": "check and format passed, 240 files",
+  "tests": "254 passed"
+}

@@ -1,0 +1,27 @@
+{
+  "artifacts": [
+    {
+      "left": "data/expiry_signal_2026-09-07/final/selected_books.json",
+      "matched": true,
+      "right": "data/expiry_signal_2026-09-07/reproduced/selected_books.json",
+      "sha256": "04e20ccc7b9a99f628eb057895759bfacf61a7b624fc760928a2b4ccf36721e8"
+    },
+    {
+      "left": "data/expiry_signal_2026-09-07/final/events.json",
+      "matched": true,
+      "right": "data/expiry_signal_2026-09-07/reproduced/events.json",
+      "sha256": "4e3b42a04cd60bfc602d4d0b091bc186b600ff593a715d81861ab9c5e6405082"
+    },
+    {
+      "left": "data/expiry_signal_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/expiry_signal_2026-09-07/reproduced/summary.json",
+      "sha256": "ffb996f18d40cfb69bee1de99d33eef551f64f1d3a9f39c151e631915607438d"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "58 source files passed",
+  "pytest": "231 passed",
+  "ruff_check": "passed",
+  "ruff_format": "191 files already formatted"
+}

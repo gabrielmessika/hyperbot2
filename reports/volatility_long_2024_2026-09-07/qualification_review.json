@@ -1,0 +1,11 @@
+{
+  "annual_coverage_not_yet_proven": true,
+  "data_cost_usd": 0,
+  "financial_results_computed": false,
+  "new_requests_expected": 524,
+  "qualification_sha256": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671",
+  "qualified_coins_for_acquisition": 11,
+  "reused_requests": 4,
+  "schemas_compatible": true,
+  "year": 2024
+}

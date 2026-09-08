@@ -1,0 +1,10 @@
+{
+  "caps": [
+    "1.5",
+    "2"
+  ],
+  "network_calls": 0,
+  "promotion_authorized": false,
+  "protocol_sha256": "827bcd6585eb4af2032448f2c780effe32c53523b87ea0b1b6139f1706799bcb",
+  "registered_at": "2026-09-07T16:09:28.646573+00:00"
+}

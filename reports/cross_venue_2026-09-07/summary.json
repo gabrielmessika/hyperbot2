@@ -1,0 +1,1052 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "/workspaces/hyperbot2/scripts/investigate_cross_venue.py": "54555b20192e2c444d9caedc74673e59432194ff6df45d0efb7fde2d0db701c2",
+    "/workspaces/hyperbot2/scripts/investigate_volume_shocks.py": "6b954fd0968819d8d3dcf1836f92efcdcb8ec2cc554ed90f30f09feb37c3d53c",
+    "src/hyperbot2/research/cross_venue.py": "b39fe49f84aa04d87e834e6e089462b612d338114b757506bbe2cd290e504cbb",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "coverage": {
+    "BTC": {
+      "abs_basis_deviation_max_bps": "11.27077857548609089051776000",
+      "abs_basis_deviation_p99_bps": "7.588171400056456918722704000",
+      "binance_funding_payments": 540,
+      "candles_per_venue": 4320
+    },
+    "ETH": {
+      "abs_basis_deviation_max_bps": "13.31646755763205982468783500",
+      "abs_basis_deviation_p99_bps": "8.314720743766310705405291000",
+      "binance_funding_payments": 540,
+      "candles_per_venue": 4320
+    },
+    "SOL": {
+      "abs_basis_deviation_max_bps": "14.53219906422491025614479000",
+      "abs_basis_deviation_p99_bps": "9.009115183795580057936090000",
+      "binance_funding_payments": 540,
+      "candles_per_venue": 4320
+    }
+  },
+  "data_cost_usd": 0,
+  "end_ms_exclusive": 1788652800000,
+  "independent_holdout": false,
+  "limits": [
+    "asynchronous historical traded prices, no simultaneous fill proof",
+    "HL funding valued with hourly open proxy, Binance with native mark",
+    "eight-hour Binance schedule complete on this dataset only",
+    "research fee assumptions, not account-qualified historical tiers",
+    "no transfer costs, exchange counterparty, margin or ADL simulation",
+    "equal quantities without lot rounding; bps of gross notional",
+    "last 74 hours excluded for common eligibility across rules"
+  ],
+  "promotion_authorized": false,
+  "protocol_sha256": "dbb8964e87a3e590b06afc2d14b3208d8bd3554737099bfc079102f1f2e63fa9",
+  "run_id": "cross-venue-2026-09-07",
+  "source_hashes": {
+    "data/cross_venue_2026-09-07/binance/request-000.json": "dc5d7eb5b50672a6713f9451afa2a0d35e13d547075ca5e7d8f0e1e86e5dae8c",
+    "data/cross_venue_2026-09-07/binance/request-001.json": "3f0b8597a70b4f6e23e4fc0165859cf43678644aa40d9f2d615c22026b6bf09c",
+    "data/cross_venue_2026-09-07/binance/request-002.json": "24d47644a84d12b2d2e2bde272515f98022a228091b4845b9208b5240f9e7d2b",
+    "data/cross_venue_2026-09-07/binance/request-003.json": "6a7af55d58e37337b902f71491a7d3eaec00ebf70f182cfa7c2c8a7e9ca4ab62",
+    "data/cross_venue_2026-09-07/binance/request-004.json": "da3c180f123d0dfc7569629ad4a7f81a45fd11807802e243f3f93be3707bb1f1",
+    "data/cross_venue_2026-09-07/binance/request-005.json": "6a2710d2225b99c12c2fb239a1ccc9a1a8bee86ab2e5650678748cd25b986469",
+    "data/cross_venue_2026-09-07/binance/request-006.json": "194b7f33d0b10065f5c70388168669e3c5fa17abd13bc9fed761a82270b2db3f",
+    "data/cross_venue_2026-09-07/binance/request-007.json": "f8fd2488d4a60a0d6d733190e2831b00e85a8fc1fec4df2299ce655a6efddb88",
+    "data/cross_venue_2026-09-07/binance/request-008.json": "895aff1a771a8aa7fb95ca792896092b217f8b090fa03a04aa2c742ee9a585e2",
+    "data/cross_venue_2026-09-07/binance/request-009.json": "d67bacc8369a5c4d3e05b062a69eb92a2524d927c38cee5a740aa452bb1029ab",
+    "data/cross_venue_2026-09-07/binance/request-010.json": "64883a7d5c3d543e85396ddb0774fca823a468196f9c05cf9307c182d01f62a1",
+    "data/cross_venue_2026-09-07/binance/request-011.json": "8fb629c7ba25d2d383cfafc1c924aff004d4468e56320bdc977f7908ae47fc89",
+    "data/cross_venue_2026-09-07/binance/request-012.json": "8c12e6cae5d94d00bc9090b16aa6d4edf5482cfaab9a3e063c1825c0f504359a",
+    "data/cross_venue_2026-09-07/binance/request-013.json": "9e893b25216b242e806e4e8416f3a996c0e148e0cb04bd933181b9f3d3363e04",
+    "data/cross_venue_2026-09-07/binance/request-014.json": "d417ed4d374934ebcfbcb585bd5a8b5451ec148330660f16e18b84f3ebb25a56",
+    "data/cross_venue_2026-09-07/binance/request-015.json": "164283c4426cd809d096d38338378e19b7f5003a819a816ea66453420c895d80",
+    "data/cross_venue_2026-09-07/binance/request-016.json": "6f1487790d2171a6671d860a1b75a9b66a6e16b494c345d11e3732e17d8c0178",
+    "data/cross_venue_2026-09-07/binance/request-017.json": "88cd7d0809706b85f8c653a518c65a60358759c9327a9def4716c813a8fffa72",
+    "data/cross_venue_2026-09-07/binance/request-018.json": "9564edf6ffe8cc3366fab83ab06f914059cb3ba80ba21921cc84cfc03316e21a",
+    "data/cross_venue_2026-09-07/binance/request-019.json": "154e1f01157e7346fc1aa182dd224424089113a2ac4c15d2fb45cbbd2080ce6e",
+    "data/cross_venue_2026-09-07/binance/request-020.json": "9ad80bdb43880e4fec66c22d893efa9d05e21cd249ea2ccc05d62ba32b8fd1da",
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+  },
+  "start_ms": 1773100800000,
+  "strategies": {
+    "basis_reversion": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_lower_positive": false,
+        "four_positive_blocks": false,
+        "positive_without_best": false,
+        "profit_factor_above_1_2": false
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "horizons": {
+        "1": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          }
+        },
+        "24": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          }
+        },
+        "6": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          }
+        }
+      },
+      "primary_horizon_hours": 6,
+      "primary_interval": null
+    },
+    "funding_differential": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_lower_positive": false,
+        "four_positive_blocks": false,
+        "positive_without_best": false,
+        "profit_factor_above_1_2": false
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "horizons": {
+        "72": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "0",
+              "0",
+              "0",
+              "0",
+              "0",
+              "0"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "ETH": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "events": 0,
+            "mean_net_bps": null,
+            "positive_fraction": null,
+            "profit_factor": null,
+            "sides": {
+              "-1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "1": {
+                "n": 0,
+                "sum_net_bps": "0"
+              }
+            },
+            "sum_net_bps": "0",
+            "sum_without_best_bps": null,
+            "worst_event_bps": null
+          }
+        }
+      },
+      "primary_horizon_hours": 72,
+      "primary_interval": null
+    }
+  }
+}

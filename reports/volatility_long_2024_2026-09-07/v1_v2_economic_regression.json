@@ -1,0 +1,52 @@
+{
+  "checks": [
+    {
+      "artifact": "quality",
+      "exact_match": true,
+      "panel": "native_2026",
+      "sha256": "7b39b85327d259aa72536f0238cff278b406ef9b4e70d691800b86a54dc496ce"
+    },
+    {
+      "artifact": "selections",
+      "exact_match": true,
+      "panel": "native_2026",
+      "sha256": "92ef2d43a132d66d30844eea636ed5c684c5692a69f665188cc3adb11f6af207"
+    },
+    {
+      "artifact": "events",
+      "exact_match": true,
+      "panel": "native_2026",
+      "sha256": "e43a2b402fe3b6b46f2b7213b51214e7c574df06142afa81f57669b3e01de5f3"
+    },
+    {
+      "artifact": "all_economic_results",
+      "exact_match": true,
+      "panel": "native_2026"
+    },
+    {
+      "artifact": "quality",
+      "exact_match": true,
+      "panel": "transfer_2025",
+      "sha256": "48737956e602bd0570b0ceffb83b98ba54b2cbcbc08f46fc36cb76cdc332ea73"
+    },
+    {
+      "artifact": "selections",
+      "exact_match": true,
+      "panel": "transfer_2025",
+      "sha256": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a"
+    },
+    {
+      "artifact": "events",
+      "exact_match": true,
+      "panel": "transfer_2025",
+      "sha256": "66d57f235a6b7618de56e1c9076a513023c306f8dc60c3c2bb414cc290ae5ba0"
+    },
+    {
+      "artifact": "all_economic_results",
+      "exact_match": true,
+      "panel": "transfer_2025"
+    }
+  ],
+  "matches": 8,
+  "metadata_version_changed_only": true
+}

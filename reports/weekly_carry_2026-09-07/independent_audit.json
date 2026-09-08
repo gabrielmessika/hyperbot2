@@ -1,0 +1,28 @@
+{
+  "checks": [
+    {
+      "basket_and_summary_aggregates_passed": true,
+      "baskets": 23,
+      "calendar_weeks": 27,
+      "events_sha256": "e891f058d66a40c82682a1f488de0ed6873b30678dc4e127463a43694d1cab91",
+      "independent_signed_cash_ledger_passed": true,
+      "leg_scenarios": 1380,
+      "panel": "native_2026",
+      "past_only_selection_passed": true
+    },
+    {
+      "basket_and_summary_aggregates_passed": true,
+      "baskets": 42,
+      "calendar_weeks": 103,
+      "events_sha256": "ccf74737a698d2d58863ca7af4dc9c003e3ffdaafa193a422cd2eb31b79312f8",
+      "independent_signed_cash_ledger_passed": true,
+      "leg_scenarios": 2520,
+      "panel": "continuous_2024_2025",
+      "past_only_selection_passed": true
+    }
+  ],
+  "code_sha256": "67444d417d05c78a7525e1f4abfe79afb57b4fd2cf8f181026ff0dd7453ad86e",
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "promotion_authorized": false
+}

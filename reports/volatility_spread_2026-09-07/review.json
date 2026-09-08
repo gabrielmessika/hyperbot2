@@ -1,0 +1,36 @@
+{
+  "all_three_required": true,
+  "audits": [
+    {
+      "baskets": 23,
+      "control_and_zero_cost_signs": true,
+      "panel": "original_native",
+      "ranking_and_equal_leg_aggregation": true
+    },
+    {
+      "baskets": 23,
+      "control_and_zero_cost_signs": true,
+      "panel": "matched_native",
+      "ranking_and_equal_leg_aggregation": true
+    },
+    {
+      "baskets": 47,
+      "control_and_zero_cost_signs": true,
+      "panel": "prior_transfer",
+      "ranking_and_equal_leg_aggregation": true
+    }
+  ],
+  "decision": "VOLATILITY_SPREAD_HYPOTHESIS_NOT_CONFIRMED",
+  "live_enabled": false,
+  "mypy_sources": 74,
+  "native_fills_qualified": false,
+  "network_data_calls": 0,
+  "new_data_cost_usd": 0,
+  "next_hypothesis": "Long-only six volatility extremes, selected post hoc from the control; qualify an older free period before any promotion, preserve all failures.",
+  "passed_primary_panels": [],
+  "portfolio_simulated": false,
+  "promotion_authorized": false,
+  "ruff_check_passed": true,
+  "ruff_format_files": 308,
+  "tests_passed": 319
+}

@@ -1,0 +1,11 @@
+{
+  "count": 116,
+  "data_cost_usd": 0,
+  "expected_hours": 3072,
+  "first_ms": 1783742400000,
+  "internal_gap_count": 0,
+  "last_ms": 1784156400000,
+  "listing_date_proven": false,
+  "request_end_ms_exclusive": 1784160000000,
+  "request_start_ms": 1773100800000
+}

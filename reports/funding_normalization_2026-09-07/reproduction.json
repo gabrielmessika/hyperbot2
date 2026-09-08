@@ -1,0 +1,53 @@
+{
+  "artifacts": [
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/altcoins_30d-continuation-events.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/altcoins_30d-continuation-events.json",
+      "sha256": "2aa099b9f9f025e6fca0ee758831fac099c8b849d39af0c0348a827f0b7850ac"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/altcoins_30d-correction-events.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/altcoins_30d-correction-events.json",
+      "sha256": "145e1c5c903d23db0b62d7ce421b9a80d8a44ef25fffc131c82ef87a1fb11d95"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/majors_180d-continuation-events.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/majors_180d-continuation-events.json",
+      "sha256": "c8a8192087778c265318df3f5dcc6f05d1ee9cf6cc40b612ec873d69c484c994"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/majors_180d-correction-events.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/majors_180d-correction-events.json",
+      "sha256": "3c5dfbfb66f4c468ab985f67b80247021d0f0d1d0755993e362658ceca93776c"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/quality.json",
+      "sha256": "5be60bd024c496e295259a1cd66aa22c3a2635f4ed346d37e6efde7d34c8a841"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/reproduced/summary.json",
+      "sha256": "861a9ea47cd6d9c17d6a6d924d6418500bac4804f0667b722aea92f21d353bd8"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/audit/controls.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/audit_reproduced/controls.json",
+      "sha256": "62f4ce89e64bc79bef0eb4d2141bba12432fbabede825865ea7ecd9cae0c605f"
+    }
+  ],
+  "documentation": {
+    "data/funding_normalization_2026-09-07/documentation/funding.json": "318febae7982bdedf25e080ec4ef2d9fa581018f7df64c480a230004d2b8bc07"
+  },
+  "live_enabled": false,
+  "mypy": "63 sources passed",
+  "ruff": "check and format passed, 222 files",
+  "tests": "245 passed"
+}

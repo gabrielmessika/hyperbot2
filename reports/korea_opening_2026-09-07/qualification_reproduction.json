@@ -1,0 +1,7 @@
+{
+  "left": "data/korea_opening_2026-09-07/qualification/quality.json",
+  "live_enabled": false,
+  "matched": true,
+  "right": "data/korea_opening_2026-09-07/qualification_reproduced/quality.json",
+  "sha256": "374ae2b6e7ae533066281a6f07099513cad368bff026b9cff3c3c2985cd485b3"
+}

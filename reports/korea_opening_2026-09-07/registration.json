@@ -1,0 +1,11 @@
+{
+  "calendar_documentation": {
+    "data/korea_opening_2026-09-07/calendar_documentation/krx.json": "5a8a0a1c021803379376fc7de0a2450053117fdf2790ce896716f12b6d52ec58",
+    "data/korea_opening_2026-09-07/calendar_documentation/samsung.json": "436739b3608838aeb7c384a6df09069c27a30b36277f7cdfd3a917ae6e1a0d76"
+  },
+  "live_enabled": false,
+  "protocol_sha256": "a0e289a3d950a6581a3adca2ed422d6d70a4717c808b74d859854aa51d2fe1e9",
+  "qualification_sha256": "374ae2b6e7ae533066281a6f07099513cad368bff026b9cff3c3c2985cd485b3",
+  "registered_ms": 1788793931122,
+  "script_sha256": "48653df2696ad577563c4a0d89ecb3694a680f73fadb692ca4c3255747bdd8e9"
+}

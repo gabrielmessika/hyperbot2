@@ -1,0 +1,108 @@
+{
+  "live_enabled": false,
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.004233199545489822,
+        0.012454531244295203
+      ],
+      "gross_cap": "0.5",
+      "observed_monthly_compound": "0.003929437633102886493161954",
+      "positive_draw_fraction": 0.8242,
+      "scenario": "base"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.00807246106469155,
+        0.008426709532023213
+      ],
+      "gross_cap": "0.5",
+      "observed_monthly_compound": "0.000233376930984378997552678",
+      "positive_draw_fraction": 0.5092,
+      "scenario": "cost_stress"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.009792540283257602,
+        0.008839579167096524
+      ],
+      "gross_cap": "0.5",
+      "observed_monthly_compound": "-0.0001979030320849077548027905",
+      "positive_draw_fraction": 0.4627,
+      "scenario": "delay"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.005793171471266664,
+        0.011063993356817101
+      ],
+      "gross_cap": "0.5",
+      "observed_monthly_compound": "0.002561122471814217401192724",
+      "positive_draw_fraction": 0.7197,
+      "scenario": "funding_adverse"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.008653088315741565,
+        0.024844889853904647
+      ],
+      "gross_cap": "1",
+      "observed_monthly_compound": "0.007682919749214485284287971",
+      "positive_draw_fraction": 0.8176,
+      "scenario": "base"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.016317665416124668,
+        0.0167264540418209
+      ],
+      "gross_cap": "1",
+      "observed_monthly_compound": "0.000252059730648338119691155",
+      "positive_draw_fraction": 0.4989,
+      "scenario": "cost_stress"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.01973544466547294,
+        0.01760391391937966
+      ],
+      "gross_cap": "1",
+      "observed_monthly_compound": "-0.0005840593934935990326429761",
+      "positive_draw_fraction": 0.4533,
+      "scenario": "delay"
+    },
+    {
+      "days": 206,
+      "descriptive_monthly_95_interval": [
+        -0.011778390920681827,
+        0.02209509464620115
+      ],
+      "gross_cap": "1",
+      "observed_monthly_compound": "0.004936890282572913108625118",
+      "positive_draw_fraction": 0.7122,
+      "scenario": "funding_adverse"
+    }
+  ],
+  "run_id": "metals-ratio-descriptive-audit-20260907-v1",
+  "script_sha256": "4066c7323c4ce202473914f90a2b2197f3050cf3ad136c86c6a984526ae958c4",
+  "sources": {
+    "data/metals_ratio_2026-09-07/run1/cap-0.5-base-infra-0.json": "0ddaca51fdbe72be9490ac7b4035f848bfc6b7cddb45a89d2f90d8a325dd24ba",
+    "data/metals_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-0.json": "185b13ddd4500c09baa6ff159487c1554597e8f3bb5e3562105e0f9c2d9e9664",
+    "data/metals_ratio_2026-09-07/run1/cap-0.5-delay-infra-0.json": "f811abcc2e9dcc0b9ba34f64de6b356329744e09a5b27aec0946d350a62d6c9d",
+    "data/metals_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-0.json": "f6b3433e0ae2fb7ba763f2f00e73fe165938326f05a8ac426a8411d234eb84d9",
+    "data/metals_ratio_2026-09-07/run1/cap-1-base-infra-0.json": "8dc493d005bf0588f0d30537cb339ca16595af901546ac501e3a15893db7cfb0",
+    "data/metals_ratio_2026-09-07/run1/cap-1-cost_stress-infra-0.json": "4ede00a9d1c2170a4054ae1cd2c314699899c4f55c531319bcb0601261e3f457",
+    "data/metals_ratio_2026-09-07/run1/cap-1-delay-infra-0.json": "47d8696b088c0c18bedf8c52d5aaccbf446656bb26b38500ddd77c1f2b7001a8",
+    "data/metals_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-0.json": "bf5aaebb5e8d863776336c9eec66dc241f1b312aafe3ee75438e48634130acda"
+  },
+  "validation_note_sha256": "e9b5d8c2521be851697ff4a784971f2580183e912770dcda950c0710be1a01d8"
+}

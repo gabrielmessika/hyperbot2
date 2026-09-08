@@ -18,5 +18,24 @@ Lire `/home/goldadm/.codex/RTK.md` et préfixer les commandes shell avec `rtk`.
   maker central/pessimiste exigent A, causalité, file et mécanique duale qualifiées.
 - Frais/settlement/tick inconnus, donnée stale, gap ou divergence : fail-closed.
 - Mettre à jour le suivi et tester proportionnellement chaque livraison.
+- Recherche : utiliser les données existantes ou gratuites, sans nouvelle dépense.
+  L'utilisateur accepte aussi une stratégie visant +15 % ou +20 % nets par mois
+  (150–200 $ pour 1 000 $) ; +30 % n'est plus un minimum obligatoire. Aucun de
+  ces niveaux n'est une garantie ; les exigences de preuve et de risque restent.
+  L'utilisateur envisage aussi une cible de +10 % nets mensuels : évaluer ce
+  scénario économique (100 $ pour 1 000 $) sans relâcher les preuves ni le risque.
+  L'utilisateur accepte des séances et mois perdants (par exemple huit mois
+  gagnants sur douze), si le résultat global net est largement positif. Ne pas
+  exiger chaque mois positif ni traiter la cible mensuelle comme un minimum
+  garanti. Comparer rendement cumulé, drawdown, pertes extrêmes et récupération.
+  Une prise de risque accrue est autorisée dans les simulations de recherche ;
+  elle ne modifie pas les limites runtime/live. Après un premier plafond de
+  drawdown à 20 %, l'utilisateur autorise une comparaison à **30 %** pour les
+  simulations si l'espérance de gain augmente. Le plafond de recherche accepté
+  est donc 30 % depuis le sommet (environ 300 $ sur un sommet de 1 000 $),
+  avec comparaison conservée à 20 %. Inclure positions ouvertes et coûts
+  dans la mesure ; une mesure aux seules sorties ne valide pas ce plafond.
+  Une piste bloquée par un accès payant doit être suspendue au profit d'une autre
+  hypothèse. Ne pas proposer un achat comme étape par défaut de l'exploration.
 - Commandes : `rtk proxy uv sync`, `rtk proxy uv run pytest`,
   `rtk proxy uv run ruff check .`, `rtk proxy uv run mypy src`.

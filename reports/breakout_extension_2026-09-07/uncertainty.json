@@ -1,0 +1,46 @@
+{
+  "limits": [
+    "overlapping 14-day blocks from a selected strategy and sizing",
+    "not corrected for the family of previous strategy searches",
+    "neither a predictive interval nor a proof of expected future profit",
+    "bootstrap returns do not rerun drawdown, allocations or execution",
+    "best-cycle subtraction does not rerun the portfolio"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "214.0398281409412738",
+      "best_cycle_usd": "41.317395287516697",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.02218225911454499,
+        0.09399625533639847
+      ],
+      "distinct_entry_days": 191,
+      "draws": 10000,
+      "input": "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-0.json",
+      "observed_monthly_compound": "0.034009685413428619611016117"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "77.4247994073139750",
+      "best_cycle_usd": "38.342438745551304",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.03918899065937844,
+        0.07479759320418544
+      ],
+      "distinct_entry_days": 191,
+      "draws": 10000,
+      "input": "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-0.json",
+      "observed_monthly_compound": "0.016239610011630873141314813"
+    }
+  ],
+  "script_sha256": "7d48cee8c101a4952e1e1842b2ac380b2f81e2db2a72c82bfb60ed1dca432f28",
+  "sources": {
+    "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-0.json": "0f5704bc5834d8a4050a59e2555e9d016d9d9e77c9c0c79fc3520944384a7503",
+    "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-0.json": "07d086d6ccc122cc22a9fcadb81817e048350a1bd57fde129eb5b3c292795508"
+  }
+}

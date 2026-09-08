@@ -1,0 +1,130 @@
+[
+  {
+    "coin": "BTC",
+    "control_hours": [],
+    "entry_ms": 1787936400000,
+    "hour_ms": 1787932800000,
+    "hour_return": "-0.0069479922345969142740369878",
+    "long_usd": "18458084.08896001",
+    "oi_contracts_change_fraction": "-0.0078400990941563548408932427",
+    "prior_positive_hours": 64,
+    "raw_pages": 3,
+    "raw_verification": {
+      "duplicates": 0,
+      "long_count": 2535,
+      "long_usd": "18458084.08896",
+      "same_user_rows": 2565,
+      "short_count": 30,
+      "short_usd": "188306.82155",
+      "valid": true
+    },
+    "scenarios": {
+      "base": {
+        "1": {
+          "fees_bps": "9.005142652099266461062217612",
+          "funding_adverse_bps": "0.1251678850242066874781127784",
+          "gross_bps": "15.43348809692230524867208000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "2.297805239024218100832139610"
+        },
+        "24": {
+          "fees_bps": "9.012258501574799826602400380",
+          "funding_adverse_bps": "2.772109037287368449425621671",
+          "gross_bps": "31.25281339626766812856096000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "15.45674707180411306263948795"
+        },
+        "6": {
+          "fees_bps": "8.996811901493763984332247540",
+          "funding_adverse_bps": "0.6887632621765744982265363192",
+          "gross_bps": "-3.086697619384461049734415000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-16.77023851086148441089758586"
+        }
+      },
+      "cost_stress": {
+        "1": {
+          "fees_bps": "18.00488075384066612662313140",
+          "funding_adverse_bps": "0.1251303534244992791760203908",
+          "gross_bps": "15.43348809692230524867208000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-12.70695128430280249120871179"
+        },
+        "24": {
+          "fees_bps": "18.01910391633244635768620391",
+          "funding_adverse_bps": "2.771277820184733556337338129",
+          "gross_bps": "31.25281339626766812856096000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "0.4361919662009952928696879610"
+        },
+        "6": {
+          "fees_bps": "17.98822924653321610001270505",
+          "funding_adverse_bps": "0.6885567364607794234144743893",
+          "gross_bps": "-3.086697619384461049734415000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-31.75540094608721773153267444"
+        }
+      },
+      "delay_stress": {
+        "1": {
+          "fees_bps": "8.978156499733916044728850384",
+          "funding_adverse_bps": "0.06601127760271016694148104234",
+          "gross_bps": "-44.55973187112349594853158300",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-57.58527947974541570311391842"
+        },
+        "24": {
+          "fees_bps": "9.009521963956957558702069251",
+          "funding_adverse_bps": "2.768151850797896101182470477",
+          "gross_bps": "25.16918572547609569427144000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "9.382246089595276789158240273"
+        },
+        "6": {
+          "fees_bps": "8.995832065207674245973426764",
+          "funding_adverse_bps": "0.6876360991461769541742262156",
+          "gross_bps": "-5.264982728288366956454740000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-18.94554548063330459253262398"
+        }
+      },
+      "zero_cost_control": {
+        "1": {
+          "fees_bps": "0E-27",
+          "funding_adverse_bps": "0",
+          "gross_bps": "15.43348809692230524867208000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "15.43348809692230524867208000"
+        },
+        "24": {
+          "fees_bps": "0E-27",
+          "funding_adverse_bps": "0",
+          "gross_bps": "31.25281339626766812856096000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "31.25281339626766812856095000"
+        },
+        "6": {
+          "fees_bps": "0E-27",
+          "funding_adverse_bps": "0",
+          "gross_bps": "-3.086697619384461049734415000",
+          "matched_control_mean_net_bps": null,
+          "matched_excess_bps": null,
+          "net_bps": "-3.086697619384461049734416000"
+        }
+      }
+    },
+    "signal_ms": 1787936400000,
+    "threshold_usd": "7760994.363520007"
+  }
+]

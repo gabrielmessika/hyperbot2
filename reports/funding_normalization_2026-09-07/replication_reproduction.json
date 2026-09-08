@@ -1,0 +1,32 @@
+{
+  "artifacts": [
+    {
+      "left": "data/funding_normalization_2026-09-07/prior_run1/controls.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/prior_reproduced/controls.json",
+      "sha256": "217e340889f895dda38df20ece79558a7e513606e34fd27d36b6280c55a0c1d7"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/prior_run1/events.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/prior_reproduced/events.json",
+      "sha256": "be649240592f53c1aa542a5ebde9dfd63367f064e12c23c4cfe30ecdb4e03de6"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/prior_run1/quality.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/prior_reproduced/quality.json",
+      "sha256": "4befb74afdd7d1ded290a0d564ff2654932e0ff00fc7b89b461b664249a0a9c5"
+    },
+    {
+      "left": "data/funding_normalization_2026-09-07/prior_run1/summary.json",
+      "matched": true,
+      "right": "data/funding_normalization_2026-09-07/prior_reproduced/summary.json",
+      "sha256": "9fd577f052709bd4362bb47e4441dd763fe58161eea44146d6726405eed10913"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "63 sources passed",
+  "ruff": "check and format passed, 225 files",
+  "tests": "245 passed; no source changes after this test run"
+}

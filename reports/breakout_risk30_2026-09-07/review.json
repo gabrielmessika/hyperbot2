@@ -1,0 +1,8 @@
+{
+  "decision": "HIGHER_RISK_BASE_GAIN_NOT_ROBUST",
+  "interpretation": "1x improves base monthly equivalent to 7.68 percent under 30 percent stop, but cost and delay stress turn total negative and breach the risk limit. 0.5x remains the only screened allocation.",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "summary_sha256": "c6ebd8e795556cf7cb6c0ad7f8a55e9ee98e80240ab5c8313202207e776a6224",
+  "target_10_percent_demonstrated": false
+}

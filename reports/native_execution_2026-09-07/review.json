@@ -1,0 +1,14 @@
+{
+  "decision": "NATIVE_EXECUTION_RESEARCH_CANDIDATE_UNQUALIFIED",
+  "drawdown_limit": "0.3",
+  "gross_cap_at_entry": "1.5",
+  "independent_validation": false,
+  "key_risk": "cost-stress profit concentrated in a six-week PUMP position episode",
+  "live_enabled": false,
+  "monthly_infra": "0",
+  "promotion_authorized": false,
+  "real_fills_qualified": false,
+  "research_candidate_retained": true,
+  "small_delta_execution_accounting_qualified": true,
+  "target_10_percent_demonstrated": false
+}

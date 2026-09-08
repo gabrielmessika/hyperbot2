@@ -1,0 +1,1490 @@
+{
+  "artifacts": [
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-base-infra-0.json",
+      "sha256": "911fa0a5c4a3deded21205d5193c56841d89e1b3a0d9f818509c45e392ebd9e6"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-base-infra-20.json",
+      "sha256": "2757f9251296c16dae26af4b8d795dedf177afdec8a08ecd1ded4db91af74fed"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "f22c9545fe435550c629262be77fa2ee0eb4a46232cc74bb9a5b8696d9da4407"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "e9a7c01d82fd68236be9e0e8575248d7b6d1a069f86d3088e8a960d7fdcfaea3"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-delay-infra-0.json",
+      "sha256": "25418f1d780bb28dded0d48450c7c79377310eec77238aca6ad3e738bdcd7e78"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-delay-infra-20.json",
+      "sha256": "6a86e4f5c9d329d35b59c8e7c75af52925eadff10cbeaf6a8b8178d14f1385f9"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "e1da3f2af17481c91cf9fb53a81b939920aea0fa1f9179274d00497a31320d78"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "e6e581f545408bd5ba5a29e2de5c7b43067bb004587c1ad4d3f5fd351f2e36fe"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "616e6062dbc7d7ec3b5469f17de95cfd7c25927dbd397463ab5141b52280161a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "c8a981bfab88f44ff7d335897fc8331497467264e1f1cf57fe9e16ede247be80"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-base-infra-0.json",
+      "sha256": "d165bffa015b74c669e46165f532742157aa32dd184862be2f0ac18fd490ba63"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-base-infra-20.json",
+      "sha256": "c9172b849c274708192d58c30a77d2b503b00bb19a409706cd614590c5132fc1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-cost_stress-infra-0.json",
+      "sha256": "7c2980c8c225fd3273fd96ca14b7b991fe9cbbb49b6e1273b5cd27f891dfe6a0"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-cost_stress-infra-20.json",
+      "sha256": "7ade13e84e5283c5abef747d71e1c331d7aaa9e8d19d1cd0554050f9242f42aa"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-delay-infra-0.json",
+      "sha256": "70d024121915d7ac773cd8ad97712f1f33a5de25b5ea07a8581e60cad55925d2"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-delay-infra-20.json",
+      "sha256": "b1fa29dda0ed4bbe4dd534b9011c93d0b1c23db48eb9f9e159bd50f5f419a4f2"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-funding_adverse-infra-0.json",
+      "sha256": "bfb9d7bc2448727b9e2cec01de3391e87f792aa204e13b42ac75bbdf7084c3d8"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-funding_adverse-infra-20.json",
+      "sha256": "c7b4d5ea88eea0dfdd0f245fe415998ac0f934f5c61e1dcd91ef9039cf083f2a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-zero_cost-infra-0.json",
+      "sha256": "bbcc5b614bcc7bfae9074a8e23149ad962e823772b183f12c99534fd1c831125"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1-zero_cost-infra-20.json",
+      "sha256": "2653288826b7ef92604b2b8ab2abf3bfa368943607bfbfe7012ef3b94f369d43"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-base-infra-0.json",
+      "sha256": "ce763c3fbcc04823f53626493992d9bd23ea85e33b410a9a38bd2b34e56cabbe"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-base-infra-20.json",
+      "sha256": "a23c206ce8dbafd1c4224f7aac3c77da69bd23b774c002c2855bc3f4ce9bb6c3"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "dcccf9355a8ee582e76e22d3c04c5f9f6494d845221463dcf9472e7161cae1c4"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "aff93323021d0cd3915dcf682dc5a2d3660028b51e2582d7a713934a6337118b"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-delay-infra-0.json",
+      "sha256": "cf53780f2ef24b914ba99661d511018d755c6200b893e73d61cc850e7d3fcc16"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-delay-infra-20.json",
+      "sha256": "79316096491b9a33451049a85cb23f67cb0ffa11757c11b490af979749677055"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "3deae4c07af6b0b97329db84db45d71754212e0c0a471bcc0c7fd30bbcc8b084"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "954deef11bddc574199313ed7882de04dc67c43e6aafb2b045b7b3d3ba9ad007"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "d7187861c6d61e88d40bf61e9fcc0fb8cac24be761c9adaa01b3cfd3fc17990f"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/funding72-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/funding72-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "3ea42431ae63e572dc0dbc8f27b5259510bd2c4a1a52de2a3fd872ffe8e15046"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-base-infra-0.json",
+      "sha256": "11c5fd293c1f5d2ac16cb18a8ab983baa4a0ccf113edcb74ec93dffef24fc434"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-base-infra-20.json",
+      "sha256": "ed2af32bf4154e708b8a65a2a76f10b5566e8a556b622d1d233b68c22293c6e0"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "3b6a0c7db56aea4f1e2565cc251f741c42bc91138c30c3795076d746586776ce"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "6149011c2df33335da5909c3148b47376d093573c4440332e7786b16cd0c6330"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-delay-infra-0.json",
+      "sha256": "6eed85f38cb8b6a1fa3ff9f06c46793eac803ad51c552f89b883677555ad17c0"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-delay-infra-20.json",
+      "sha256": "5629782de1fe007b3a223e2b9f45cbade39b751461784158fa9b5661f2df1973"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "7cd0ae7a76659288e075b8cbb717eaf67a32be3961f2307fa393e994f6fb88bf"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "12f035a1c64200baf795611121c1a9f3f2cb615ea01d9016b576fc0ca2fac079"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "3c7f877b0752f80e0809241d10a63d3c6bd18fe55cdf68462daa7ca26a29a8bc"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "470a9811a71415f491d4b91ed4fe0c88554c0953f23cbabfb742a37955d7b90f"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-base-infra-0.json",
+      "sha256": "58dc0ac337439093629b636e936334e6f6df29d16ca15a944f132075c4c1a5aa"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-base-infra-20.json",
+      "sha256": "c2e6fec3620109e676ae0cafe36f5846421657c74f8cff48bcb59c482a3ea642"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-cost_stress-infra-0.json",
+      "sha256": "4baea44eeb05e6d5e18fffd222ec887b55eca4f410162a776356bee76ee26023"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-cost_stress-infra-20.json",
+      "sha256": "624efe83a09f38309fd3835f013afde9375887f0ded6e2f4bb943f5657708e95"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-delay-infra-0.json",
+      "sha256": "0f7176c0a4025ee31a352f3620962023b9293ce07220c57f860fea778d17b314"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-delay-infra-20.json",
+      "sha256": "83dc7d225b9c0fccb8cecc0be9a7b099189785794231f4c1b2a8bd01e6daa14e"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-funding_adverse-infra-0.json",
+      "sha256": "83edb08ff30a2d667c381b6d8e62345e2d0542a079f830c7d1231a6f6bc6fb92"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-funding_adverse-infra-20.json",
+      "sha256": "eab5c4eaafee49f437a81b191982fb01f08dded42a93012bfa16afa9fa06e2a0"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-zero_cost-infra-0.json",
+      "sha256": "ddde8fa0caf4a152f0541495e6973aa40991d989428d393eba1865c69f92a87e"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1-zero_cost-infra-20.json",
+      "sha256": "5eb8cd450cf7c2eb7b6597aa79652ff1782124b6acb88258cbdc5cbc76f6ad64"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-base-infra-0.json",
+      "sha256": "d499ac520a978c23c08276b2c28857492cd1b9653ad4dd3414f80428e5e45bc1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-base-infra-20.json",
+      "sha256": "5a76ef4f07d173b36df5ece3be063a1ff12157d1f8b5637f0a503aee70e3c4f7"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "bebf436179e47a5c7042972deaef92764002130077a71eb1000f050b4cc472ad"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "bd4bb8bbc683a1ce22f53de53c0f8b928a4fcc11cdd9810ef4641d721d940d6a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-delay-infra-0.json",
+      "sha256": "5482248852a1b694b0a87221702f1d69b1bd51b3e2d2a687568498bfa45abb3c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-delay-infra-20.json",
+      "sha256": "c3107517a6a20874b86ec20d1ca63ff1192e4531d399da2de8872549f3fa8703"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "5d5ba767a4dd63f04905e9f0d7c3ca1ba5c447b4fcb1281b4ffb658dc5564257"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "5fad249bda96ced1f4f940e2436a106d799ef1e2c2a34d6ffbd3da24f974d1d9"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "229b3b8d9618ce0ee69e8ba1979589be89485de1d0531836cf65bd4e89c2685a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/grid_long-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/grid_long-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "0c406a0c095e9d968d29a436cd00cbe67b41dcee40cf91d7f790be0e49174df1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-base-infra-0.json",
+      "sha256": "89f9409cd72e0aaee13489aa23304eb4df26440e41163cc936bfe7788b64c9c5"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-base-infra-20.json",
+      "sha256": "9ce83541538e6941683b8ffef1d86f246584a49f1cc4d65afbd9037da57319c7"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "53f2d9e0e679212bc526fcb53a90f87d83ec107b6989d717961d35b64a8979f4"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "b1e67f006d0e0af8f654769d56f2b93db064f8a9e5ca714b89efde0194012800"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-delay-infra-0.json",
+      "sha256": "b9b4ac213d125074fe3354eced85dffd31cee1078abce2e4260c6fb931bd4fac"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-delay-infra-20.json",
+      "sha256": "46af40c41c9f0ad4df2b803696abaed2984f5ac1c4f03d4d80828e35e0c893a1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "ffd84b299f1ba946ef6a91fa3b187543fe31507a6e56ca0c1c6094457e22682c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "0b47640bbd6f34ff581fca4819c0433003aa6ecaeffaa0ca693b7af060990f58"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "17c3f25a71eaaaafad78325c19840726ac0c9f733d24038638c7d1167d46ec41"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "aec1f3615b0c0f3ddd67a419b30253c5e1f4daee3e6646011cf2bb3271ac181c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-base-infra-0.json",
+      "sha256": "bccde90b1e7bb879b553006970493e52b5aaa9b34bb7ff964727b76501e38009"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-base-infra-20.json",
+      "sha256": "affbab2cae35dcec58764950ceab9396437c1bc7f8c32154249cce40d9f705a1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-cost_stress-infra-0.json",
+      "sha256": "fe333076c74ee68e14e6da0a22f10121da08cf93db1ea7d4ebb046b35092cdca"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-cost_stress-infra-20.json",
+      "sha256": "1e24920f020e093cdb6aa87e1c69f5aeb7a80f9f355ea1c4a8b795a4fb679a86"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-delay-infra-0.json",
+      "sha256": "0378ef569b44f0afb2be73f4f523899b01ea5c33fb13ec69512640742d8ad1e0"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-delay-infra-20.json",
+      "sha256": "23c012778e614c6c7dcaab381a0b24327e3d8d1f4c0f08db42e5c769a04829f8"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-funding_adverse-infra-0.json",
+      "sha256": "6fbb171b87c8783910e20ea2da30233d8a89f922a59ce3b1c81b083779a4d9af"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-funding_adverse-infra-20.json",
+      "sha256": "cb011ddf3126507fc8e7e776d9c7c1a73ddefcc0493a5c7f41ce77b2422891e2"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-zero_cost-infra-0.json",
+      "sha256": "fee5e15024f21409b72c2e4f67bdab869f3417519541ddc1f7de1ec08c8bf8cd"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1-zero_cost-infra-20.json",
+      "sha256": "8c1b3edac2cd9d787902453e5e28b68942819a75b31041273fc1ef20bdeb0867"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-base-infra-0.json",
+      "sha256": "fdcf426431a3a952cdb177f37ecc477cffca19f0c7e7bd049ad48093e2fd0677"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-base-infra-20.json",
+      "sha256": "b58efef03af7b25fa1832047ca6b5def770bc003dfe8cdd5fd942d78104ffc6b"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "7f8c27bfe07702d6f30dfeaf3c8008b691aa3fe077538ec819d3e8886463a169"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "d3f6c64e338fa3737c6510ea82fa1aef97e2d1e1d541febba1f019be690457dd"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-delay-infra-0.json",
+      "sha256": "7d31f7767ced268072b4531c7c74e4746f523e0c72858a6b8fd2e4581b6ffe01"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-delay-infra-20.json",
+      "sha256": "3ded267b0c7bad926b0ba216be0dfe875131f878bd334a17c5f85d5e1a1fb970"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "9efffda6b8b43707eea9e1b65e88996a73488f8fb4fa3e024071e65188126cad"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "b3683602d72e4d9c8707472125956618cc2aebc028b130808783d51ff0053edf"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "e33c67397a990dd16d306b103c2d11a941ab3ac9c7f1331725656674adb2f3c1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_cashcat-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_cashcat-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "53f27d70457f798544cf06841bfbc59314c18215496c99dc39eb47967a1d9338"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-base-infra-0.json",
+      "sha256": "7ec6bb18da86731b1769265d780d59edb9467d459820279b239710b1cd1a62a6"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-base-infra-20.json",
+      "sha256": "c7cd4c6c96fcfee7d6ea8c22b36f4dde7ad9c0f4f0129fe6e247f147408076c9"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "f501928c9e95950b443459fc30cf7aa718a263d86420fbb6ddf162f37d73408d"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "86f132ee54497686c13c10e9668eb511f31ffa6a02ed0a8dccbd8c50d3db3207"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-delay-infra-0.json",
+      "sha256": "5c62c5a8306a26dc3843c7b669242f31827c5b0b92186ee431856edfd55ab3a4"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-delay-infra-20.json",
+      "sha256": "b2fb30764f4cdbbf974154145f9820cf52aec20d8103894260611ff32a89d95f"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "3df2eda0d5faaa6740acd8a3fb0628fa9730bde80680138b4c878b0e4cc85279"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "01f44a5c92bf6f39c142eade28c3418aea8334dc45bdbee6d0fcbe8e010f23bf"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "86abf623dc22016a2ab48392f77d704f418bdc1ef1939dfed64ce42d3fc28c5c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "9a85c8de6535cfdeb5f15072efe1ed2e19c631b837922dc38341551142cfeaef"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-base-infra-0.json",
+      "sha256": "805f05680529062897d74e91c708a7cb3038ee352e44010aa16a35dc976827f2"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-base-infra-20.json",
+      "sha256": "d01b1ad8f4df92bae5d28a428cde41a0a3ca691d9a598878e6fa80c6b00ef2d1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-cost_stress-infra-0.json",
+      "sha256": "b6272ed75e53d8dd5f9a3faea8c0622307890f2d39aba3ae014bcf3c3932bc10"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-cost_stress-infra-20.json",
+      "sha256": "1adbe78f578abc4ecb90e1b71aa2a0b02c737502b2a67ba05edb86eea058fc15"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-delay-infra-0.json",
+      "sha256": "f641cb4962d320313e7ca020cb5fd4e8616efc9c233afd5aa86866908c6efe21"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-delay-infra-20.json",
+      "sha256": "6d7a2dc78a9d3d59a12ba32e5bbaf8a3dfb5572ae5f36e991d4d542156fb91c1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-funding_adverse-infra-0.json",
+      "sha256": "6b85c54fcc8e362286bbe235138f541fb1992a169529a8b73689a09c7368bfb3"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-funding_adverse-infra-20.json",
+      "sha256": "c3eeef07e7ac96ea989d3d1a3a889834efe9780fda2c6d4f083ba879b1325a13"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-zero_cost-infra-0.json",
+      "sha256": "7711b8af69771d52a7d437f6f3ef17477e8d25280f87acbc45c9608db8b6b983"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1-zero_cost-infra-20.json",
+      "sha256": "d4c0fed10a44ab1911a82e7378b5ee036087d8b2ec9972e0e7adf7654053082d"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-base-infra-0.json",
+      "sha256": "72faaf87f5b21a4bf5e3d02b77cd86d6d128f2c8ccaac91c3cd13699f787ffdf"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-base-infra-20.json",
+      "sha256": "d7e1a5511eaf3a90245b9ada74b78e09a965ab8001599a2190df8f25c3cb15d1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "f5a8aafbc14ada6fc9bda7dd8dc6138ed3d79f9478fda91d38be11a97aaaf278"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "559b96259fc9f37ad485f0f2c6ed4465e95730a6a672ab5d0bd525ba4030c67b"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-delay-infra-0.json",
+      "sha256": "2d2af670d97434ed0be4888abc3fd7c60b96aa9392c58a2dfa52e2a96f99812b"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-delay-infra-20.json",
+      "sha256": "7c59cdb8a7404e7d8bd0ddebc9395fbc23cba8c07cf96cdec61d38ac16f2cfb4"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "cf51abc1011540cb6229d32286956eeafd30ca84aea52f5e1b5d3f04db3c53f4"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "1f6fca4cfea643da8ba8f09a0695c417801e5ab5ae6d04841992dc8ec2716d06"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "866d1f8337a95d17f33bea14793ed26f0ac38281cf6712e9c96cba6b16633c44"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/hold_equal-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/hold_equal-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "1b3ad45a216fdf490e66093bcb710513a9b9268230264011715d4422e191b0ba"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/quality.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/quality.json",
+      "sha256": "24b975e468cb719a7a21a1b300f5035f23e46041851bd64a5b61d137b47010b5"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/baseline_final/summary.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/baseline_reproduced/summary.json",
+      "sha256": "02480d554368ffd53b6675e6c7a4e252055d25a452769570bc919126a38dde72"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-base-infra-0.json",
+      "sha256": "1201f95e323b06d46036ecc488daf4e5a4bc7125fd5896a7b4d60763e7baf336"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-base-infra-20.json",
+      "sha256": "477a1267ed329e88b5dde8335d0aead1f0ee664a605def700242fd7a6f8e3f53"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-cost_stress-infra-0.json",
+      "sha256": "0b9c9f475ea628accd8ee26e4a3f0b9f3a6588c4bd9c1a3381cc36ab602318d5"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-cost_stress-infra-20.json",
+      "sha256": "e63711078cda403e3b7b90f335d6d318bdff11c765f462ddee26a6c7f345de36"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-delay-infra-0.json",
+      "sha256": "3f5db914fe15678b351b739d73b183c80ab63f2f1b407a19492de8d644ddb499"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-delay-infra-20.json",
+      "sha256": "f95ecd4118eb80179d0fd2573e47286ce6e629ebb4d5254bb1f8f04d7c596e7a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-funding_adverse-infra-0.json",
+      "sha256": "d9bf52523881a8ae706647b716e321522d2af7ab42c5a4e46b26e856f4b4cdbc"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-funding_adverse-infra-20.json",
+      "sha256": "df0748adf3988b9c7d0e9be0fe008c8f72847f17473699c1342ee045cda94964"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-zero_cost-infra-0.json",
+      "sha256": "5ad46d5af1efbbcc5b4a042d018ac556ad56f929090692f01d3b887a6ba208c3"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/funding72-cap-0.4-zero_cost-infra-20.json",
+      "sha256": "f629877153ef232f13736685eff1812ed187e136dbfb4550c5c87e14330d37c1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-base-infra-0.json",
+      "sha256": "bdbd0cccaafe600d1580c10e88960a6b828a70e04c166edb96857dbed3b7e793"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-base-infra-20.json",
+      "sha256": "36220daba3fa08474b1a2c9af017298903da03ec1ca832cba4a90b4c3c20467d"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-cost_stress-infra-0.json",
+      "sha256": "fd4b27b25d167bc5c2614b35ede4e1090bc9bf200c81138fa915b7eb65eb759d"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-cost_stress-infra-20.json",
+      "sha256": "58bf5e7baab6dd142de23573ea811ee2472bbb1df90f7be7753214d54c573b6e"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-delay-infra-0.json",
+      "sha256": "8a0cea37777c3dcdeeab50f009b9161d374f0ff48968b2a762c8661958762ddc"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-delay-infra-20.json",
+      "sha256": "a80fbfd137785cc9f3062dc2d646e49a019409be4ec13fdea3e3400120179eb7"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-funding_adverse-infra-0.json",
+      "sha256": "ed3d7f9fcdf6c19c2ab802ed2d87aab9bf67ca56d18998ab50c45124dafa866c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-funding_adverse-infra-20.json",
+      "sha256": "4eec9410e17fbc6a5db373eee04be4e1b95d83d3623995ed03df40b7555572bc"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-zero_cost-infra-0.json",
+      "sha256": "76da86f72f10266c072a767eb6a0125d5a2d7570051d1778789fd276028eccbe"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/grid_long-cap-0.4-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/grid_long-cap-0.4-zero_cost-infra-20.json",
+      "sha256": "e8324ad19f8b29d598f5e833877ad7bcb0bc5dcc2cb1e9ad63ed51815d37617f"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-base-infra-0.json",
+      "sha256": "778311e73d703be70322c455d4b46074a7214010b7bd5a2f3a9b2563cfb5bfe9"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-base-infra-20.json",
+      "sha256": "70f7a00aaa0231939a7351cee783f74af98a46776f094f5124ce392be2a24020"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-cost_stress-infra-0.json",
+      "sha256": "e3a7ebf4e06637cdc30d557e86d741c42d776d7950b5af21f2c31a1e6a509773"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-cost_stress-infra-20.json",
+      "sha256": "45f2666d8c7b829ba66d7a42a5cc6de428550d4f92164fab8b7960786fd3b9af"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-delay-infra-0.json",
+      "sha256": "6b89df00886e67401a8a3d76a4f47de6939968d834822c8f18840662586b5dd1"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-delay-infra-20.json",
+      "sha256": "ad31e620382ff32fe39c67fef24f9a4fb55d279b014d9bdbac0f957740a44a65"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-funding_adverse-infra-0.json",
+      "sha256": "fe737e69db4034cffc201ba80013d1ccfe231ec24a6b7deb81ab3d6af0230b1f"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-funding_adverse-infra-20.json",
+      "sha256": "2f9c0a8c02f13623f685f0cb83d3a27b6cb955f4018680f77e6bc219b35d80ef"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-zero_cost-infra-0.json",
+      "sha256": "56511c87c1af67140645fb47047e58ebf7b8b2498f4ec527b9fa548b7e77ddff"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_cashcat-cap-0.4-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_cashcat-cap-0.4-zero_cost-infra-20.json",
+      "sha256": "f56e1249d807988e9461e35e99fe757f8ffa65c4d64607e76c796d83f6f6b90c"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-base-infra-0.json",
+      "sha256": "f99ebe1176299ec91b80cce0fd174ec4a6eca58313410fd5b3073c0d92514f8a"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-base-infra-20.json",
+      "sha256": "bae2081d2f1342bb4ae7c6de8c58f2951a370d143e4098a41139f96ee64da664"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-cost_stress-infra-0.json",
+      "sha256": "4051e7307479bc8cef211fed978cc96d3acc58e306a16be5361a68b63c8f0ddf"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-cost_stress-infra-20.json",
+      "sha256": "ee00782f083f92d77a25352de54b65dbd348d5fd6bf4d88a090193876e7c95b6"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-delay-infra-0.json",
+      "sha256": "035bf5abc77b1a202ca1ce6e07e1c15e99e95cf22fde851c67d6a56b63487e45"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-delay-infra-20.json",
+      "sha256": "89917a9cb1506be41e84ab2865846683af15147f0de92c52b9a8f9c5aabf6509"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-funding_adverse-infra-0.json",
+      "sha256": "2001423ad4b01629ec7463b32fc4cefad2cdfc9824b80f219ca5df3483c2eaee"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-funding_adverse-infra-20.json",
+      "sha256": "6dfebdea0a9aa52d3f48b6292971e770589794a7ac7a455d834fc38133c8ccf8"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-zero_cost-infra-0.json",
+      "sha256": "4c7756340f5fdf308d185faa1241a1a9d181b5a31ce8ef854e5d22bd36d6b001"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/hold_equal-cap-0.4-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/hold_equal-cap-0.4-zero_cost-infra-20.json",
+      "sha256": "8ec94018b8ff87618e3240abc468da351ee673852a0abb2dd0b08a8e116a91e3"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/quality.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/quality.json",
+      "sha256": "24b975e468cb719a7a21a1b300f5035f23e46041851bd64a5b61d137b47010b5"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/reduced_run1/summary.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/reduced_reproduced/summary.json",
+      "sha256": "b4eae7f3283002b69ce783be3317e1e6d158e96bf78ee527ec69b5dc057a1781"
+    },
+    {
+      "left": "data/funding_portfolio_2026-09-07/audit_final/uncertainty.json",
+      "matched": true,
+      "right": "data/funding_portfolio_2026-09-07/audit_final_reproduced/uncertainty.json",
+      "sha256": "b3e8d88dd24e4c0b2195f9cb562945070f83c946e8afccd0261de007fe8b7a20"
+    }
+  ],
+  "documentation": {
+    "data/funding_portfolio_2026-09-07/documentation/margining.json": "36c912676f50112a1525c8fcf2756688e3e71bd38a1e65920e2d97f3dea1d6e2"
+  },
+  "history_manifest_sha256": "63ad40e5bced782fc2a8633416ddb2c4da6f50d32c01e7a27d1d02e830d283b2",
+  "initial_scenario_artifacts_preserved": [
+    {
+      "artifact": "funding72-cap-0.5-base-infra-0.json",
+      "sha256": "911fa0a5c4a3deded21205d5193c56841d89e1b3a0d9f818509c45e392ebd9e6"
+    },
+    {
+      "artifact": "funding72-cap-0.5-base-infra-20.json",
+      "sha256": "2757f9251296c16dae26af4b8d795dedf177afdec8a08ecd1ded4db91af74fed"
+    },
+    {
+      "artifact": "funding72-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "f22c9545fe435550c629262be77fa2ee0eb4a46232cc74bb9a5b8696d9da4407"
+    },
+    {
+      "artifact": "funding72-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "e9a7c01d82fd68236be9e0e8575248d7b6d1a069f86d3088e8a960d7fdcfaea3"
+    },
+    {
+      "artifact": "funding72-cap-0.5-delay-infra-0.json",
+      "sha256": "25418f1d780bb28dded0d48450c7c79377310eec77238aca6ad3e738bdcd7e78"
+    },
+    {
+      "artifact": "funding72-cap-0.5-delay-infra-20.json",
+      "sha256": "6a86e4f5c9d329d35b59c8e7c75af52925eadff10cbeaf6a8b8178d14f1385f9"
+    },
+    {
+      "artifact": "funding72-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "e1da3f2af17481c91cf9fb53a81b939920aea0fa1f9179274d00497a31320d78"
+    },
+    {
+      "artifact": "funding72-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "e6e581f545408bd5ba5a29e2de5c7b43067bb004587c1ad4d3f5fd351f2e36fe"
+    },
+    {
+      "artifact": "funding72-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "616e6062dbc7d7ec3b5469f17de95cfd7c25927dbd397463ab5141b52280161a"
+    },
+    {
+      "artifact": "funding72-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "c8a981bfab88f44ff7d335897fc8331497467264e1f1cf57fe9e16ede247be80"
+    },
+    {
+      "artifact": "funding72-cap-1-base-infra-0.json",
+      "sha256": "d165bffa015b74c669e46165f532742157aa32dd184862be2f0ac18fd490ba63"
+    },
+    {
+      "artifact": "funding72-cap-1-base-infra-20.json",
+      "sha256": "c9172b849c274708192d58c30a77d2b503b00bb19a409706cd614590c5132fc1"
+    },
+    {
+      "artifact": "funding72-cap-1-cost_stress-infra-0.json",
+      "sha256": "7c2980c8c225fd3273fd96ca14b7b991fe9cbbb49b6e1273b5cd27f891dfe6a0"
+    },
+    {
+      "artifact": "funding72-cap-1-cost_stress-infra-20.json",
+      "sha256": "7ade13e84e5283c5abef747d71e1c331d7aaa9e8d19d1cd0554050f9242f42aa"
+    },
+    {
+      "artifact": "funding72-cap-1-delay-infra-0.json",
+      "sha256": "70d024121915d7ac773cd8ad97712f1f33a5de25b5ea07a8581e60cad55925d2"
+    },
+    {
+      "artifact": "funding72-cap-1-delay-infra-20.json",
+      "sha256": "b1fa29dda0ed4bbe4dd534b9011c93d0b1c23db48eb9f9e159bd50f5f419a4f2"
+    },
+    {
+      "artifact": "funding72-cap-1-funding_adverse-infra-0.json",
+      "sha256": "bfb9d7bc2448727b9e2cec01de3391e87f792aa204e13b42ac75bbdf7084c3d8"
+    },
+    {
+      "artifact": "funding72-cap-1-funding_adverse-infra-20.json",
+      "sha256": "c7b4d5ea88eea0dfdd0f245fe415998ac0f934f5c61e1dcd91ef9039cf083f2a"
+    },
+    {
+      "artifact": "funding72-cap-1-zero_cost-infra-0.json",
+      "sha256": "bbcc5b614bcc7bfae9074a8e23149ad962e823772b183f12c99534fd1c831125"
+    },
+    {
+      "artifact": "funding72-cap-1-zero_cost-infra-20.json",
+      "sha256": "2653288826b7ef92604b2b8ab2abf3bfa368943607bfbfe7012ef3b94f369d43"
+    },
+    {
+      "artifact": "funding72-cap-1.5-base-infra-0.json",
+      "sha256": "ce763c3fbcc04823f53626493992d9bd23ea85e33b410a9a38bd2b34e56cabbe"
+    },
+    {
+      "artifact": "funding72-cap-1.5-base-infra-20.json",
+      "sha256": "a23c206ce8dbafd1c4224f7aac3c77da69bd23b774c002c2855bc3f4ce9bb6c3"
+    },
+    {
+      "artifact": "funding72-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "dcccf9355a8ee582e76e22d3c04c5f9f6494d845221463dcf9472e7161cae1c4"
+    },
+    {
+      "artifact": "funding72-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "aff93323021d0cd3915dcf682dc5a2d3660028b51e2582d7a713934a6337118b"
+    },
+    {
+      "artifact": "funding72-cap-1.5-delay-infra-0.json",
+      "sha256": "cf53780f2ef24b914ba99661d511018d755c6200b893e73d61cc850e7d3fcc16"
+    },
+    {
+      "artifact": "funding72-cap-1.5-delay-infra-20.json",
+      "sha256": "79316096491b9a33451049a85cb23f67cb0ffa11757c11b490af979749677055"
+    },
+    {
+      "artifact": "funding72-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "3deae4c07af6b0b97329db84db45d71754212e0c0a471bcc0c7fd30bbcc8b084"
+    },
+    {
+      "artifact": "funding72-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "954deef11bddc574199313ed7882de04dc67c43e6aafb2b045b7b3d3ba9ad007"
+    },
+    {
+      "artifact": "funding72-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "d7187861c6d61e88d40bf61e9fcc0fb8cac24be761c9adaa01b3cfd3fc17990f"
+    },
+    {
+      "artifact": "funding72-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "3ea42431ae63e572dc0dbc8f27b5259510bd2c4a1a52de2a3fd872ffe8e15046"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-base-infra-0.json",
+      "sha256": "11c5fd293c1f5d2ac16cb18a8ab983baa4a0ccf113edcb74ec93dffef24fc434"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-base-infra-20.json",
+      "sha256": "ed2af32bf4154e708b8a65a2a76f10b5566e8a556b622d1d233b68c22293c6e0"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "3b6a0c7db56aea4f1e2565cc251f741c42bc91138c30c3795076d746586776ce"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "6149011c2df33335da5909c3148b47376d093573c4440332e7786b16cd0c6330"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-delay-infra-0.json",
+      "sha256": "6eed85f38cb8b6a1fa3ff9f06c46793eac803ad51c552f89b883677555ad17c0"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-delay-infra-20.json",
+      "sha256": "5629782de1fe007b3a223e2b9f45cbade39b751461784158fa9b5661f2df1973"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "7cd0ae7a76659288e075b8cbb717eaf67a32be3961f2307fa393e994f6fb88bf"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "12f035a1c64200baf795611121c1a9f3f2cb615ea01d9016b576fc0ca2fac079"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "3c7f877b0752f80e0809241d10a63d3c6bd18fe55cdf68462daa7ca26a29a8bc"
+    },
+    {
+      "artifact": "grid_long-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "470a9811a71415f491d4b91ed4fe0c88554c0953f23cbabfb742a37955d7b90f"
+    },
+    {
+      "artifact": "grid_long-cap-1-base-infra-0.json",
+      "sha256": "58dc0ac337439093629b636e936334e6f6df29d16ca15a944f132075c4c1a5aa"
+    },
+    {
+      "artifact": "grid_long-cap-1-base-infra-20.json",
+      "sha256": "c2e6fec3620109e676ae0cafe36f5846421657c74f8cff48bcb59c482a3ea642"
+    },
+    {
+      "artifact": "grid_long-cap-1-cost_stress-infra-0.json",
+      "sha256": "4baea44eeb05e6d5e18fffd222ec887b55eca4f410162a776356bee76ee26023"
+    },
+    {
+      "artifact": "grid_long-cap-1-cost_stress-infra-20.json",
+      "sha256": "624efe83a09f38309fd3835f013afde9375887f0ded6e2f4bb943f5657708e95"
+    },
+    {
+      "artifact": "grid_long-cap-1-delay-infra-0.json",
+      "sha256": "0f7176c0a4025ee31a352f3620962023b9293ce07220c57f860fea778d17b314"
+    },
+    {
+      "artifact": "grid_long-cap-1-delay-infra-20.json",
+      "sha256": "83dc7d225b9c0fccb8cecc0be9a7b099189785794231f4c1b2a8bd01e6daa14e"
+    },
+    {
+      "artifact": "grid_long-cap-1-funding_adverse-infra-0.json",
+      "sha256": "83edb08ff30a2d667c381b6d8e62345e2d0542a079f830c7d1231a6f6bc6fb92"
+    },
+    {
+      "artifact": "grid_long-cap-1-funding_adverse-infra-20.json",
+      "sha256": "eab5c4eaafee49f437a81b191982fb01f08dded42a93012bfa16afa9fa06e2a0"
+    },
+    {
+      "artifact": "grid_long-cap-1-zero_cost-infra-0.json",
+      "sha256": "ddde8fa0caf4a152f0541495e6973aa40991d989428d393eba1865c69f92a87e"
+    },
+    {
+      "artifact": "grid_long-cap-1-zero_cost-infra-20.json",
+      "sha256": "5eb8cd450cf7c2eb7b6597aa79652ff1782124b6acb88258cbdc5cbc76f6ad64"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-base-infra-0.json",
+      "sha256": "d499ac520a978c23c08276b2c28857492cd1b9653ad4dd3414f80428e5e45bc1"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-base-infra-20.json",
+      "sha256": "5a76ef4f07d173b36df5ece3be063a1ff12157d1f8b5637f0a503aee70e3c4f7"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "bebf436179e47a5c7042972deaef92764002130077a71eb1000f050b4cc472ad"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "bd4bb8bbc683a1ce22f53de53c0f8b928a4fcc11cdd9810ef4641d721d940d6a"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-delay-infra-0.json",
+      "sha256": "5482248852a1b694b0a87221702f1d69b1bd51b3e2d2a687568498bfa45abb3c"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-delay-infra-20.json",
+      "sha256": "c3107517a6a20874b86ec20d1ca63ff1192e4531d399da2de8872549f3fa8703"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "5d5ba767a4dd63f04905e9f0d7c3ca1ba5c447b4fcb1281b4ffb658dc5564257"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "5fad249bda96ced1f4f940e2436a106d799ef1e2c2a34d6ffbd3da24f974d1d9"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "229b3b8d9618ce0ee69e8ba1979589be89485de1d0531836cf65bd4e89c2685a"
+    },
+    {
+      "artifact": "grid_long-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "0c406a0c095e9d968d29a436cd00cbe67b41dcee40cf91d7f790be0e49174df1"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-base-infra-0.json",
+      "sha256": "89f9409cd72e0aaee13489aa23304eb4df26440e41163cc936bfe7788b64c9c5"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-base-infra-20.json",
+      "sha256": "9ce83541538e6941683b8ffef1d86f246584a49f1cc4d65afbd9037da57319c7"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "53f2d9e0e679212bc526fcb53a90f87d83ec107b6989d717961d35b64a8979f4"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "b1e67f006d0e0af8f654769d56f2b93db064f8a9e5ca714b89efde0194012800"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-delay-infra-0.json",
+      "sha256": "b9b4ac213d125074fe3354eced85dffd31cee1078abce2e4260c6fb931bd4fac"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-delay-infra-20.json",
+      "sha256": "46af40c41c9f0ad4df2b803696abaed2984f5ac1c4f03d4d80828e35e0c893a1"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "ffd84b299f1ba946ef6a91fa3b187543fe31507a6e56ca0c1c6094457e22682c"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "0b47640bbd6f34ff581fca4819c0433003aa6ecaeffaa0ca693b7af060990f58"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "17c3f25a71eaaaafad78325c19840726ac0c9f733d24038638c7d1167d46ec41"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "aec1f3615b0c0f3ddd67a419b30253c5e1f4daee3e6646011cf2bb3271ac181c"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-base-infra-0.json",
+      "sha256": "bccde90b1e7bb879b553006970493e52b5aaa9b34bb7ff964727b76501e38009"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-base-infra-20.json",
+      "sha256": "affbab2cae35dcec58764950ceab9396437c1bc7f8c32154249cce40d9f705a1"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-cost_stress-infra-0.json",
+      "sha256": "fe333076c74ee68e14e6da0a22f10121da08cf93db1ea7d4ebb046b35092cdca"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-cost_stress-infra-20.json",
+      "sha256": "1e24920f020e093cdb6aa87e1c69f5aeb7a80f9f355ea1c4a8b795a4fb679a86"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-delay-infra-0.json",
+      "sha256": "0378ef569b44f0afb2be73f4f523899b01ea5c33fb13ec69512640742d8ad1e0"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-delay-infra-20.json",
+      "sha256": "23c012778e614c6c7dcaab381a0b24327e3d8d1f4c0f08db42e5c769a04829f8"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-funding_adverse-infra-0.json",
+      "sha256": "6fbb171b87c8783910e20ea2da30233d8a89f922a59ce3b1c81b083779a4d9af"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-funding_adverse-infra-20.json",
+      "sha256": "cb011ddf3126507fc8e7e776d9c7c1a73ddefcc0493a5c7f41ce77b2422891e2"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-zero_cost-infra-0.json",
+      "sha256": "fee5e15024f21409b72c2e4f67bdab869f3417519541ddc1f7de1ec08c8bf8cd"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1-zero_cost-infra-20.json",
+      "sha256": "8c1b3edac2cd9d787902453e5e28b68942819a75b31041273fc1ef20bdeb0867"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-base-infra-0.json",
+      "sha256": "fdcf426431a3a952cdb177f37ecc477cffca19f0c7e7bd049ad48093e2fd0677"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-base-infra-20.json",
+      "sha256": "b58efef03af7b25fa1832047ca6b5def770bc003dfe8cdd5fd942d78104ffc6b"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "7f8c27bfe07702d6f30dfeaf3c8008b691aa3fe077538ec819d3e8886463a169"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "d3f6c64e338fa3737c6510ea82fa1aef97e2d1e1d541febba1f019be690457dd"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-delay-infra-0.json",
+      "sha256": "7d31f7767ced268072b4531c7c74e4746f523e0c72858a6b8fd2e4581b6ffe01"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-delay-infra-20.json",
+      "sha256": "3ded267b0c7bad926b0ba216be0dfe875131f878bd334a17c5f85d5e1a1fb970"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "9efffda6b8b43707eea9e1b65e88996a73488f8fb4fa3e024071e65188126cad"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "b3683602d72e4d9c8707472125956618cc2aebc028b130808783d51ff0053edf"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "e33c67397a990dd16d306b103c2d11a941ab3ac9c7f1331725656674adb2f3c1"
+    },
+    {
+      "artifact": "hold_cashcat-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "53f27d70457f798544cf06841bfbc59314c18215496c99dc39eb47967a1d9338"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-base-infra-0.json",
+      "sha256": "7ec6bb18da86731b1769265d780d59edb9467d459820279b239710b1cd1a62a6"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-base-infra-20.json",
+      "sha256": "c7cd4c6c96fcfee7d6ea8c22b36f4dde7ad9c0f4f0129fe6e247f147408076c9"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "f501928c9e95950b443459fc30cf7aa718a263d86420fbb6ddf162f37d73408d"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "86f132ee54497686c13c10e9668eb511f31ffa6a02ed0a8dccbd8c50d3db3207"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-delay-infra-0.json",
+      "sha256": "5c62c5a8306a26dc3843c7b669242f31827c5b0b92186ee431856edfd55ab3a4"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-delay-infra-20.json",
+      "sha256": "b2fb30764f4cdbbf974154145f9820cf52aec20d8103894260611ff32a89d95f"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "3df2eda0d5faaa6740acd8a3fb0628fa9730bde80680138b4c878b0e4cc85279"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "01f44a5c92bf6f39c142eade28c3418aea8334dc45bdbee6d0fcbe8e010f23bf"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "86abf623dc22016a2ab48392f77d704f418bdc1ef1939dfed64ce42d3fc28c5c"
+    },
+    {
+      "artifact": "hold_equal-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "9a85c8de6535cfdeb5f15072efe1ed2e19c631b837922dc38341551142cfeaef"
+    },
+    {
+      "artifact": "hold_equal-cap-1-base-infra-0.json",
+      "sha256": "805f05680529062897d74e91c708a7cb3038ee352e44010aa16a35dc976827f2"
+    },
+    {
+      "artifact": "hold_equal-cap-1-base-infra-20.json",
+      "sha256": "d01b1ad8f4df92bae5d28a428cde41a0a3ca691d9a598878e6fa80c6b00ef2d1"
+    },
+    {
+      "artifact": "hold_equal-cap-1-cost_stress-infra-0.json",
+      "sha256": "b6272ed75e53d8dd5f9a3faea8c0622307890f2d39aba3ae014bcf3c3932bc10"
+    },
+    {
+      "artifact": "hold_equal-cap-1-cost_stress-infra-20.json",
+      "sha256": "1adbe78f578abc4ecb90e1b71aa2a0b02c737502b2a67ba05edb86eea058fc15"
+    },
+    {
+      "artifact": "hold_equal-cap-1-delay-infra-0.json",
+      "sha256": "f641cb4962d320313e7ca020cb5fd4e8616efc9c233afd5aa86866908c6efe21"
+    },
+    {
+      "artifact": "hold_equal-cap-1-delay-infra-20.json",
+      "sha256": "6d7a2dc78a9d3d59a12ba32e5bbaf8a3dfb5572ae5f36e991d4d542156fb91c1"
+    },
+    {
+      "artifact": "hold_equal-cap-1-funding_adverse-infra-0.json",
+      "sha256": "6b85c54fcc8e362286bbe235138f541fb1992a169529a8b73689a09c7368bfb3"
+    },
+    {
+      "artifact": "hold_equal-cap-1-funding_adverse-infra-20.json",
+      "sha256": "c3eeef07e7ac96ea989d3d1a3a889834efe9780fda2c6d4f083ba879b1325a13"
+    },
+    {
+      "artifact": "hold_equal-cap-1-zero_cost-infra-0.json",
+      "sha256": "7711b8af69771d52a7d437f6f3ef17477e8d25280f87acbc45c9608db8b6b983"
+    },
+    {
+      "artifact": "hold_equal-cap-1-zero_cost-infra-20.json",
+      "sha256": "d4c0fed10a44ab1911a82e7378b5ee036087d8b2ec9972e0e7adf7654053082d"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-base-infra-0.json",
+      "sha256": "72faaf87f5b21a4bf5e3d02b77cd86d6d128f2c8ccaac91c3cd13699f787ffdf"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-base-infra-20.json",
+      "sha256": "d7e1a5511eaf3a90245b9ada74b78e09a965ab8001599a2190df8f25c3cb15d1"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "f5a8aafbc14ada6fc9bda7dd8dc6138ed3d79f9478fda91d38be11a97aaaf278"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "559b96259fc9f37ad485f0f2c6ed4465e95730a6a672ab5d0bd525ba4030c67b"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-delay-infra-0.json",
+      "sha256": "2d2af670d97434ed0be4888abc3fd7c60b96aa9392c58a2dfa52e2a96f99812b"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-delay-infra-20.json",
+      "sha256": "7c59cdb8a7404e7d8bd0ddebc9395fbc23cba8c07cf96cdec61d38ac16f2cfb4"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "cf51abc1011540cb6229d32286956eeafd30ca84aea52f5e1b5d3f04db3c53f4"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "1f6fca4cfea643da8ba8f09a0695c417801e5ab5ae6d04841992dc8ec2716d06"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "866d1f8337a95d17f33bea14793ed26f0ac38281cf6712e9c96cba6b16633c44"
+    },
+    {
+      "artifact": "hold_equal-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "1b3ad45a216fdf490e66093bcb710513a9b9268230264011715d4422e191b0ba"
+    },
+    {
+      "artifact": "quality.json",
+      "sha256": "24b975e468cb719a7a21a1b300f5035f23e46041851bd64a5b61d137b47010b5"
+    }
+  ],
+  "initial_summary_results_unchanged": true,
+  "live_enabled": false,
+  "mypy": "64 source files passed",
+  "ruff": "check and format passed, 231 files",
+  "summary_metadata_changed": "source version, script hash and explicit risk adaptation metadata",
+  "tests": "251 passed"
+}

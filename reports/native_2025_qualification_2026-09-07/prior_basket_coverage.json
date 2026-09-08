@@ -1,0 +1,857 @@
+{
+  "baskets": 47,
+  "baskets_failing_holding_window": 38,
+  "failures_by_coin": {
+    "ARB": 0,
+    "BNB": 0,
+    "DOGE": 0,
+    "INJ": 0,
+    "LINK": 0,
+    "NEAR": 0,
+    "UNI": 0,
+    "WLD": 0,
+    "XMR": 38,
+    "XRP": 0,
+    "ZEC": 16
+  },
+  "fills_qualified": false,
+  "funding_qualified": false,
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "purpose": "Native candle coverage check of unchanged historical Binance basket selections; no new PnL",
+  "results": [
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "WLD",
+        "XMR"
+      ],
+      "time_ms": 1738540800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "LINK",
+        "WLD",
+        "XMR",
+        "ZEC"
+      ],
+      "time_ms": 1739145600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1739750400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1740355200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1740960000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1741564800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1742169600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1742774400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1743379200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "ZEC"
+      ],
+      "time_ms": 1743984000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 30,
+          "zero_volume_4h_candles_including_exit": 13
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "ZEC"
+      ],
+      "time_ms": 1744588800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1745193600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "ZEC"
+      ],
+      "time_ms": 1745798400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1746403200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "UNI",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1747008000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "UNI",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1747612800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "UNI",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1748217600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "UNI",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1748822400000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "WLD",
+        "XRP"
+      ],
+      "time_ms": 1749427200000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "ARB",
+        "BNB",
+        "LINK",
+        "UNI",
+        "WLD",
+        "XRP"
+      ],
+      "time_ms": 1750032000000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "ARB",
+        "BNB",
+        "DOGE",
+        "INJ",
+        "UNI",
+        "XRP"
+      ],
+      "time_ms": 1750636800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "UNI",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1751241600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "UNI",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1751846400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1752451200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 43,
+          "zero_volume_4h_candles_including_exit": 0
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "UNI",
+        "XMR"
+      ],
+      "time_ms": 1753056000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 29,
+          "zero_volume_4h_candles_including_exit": 14
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "LINK",
+        "UNI",
+        "WLD",
+        "XMR"
+      ],
+      "time_ms": 1753660800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "BNB",
+        "DOGE",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1754265600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "BNB",
+        "DOGE",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1754870400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "LINK",
+        "WLD",
+        "XMR",
+        "ZEC"
+      ],
+      "time_ms": 1755475200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1756080000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1756684800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "LINK",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1757289600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "LINK",
+        "WLD",
+        "XMR",
+        "XRP"
+      ],
+      "time_ms": 1757894400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1758499200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        },
+        "ZEC": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 21
+        }
+      },
+      "selected": [
+        "BNB",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1759104000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "LINK",
+        "NEAR",
+        "WLD",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1759708800000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1760313600000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1760918400000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1761523200000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "ARB",
+        "BNB",
+        "INJ",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1762128000000
+    },
+    {
+      "holding_window_candle_failures": {
+        "XMR": {
+          "missing_4h_candles_including_exit": 0,
+          "zero_volume_4h_candles_including_exit": 43
+        }
+      },
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "XMR",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1762732800000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "BNB",
+        "DOGE",
+        "NEAR",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1763337600000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "BNB",
+        "DOGE",
+        "NEAR",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1763942400000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "BNB",
+        "DOGE",
+        "NEAR",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1764547200000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "BNB",
+        "DOGE",
+        "NEAR",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1765152000000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "BNB",
+        "INJ",
+        "NEAR",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1765756800000
+    },
+    {
+      "holding_window_candle_failures": {},
+      "selected": [
+        "ARB",
+        "BNB",
+        "DOGE",
+        "UNI",
+        "XRP",
+        "ZEC"
+      ],
+      "time_ms": 1766361600000
+    }
+  ],
+  "signal_warmup_qualified": false,
+  "sources": {
+    "data/native_2025_qualification_2026-09-07/cohort/request-000.json": "9a20501ec180ab82475b9e22857ee2ec84307b052938b7cdea4353ac2036223c",
+    "data/native_2025_qualification_2026-09-07/cohort/request-001.json": "352b8764343dee31615c6e63c498e697c8ea482860526b87e8403ebad74b844d",
+    "data/native_2025_qualification_2026-09-07/cohort/request-002.json": "aa264a2fc99ace2d770e23b06391c3bd310cdd5f3e66e3644eeb53c86e1c40da",
+    "data/native_2025_qualification_2026-09-07/cohort/request-003.json": "cfa3cdacd2b15f17ce615151d08703fe30e467e49b2e5451028513f699c08b45",
+    "data/native_2025_qualification_2026-09-07/cohort/request-004.json": "30be3d7f8cbabb75fc922d8b0a567c79b95b36a8ba921bf4e0574f75f1ebda2e",
+    "data/native_2025_qualification_2026-09-07/cohort/request-005.json": "d5fb6c86373743619453598f1f411af830314f40680a617aa00c3e857134ce4d",
+    "data/native_2025_qualification_2026-09-07/cohort/request-006.json": "1379470de319ab0f0122fe852a39aff5bde92399afef97ae67a037956c96aa31",
+    "data/native_2025_qualification_2026-09-07/cohort/request-007.json": "ffcca6869d985384ceaa9b2279c5dbc1a60c072cbbdfa55ef4f922542583c909",
+    "data/native_2025_qualification_2026-09-07/cohort/request-008.json": "72ce31430df54b7d16b493189b57cd159d77fdbfe36fb8af2980393046e2ffd9",
+    "data/native_2025_qualification_2026-09-07/cohort/request-009.json": "3ee5d9c9ad9e4ea41315399e4bd09e33b617c78af829016f71250098a1578ede",
+    "data/native_2025_qualification_2026-09-07/request-000.json": "9bcbf137f2eabb34f44802d447f0ca403cc0f7b06e9314220fc533da8cf3bc44",
+    "data/volatility_long_2024_2026-09-07/transfer_2025_v2_run1/selections.json": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a"
+  }
+}

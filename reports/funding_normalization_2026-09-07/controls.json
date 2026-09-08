@@ -1,0 +1,924 @@
+{
+  "controls": {
+    "24": {
+      "events": 40,
+      "means_bps": {
+        "actual_net_bps": "22.61103072915942833984817007",
+        "excess_same_asset_bps": "-54.09183681108832010120485562",
+        "excess_same_time_bps": "-81.02670344978341025018117275",
+        "same_asset_fixed_grid_mean_bps": "76.70286754024774844105302578",
+        "same_time_other_assets_mean_bps": "103.6377341789428385900293428"
+      },
+      "rows": [
+        {
+          "actual_net_bps": "461.8072149221513524771084122",
+          "coin": "CASHCAT",
+          "entry_ms": 1786122060000,
+          "excess_same_asset_bps": "301.0289537895387819214461008",
+          "excess_same_time_bps": "353.3266961964011123077885761",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "108.4805187257502401693198361",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-160.7889660179134578831684883",
+          "coin": "JUP",
+          "entry_ms": 1786176060000,
+          "excess_same_asset_bps": "3.8043632022969549384935987",
+          "excess_same_time_bps": "37.9901064647375240967644799",
+          "same_asset_fixed_grid_mean_bps": "-164.593329220210412821662087",
+          "same_time_other_assets_mean_bps": "-198.7790724826509819799329682",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "268.3860545207802766898469455",
+          "coin": "XMR",
+          "entry_ms": 1786248060000,
+          "excess_same_asset_bps": "349.4759522147663358480296143",
+          "excess_same_time_bps": "82.1219827796314819730064503",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "186.2640717411487947168404952",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "379.8550615816720696141516279",
+          "coin": "FARTCOIN",
+          "entry_ms": 1786258860000,
+          "excess_same_asset_bps": "350.3324218253584608450355498",
+          "excess_same_time_bps": "-44.4103146447330624148471655",
+          "same_asset_fixed_grid_mean_bps": "29.52263975631360876911607808",
+          "same_time_other_assets_mean_bps": "424.2653762264051320289987934",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-17.15388682334060788547566493",
+          "coin": "CASHCAT",
+          "entry_ms": 1786413660000,
+          "excess_same_asset_bps": "-177.9321479559531784411379763",
+          "excess_same_time_bps": "12.42123212624551682703622294",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "-29.57511894958612471251188787",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "292.5725200564677483664943658",
+          "coin": "XMR",
+          "entry_ms": 1786510860000,
+          "excess_same_asset_bps": "373.6624177504538075246770346",
+          "excess_same_time_bps": "322.1200239309962075483835449",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "-29.54750387452845918188917911",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "142.0671102904684311631792958",
+          "coin": "INJ",
+          "entry_ms": 1786820460000,
+          "excess_same_asset_bps": "160.8161037368675727045618416",
+          "excess_same_time_bps": "123.7899611327014117707327564",
+          "same_asset_fixed_grid_mean_bps": "-18.74899344639914154138254576",
+          "same_time_other_assets_mean_bps": "18.27714915776701939244653941",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "15.50779677645201949667481431",
+          "coin": "FARTCOIN",
+          "entry_ms": 1786878060000,
+          "excess_same_asset_bps": "-14.01484297986158927244126377",
+          "excess_same_time_bps": "-50.95070247933711237165962908",
+          "same_asset_fixed_grid_mean_bps": "29.52263975631360876911607808",
+          "same_time_other_assets_mean_bps": "66.45849925578913186833444339",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "25.97174232047771876547335512",
+          "coin": "XMR",
+          "entry_ms": 1786935660000,
+          "excess_same_asset_bps": "107.0616400144637779236560240",
+          "excess_same_time_bps": "203.5569189942045179994078939",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "-177.5851766737267992339345388",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-1253.225235711551854422390861",
+          "coin": "CASHCAT",
+          "entry_ms": 1787025660000,
+          "excess_same_asset_bps": "-1414.003496844164424978053172",
+          "excess_same_time_bps": "-1326.338127088256733112411366",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "73.11289137670487869002050494",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-289.5664514214353485496461177",
+          "coin": "WLD",
+          "entry_ms": 1787068860000,
+          "excess_same_asset_bps": "-191.9545015879691961557571394",
+          "excess_same_time_bps": "107.6650780593738833056428671",
+          "same_asset_fixed_grid_mean_bps": "-97.61194983346615239388897828",
+          "same_time_other_assets_mean_bps": "-397.2315294808092318552889848",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "1447.002228390968480608076781",
+          "coin": "FARTCOIN",
+          "entry_ms": 1787194860000,
+          "excess_same_asset_bps": "1417.479588634654871838960703",
+          "excess_same_time_bps": "736.1573052560909840778027166",
+          "same_asset_fixed_grid_mean_bps": "29.52263975631360876911607808",
+          "same_time_other_assets_mean_bps": "710.8449231348774965302740644",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-173.1783521894238302528388755",
+          "coin": "XMR",
+          "entry_ms": 1787227260000,
+          "excess_same_asset_bps": "-92.08845449543777109465620667",
+          "excess_same_time_bps": "-1274.992016339176693283048746",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "1101.81366414975286303020987",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1618.062446931692962142306780",
+          "coin": "PUMP",
+          "entry_ms": 1787295660000,
+          "excess_same_asset_bps": "1117.797433278673097068414180",
+          "excess_same_time_bps": "734.3691150871443896491178833",
+          "same_asset_fixed_grid_mean_bps": "500.2650136530198650738925996",
+          "same_time_other_assets_mean_bps": "883.6933318445485724931888967",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "140.5536945844186912449386384",
+          "coin": "ENA",
+          "entry_ms": 1787335260000,
+          "excess_same_asset_bps": "28.8391818261260491530584623",
+          "excess_same_time_bps": "-184.6125167547738741703416784",
+          "same_asset_fixed_grid_mean_bps": "111.7145127582926420918801761",
+          "same_time_other_assets_mean_bps": "325.1662113391925654152803168",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "63.53200023574199268314223829",
+          "coin": "NEAR",
+          "entry_ms": 1787335260000,
+          "excess_same_asset_bps": "81.29690059441090299544193151",
+          "excess_same_time_bps": "-265.9131941228215004300156564",
+          "same_asset_fixed_grid_mean_bps": "-17.76490035866891031229969322",
+          "same_time_other_assets_mean_bps": "329.4451943585634931131578947",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-547.6092538570709580284489337",
+          "coin": "CASHCAT",
+          "entry_ms": 1787342460000,
+          "excess_same_asset_bps": "-708.3875149896835285841112451",
+          "excess_same_time_bps": "-1143.788251283395456843577153",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "596.1789974263244988151282189",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-528.8000424274049503805251316",
+          "coin": "WLD",
+          "entry_ms": 1787349660000,
+          "excess_same_asset_bps": "-600.2649988135515198606661907",
+          "excess_same_time_bps": "-484.6020758736834197001316620",
+          "same_asset_fixed_grid_mean_bps": "71.46495638614656948014105908",
+          "same_time_other_assets_mean_bps": "-44.19796655372153068039346955",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-225.8549076222138749820129432",
+          "coin": "LIT",
+          "entry_ms": 1787374860000,
+          "excess_same_asset_bps": "-452.3188716658242428131469154",
+          "excess_same_time_bps": "857.1532927337029057478881098",
+          "same_asset_fixed_grid_mean_bps": "226.4639640436103678311339722",
+          "same_time_other_assets_mean_bps": "-1083.008200355916780729901053",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-79.41435758739770654230350633",
+          "coin": "DOGE",
+          "entry_ms": 1787389260000,
+          "excess_same_asset_bps": "-161.2302726997703318967758262",
+          "excess_same_time_bps": "-77.38574519734489012227323084",
+          "same_asset_fixed_grid_mean_bps": "81.81591511237262535447231989",
+          "same_time_other_assets_mean_bps": "-2.028612390052816420030275489",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-229.5871870718583732520415035",
+          "coin": "JUP",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "-367.9226430806680386824505473",
+          "excess_same_time_bps": "-348.4064855157973832659603151",
+          "same_asset_fixed_grid_mean_bps": "138.3354560088096654304090438",
+          "same_time_other_assets_mean_bps": "118.8192984439390100139188116",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-151.3190294983734530626914265",
+          "coin": "TAO",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "-206.1361167781223441217096083",
+          "excess_same_time_bps": "-265.7900969660077452883130117",
+          "same_asset_fixed_grid_mean_bps": "54.81708727974889105901818177",
+          "same_time_other_assets_mean_bps": "114.4710674676342922256215852",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "26.61766235711380424006094827",
+          "coin": "UNI",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "-85.66554959404036527751146173",
+          "excess_same_time_bps": "-77.96803334077119591318550503",
+          "same_asset_fixed_grid_mean_bps": "112.283211951154169517572410",
+          "same_time_other_assets_mean_bps": "104.5856956978850001532464533",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-116.7166503394273089273391317",
+          "coin": "LINK",
+          "entry_ms": 1787396460000,
+          "excess_same_asset_bps": "-224.5962241233984765498525054",
+          "excess_same_time_bps": "-370.2993555687030936617195909",
+          "same_asset_fixed_grid_mean_bps": "107.8795737839711676225133737",
+          "same_time_other_assets_mean_bps": "253.5827052292757847343804592",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-17.23170708448505361934690568",
+          "coin": "BNB",
+          "entry_ms": 1787400060000,
+          "excess_same_asset_bps": "-73.72315700559681272706716299",
+          "excess_same_time_bps": "-309.9644272753297440813986816",
+          "same_asset_fixed_grid_mean_bps": "56.49144992111175910772025731",
+          "same_time_other_assets_mean_bps": "292.7327201908446904620517759",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-73.88111021583098572516439908",
+          "coin": "XRP",
+          "entry_ms": 1787403660000,
+          "excess_same_asset_bps": "-178.1463241074085153375266730",
+          "excess_same_time_bps": "-244.8355213284756044468741905",
+          "same_asset_fixed_grid_mean_bps": "104.2652138915775296123622739",
+          "same_time_other_assets_mean_bps": "170.9544111126446187217097914",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "186.7799017494279590498830178",
+          "coin": "ZEC",
+          "entry_ms": 1787403660000,
+          "excess_same_asset_bps": "136.5707353008125235310725323",
+          "excess_same_time_bps": "30.3066579681866150378980829",
+          "same_asset_fixed_grid_mean_bps": "50.20916644861543551881048551",
+          "same_time_other_assets_mean_bps": "156.4732437812413440119849349",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1088.123081474078718181313572",
+          "coin": "XPL",
+          "entry_ms": 1787439660000,
+          "excess_same_asset_bps": "941.3692096853981304442786156",
+          "excess_same_time_bps": "618.0357846948624941782966951",
+          "same_asset_fixed_grid_mean_bps": "146.7538717886805877370349564",
+          "same_time_other_assets_mean_bps": "470.0872967792162240030168769",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "832.5588760704213262874758126",
+          "coin": "INJ",
+          "entry_ms": 1787443260000,
+          "excess_same_asset_bps": "839.8215391060897522957652469",
+          "excess_same_time_bps": "294.0871107581360275344344072",
+          "same_asset_fixed_grid_mean_bps": "-7.2626630356684260082894343",
+          "same_time_other_assets_mean_bps": "538.4717653122852987530414054",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "678.5135037911905992010784088",
+          "coin": "XMR",
+          "entry_ms": 1787547660000,
+          "excess_same_asset_bps": "759.6034014851766583592610776",
+          "excess_same_time_bps": "286.9933080324944493854342604",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "391.5201957586961498156441484",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-760.7455470468421280069035276",
+          "coin": "CASHCAT",
+          "entry_ms": 1787608860000,
+          "excess_same_asset_bps": "-921.5238081794546985625658390",
+          "excess_same_time_bps": "-430.0378120948585345581983765",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "-330.7077349519835934487051511",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-209.7472240178460387163178178",
+          "coin": "PUMP",
+          "entry_ms": 1787742060000,
+          "excess_same_asset_bps": "-710.0122376708659037902104174",
+          "excess_same_time_bps": "-322.2809999294854172102636240",
+          "same_asset_fixed_grid_mean_bps": "500.2650136530198650738925996",
+          "same_time_other_assets_mean_bps": "112.5337759116393784939458062",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-582.8481307289572158975735045",
+          "coin": "FARTCOIN",
+          "entry_ms": 1787846460000,
+          "excess_same_asset_bps": "-612.3707704852708246666895826",
+          "excess_same_time_bps": "-212.5844091634952189002992408",
+          "same_asset_fixed_grid_mean_bps": "29.52263975631360876911607808",
+          "same_time_other_assets_mean_bps": "-370.2637215654619969972742637",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-790.1564188715979706980375839",
+          "coin": "CASHCAT",
+          "entry_ms": 1787882460000,
+          "excess_same_asset_bps": "-950.9346800042105412536998953",
+          "excess_same_time_bps": "-201.7864638121311029788691522",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "-588.3699550594668677191684317",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-569.6747137557790809166787757",
+          "coin": "LIT",
+          "entry_ms": 1787889660000,
+          "excess_same_asset_bps": "-796.1386777993894487478127479",
+          "excess_same_time_bps": "-162.9936814925933210929528585",
+          "same_asset_fixed_grid_mean_bps": "226.4639640436103678311339722",
+          "same_time_other_assets_mean_bps": "-406.6810322631857598237259172",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "33.62030023798637126061202504",
+          "coin": "XMR",
+          "entry_ms": 1787943660000,
+          "excess_same_asset_bps": "114.7101979319724304187946939",
+          "excess_same_time_bps": "-233.8665317994206693126699878",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "267.4868320374070405732820128",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "493.7235631175573756149901597",
+          "coin": "LIT",
+          "entry_ms": 1788188460000,
+          "excess_same_asset_bps": "267.2595990739470077838561875",
+          "excess_same_time_bps": "95.3066909114739140020141831",
+          "same_asset_fixed_grid_mean_bps": "226.4639640436103678311339722",
+          "same_time_other_assets_mean_bps": "398.4168722060834616129759766",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-428.3203857062328178934245228",
+          "coin": "XMR",
+          "entry_ms": 1788206460000,
+          "excess_same_asset_bps": "-347.2304880122467587352418540",
+          "excess_same_time_bps": "-454.2892382261767910974246398",
+          "same_asset_fixed_grid_mean_bps": "-81.08989769398605915818266883",
+          "same_time_other_assets_mean_bps": "25.96885251994397320400011705",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "408.7926601389736247539630770",
+          "coin": "CASHCAT",
+          "entry_ms": 1788228060000,
+          "excess_same_asset_bps": "248.0143990063610541983007656",
+          "excess_same_time_bps": "704.8242342978908057102064391",
+          "same_asset_fixed_grid_mean_bps": "160.7782611326125705556623114",
+          "same_time_other_assets_mean_bps": "-296.0315741589171809562433621",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-493.7866323866813726045138502",
+          "coin": "NEAR",
+          "entry_ms": 1788260460000,
+          "excess_same_asset_bps": "-476.0217320280124622922141570",
+          "excess_same_time_bps": "-353.1976371188420869026670142",
+          "same_asset_fixed_grid_mean_bps": "-17.76490035866891031229969322",
+          "same_time_other_assets_mean_bps": "-140.588995267839285701846836",
+          "side": 1
+        }
+      ],
+      "without_cashcat": {
+        "events": 33,
+        "means_bps": {
+          "actual_net_bps": "103.1130817095653234970942996",
+          "excess_same_asset_bps": "44.24438856769799186823112227",
+          "excess_same_time_bps": "-36.65726201009793991997642721",
+          "same_asset_fixed_grid_mean_bps": "58.86869314186733162886317733",
+          "same_time_other_assets_mean_bps": "139.7703437196632634170707268"
+        }
+      }
+    },
+    "72": {
+      "events": 40,
+      "means_bps": {
+        "actual_net_bps": "642.6361592496878074697160828",
+        "excess_same_asset_bps": "111.654613380681962738047120",
+        "excess_same_time_bps": "275.7402876400735388346551308",
+        "same_asset_fixed_grid_mean_bps": "530.981545869005844731668962",
+        "same_time_other_assets_mean_bps": "366.8958716096142686350609515"
+      },
+      "rows": [
+        {
+          "actual_net_bps": "4891.847322335572821537928836",
+          "coin": "CASHCAT",
+          "entry_ms": 1786122060000,
+          "excess_same_asset_bps": "3498.406063406881728215418363",
+          "excess_same_time_bps": "4694.410802232069827103567381",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "197.4365201035029944343614552",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "102.6210256791888265982515531",
+          "coin": "JUP",
+          "entry_ms": 1786176060000,
+          "excess_same_asset_bps": "398.9376534051588043809792633",
+          "excess_same_time_bps": "686.6412073804039423113187759",
+          "same_asset_fixed_grid_mean_bps": "-296.3166277259699777827277102",
+          "same_time_other_assets_mean_bps": "-584.0201817012151157130672228",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "-147.4139242909582226482587972",
+          "coin": "XMR",
+          "entry_ms": 1786248060000,
+          "excess_same_asset_bps": "-525.2193367722170516988019513",
+          "excess_same_time_bps": "-390.7804950635324936577828913",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "243.3665707725742710095240941",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "286.5887698716741241315362194",
+          "coin": "FARTCOIN",
+          "entry_ms": 1786258860000,
+          "excess_same_asset_bps": "-11.0529006229016878012773682",
+          "excess_same_time_bps": "149.5688178934355033747557241",
+          "same_asset_fixed_grid_mean_bps": "297.6416704945758119328135876",
+          "same_time_other_assets_mean_bps": "137.0199519782386207567804953",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "746.5414744370398943404049422",
+          "coin": "CASHCAT",
+          "entry_ms": 1786413660000,
+          "excess_same_asset_bps": "-646.8997844916511989821055308",
+          "excess_same_time_bps": "895.7016240031961589356133878",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "-149.1601495661562645952084456",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "550.0219245711649130731000377",
+          "coin": "XMR",
+          "entry_ms": 1786510860000,
+          "excess_same_asset_bps": "172.2165120899060840225568836",
+          "excess_same_time_bps": "793.7855303381314496099071106",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "-243.7636057669665365368070729",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "224.3376718953524603509957339",
+          "coin": "INJ",
+          "entry_ms": 1786820460000,
+          "excess_same_asset_bps": "390.7607550621692826926307002",
+          "excess_same_time_bps": "157.0208615711231272817257901",
+          "same_asset_fixed_grid_mean_bps": "-166.4230831668168223416349663",
+          "same_time_other_assets_mean_bps": "67.31681032422933306926994378",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "-27.53825958397453683888624881",
+          "coin": "FARTCOIN",
+          "entry_ms": 1786878060000,
+          "excess_same_asset_bps": "-325.1799300785503487716998364",
+          "excess_same_time_bps": "11.38330693166905227002646588",
+          "same_asset_fixed_grid_mean_bps": "297.6416704945758119328135876",
+          "same_time_other_assets_mean_bps": "-38.92156651564358910891271469",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "375.1264701769443768328336462",
+          "coin": "XMR",
+          "entry_ms": 1786935660000,
+          "excess_same_asset_bps": "-2.6789423043144522177095079",
+          "excess_same_time_bps": "-554.4282425721783807112618132",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "929.5547127491227575440954594",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "2441.279578988200014185414309",
+          "coin": "CASHCAT",
+          "entry_ms": 1787025660000,
+          "excess_same_asset_bps": "1047.838320059508920862903836",
+          "excess_same_time_bps": "517.684088246186923341118006",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "1923.595490742013090844296303",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-2306.975639286373657109627840",
+          "coin": "WLD",
+          "entry_ms": 1787068860000,
+          "excess_same_asset_bps": "-2034.779686084114612423649648",
+          "excess_same_time_bps": "442.777080659308356758256851",
+          "same_asset_fixed_grid_mean_bps": "-272.1959532022590446859781916",
+          "same_time_other_assets_mean_bps": "-2749.752719945682013867884691",
+          "side": -1
+        },
+        {
+          "actual_net_bps": "1746.740845537880765379372403",
+          "coin": "FARTCOIN",
+          "entry_ms": 1787194860000,
+          "excess_same_asset_bps": "1449.099175043304953446558815",
+          "excess_same_time_bps": "-53.480416524476276363384730",
+          "same_asset_fixed_grid_mean_bps": "297.6416704945758119328135876",
+          "same_time_other_assets_mean_bps": "1800.221262062357041742757133",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "102.6767193901966155584431857",
+          "coin": "XMR",
+          "entry_ms": 1787227260000,
+          "excess_same_asset_bps": "-275.1286930910622134920999684",
+          "excess_same_time_bps": "-1829.491654852807934266891425",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "1932.168374243004549825334611",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "2690.450994814465026933807563",
+          "coin": "PUMP",
+          "entry_ms": 1787295660000,
+          "excess_same_asset_bps": "1901.094289830350663805096741",
+          "excess_same_time_bps": "1557.610991182019678501157504",
+          "same_asset_fixed_grid_mean_bps": "789.3567049841143631287108217",
+          "same_time_other_assets_mean_bps": "1132.840003632445348432650059",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "275.1167990297031380542990259",
+          "coin": "ENA",
+          "entry_ms": 1787335260000,
+          "excess_same_asset_bps": "-585.8490462739127984660658192",
+          "excess_same_time_bps": "-282.9285561282499928580913497",
+          "same_asset_fixed_grid_mean_bps": "860.9658453036159365203648451",
+          "same_time_other_assets_mean_bps": "558.0453551579531309123903756",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "265.4248373771451407754154052",
+          "coin": "NEAR",
+          "entry_ms": 1787335260000,
+          "excess_same_asset_bps": "96.8074804287896042525079410",
+          "excess_same_time_bps": "-293.1589600948389899858018381",
+          "same_asset_fixed_grid_mean_bps": "168.6173569483555365229074642",
+          "same_time_other_assets_mean_bps": "558.5837974719841307612172433",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "5079.355442970867394995444922",
+          "coin": "CASHCAT",
+          "entry_ms": 1787342460000,
+          "excess_same_asset_bps": "3685.914184042176301672934449",
+          "excess_same_time_bps": "4509.657540563061880540435680",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "569.6979024078055144550092417",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "4.61843784671431372950085273",
+          "coin": "WLD",
+          "entry_ms": 1787349660000,
+          "excess_same_asset_bps": "-241.1268008784083427268963272",
+          "excess_same_time_bps": "-594.2664703579592250272526379",
+          "same_asset_fixed_grid_mean_bps": "245.7452387251226564563971799",
+          "same_time_other_assets_mean_bps": "598.8849082046735387567534906",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1156.137221684892799074732266",
+          "coin": "LIT",
+          "entry_ms": 1787374860000,
+          "excess_same_asset_bps": "477.8901978264317714241404591",
+          "excess_same_time_bps": "1130.054034714731484707815806",
+          "same_asset_fixed_grid_mean_bps": "678.2470238584610276505918069",
+          "same_time_other_assets_mean_bps": "26.08318697016131436691646002",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-81.44452551142779595482813443",
+          "coin": "DOGE",
+          "entry_ms": 1787389260000,
+          "excess_same_asset_bps": "-348.7809509055191392318447398",
+          "excess_same_time_bps": "-892.5519181254998801554739733",
+          "same_asset_fixed_grid_mean_bps": "267.3364253940913432770166054",
+          "same_time_other_assets_mean_bps": "811.1073926140720842006458389",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "719.2954958011698951597193912",
+          "coin": "JUP",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "449.4694771034927262271915756",
+          "excess_same_time_bps": "23.8442157192881626211357895",
+          "same_asset_fixed_grid_mean_bps": "269.8260186976771689325278156",
+          "same_time_other_assets_mean_bps": "695.4512800818817325385836017",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "361.1987860699666234154050246",
+          "coin": "TAO",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "189.6914224650938512933641716",
+          "excess_same_time_bps": "-354.1467556636486242200849310",
+          "same_asset_fixed_grid_mean_bps": "171.507363604872772122040853",
+          "same_time_other_assets_mean_bps": "715.3455417336152476354899556",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "342.7923600126886549207883152",
+          "coin": "UNI",
+          "entry_ms": 1787392860000,
+          "excess_same_asset_bps": "-146.3296054310547970532569944",
+          "excess_same_time_bps": "-373.5757609463309242977359015",
+          "same_asset_fixed_grid_mean_bps": "489.1219654437434519740453096",
+          "same_time_other_assets_mean_bps": "716.3681209590195792185242167",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-6.52255887726255943719906116",
+          "coin": "LINK",
+          "entry_ms": 1787396460000,
+          "excess_same_asset_bps": "-393.9581978111121682583134695",
+          "excess_same_time_bps": "-785.8756304152330051608636045",
+          "same_asset_fixed_grid_mean_bps": "387.4356389338496088211144083",
+          "same_time_other_assets_mean_bps": "779.3530715379704457236645433",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-12.11038594407247786877402122",
+          "coin": "BNB",
+          "entry_ms": 1787400060000,
+          "excess_same_asset_bps": "-208.1329475531123287066959156",
+          "excess_same_time_bps": "-575.6380181893001881124227823",
+          "same_asset_fixed_grid_mean_bps": "196.0225616090398508379218944",
+          "same_time_other_assets_mean_bps": "563.5276322452277102436487611",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-218.2428985964813156831185312",
+          "coin": "XRP",
+          "entry_ms": 1787403660000,
+          "excess_same_asset_bps": "-591.3366326069689233502147735",
+          "excess_same_time_bps": "-731.5988069925941787956414280",
+          "same_asset_fixed_grid_mean_bps": "373.0937340104876076670962423",
+          "same_time_other_assets_mean_bps": "513.3559083961128631125228968",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "536.0206114999481423608964582",
+          "coin": "ZEC",
+          "entry_ms": 1787403660000,
+          "excess_same_asset_bps": "-201.5146508764948470837712925",
+          "excess_same_time_bps": "64.5682314425258046952632830",
+          "same_asset_fixed_grid_mean_bps": "737.5352623764429894446677507",
+          "same_time_other_assets_mean_bps": "471.4523800574223376656331752",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-216.0796072142033054259832970",
+          "coin": "XPL",
+          "entry_ms": 1787439660000,
+          "excess_same_asset_bps": "-511.5456422705626753014311141",
+          "excess_same_time_bps": "-440.5723190624910976660039280",
+          "same_asset_fixed_grid_mean_bps": "295.4660350563593698754478171",
+          "same_time_other_assets_mean_bps": "224.492711848287792240020631",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1225.965887882797056731461698",
+          "coin": "INJ",
+          "entry_ms": 1787443260000,
+          "excess_same_asset_bps": "1085.807055471095765180644787",
+          "excess_same_time_bps": "1174.058368114964982135689746",
+          "same_asset_fixed_grid_mean_bps": "140.1588324117012915508169112",
+          "same_time_other_assets_mean_bps": "51.9075197678320745957719522",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "535.7049305984595118604365806",
+          "coin": "XMR",
+          "entry_ms": 1787547660000,
+          "excess_same_asset_bps": "157.8995181172006828098934265",
+          "excess_same_time_bps": "577.3939339996432199726794073",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "-41.68900340118370811224282673",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "740.8678819645255453051514873",
+          "coin": "CASHCAT",
+          "entry_ms": 1787608860000,
+          "excess_same_asset_bps": "-652.5733769641655480173589857",
+          "excess_same_time_bps": "476.4286172125765079397239245",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "264.4392647519490373654275628",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-452.8792032827441940419179886",
+          "coin": "PUMP",
+          "entry_ms": 1787742060000,
+          "excess_same_asset_bps": "-1242.235908266858557170628810",
+          "excess_same_time_bps": "-150.5258108258220468078831717",
+          "same_asset_fixed_grid_mean_bps": "789.3567049841143631287108217",
+          "same_time_other_assets_mean_bps": "-302.3533924569221472340348169",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-1008.731520991420943848170930",
+          "coin": "FARTCOIN",
+          "entry_ms": 1787846460000,
+          "excess_same_asset_bps": "-1306.373191485996755780984518",
+          "excess_same_time_bps": "-848.1154564078261855885475003",
+          "same_asset_fixed_grid_mean_bps": "297.6416704945758119328135876",
+          "same_time_other_assets_mean_bps": "-160.6160645835947582596234297",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-847.0354056508208254673287774",
+          "coin": "CASHCAT",
+          "entry_ms": 1787882460000,
+          "excess_same_asset_bps": "-2240.476664579511918789839250",
+          "excess_same_time_bps": "-53.7420507869951475748429480",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "-793.2933548638256778924858294",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "-143.2962982347152245754147723",
+          "coin": "LIT",
+          "entry_ms": 1787889660000,
+          "excess_same_asset_bps": "-821.5433220931762522260065792",
+          "excess_same_time_bps": "337.3204083675038726122383066",
+          "same_asset_fixed_grid_mean_bps": "678.2470238584610276505918069",
+          "same_time_other_assets_mean_bps": "-480.6167066022190971876530789",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1363.440914315464377612424512",
+          "coin": "XMR",
+          "entry_ms": 1787943660000,
+          "excess_same_asset_bps": "985.6355018342055485618813579",
+          "excess_same_time_bps": "1163.884662506942492933505478",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "199.5562518085218846789190336",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "1138.429329143559796066446796",
+          "coin": "LIT",
+          "entry_ms": 1788188460000,
+          "excess_same_asset_bps": "460.1823052850987684158549891",
+          "excess_same_time_bps": "186.8107565437835862308998399",
+          "same_asset_fixed_grid_mean_bps": "678.2470238584610276505918069",
+          "same_time_other_assets_mean_bps": "951.6185725997762098355469561",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "26.53079121020915719101482900",
+          "coin": "XMR",
+          "entry_ms": 1788206460000,
+          "excess_same_asset_bps": "-351.2746212710496718595283251",
+          "excess_same_time_bps": "-1137.464246542650192521632771",
+          "same_asset_fixed_grid_mean_bps": "377.8054124812588290505431541",
+          "same_time_other_assets_mean_bps": "1163.99503775285934971264760",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "2934.257196024781489967861092",
+          "coin": "CASHCAT",
+          "entry_ms": 1788228060000,
+          "excess_same_asset_bps": "1540.815937096090396645350619",
+          "excess_same_time_bps": "2341.432839976175843927098246",
+          "same_asset_fixed_grid_mean_bps": "1393.441258928691093322510473",
+          "same_time_other_assets_mean_bps": "592.8243560486056460407628461",
+          "side": 1
+        },
+        {
+          "actual_net_bps": "310.3268763213944815450646078",
+          "coin": "NEAR",
+          "entry_ms": 1788260460000,
+          "excess_same_asset_bps": "141.7095193730389450221571436",
+          "excess_same_time_bps": "-520.0848444433655406461276461",
+          "same_asset_fixed_grid_mean_bps": "168.6173569483555365229074642",
+          "same_time_other_assets_mean_bps": "830.4117207647600221911922539",
+          "side": 1
+        }
+      ],
+      "without_cashcat": {
+        "events": 33,
+        "means_bps": {
+          "actual_net_bps": "294.4949357247680595128414086",
+          "excess_same_asset_bps": "-53.54061040430455066925511221",
+          "excess_same_time_bps": "-71.27157441949486184322752861",
+          "same_asset_fixed_grid_mean_bps": "348.0355461290726101820965206",
+          "same_time_other_assets_mean_bps": "365.7665101442629213560689370"
+        }
+      }
+    }
+  },
+  "event_sha256": "2aa099b9f9f025e6fca0ee758831fac099c8b849d39af0c0348a827f0b7850ac",
+  "limits": [
+    "post-result descriptive audit, not a registered strategy",
+    "market baseline ignores beta and is not a hedge portfolio",
+    "fixed-grid phase chosen arbitrarily; not a randomized test",
+    "removing CASHCAT measures concentration, not a new selected universe"
+  ],
+  "promotion_authorized": false,
+  "protocol_sha256": "1739b072c9435c5b2968d37124c6c1186399ad3dcba567843c9984564c788e53",
+  "script_sha256": "cfdbff90af0677bd5da2395e3895181457e9ade9d93c9225ad13bf3582b7af8f",
+  "sources": {
+    "data/funding_normalization_2026-09-07/history/manifest.json": "4e494496ff5a2479ec845f259f4c27326a8a9e2a58a0cd87b71ca23b09f79e65",
+    "data/funding_normalization_2026-09-07/history/request-000.json": "d80dc71ddbf8eae920d83724e9bae9676f565a48decebd79d1061b030c264727",
+    "data/funding_normalization_2026-09-07/history/request-001.json": "cfef9f39c89ce0b1cadadf125d02ee6b0bb8fd4a2c93ce3695cf7d4891792068",
+    "data/funding_normalization_2026-09-07/history/request-002.json": "3bb6905bbbed74a70473a3fab4686738c640a40538eb3e09275b63f24b72f714",
+    "data/funding_normalization_2026-09-07/history/request-003.json": "301e5afd07228f71d31c1abe89b1c81f6135cb0d0d46946b381f021cced29ee9",
+    "data/funding_normalization_2026-09-07/history/request-004.json": "fd18ec99f9b49a0306e9b6ca26eaa876cf1237101df0e3ed1f2e78d6af83ed6e",
+    "data/funding_normalization_2026-09-07/history/request-005.json": "f57e84416e516c7959fe8e0d62add61f2b8eaa741347997976d4cd0dc5104987",
+    "data/funding_normalization_2026-09-07/history/request-006.json": "ebc4d8b3a433d375480e535f888e596f1550a0e7c9776fcf1953ce2940d417db",
+    "data/funding_normalization_2026-09-07/history/request-007.json": "ee00e191bf2f4a7d10c83876d48185cd61e3bbe40224636ada7f8bc70952e9e9",
+    "data/funding_normalization_2026-09-07/history/request-008.json": "d229201600b02ea376fd12cca45399c8a37fd8e18122fd4c855a107a5c2e1894",
+    "data/funding_normalization_2026-09-07/history/request-009.json": "d697b8c9f6330d7232e7d6950594e2dd0baebc642d1314c2f8f96fdb324de367",
+    "data/funding_normalization_2026-09-07/history/request-010.json": "46cf698b0acfa6f1e352674a194cd7eb386302938e28bbff11a0a28ba3056fcb",
+    "data/funding_normalization_2026-09-07/history/request-011.json": "d1ba5bf026a0858f0220532726f308c647eb3db34d4189fda557f2d4ffb2801b",
+    "data/funding_normalization_2026-09-07/history/request-012.json": "f7054c07dff4b4702114f1ce6a69e11c45aec4355db22516de899256f278ddc4",
+    "data/funding_normalization_2026-09-07/history/request-013.json": "7a3be85c6f3eeafc7f11326a2ff7c4e3c9fa4de880dc6f3e070bb8c49407aea2",
+    "data/funding_normalization_2026-09-07/history/request-014.json": "fc1455078448bfcc95b0ae4dccf9b43cd588c6ff396c8478320f2090615e1c76",
+    "data/funding_normalization_2026-09-07/history/request-015.json": "e8ea96d496823ee1dc67d7fc2163d07dbedda3b506f347445ccc6983480faaec",
+    "data/funding_normalization_2026-09-07/history/request-016.json": "85dc25953366b06f5a2d017307413fa84d65b457a818f65f0e1533f6bcb0305c",
+    "data/funding_normalization_2026-09-07/history/request-017.json": "3a8ab4d95896a10086d42215d672b752f2499b2c4814c16585c679b103260d34",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-000.json": "451ac635f2a9ef86a62a44c5c09d862cacf993573d48fb100a3db70cea724f2a",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-001.json": "33984aec54258e4e73db4b411ad45dce3cd1c2589bac08dc6d286a04299c22bb",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-002.json": "a2a1934c0c046e10967bc98110d9b6e4cf4760d6eb966a21b2ef75d355fa1574",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-003.json": "8fa9a28bf7e100b2e55f3eeb4cfcb54e28bd018e2cfaf29919f923ceaf33380d",
+    "data/wide_funding_2026-09-07/cashcat_hedge/manifest.json": "b8526dea3150c9bf37eb535f0fb64c84cfd6ca92a1253a2b041a63ec02155f33",
+    "data/wide_funding_2026-09-07/history/manifest.json": "7825283567b49c700f9193269c7a481a4a1ebf8cb382833cac45a9686545ecb9",
+    "data/wide_funding_2026-09-07/history/request-000.json": "ef56ba574aaec7ef1367eb20392534ef8f4c9fb905d51447fda80af6e572cf49",
+    "data/wide_funding_2026-09-07/history/request-001.json": "b095a5181617289e41635bb07fb25c46a37d90574029855ad7bda48c853fc0c1",
+    "data/wide_funding_2026-09-07/history/request-002.json": "d3450b4c2608d4a37696eaf0c93698a6eb65c814a3e8c4cd354adf46294de4f9",
+    "data/wide_funding_2026-09-07/history/request-003.json": "be848c1591de031884dc51f0f0ff7694e2eff874353b83c38248b3bfe986fa08",
+    "data/wide_funding_2026-09-07/history/request-004.json": "d44679815a730d2ac3a4e7c9804b54bb6f09885d8695a877aeb5bcbb7500e077",
+    "data/wide_funding_2026-09-07/history/request-005.json": "85fd956d455b3d0781c258eaf5aaef59cee75bb667d712292d4bcc76497ac654",
+    "data/wide_funding_2026-09-07/history/request-006.json": "fb6f223e204695726d01d46a4bffb692ee9f82b5946d55f75cefffddde14d1ff",
+    "data/wide_funding_2026-09-07/history/request-007.json": "50f387e29b075a1a03815221f7ec2a8a2ca4cb42f34469b32e126d8a438fe80d",
+    "data/wide_funding_2026-09-07/history/request-008.json": "84546bcfd897268a420c642eef1524d2ad1838c5b0abf04f1a9ba5397af98e6f",
+    "data/wide_funding_2026-09-07/history/request-009.json": "86b9bc5fbaba12876c95e5e8a682d3104c72e7e0e5180a654f6a976742b30d23",
+    "data/wide_funding_2026-09-07/history/request-010.json": "dd9653878ef5543292b6caeb3c6dfb9df07745b7269fbf80fcfa2948c64a8d90",
+    "data/wide_funding_2026-09-07/history/request-011.json": "fa1de5bbb11bd7856702943b64c800ad118500759ce39db113898c725564de46",
+    "data/wide_funding_2026-09-07/history/request-012.json": "8aff5d2090a906a956093b13fd1c9d1ba2508bfcabf413a8237fe9c36cc4ff1c",
+    "data/wide_funding_2026-09-07/history/request-013.json": "16eb07dbdaf3f46ab005c58f61cf2b7d953806a1c50bd88909677806b56e43b3",
+    "data/wide_funding_2026-09-07/history/request-014.json": "843f178a30a0e63dbf951733bcc8c61c7ab987de377d78cbadf7be5a3a4e4693",
+    "data/wide_funding_2026-09-07/history/request-015.json": "2756ea9f7e51068a11efcbab12a5d0bea1077c58944007512ebdb340dccf4a27",
+    "data/wide_funding_2026-09-07/history/request-016.json": "dd03ac0c5e6147288815f7a6511c45d210dcaf8d247f5900b3930ea4296ebfcc",
+    "data/wide_funding_2026-09-07/history/request-017.json": "cc7473db532d35e6ba12caeea1ca77def8aa53ec01e237b854428e2f3e29359d",
+    "data/wide_funding_2026-09-07/history/request-018.json": "ad6cce1cc7835eae9e2461d9c5585e8bff2722827fa38b45401616d3dff2df4b",
+    "data/wide_funding_2026-09-07/history/request-019.json": "e9272620119260e56dfb1803d22f36c6cfb4e2a0ef7987148b90ad069da1245c",
+    "data/wide_funding_2026-09-07/history/request-020.json": "67e2b760a6801e1a3db07632f949130b8a913aa993a7d1c6823b2c52a0b735b4",
+    "data/wide_funding_2026-09-07/history/request-021.json": "011cd01a1f00b13db6684bb36131b3bb53a11e0017b54e4c2b9ee04540e6fdbb",
+    "data/wide_funding_2026-09-07/history/request-022.json": "cf64f62f03a267ae53a29a3e1f040812c424d8ca3de1ecb113ba2b18ea13c52b",
+    "data/wide_funding_2026-09-07/history/request-023.json": "ec22dca195741d0c273fb9e82a5e6bb0322a2a66b401de547d3405ba43f70195",
+    "data/wide_funding_2026-09-07/history/request-024.json": "cfc0b13880b1c5e86e3250d8d905c9c950c06b12fd01ad01381b66f685c99b70",
+    "data/wide_funding_2026-09-07/history/request-025.json": "46591aaea8f2a94c899cc28d6d30c77ddd7ef5f95d897deb13ee62831d656016",
+    "data/wide_funding_2026-09-07/history/request-026.json": "feb777b9d944469696ffa53631428ab7423c9ac87a81c35f96657e1c3725ff35",
+    "data/wide_funding_2026-09-07/history/request-027.json": "9f34aa0a126ee84447431ec23a7c0492478177639e3953322ab49c718bbc0d8f",
+    "data/wide_funding_2026-09-07/history/request-028.json": "205ab39b2f7c6c042c0339e89532f013a6c93803166e0a88108e1bf6149f31d2",
+    "data/wide_funding_2026-09-07/history/request-029.json": "2dc24f7dbc92d836437f5f44f5a2bb9e670e9d756ea47ee7664edabb97ab1e35",
+    "data/wide_funding_2026-09-07/history/request-030.json": "371830a63dada5a4f883adb1985b37fc442e5c6cc600a7e8c8a057a4dfbb403f",
+    "data/wide_funding_2026-09-07/history/request-031.json": "d19eee40c7c80e043deb100e982950146d8becd163238135c2018eb819ffafc8",
+    "data/wide_funding_2026-09-07/history/request-032.json": "9b93a51b7cef9ffa2695aaa117910a0e833e5b785adf9c0d7e38b6a703692b82",
+    "data/wide_funding_2026-09-07/history/request-033.json": "7e28dd4a9285d190bb22a4ff304a4a437bcac5091a47f6c66dd2e70cd7cc326d",
+    "data/wide_funding_2026-09-07/history/request-034.json": "c5d33ca2f7f7a12fe89d82d400855a46c52e1f751203b621ae8ba5526e049be9",
+    "data/wide_funding_2026-09-07/history/request-035.json": "29f910bda6683172161e4ada57a1ccb5067bf83dd75f5307a107fe9e36cfc786",
+    "data/wide_funding_2026-09-07/history/request-036.json": "29566dfd83a4920b90fa60d1cfc5b31adab764785aa2b29765a23f75d3484ca0",
+    "data/wide_funding_2026-09-07/history/request-037.json": "618c35bb5ce7e5327bbbb1d76c2846faeb4df505ea98ce6184717ee38fd0f7b8",
+    "data/wide_funding_2026-09-07/history/request-038.json": "414783f80227f573f5d5a25c639fc7c4d8881c374c0539764d16bb30455edeca"
+  }
+}

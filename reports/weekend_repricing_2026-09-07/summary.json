@@ -1,0 +1,653 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd",
+    "src/hyperbot2/research/equity_weekend.py": "aaa7371909ab722da971efdf3787f803a08400919046494aa3a76e2008db7cfb",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "data_cost_usd": 0,
+  "eligible_weekends": 24,
+  "end_ms_exclusive": 1788652800000,
+  "frames_ms": [
+    [
+      1771617600000,
+      1771776000000,
+      1771779600000,
+      1771858800000
+    ],
+    [
+      1772222400000,
+      1772380800000,
+      1772384400000,
+      1772463600000
+    ],
+    [
+      1772827200000,
+      1772982000000,
+      1772985600000,
+      1773064800000
+    ],
+    [
+      1773428400000,
+      1773586800000,
+      1773590400000,
+      1773669600000
+    ],
+    [
+      1774033200000,
+      1774191600000,
+      1774195200000,
+      1774274400000
+    ],
+    [
+      1774638000000,
+      1774796400000,
+      1774800000000,
+      1774879200000
+    ],
+    [
+      1775847600000,
+      1776006000000,
+      1776009600000,
+      1776088800000
+    ],
+    [
+      1776452400000,
+      1776610800000,
+      1776614400000,
+      1776693600000
+    ],
+    [
+      1777057200000,
+      1777215600000,
+      1777219200000,
+      1777298400000
+    ],
+    [
+      1777662000000,
+      1777820400000,
+      1777824000000,
+      1777903200000
+    ],
+    [
+      1778266800000,
+      1778425200000,
+      1778428800000,
+      1778508000000
+    ],
+    [
+      1778871600000,
+      1779030000000,
+      1779033600000,
+      1779112800000
+    ],
+    [
+      1780081200000,
+      1780239600000,
+      1780243200000,
+      1780322400000
+    ],
+    [
+      1780686000000,
+      1780844400000,
+      1780848000000,
+      1780927200000
+    ],
+    [
+      1781290800000,
+      1781449200000,
+      1781452800000,
+      1781532000000
+    ],
+    [
+      1782500400000,
+      1782658800000,
+      1782662400000,
+      1782741600000
+    ],
+    [
+      1783710000000,
+      1783868400000,
+      1783872000000,
+      1783951200000
+    ],
+    [
+      1784314800000,
+      1784473200000,
+      1784476800000,
+      1784556000000
+    ],
+    [
+      1784919600000,
+      1785078000000,
+      1785081600000,
+      1785160800000
+    ],
+    [
+      1785524400000,
+      1785682800000,
+      1785686400000,
+      1785765600000
+    ],
+    [
+      1786129200000,
+      1786287600000,
+      1786291200000,
+      1786370400000
+    ],
+    [
+      1786734000000,
+      1786892400000,
+      1786896000000,
+      1786975200000
+    ],
+    [
+      1787338800000,
+      1787497200000,
+      1787500800000,
+      1787580000000
+    ],
+    [
+      1787943600000,
+      1788102000000,
+      1788105600000,
+      1788184800000
+    ]
+  ],
+  "limits": [
+    "native perpetual Friday price is not an external fair-value benchmark",
+    "historical fee/deployer/oracle settings not qualified",
+    "hourly opens hypothetical; no portfolio, margin or size simulation",
+    "two-rule correction only; no broad research-selection correction"
+  ],
+  "promotion_authorized": false,
+  "protocol_sha256": "c05e1e50aa57f7abeaf7b51daeea6771e7b81374b676155618497cf137aeb52b",
+  "run_id": "weekend-repricing-2026-09-07",
+  "source_hashes": {
+    "data/weekend_repricing_2026-09-07/history/manifest.json": "ecf91a59dec479f50b52b37f27093a7e4b67226b433355ee6f1b45061a01cbaa",
+    "data/weekend_repricing_2026-09-07/history/request-000.json": "b11a241941ce898411e4f4c1fe2e6b3b79847deffeb7e3c1d9df9a6fa4407830",
+    "data/weekend_repricing_2026-09-07/history/request-001.json": "cddc114ce9237d86c54e6309d4a90d39f58ad10695d57bc918039aa3f83e6136",
+    "data/weekend_repricing_2026-09-07/history/request-002.json": "a9a5f7c0541b012a450323dea875c4edf5f6ad61b0b9d650768a7f6c391579b2",
+    "data/weekend_repricing_2026-09-07/history/request-003.json": "4db255587ce95eb74204660fb10e6a6cfcd074b9c47c78ed4f0ecf50fd6b2464",
+    "data/weekend_repricing_2026-09-07/history/request-004.json": "0130df9d1f08ec8a4a1589e77366cdd6b9a0d811c8e14e990994b0dead9fd27d",
+    "data/weekend_repricing_2026-09-07/history/request-005.json": "3004cfca8abfcb16689b3a516a29cb257661966713139da2a794994c8509ae6a",
+    "data/weekend_repricing_2026-09-07/history/request-006.json": "4b135b89d0c134580a086681183eedb9d78a80a7be5394bfa6fa78c25e492259",
+    "data/weekend_repricing_2026-09-07/history/request-007.json": "d0fe8ca3ab9080c9755aae81ded6773d25693b5823c9f0563a4478cf8f7f9597",
+    "data/weekend_repricing_2026-09-07/history/request-008.json": "43b6ef3b436d515c80a22635bcb1e148b0e07cc1cd13ff0eab416d00fd73eae3",
+    "data/weekend_repricing_2026-09-07/history/request-009.json": "a852962fb6b40d8b8eb0939aa0fb7ae3f33ee4d3eef6b3414f9409d1cf9d3210",
+    "data/weekend_repricing_2026-09-07/history/request-010.json": "603014a558c7a987b0e2e4e9e7df44437580d0de4177007d350bdfe654a24b68",
+    "data/weekend_repricing_2026-09-07/history/request-011.json": "6cf46126daced86b7d7b0c9e2f8bbe730394deab55b663c7192d0e39318e3b47",
+    "data/weekend_repricing_2026-09-07/history/request-012.json": "e929bb5fcfecc06c7c7fb4113cf5f15313559d12053bb31e5ac86cea0ab90129",
+    "data/weekend_repricing_2026-09-07/history/request-013.json": "0fdcb3930fe9646d57b6f77fe90be0a16e28c70b0b84b34f3ecbd9233ee36dd4",
+    "data/weekend_repricing_2026-09-07/history/request-014.json": "7c8305b4ff2d55b54ca769055643df06c371794750ae0afa515ccd1ca7a24551",
+    "data/weekend_repricing_2026-09-07/history/request-015.json": "fa7a88dad12843aa655098650be1f17be76cccb0e75beaef7ad042814af44f8b",
+    "data/weekend_repricing_2026-09-07/history/request-016.json": "0086b1cf2cadd47da0c2b55898769045a6696a8ddaec57b1413e2c969e009489",
+    "data/weekend_repricing_2026-09-07/history/request-017.json": "f1774ea9692619193600b491cf745ec2b99d0c20132d8b2ee994b1ebdf47e360",
+    "data/weekend_repricing_2026-09-07/history/request-018.json": "dc74c753b9bae4f02af7ab4296761a54e07e3dd3133784a540f7ca013b734fc4",
+    "data/weekend_repricing_2026-09-07/history/request-019.json": "981a94fa9439c41f5530e6b4c2eef2887adf6f09ded4106db14b3e550df2d605",
+    "data/weekend_repricing_2026-09-07/history/request-020.json": "d69f05e467aa339a1564c717c00c1c8b118efd7b255113db4d14fec9aba91ee1",
+    "data/weekend_repricing_2026-09-07/history/request-021.json": "81645790555e0ab0a00c97a62e1cc1a8eb957f6c47d4cb024e61c4716e371b86",
+    "data/weekend_repricing_2026-09-07/history/request-022.json": "75167371d805d03e5866fb9d43e7deb552cb725dc18cd1152a1ac21748b7b8c7",
+    "data/weekend_repricing_2026-09-07/history/request-023.json": "17fb89f686be69b9b5bd5a7f40e4243ef415b6f4362090c452b1edd7b6630414",
+    "data/weekend_repricing_2026-09-07/history/request-024.json": "93fd570086db5ffadf08b9c7f74d55b61f3e7a750b373c21e9aacfcf0ca87980",
+    "data/weekend_repricing_2026-09-07/history/request-025.json": "c2da4ad8346e98db919340ea15535b0141a61f1db1c55807f7864f88513ac5a8",
+    "data/weekend_repricing_2026-09-07/history/request-026.json": "bf5e8bfb45e2940ebb07230eca7b97430f420a78383b1b24ead3d72a9aa5b057",
+    "data/weekend_repricing_2026-09-07/history/request-027.json": "bd27be77a0041bd63e519695fef0c3e722a9df620dc95726bb28ea4f35bc31c2",
+    "data/weekend_repricing_2026-09-07/history/request-028.json": "a1784bbcdc6d021fe9100afd0bf6c3c729435899a9ed03ac1b0e82145c8b2ff1",
+    "data/weekend_repricing_2026-09-07/history/request-029.json": "5cf121eadede1871324eb406a0ff3cd46fae5e0e0c79f08d13b2848daa7cbe4c",
+    "data/weekend_repricing_2026-09-07/history/request-030.json": "e0972b8f909b8799043ce8ec1bd0fe074042fc417e7d06dc94676250bdbad71e",
+    "data/weekend_repricing_2026-09-07/history/request-031.json": "a43d0ec7752c81a29830e832a7e34d51487b95bad28be2e5ebdb30066ff7433b",
+    "data/weekend_repricing_2026-09-07/history/request-032.json": "2efa915b6ae6a2094d8f24b0d74039a58a8d169c1f1d9a7263480d1016920711",
+    "data/weekend_repricing_2026-09-07/history/request-033.json": "5a1c242840e8ddbdc2271665765af798696f9122e7c4e2caa827551a0b06f0a0",
+    "data/weekend_repricing_2026-09-07/history/request-034.json": "e63753e366e418bd5ae533e063020f2e14b3417903a753c137804c1419162471",
+    "data/weekend_repricing_2026-09-07/history/request-035.json": "f587964d30fb7ca67e63c43f206f622634c25efa009b26c6da881430c264ef76",
+    "data/weekend_repricing_2026-09-07/history/request-036.json": "a3d368c3b484b34e47e6fc9093f25ce148316ffaa73adcf48c7793e60b6f4e80",
+    "data/weekend_repricing_2026-09-07/history/request-037.json": "1fe9fcdd1796babf3f5e06789772658fba222a018ac894d64c2b7b9b18f27ec6",
+    "data/weekend_repricing_2026-09-07/history/request-038.json": "46ddfe10b2744aa0cbdba2b7bdb6b611b96fb4ac218ac7974ab3f69fa2d67682",
+    "data/weekend_repricing_2026-09-07/history/request-039.json": "68515f680455aeff7dcfd1c794a51884755a9b04d7c45043e7fada9e101c6d81",
+    "data/weekend_repricing_2026-09-07/history/request-040.json": "0bafd95e98b8ca28d8c59c7d8c37d6e0df5bdfd016a5676171db7821ec0798a2",
+    "data/weekend_repricing_2026-09-07/history/request-041.json": "528fa6b0f8f9c780006f66e494e91f7dd022db07fcd977b6f214d3582a7defa1",
+    "data/weekend_repricing_2026-09-07/history/request-042.json": "d2913788b11e5781c6dca1cbea35636e967be9f237c71ada6d0b4eab0df6a863",
+    "data/weekend_repricing_2026-09-07/history/request-043.json": "bf822afdadb48688ba4a7e25f408392dc8be9cc230589b7f4ef12a3f738ac628",
+    "data/weekend_repricing_2026-09-07/history/request-044.json": "0a1e5a9dfb998f7b72ea965402cc056b9c611e9d091c97348620e07394fa26dc",
+    "data/weekend_repricing_2026-09-07/history/request-045.json": "ec8380b2804567abcf6a4724f1f362c4e823412ec9deae3a8eb0bc5b1c2c9cfc",
+    "data/weekend_repricing_2026-09-07/history/request-046.json": "415456bbf53e553bc33512339a95c0493824986156ed9d1de7a980002562f851",
+    "data/weekend_repricing_2026-09-07/history/request-047.json": "c6d86b33bb1cc3a34e52bbee50dcc53fc73355153c30a6d0eef7411f3af0b4da",
+    "data/weekend_repricing_2026-09-07/history/request-048.json": "8c4bec4c152017295792ba9831ec898e8393d78b3872704f73422de29c24eba6",
+    "data/weekend_repricing_2026-09-07/history/request-049.json": "c2494d387e8eb53e6f7204fa7bb546db64d01c9bcdea126eb29e6e16d61816df",
+    "data/weekend_repricing_2026-09-07/history/request-050.json": "456d4dd9ff0f50c66ea689b4fcf10d43cba581e8da4154ecb113065bde09a01b",
+    "data/weekend_repricing_2026-09-07/history/request-051.json": "aacee1426648d0bd23cded1f8f2dbe7d8c12a312d5a869d13f156e547dfa86f5",
+    "data/weekend_repricing_2026-09-07/history/request-052.json": "b559bee4f3f1bb63d31e0d1e199e9647131ba1f56f3afa0ca13329ddcbefb861",
+    "data/weekend_repricing_2026-09-07/history/request-053.json": "283ad35e8de35fad3c871e64c2a35f34468b74caa2d3c61f61847b29d810863a",
+    "data/weekend_repricing_2026-09-07/history/request-054.json": "7feafd93918155bd6d09f732e27dce226776e3ddb5e8a5b473dafa056bbf35cb"
+  },
+  "start_ms": 1770854400000,
+  "strategies": {
+    "weekend_fade": {
+      "criteria": {
+        "all_cost_scenarios_positive": true,
+        "corrected_interval_positive": false,
+        "five_positive_blocks": false,
+        "positive_without_best": true,
+        "profit_factor_above_1_2": true
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "interval": null,
+      "scenarios": {
+        "base": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "-325.5130332032618052950608951"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "2073.530969362518967608331830"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-26.8195309686281142369345336"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "470.7210993109709823703716770"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "58.9573058363066604017492883"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-60.4123697206887529819781368",
+            "977.1480568672871533217805564",
+            "248.6485622531839861242241222",
+            "772.5033683227933583156691722",
+            "-396.0379320140479487171910507",
+            "-202.2954254426121904807027216",
+            "911.3225500719910852666554250"
+          ],
+          "events": 19,
+          "mean_net_bps": "118.4672005441003521499188087",
+          "profit_factor": "2.887210743787564362382866497",
+          "sum_net_bps": "2250.876810337906690848457366",
+          "sum_without_best_bps": "1334.622055399929357876919159",
+          "worst_event_bps": "-396.0379320140479487171910507"
+        },
+        "cost_stress": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "-374.2176527189430925828728312"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "1858.183504388236147098607415"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-74.80467985970890369595422155"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "374.7256075176413706031105054"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "10.8456397204602926349617731"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-180.3523758174490735336776888",
+            "855.6058507518898816326662756",
+            "224.2701716785188392310759127",
+            "725.6779479896016946281915146",
+            "-420.6222444471548725238606936",
+            "-274.5707618464449071697029665",
+            "864.7238307387242517931602874"
+          ],
+          "events": 19,
+          "mean_net_bps": "94.45960100250977968725540216",
+          "profit_factor": "2.341892010444924583592531602",
+          "sum_net_bps": "1794.732419047685814057852641",
+          "sum_without_best_bps": "901.0930834650961262415678883",
+          "worst_event_bps": "-420.6222444471548725238606936"
+        },
+        "delay_stress": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "-453.3513691685142591276997418"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "2198.303825534090200238872548"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "49.97208982669516307187445933"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "683.7646600264406767375538909"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "99.2359405196435629831481674"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "659.9619933945589751081619773",
+            "1227.749530712405042148140252",
+            "-48.84056127703584994330673443",
+            "498.8149422612331000656008361",
+            "-554.3489165756852878501979556",
+            "-34.3792230766357806148657499",
+            "828.9673812995151449902166982"
+          ],
+          "events": 19,
+          "mean_net_bps": "135.6802708809660707317762802",
+          "profit_factor": "3.030621025057317516285572870",
+          "sum_net_bps": "2577.925146738355343903749324",
+          "sum_without_best_bps": "1935.485323000227786605688171",
+          "worst_event_bps": "-554.3489165756852878501979556"
+        },
+        "funding_adverse": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "-337.5616003289691349132279974"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "1948.402078911016423061144225"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-41.5734787784088795236730304"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "436.4213179838389916964867925"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "44.6930916400317316280039670"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-140.2170469160117675604401834",
+            "952.5231513681855612192557424",
+            "228.7254157146287555657224190",
+            "740.5061959662734739501170033",
+            "-403.8794020785005506769509175",
+            "-231.5902702049297026809400040",
+            "904.3133655778633621319698968"
+          ],
+          "events": 19,
+          "mean_net_bps": "107.9148110225004806288807346",
+          "profit_factor": "2.621172505753735479321204894",
+          "sum_net_bps": "2050.381409427509131948733957",
+          "sum_without_best_bps": "1146.788537423186745374789347",
+          "worst_event_bps": "-403.8794020785005506769509175"
+        },
+        "zero_cost": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "-284.7171688444191155133158400"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "2228.315967959250615487745828"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "14.3313695024667200489278473"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "551.7480559294820930994231689"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "98.4213504380953176492431553"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "15.0922309426550412497459901",
+            "1092.182644082102744115055716",
+            "263.4790885168803538435697890",
+            "804.7183077470968559459160842",
+            "-377.4476125042940570250772930",
+            "-148.6692217986014004193599677",
+            "958.7441379990360930621738405"
+          ],
+          "events": 19,
+          "mean_net_bps": "137.2683986834145068827381136",
+          "profit_factor": "3.388398561823126969916036244",
+          "sum_net_bps": "2608.099574984875630772024159",
+          "sum_without_best_bps": "1674.483138339649876697209946",
+          "worst_event_bps": "-377.4476125042940570250772930"
+        }
+      }
+    },
+    "weekend_follow": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_positive": false,
+        "five_positive_blocks": false,
+        "positive_without_best": false,
+        "profit_factor_above_1_2": false
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "interval": null,
+      "scenarios": {
+        "base": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "236.2921640951328833416224928"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "-2468.372173164783032130671614"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-61.2188779136663201883633933"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "-646.7160722107837221753033862"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "-147.2150672818941102547089150"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-159.6406788492107925166782445",
+            "-1199.986285552751787146927420",
+            "-293.3366132830283653729794163",
+            "-858.4068060108830099589332370",
+            "351.0581280545247872445435338",
+            "69.9139112873092831050629767",
+            "-996.8316821219544167615130090"
+          ],
+          "events": 19,
+          "mean_net_bps": "-162.4857908671575948109170956",
+          "profit_factor": "0.2310132469547041428788063867",
+          "sum_net_bps": "-3087.230026475994301407424816",
+          "sum_without_best_bps": "-3438.288154530519088651968350",
+          "worst_event_bps": "-957.8259826298442719915809925"
+        },
+        "cost_stress": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "187.5886021254646018030278015"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "-2683.690745374196857683598346"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-109.2784813407429602445451419"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "-742.7136194350177785280708871"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "-195.4015015030873048949132292"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-279.7667556347958130258172124",
+            "-1321.718553116601800096460095",
+            "-317.7531871651183074320879157",
+            "-905.1608243877763600634944583",
+            "326.5124180983623612446610772",
+            "-2.2492773160938348084067373",
+            "-1043.359566005556545366494460"
+          ],
+          "events": 19,
+          "mean_net_bps": "-186.4997760803989631341105159",
+          "profit_factor": "0.1809319020503470585448546489",
+          "sum_net_bps": "-3543.495745527580299548099803",
+          "sum_without_best_bps": "-3870.008163625942660792760880",
+          "worst_event_bps": "-980.4076764679963563254697307"
+        },
+        "delay_stress": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "363.6380591145357940621569251"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "-2594.504172908739092601073297"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-138.2138665301373987011497854"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "-860.2758279252052995154965476"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "-187.6024131008276088381766092"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-881.8998917158691207887455229",
+            "-1451.254098169340146923719031",
+            "4.925540188415109414739287413",
+            "-585.4316680070018576264345596",
+            "508.9576669529263799686683791",
+            "-97.5658137047417903179560165",
+            "-914.6899568947621793202918515"
+          ],
+          "events": 19,
+          "mean_net_bps": "-179.8399063868617687154599639",
+          "profit_factor": "0.2270133681051812958874028620",
+          "sum_net_bps": "-3416.958221350373605593739315",
+          "sum_without_best_bps": "-3925.915888303299985562407694",
+          "worst_event_bps": "-684.7251086766098715075293083"
+        },
+        "funding_adverse": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "231.8728432557123223173541296"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "-2508.227946050012461160769838"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-70.2585893562622747404007573"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "-667.0745823471566781491871707"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "-152.1711402775725695523815727"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-170.4636503739829883669324879",
+            "-1231.898405032504660387677255",
+            "-298.2467604405490022476809341",
+            "-868.9050294598123191275478200",
+            "351.0265293857666117068582161",
+            "65.7813886894960323883426021",
+            "-1013.153487543705335250747531"
+          ],
+          "events": 19,
+          "mean_net_bps": "-166.6241797250153505939676427",
+          "profit_factor": "0.2250240011869280309413846567",
+          "sum_net_bps": "-3165.859414775291661285385211",
+          "sum_without_best_bps": "-3516.885944161058272992243427",
+          "worst_event_bps": "-963.6283302963879007541192486"
+        },
+        "zero_cost": {
+          "active_weekends": 11,
+          "assets": {
+            "xyz:AMZN": {
+              "n": 2,
+              "sum_net_bps": "284.7171688444191155133158400"
+            },
+            "xyz:HOOD": {
+              "n": 9,
+              "sum_net_bps": "-2228.315967959250615487745828"
+            },
+            "xyz:META": {
+              "n": 2,
+              "sum_net_bps": "-14.3313695024667200489278473"
+            },
+            "xyz:NVDA": {
+              "n": 4,
+              "sum_net_bps": "-551.7480559294820930994231689"
+            },
+            "xyz:TSLA": {
+              "n": 2,
+              "sum_net_bps": "-98.4213504380953176492431553"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-15.0922309426550412497459901",
+            "-1092.182644082102744115055716",
+            "-263.4790885168803538435697890",
+            "-804.7183077470968559459160842",
+            "377.4476125042940570250772930",
+            "148.6692217986014004193599677",
+            "-958.7441379990360930621738405"
+          ],
+          "events": 19,
+          "mean_net_bps": "-137.2683986834145068827381136",
+          "profit_factor": "0.2951246678200542791547366590",
+          "sum_net_bps": "-2608.099574984875630772024159",
+          "sum_without_best_bps": "-2985.547187489169687797101452",
+          "worst_event_bps": "-933.6164366452257540748142131"
+        }
+      }
+    }
+  }
+}

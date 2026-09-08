@@ -1,0 +1,8 @@
+{
+  "decision": "POSITIVE_SMALL_RETURN_EXTENSION_UNQUALIFIED",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "reason": "Continuous 204-day net remains positive under all paid scenarios without marginal infrastructure; new 24-day window loses money. Base monthly equivalent 3.4 percent, costs 1.62 percent, not a demonstrated 10 percent edge.",
+  "red_period_is_veto": false,
+  "summary_dd30_sha256": "d1e28b1cb0f7b3bae75444290004515a6a99f67960699784da6680c89eec2f8e"
+}

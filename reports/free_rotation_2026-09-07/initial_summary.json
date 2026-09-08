@@ -1,0 +1,597 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "/workspaces/hyperbot2/scripts/investigate_free_rotation.py": "0ab55b10eec5c5751ba099aedf831577e18aebb9c870e7a9e9a5cc58c800d245",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8"
+  },
+  "history_end_ms_exclusive": 1788652800000,
+  "history_start_ms": 1773100800000,
+  "incremental_data_cost_usd": 0,
+  "independent_holdout": false,
+  "limits": [
+    "exploratory reused history and fixed four-coin universe",
+    "label permutation is a heuristic, not causal identification",
+    "no stops, size rounding, risk supervisor or portfolio simulation",
+    "signed funding uses hourly price proxy, not exact oracle",
+    "closed-basket drawdown omits intraposition risk",
+    "three-test correction does not erase prior research selection",
+    "hypothetical opens, unverified historical execution latency",
+    "bps of gross notional, no capital or monthly return claim"
+  ],
+  "network_calls": 0,
+  "promotion_authorized": false,
+  "protocol_sha256": "f7c82158506cc1dc6a0825c6895aa7079ae0f934ffc5bf5023a3ee569c0ec048",
+  "run_id": "free-rotation-2026-09-07",
+  "source_hashes": {
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+  },
+  "strategies": {
+    "carry_relative": {
+      "criteria": {
+        "adverse_funding_positive": false,
+        "base_positive": false,
+        "corrected_interval_lower_positive": false,
+        "cost_stress_positive": false,
+        "delay_stress_positive": false,
+        "four_positive_blocks": false,
+        "permutation_family_threshold": false,
+        "profit_factor_above_1_2": false,
+        "sufficient_sample": true
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "long_benchmark_sum_bps": "1751.232040978036401755227580",
+      "permutation_p": 0.46976511744127936,
+      "permutation_replicates": 2000,
+      "scenarios": {
+        "base": {
+          "asset_contributions_bps": {
+            "BTC": "-588.2431511502475959816175108",
+            "ETH": "-291.2237523047581442833652270",
+            "HYPE": "267.4553741306665820289101106",
+            "SOL": "-1256.435696219036962850117026"
+          },
+          "baskets": 147,
+          "blocks_by_entry_date_bps": [
+            "-228.0384551565122628242217910",
+            "115.2663487430984408791403496",
+            "521.3733866032991686550984304",
+            "-393.2089937472242530435768356",
+            "-1883.839511986037214752629807"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -37.212980695592734,
+            "replicates": 5000,
+            "upper": 11.713154727227879
+          },
+          "closed_basket_drawdown_bps": "2489.530973194087211723087724",
+          "mean_gross_bps": "-0.6527984618123482212546571156",
+          "mean_net_bps": "-12.71052534383249061963394322",
+          "positive_fraction": 0.46258503401360546,
+          "profit_factor": "0.8067654292842015144342905121",
+          "sum_fees_bps": "1324.614526889211210116172353",
+          "sum_funding_cost_bps": "-141.5637789905684030784081763",
+          "sum_net_bps": "-1868.447225543376121086189653",
+          "sum_slippage_bps": "589.4351037583181255239908816",
+          "worst_basket_bps": "-615.2590668316918814894908505"
+        },
+        "cost_stress": {
+          "asset_contributions_bps": {
+            "BTC": "-1039.379478854858283020751186",
+            "ETH": "-636.3616039079631443449482026",
+            "HYPE": "-514.8897541777333536589678780",
+            "SOL": "-1886.508219930117290509586429"
+          },
+          "baskets": 147,
+          "blocks_by_entry_date_bps": [
+            "-679.0229031097094727941663744",
+            "-334.4164273437594474881924238",
+            "100.3097968653941578337729378",
+            "-841.6866163802983815038530910",
+            "-2322.322906902298927581814748"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -52.26485197336689,
+            "replicates": 5000,
+            "upper": -3.305774074573937
+          },
+          "closed_basket_drawdown_bps": "4141.402270144108050201860934",
+          "mean_gross_bps": "-0.6527984618123482212546571156",
+          "mean_net_bps": "-27.73563984265763313968880065",
+          "positive_fraction": 0.3673469387755102,
+          "profit_factor": "0.6279890260363721879517412861",
+          "sum_fees_bps": "2649.229662613889579373964916",
+          "sum_funding_cost_bps": "-141.6400772673542096972453507",
+          "sum_net_bps": "-4077.139056870672071534253696",
+          "sum_slippage_bps": "1473.588097637721513333099537",
+          "worst_basket_bps": "-631.6433148202059947318904915"
+        },
+        "delay_stress": {
+          "asset_contributions_bps": {
+            "BTC": "-625.2997387267464535244913016",
+            "ETH": "-339.7727233644032199643962433",
+            "HYPE": "627.1459854569262672813287194",
+            "SOL": "-1311.716309243813656179203305"
+          },
+          "baskets": 147,
+          "blocks_by_entry_date_bps": [
+            "-102.6306621383174020007052298",
+            "70.97790681059642703977615255",
+            "669.7288993045421938560977422",
+            "-354.4592207195637037762787016",
+            "-1933.259709135294577505652094"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -37.03499962214168,
+            "replicates": 5000,
+            "upper": 12.569546489066799
+          },
+          "closed_basket_drawdown_bps": "2533.274105854379717542130054",
+          "mean_gross_bps": "0.8645974483783513224995527177",
+          "mean_net_bps": "-11.22205976787780314548817776",
+          "positive_fraction": 0.41496598639455784,
+          "profit_factor": "0.8219773463177893709210153440",
+          "sum_fees_bps": "1324.646860850631869312320034",
+          "sum_funding_cost_bps": "-137.3721129617614121382274544",
+          "sum_net_bps": "-1649.642785878037062386762131",
+          "sum_slippage_bps": "589.4638629007842496201037975",
+          "worst_basket_bps": "-672.589330988292025535375165"
+        },
+        "funding_adverse": {
+          "asset_contributions_bps": {
+            "BTC": "-674.5154073528678445381743917",
+            "ETH": "-369.5851917150208988456630546",
+            "HYPE": "-6.0255557272102093093198934",
+            "SOL": "-1375.518390703909804667216081"
+          },
+          "baskets": 147,
+          "blocks_by_entry_date_bps": [
+            "-325.2095608202035202383937488",
+            "-23.7486406384079458603269314",
+            "403.3312117971274186677679660",
+            "-484.7473827318819113057348142",
+            "-1995.270173105642798623685896"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -40.809618592244874,
+            "replicates": 5000,
+            "upper": 7.6908051076168125
+          },
+          "closed_basket_drawdown_bps": "2698.493144146063106326903614",
+          "mean_gross_bps": "-0.6527984618123482212546571156",
+          "mean_net_bps": "-16.50098330271434528816580562",
+          "positive_fraction": 0.4489795918367347,
+          "profit_factor": "0.7569018978596797565449977437",
+          "sum_fees_bps": "1324.614526889211210116172353",
+          "sum_funding_cost_bps": "415.6335409650642331957755929",
+          "sum_net_bps": "-2425.644545499008757360373426",
+          "sum_slippage_bps": "589.4351037583181255239908816",
+          "worst_basket_bps": "-622.345292326291613202618910"
+        },
+        "zero_cost": {
+          "asset_contributions_bps": {
+            "BTC": "-213.0303714413094819881560868",
+            "ETH": "-13.1830756727282531333080840",
+            "HYPE": "853.8868391910805372682597189",
+            "SOL": "-723.6347659634579906712301485"
+          },
+          "baskets": 147,
+          "blocks_by_entry_date_bps": [
+            "138.4791015754828972777967966",
+            "461.9047232033912201440742860",
+            "849.1442149608682258028207969",
+            "-22.38135907405723138087134195",
+            "-1523.108054552100300368255140"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -24.951420702976286,
+            "replicates": 5000,
+            "upper": 23.55622998626978
+          },
+          "closed_basket_drawdown_bps": "1732.006078058702647542549959",
+          "mean_gross_bps": "-0.6527984618123482212546571156",
+          "mean_net_bps": "-0.6527984618123482212546571549",
+          "positive_fraction": 0.5170068027210885,
+          "profit_factor": "0.9890302978427541622609524679",
+          "sum_fees_bps": "0E-27",
+          "sum_funding_cost_bps": "0",
+          "sum_net_bps": "-95.96137388641518852443460177",
+          "sum_slippage_bps": "5.17490000E-24",
+          "worst_basket_bps": "-603.6239760036885432824908045"
+        }
+      }
+    },
+    "momentum7d": {
+      "criteria": {
+        "adverse_funding_positive": true,
+        "base_positive": true,
+        "corrected_interval_lower_positive": false,
+        "cost_stress_positive": false,
+        "delay_stress_positive": true,
+        "four_positive_blocks": false,
+        "permutation_family_threshold": false,
+        "profit_factor_above_1_2": false,
+        "sufficient_sample": true
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "long_benchmark_sum_bps": "1631.671914961244240798006274",
+      "permutation_p": 0.07196401799100449,
+      "permutation_replicates": 2000,
+      "scenarios": {
+        "base": {
+          "asset_contributions_bps": {
+            "BTC": "-583.7486307006962860857299640",
+            "ETH": "1099.810854069783798461635333",
+            "HYPE": "2184.586672045863651879372574",
+            "SOL": "-1975.571334101036604863960747"
+          },
+          "baskets": 149,
+          "blocks_by_entry_date_bps": [
+            "-128.3886990053769578862493362",
+            "1568.431672841268315612803495",
+            "-970.3005312887960369588767316",
+            "579.6870551955922416935775114",
+            "-324.3519364287730030699377418"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -29.34117369330236,
+            "replicates": 5000,
+            "upper": 44.66317332148825
+          },
+          "closed_basket_drawdown_bps": "2055.703996349022080477230138",
+          "mean_gross_bps": "18.09080505615165989176326646",
+          "mean_net_bps": "4.866292357811507110008840245",
+          "positive_fraction": 0.47651006711409394,
+          "profit_factor": "1.084354016233219658306538106",
+          "sum_fees_bps": "1344.139688763392657049625936",
+          "sum_funding_cost_bps": "27.52167714218585549961135862",
+          "sum_net_bps": "725.0775613139145593913171965",
+          "sum_slippage_bps": "598.7910261471042519321722176",
+          "worst_basket_bps": "-675.2363045568596580142268255"
+        },
+        "cost_stress": {
+          "asset_contributions_bps": {
+            "BTC": "-1049.346624911682978103447468",
+            "ETH": "673.0436685349591215771863784",
+            "HYPE": "1353.588029885706319830551808",
+            "SOL": "-2494.442395805312910236987770"
+          },
+          "baskets": 149,
+          "blocks_by_entry_date_bps": [
+            "-579.9607431933528267852156822",
+            "1117.068809012078517595965898",
+            "-1422.199313428885458286057099",
+            "130.4023554201491039075437901",
+            "-762.4684301063197833649339596"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -44.36474280929207,
+            "replicates": 5000,
+            "upper": 29.580854408488293
+          },
+          "closed_basket_drawdown_bps": "3198.580019235416891435885034",
+          "mean_gross_bps": "18.09080505615165989176326646",
+          "mean_net_bps": "-10.18226390802906340223286612",
+          "positive_fraction": 0.436241610738255,
+          "profit_factor": "0.8453959867808487604241199075",
+          "sum_fees_bps": "2688.278487797907772930829765",
+          "sum_funding_cost_bps": "27.43171679108022424884239058",
+          "sum_net_bps": "-1517.157322296330446932697052",
+          "sum_slippage_bps": "1496.977071073939773625751598",
+          "worst_basket_bps": "-689.499781536602363783934794"
+        },
+        "delay_stress": {
+          "asset_contributions_bps": {
+            "BTC": "-470.6085588451535601592661398",
+            "ETH": "1069.453441560971932290913291",
+            "HYPE": "1818.739827864899653223485782",
+            "SOL": "-2006.732119674715807144848974"
+          },
+          "baskets": 149,
+          "blocks_by_entry_date_bps": [
+            "-159.4808629003500938139440439",
+            "1777.773586031450076491979965",
+            "-1580.959606929106748141040106",
+            "558.8880578412865478493695305",
+            "-185.3685831372775641760813870"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -33.59302514082892,
+            "replicates": 5000,
+            "upper": 45.18512612479814
+          },
+          "closed_basket_drawdown_bps": "2552.208910257236889330444623",
+          "mean_gross_bps": "15.97976189285241535334730475",
+          "mean_net_bps": "2.757399938966457840337476254",
+          "positive_fraction": 0.47651006711409394,
+          "profit_factor": "1.049215283943548459761553356",
+          "sum_fees_bps": "1344.052199693960325135545550",
+          "sum_funding_cost_bps": "27.36649851018349837619678896",
+          "sum_net_bps": "410.8525909060022182102839618",
+          "sum_slippage_bps": "598.7132329248638459267221099",
+          "worst_basket_bps": "-767.4843058657596133303040105"
+        },
+        "funding_adverse": {
+          "asset_contributions_bps": {
+            "BTC": "-665.4737330861372329630729672",
+            "ETH": "1020.109358362519941609132901",
+            "HYPE": "2029.775974575234001371354328",
+            "SOL": "-2044.630584782320037652007636"
+          },
+          "baskets": 149,
+          "blocks_by_entry_date_bps": [
+            "-195.0614680758374084114740104",
+            "1486.172475594449417158285934",
+            "-1042.171349495272255866422798",
+            "498.7778388738734815870963722",
+            "-407.9364818279165621020788695"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -31.798125795689728,
+            "replicates": 5000,
+            "upper": 42.017286683876335
+          },
+          "closed_basket_drawdown_bps": "2211.842041465561149351432625",
+          "mean_gross_bps": "18.09080505615165989176326646",
+          "mean_net_bps": "2.280409497109373640036286117",
+          "positive_fraction": 0.4697986577181208,
+          "profit_factor": "1.038630708444400310548380513",
+          "sum_fees_bps": "1344.139688763392657049625936",
+          "sum_funding_cost_bps": "412.8182233868037425255219236",
+          "sum_net_bps": "339.7810150692966723654066315",
+          "sum_slippage_bps": "598.7910261471042519321722176",
+          "worst_basket_bps": "-676.713622533680637481962913"
+        },
+        "zero_cost": {
+          "asset_contributions_bps": {
+            "BTC": "-193.0685854591144219653703432",
+            "ETH": "1461.231635764363955068140685",
+            "HYPE": "2935.798441633350438562046248",
+            "SOL": "-1508.431538572002647792089881"
+          },
+          "baskets": 149,
+          "blocks_by_entry_date_bps": [
+            "263.3099590096492834389765025",
+            "1974.622375546354073226786732",
+            "-569.5384680944045129930161442",
+            "965.7763950311086915186200169",
+            "61.35969187388978868135960495"
+          ],
+          "bootstrap_mean_bps": {
+            "block_days": 7,
+            "confidence": 0.9833333333333333,
+            "lower": -16.166609652681295,
+            "replicates": 5000,
+            "upper": 57.899819812648204
+          },
+          "closed_basket_drawdown_bps": "1589.191074341913473815833380",
+          "mean_gross_bps": "18.09080505615165989176326646",
+          "mean_net_bps": "18.09080505615165989176326652",
+          "positive_fraction": 0.5033557046979866,
+          "profit_factor": "1.354125713578861313430944205",
+          "sum_fees_bps": "0E-27",
+          "sum_funding_cost_bps": "0",
+          "sum_net_bps": "2695.529953366597323872726712",
+          "sum_slippage_bps": "-2.46290000E-24",
+          "worst_basket_bps": "-659.7347810273166208167753725"
+        }
+      }
+    },
+    "trend30d": {
+      "criteria": {
+        "adverse_funding_positive": true,
+        "base_positive": true,
+        "corrected_interval_lower_positive": false,
+        "cost_stress_positive": true,
+        "delay_stress_positive": true,
+        "four_positive_blocks": true,
+        "permutation_family_threshold": false,
+        "profit_factor_above_1_2": true,
+        "sufficient_sample": false
+      },
+      "decision": "INSUFFICIENT_SAMPLE",
+      "long_benchmark_sum_bps": "3391.789751735014703392231708",
+      "permutation_p": 0.1584207896051974,
+      "permutation_replicates": 2000,
+      "scenarios": {
+        "base": {
+          "asset_contributions_bps": {
+            "BTC": "521.9625423150417396435743715",
+            "ETH": "1455.361216416834962320018677",
+            "HYPE": "-415.4063777921121918959578159",
+            "SOL": "516.1637765919203956944968846"
+          },
+          "baskets": 21,
+          "blocks_by_entry_date_bps": [
+            "339.2812634856749417415066283",
+            "522.3465116158824045949638222",
+            "-537.6114806629026045738429363",
+            "58.5483966475147312314162935",
+            "1695.516466445515432768088310"
+          ],
+          "bootstrap_mean_bps": null,
+          "closed_basket_drawdown_bps": "1475.041917972822991332352102",
+          "mean_gross_bps": "115.8370227111751180122253609",
+          "mean_net_bps": "98.95624559674690027438724371",
+          "positive_fraction": 0.47619047619047616,
+          "profit_factor": "1.591171547241625389477731118",
+          "sum_fees_bps": "190.7597196799187916488338289",
+          "sum_funding_cost_bps": "78.16941326852415834347875782",
+          "sum_net_bps": "2078.081157531684905762132118",
+          "sum_slippage_bps": "85.56718645454962250228787524",
+          "worst_basket_bps": "-1091.025110362842946500243544"
+        },
+        "cost_stress": {
+          "asset_contributions_bps": {
+            "BTC": "442.9204643392970442567805294",
+            "ETH": "1376.257913965235540030603978",
+            "HYPE": "-496.8227593172543429393388427",
+            "SOL": "436.7235678155634147603671760"
+          },
+          "baskets": 21,
+          "blocks_by_entry_date_bps": [
+            "263.5887094097596533364536205",
+            "463.4896266070259883170858138",
+            "-599.2507784641451890666316288",
+            "-16.1523630684314369406625139",
+            "1647.403992318632640462167550"
+          ],
+          "bootstrap_mean_bps": null,
+          "closed_basket_drawdown_bps": "1505.382422995139373128834514",
+          "mean_gross_bps": "115.8370227111751180122253609",
+          "mean_net_bps": "83.76567556204007886230537343",
+          "positive_fraction": 0.47619047619047616,
+          "profit_factor": "1.478164960897111926642384342",
+          "sum_fees_bps": "381.4993066239580541513403770",
+          "sum_funding_cost_bps": "78.09220222477011682255260681",
+          "sum_net_bps": "1759.079186802841656108412842",
+          "sum_slippage_bps": "213.9067812831076511744267536",
+          "worst_basket_bps": "-1106.755092154064529687444173"
+        },
+        "delay_stress": {
+          "asset_contributions_bps": {
+            "BTC": "511.1843311579589607367022326",
+            "ETH": "1478.829932516249579132056700",
+            "HYPE": "-603.3953310493064617435908649",
+            "SOL": "427.8652171586253170438808169"
+          },
+          "baskets": 21,
+          "blocks_by_entry_date_bps": [
+            "327.8200795839969158436882095",
+            "315.4892405528329966301325958",
+            "-471.0097824672808813064621383",
+            "9.7735707381955611044632395",
+            "1632.411041375782802897226977"
+          ],
+          "bootstrap_mean_bps": null,
+          "closed_basket_drawdown_bps": "1544.621075084733651813290226",
+          "mean_gross_bps": "103.2720175912375588695164892",
+          "mean_net_bps": "86.40400713254892357947851829",
+          "positive_fraction": 0.42857142857142855,
+          "profit_factor": "1.498166034144396276432497304",
+          "sum_fees_bps": "190.7691321274881992812579711",
+          "sum_funding_cost_bps": "77.88355553990424554985595168",
+          "sum_net_bps": "1814.484149783527395169048884",
+          "sum_slippage_bps": "85.57553196506889625968346744",
+          "worst_basket_bps": "-1182.865183340102645526832670"
+        },
+        "funding_adverse": {
+          "asset_contributions_bps": {
+            "BTC": "442.7232163559846762306553301",
+            "ETH": "1383.297454361171706645128205",
+            "HYPE": "-497.5481438021421344832071954",
+            "SOL": "438.5739146718876348299392491"
+          },
+          "baskets": 21,
+          "blocks_by_entry_date_bps": [
+            "290.8117718072360306306024171",
+            "449.071697319276280778892750",
+            "-635.6405178463963561477315767",
+            "-16.9681987301775012241511322",
+            "1679.771689036963429184903129"
+          ],
+          "bootstrap_mean_bps": null,
+          "closed_basket_drawdown_bps": "1498.151492327639109633035704",
+          "mean_gross_bps": "115.8370227111751180122253609",
+          "mean_net_bps": "84.14506864699532777250074224",
+          "positive_fraction": 0.47619047619047616,
+          "profit_factor": "1.480208842970219650324669134",
+          "sum_fees_bps": "190.7597196799187916488338289",
+          "sum_funding_cost_bps": "389.2041292133071808830952876",
+          "sum_net_bps": "1767.046441586901883222515587",
+          "sum_slippage_bps": "85.56718645454962250228787524",
+          "worst_basket_bps": "-1111.548886137578955775582583"
+        },
+        "zero_cost": {
+          "asset_contributions_bps": {
+            "BTC": "593.3885881422233013711705392",
+            "ETH": "1541.732900659527255072425720",
+            "HYPE": "-301.6187275367495465976763180",
+            "SOL": "599.0747156696764684108126392"
+          },
+          "baskets": 21,
+          "blocks_by_entry_date_bps": [
+            "436.8501326106331839053652528",
+            "579.152902663939353674561578",
+            "-504.4856311867652169368830319",
+            "131.5428557400060349654579638",
+            "1789.517217106864122648230816"
+          ],
+          "bootstrap_mean_bps": null,
+          "closed_basket_drawdown_bps": "1436.222487794219079400854553",
+          "mean_gross_bps": "115.8370227111751180122253609",
+          "mean_net_bps": "115.8370227111751180122253609",
+          "positive_fraction": 0.47619047619047616,
+          "profit_factor": "1.726455817059510867562025683",
+          "sum_fees_bps": "0E-27",
+          "sum_funding_cost_bps": "0",
+          "sum_net_bps": "2432.577476934677478256732579",
+          "sum_slippage_bps": "-3.912500E-25",
+          "worst_basket_bps": "-1080.096260529585417958103422"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,945 @@
+{
+  "annual_capital_or_warmup_reset": false,
+  "compatible_groups": 0,
+  "decision": "COLLECTIVE_TREND_CROSS_PERIOD_SCREEN_FAILED",
+  "groups": [
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "collective_trend"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "0.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.2",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    },
+    {
+      "cap": "1.5",
+      "compatible": false,
+      "drawdown_limit": "0.3",
+      "failures": [
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "native_2026",
+          "reasons": [
+            "nonpositive_net",
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "base"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "cost_stress"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "delay"
+        },
+        {
+          "panel": "continuous_2024_2025",
+          "reasons": [
+            "risk_envelope_exceeds_limit"
+          ],
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "paid_cases": 8,
+      "rule": "unconditional_control"
+    }
+  ],
+  "historical_periods_reused": true,
+  "live_enabled": false,
+  "market_data_network_calls": 0,
+  "promotion_authorized": false,
+  "simulations": 160
+}

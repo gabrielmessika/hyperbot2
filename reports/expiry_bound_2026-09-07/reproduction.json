@@ -1,0 +1,39 @@
+{
+  "artifacts": [
+    {
+      "left": "data/expiry_bound_2026-09-07/final/selected_books.json",
+      "matched": true,
+      "right": "data/expiry_bound_2026-09-07/reproduced/selected_books.json",
+      "sha256": "ab361af7c15feedd7039a72f5b7911ed65afece07b0a862fe04486e1353a4010"
+    },
+    {
+      "left": "data/expiry_bound_2026-09-07/final/daily_bounds.json",
+      "matched": true,
+      "right": "data/expiry_bound_2026-09-07/reproduced/daily_bounds.json",
+      "sha256": "1c9fd694388e6e5a76df8157ceef8fda68681435f37944168573ad3ca992c7e2"
+    },
+    {
+      "left": "data/expiry_bound_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/expiry_bound_2026-09-07/reproduced/summary.json",
+      "sha256": "2c8c04a9d028f15f0a581e131fdfa439057c260a8b93049ba4ac76bda89abf1a"
+    },
+    {
+      "left": "data/expiry_bound_2026-09-07/reference_audit_final/selected_references.json",
+      "matched": true,
+      "right": "data/expiry_bound_2026-09-07/reference_audit_reproduced/selected_references.json",
+      "sha256": "3bd04b45544e80e0078b06347c0d620861708d9d9029ac77f949508f92eab250"
+    },
+    {
+      "left": "data/expiry_bound_2026-09-07/reference_audit_final/summary.json",
+      "matched": true,
+      "right": "data/expiry_bound_2026-09-07/reference_audit_reproduced/summary.json",
+      "sha256": "b822bdef636119c3d1e4214386fd113be3c847e2927d47bb56fe18923aab4538"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "57 source files passed",
+  "pytest": "230 passed",
+  "ruff_check": "passed",
+  "ruff_format": "186 files already formatted"
+}

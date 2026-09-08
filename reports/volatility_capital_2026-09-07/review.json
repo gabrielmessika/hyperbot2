@@ -1,0 +1,1084 @@
+{
+  "all_processes_finished": true,
+  "any_cross_period_compatible_group": false,
+  "decision": "VOLATILITY_CAPITAL_CROSS_PERIOD_RISK_SCREEN_FAILED",
+  "full_tests_passed": 325,
+  "groups": [
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2691265543117162730398899700",
+          "net_usd": "180.648218555078299999999999",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2683040411925345533034540869",
+          "net_usd": "177.555772744537700000000000",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2692130132450132476433753784",
+          "net_usd": "203.610838360977700000000000",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2737205313872872012828087105",
+          "net_usd": "124.071692661414400000000000",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.2662301245030848979075054853",
+          "net_usd": "133.935270471850800000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2673670262795121154924003856",
+          "net_usd": "131.678605816178800000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2666055695764399800979405241",
+          "net_usd": "139.086517106816500000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2672068389170778745141123900",
+          "net_usd": "119.201789950874100000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.391594895410358233333333528",
+          "net_usd": "-391.5948954103582333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.380056359815543833333333528",
+          "net_usd": "-380.0563598155438333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3884420559147172967857011670",
+          "net_usd": "-378.4783264125169333333335280",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.381911369709294333333333528",
+          "net_usd": "-381.9113697092943333333335280",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3395033587651025548099857281",
+          "net_usd": "-89.2641397528637000000010742",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3399309563869155274436560866",
+          "net_usd": "-91.1014992121904000000010610",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3407393132909277898836644488",
+          "net_usd": "-87.5433710180956000000010856",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3404230139807191885109682921",
+          "net_usd": "-98.7315087940270000000010060",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.3176870237464897775990688906",
+          "net_usd": "6.190891879091700000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3058961088307209649974144082",
+          "net_usd": "555.465818043514500000000001",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3186944601768239939916118615",
+          "net_usd": "9.092606069713600000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3244142018974483991170571230",
+          "net_usd": "-5.8413011912723000000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.2735703382871629276279514981",
+          "net_usd": "-85.1237209507226333333337979",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2702802835945448004857603514",
+          "net_usd": "-86.8198495814951333333337811",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2645170758931231612947898472",
+          "net_usd": "-69.7610622308754333333338304",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2737989105198151635755758966",
+          "net_usd": "-140.5203755505492333333335279",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3935340519212466616228817985",
+          "net_usd": "-163.7651844808260000000008538",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3966689089212150802143670740",
+          "net_usd": "-169.2282353395450000000008539",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3943506105183174491320286234",
+          "net_usd": "-161.7446460670325000000008519",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3950891929508471061370430149",
+          "net_usd": "-173.4292403473269000000008532",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2650222570241847628096232820",
+          "net_usd": "236.664192993161546300000001",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2644063524415419048310562626",
+          "net_usd": "229.402174676604001399999999",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2649696366613626555398813526",
+          "net_usd": "227.982457228900305700000000",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2650590547912107406479570591",
+          "net_usd": "201.023019466987302299999998",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3679209701433978178338417667",
+          "net_usd": "-221.08965704745",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3687251286635705904029521067",
+          "net_usd": "-222.3918696416",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3298839858465846969809941317",
+          "net_usd": "-207.52347292270",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3679209701433978178338417667",
+          "net_usd": "-221.08965704745",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.2979321122306494065724395892",
+          "net_usd": "1185.329573717028600000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2977102174699348755186989083",
+          "net_usd": "1171.397305955038200000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2961921202891549367745822123",
+          "net_usd": "1213.177246330541700000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2978229575180852751109542055",
+          "net_usd": "1129.304244174299600000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2860943476221733088843832703",
+          "net_usd": "91.716575436101756799999362",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2864336403257118920723356570",
+          "net_usd": "81.404432705446813899999399",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2857617584324983523429528199",
+          "net_usd": "84.448408417152044099999358",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2870933820690495947674056433",
+          "net_usd": "53.695370169544817799999426",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.459319495791833333333333528",
+          "net_usd": "-459.3194957918333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.461135685565733333333333528",
+          "net_usd": "-461.1356855657333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.446164652125233333333333528",
+          "net_usd": "-446.1646521252333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.459319495791833333333333528",
+          "net_usd": "-459.3194957918333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3072613950168020801385409368",
+          "net_usd": "904.991859873137099999998250",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3082888084051275016669042154",
+          "net_usd": "891.894198079459399999998250",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3047459860742641403716592055",
+          "net_usd": "932.908926639810299999998250",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3090738874160840889174230283",
+          "net_usd": "851.960239648673999999998282",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.3378801590442738152497741421",
+          "net_usd": "127.974724035180113400000001",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3437807837116961049319042140",
+          "net_usd": "93.262528020743554799999999",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3379634777817256406272390460",
+          "net_usd": "120.104695059062542400000000",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3379846536542268748902680700",
+          "net_usd": "95.348173210459679599999998",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3670566956764437176546641727",
+          "net_usd": "-273.6154515346836000000000000",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3669208629003262012653095899",
+          "net_usd": "-276.2176117460092999999999999",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3309880462759169678656649601",
+          "net_usd": "-227.0625050837464999999999999",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3670566956764437176546641727",
+          "net_usd": "-272.9052188825376000000000001",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3545921251858631440091893326",
+          "net_usd": "907.098299220703400000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3552394560164881648072401585",
+          "net_usd": "894.524482817111000000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3520313330984471216773111689",
+          "net_usd": "933.961757041366100000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3546118983227588638254383996",
+          "net_usd": "858.214895421386600000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.3525114573342850278181999361",
+          "net_usd": "-9.8495899581120599000005670",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3524722356328694650317533819",
+          "net_usd": "-18.6765600804223054000004664",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3519021510503486486904486403",
+          "net_usd": "-15.9744467762359706000005268",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3534867250979068256791124223",
+          "net_usd": "-44.4357965218565589000002540",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.5147891636482025197498327729",
+          "net_usd": "-498.2873925243113333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.5167007991764803947336091063",
+          "net_usd": "-500.8024973004941333333335279",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.5002951581047368537181247021",
+          "net_usd": "-453.2651001905534333333335279",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.5101559420635626240608212022",
+          "net_usd": "-493.8472858927978333333335281",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.4043290217418487707698029618",
+          "net_usd": "638.061393694046199999998250",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.4053885847805923154568897712",
+          "net_usd": "626.317313113938499999998250",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.4012159912082774414490588209",
+          "net_usd": "664.708052798554999999998250",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.4061637718255635428800980702",
+          "net_usd": "591.720248246404699999998282",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "volatility_extremes"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2259618364914730039933784299",
+          "net_usd": "-184.8061531776166000000000000",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2262601558312879578892180800",
+          "net_usd": "-185.4015769022428000000000000",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2262477847015800137584103955",
+          "net_usd": "-166.5451780361887000000000000",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2074611997663277594852649344",
+          "net_usd": "-183.6725461149352000000000000",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.2432944694897008989221635083",
+          "net_usd": "75.744821817111000000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2447072331560208969694996224",
+          "net_usd": "71.418385865095800000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2436493092158323189750726629",
+          "net_usd": "76.573962485730400000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2444589927448872030466570117",
+          "net_usd": "67.784019427862000000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.3994973305701618488897271516",
+          "net_usd": "-397.7417111076927333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3998998351279451813333604292",
+          "net_usd": "-398.3609044695927333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3991024956064594173006184591",
+          "net_usd": "-383.3212476970384333333335280",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.4025732961603316661443167785",
+          "net_usd": "-400.9677650574057333333335280",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3378197724034868621393731089",
+          "net_usd": "-123.7659727562337000000008258",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3381882856254959258751860772",
+          "net_usd": "-124.6230747280392000000008196",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3408455046373112507941670519",
+          "net_usd": "-127.6810779402022000000007966",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3428843949024441669344271669",
+          "net_usd": "-135.2042112482241000000007434",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.2652898893088284808751619923",
+          "net_usd": "-2.4059309926323999999999980",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3152636458020165084813271569",
+          "net_usd": "-36.4021891651520000000000007",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3211868114892339251090209276",
+          "net_usd": "-35.9507731434122000000000015",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3088938051621477052497744652",
+          "net_usd": "470.082802342949500000000002",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3182965955067338492627390283",
+          "net_usd": "-40.0085103019147000000000001",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "0.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.2813584777439181278671614877",
+          "net_usd": "-218.4519938094330333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2817100713729148709436835653",
+          "net_usd": "-219.4170128688689333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2807216884316163001164595237",
+          "net_usd": "-185.5471348812069333333335279",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3120370906550041615866858451",
+          "net_usd": "-256.3168840936139333333335282",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.4116140309148483329517273185",
+          "net_usd": "-221.4146756744335000000008356",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.4121180471602900172369027702",
+          "net_usd": "-222.4098106421693000000008302",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.4113814271188326597230697288",
+          "net_usd": "-221.0276610226986000000008527",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3987642790522150112752628415",
+          "net_usd": "-208.7448304540100000000007265",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2510379729260106585951224568",
+          "net_usd": "250.487081756857576400000000",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2514164642539201742738582090",
+          "net_usd": "246.357143776245887199999998",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2513210916804743284101998772",
+          "net_usd": "247.603427586416582100000000",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2509557498852261520834095542",
+          "net_usd": "223.339040168669787700000000",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3859726483432712233024636540",
+          "net_usd": "-232.97435131345",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3877197948046027334992242599",
+          "net_usd": "-234.8357021572",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3429193638395540850560595701",
+          "net_usd": "-203.86204157420",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3859726483432712233024636540",
+          "net_usd": "-232.97435131345",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3391927447102010182927597917",
+          "net_usd": "614.392077709511000000000000",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3389313144081095569635601062",
+          "net_usd": "609.827278469565600000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3418447909164307145158084404",
+          "net_usd": "624.902557916728100000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3391619542289494927034696483",
+          "net_usd": "592.255247225745800000000000",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.2",
+      "failed_cases": [
+        {
+          "bound": "0.2769879410413971435110137999",
+          "net_usd": "103.273219242862944999999379",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.2782810409292834035378929060",
+          "net_usd": "101.010630338295853499999377",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.2780581591258730669056953151",
+          "net_usd": "105.063174394819865299999376",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.2808405922642666406497917966",
+          "net_usd": "76.678528500073766799999392",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.471371025014833333333333528",
+          "net_usd": "-471.3710250148333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.473079685828533333333333528",
+          "net_usd": "-473.0796858285333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.443018894675933333333333528",
+          "net_usd": "-443.0188946759333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.471371025014833333333333528",
+          "net_usd": "-471.3710250148333333333335280",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3399658016842954993618378951",
+          "net_usd": "353.987254865796799999998283",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3393659565020568147877028501",
+          "net_usd": "348.213734007655999999998283",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3424303246984516541078044726",
+          "net_usd": "363.678210804574699999998284",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3398116163493151314222028736",
+          "net_usd": "326.960197058976199999998283",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.3387476450692336898342046911",
+          "net_usd": "104.883427738115016800000000",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3389936158716134197260792727",
+          "net_usd": "101.362936400342475699999998",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3393799251141647627837750358",
+          "net_usd": "101.907317939401470500000000",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3385301361410766876462901019",
+          "net_usd": "81.104988794222851400000000",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3851232675313317542405968176",
+          "net_usd": "-260.5602655891260000000000000",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3859370149681530157645661180",
+          "net_usd": "-261.8697348416278000000000000",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3429193638395540850560595701",
+          "net_usd": "-206.7605304594536000000000000",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3851232675313317542405968176",
+          "net_usd": "-267.1949680897317000000000000",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.3608335646546555732885572404",
+          "net_usd": "672.592683884542900000000001",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3609005531470146802509665903",
+          "net_usd": "668.485782181916200000000000",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3596353942374374020281974355",
+          "net_usd": "688.593008162348800000000000",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3609695626928693028858181082",
+          "net_usd": "648.971716746978899999999998",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "0",
+      "rule": "all_assets_control"
+    },
+    {
+      "all_twelve_cases_pass": false,
+      "cap": "1.5",
+      "drawdown_limit": "0.3",
+      "failed_cases": [
+        {
+          "bound": "0.3665873697147496921092146063",
+          "net_usd": "-33.4501574835975803000003810",
+          "panel": "native_2026",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.3673535494523210070455352280",
+          "net_usd": "-34.8729813116422980000003718",
+          "panel": "native_2026",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.3674459845911708673787658389",
+          "net_usd": "-31.7611354988002206000003952",
+          "panel": "native_2026",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.3700230721438092038095689786",
+          "net_usd": "-56.8396597789534137000001986",
+          "panel": "native_2026",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.5079784014028720133783881789",
+          "net_usd": "-481.1229690140291333333335280",
+          "panel": "transfer_2025",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.5094373032458542258719122054",
+          "net_usd": "-483.2725299877013333333335280",
+          "panel": "transfer_2025",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.4959969593052979116009174073",
+          "net_usd": "-433.1710061462531333333335280",
+          "panel": "transfer_2025",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.5116469763831982242874989147",
+          "net_usd": "-485.3404568483325333333335280",
+          "panel": "transfer_2025",
+          "scenario": "funding_adverse"
+        },
+        {
+          "bound": "0.4203286323251528066126042559",
+          "net_usd": "412.070006588242099999998282",
+          "panel": "transfer_2024",
+          "scenario": "base"
+        },
+        {
+          "bound": "0.4217082419924351569672738029",
+          "net_usd": "403.900585672061599999998283",
+          "panel": "transfer_2024",
+          "scenario": "cost_stress"
+        },
+        {
+          "bound": "0.4185887810437764232100480207",
+          "net_usd": "427.272726399335399999998283",
+          "panel": "transfer_2024",
+          "scenario": "delay"
+        },
+        {
+          "bound": "0.4216476218271501778772754734",
+          "net_usd": "383.963986252823699999998283",
+          "panel": "transfer_2024",
+          "scenario": "funding_adverse"
+        }
+      ],
+      "monthly_infra": "20",
+      "rule": "all_assets_control"
+    }
+  ],
+  "independently_audited_portfolios": 240,
+  "legacy_audits_unchanged": 20,
+  "live_enabled": false,
+  "margin_breaches": 0,
+  "network_data_calls": 0,
+  "next_hypothesis": "Predetermined market-trend condition for exposure; use continuous 2024-2025 history with no annual warmup reset, existing native panel, no post-loss leverage increase.",
+  "previous_statistical_gate_failed": true,
+  "promotion_authorized": false,
+  "reproduced_artifacts": 252,
+  "ruff_check_passed": true,
+  "ruff_format_files": 319,
+  "simulations": 240,
+  "targeted_tests_passed": 23,
+  "terminal_nonflat": 0
+}

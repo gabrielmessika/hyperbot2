@@ -1,0 +1,15 @@
+{
+  "interval_hours": 4,
+  "qualification": "reports/native_2025_qualification_2026-09-07/cohort_qualification.json",
+  "sources": {
+    "data/native_2025_qualification_2026-09-07/cohort/request-000.json": "9a20501ec180ab82475b9e22857ee2ec84307b052938b7cdea4353ac2036223c",
+    "data/native_2025_qualification_2026-09-07/cohort/request-001.json": "352b8764343dee31615c6e63c498e697c8ea482860526b87e8403ebad74b844d",
+    "data/native_2025_qualification_2026-09-07/cohort/request-002.json": "aa264a2fc99ace2d770e23b06391c3bd310cdd5f3e66e3644eeb53c86e1c40da",
+    "data/native_2025_qualification_2026-09-07/cohort/request-003.json": "cfa3cdacd2b15f17ce615151d08703fe30e467e49b2e5451028513f699c08b45",
+    "data/native_2025_qualification_2026-09-07/cohort/request-004.json": "30be3d7f8cbabb75fc922d8b0a567c79b95b36a8ba921bf4e0574f75f1ebda2e",
+    "data/native_2025_qualification_2026-09-07/cohort/request-005.json": "d5fb6c86373743619453598f1f411af830314f40680a617aa00c3e857134ce4d",
+    "data/native_2025_qualification_2026-09-07/cohort/request-006.json": "1379470de319ab0f0122fe852a39aff5bde92399afef97ae67a037956c96aa31",
+    "data/native_2025_qualification_2026-09-07/cohort/request-008.json": "72ce31430df54b7d16b493189b57cd159d77fdbfe36fb8af2980393046e2ffd9",
+    "data/native_2025_qualification_2026-09-07/request-000.json": "9bcbf137f2eabb34f44802d447f0ca403cc0f7b06e9314220fc533da8cf3bc44"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "decision": "FUNDING_GENERALIZATION_REJECTED_RECENT_EPISODE_UNQUALIFIED",
+  "live_enabled": false,
+  "next_step": "new registered beta-hedged residual-shock hypothesis on existing free panel",
+  "promotion_authorized": false,
+  "reason": "continuous 180-day transfer is negative and exceeds drawdown limit, including zero-cost control",
+  "recent_cashcat_result_preserved": true,
+  "summary_sha256": "103b2165bde15e377e89345c2918e68de407626a50f335dc5b4ead1facaebc7d"
+}

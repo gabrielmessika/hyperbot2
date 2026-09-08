@@ -1,0 +1,171 @@
+{
+  "acquisition_packet_sha256": "1c19a3ecda9a8c286d3ec40e8d6f0a948fed669a5d84eb0b4363326f71e05d52",
+  "code_sha256": "7aa2915371b929c29a5d79a1e365542f9ba7c570dc53316c074ee6d073457336",
+  "native_audit_sha256": "e98c204b0a5d965935ba45e0e0cbf9dd364ac81e1c3ba6a2b07581148b1677b0",
+  "promotion_authorized": false,
+  "purchase_created": false,
+  "raw_bytes": 1253903,
+  "raw_files": [
+    {
+      "bytes": 48391,
+      "path": "data/liquidation_history_2026-09-07/catalog/btc.txt",
+      "sha256": "d4c53b794f5edc855b2a2d2b14449025158dec6fe9f27b2f1da5d054c219ecfd"
+    },
+    {
+      "bytes": 48499,
+      "path": "data/liquidation_history_2026-09-07/catalog/eth.txt",
+      "sha256": "04212ad701aeebf728cff238d9867d4aed5327ac6332712d9026bc9cd4cdc09d"
+    },
+    {
+      "bytes": 6132,
+      "path": "data/liquidation_history_2026-09-07/catalog/export_checkout.txt",
+      "sha256": "4a36794d7981cb06b248fa97fc253649a7f7eebb6e98b75c16f3325d2ecc5a6d"
+    },
+    {
+      "bytes": 8946,
+      "path": "data/liquidation_history_2026-09-07/catalog/export_schemas.txt",
+      "sha256": "46623c2739db98bead5b57a42d91ac157b27533b7d262d21379f025fcdbc3a1a"
+    },
+    {
+      "bytes": 35071,
+      "path": "data/liquidation_history_2026-09-07/catalog/hypedexer_index.txt",
+      "sha256": "b9c9e218867b33611d8b1080cfcdfde97abf4a3f804e935c818f056a56f758d7"
+    },
+    {
+      "bytes": 1807,
+      "path": "data/liquidation_history_2026-09-07/catalog/manifest.json",
+      "sha256": "b58cbbdd64c5068f89793ea4ed5f8679374fcdaa7090c6ee633232db33fc0788"
+    },
+    {
+      "bytes": 445018,
+      "path": "data/liquidation_history_2026-09-07/catalog/pricing.txt",
+      "sha256": "5029407d785a1d8fcb96a5fae953ec505742c1e9af7e76620c8d02185eb88013"
+    },
+    {
+      "bytes": 393,
+      "path": "data/liquidation_history_2026-09-07/hypedexer_probe/manifest.json",
+      "sha256": "f3acbf8b9ae1a43226582983a339abd16b4f3d8fdbb3241475966aeb240dfe7e"
+    },
+    {
+      "bytes": 15,
+      "path": "data/liquidation_history_2026-09-07/hypedexer_probe/response.json",
+      "sha256": "5384bb7801ad6db60d51d830d1998cd3bd6aec799661804a21cf515c9daf7d62"
+    },
+    {
+      "bytes": 1405,
+      "path": "data/liquidation_history_2026-09-07/local_inventory.json",
+      "sha256": "657fe63d509bc574b4c38d03c5a3d4943eff143500818812ebc2613f09072db3"
+    },
+    {
+      "bytes": 169,
+      "path": "data/liquidation_history_2026-09-07/native_checks/registration.json",
+      "sha256": "9194f2fb1e94529f2f7d19c867d17d68782ede4c7016bc8f6c5d35efe7f03878"
+    },
+    {
+      "bytes": 911,
+      "path": "data/liquidation_history_2026-09-07/native_checks/row-0.json",
+      "sha256": "12dd7881d2bb658fc9fa04ae2cfc26d03ba759f44f7e3ded0611c65dd817d6a2"
+    },
+    {
+      "bytes": 913,
+      "path": "data/liquidation_history_2026-09-07/native_checks/row-1282.json",
+      "sha256": "3a11f983e626d390b4180ad4fb79d788b8d9a5ee1552951da0613a93e9538c19"
+    },
+    {
+      "bytes": 2771,
+      "path": "data/liquidation_history_2026-09-07/native_checks/row-2564.json",
+      "sha256": "67b2223055d11e619a6798e3ed048023f86b1a338c2807eb713151c1121858bf"
+    },
+    {
+      "bytes": 2166,
+      "path": "data/liquidation_history_2026-09-07/native_checks/summary.json",
+      "sha256": "57de85ab6c7155cf7c43876b5584377abbc99fdbb5849b5b6176ae3313538b51"
+    },
+    {
+      "bytes": 18594,
+      "path": "data/liquidation_history_2026-09-07/public_audit/archive_docs_index.txt",
+      "sha256": "ac623f5619f3022c87a28e45725e4a3cd24d7638b470595633c2253de686cb61"
+    },
+    {
+      "bytes": 19458,
+      "path": "data/liquidation_history_2026-09-07/public_audit/export_portal.txt",
+      "sha256": "f688ee22afbe31fdbb00345671295dc10b7f9b99e6bfab6a143dc4653c82ab06"
+    },
+    {
+      "bytes": 8753,
+      "path": "data/liquidation_history_2026-09-07/public_audit/github_metadata.txt",
+      "sha256": "c775a152ac027c34c032ad5e5f3467798278250240a01b15278c29f52f4307ad"
+    },
+    {
+      "bytes": 1655,
+      "path": "data/liquidation_history_2026-09-07/public_audit/manifest.json",
+      "sha256": "1687a8cdd75aa13c549de405a73171a820c2bf4044e9291756725da2fe7c2ac5"
+    },
+    {
+      "bytes": 39265,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/0.js",
+      "sha256": "f19b099873af3f0b658a574cd773e796b3f37849c4530cbc732b66d4a4984c0e"
+    },
+    {
+      "bytes": 298758,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/1.js",
+      "sha256": "1b842e555bba061d2f6c559a4887a26b5a4ec26c0f33b031e1c0cffaf40ac7a2"
+    },
+    {
+      "bytes": 17778,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/10.js",
+      "sha256": "851c769f3bf886b56cb267af908486d46845443bed6c5557054ea44e39d7c69b"
+    },
+    {
+      "bytes": 47758,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/2.js",
+      "sha256": "bac3a5d812cb70034dc78589af2948d640f8e350017d3cc6a8199f00d576bae7"
+    },
+    {
+      "bytes": 9909,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/3.js",
+      "sha256": "1697f400bb8c885a15834eb938e766ca18db682bb80a04fca7ba5a9e336f082a"
+    },
+    {
+      "bytes": 282,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/4.js",
+      "sha256": "e9786b1305894e4119bb9811a816dac9cf576755596dd989ee15b455749fc35e"
+    },
+    {
+      "bytes": 27854,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/5.js",
+      "sha256": "75b8ed049ee5d3ecc63ab1c7652fb1c5548c5b88528beb954538c9219d303d80"
+    },
+    {
+      "bytes": 2536,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/6.js",
+      "sha256": "b569d2ab2b58e8c8dfc20b34491a7790ce41a348b5260bc5c69d129f28a1baf2"
+    },
+    {
+      "bytes": 41413,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/7.js",
+      "sha256": "8e3dc3a769ef4d5524210625c3f5cc4f4424b89c43331e9b2e87c895a7a45e6b"
+    },
+    {
+      "bytes": 112594,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/9.js",
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683"
+    },
+    {
+      "bytes": 3292,
+      "path": "data/liquidation_history_2026-09-07/public_audit/portal_assets/manifest.json",
+      "sha256": "2ce5e7f663ba7e7da1aae39d8b77995c041d1b3c7b06ccbfe71d0ea48ff6e160"
+    },
+    {
+      "bytes": 321,
+      "path": "data/liquidation_history_2026-09-07/public_audit/s3_unsigned.txt",
+      "sha256": "09f74d0397dfbbf0331abbd41783aab5e14775a636d096a561b0d40b1ffa4632"
+    },
+    {
+      "bytes": 1076,
+      "path": "data/liquidation_history_2026-09-07/server_inventory.json",
+      "sha256": "8de03c2df1210c611731a9d04e2ac265ca1b52e7272b595ad8c1c2d401b97adf"
+    }
+  ],
+  "run_id": "liquidation-history-sources-2026-09-07"
+}

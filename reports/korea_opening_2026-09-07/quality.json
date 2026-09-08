@@ -1,0 +1,127 @@
+{
+  "decision": "HOURLY_RESEARCH_DATA_AVAILABLE_EXECUTION_UNQUALIFIED",
+  "documentation": {
+    "data/korea_opening_2026-09-07/documentation/fees.json": "a1f394b47f29a73ddb4f70450934f41245b63c8a6e3cb88a63fe8c87d0aef747",
+    "data/korea_opening_2026-09-07/documentation/holidays.json": "b6ad2098f9618a5abc9a99ab695d649d34394e9c74bfa62a9cb426dc6499545c",
+    "data/korea_opening_2026-09-07/documentation/korea.json": "c113e3d9586abb10cf494f21524af286df1413c3516a73df911f0ba9eff5d9bb",
+    "data/korea_opening_2026-09-07/documentation/oracle.json": "2c4aa67f20ed2765577b4abced8db25bee4a5dc4f9506ea75f94940f9d759631"
+  },
+  "live_enabled": false,
+  "metadata": [
+    {
+      "deployerFeeScale": "1.0",
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2025-11-23T17:37:10.033211662",
+      "marginTableId": 20,
+      "maxLeverage": 20,
+      "name": "xyz:NVDA",
+      "szDecimals": 3
+    },
+    {
+      "deployerFeeScale": "1.0",
+      "growthMode": "enabled",
+      "lastFeeScaleChangeTime": "2025-12-19T16:55:24.230127845",
+      "marginTableId": 10,
+      "maxLeverage": 10,
+      "name": "xyz:SKHX",
+      "szDecimals": 3
+    }
+  ],
+  "metadata_sha256": "bb94edc88c9fdef2c546c33730d616b4aa7a642301e7ca604ea7ed2a2665b22c",
+  "pnl_computed": false,
+  "promotion_authorized": false,
+  "protocol_sha256": "76ae797838c6280d96d1d685d3310f5ad32cfec7c44f912c531ea572544bb703",
+  "quality": {
+    "assets": {
+      "xyz:SKHX": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 24
+      }
+    },
+    "sources": {
+      "data/korea_opening_2026-09-07/history/manifest.json": "b0ff7a88dd16179df9223361e7d599ed58885e75969be358540d7a33f1e88408",
+      "data/korea_opening_2026-09-07/history/request-000.json": "0d66f9e14226d0cc75f0c5d2ae27362fba7a068efd37617a83e445b5503911fb",
+      "data/korea_opening_2026-09-07/history/request-001.json": "5b026a41002e88bb079620bb8f069bbbbd19f73ecfb623e942c4cc5d23ed5e5f",
+      "data/korea_opening_2026-09-07/history/request-002.json": "4cdb888f6d13e275751d457e9adf8a73771bbba528bfac462613479d3500871a",
+      "data/korea_opening_2026-09-07/history/request-003.json": "4f3e4322f10ba7cac990db1ccb7299f436b3f03b4d423de9fa6dd1c9f7b89300",
+      "data/korea_opening_2026-09-07/history/request-004.json": "5938fb0f5e540dbf58959138d2d29953c521977489aa84fb62beb3745e3939fc",
+      "data/korea_opening_2026-09-07/history/request-005.json": "87366dacd9be7d76e5a15a00069901d44f949713d66b8e0772db7f9dfe189f8f",
+      "data/korea_opening_2026-09-07/history/request-006.json": "2006d1b3e74e6b24b3b3a1b7531dd0ba935f6af7f8d3594db2d86636e64414bf",
+      "data/korea_opening_2026-09-07/history/request-007.json": "5917448fdb47f9ff04b5949436143b21f28936a0d92bf6337aebad4c0f1f5a5d",
+      "data/korea_opening_2026-09-07/history/request-008.json": "a0d1a8434d4159e0bba41280ce9397ad29392d57410116b8a9749e0653fbb645",
+      "data/korea_opening_2026-09-07/history/request-009.json": "9e9696c15baf39723bf6c3890031584dc3d6491eb50a09b9ea222a417ad655a9"
+    }
+  },
+  "reference_quality": {
+    "assets": {
+      "xyz:NVDA": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 0
+      }
+    },
+    "sources": {
+      "data/weekend_repricing_2026-09-07/history/manifest.json": "ecf91a59dec479f50b52b37f27093a7e4b67226b433355ee6f1b45061a01cbaa",
+      "data/weekend_repricing_2026-09-07/history/request-000.json": "b11a241941ce898411e4f4c1fe2e6b3b79847deffeb7e3c1d9df9a6fa4407830",
+      "data/weekend_repricing_2026-09-07/history/request-001.json": "cddc114ce9237d86c54e6309d4a90d39f58ad10695d57bc918039aa3f83e6136",
+      "data/weekend_repricing_2026-09-07/history/request-002.json": "a9a5f7c0541b012a450323dea875c4edf5f6ad61b0b9d650768a7f6c391579b2",
+      "data/weekend_repricing_2026-09-07/history/request-003.json": "4db255587ce95eb74204660fb10e6a6cfcd074b9c47c78ed4f0ecf50fd6b2464",
+      "data/weekend_repricing_2026-09-07/history/request-004.json": "0130df9d1f08ec8a4a1589e77366cdd6b9a0d811c8e14e990994b0dead9fd27d",
+      "data/weekend_repricing_2026-09-07/history/request-005.json": "3004cfca8abfcb16689b3a516a29cb257661966713139da2a794994c8509ae6a",
+      "data/weekend_repricing_2026-09-07/history/request-006.json": "4b135b89d0c134580a086681183eedb9d78a80a7be5394bfa6fa78c25e492259",
+      "data/weekend_repricing_2026-09-07/history/request-007.json": "d0fe8ca3ab9080c9755aae81ded6773d25693b5823c9f0563a4478cf8f7f9597",
+      "data/weekend_repricing_2026-09-07/history/request-008.json": "43b6ef3b436d515c80a22635bcb1e148b0e07cc1cd13ff0eab416d00fd73eae3",
+      "data/weekend_repricing_2026-09-07/history/request-009.json": "a852962fb6b40d8b8eb0939aa0fb7ae3f33ee4d3eef6b3414f9409d1cf9d3210",
+      "data/weekend_repricing_2026-09-07/history/request-010.json": "603014a558c7a987b0e2e4e9e7df44437580d0de4177007d350bdfe654a24b68",
+      "data/weekend_repricing_2026-09-07/history/request-011.json": "6cf46126daced86b7d7b0c9e2f8bbe730394deab55b663c7192d0e39318e3b47",
+      "data/weekend_repricing_2026-09-07/history/request-012.json": "e929bb5fcfecc06c7c7fb4113cf5f15313559d12053bb31e5ac86cea0ab90129",
+      "data/weekend_repricing_2026-09-07/history/request-013.json": "0fdcb3930fe9646d57b6f77fe90be0a16e28c70b0b84b34f3ecbd9233ee36dd4",
+      "data/weekend_repricing_2026-09-07/history/request-014.json": "7c8305b4ff2d55b54ca769055643df06c371794750ae0afa515ccd1ca7a24551",
+      "data/weekend_repricing_2026-09-07/history/request-015.json": "fa7a88dad12843aa655098650be1f17be76cccb0e75beaef7ad042814af44f8b",
+      "data/weekend_repricing_2026-09-07/history/request-016.json": "0086b1cf2cadd47da0c2b55898769045a6696a8ddaec57b1413e2c969e009489",
+      "data/weekend_repricing_2026-09-07/history/request-017.json": "f1774ea9692619193600b491cf745ec2b99d0c20132d8b2ee994b1ebdf47e360",
+      "data/weekend_repricing_2026-09-07/history/request-018.json": "dc74c753b9bae4f02af7ab4296761a54e07e3dd3133784a540f7ca013b734fc4",
+      "data/weekend_repricing_2026-09-07/history/request-019.json": "981a94fa9439c41f5530e6b4c2eef2887adf6f09ded4106db14b3e550df2d605",
+      "data/weekend_repricing_2026-09-07/history/request-020.json": "d69f05e467aa339a1564c717c00c1c8b118efd7b255113db4d14fec9aba91ee1",
+      "data/weekend_repricing_2026-09-07/history/request-021.json": "81645790555e0ab0a00c97a62e1cc1a8eb957f6c47d4cb024e61c4716e371b86",
+      "data/weekend_repricing_2026-09-07/history/request-022.json": "75167371d805d03e5866fb9d43e7deb552cb725dc18cd1152a1ac21748b7b8c7",
+      "data/weekend_repricing_2026-09-07/history/request-023.json": "17fb89f686be69b9b5bd5a7f40e4243ef415b6f4362090c452b1edd7b6630414",
+      "data/weekend_repricing_2026-09-07/history/request-024.json": "93fd570086db5ffadf08b9c7f74d55b61f3e7a750b373c21e9aacfcf0ca87980",
+      "data/weekend_repricing_2026-09-07/history/request-025.json": "c2da4ad8346e98db919340ea15535b0141a61f1db1c55807f7864f88513ac5a8",
+      "data/weekend_repricing_2026-09-07/history/request-026.json": "bf5e8bfb45e2940ebb07230eca7b97430f420a78383b1b24ead3d72a9aa5b057",
+      "data/weekend_repricing_2026-09-07/history/request-027.json": "bd27be77a0041bd63e519695fef0c3e722a9df620dc95726bb28ea4f35bc31c2",
+      "data/weekend_repricing_2026-09-07/history/request-028.json": "a1784bbcdc6d021fe9100afd0bf6c3c729435899a9ed03ac1b0e82145c8b2ff1",
+      "data/weekend_repricing_2026-09-07/history/request-029.json": "5cf121eadede1871324eb406a0ff3cd46fae5e0e0c79f08d13b2848daa7cbe4c",
+      "data/weekend_repricing_2026-09-07/history/request-030.json": "e0972b8f909b8799043ce8ec1bd0fe074042fc417e7d06dc94676250bdbad71e",
+      "data/weekend_repricing_2026-09-07/history/request-031.json": "a43d0ec7752c81a29830e832a7e34d51487b95bad28be2e5ebdb30066ff7433b",
+      "data/weekend_repricing_2026-09-07/history/request-032.json": "2efa915b6ae6a2094d8f24b0d74039a58a8d169c1f1d9a7263480d1016920711",
+      "data/weekend_repricing_2026-09-07/history/request-033.json": "5a1c242840e8ddbdc2271665765af798696f9122e7c4e2caa827551a0b06f0a0",
+      "data/weekend_repricing_2026-09-07/history/request-034.json": "e63753e366e418bd5ae533e063020f2e14b3417903a753c137804c1419162471",
+      "data/weekend_repricing_2026-09-07/history/request-035.json": "f587964d30fb7ca67e63c43f206f622634c25efa009b26c6da881430c264ef76",
+      "data/weekend_repricing_2026-09-07/history/request-036.json": "a3d368c3b484b34e47e6fc9093f25ce148316ffaa73adcf48c7793e60b6f4e80",
+      "data/weekend_repricing_2026-09-07/history/request-037.json": "1fe9fcdd1796babf3f5e06789772658fba222a018ac894d64c2b7b9b18f27ec6",
+      "data/weekend_repricing_2026-09-07/history/request-038.json": "46ddfe10b2744aa0cbdba2b7bdb6b611b96fb4ac218ac7974ab3f69fa2d67682",
+      "data/weekend_repricing_2026-09-07/history/request-039.json": "68515f680455aeff7dcfd1c794a51884755a9b04d7c45043e7fada9e101c6d81",
+      "data/weekend_repricing_2026-09-07/history/request-040.json": "0bafd95e98b8ca28d8c59c7d8c37d6e0df5bdfd016a5676171db7821ec0798a2",
+      "data/weekend_repricing_2026-09-07/history/request-041.json": "528fa6b0f8f9c780006f66e494e91f7dd022db07fcd977b6f214d3582a7defa1",
+      "data/weekend_repricing_2026-09-07/history/request-042.json": "d2913788b11e5781c6dca1cbea35636e967be9f237c71ada6d0b4eab0df6a863",
+      "data/weekend_repricing_2026-09-07/history/request-043.json": "bf822afdadb48688ba4a7e25f408392dc8be9cc230589b7f4ef12a3f738ac628",
+      "data/weekend_repricing_2026-09-07/history/request-044.json": "0a1e5a9dfb998f7b72ea965402cc056b9c611e9d091c97348620e07394fa26dc",
+      "data/weekend_repricing_2026-09-07/history/request-045.json": "ec8380b2804567abcf6a4724f1f362c4e823412ec9deae3a8eb0bc5b1c2c9cfc",
+      "data/weekend_repricing_2026-09-07/history/request-046.json": "415456bbf53e553bc33512339a95c0493824986156ed9d1de7a980002562f851",
+      "data/weekend_repricing_2026-09-07/history/request-047.json": "c6d86b33bb1cc3a34e52bbee50dcc53fc73355153c30a6d0eef7411f3af0b4da",
+      "data/weekend_repricing_2026-09-07/history/request-048.json": "8c4bec4c152017295792ba9831ec898e8393d78b3872704f73422de29c24eba6",
+      "data/weekend_repricing_2026-09-07/history/request-049.json": "c2494d387e8eb53e6f7204fa7bb546db64d01c9bcdea126eb29e6e16d61816df",
+      "data/weekend_repricing_2026-09-07/history/request-050.json": "456d4dd9ff0f50c66ea689b4fcf10d43cba581e8da4154ecb113065bde09a01b",
+      "data/weekend_repricing_2026-09-07/history/request-051.json": "aacee1426648d0bd23cded1f8f2dbe7d8c12a312d5a869d13f156e547dfa86f5",
+      "data/weekend_repricing_2026-09-07/history/request-052.json": "b559bee4f3f1bb63d31e0d1e199e9647131ba1f56f3afa0ca13329ddcbefb861",
+      "data/weekend_repricing_2026-09-07/history/request-053.json": "283ad35e8de35fad3c871e64c2a35f34468b74caa2d3c61f61847b29d810863a",
+      "data/weekend_repricing_2026-09-07/history/request-054.json": "7feafd93918155bd6d09f732e27dce226776e3ddb5e8a5b473dafa056bbf35cb"
+    }
+  },
+  "run_id": "korea-opening-qualification-20260907-v1",
+  "script_sha256": "0d300f033c6820c84eb2e2544474f2da877a0a561fadf711970b1ded0b2834df"
+}

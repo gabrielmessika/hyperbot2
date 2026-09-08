@@ -1,0 +1,129 @@
+{
+  "combined_account_pnl_computed": false,
+  "decision": "DIVERSIFICATION_WORTH_PORTFOLIO_TEST",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "protocol_sha256": "0c5f30018a27746cfa500168cb9abc270d29a777d75dd449593f9e9e5dc46f7e",
+  "results": {
+    "base": {
+      "breakout/passive_control": {
+        "a_red_days": 86,
+        "b_red_days": 78,
+        "both_red_days": 41,
+        "correlation": "0.2575142892207702344144415472",
+        "downside_subset_correlation": "-0.2507879933171160209744592740",
+        "either_red_days": 123
+      },
+      "breakout/weekly": {
+        "a_red_days": 86,
+        "b_red_days": 72,
+        "both_red_days": 39,
+        "correlation": "-0.006818442713027139042197627079",
+        "downside_subset_correlation": "-0.3919033381860999670770387433",
+        "either_red_days": 119
+      },
+      "weekly/passive_control": {
+        "a_red_days": 72,
+        "b_red_days": 78,
+        "both_red_days": 42,
+        "correlation": "0.1358273935355447579507249297",
+        "downside_subset_correlation": "-0.2324016391321831528688975196",
+        "either_red_days": 108
+      }
+    },
+    "cost_stress": {
+      "breakout/passive_control": {
+        "a_red_days": 91,
+        "b_red_days": 78,
+        "both_red_days": 44,
+        "correlation": "0.2560544559091518756896457068",
+        "downside_subset_correlation": "-0.2472030152115504559987675131",
+        "either_red_days": 125
+      },
+      "breakout/weekly": {
+        "a_red_days": 91,
+        "b_red_days": 75,
+        "both_red_days": 43,
+        "correlation": "-0.001489883174357283031281669043",
+        "downside_subset_correlation": "-0.3548311187872248832075288824",
+        "either_red_days": 123
+      },
+      "weekly/passive_control": {
+        "a_red_days": 75,
+        "b_red_days": 78,
+        "both_red_days": 42,
+        "correlation": "0.1318531288568625876964206478",
+        "downside_subset_correlation": "-0.2186347761120423167116011269",
+        "either_red_days": 111
+      }
+    },
+    "delay": {
+      "breakout/passive_control": {
+        "a_red_days": 87,
+        "b_red_days": 78,
+        "both_red_days": 40,
+        "correlation": "0.2326735649308634670778269080",
+        "downside_subset_correlation": "-0.2331945991750563154580718900",
+        "either_red_days": 125
+      },
+      "breakout/weekly": {
+        "a_red_days": 87,
+        "b_red_days": 73,
+        "both_red_days": 39,
+        "correlation": "0.02638121539838727155345530608",
+        "downside_subset_correlation": "-0.3145040959845716996179724396",
+        "either_red_days": 121
+      },
+      "weekly/passive_control": {
+        "a_red_days": 73,
+        "b_red_days": 78,
+        "both_red_days": 43,
+        "correlation": "0.1320783703129750009866671689",
+        "downside_subset_correlation": "-0.2550530281347848731850622188",
+        "either_red_days": 108
+      }
+    },
+    "funding_adverse": {
+      "breakout/passive_control": {
+        "a_red_days": 88,
+        "b_red_days": 78,
+        "both_red_days": 42,
+        "correlation": "0.2583169066749916066826326955",
+        "downside_subset_correlation": "-0.2472810985633223996279129812",
+        "either_red_days": 124
+      },
+      "breakout/weekly": {
+        "a_red_days": 88,
+        "b_red_days": 74,
+        "both_red_days": 42,
+        "correlation": "-0.009134952527893648705658827288",
+        "downside_subset_correlation": "-0.3724489741187871587712200244",
+        "either_red_days": 120
+      },
+      "weekly/passive_control": {
+        "a_red_days": 74,
+        "b_red_days": 78,
+        "both_red_days": 43,
+        "correlation": "0.1301324234774967514976867694",
+        "downside_subset_correlation": "-0.2325330863762030205099881171",
+        "either_red_days": 109
+      }
+    }
+  },
+  "run_id": "diversification-20260907-v1",
+  "script_sha256": "cc6e099fcf918471f03ca44c362b3d50d0176b96503b9614e72dc981911f7726",
+  "sources": {
+    "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-base-infra-0.json": "09bcdbaabe2d93d7388ccb2f822331f7f3b44975f95026ce72480950b399ab3d",
+    "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-cost_stress-infra-0.json": "44e20f4404b34a16ef017cc6a379419f62f33ca7727857cca61ceb39c0c3fe72",
+    "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-delay-infra-0.json": "854afdad4864667b23462364b5b448086eb3d9862ed91b5f8b101523f17f5ef5",
+    "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-funding_adverse-infra-0.json": "116a9a71799c9ef73bc7503c627244d61846a63440e368b61c7d482ac88f49db",
+    "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-base-infra-0.json": "977ff729d27df355beecf9bb838b0d0144b17b9655e27cdce829d42fff9e5865",
+    "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-cost_stress-infra-0.json": "796d0b40f31c5900db2004ca7697cfcd064a56bb157c17ba72a9bc32c2cf184b",
+    "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-delay-infra-0.json": "3cb0feca61e741b982aee5f0029094339b166999efe3cac046c98df2019fe4c3",
+    "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-funding_adverse-infra-0.json": "6603f69ef3f0010e9170c61f0366a48f83874779ae67869c08f2556eaaf8d2f8",
+    "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-base-infra-0.json": "cb1f8fa4b5cc41bf6e5b353cd7569b5f95184456969aa0facb90c7c6b892f092",
+    "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-cost_stress-infra-0.json": "df38014c480460cd44ff4fc9ddd52e858061ce7fd994f0e5e45f10fc126b5ee8",
+    "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-delay-infra-0.json": "f4abeb75feccd272ba5ccb5c38f2a9b0937d1f69a70f12acc2ec2605826a0383",
+    "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-funding_adverse-infra-0.json": "b0099212799602ce772e77a4bd9af22218388fb0e160b3747c44f4e07b5b2153"
+  }
+}

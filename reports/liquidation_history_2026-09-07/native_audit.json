@@ -1,0 +1,86 @@
+{
+  "coverage_validated": false,
+  "inputs": {
+    "data/liquidation_history_2026-09-07/native_checks/registration.json": "9194f2fb1e94529f2f7d19c867d17d68782ede4c7016bc8f6c5d35efe7f03878",
+    "data/liquidation_history_2026-09-07/native_checks/row-0.json": "12dd7881d2bb658fc9fa04ae2cfc26d03ba759f44f7e3ded0611c65dd817d6a2",
+    "data/liquidation_history_2026-09-07/native_checks/row-1282.json": "3a11f983e626d390b4180ad4fb79d788b8d9a5ee1552951da0613a93e9538c19",
+    "data/liquidation_history_2026-09-07/native_checks/row-2564.json": "67b2223055d11e619a6798e3ed048023f86b1a338c2807eb713151c1121858bf",
+    "data/liquidations_2026-09-07/event_raw/manifest.json": "bc17f865d3b25a393e6cf38082e9d88e1606f0bb2644b11bc7b4b881aaa1521b",
+    "data/liquidations_2026-09-07/event_raw/response-000.json": "e92f1213a6306aa7972bb073039b705a1ad3eb2aa4d39ed62468e94d29cf52be",
+    "data/liquidations_2026-09-07/event_raw_continued/manifest.json": "713ccdd886b89f8eb72277cbb26a6f8171ce68f2b1b19f3bff09d108d0f33e8e",
+    "data/liquidations_2026-09-07/event_raw_continued/response-000.json": "c9cf64f09722485743ff3d67325420b3708efd8dd0de68ad87b980635a0fa188",
+    "data/liquidations_2026-09-07/event_raw_continued/response-001.json": "b3779926176d71ff1cb2e2c770b4919a5e21fdf287d2c90a3f1f97beb46a4c19"
+  },
+  "note": "Decimal comparisons supersede exploratory string-format equality",
+  "promotion_authorized": false,
+  "results": [
+    {
+      "checks": {
+        "closed_pnl": true,
+        "coin": true,
+        "direction": true,
+        "forced_close_owner": true,
+        "mark_price": true,
+        "method": true,
+        "price": true,
+        "side": true,
+        "size": true,
+        "time": true,
+        "transaction": true
+      },
+      "coverage_validated": false,
+      "liquidator_identity_validated": false,
+      "method": "market",
+      "native_response_rows": 1,
+      "source_index": 0,
+      "verified": true
+    },
+    {
+      "checks": {
+        "closed_pnl": true,
+        "coin": true,
+        "direction": true,
+        "forced_close_owner": true,
+        "mark_price": true,
+        "method": true,
+        "price": true,
+        "side": true,
+        "size": true,
+        "time": true,
+        "transaction": true
+      },
+      "coverage_validated": false,
+      "liquidator_identity_validated": false,
+      "method": "market",
+      "native_response_rows": 1,
+      "source_index": 1282,
+      "verified": true
+    },
+    {
+      "checks": {
+        "closed_pnl": true,
+        "coin": true,
+        "direction": true,
+        "forced_close_owner": true,
+        "mark_price": true,
+        "method": true,
+        "price": true,
+        "side": true,
+        "size": true,
+        "time": true,
+        "transaction": true
+      },
+      "coverage_validated": false,
+      "liquidator_identity_validated": false,
+      "method": "market",
+      "native_response_rows": 4,
+      "source_index": 2564,
+      "verified": true
+    }
+  ],
+  "run_id": "native-liquidation-audit-2026-09-07",
+  "sample_size": 3,
+  "script_sha256": "7aa2915371b929c29a5d79a1e365542f9ba7c570dc53316c074ee6d073457336",
+  "total_event_rows": 2565,
+  "verified": 3
+}

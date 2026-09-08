@@ -1,0 +1,23 @@
+{
+  "checks": [
+    {
+      "artifact": "events.json",
+      "identical": true,
+      "sha256": "3103f4ac2bb50a8fecf37409c8ccc7fc8291aa47abe0459a0c7ddef6b50e7e1e"
+    },
+    {
+      "artifact": "quality.json",
+      "identical": true,
+      "sha256": "f2f40b8189922674d915098cecc65c17998f007bc253037d827f428bb3c77fe4"
+    },
+    {
+      "artifact": "summary.json",
+      "identical": true,
+      "sha256": "b673060c957f67e61ba9d678e5449b6c8d604cf99a711f9c14d1a43c52753320"
+    }
+  ],
+  "exact_artifacts": 3,
+  "mypy_sources": 72,
+  "ruff_files": 298,
+  "tests_passed": 310
+}

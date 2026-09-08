@@ -1,0 +1,1517 @@
+{
+  "checks": [
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "7175c36e640cc456c439351781a873eae0bf63e53e1710fe373d869cad3cf40c"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "585216504125d3b765729c55ac084b0268c08c78a651265cfd79963a0fd896da"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "0b7b48f7cf47fb74da2d29bbd36e9dca1436498da2a6f6fd9ef38efdca72ba48"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "ac36869bd6ec796bf3f48dabdeb223af2a092c12e6b3e8ce1c1928aa9ff0b14e"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "344a82f1402ca2939b236a13ba8ef60aab2bd2cfc829096d3f651bfbe9870d46"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "f76c42bb0c8257cdc2938f0d7df78f009c8be942a059be67d21008bc885fa5e3"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "da38a7af4145dcf67b36a554e8f7eea4093b92dbf47c43de9c4a3299403702e5"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "914da0b5e18e7a7502f23a5cb42483a7e061b1f066c0745261596fc54d6e77f9"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "17437bc4e4730624cc1dc2d6e901b2083843c03b7abdbea6082bbb75154d2803"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "563474f26e37eb88384e8edb0e813b84be8e970240feac16e65f244cb6c598b3"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "22fa3f7b03812493cb1ff2adba5377ebd4afad712711f7b7de49de50bba45ce1"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "3d562059a605c8d5d82a3ffa9dd5a3fc6e0e496e590cc2bfa1f7ddfcdc090cb8"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "ad30b4776ded5a4cf8ef817f5e1072a1182dcad024aa2ed8ffc1fa076963dcdb"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "9348e6f46005af41e1ad30caf9624e8e0cd7d30e43c6039a5260c60a411fa82d"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "c58c332ddb8111fc598e46a3f76fce2b6acec4dc5daf83e4c1ac8eb53e14899a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "1547eb5b9ef0c5a33e059e84f5e6f402df70a4425449b3b52907ea54852a7e7e"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e48d57ce765e4eb17af9eb14e6d39111f754c4cebd33cb4474bb440a4b01157e"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "8a2cd3a8c83844c7f6ff53961d8b488fe43592487e6b0f2d4fdecdb4657a4944"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "2c36a3594f9b9535ad622ea29b3c6ae336c28972ed6805cb7fbe23052361f089"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "a9772c2c8ccaae44e65c76df6ba06920886690344c469db3ce9072fdd62cd2f9"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "6511c85827ff8f7473b4c50af5078a4d604ca0adf8f92a4451ccf9587bc7bbc6"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "339b9adfff1db9e204b65893c40a528ca1bae911813de39b9e8264bce33ae3b0"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "c3c90a41020ad0974ceb172dfcc2d508e60e46206f1a417db16c0cbd294b2eb2"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "2d736e44dc7acbd9ca82423ea64ef3169ec523458621b8d94ad37012df676269"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "2d0e4191c3cf90ae6da07747538d8ec449a5b1e43d85f2e2fc08bc691e40ac29"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e17b19bde69dcd96b39e327be7c40ffc6b6cf275aa2c6e1df6a668e4d623dc40"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "950e4cdb465ba9d7578dd48d8b0ac95232fd3be2d56c18e01a86b914554b0b57"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "6472d5b7947dc0878929901072f5984f1c5b2f25f15e0bcee1df3b7c573cb225"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "10f1955450f6d9cda920d6e38a925f499c02e1012383215cddd51b365ea2d9fd"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "bf3f19ae6b4b2d2f8de919571237816f67f735e02d8ea7178efbad3713f7607d"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "75292df1e1482df11ce6149e064c489ad7f43579a49f77450a3ee75e533e8a72"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "537c0fa7f20596ddc900fd031c5265f514b424e6d2b49b0c5738c5356898e0f9"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e7ae2b68d2fb0d6e482506931f286a704cefd004cfa6db91edf6788f07698ebb"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "b71e8f16b6098eb9e881f797928bd286e34803e38c0306d9d91e74cdfb7aa55e"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "97759d7c4337333d86023aa707a35e3f052d42edb39d5b36b878a6e383202e51"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e09fb5feb2493d8bcbd020c5f8458dc96b4902ab94e54dbd152855555e369d65"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "093fa49e284dfcfe3991a528d7e29429eb8ea28c2e21c3ca83909a8403e1613e"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "6d3b2d7b022eb9a111e908e450b9b0191c62a570703cc23ec7515c615eb8a578"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e5280589e33593faf723980eb001b2d391bac8f686538000ad46a5c7ae09507d"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e6a11280bd2d2eb09a4f1ff1a19019d964a342745b97f255b791e17cd4734ee6"
+    },
+    {
+      "artifact": "quality.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "0403729c7d24b8a7276cfccc5d94ad80bbcf463a80ec340e71c1d39328fafeb2"
+    },
+    {
+      "artifact": "selections.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "92ef2d43a132d66d30844eea636ed5c684c5692a69f665188cc3adb11f6af207"
+    },
+    {
+      "artifact": "signal_checks.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "2b862ed2128b69cd1f66c09f43df5757365a8522f5464154b8248b97690f78c0"
+    },
+    {
+      "artifact": "summary.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "81460922ce6b8f2b298eaabb0aa0940230fa349b3aae396919c94e04dafffdd1"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "9e52392781a12af2d7d461dff941ce0504467682d620990ef7a819424d191551"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "baefb3f39b3d3d04f285005f361c3b01cee20c1f89ac6bd00ea6aba982c94ebb"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e9aad7672b72b28b36bad9fa38562caefa81f6ca2e3b14176d36f14eae101f6a"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "fc395ee35d534cb4e2fcbd77e1800c256642ea76088142f1e2a828c221a51c8b"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "3675303664afbe4e729a850cf055ec466bcc37fb0052327b472c7ee89b0e723d"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "4520cdd5c0f31fd9f77c9416e0031df791c4876c2f3b9c467c3233e3177e9d53"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e3c96290d78ed417af964c57cfd6344c5cc842f56736d4adc4f163766b102bce"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "c776bd0df7e7ff07c8f2e186a3db0e3badf3ba03c28cf1c55a0f9ff73e419ae1"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "274171cb5f96d21be8e7c7755a158c0fd64ae08746bbceffabe8394b85828d2c"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "ad2c9a083402f35a891ab1cc010fa4fc2a702a2d74b7a11c34ad907bccbb45f4"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "15f80a601de473f28b3fd48809349e8e52a929179891ad5f394840114f8836cf"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "cf361f2f8a0d19254b97a83cdc214aceeee99f9b76b050dcc4dcdcc34474260c"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "6dd43e13d0144f8529d151efd79309b149b8847c2780d065731c1fff68f8deba"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "4d7de7d1d7d92a04fbb1dfb9d0b635bdb20c51960c36198349ebbadf7fcd5bc9"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "2386d12e1a8a27dc4ff30973ad5f15e5e9f60d1ab0560f50d87610ad4017608d"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "fd8a355426c3c352f9603b6ae0b4aeb3a63c005c2d9c9f3c57c4c7f0ff753266"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "218a328585c0759d8f0e10f28bea37b0fcc506bf4fc140f7a6d92dbe15c4ca37"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "dcb8087fb1aeed5427850c774771a7e20318503af5606fe9edc0e15271c33cd4"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "60a01d7cd78fde5c97b78c6d9aef8305e7a82540b1d292f8e357ea17ac379221"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e328de1e1d32b04afdb00e566f81e7d9abefa81438f69400343ed9dd86eeb5a4"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "8f86c35220fca5e7d5c8fb8dc48b59cf445f6f5c06ef3507bbc3740a2e218db8"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "cdda23e040e36bc6bd3de5fb3e35c10ddbf19371f6bed4ad01f68250ba35dc67"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "a425615d8082abb4d413ed309830086abb050d57442d229af006158351632b23"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "670443c6363c3d98313a82eeae26f85a6afa38f2312156b3c275448afb4c449e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "1c8b26fd09dd2f9a35f702e7355a3870f1d7e66da9693da6429c28f56fe56dcf"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "9d77a3fcf15f073acbe17f2b75135ee8289d9996bf7db45a1cf5fb93b64bf839"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "6af55d7367aa390783a3d95db34e0ff3985a3111543ea2167372e297394deb5b"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "c7585807caa9b2afce06bfa6354544c662192b98ef44abe390afd48e5cd486aa"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "5c1bb189f7260577961be2c3e386ccb96fcc486637b3bba6db373319a0061be6"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "d5f0b125a3aed56a3dc6472f3e2662ef8805739a846d53ccd5672224ef091167"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e9c4447e574ed088f454d143cc105c73a2c7d312feb5d4b29d67b99f83e25bbb"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "3b097fe31ae46531a41b60caa85a3926396b5d17e818b760de76d4c2667382d9"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "62707717aff2b3bdd9c4327ae1c3b6a196515decb89b438077bc3e941c69f01e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "761789a6b55304df1df48b278b7ed9d709d08eb65ccb45aeae051bc617e9f130"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "e2b2cad5d65e9cb1aec490986a5daa1d1951c4f61647933e799189a039bbdd86"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "543b196fa775a3d03890dd42e8b386fa853a08b20b0bad7bf898cc13cad3bd19"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "b161667721348403583159687f206d00beb91c3ca58927f846ef16590e718f69"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "fd1671ffd03fc94bbee60372e7539c281c5961efb2df6d0b7f4d04c2c76a7de3"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "3d98c9a1e16d9874eae348d3dc0204cddfcea86c3ae74a9f51ca8a647614ccfa"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "native_2026",
+      "sha256": "1af19383d00260db920d04b3c1a6a6e64b9faeb59598a65200745e5b1853bcd1"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "9796a364e7cdd6f161c2aacf99c90a90af160b2a08adea59dc9426860f6988e9"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8f1b52dd28ddfb8f8e5d210b23a89c64394705a2a72c4810f837014ca188af1a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bdab4b056cdab21230a09cf22dfa7dbcbcb88cf1f89616d5e918b22b66eb0792"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "5c0b647d85abc6ad60a90696231cf7e01d4a66202e8fee382735b30cb438a233"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "6a60a71018a70dd1f0fee3254317b6fa8d8bb2d63f222d04b9d95db21f73daa7"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "57cd5d3693c00d1dcc2b2fb37dfe5d10b3e34d2b8f908a003a62ee5304e982af"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "fbb86e6a3038e88fea6d26fd736bccb04bacf200519d89be2992da0e0cf1a296"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "a138d8c763b82624ded9fb9dd49ff268a525d0597480b905551c447d3d5c7079"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "b008560be85a81bbc11b0db2d4bcb9f7ab9494692b9bd58c2ad612bdea7d9414"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bf18e9d5f2bc9d0ed764c9b5a1e626ebe830fa23763a827f5f6f8b90d38e1d7b"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "2b4101ee18e93b2edda8f3ec31d00b353c9f0641bd52d496699d7b778f44a1f3"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "b859b81d6acdd4528aa068d114fe549a54b87e182b2a15c15353a24a3cc4783a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "3698a4fb972c5c96b20f6a44e15cf6f9d46b42897d2aac5029fc11dfcf33e4a5"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "dfe8cc7fd8f0f133e141cd02a290b308bff889f39280d4c36069cfedf9a6c9a0"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8779344bb783ecc74c50cd711acb04b0e2867c5a94b1ba90272deb80816c598d"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bfc784cbf6c9695f8d770ad900c33577f907b81975dffda2413f594847d6634d"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "4a2aaebcbae98f75e1ce1f0a2574d3b9d3539fbe271a6d1fda5b9f3f86a8437a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "585c9ace45806156b85929162ba647f6dd3399a4f416bcf57a51c7848427ab9e"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "b13953577ff00502d303499c4e0b46bd1d0609b0496730d1b0d1b0ac2695b3b2"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "9d3eceb3d6ca8b4b690969dde73dfe39152ed70d1e253a19007da5219edb1e47"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bfc92fc2f281f0b81a33f3f3b954ad92dcba5d8f7ad1227e85b1cf24cc365cec"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "cd0ae4b76f55954d0d1f93fcbc9e5409aed4a3427e1a2c87ddf3ddc56dffc8c2"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bb2b50a3eeaa66eeec0e8abe67486b1af094574876485fc1ac88c4bd6df201aa"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "66c7316f19ca9fb6c688fd5b3241f51fb484418b14f73831ecee14a530d73d24"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "39ab3512fe4fef5c792657de88e466685657380286483f355c3652dc8ca7321c"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "61ba03d6b25308c960532ef57f8fc679c45d2581d45380afa289be75f2d5e516"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "a535f3363488de5ed5122d4bb52089efaab6db653b7009e4e61122b17a6cbaa5"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "2b9b299b01b28be89a8e2333d3d083810ebaff1f45db1a633981f96d4d0588a7"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "90d6d03926a7910daef1ea5dc431d70ca159df6c2234d6e097f6326b1894c351"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "4097826e50cc964af07db1d861ba3fb3e163468c66900e9071d489805a2b1574"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "304ecb1c969b49d6a69dd73857b7ff8c9456ba4c0ab752855df871b679ef07e6"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "21d2c2ac92f3f7d49278b655f4cf2a75cf1c2e9f38038c543f297fc2685afd2c"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "4edf8a1cde2e73b4604b1f9ef9cfdcfffc72b7ed459f5783758e09752c6d9c5d"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "ab9609275b425e9f152e4620477ebede980d5500f5453d2cd18c2d452ab0e1ca"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "9a98a1990e6e5b7f11c7c4b0329d01e28659f32814ca8e94157d7ff876610aa6"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "d53ab509c00a8590757ebe325b0ff3d38822eb88983d9faa1f113010589ef3a1"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "ec926fdc021848e25351e4a7135e8a580c8c62e526ce2bbb7966866e7cc8554c"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "bcc31e001632eb10cf365f50a668f5775240c4b64b5700d09f44b98d48a818cb"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "7dc39f8036ff332f2c0df476cba1f27057dfe0d246176a8f7532279b2b7d7228"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "3f009ae1f72bf2623d664d15769ac081f7d269848e04be5bcca1665a797562f9"
+    },
+    {
+      "artifact": "quality.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "58e5b954f8fe3364359aaf477eee240a7b478e86b0e37052f8ce9a9e8d57078d"
+    },
+    {
+      "artifact": "selections.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a"
+    },
+    {
+      "artifact": "signal_checks.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "33346fd89719bb4c4f7089b836ff8099f418b7e072179f61a0a47f2df1e8a82a"
+    },
+    {
+      "artifact": "summary.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "68ceb4b83e5261ca31fd32e15f3bdd039988ea21a81b2a3d92a01e5e35b1bc8f"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "84f02bfede850b47106401f1b701055726d3e74dba85e8ee61e72be2415e6c28"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "b9f659b6b5c0154e9a2606ae3943f772941b6946e5bff3b053dfb5e2eb78a6ec"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "601c0952a1a86f6b67b2037e924d4e8b8a1a3c7bb8a7af9fa3061314fb20187e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "1af4a589501d9703d5ba378516ac68e3497c7169c4dc0eaf86e81699eb14b904"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "e4c10857d4a3f3b97ed62396a4047abcba46a4e78e6b7ea3a37bfa43ef63f154"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "d3c443a465a4ac84507eed1a5d7a8bdcd236a6b5b62f47eb1a0f9074ffbc06f5"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8fe2cbec6e43cc7f7dce9a614c25b8cb9a5d099a103e94d2681722126515a33f"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "a32094f481a444f6ca49b717ccdafd28a2277058b21407022ec363b81f8083e2"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "f08d3d63a37afc0a1a59ac9cc2d83a7468aae8b492c333ce2531aeeb2dd213ab"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "c021a7d2d817dd639a89dd3e8ef7b7a4f7f160535134750945ac712023cfb65e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "228121672c6671982861240577dca743c2aa7b73553d1b15c37b6cbc8f5d99a7"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "47e842d2ee11ec25924693756606d0c1838949c674e85b4d0095cd7d9c4fec4d"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "41f666b2cc6ff11097d89c2da6c569c70d6ba2ed927203a3c3c5a35283dd0d2c"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "ddf4888e12d85ae712484b140d7454e9a47c4bffb6fdd810f8df1391fa939578"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "6945ec50f2bdcc014bc050ce21ef21597493f3d59f46a3b061c57e399689d6d0"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "c77032287a6d1ac237be33c61a37e8f50b44383af1bd60fee50c320608c6e217"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "ca6396540d0058d0a41ecde094384925265af10cce1fa7c674fabecb0de08102"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "1556e573be55dcdf86f2936f0f6cacc276126c2c0211ff4fe919007c3c0c22c0"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "3a68311205f9ffeb792412569d691308de60d91364136bfb1e1ab3a71671034b"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8752b69d3fd8ebacc427c2c53879837c73492d2afe2b408227fdba30acbc49ef"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "2f06ce124fee428c52083c4d47e69698bc69669661acad8a8b1dd6ae3f1d156e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "e787d5a690290238dcb01340d1621a70391812204194b702f768ce8faf4bc68f"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "1cf1276cb61d553facc8040673eb28d49f4f4e9b4ea5a2957daa04d355a0f450"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "c5654810893ac371822f8ef04dc936f0c88bd935b9178849cc858284405de22a"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "d3af2b857e9d86487f9631a40e86497a32171b526f6c126702d3b1942a9b3dc1"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "21b8c878c9be2ecadbd25cb776cf5c50e8897cd887d57a2a6fbdf96cda83d682"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "6031cccf2e5c48e959a24d04eeb7e241bfb0fc9e59de4f44499083fa6a7edcf5"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8ee1e6744a4ef2b8d52383228866c9122256b5ac71c77dca0a6970e200f6a425"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "f4bd5e0430b9c93139f5650dd0a64ab49c5407b7feabe2cdbe05b6a3ac67dea2"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "9da478fb87afe3e0facba3c4bc906673f091a1543c4e421bd700029a09030e4a"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "0fe28a633d7c3af69a634b1e58690cf458b0d9cb1d6aeedad91c7bee71398411"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "a423b6fc941e3f5f0c82b56f7dd71eea40166da4bf0f2a40165664e8abcac1a5"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "3e35302227e2b0667eee4e6fb1139cec73b5f6b029148a38c9939802ae63ca2a"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "da6987cce3a3dfc50b74a8632849d4d6fbb10fa774b11181c00c52e89e9bdea3"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "b517951300461b1e3a41f17351790addc1eb3173e5893098966464b5a89f4915"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "7ff9e2081ba2581e658219c97c1a7a65765a2110d47f9b28252f2c5ae7e79a48"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "330b688a44c7c161a7e6e0dfba69fc9639416c21ff7ac7943d43f5bb07b65656"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "8bb9e43ab5a2f91f76e1e4e32b576eb759f2c248de48d8eaafdff1b270f040e6"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "25604d3d90f9c0298b139f4ebb9b3bb896de9602e2813c6ac2c8adf7f844521b"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2025",
+      "sha256": "0f34dd84363f2abdbb13369d6ee84eb04f6e4d46cdb259acd2cf3a21408fd447"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "57751206e50948873bf8f5aba6e1de0284c108db54ac959096592ba001bd191a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "c64e5729f3e9934bb462a5a52baae6752c751abf750dc92448c4c4782ac4f46c"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b3143968188fe7c6057b04f1c6e54e72c13509022aa264462fac85269d8bb55c"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ef930284dbf91689790ae9ec13fcc877dcccd110efaede6bb3021a9b4d8022a7"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b604f7a05d61831c59a298b7645e18eba6f5ae3b112c54c6fbc10952e4dfed4e"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ee3523232250d680e4922a554e0d44b43d7a6956e6916d5751ae3749d3796629"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "0b6ba9bd75051c06dc8bc9c67d001d6f913ae2b121f75c3cdba62c65d747f904"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ed5929edb7edb2809ade158b497d5d1d4aaa738b11e2257a4fabe6e3cfeec776"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "c11f45e6183ab74e8179a576778d32330540dd4b29f4a94d614b8e7af3e6dea8"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "1f787bded3b54be6781073e80bec0b425d9f68f6459428343178972cf6b71707"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "1349151ec38f7ce951f91e0b0ea34bc770ead383f72053fc9f9f66ffaf582ae2"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "cf6ed264c0a5d7a4e5bc1e8075f49a76b0ce0857bc19af69e8a24e2d0399e9e4"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "2a1977bdd71fc8dd0af2d99e82db39c9a616267680d11d561f5e13d63b35793f"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b219085592c126ff405a3f38c381121c0d4f5a4d46484f7e944661480b0b764b"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "9767e94ab99f50de1bd1ee29eae4ccd4f1eb64b824c3a7fdad40f35b6f26bb67"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ca505d3953f54286a7a208570630f78a70ed587b891ae0cf7cbad72acbe98a1a"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "abc76f37b80b29da577747d2bc0d922957959e9e1fae7865f08faab31ce3d8f9"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "1a89cc6b21bef4770ee53c41b10a4e4f9fd57ed8ef95cb0c858947cfe1b4a5c1"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "0231737c16304b730fdd2c179c0586ad370ce62354f21fb9ffb4e2943d4a6fe8"
+    },
+    {
+      "artifact": "all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "197f89113fb6695096e356ba204652b757a98e85635ad6b033dc59eb4b5bdd9c"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "75ea6b3bbbbd44c213bb4326e1fe460677311838895c1e1f275000248d813af9"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "5cfb93941735ecbf4de34c57b7a0e1413afaaacfdd43a1bfa312a622a918c5f8"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "9dc2f253e0ab7666c573c6a3f3e7b54c04b81a3dd3e3c1163d31f70e0c164676"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b04ff0ea786dcf2047618fe8a02c60a740be97fa55306f9d8769d569befe4367"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "3925c7ea2c1504863b34b9a6d33e57396348b7f912645931461756fdc9b908b4"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ba923b1133f28e60970846506a913754e8decb62e938b4265b4607260392781f"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "a9ba940f71eab39d8d6a244180050d6155dd25f6870bf72b40dc23bcc7171c83"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "0833a97a4f641202d8a3cca449102b585281fa0876fb23b1e28a376b7e9ec7ce"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "18946f2abdd3505b38edd483fd8e92fbef7fe1d44723c96d66ae22fb559ec2c2"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "5c3700e279078fd8e95a448cffd82631f12be2aefc267e852a8ab6d8f79f9ec4"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "035e29685903544a6671e5e6a4937289a5fbf53dd227b71b5b9547c9fd541e5a"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "d457e6eba11788e5525aec2e7b5348d4f5ee340f0efaa2b8efb35332a89b8081"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "5c2c87f12c747b0ce0543b2c04ee53efe1482896683f3c61f47219a95632fef4"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "2ccd0d4eb1918b79a64c319cac6cd75c1c7c33ed289ad10697a553ee0d781d55"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "7c6bff53f58163cb1f0314f42fd88372f7dfafeb32d85bf2f1780013ebc5762c"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "9dafa726054c27b3ec9d78d44877b4f5ea5de58c3cd9f0e619cc4337f6a6a665"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "5ba25d6fe52dd489b9fd81c3b9f11d3fdc774c1a9e15eb30053243c1501ab9b4"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "44d6c84241d512fd0af8caf13cdaf3f4500163fcc5f7775a954076756a935b1b"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "85d2465e4c449caa3e627a4c6562854311ba3526e07d0fc32b75282264e75c65"
+    },
+    {
+      "artifact": "all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "a92766f678d19b8d17d1eadfee7f6a118067b141e616584fdbe7dfb1eb21effb"
+    },
+    {
+      "artifact": "quality.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "e40099bcdcefb06d3400cb9dcb2bd58e06b626725a78b4f2665db4b9e096759d"
+    },
+    {
+      "artifact": "selections.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "f06f0f48469e516d99f700501ea00bc22bdf05b7dea9fd126e4a112d5eba21ff"
+    },
+    {
+      "artifact": "signal_checks.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "33346fd89719bb4c4f7089b836ff8099f418b7e072179f61a0a47f2df1e8a82a"
+    },
+    {
+      "artifact": "summary.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ddf88db48bc485f3078852bacbcd54c777d145a146b1891458a3625ecc8ebf02"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "5754fd9a0066fbbad5c84b6cb5921e355c1ef75cbd8ef286e2702d46fcee0388"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "7d281b1600fecf3cc5f129f1cdc360853eff973ff6bbeb35c05624204fc342ab"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "d05b0324873023aebd376b13a10ace1b5bf405033c8afb935f2a520430427b14"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "2067a3703ed3bc57fe941f687a917aab0f9d9d86996e11b8adcdf2f319866150"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "20793addb06b7b5b74bb56c13cbbfc233537f7a92602b0f6754e6c6d42c7662f"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "fab96e2e691e460b2020efb5426dbc9de8cfb067175591fc176988e6179328ce"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "974c0942694847b80d43ea79ec118141c58f699b363a7d326a37280f2eca7647"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "dd3360f51386302790ab65f11e9c2cce8642a3c6fb663612780e0a9d87fbca34"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "33d7ede6218c3db0d68fa07b66dce525feba73f88e71ac14185e6e3dca643ea2"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "2b6f378864c76d59fc27432ba8e917f406530ff141c666547e3dde8f0124ee4b"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b52e8efd0edd207f868bd7a55c4bdb416326dfdfb4e9909f685dcb7612c56496"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "421ad5ae0296c9a607fa7abfa6e016f0fc458430e1e1c9477eefce3c8c02f602"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "b1850f91d84eb1efc8832869b858cfe4662d751586bb817d3c2a18dac04a4bac"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "bad06824ab9c0976bf754c364a5dd9ae314f37f8a23b5f138bb5963d4525ef72"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "7c6679e2ab0c1e63cb62ddf350479558f8d54bcd9891352c9a662f72500ef0fe"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "af6278b6878fede0588c4713d054ab28fdbea889c1e92b7566c1d9ef4008973f"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "bcbb214020b0e2f91c48d848d5793b005fba2a812033b2433f9ec1c2e78c1b86"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "f951f03ffe08c2e538ac1bb2d4ed47f17813cdb268c3bfac1bfbbb234e2e88a3"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ee83a663400069c02667a04392b583af869dde4f15cb722101119162748edb4d"
+    },
+    {
+      "artifact": "volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "7d94a135288024b78d1215c2f20caf6e9d9b656fdfa72fd931a835f77088cd36"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "6a1513656a6b2c381b51810edbe6b1955756cdfc87306b2a4219e44197a22d27"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "847a2f687de8584992443c713edb02697285d11e773ee623e2a487cf29063cd8"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "3195228e7094dc589ac98edfecd5e9672aa895354e0b4110469f509eb85e8801"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "15e1b67f2769fefa66c593d5b7b8c3049e94e991d28c9a77028a03e1b1e356c8"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "98fb1a464202d0282b7cd17ae3940fcc71931768e38ef71ebdacee05a9078561"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "d546c37c03e459e69c9cae4cd1b8787a11a43018e62713e0aa5ee60f39bccbbe"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "8231d70162241fa1c1038fa13454b5bc97fc00677127a0ba5ffeb0223eafbefa"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ff99f2793aaa6b941fb7261e8a96904298b6ae5d506e1467c27c0d2e194e93f2"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "1dc19a578653c19726fa36c7c004c5ab33770a767108be850e1bd94e0e101cc6"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "04f7d3c963f1df56ab946bc534c11813e130f5831a2728a2e0ae9f10e9ec2061"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "ef30b4ac18a231735a9e0aa55d2c8f97ec6a3a333fd17130d27ee4c2823f16bd"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-base-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "6bfc4fe918d242c8723aaf9360d65f3ec34ba67f3a0141851e2efe2887dd1de6"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "234020e7e3e94304316f8fd5037d07bb05f8b325d34bd412db28c5af71b615e9"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "e9630c100f4217c2f5a803003bd47d60045790544f55b203464c265ba3cb09fa"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "157d47f970db35587bea1abcc33889791d45df1e168fa4b7d7afad624ad3008d"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-delay-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "3446853cfb4b23f27ded0cc0abbfd102826a3fa4fbbab81339b609769747ce77"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "2c89f01dfa1b5717632d87a9610cb0be1a1de3d11ecd86a421c5b2b5947bd64e"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "8eab350ebcf06cbf4f1f77bf89db2e5cd9d2fe1f58a5619f9302f6c5da6760eb"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-0.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "38a5307c12a28be78f478d6eb35d1437ef967fcb6f13652011563bb27c8f2720"
+    },
+    {
+      "artifact": "volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-20.json",
+      "exact_hash_match": true,
+      "panel": "transfer_2024",
+      "sha256": "8b9064d9e97973ebf55f22fb9853cb25033ad44dd53aa165aa5ef073e0f6d451"
+    }
+  ],
+  "exact_artifacts": 252
+}

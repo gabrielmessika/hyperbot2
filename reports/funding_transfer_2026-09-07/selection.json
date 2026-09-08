@@ -1,0 +1,25 @@
+{
+  "basis": "complete prior prices and funding, before PnL",
+  "cashcat_excluded": "insufficient prior native history; transferability only",
+  "eligible": [
+    "ARB",
+    "BNB",
+    "DOGE",
+    "ENA",
+    "FARTCOIN",
+    "INJ",
+    "JUP",
+    "LINK",
+    "LIT",
+    "NEAR",
+    "PUMP",
+    "TAO",
+    "UNI",
+    "WLD",
+    "XMR",
+    "XPL",
+    "XRP",
+    "ZEC"
+  ],
+  "excluded": {}
+}

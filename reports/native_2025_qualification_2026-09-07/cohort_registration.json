@@ -1,0 +1,107 @@
+{
+  "client_sha256": "280957459e73b9aa8c3cb7dce0bdab5c2dec55485385f8ff78bc49c3bfa10164",
+  "cohort_sha256": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671",
+  "cohort_source": "reports/volatility_long_2024_2026-09-07/qualification.json",
+  "live_enabled": false,
+  "maximum_market_requests": 10,
+  "maximum_per_request_seconds": 20,
+  "maximum_per_response_bytes": 5000000,
+  "promotion_authorized": false,
+  "purpose": "Fixed-cohort native 2025 data qualification only",
+  "registered_at_utc": "2026-09-07T19:18:36.124138+00:00",
+  "requests": [
+    {
+      "req": {
+        "coin": "BNB",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "DOGE",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "INJ",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "LINK",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "NEAR",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "UNI",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "WLD",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "XMR",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "XRP",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "req": {
+        "coin": "ZEC",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    }
+  ],
+  "reuse_arb_sha256": "9bcbf137f2eabb34f44802d447f0ca403cc0f7b06e9314220fc533da8cf3bc44",
+  "reuse_arb_source": "data/native_2025_qualification_2026-09-07/request-000.json",
+  "strategy_tested": false
+}

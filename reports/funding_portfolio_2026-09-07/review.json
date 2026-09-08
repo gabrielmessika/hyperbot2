@@ -1,0 +1,18 @@
+{
+  "decision": "PROMISING_SHORT_SAMPLE_RESEARCH_CANDIDATE",
+  "evidence": {
+    "history_quality.json": "a5d3f981fc78483b9e549728d01eebaefc4f3bd079c14baed535e3c186fad5ba",
+    "quality.json": "24b975e468cb719a7a21a1b300f5035f23e46041851bd64a5b61d137b47010b5",
+    "reproduction.json": "489686a873d8b1b8a6c0da907a1aeec0ae3bc9b5cef475346fe77d40b301457f",
+    "summary.json": "b4eae7f3283002b69ce783be3317e1e6d158e96bf78ee527ec69b5dc057a1781",
+    "uncertainty.json": "b3e8d88dd24e4c0b2195f9cb562945070f83c946e8afccd0261de007fe8b7a20"
+  },
+  "gross_cap_at_entry": "0.4",
+  "live_enabled": false,
+  "next_step": "register older-period transferability test on remaining assets; CASHCAT native query only adds 116 older hourly candles",
+  "portfolio_screen_passed_in_sample": true,
+  "primary_24h_funding_test_remains_rejected": true,
+  "promotion_authorized": false,
+  "risk_calibrated_after_viewing_sample": true,
+  "robust_edge_proven": false
+}

@@ -1,0 +1,2785 @@
+{
+  "candidates": [
+    {
+      "base_monthly_compound": "0.173921720184357800315495221",
+      "gross_cap": "0.4",
+      "monthly_infra": "0",
+      "target_15pct_reached_in_sample": true
+    },
+    {
+      "base_monthly_compound": "0.153199745010762411491810706",
+      "gross_cap": "0.4",
+      "monthly_infra": "20",
+      "target_15pct_reached_in_sample": true
+    }
+  ],
+  "code_version": "source-sha256:6e19677f9e8c523015763462f11ab7d198fb041e06de5b2d3fe7f4a7b8d8dd5e",
+  "data_cost_usd": 0,
+  "decision": "SHORT_SAMPLE_PORTFOLIO_UNQUALIFIED",
+  "limitations": [
+    "52 days and selected universe, not independent holdout",
+    "hourly opens assumed at +60s, no executed quotes",
+    "funding oracle and liquidation marks unqualified",
+    "current margin metadata only, conservative 20% stress",
+    "OHLC envelope may overstate intrahour risk"
+  ],
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "promotion_authorized": false,
+  "protocol_sha256": "062ab4e9d2d940d2f21eced7e443fa0f922d7dc5851a05a736cc1c1a3319f292",
+  "results": [
+    {
+      "artifact": "funding72-cap-0.4-base-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "217.5966756168398848",
+        "FARTCOIN": "10.9998339794488298",
+        "INJ": "3.595948367952000",
+        "JUP": "5.849931136652424",
+        "LIT": "18.09974051051130",
+        "PUMP": "31.6414060750131304",
+        "XMR": "32.623529287876687"
+      },
+      "days": "52",
+      "end_equity": "1320.4070649742942560",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.173921720184357800315495221",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "21.04166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1119338913876681874432730657",
+      "max_observed_gross_ratio": "0.4341373572201848656741143059",
+      "max_ohlc_drawdown_envelope": "0.1783394745192212824066987736",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "905.3457416523859264",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "10.8429794286174021",
+          "return": "0.0108429794286174021"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "237.7963319637152699",
+          "return": "0.235245569097319639411543872"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "71.7677535819615840",
+          "return": "0.057476769253672463897606085"
+        }
+      ],
+      "net_total_usd": "320.4070649742942560",
+      "net_trading_usd": "320.4070649742942560",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "base",
+      "sha256": "1201f95e323b06d46036ecc488daf4e5a4bc7125fd5896a7b4d60763e7baf336",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-51.695937863505200"
+    },
+    {
+      "artifact": "funding72-cap-0.4-base-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "214.3441319948280248",
+        "FARTCOIN": "10.8479724040987548",
+        "INJ": "3.521032776953000",
+        "JUP": "5.773371956469188",
+        "LIT": "17.68616889608974",
+        "PUMP": "30.8849701240110248",
+        "XMR": "31.877926832483779"
+      },
+      "days": "52",
+      "end_equity": "1280.268908318266844733333111",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.153199745010762411491810706",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "28.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1124191997255615228024674501",
+      "max_observed_gross_ratio": "0.4343428477039836994153210794",
+      "max_ohlc_drawdown_envelope": "0.1785077703842321958408815313",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "904.2224513656687850222222212",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "0.151653633554174333333303",
+          "return": "0.000151653633554174333333303"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "213.545796739940311733333168",
+          "return": "0.213513416654492091646532983"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "66.571457944772358666666640",
+          "return": "0.054850125889517308524352107"
+        }
+      ],
+      "net_total_usd": "280.268908318266844733333111",
+      "net_trading_usd": "314.9355749849335113999997777",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "base",
+      "sha256": "477a1267ed329e88b5dde8335d0aead1f0ee664a605def700242fd7a6f8e3f53",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-50.769312562178220"
+    },
+    {
+      "artifact": "funding72-cap-0.4-cost_stress-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "214.1057171375003645",
+        "FARTCOIN": "10.2356511717297138",
+        "INJ": "3.341070459917450",
+        "JUP": "5.386450523523348",
+        "LIT": "17.78724691115130",
+        "PUMP": "31.0774857493551484",
+        "XMR": "30.205125684486531"
+      },
+      "days": "52",
+      "end_equity": "1312.1387476376638557",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.169675104460498490051063464",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "21.04166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1121596804374149075405399085",
+      "max_observed_gross_ratio": "0.4341385750807917229330701535",
+      "max_ohlc_drawdown_envelope": "0.1783041864318468561913184135",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "905.1771747440411892",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "9.2039261030270424",
+          "return": "0.0092039261030270424"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "231.9785776572980813",
+          "return": "0.229862936178882822566536216"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "70.9562438773387320",
+          "return": "0.057168259834768447238911761"
+        }
+      ],
+      "net_total_usd": "312.1387476376638557",
+      "net_trading_usd": "312.1387476376638557",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "cost_stress",
+      "sha256": "0b9c9f475ea628accd8ee26e4a3f0b9f3a6588c4bd9c1a3381cc36ab602318d5",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-51.758156127568940"
+    },
+    {
+      "artifact": "funding72-cap-0.4-cost_stress-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "210.9753736926627352",
+        "FARTCOIN": "10.1054899655558024",
+        "INJ": "3.279846655678125",
+        "JUP": "5.315939430594512",
+        "LIT": "17.37943829552974",
+        "PUMP": "30.3317699035983488",
+        "XMR": "29.518183056779812"
+      },
+      "days": "52",
+      "end_equity": "1272.239374333732408733333111",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.149021546082120315977853432",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "28.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1126752165328796454953374922",
+      "max_observed_gross_ratio": "0.4343464990849815504383982258",
+      "max_ohlc_drawdown_envelope": "0.1785220489325801338147185040",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "904.0238012386048250222222212",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-1.488496795917450966666697",
+          "return": "-0.001488496795917450966666697"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "207.953409735517153033333168",
+          "return": "0.208263409152747863359435276"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "65.774461394132706666666640",
+          "return": "0.054518337573424010963285678"
+        }
+      ],
+      "net_total_usd": "272.239374333732408733333111",
+      "net_trading_usd": "306.9060410003990753999997777",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "cost_stress",
+      "sha256": "e63711078cda403e3b7b90f335d6d318bdff11c765f462ddee26a6c7f345de36",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-50.827782460185960"
+    },
+    {
+      "artifact": "funding72-cap-0.4-delay-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "128.1267301060241426",
+        "FARTCOIN": "8.0838994436424264",
+        "INJ": "4.280839747372965",
+        "JUP": "4.842371147600232",
+        "LIT": "22.52449484019832",
+        "PUMP": "29.6982034554203264",
+        "XMR": "27.291686017663948"
+      },
+      "days": "52",
+      "end_equity": "1224.8482247579223604",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.124130414659087802172219638",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "21.04166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1118508725352909482906053015",
+      "max_observed_gross_ratio": "0.4340300654755024766757418674",
+      "max_ohlc_drawdown_envelope": "0.1729685233771848273305088425",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "901.7645377302080646",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-15.5932749371606180",
+          "return": "-0.015593274937160618"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "180.4133147028137714",
+          "return": "0.183271111532986660582610349"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "60.0281849922692070",
+          "return": "0.051534299671171615161839493"
+        }
+      ],
+      "net_total_usd": "224.8482247579223604",
+      "net_trading_usd": "224.8482247579223604",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "delay",
+      "sha256": "3f5db914fe15678b351b739d73b183c80ab63f2f1b407a19492de8d644ddb499",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-44.454250228392680"
+    },
+    {
+      "artifact": "funding72-cap-0.4-delay-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "125.9931718137350752",
+        "FARTCOIN": "7.9635880578393675",
+        "INJ": "4.196901713110750",
+        "JUP": "4.775885338027616",
+        "LIT": "21.98913847355576",
+        "PUMP": "29.0941351535151904",
+        "XMR": "26.803668495263190"
+      },
+      "days": "52",
+      "end_equity": "1186.149822378380282433333145",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.103501216444629488042416191",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "28.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1123650710041665753963996157",
+      "max_observed_gross_ratio": "0.4342377569603987167428077408",
+      "max_ohlc_drawdown_envelope": "0.1733490589879296326321884525",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "893.1238491554177850222221994",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-26.1672003026775392666666906",
+          "return": "-0.0261672003026775392666666906"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "157.2245080922482000333331956",
+          "return": "0.161449181154213783825836347"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "55.092514588809621666666640",
+          "return": "0.048708862238357417838541264"
+        }
+      ],
+      "net_total_usd": "186.149822378380282433333145",
+      "net_trading_usd": "220.8164890450469490999998117",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "delay",
+      "sha256": "f95ecd4118eb80179d0fd2573e47286ce6e629ebb4d5254bb1f8f04d7c596e7a",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-43.617153345994800"
+    },
+    {
+      "artifact": "funding72-cap-0.4-funding_adverse-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "217.4490631425868296",
+        "FARTCOIN": "10.9009130314807330",
+        "INJ": "3.555722974399443",
+        "JUP": "5.773663141710584",
+        "LIT": "18.00139106507850",
+        "PUMP": "31.6194553976137916",
+        "XMR": "32.359563217116798"
+      },
+      "days": "52",
+      "end_equity": "1319.6597719699866792",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.173538373128882419961915478",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "21.04166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1119282700830212591045214026",
+      "max_observed_gross_ratio": "0.4341375192196984468900834224",
+      "max_ohlc_drawdown_envelope": "0.1783252078032103585902686550",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "905.3457416523859264",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "10.7143807431376620",
+          "return": "0.010714380743137662"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "237.3349057869408212",
+          "return": "0.234818965979724166810182559"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "71.6104854399081960",
+          "return": "0.057377930673719715215894045"
+        }
+      ],
+      "net_total_usd": "319.6597719699866792",
+      "net_trading_usd": "319.6597719699866792",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "funding_adverse",
+      "sha256": "d9bf52523881a8ae706647b716e321522d2af7ab42c5a4e46b26e856f4b4cdbc",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-51.695937863505200"
+    },
+    {
+      "artifact": "funding72-cap-0.4-funding_adverse-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "214.2698617761963370",
+        "FARTCOIN": "10.7488325190941041",
+        "INJ": "3.490735870428696",
+        "JUP": "5.690984570135192",
+        "LIT": "17.59000499388878",
+        "PUMP": "30.8657668284773240",
+        "XMR": "31.642916010849339"
+      },
+      "days": "52",
+      "end_equity": "1279.632435902403105433333111",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.152868959470249551140003599",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "28.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1124442687480017248577009292",
+      "max_observed_gross_ratio": "0.4343450208816044183701788085",
+      "max_ohlc_drawdown_envelope": "0.1785440736975062579316938662",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "904.2224513656687850222222212",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "0.018339248245420733333303",
+          "return": "0.000018339248245420733333303"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "213.196097564599220033333168",
+          "return": "0.213192187780143535628491746"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "66.417999089558464666666640",
+          "return": "0.054745473738377854030244922"
+        }
+      ],
+      "net_total_usd": "279.632435902403105433333111",
+      "net_trading_usd": "314.2991025690697720999997777",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "funding_adverse",
+      "sha256": "df0748adf3988b9c7d0e9be0fe008c8f72847f17473699c1342ee045cda94964",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-50.769312562178220"
+    },
+    {
+      "artifact": "funding72-cap-0.4-zero_cost-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "238.622700",
+        "FARTCOIN": "13.429166",
+        "INJ": "4.19640",
+        "JUP": "7.00522",
+        "LIT": "19.3140",
+        "PUMP": "33.594630",
+        "XMR": "41.05427"
+      },
+      "days": "52",
+      "end_equity": "1357.216386",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.192692047880776899224919991",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "15.625",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1109128053019515169130098666",
+      "max_observed_gross_ratio": "0.4335874222869718997543832519",
+      "max_ohlc_drawdown_envelope": "0.1782539035895243978438945640",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "906.0358496",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "18.429061",
+          "return": "0.018429061"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "262.531265",
+          "return": "0.257780610406206780464211439"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "76.256060",
+          "return": "0.059530383925411285532663718"
+        }
+      ],
+      "net_total_usd": "357.216386",
+      "net_trading_usd": "357.216386",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "zero_cost",
+      "sha256": "5ad46d5af1efbbcc5b4a042d018ac556ad56f929090692f01d3b887a6ba208c3",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-52.17520"
+    },
+    {
+      "artifact": "funding72-cap-0.4-zero_cost-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "235.110728",
+        "FARTCOIN": "13.220788",
+        "INJ": "4.12108",
+        "JUP": "6.90564",
+        "LIT": "18.4740",
+        "PUMP": "32.790653",
+        "XMR": "40.20416"
+      },
+      "days": "52",
+      "end_equity": "1316.160382333333333333333111",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.171742029645409870159080833",
+      "green_months": 3,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.41666666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1113968711412451288872519130",
+      "max_observed_gross_ratio": "0.4337885050178345674693091627",
+      "max_ohlc_drawdown_envelope": "0.1784262989160006053548750392",
+      "max_positions": 5,
+      "minimum_margin_envelope_buffer_usd": "904.8184202222222222222222212",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "7.695525333333333333333303",
+          "return": "0.007695525333333333333333303"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "237.949910333333333333333168",
+          "return": "0.236132744813590809977517338"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "70.514946666666666666666640",
+          "return": "0.056609163930285847390012782"
+        }
+      ],
+      "net_total_usd": "316.160382333333333333333111",
+      "net_trading_usd": "350.8270489999999999999997777",
+      "promotion_authorized": false,
+      "red_months": 0,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 19,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 33,
+      "scenario": "zero_cost",
+      "sha256": "f629877153ef232f13736685eff1812ed187e136dbfb4550c5c87e14330d37c1",
+      "start_ms": 1784160000000,
+      "strategy": "funding72",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "-51.25560"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-base-infra-0.json",
+      "contributions_usd": {
+        "ARB": "12.2138053466130220",
+        "BNB": "2.860937220014108",
+        "CASHCAT": "33.7536621663370348",
+        "DOGE": "2.3496157438939379",
+        "ENA": "13.8367636309278537",
+        "FARTCOIN": "2.1663275039438872",
+        "INJ": "-0.783261456548769",
+        "JUP": "0.923280914861882",
+        "LINK": "5.568364660257261",
+        "LIT": "8.47896731940385",
+        "NEAR": "-1.664541824440628",
+        "PUMP": "19.1951511256238732",
+        "TAO": "1.351068607906287",
+        "UNI": "10.887413558814462",
+        "WLD": "-1.9135423478244309",
+        "XMR": "7.341879346403992",
+        "XPL": "-2.3925814857234136",
+        "XRP": "4.102443834544540",
+        "ZEC": "9.37850911601492"
+      },
+      "days": "52",
+      "end_equity": "1127.6542629810236693",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.071769808421965723072255177",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "34.125",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0628927354595448266107561886",
+      "max_observed_gross_ratio": "0.4629620197771390372332260277",
+      "max_ohlc_drawdown_envelope": "0.0904924148814567809463861894",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "864.4731218031052645",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-47.8265104884109263",
+          "return": "-0.0478265104884109263"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "161.5422159312508409",
+          "return": "0.169656283976266576912852516"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "13.9385575381837547",
+          "return": "0.012515364082651103441565348"
+        }
+      ],
+      "net_total_usd": "127.6542629810236693",
+      "net_trading_usd": "127.6542629810236693",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "base",
+      "sha256": "bdbd0cccaafe600d1580c10e88960a6b828a70e04c166edb96857dbed3b7e793",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.1081475399938650"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-base-infra-20.json",
+      "contributions_usd": {
+        "ARB": "11.7942730283157641",
+        "BNB": "2.762709168795478",
+        "CASHCAT": "32.8366936590838232",
+        "DOGE": "2.2753043299908401",
+        "ENA": "13.5402929808710425",
+        "FARTCOIN": "2.0854021146617894",
+        "INJ": "-0.823907028121716",
+        "JUP": "0.861404676527598",
+        "LINK": "5.692533836885929",
+        "LIT": "8.46390677347744",
+        "NEAR": "-1.719855911839405",
+        "PUMP": "18.8936948919866583",
+        "TAO": "1.299994941597545",
+        "UNI": "10.648090305084090",
+        "WLD": "-1.9290444959182326",
+        "XMR": "7.191422394494266",
+        "XPL": "-2.3718967007370628",
+        "XRP": "4.225271126779590",
+        "ZEC": "7.14431598708969"
+      },
+      "days": "52",
+      "end_equity": "1088.203939412358460533333234",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.049975137881914310361775278",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.75",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0713992476903848138368952842",
+      "max_observed_gross_ratio": "0.4596440430122926115668647198",
+      "max_ohlc_drawdown_envelope": "0.0908084661851493475716800369",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "856.3101234739528971222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-58.2993050829486673666666752",
+          "return": "-0.0582993050829486673666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "136.3131299648927135333332692",
+          "return": "0.144752075368171736651083613"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "10.190114530414414366666640",
+          "return": "0.009452675183947997097146969"
+        }
+      ],
+      "net_total_usd": "88.203939412358460533333234",
+      "net_trading_usd": "122.8706060790251271999999007",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "base",
+      "sha256": "36220daba3fa08474b1a2c9af017298903da03ec1ca832cba4a90b4c3c20467d",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.1081475399938650"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-cost_stress-infra-0.json",
+      "contributions_usd": {
+        "ARB": "11.5793726351969201",
+        "BNB": "2.349221065263025",
+        "CASHCAT": "32.9909673727045667",
+        "DOGE": "1.8127465970045051",
+        "ENA": "13.2183148695146458",
+        "FARTCOIN": "1.6300563353614585",
+        "INJ": "-1.239024715681041",
+        "JUP": "0.373496320663284",
+        "LINK": "5.178137778425051",
+        "LIT": "7.99555529724385",
+        "NEAR": "-2.162389798297890",
+        "PUMP": "18.5826557930738366",
+        "TAO": "0.811487677333029",
+        "UNI": "10.351132015776219",
+        "WLD": "-2.4250526786111442",
+        "XMR": "6.784814410039821",
+        "XPL": "-2.8977309041372346",
+        "XRP": "3.583491579181940",
+        "ZEC": "8.91928223196692"
+      },
+      "days": "52",
+      "end_equity": "1117.4365338820217620",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.066156316779017808154216839",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "34.16666666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0650712739542604009641533243",
+      "max_observed_gross_ratio": "0.4636936837825221828830149453",
+      "max_ohlc_drawdown_envelope": "0.0906570098768949789943325793",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "862.1605921250481062",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-50.8758585652258268",
+          "return": "-0.0508758585652258268"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "154.8121389104151825",
+          "return": "0.163110527013240239537434976"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "13.5002535368324063",
+          "return": "0.012229196355980816111189130"
+        }
+      ],
+      "net_total_usd": "117.4365338820217620",
+      "net_trading_usd": "117.4365338820217620",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "cost_stress",
+      "sha256": "fd4b27b25d167bc5c2614b35ede4e1090bc9bf200c81138fa915b7eb65eb759d",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.1338176688754650"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-cost_stress-infra-20.json",
+      "contributions_usd": {
+        "ARB": "11.1746559565667474",
+        "BNB": "2.264876895713263",
+        "CASHCAT": "32.0708130612712371",
+        "DOGE": "1.7750969112470343",
+        "ENA": "12.9772546324168556",
+        "FARTCOIN": "1.5584045313406905",
+        "INJ": "-1.215564034611389",
+        "JUP": "0.345194940496000",
+        "LINK": "5.186837089675389",
+        "LIT": "8.11307329615684",
+        "NEAR": "-2.194067640786869",
+        "PUMP": "18.2971991697194021",
+        "TAO": "0.810947081276002",
+        "UNI": "10.019684540347645",
+        "WLD": "-2.4375107220224661",
+        "XMR": "6.683502168886732",
+        "XPL": "-2.8697489063492680",
+        "XRP": "3.733972029331590",
+        "ZEC": "6.95449223921854"
+      },
+      "days": "52",
+      "end_equity": "1078.582446573227309233333234",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.044609219851789156634007081",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.95833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0733001516136374398843281114",
+      "max_observed_gross_ratio": "0.4611189017090395189109940975",
+      "max_ohlc_drawdown_envelope": "0.0909962497940660217752050298",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "854.2952844596849798222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-61.0957560950608300666666752",
+          "return": "-0.0610957560950608300666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "129.9421788545515883333332692",
+          "return": "0.138397690390786845416784595"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "9.736023813736550966666640",
+          "return": "0.009108908077364943889017738"
+        }
+      ],
+      "net_total_usd": "78.582446573227309233333234",
+      "net_trading_usd": "113.2491132398939758999999007",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "cost_stress",
+      "sha256": "58bf5e7baab6dd142de23573ea811ee2472bbb1df90f7be7753214d54c573b6e",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.0963346381433200"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-delay-infra-0.json",
+      "contributions_usd": {
+        "ARB": "11.8300460595585863",
+        "BNB": "3.475246838143713",
+        "CASHCAT": "35.2775747645721230",
+        "DOGE": "2.5871958025518155",
+        "ENA": "19.4824778691828937",
+        "FARTCOIN": "3.1006128008644451",
+        "INJ": "-0.491420021229213",
+        "JUP": "2.277804789148757",
+        "LINK": "5.671582797113311",
+        "LIT": "10.89200633571151",
+        "NEAR": "-0.963447624046018",
+        "PUMP": "21.2943267484548761",
+        "TAO": "2.594396776734488",
+        "UNI": "10.837394998178730",
+        "WLD": "-0.8075410222044347",
+        "XMR": "8.335415358478351",
+        "XPL": "1.0256866496000491",
+        "XRP": "5.087695673619505",
+        "ZEC": "10.35374526263951"
+      },
+      "days": "52",
+      "end_equity": "1151.8608008570729981",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.084983356809777530775237863",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "24.54166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0557581483175201178958513195",
+      "max_observed_gross_ratio": "0.4617089432856315983712658448",
+      "max_ohlc_drawdown_envelope": "0.0900204560984909978480545106",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "871.6695602379611536",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-39.0796239852133026",
+          "return": "-0.0390796239852133026"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "181.0457803271406159",
+          "return": "0.188408722352199005857127768"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "9.8946445151456848",
+          "return": "0.008664568963095463236781074"
+        }
+      ],
+      "net_total_usd": "151.8608008570729981",
+      "net_trading_usd": "151.8608008570729981",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "delay",
+      "sha256": "8a0cea37777c3dcdeeab50f009b9161d374f0ff48968b2a762c8661958762ddc",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "6.291666666666666666666666667",
+      "worst_cycle_usd": "-7.9365953918671416"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-delay-infra-20.json",
+      "contributions_usd": {
+        "ARB": "11.4538182401413836",
+        "BNB": "3.381232342803568",
+        "CASHCAT": "34.3958756181373514",
+        "DOGE": "2.5043985990592359",
+        "ENA": "19.0568403767202365",
+        "FARTCOIN": "3.0267781803557656",
+        "INJ": "-0.498837160890414",
+        "JUP": "2.165877356402495",
+        "LINK": "5.640161885157910",
+        "LIT": "10.40414034545054",
+        "NEAR": "-1.032840916017133",
+        "PUMP": "20.9812046732097203",
+        "TAO": "2.539013138164572",
+        "UNI": "10.608587215972992",
+        "WLD": "-0.8646219833317750",
+        "XMR": "8.172200395716040",
+        "XPL": "0.9882717320819790",
+        "XRP": "5.083878536287870",
+        "ZEC": "10.35374526263951"
+      },
+      "days": "52",
+      "end_equity": "1113.693057171395180633333234",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.064094266667190962361444607",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0642558699219039307300475747",
+      "max_observed_gross_ratio": "0.4648443193874540660162166374",
+      "max_ohlc_drawdown_envelope": "0.0899815245241784592794594722",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "863.6466528161625130222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-49.5384352169294779666666752",
+          "return": "-0.0495384352169294779666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "156.9254111049838934333332692",
+          "return": "0.165104426017268683956984104"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "6.306081283340765166666640",
+          "return": "0.005694559734444850455599952"
+        }
+      ],
+      "net_total_usd": "113.693057171395180633333234",
+      "net_trading_usd": "148.3597238380618472999999007",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "delay",
+      "sha256": "a80fbfd137785cc9f3062dc2d646e49a019409be4ec13fdea3e3400120179eb7",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "6.291666666666666666666666667",
+      "worst_cycle_usd": "-7.9365953918671416"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-funding_adverse-infra-0.json",
+      "contributions_usd": {
+        "ARB": "11.9656399705416269",
+        "BNB": "2.790091927530311",
+        "CASHCAT": "33.6959656591928675",
+        "DOGE": "2.3368060135369730",
+        "ENA": "13.7468413354133477",
+        "FARTCOIN": "2.1292387939414303",
+        "INJ": "-1.209223697238677",
+        "JUP": "0.559276010915662",
+        "LINK": "5.537781112911839",
+        "LIT": "8.40542601899535",
+        "NEAR": "-1.662931098196919",
+        "PUMP": "19.1550234394935392",
+        "TAO": "1.365730695542870",
+        "UNI": "10.842314118874819",
+        "WLD": "-2.1182169936571286",
+        "XMR": "7.185123026787901",
+        "XPL": "-2.4044775975219330",
+        "XRP": "4.046130438195820",
+        "ZEC": "9.35497121298340"
+      },
+      "days": "52",
+      "end_equity": "1125.7215103882430990",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.070709634079948249191684937",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "34.125",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0633280943966799200795618600",
+      "max_observed_gross_ratio": "0.4629381813980923993350936671",
+      "max_ohlc_drawdown_envelope": "0.0905204923672156380722395607",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "864.0686237594245224",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-48.4064159646729688",
+          "return": "-0.0484064159646729688"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "160.2279859944406694",
+          "return": "0.168378590064655536491483852"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "13.8999403584753984",
+          "return": "0.012501952411395691867807642"
+        }
+      ],
+      "net_total_usd": "125.7215103882430990",
+      "net_trading_usd": "125.7215103882430990",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "funding_adverse",
+      "sha256": "ed3d7f9fcdf6c19c2ab802ed2d87aab9bf67ca56d18998ab50c45124dafa866c",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.1081475399938650"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-funding_adverse-infra-20.json",
+      "contributions_usd": {
+        "ARB": "11.5516556526055531",
+        "BNB": "2.699650186098437",
+        "CASHCAT": "32.7590688520339414",
+        "DOGE": "2.2479167518999109",
+        "ENA": "13.5032382839465877",
+        "FARTCOIN": "2.0542845613216195",
+        "INJ": "-1.293204214248680",
+        "JUP": "0.502338704786386",
+        "LINK": "5.662175566227227",
+        "LIT": "8.62897717920170",
+        "NEAR": "-1.721628556169677",
+        "PUMP": "18.8575036830345820",
+        "TAO": "1.278333196446623",
+        "UNI": "10.625228133378814",
+        "WLD": "-2.1347526303928108",
+        "XMR": "7.031417375673197",
+        "XPL": "-2.3956787091350853",
+        "XRP": "4.171860288046810",
+        "ZEC": "7.12077808405817"
+      },
+      "days": "52",
+      "end_equity": "1086.482495722146638833333234",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.049016565594588278878402484",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.79166666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0716092556928457182757044874",
+      "max_observed_gross_ratio": "0.4599540588608465139517388356",
+      "max_ohlc_drawdown_envelope": "0.0908669298785672542426934635",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "856.0977234719442798222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-58.6418166314018601666666752",
+          "return": "-0.0586418166314018601666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "134.9550214637702315333332692",
+          "return": "0.143362031422344637363532808"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "10.169290889778267466666640",
+          "return": "0.009448263613343009467145200"
+        }
+      ],
+      "net_total_usd": "86.482495722146638833333234",
+      "net_trading_usd": "121.1491623888133054999999007",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "funding_adverse",
+      "sha256": "4eec9410e17fbc6a5db373eee04be4e1b95d83d3623995ed03df40b7555572bc",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-8.1081475399938650"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-zero_cost-infra-0.json",
+      "contributions_usd": {
+        "ARB": "12.951227",
+        "BNB": "3.60128",
+        "CASHCAT": "37.608841",
+        "DOGE": "3.126984",
+        "ENA": "14.796760",
+        "FARTCOIN": "3.206014",
+        "INJ": "-0.34778",
+        "JUP": "1.54924",
+        "LINK": "6.71364",
+        "LIT": "9.2748",
+        "NEAR": "-0.77376",
+        "PUMP": "20.253590",
+        "TAO": "2.23909",
+        "UNI": "11.86811",
+        "WLD": "-1.277049",
+        "XMR": "8.94417",
+        "XPL": "-1.619564",
+        "XRP": "4.77630",
+        "ZEC": "10.3807"
+      },
+      "days": "52",
+      "end_equity": "1147.272593",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.082487897131292756279183925",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "19.875",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0601507083066433400925832007",
+      "max_observed_gross_ratio": "0.4625855523866443925510967913",
+      "max_ohlc_drawdown_envelope": "0.0904468618775136035069843039",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "868.0476382",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-43.191067",
+          "return": "-0.043191067"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "175.636250",
+          "return": "0.183564600979744406295169905"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "14.827410",
+          "return": "0.013093269522079816202458958"
+        }
+      ],
+      "net_total_usd": "147.272593",
+      "net_trading_usd": "147.272593",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "zero_cost",
+      "sha256": "76da86f72f10266c072a767eb6a0125d5a2d7570051d1778789fd276028eccbe",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "9.041666666666666666666666667",
+      "worst_cycle_usd": "-7.851060"
+    },
+    {
+      "artifact": "grid_long-cap-0.4-zero_cost-infra-20.json",
+      "contributions_usd": {
+        "ARB": "12.532746",
+        "BNB": "3.50407",
+        "CASHCAT": "36.656700",
+        "DOGE": "3.038007",
+        "ENA": "14.513165",
+        "FARTCOIN": "3.098507",
+        "INJ": "-0.30918",
+        "JUP": "1.45173",
+        "LINK": "6.45526",
+        "LIT": "9.2250",
+        "NEAR": "-0.82490",
+        "PUMP": "19.938814",
+        "TAO": "2.17596",
+        "UNI": "11.60144",
+        "WLD": "-1.318216",
+        "XMR": "8.81573",
+        "XPL": "-1.634616",
+        "XRP": "4.76130",
+        "ZEC": "10.1832"
+      },
+      "days": "52",
+      "end_equity": "1109.198050333333333333333234",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.061614366427349183118363976",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0677080565935575584720181244",
+      "max_observed_gross_ratio": "0.4645080191227085888474393241",
+      "max_ohlc_drawdown_envelope": "0.0907206324760322644123039827",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "859.8644148222222222222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-53.5817826666666666666666752",
+          "return": "-0.0535817826666666666666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "151.6904733333333333333332692",
+          "return": "0.160278480015677015786042925"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "11.089359666666666666666640",
+          "return": "0.010098599310724211759205578"
+        }
+      ],
+      "net_total_usd": "109.198050333333333333333234",
+      "net_trading_usd": "143.8647169999999999999999007",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 304,
+      "scenario": "zero_cost",
+      "sha256": "e8324ad19f8b29d598f5e833877ad7bcb0bc5dcc2cb1e9ad63ed51815d37617f",
+      "start_ms": 1784160000000,
+      "strategy": "grid_long",
+      "unrecovered_at_end_days": "14.79166666666666666666666667",
+      "worst_cycle_usd": "-7.851060"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-base-infra-0.json",
+      "contributions_usd": {
+        "ARB": "22.0503355255049580",
+        "BNB": "6.570884564775252",
+        "CASHCAT": "30.3920793887722424",
+        "DOGE": "4.4759943214185710",
+        "ENA": "21.9342873439997952",
+        "FARTCOIN": "3.4251131385089406",
+        "INJ": "-0.506148634732082",
+        "JUP": "1.754511146020960",
+        "LINK": "8.121074368823928",
+        "LIT": "18.31167657897776",
+        "NEAR": "1.190523236179274",
+        "PUMP": "29.3773965837365000",
+        "TAO": "3.775579910920642",
+        "UNI": "18.526431010531976",
+        "WLD": "-0.3300730521631619",
+        "XMR": "12.522180718768518",
+        "XPL": "1.4397917210707164",
+        "XRP": "5.206911848935812",
+        "ZEC": "13.71374662793325"
+      },
+      "days": "52",
+      "end_equity": "1201.9522963479838517",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.111959033599670320834065733",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "23.95833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0486332608914269508536858670",
+      "max_observed_gross_ratio": "0.5034652668413251298597460590",
+      "max_ohlc_drawdown_envelope": "0.1050981726252871582969366931",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "884.1569929313983462",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-30.3622432774238008",
+          "return": "-0.0303622432774238008"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "165.1748116547995534",
+          "return": "0.170346926478088708748734841"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "67.1397279706080991",
+          "return": "0.059163715525823421640876717"
+        }
+      ],
+      "net_total_usd": "201.9522963479838517",
+      "net_trading_usd": "201.9522963479838517",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "base",
+      "sha256": "f99ebe1176299ec91b80cce0fd174ec4a6eca58313410fd5b3073c0d92514f8a",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.506148634732082"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-base-infra-20.json",
+      "contributions_usd": {
+        "ARB": "22.0412049517883928",
+        "BNB": "6.570884564775252",
+        "CASHCAT": "30.3920793887722424",
+        "DOGE": "4.4759943214185710",
+        "ENA": "21.9342873439997952",
+        "FARTCOIN": "3.4251131385089406",
+        "INJ": "-0.506148634732082",
+        "JUP": "1.754511146020960",
+        "LINK": "8.121074368823928",
+        "LIT": "18.31167657897776",
+        "NEAR": "1.190523236179274",
+        "PUMP": "29.3660975850504475",
+        "TAO": "3.775579910920642",
+        "UNI": "18.526431010531976",
+        "WLD": "-0.3300730521631619",
+        "XMR": "12.323415945454732",
+        "XPL": "1.4397917210707164",
+        "XRP": "5.206911848935812",
+        "ZEC": "13.71374662793325"
+      },
+      "days": "52",
+      "end_equity": "1167.066435335600781333333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.093223573346932170693750958",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0574375931714053586708158354",
+      "max_observed_gross_ratio": "0.5179555028490392570691232385",
+      "max_ohlc_drawdown_envelope": "0.1073998744778720350055521744",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "874.9419956635177732222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-41.0520645285628473666666752",
+          "return": "-0.0410520645285628473666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "144.3475719703742783333333172",
+          "return": "0.150527016776369876796169863"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "63.770927893789350366666664",
+          "return": "0.057800405660722472634205198"
+        }
+      ],
+      "net_total_usd": "167.066435335600781333333306",
+      "net_trading_usd": "201.7331020022674479999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "base",
+      "sha256": "bae2081d2f1342bb4ae7c6de8c58f2951a370d143e4098a41139f96ee64da664",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.506148634732082"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-cost_stress-infra-0.json",
+      "contributions_usd": {
+        "ARB": "21.9930083801111928",
+        "BNB": "6.534477830482452",
+        "CASHCAT": "30.3350404279108424",
+        "DOGE": "4.4408343302470910",
+        "ENA": "21.8858920601444352",
+        "FARTCOIN": "3.3904962913611006",
+        "INJ": "-0.536679869490482",
+        "JUP": "1.721779459776160",
+        "LINK": "8.084248732958328",
+        "LIT": "18.26887392595376",
+        "NEAR": "1.157926631014874",
+        "PUMP": "29.3140482782252580",
+        "TAO": "3.740920673835442",
+        "UNI": "18.481063985779976",
+        "WLD": "-0.3615195835151219",
+        "XMR": "12.480077054124918",
+        "XPL": "1.4069310751411164",
+        "XRP": "5.172865477279812",
+        "ZEC": "13.67848342466925"
+      },
+      "days": "52",
+      "end_equity": "1201.1887685860104045",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.111551463164794693822749451",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "23.95833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0486466438707523854248902017",
+      "max_observed_gross_ratio": "0.5035673962667981066616812982",
+      "max_ohlc_drawdown_envelope": "0.1051210212627462413248906556",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "883.8677185154087523",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-30.6557347456504517",
+          "return": "-0.0306557347456504517"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "165.1623805936506354",
+          "return": "0.170385678766370083149957944"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "66.6821227380102208",
+          "return": "0.058776317425772233203390038"
+        }
+      ],
+      "net_total_usd": "201.1887685860104045",
+      "net_trading_usd": "201.1887685860104045",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "cost_stress",
+      "sha256": "4051e7307479bc8cef211fed978cc96d3acc58e306a16be5361a68b63c8f0ddf",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.536679869490482"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-cost_stress-infra-20.json",
+      "contributions_usd": {
+        "ARB": "21.9838977718344276",
+        "BNB": "6.534477830482452",
+        "CASHCAT": "30.1952476148789952",
+        "DOGE": "4.4408343302470910",
+        "ENA": "21.8858920601444352",
+        "FARTCOIN": "3.3881692520396448",
+        "INJ": "-0.536679869490482",
+        "JUP": "1.721779459776160",
+        "LINK": "8.084248732958328",
+        "LIT": "18.26887392595376",
+        "NEAR": "1.157926631014874",
+        "PUMP": "29.3027701740862055",
+        "TAO": "3.740920673835442",
+        "UNI": "18.481063985779976",
+        "WLD": "-0.3615195835151219",
+        "XMR": "12.281980592948332",
+        "XPL": "1.4069310751411164",
+        "XRP": "5.172865477279812",
+        "ZEC": "13.67848342466925"
+      },
+      "days": "52",
+      "end_equity": "1166.161496893398031133333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.092734446372978609006842991",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0573782854926459023227696809",
+      "max_observed_gross_ratio": "0.5178940948746966860314018144",
+      "max_ohlc_drawdown_envelope": "0.1073314192869941802933648166",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "874.7357787262431268222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-41.2838251677814424666666752",
+          "return": "-0.0412838251677814424666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "144.1871481425107242333333172",
+          "return": "0.150396073340208737335297520"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "63.258173918668749366666664",
+          "return": "0.057356046174609429342088651"
+        }
+      ],
+      "net_total_usd": "166.161496893398031133333306",
+      "net_trading_usd": "200.8281635600646977999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "cost_stress",
+      "sha256": "ee00782f083f92d77a25352de54b65dbd348d5fd6bf4d88a090193876e7c95b6",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.536679869490482"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-delay-infra-0.json",
+      "contributions_usd": {
+        "ARB": "22.2883453394277856",
+        "BNB": "6.621216551778852",
+        "CASHCAT": "30.2012285258324736",
+        "DOGE": "4.6085609118898944",
+        "ENA": "21.9235349206090752",
+        "FARTCOIN": "3.6826086506685834",
+        "INJ": "-0.568250909840882",
+        "JUP": "1.881658400074960",
+        "LINK": "8.598304692489925",
+        "LIT": "18.16942539616176",
+        "NEAR": "1.238195065193474",
+        "PUMP": "29.6893286659853400",
+        "TAO": "3.835800211813442",
+        "UNI": "19.134150478475547",
+        "WLD": "-0.2876407550912016",
+        "XMR": "12.534421359970818",
+        "XPL": "1.4707508759090805",
+        "XRP": "5.629532773902246",
+        "ZEC": "13.59417572591025"
+      },
+      "days": "52",
+      "end_equity": "1204.2453468811614231",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.113182403944500941109998306",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "23.95833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0486512989758298626491093805",
+      "max_observed_gross_ratio": "0.5061094464026020414124151283",
+      "max_ohlc_drawdown_envelope": "0.1055097672615125084950988762",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "884.5673289154356795",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-29.2684895750577723",
+          "return": "-0.0292684895750577723"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "166.0892219979496912",
+          "return": "0.171096971937424141915601977"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "67.4246144582695042",
+          "return": "0.059309803679044681173694953"
+        }
+      ],
+      "net_total_usd": "204.2453468811614231",
+      "net_trading_usd": "204.2453468811614231",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "delay",
+      "sha256": "035bf5abc77b1a202ca1ce6e07e1c15e99e95cf22fde851c67d6a56b63487e45",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.568250909840882"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-delay-infra-20.json",
+      "contributions_usd": {
+        "ARB": "22.2791656255318104",
+        "BNB": "6.621216551778852",
+        "CASHCAT": "30.2012285258324736",
+        "DOGE": "4.6085609118898944",
+        "ENA": "21.9235349206090752",
+        "FARTCOIN": "3.6801085769070976",
+        "INJ": "-0.568250909840882",
+        "JUP": "1.881658400074960",
+        "LINK": "8.598304692489925",
+        "LIT": "18.16942539616176",
+        "NEAR": "1.238195065193474",
+        "PUMP": "29.6779795342322875",
+        "TAO": "3.835800211813442",
+        "UNI": "19.134150478475547",
+        "WLD": "-0.2876407550912016",
+        "XMR": "12.534421359970818",
+        "XPL": "1.4647478111094516",
+        "XRP": "5.629532773902246",
+        "ZEC": "13.59417572591025"
+      },
+      "days": "52",
+      "end_equity": "1169.549648230284614033333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.094564947558163886621721992",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0574194703284400492696619326",
+      "max_observed_gross_ratio": "0.5209432115983552564788320000",
+      "max_ohlc_drawdown_envelope": "0.1078284774487444662645288561",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "875.3261089595599797222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-39.9218989649392985666666752",
+          "return": "-0.0399218989649392985666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "145.3935752888889337333333172",
+          "return": "0.151439320542922543892615095"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "64.077971906334978866666664",
+          "return": "0.057964372383935634711120277"
+        }
+      ],
+      "net_total_usd": "169.549648230284614033333306",
+      "net_trading_usd": "204.2163148969512806999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "delay",
+      "sha256": "89917a9cb1506be41e84ab2865846683af15147f0de92c52b9a8f9c5aabf6509",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.568250909840882"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-funding_adverse-infra-0.json",
+      "contributions_usd": {
+        "ARB": "21.8403623443676580",
+        "BNB": "6.504784284944844",
+        "CASHCAT": "30.3349617404527610",
+        "DOGE": "4.4495955681205028",
+        "ENA": "21.8906115756281344",
+        "FARTCOIN": "3.3955631571627198",
+        "INJ": "-0.980330567218844",
+        "JUP": "1.411028268639060",
+        "LINK": "8.087813693779512",
+        "LIT": "18.21396769787376",
+        "NEAR": "1.179591736837976",
+        "PUMP": "29.3491737730373000",
+        "TAO": "3.764310557674838",
+        "UNI": "18.497961683040392",
+        "WLD": "-0.5151473221526069",
+        "XMR": "12.324726233578584",
+        "XPL": "1.4252417130851780",
+        "XRP": "5.153191740661464",
+        "ZEC": "13.69398719190297"
+      },
+      "days": "52",
+      "end_equity": "1200.0213950714162031",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.110928108269372012833572283",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "23.95833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0490818805305141258300739629",
+      "max_observed_gross_ratio": "0.5042732203430844528160088596",
+      "max_ohlc_drawdown_envelope": "0.1052535283131604168364135107",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "883.7037571464574033",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-30.9599083138456392",
+          "return": "-0.0309599083138456392"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "163.9366049617886292",
+          "return": "0.169174223407552493175387540"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "67.0446984234732131",
+          "return": "0.059175708222272850508032819"
+        }
+      ],
+      "net_total_usd": "200.0213950714162031",
+      "net_trading_usd": "200.0213950714162031",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "funding_adverse",
+      "sha256": "2001423ad4b01629ec7463b32fc4cefad2cdfc9824b80f219ca5df3483c2eaee",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.980330567218844"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-funding_adverse-infra-20.json",
+      "contributions_usd": {
+        "ARB": "21.8313187160677128",
+        "BNB": "6.504784284944844",
+        "CASHCAT": "30.3349617404527610",
+        "DOGE": "4.4495955681205028",
+        "ENA": "21.8906115756281344",
+        "FARTCOIN": "3.3955631571627198",
+        "INJ": "-0.980330567218844",
+        "JUP": "1.411028268639060",
+        "LINK": "8.087813693779512",
+        "LIT": "18.21396769787376",
+        "NEAR": "1.179591736837976",
+        "PUMP": "29.3378856292784395",
+        "TAO": "3.764310557674838",
+        "UNI": "18.497961683040392",
+        "WLD": "-0.5151473221526069",
+        "XMR": "12.129095658442416",
+        "XPL": "1.4252417130851780",
+        "XRP": "5.153191740661464",
+        "ZEC": "13.69398719190297"
+      },
+      "days": "52",
+      "end_equity": "1165.138766057554562733333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.092181458263094618578514492",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.20833333333333333333333333",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0578878187091083892265648234",
+      "max_observed_gross_ratio": "0.5188100704504169221906101732",
+      "max_ohlc_drawdown_envelope": "0.1075618309768735919234053495",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "874.4873568321946774222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-41.6481545764075179666666752",
+          "return": "-0.0416481545764075179666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "143.1109081036758673333333172",
+          "return": "0.149330236892715223650790211"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "63.676012530286213366666664",
+          "return": "0.057810409227523478787174972"
+        }
+      ],
+      "net_total_usd": "165.138766057554562733333306",
+      "net_trading_usd": "199.8054327242212293999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "funding_adverse",
+      "sha256": "6dfebdea0a9aa52d3f48b6292971e770589794a7ac7a455d834fc38133c8ccf8",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.980330567218844"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-zero_cost-infra-0.json",
+      "contributions_usd": {
+        "ARB": "22.205925",
+        "BNB": "6.93252",
+        "CASHCAT": "33.994135",
+        "DOGE": "4.839107",
+        "ENA": "22.522624",
+        "FARTCOIN": "4.094064",
+        "INJ": "-0.48544",
+        "JUP": "1.89932",
+        "LINK": "8.56704",
+        "LIT": "18.7416",
+        "NEAR": "1.60371",
+        "PUMP": "30.362005",
+        "TAO": "4.27893",
+        "UNI": "18.98680",
+        "WLD": "-0.128061",
+        "XMR": "14.06349",
+        "XPL": "1.844640",
+        "XRP": "5.4954",
+        "ZEC": "14.1576"
+      },
+      "days": "52",
+      "end_equity": "1213.975409",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.118362583215307335986897769",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "23.875",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0470053842747115293240889353",
+      "max_observed_gross_ratio": "0.4986834183194143885054234028",
+      "max_ohlc_drawdown_envelope": "0.1043983443045591779766683114",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "886.0673788",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-28.329974",
+          "return": "-0.028329974"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "173.227586",
+          "return": "0.178278202851551170520515778"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "69.077797",
+          "return": "0.060335349009357528470414872"
+        }
+      ],
+      "net_total_usd": "213.975409",
+      "net_trading_usd": "213.975409",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "zero_cost",
+      "sha256": "4c7756340f5fdf308d185faa1241a1a9d181b5a31ce8ef854e5d22bd36d6b001",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.48544"
+    },
+    {
+      "artifact": "hold_equal-cap-0.4-zero_cost-infra-20.json",
+      "contributions_usd": {
+        "ARB": "22.196730",
+        "BNB": "6.93252",
+        "CASHCAT": "33.994135",
+        "DOGE": "4.839107",
+        "ENA": "22.522624",
+        "FARTCOIN": "4.091256",
+        "INJ": "-0.48544",
+        "JUP": "1.89932",
+        "LINK": "8.56704",
+        "LIT": "18.7416",
+        "NEAR": "1.60371",
+        "PUMP": "30.350330",
+        "TAO": "4.27893",
+        "UNI": "18.98680",
+        "WLD": "-0.128061",
+        "XMR": "14.06349",
+        "XPL": "1.844640",
+        "XRP": "5.4954",
+        "ZEC": "14.1576"
+      },
+      "days": "52",
+      "end_equity": "1179.285064333333333333333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.099812211454187453562786080",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "34.16666666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.0557945122226504453166291384",
+      "max_observed_gross_ratio": "0.5132599497165557218022112343",
+      "max_ohlc_drawdown_envelope": "0.1067070500295035719511413706",
+      "max_positions": 19,
+      "minimum_margin_envelope_buffer_usd": "876.7981464222222222222222148",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-38.9959996666666666666666752",
+          "return": "-0.0389959996666666666666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "152.5407053333333333333333172",
+          "return": "0.158730562287381890090161978"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "65.740358666666666666666664",
+          "return": "0.059037017851302750135925765"
+        }
+      ],
+      "net_total_usd": "179.285064333333333333333306",
+      "net_trading_usd": "213.9517309999999999999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 19,
+      "scenario": "zero_cost",
+      "sha256": "8ec94018b8ff87618e3240abc468da351ee673852a0abb2dd0b08a8e116a91e3",
+      "start_ms": 1784160000000,
+      "strategy": "hold_equal",
+      "unrecovered_at_end_days": "0.08333333333333333333333333333",
+      "worst_cycle_usd": "-0.48544"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-base-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "192.4364842404288528"
+      },
+      "days": "52",
+      "end_equity": "1192.4364842404288528",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.106871646455948248346664008",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1044144637234361700680262187",
+      "max_observed_gross_ratio": "0.3338970987685529396701849126",
+      "max_ohlc_drawdown_envelope": "0.1960366057810600315948386958",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "869.0948021873790208",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-81.4986259945681158",
+          "return": "-0.0814986259945681158"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "196.7083491081620526",
+          "return": "0.214162280727299976680363044"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "77.2267611268349160",
+          "return": "0.069248644022958083470162143"
+        }
+      ],
+      "net_total_usd": "192.4364842404288528",
+      "net_trading_usd": "192.4364842404288528",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "base",
+      "sha256": "778311e73d703be70322c455d4b46074a7214010b7bd5a2f3a9b2563cfb5bfe9",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.4364842404288528"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-base-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "192.4364842404288528"
+      },
+      "days": "52",
+      "end_equity": "1157.769817573762186133333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.088190998171708797493583070",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1123547813656371318873014735",
+      "max_observed_gross_ratio": "0.3428811374713073269475307934",
+      "max_ohlc_drawdown_envelope": "0.2080022644855996573505701915",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "844.261468854045687466666647",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-92.1652926612347824666666752",
+          "return": "-0.0921652926612347824666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "176.0416824414953859333333172",
+          "return": "0.193913805033457630947852334"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "73.893427793501582666666664",
+          "return": "0.068175142931642184246710517"
+        }
+      ],
+      "net_total_usd": "157.769817573762186133333306",
+      "net_trading_usd": "192.4364842404288527999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "base",
+      "sha256": "70f7a00aaa0231939a7351cee783f74af98a46776f094f5124ce392be2a24020",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.4364842404288528"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-cost_stress-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "192.0753251057580528"
+      },
+      "days": "52",
+      "end_equity": "1192.0753251057580528",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.106678224241808570935966156",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1044247428518043085334970932",
+      "max_observed_gross_ratio": "0.3339233773761073857156214112",
+      "max_ohlc_drawdown_envelope": "0.1960539982102802591639371860",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "868.9948524120042208",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-81.5985757699429158",
+          "return": "-0.0815985757699429158"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "196.7083491081620526",
+          "return": "0.214185588042911332351315512"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "76.9655517675389160",
+          "return": "0.069020605511449343545932926"
+        }
+      ],
+      "net_total_usd": "192.0753251057580528",
+      "net_trading_usd": "192.0753251057580528",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "cost_stress",
+      "sha256": "e3a7ebf4e06637cdc30d557e86d741c42d776d7950b5af21f2c31a1e6a509773",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.0753251057580528"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-cost_stress-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "192.0753251057580528"
+      },
+      "days": "52",
+      "end_equity": "1157.408658439091386133333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.087995146139675285022570023",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1123658470261608417846445449",
+      "max_observed_gross_ratio": "0.3429088492987933615950822008",
+      "max_ohlc_drawdown_envelope": "0.2080209563275316546976652582",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "844.161519078670887466666647",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-92.2652424366095824666666752",
+          "return": "-0.0922652424366095824666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "176.0416824414953859333333172",
+          "return": "0.193935156690528901969833702"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "73.632218434205582666666664",
+          "return": "0.067940412539207476371746780"
+        }
+      ],
+      "net_total_usd": "157.408658439091386133333306",
+      "net_trading_usd": "192.0753251057580527999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "cost_stress",
+      "sha256": "45f2666d8c7b829ba66d7a42a5cc6de428550d4f92164fab8b7960786fd3b9af",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.0753251057580528"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-delay-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "191.6939088375755616"
+      },
+      "days": "52",
+      "end_equity": "1191.6939088375755616",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.106473926207548065925182022",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1042230249766125474024281467",
+      "max_observed_gross_ratio": "0.3334074956473412025605745752",
+      "max_ohlc_drawdown_envelope": "0.1957126269151214623148749188",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "869.0582129898817336",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-81.6430898030218503",
+          "return": "-0.0816430898030218503"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "196.2788548961354979",
+          "return": "0.213728293125203026110685308"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "77.0581437444619140",
+          "return": "0.069133026372991616453993608"
+        }
+      ],
+      "net_total_usd": "191.6939088375755616",
+      "net_trading_usd": "191.6939088375755616",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "delay",
+      "sha256": "6b89df00886e67401a8a3d76a4f47de6939968d834822c8f18840662586b5dd1",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "191.6939088375755616"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-delay-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "191.5540883351411520"
+      },
+      "days": "52",
+      "end_equity": "1156.887421668474485333333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.087712440437868345410190799",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1120931593027899984978142755",
+      "max_observed_gross_ratio": "0.3421896044589307068503580324",
+      "max_ohlc_drawdown_envelope": "0.2075531309100945077100947386",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "844.320387889232658666666647",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-92.2502064406564076666666752",
+          "return": "-0.0922502064406564076666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "175.4690234921266463333333172",
+          "return": "0.193301088843106925277905374"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "73.668604617004246666666664",
+          "return": "0.068008977925190352690652210"
+        }
+      ],
+      "net_total_usd": "156.887421668474485333333306",
+      "net_trading_usd": "191.5540883351411519999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "delay",
+      "sha256": "ad31e620382ff32fe39c67fef24f9a4fb55d279b014d9bdbac0f957740a44a65",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "191.5540883351411520"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-funding_adverse-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "192.0748268727285420"
+      },
+      "days": "52",
+      "end_equity": "1192.0748268727285420",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.106677957391241250888911366",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1044144637234361700680262187",
+      "max_observed_gross_ratio": "0.3339922046445224359036154313",
+      "max_ohlc_drawdown_envelope": "0.1960393480086876916483186577",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "869.0790421394542420",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-81.5050685523277494",
+          "return": "-0.0815050685523277494"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "196.4593735228364514",
+          "return": "0.213892713826074037217021613"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "77.1205219022198400",
+          "return": "0.069169222055481215564315319"
+        }
+      ],
+      "net_total_usd": "192.0748268727285420",
+      "net_trading_usd": "192.0748268727285420",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "funding_adverse",
+      "sha256": "fe737e69db4034cffc201ba80013d1ccfe231ec24a6b7deb81ab3d6af0230b1f",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.0748268727285420"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-funding_adverse-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "192.0748268727285420"
+      },
+      "days": "52",
+      "end_equity": "1157.408160206061875333333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.087994875936345582816439908",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1123547813656371318873014735",
+      "max_observed_gross_ratio": "0.3429814309225542172274355262",
+      "max_ohlc_drawdown_envelope": "0.2080052115860506091291512816",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "844.245708806120908666666647",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-92.1717352189944160666666752",
+          "return": "-0.0921717352189944160666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "175.7927068561697847333333172",
+          "return": "0.193640927118055821377361402"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "73.787188568886506666666664",
+          "return": "0.068093171413438080341125780"
+        }
+      ],
+      "net_total_usd": "157.408160206061875333333306",
+      "net_trading_usd": "192.0748268727285419999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "funding_adverse",
+      "sha256": "2f9c0a8c02f13623f685f0cb83d3a27b6cb955f4018680f77e6bc219b35d80ef",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "192.0748268727285420"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-zero_cost-infra-0.json",
+      "contributions_usd": {
+        "CASHCAT": "215.400625"
+      },
+      "days": "52",
+      "end_equity": "1215.400625",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.119119875496088341980479396",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "0",
+      "live_enabled": false,
+      "longest_underwater_days": "20.16666666666666666666666667",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1010414275613068706649493133",
+      "max_observed_gross_ratio": "0.3287013930675320915763878030",
+      "max_ohlc_drawdown_envelope": "0.1888815841404896315812425101",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "881.657875",
+      "monthly_infra": "0",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-77.459250",
+          "return": "-0.07745925"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "212.229875",
+          "return": "0.230049323024484284298552666"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "80.630000",
+          "return": "0.071054007059796776110590631"
+        }
+      ],
+      "net_total_usd": "215.400625",
+      "net_trading_usd": "215.400625",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "zero_cost",
+      "sha256": "56511c87c1af67140645fb47047e58ebf7b8b2498f4ec527b9fa548b7e77ddff",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "215.400625"
+    },
+    {
+      "artifact": "hold_cashcat-cap-0.4-zero_cost-infra-20.json",
+      "contributions_usd": {
+        "CASHCAT": "215.243970"
+      },
+      "days": "52",
+      "end_equity": "1180.577303333333333333333306",
+      "end_ms_exclusive": 1788652800000,
+      "equivalent_monthly_compound": "0.100507331584237352149139998",
+      "green_months": 2,
+      "gross_cap_at_entry": "0.4",
+      "halt_at_ms": null,
+      "halted": false,
+      "infrastructure_usd": "34.66666666666666666666666667",
+      "live_enabled": false,
+      "longest_underwater_days": "20.25",
+      "margin_observed_breach": false,
+      "max_hourly_drawdown": "0.1086846045109944989117849915",
+      "max_observed_gross_ratio": "0.3372092426466631285150660636",
+      "max_ohlc_drawdown_envelope": "0.2005738758293312479181853557",
+      "max_positions": 1,
+      "minimum_margin_envelope_buffer_usd": "856.910608666666666666666647",
+      "monthly_infra": "20",
+      "months": [
+        {
+          "month": "2026-07",
+          "pnl_usd": "-88.0695826666666666666666752",
+          "return": "-0.0880695826666666666666666752"
+        },
+        {
+          "month": "2026-08",
+          "pnl_usd": "191.4088593333333333333333172",
+          "return": "0.209894149482425496110183467"
+        },
+        {
+          "month": "2026-09",
+          "pnl_usd": "77.238026666666666666666664",
+          "return": "0.070003876686066068713593605"
+        }
+      ],
+      "net_total_usd": "180.577303333333333333333306",
+      "net_trading_usd": "215.2439699999999999999999727",
+      "promotion_authorized": false,
+      "red_months": 1,
+      "rejected_entries": {
+        "halted": 0,
+        "no_budget_or_minimum": 0,
+        "occupied": 0,
+        "terminal": 0
+      },
+      "round_trips": 1,
+      "scenario": "zero_cost",
+      "sha256": "f56e1249d807988e9461e35e99fe757f8ffa65c4d64607e76c796d83f6f6b90c",
+      "start_ms": 1784160000000,
+      "strategy": "hold_cashcat",
+      "unrecovered_at_end_days": "2.083333333333333333333333333",
+      "worst_cycle_usd": "215.243970"
+    }
+  ],
+  "risk_adaptation": {
+    "adaptation_sha256": "4600727c4988e3827c29936ded240d21093529dba6642593bc8c61f66251c466",
+    "gross_cap": "0.4",
+    "initial_summary_sha256": "d000e5495c2ab19887f804a39809a5620221582a6060efe674358ed09868bc58",
+    "live_enabled": false,
+    "registered_at": "2026-09-07T13:42:01.578339+00:00"
+  },
+  "run_id": "funding-portfolio-20260907-v1",
+  "scripts": {
+    "/workspaces/hyperbot2/scripts/investigate_funding_portfolio.py": "909c6c3b01a0e4396bf59fc9591d627fd600f5beb80aad44f6d04ea4060bc529",
+    "scripts/investigate_funding_normalization.py": "61c1fce6167e5df6e825e89bdd9ceaa2dbeed3681869d0b7982fef429bcabf2a",
+    "scripts/replicate_funding_normalization.py": "3ea1b6874d0f99cca21a6de990e7dd24cfe3617941939560fada3b4aba165f19"
+  }
+}

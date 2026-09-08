@@ -1,0 +1,11 @@
+{
+  "all_returncodes_zero": true,
+  "archives": 264,
+  "complete": true,
+  "data_cost_usd": 0,
+  "fetcher_sha256": "935e53a9b5fb60faab82553e0c3e2b17cceaa8cc9eae4b8b68a9141e6b51a4d5",
+  "raw_panel_qualified": false,
+  "reason": "11 zero-volume candles and 22 disagreements with current official REST",
+  "requests": 542,
+  "response_bytes": 5709699
+}

@@ -1,0 +1,166 @@
+{
+  "checks": [
+    {
+      "artifact": "candidate-base-infra-0.json",
+      "identical": true,
+      "sha256": "e2ebf72f21d86e3b7e6e41a68fda2ed244e6231c5d3e06f8dcbfa2cd1b62549c"
+    },
+    {
+      "artifact": "candidate-base-infra-20.json",
+      "identical": true,
+      "sha256": "be5b33c1e4a00c727e1dab6205570715d9c4b0f150d947508ee311f3a41487ea"
+    },
+    {
+      "artifact": "candidate-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "ac816363e5727f5cd0522594e80bcbddf819475ea1f44c14111b83bf356d6cc9"
+    },
+    {
+      "artifact": "candidate-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "b837b7883a1d16a0c9d404a20de54500a441f20674645847c6e80a453c001b76"
+    },
+    {
+      "artifact": "candidate-delay-infra-0.json",
+      "identical": true,
+      "sha256": "7d01d844cc6872e200994d61bb2e6270eff5bd282de6dd1d3edcf4a9e029bf49"
+    },
+    {
+      "artifact": "candidate-delay-infra-20.json",
+      "identical": true,
+      "sha256": "67872f88c7d59864eb9d10cd363ed5a44ef0bd6251c4dc368885d4c96881c5b6"
+    },
+    {
+      "artifact": "candidate-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "4c6ba4a1f6351b81a9fbfedcbd7bd1e5ba018f9d3333494a22f2644d579c05c3"
+    },
+    {
+      "artifact": "candidate-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "418ab1bd8b42e6c4a4c45b1e10d842ff4ba3ec56dea705f67159db2050637124"
+    },
+    {
+      "artifact": "candidate-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "340806f00ef8475e784df977a607f3036e913f4151fb050749d6a897ac56ee4c"
+    },
+    {
+      "artifact": "candidate-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "948d35ebf5f259c90baf085b9609eb5a24f4adc40697fcd77b26eb1b6f06e500"
+    },
+    {
+      "artifact": "passive_0.5-base-infra-0.json",
+      "identical": true,
+      "sha256": "47b5d8be0fb0513490f0320e73221dff23c1d3a82557526551d3c47fc70bd0df"
+    },
+    {
+      "artifact": "passive_0.5-base-infra-20.json",
+      "identical": true,
+      "sha256": "6f0f55005fc3c4595461fb199d50c628766c88dfe942c196277c8f2590e3d7a2"
+    },
+    {
+      "artifact": "passive_0.5-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "d9808c6cfee949b19c40f31a6f2bf6b4a976c2659d2f1221deb6eb9aac6c6f79"
+    },
+    {
+      "artifact": "passive_0.5-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "c533c405e8e234fb2e78b1268f0bebce26c2a1c10715daf5af867aef3a1348cd"
+    },
+    {
+      "artifact": "passive_0.5-delay-infra-0.json",
+      "identical": true,
+      "sha256": "2a5df7a0aca7e677b0b9c45dfc9842d3c1946b0dffd1bc0c74b56092e0189ec9"
+    },
+    {
+      "artifact": "passive_0.5-delay-infra-20.json",
+      "identical": true,
+      "sha256": "c2ca5591b670c7a77636dce68753e6006a16d73ba52f2b7b9b89d8f7040e9ba7"
+    },
+    {
+      "artifact": "passive_0.5-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "8abc39f651cf9708b0060d508acb57ac614aa55743e13e44ffc65df8e4a35a5f"
+    },
+    {
+      "artifact": "passive_0.5-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "3c1c98c23e50ca9c1c392b471d38d2078088bb6847811a89cf0e18686243dab4"
+    },
+    {
+      "artifact": "passive_0.5-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "a3257673d3c21fab5fcab40f7528a0e2e652de3ef66d21558b486c4bf6a590a9"
+    },
+    {
+      "artifact": "passive_0.5-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "a3768e29f63890d367f07eb2bdbdd334166a12f182085938b38c2003a795ac17"
+    },
+    {
+      "artifact": "passive_1.5-base-infra-0.json",
+      "identical": true,
+      "sha256": "1c31a424bda960e81a373df129fc0719ec4e3e1c1651653aac5f9998ff64e7de"
+    },
+    {
+      "artifact": "passive_1.5-base-infra-20.json",
+      "identical": true,
+      "sha256": "4222b0149763c810acab55360ee453cd73709f7f2b9addbce38ed4e57dc29a09"
+    },
+    {
+      "artifact": "passive_1.5-cost_stress-infra-0.json",
+      "identical": true,
+      "sha256": "27fba21f68f4c253e382b9a413cfaac7861561a241d7532bb0e699a0ebe29b2b"
+    },
+    {
+      "artifact": "passive_1.5-cost_stress-infra-20.json",
+      "identical": true,
+      "sha256": "5c2c7ac2b72ea3c0f608ea1d1386f16e886eabe384aad1d7a83806af1b21406c"
+    },
+    {
+      "artifact": "passive_1.5-delay-infra-0.json",
+      "identical": true,
+      "sha256": "03d45e5e5d04b355255020d7e25ad324d2f93c18159bc4543871a99cc608551f"
+    },
+    {
+      "artifact": "passive_1.5-delay-infra-20.json",
+      "identical": true,
+      "sha256": "b2b574e4d6305ca6032e4e1760c637373022fffae1fe71ead1654f20cf8cec00"
+    },
+    {
+      "artifact": "passive_1.5-funding_adverse-infra-0.json",
+      "identical": true,
+      "sha256": "8787db857533ca5c790ad139917185fa32286aa4e843c231989c51aac41a970b"
+    },
+    {
+      "artifact": "passive_1.5-funding_adverse-infra-20.json",
+      "identical": true,
+      "sha256": "e7eeed6af74c3add492abb02eb33e1bd512182869ffe9e336285d320536b42b6"
+    },
+    {
+      "artifact": "passive_1.5-zero_cost-infra-0.json",
+      "identical": true,
+      "sha256": "272de1d951e752671cee91c714797a9dbe75e09e6b795b4481bed7e23ed4a1d7"
+    },
+    {
+      "artifact": "passive_1.5-zero_cost-infra-20.json",
+      "identical": true,
+      "sha256": "b04ec7e8498ed35daedb49dba3d442fc13e12ab010ea0f1063b5a96159b973e4"
+    },
+    {
+      "artifact": "quality.json",
+      "identical": true,
+      "sha256": "ea6d69ff00056aa2117f65b2ab73a077d4d5d5edce3ed5c9cf83ef1523a0f1cd"
+    },
+    {
+      "artifact": "summary.json",
+      "identical": true,
+      "sha256": "8dd1a5721afb75e094b795e8733b9589b551ea905cff220ca7318ce397caccf7"
+    }
+  ],
+  "exact_artifacts": 32,
+  "total_exact_with_native_and_passive_uncertainty": 98
+}

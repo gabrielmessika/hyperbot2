@@ -1,0 +1,34 @@
+{
+  "artifacts": [
+    {
+      "left": "data/crypto_equity_hedge_2026-09-07/final/decisions.json",
+      "matched": true,
+      "right": "data/crypto_equity_hedge_2026-09-07/reproduced/decisions.json",
+      "sha256": "8045bee3dc490e808c1fc6720e8e3c103689f3c6b2b8e3f3afb2face2e5c0cf7"
+    },
+    {
+      "left": "data/crypto_equity_hedge_2026-09-07/final/fade-events.json",
+      "matched": true,
+      "right": "data/crypto_equity_hedge_2026-09-07/reproduced/fade-events.json",
+      "sha256": "efe46ccbc9eb3bca962965e84a827d1faf3352fbd5e2c7e5b864d70c4b55d3e4"
+    },
+    {
+      "left": "data/crypto_equity_hedge_2026-09-07/final/continuation-events.json",
+      "matched": true,
+      "right": "data/crypto_equity_hedge_2026-09-07/reproduced/continuation-events.json",
+      "sha256": "b8ed4128fefd9da8cadf273ddfe60eb522af09f819badecda23ac6fd388dd39f"
+    },
+    {
+      "left": "data/crypto_equity_hedge_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/crypto_equity_hedge_2026-09-07/reproduced/summary.json",
+      "sha256": "c1dbe60ac41cf9bec673e28c6935eb41ecfe2eb8aace2ce0ab930819a21fdd59"
+    }
+  ],
+  "first_run_economic_artifacts_unchanged": true,
+  "live_enabled": false,
+  "mypy": "59 source files passed",
+  "pytest": "233 passed; 2 targeted passed after Decimal accumulator clarification",
+  "ruff_check": "passed",
+  "ruff_format": "196 files already formatted"
+}

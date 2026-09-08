@@ -1,0 +1,46 @@
+{
+  "limits": [
+    "overlapping 14-day blocks from a selected strategy and sizing",
+    "not corrected for the family of previous strategy searches",
+    "neither a predictive interval nor a proof of expected future profit",
+    "bootstrap returns do not rerun drawdown, allocations or execution",
+    "best-cycle subtraction does not rerun the portfolio"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "247.5880158264301669",
+      "best_cycle_usd": "42.431214672674400",
+      "block_days": 14,
+      "days": 180,
+      "descriptive_monthly_95_interval": [
+        -0.01520529931018312,
+        0.10600884615407948
+      ],
+      "distinct_entry_days": 168,
+      "draws": 10000,
+      "input": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-base-infra-0.json",
+      "observed_monthly_compound": "0.043356431306181404114360221"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "471.3433941965338951",
+      "best_cycle_usd": "87.885653390776851",
+      "block_days": 14,
+      "days": 180,
+      "descriptive_monthly_95_interval": [
+        -0.038598695624232855,
+        0.2082165044839663
+      ],
+      "distinct_entry_days": 168,
+      "draws": 10000,
+      "input": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-base-infra-0.json",
+      "observed_monthly_compound": "0.076841173920315734165015208"
+    }
+  ],
+  "script_sha256": "7d48cee8c101a4952e1e1842b2ac380b2f81e2db2a72c82bfb60ed1dca432f28",
+  "sources": {
+    "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-base-infra-0.json": "d38114c543a2b4de3fdbb1334980eda6a1f775e0df2cbec066dd5d914e892cab",
+    "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-base-infra-0.json": "1e40cda29d860d349dbdf81daf92a5d8a4c4727b46499b68715341c20e1cd5ab"
+  }
+}

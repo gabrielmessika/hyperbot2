@@ -1,0 +1,406 @@
+{
+  "code_version": "source-sha256:31264ba557f1c11e75de1a14adc0e993bc117a5820c186257a8bc6bcb7401fea",
+  "coins": [
+    "ARB",
+    "BNB",
+    "DOGE",
+    "ENA",
+    "FARTCOIN",
+    "INJ",
+    "JUP",
+    "LINK",
+    "NEAR",
+    "TAO",
+    "UNI",
+    "WLD",
+    "XMR",
+    "XRP",
+    "ZEC"
+  ],
+  "config": {
+    "fill_model": "hourly-open-proxy-at-plus-60s",
+    "panel": "matched_native",
+    "protocol_sha256": "0952277288c012716d475fc2a1706e3f67dc1f66f15668aefa33834742d26100",
+    "scenarios": {
+      "base": [
+        "0.00045",
+        "0.0002",
+        0,
+        "signed"
+      ],
+      "cost_stress": [
+        "0.0009",
+        "0.0005",
+        0,
+        "signed"
+      ],
+      "delay": [
+        "0.00045",
+        "0.0002",
+        1,
+        "signed"
+      ],
+      "funding_adverse": [
+        "0.00045",
+        "0.0002",
+        0,
+        "adverse"
+      ],
+      "zero_cost": [
+        "0",
+        "0",
+        0,
+        "zero"
+      ]
+    }
+  },
+  "config_sha256": "23880f42c5d1b661a78b9676d19352ddb7780d1b134431dc89439f4bbf3bfb2b",
+  "decision": "CROSS_PANEL_REVIEW_REQUIRED",
+  "end_ms": 1788652800000,
+  "evaluated_rows": 5805,
+  "evaluation_start_ms": 1780272000000,
+  "historical_venue": "Hyperliquid",
+  "live_enabled": false,
+  "monthly_fits": 4,
+  "native_fills_qualified": false,
+  "network_data_calls": 0,
+  "normalized_mse_all_predictions": {
+    "intercept_control": 1.1028151012275849,
+    "ridge": 1.1096766378110001
+  },
+  "panel": "matched_native",
+  "portfolio_simulated": false,
+  "promotion_authorized": false,
+  "results": {
+    "intercept_control": {
+      "by_coin": {},
+      "by_side": {},
+      "criteria": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "thirty_events_and_days": false
+      },
+      "distinct_days": 0,
+      "events": 0,
+      "panel_filter_pass": false,
+      "scenarios": {
+        "base": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "cost_stress": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "delay": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "funding_adverse": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "zero_cost": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        }
+      }
+    },
+    "ridge": {
+      "by_coin": {
+        "ARB": 12,
+        "DOGE": 1,
+        "ENA": 13,
+        "FARTCOIN": 12,
+        "INJ": 4,
+        "JUP": 8,
+        "LINK": 1,
+        "NEAR": 4,
+        "TAO": 3,
+        "UNI": 6,
+        "WLD": 21,
+        "XMR": 6,
+        "XRP": 2,
+        "ZEC": 30
+      },
+      "by_side": {
+        "-1": 12,
+        "1": 111
+      },
+      "criteria": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "thirty_events_and_days": false
+      },
+      "distinct_days": 28,
+      "events": 123,
+      "panel_filter_pass": false,
+      "scenarios": {
+        "base": {
+          "contribution_sum_event_bps": {
+            "ARB": "1591.274431414384153902783761",
+            "DOGE": "-16.72255344856153605723086204",
+            "ENA": "-868.7332236547156996179062540",
+            "FARTCOIN": "-459.0135655090549523125353724",
+            "INJ": "-72.6935541910777198358345971",
+            "JUP": "-949.7959699285821781522760190",
+            "LINK": "45.33138164274794615489398853",
+            "NEAR": "69.84260165370092636734766424",
+            "TAO": "-119.9804882353147185532128940",
+            "UNI": "-166.5480579926366300516792525",
+            "WLD": "237.3771119540805591940512143",
+            "XMR": "-1895.903110349000846922093318",
+            "XRP": "-64.32757955109046784702320784",
+            "ZEC": "-90.15852662386213569456572215"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -140.2336510725308,
+            "replicates": 4997,
+            "seed": 20260907,
+            "upper_95": 29.920376137623496
+          },
+          "mean_net_bps": "-22.43943986031693739370147047",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 110,
+              "sum_event_net_bps": "-3201.825841647693337391842830"
+            },
+            "2026-08": {
+              "n": 1,
+              "sum_event_net_bps": "329.8368981255419293995185635"
+            },
+            "2026-09": {
+              "n": 12,
+              "sum_event_net_bps": "111.9378407031681085670433980"
+            }
+          },
+          "profit_factor": "0.8812383565824799421949687539",
+          "worst_net_bps": "-1479.331261559807024625179095"
+        },
+        "cost_stress": {
+          "contribution_sum_event_bps": {
+            "ARB": "1409.570989938262633910541888",
+            "DOGE": "-31.70694175665778689068774380",
+            "ENA": "-1061.272952997801793902312366",
+            "FARTCOIN": "-641.0648521115203700604406677",
+            "INJ": "-131.8643389339092695337283788",
+            "JUP": "-1071.154534073788340125749473",
+            "LINK": "30.28170356908643295337329205",
+            "NEAR": "9.75898012894728995561788601",
+            "TAO": "-164.8615062473997039588533011",
+            "UNI": "-256.9050236403188377927843098",
+            "WLD": "-77.0378517372442905698603651",
+            "XMR": "-1984.040698112388507676892072",
+            "XRP": "-94.26314226043757105177557991",
+            "ZEC": "-541.7314151540887024346791932"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -155.18964338319114,
+            "replicates": 4997,
+            "seed": 20260907,
+            "upper_95": 14.86121427423343
+          },
+          "mean_net_bps": "-37.44952506820535623722138522",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 110,
+              "sum_event_net_bps": "-4853.262865827054308801047416"
+            },
+            "2026-08": {
+              "n": 1,
+              "sum_event_net_bps": "315.1850025871666259127206304"
+            },
+            "2026-09": {
+              "n": 12,
+              "sum_event_net_bps": "-68.2137201493711342899035973"
+            }
+          },
+          "profit_factor": "0.8096812654004652796926636731",
+          "worst_net_bps": "-1495.878056254924597492828173"
+        },
+        "delay": {
+          "contribution_sum_event_bps": {
+            "ARB": "474.8824105765308236954898285",
+            "DOGE": "135.7401600987248028177580887",
+            "ENA": "1664.903265627731060186704566",
+            "FARTCOIN": "415.7323594487827729814756407",
+            "INJ": "154.1765051790947151226289296",
+            "JUP": "-504.3488852748572449382850225",
+            "LINK": "153.7331652166697170743250504",
+            "NEAR": "515.2469837017118377532347107",
+            "TAO": "-218.4259738287088575146581566",
+            "UNI": "585.5201032366726351378319590",
+            "WLD": "1534.184976226457846469570397",
+            "XMR": "-1513.373464315478370239361879",
+            "XRP": "167.2109431760304069096948434",
+            "ZEC": "-763.6189554639649537744669458"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -55.84808037279799,
+            "replicates": 4997,
+            "seed": 20260907,
+            "upper_95": 65.73112115233414
+          },
+          "mean_net_bps": "22.77693978540973326570684563",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 110,
+              "sum_event_net_bps": "2731.585046518478396129509905"
+            },
+            "2026-08": {
+              "n": 1,
+              "sum_event_net_bps": "630.8029470051307529443534680"
+            },
+            "2026-09": {
+              "n": 12,
+              "sum_event_net_bps": "-560.8243999182119573919213604"
+            }
+          },
+          "profit_factor": "1.142353592352593570665735854",
+          "worst_net_bps": "-2138.716880052958899724562820"
+        },
+        "funding_adverse": {
+          "contribution_sum_event_bps": {
+            "ARB": "1589.832944794428496047388780",
+            "DOGE": "-17.63090275058289097874836099",
+            "ENA": "-871.8404730729532427624204491",
+            "FARTCOIN": "-464.8304792336474411347448644",
+            "INJ": "-73.6968441412996987734102606",
+            "JUP": "-953.0589707381099358881666511",
+            "LINK": "44.56857213141341039988858793",
+            "NEAR": "68.45945918313838130663635531",
+            "TAO": "-122.7450195895770600211451308",
+            "UNI": "-168.1484354519162804540283181",
+            "WLD": "196.8194434616213451471556943",
+            "XMR": "-1901.932232681327516212006392",
+            "XRP": "-68.79739122059736248799551090",
+            "ZEC": "-310.6089156920683426753145814"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -140.5857875840676,
+            "replicates": 4997,
+            "seed": 20260907,
+            "upper_95": 27.685767310057994
+          },
+          "mean_net_bps": "-24.82609142277624502834887075",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 110,
+              "sum_event_net_bps": "-3493.903009069821049988947964"
+            },
+            "2026-08": {
+              "n": 1,
+              "sum_event_net_bps": "328.3559233651748029349934645"
+            },
+            "2026-09": {
+              "n": 12,
+              "sum_event_net_bps": "111.9378407031681085670433980"
+            }
+          },
+          "profit_factor": "0.8695162835686339521559431693",
+          "worst_net_bps": "-1479.331261559807024625179095"
+        },
+        "zero_cost": {
+          "contribution_sum_event_bps": {
+            "ARB": "1756.724384284810717233818207",
+            "DOGE": "-4.138962322091377606878688349",
+            "ENA": "-695.4798581906084263468116337",
+            "FARTCOIN": "-295.4416170163771438363605641",
+            "INJ": "-19.4344620720375965638249941",
+            "JUP": "-842.1003144253548252532974115",
+            "LINK": "58.16591724763829875005156552",
+            "NEAR": "123.6734366094431354055798742",
+            "TAO": "-80.7685454863370232255601050",
+            "UNI": "-85.38212716628476288523932306",
+            "WLD": "506.4019980716147027042059441",
+            "XMR": "-1808.337237663046941289727571",
+            "XRP": "-40.24763277425978241708658835",
+            "ZEC": "207.9629120111030817023856762"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -126.56371722027919,
+            "replicates": 4997,
+            "seed": 20260907,
+            "upper_95": 42.38717316202047
+          },
+          "mean_net_bps": "-9.905708202372259704298744780",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 110,
+              "sum_event_net_bps": "-1837.750754472871665979251168"
+            },
+            "2026-08": {
+              "n": 1,
+              "sum_event_net_bps": "341.8083852500420946287253746"
+            },
+            "2026-09": {
+              "n": 12,
+              "sum_event_net_bps": "277.5402603310416277217801858"
+            }
+          },
+          "profit_factor": "0.9456905004344471885779676394",
+          "worst_net_bps": "-1458.928939844970379321524360"
+        }
+      }
+    }
+  },
+  "run_id": "conditional-model-20260907-v1-matched_native",
+  "script_sha256": "d9a3e52fc89aaf2a11841e2f5390f8502bafc2276819c6ac777fc18f5b0726c8",
+  "start_ms": 1771027200000,
+  "training_and_evaluation_rows": 11790
+}

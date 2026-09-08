@@ -1,0 +1,9 @@
+{
+  "compression": "negative even at zero trading costs; all registered scenarios and sizes negative",
+  "control": "positive without infrastructure at 0.5x, base 4.34 percent monthly equivalent, cost and delay about 2.5 to 2.7 percent; not a 10 percent target or an independent validation",
+  "decision": "COMPRESSION_REJECTED_POSITIVE_CONTROL_UNQUALIFIED",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "red_month_is_veto": false,
+  "summary_sha256": "ab308cd1fcf8d3b6d82e498556c222a421d13a73ab8640a2b9fee49758961aea"
+}

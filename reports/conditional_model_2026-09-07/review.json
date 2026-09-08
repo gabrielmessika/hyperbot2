@@ -1,0 +1,42 @@
+{
+  "all_three_panels_required": true,
+  "audits": [
+    {
+      "all_threshold_events_present": true,
+      "events_including_control": 144,
+      "models": 4,
+      "panel": "original_native",
+      "predictions": 6966,
+      "purge_cutoff_and_forecast_reconstruction": true
+    },
+    {
+      "all_threshold_events_present": true,
+      "events_including_control": 123,
+      "models": 4,
+      "panel": "matched_native",
+      "predictions": 5805,
+      "purge_cutoff_and_forecast_reconstruction": true
+    },
+    {
+      "all_threshold_events_present": true,
+      "events_including_control": 374,
+      "models": 9,
+      "panel": "prior_transfer",
+      "predictions": 16485,
+      "purge_cutoff_and_forecast_reconstruction": true
+    }
+  ],
+  "decision": "CONDITIONAL_MODEL_CROSS_PERIOD_SCREEN_FAILED",
+  "live_enabled": false,
+  "mypy_sources": 73,
+  "native_fills_qualified": false,
+  "network_data_calls": 0,
+  "new_data_cost_usd": 0,
+  "next_hypothesis": "Fixed long low-volatility / short high-volatility weekly basket, no momentum condition; existing panels, protocol before PnL.",
+  "passed_ridge_panels": [],
+  "portfolio_simulated": false,
+  "promotion_authorized": false,
+  "ruff_check_passed": true,
+  "ruff_format_files": 303,
+  "tests_passed": 315
+}

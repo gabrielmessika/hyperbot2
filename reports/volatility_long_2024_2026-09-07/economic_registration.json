@@ -1,0 +1,11 @@
+{
+  "before_first_this_study_pnl": true,
+  "code_version": "source-sha256:99a2086919f64ce4d45707e4aedcda49b4503d83cdd1ea1e7659971fc752ce66",
+  "live_enabled": false,
+  "previous_qualification_sha256": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+  "prior_control_selection_is_post_hoc": true,
+  "protocol_sha256": "3d7148df5515586b2418812d640f7fd0f34cccba69a660ced5d2165e769133d0",
+  "qualification_sha256": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671",
+  "registered_at_utc": "2026-09-07T18:01:20.952028+00:00",
+  "script_sha256": "c833caf2554df1687091843c30f057bd9b8af41d0ccfc3cc0ac2c9c724258a4f"
+}

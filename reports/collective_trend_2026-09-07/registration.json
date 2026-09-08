@@ -1,0 +1,25 @@
+{
+  "before_first_collective_trend_pnl": true,
+  "code_version": "source-sha256:acad78e796e1802feed1aaa11e087b3166574a7ccfc93e9e90890bf9f8edd066",
+  "inputs": {
+    "data/volatility_long_2024_2026-09-07/native_2026_v2_run1/quality.json": "7b39b85327d259aa72536f0238cff278b406ef9b4e70d691800b86a54dc496ce",
+    "data/volatility_long_2024_2026-09-07/native_2026_v2_run1/selections.json": "92ef2d43a132d66d30844eea636ed5c684c5692a69f665188cc3adb11f6af207",
+    "data/volatility_long_2024_2026-09-07/october_api_audit/manifest.json": "5f18bea55d93f4c7ff6bc4968fdf19bb0f4be54a8bafbb05a57db6419a2f9482",
+    "data/volatility_long_2024_2026-09-07/transfer_2024_v2_run1/quality.json": "0064b4a4cad137faff10c7943d8291d7e3e7d119953405bf54d58b40e1ed9042",
+    "data/volatility_long_2024_2026-09-07/transfer_2024_v2_run1/selections.json": "f06f0f48469e516d99f700501ea00bc22bdf05b7dea9fd126e4a112d5eba21ff",
+    "data/volatility_long_2024_2026-09-07/transfer_2025_v2_run1/quality.json": "48737956e602bd0570b0ceffb83b98ba54b2cbcbc08f46fc36cb76cdc332ea73",
+    "data/volatility_long_2024_2026-09-07/transfer_2025_v2_run1/selections.json": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a",
+    "data/wide_funding_2026-09-07/meta.json": "f625341e088befcb028d74329d350fd804f59a582e652b32b285452c5ba00928",
+    "reports/prior_transfer_2026-09-07/qualification.json": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+    "reports/volatility_capital_2026-09-07/review.json": "00513a41a642a420fb4a773c8f649f87b3e09395e2512c96d6cf531b59f31e73",
+    "reports/volatility_long_2024_2026-09-07/qualification.json": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671",
+    "reports/volatility_long_2024_2026-09-07/review_v2.json": "4a84c7206bd01abc42ec30f68d8866a4432d87fdc9eae5441163ee96bafadbcb"
+  },
+  "live_enabled": false,
+  "planned_simulations": 160,
+  "prior_related_results_known": true,
+  "promotion_authorized": false,
+  "protocol_sha256": "262081480875d75a235d2508ffe643103decdaa860548cd3bae07b8fdeee115a",
+  "registered_at_utc": "2026-09-07T18:45:52.793918+00:00",
+  "script_sha256": "d74107b4608fbebf26b7199449918ec676584d3dfdbd48985331073ba1104b3d"
+}

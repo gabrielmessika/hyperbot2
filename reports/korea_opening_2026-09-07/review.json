@@ -1,0 +1,8 @@
+{
+  "decision": "HYPOTHESIS_NOT_CONFIRMED",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "reason": "Four signals in 180 days, small positive base proxy, negative cost and delay stress; no risk-qualified portfolio or economically relevant edge.",
+  "red_month_is_veto": false,
+  "summary_sha256": "baa288e98e93033723a59bbaf44527b70c0fc43570a3ee5a03a89004b44b1657"
+}

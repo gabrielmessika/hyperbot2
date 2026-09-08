@@ -1,0 +1,152 @@
+[
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-base-infra-0.json",
+    "sha256": "09bcdbaabe2d93d7388ccb2f822331f7f3b44975f95026ce72480950b399ab3d"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-base-infra-20.json",
+    "sha256": "4eeeb0d28946818ccf3750854c019c676a99245546cc069507a46b1e3a34be99"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-cost_stress-infra-0.json",
+    "sha256": "44e20f4404b34a16ef017cc6a379419f62f33ca7727857cca61ceb39c0c3fe72"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-cost_stress-infra-20.json",
+    "sha256": "6ea5c525160ced8867167c9c1568ed1df64d7ec22fa779ac693f34af8666049e"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-delay-infra-0.json",
+    "sha256": "854afdad4864667b23462364b5b448086eb3d9862ed91b5f8b101523f17f5ef5"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-delay-infra-20.json",
+    "sha256": "48af75c42e0cddd0bae420d79649c869b8a59614c46f20e9f5e6fbb019660ce2"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-funding_adverse-infra-0.json",
+    "sha256": "116a9a71799c9ef73bc7503c627244d61846a63440e368b61c7d482ac88f49db"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-funding_adverse-infra-20.json",
+    "sha256": "315c85a05cfdcae8a88317c7ba8b56d40023f527271921312b2bbc8fecc520bf"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-zero_cost-infra-0.json",
+    "sha256": "0682352478dbe362154dd4d4b1076c8dfd5a1e31754b9bcb46349a3c5d7e15df"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-0.5-zero_cost-infra-20.json",
+    "sha256": "48cf1c6f12fedbf94626a14ecc993e4e4f4bf26c1caa5396320a9c5391bfd107"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-base-infra-0.json",
+    "sha256": "07b77ac5318e331f788b020958f6f41fd95b8c69c702d602f4d790e7f126ab6d"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-base-infra-20.json",
+    "sha256": "cb4b8e2254fb3ba1440a22b49f42b3acd5c9f0cd2614f1d612dbe9d36c5e56de"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-cost_stress-infra-0.json",
+    "sha256": "a806d93ee9695cdba7debab3493ba5bd535e918b1c894d024bf5056f5beb5d98"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-cost_stress-infra-20.json",
+    "sha256": "15eaf844a0bdb4aa3da0c979336ceaebd34a77d69c6c5d0574a2efb378af5b97"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-delay-infra-0.json",
+    "sha256": "fb5b5c6b1634b510c7fac67042393eeba02238310453b947c61fa0cefd9e372f"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-delay-infra-20.json",
+    "sha256": "c2b52e2ae85690c9ec89376a5cbad4ba2ba001439c11e668a97bff9d2c5fe6d1"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-funding_adverse-infra-0.json",
+    "sha256": "19a541205d2681a318c01cfd813511738ffb4c2e92b54080bc4b45244b1c9916"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-funding_adverse-infra-20.json",
+    "sha256": "e4a1671f85bf8ac384e43e8ed9a9b5ffc02e5d1ee515069a5516a1e691ce28c4"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-zero_cost-infra-0.json",
+    "sha256": "6555596a06655ee047a833d63a2857eacdbf0cb20ebb0d158b450903732bd4a8"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1-zero_cost-infra-20.json",
+    "sha256": "fb182b3cb781877cb856ccc41241bd139bcfd58014854e2b4ac7f3528ef3a317"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-base-infra-0.json",
+    "sha256": "38d7a55f68be8843cc2fa5c46a5b3049f174b100c877bb40f9860840ca5020a6"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-base-infra-20.json",
+    "sha256": "cd9fb52219dd094fd74f6cba7027e2ffa927aa8a27cf97b046ad1ee017e78295"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-cost_stress-infra-0.json",
+    "sha256": "09c3c3656e48cb360ff8b70bc9c38f082dbbf0bc1ff43261be80a1eaf3133ce1"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-cost_stress-infra-20.json",
+    "sha256": "a5fe1c82a320cced92e25ccf4e63c510ce4064f54e6fdb98009a9ce950cc5e39"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-delay-infra-0.json",
+    "sha256": "89c50bfe73afa07a4f21494d097fce30f2521c710ef347edeb6cbb9a900cf3fd"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-delay-infra-20.json",
+    "sha256": "e18cd22ca6dfc541a62362baf54881e0d038c0221fd95de17fef475fd117b782"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-funding_adverse-infra-0.json",
+    "sha256": "3605e4330ed6927a807ce80d3a93297cc3b85de453886b2571ae4c75b59c6612"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-funding_adverse-infra-20.json",
+    "sha256": "651a2f75e6791e68149e22f78527ae8fc6be9ec434f51e11bdec59b22cc22394"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-zero_cost-infra-0.json",
+    "sha256": "d118b9500a53a409eb60f83a9b199581185ae5b9ee1bb2f93f513f2b544944f9"
+  },
+  {
+    "economic_match": true,
+    "path": "data/compression_breakout_2026-09-07/run1/no_compression_control-cap-1.5-zero_cost-infra-20.json",
+    "sha256": "266f9b433efdbc3a523b4ab524339d51f0fba2dce5e1a7b27819a35187518c14"
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "all_exact": true,
+  "mypy_source_files": 53,
+  "results": [
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-repricing-repro-2026-09-07/weekend_follow-events.json",
+      "sha256": "fa299531203602c2d7cd1c09b122bfbadde98e2e10825d0210d1863ed8b9d605",
+      "source": "data/weekend_repricing_2026-09-07/run1/weekend_follow-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-repricing-repro-2026-09-07/weekend_fade-events.json",
+      "sha256": "37ca0d7f2ba6dcc9c8238384ceab2a3464909023499a1deb5ed82dc392952e95",
+      "source": "data/weekend_repricing_2026-09-07/run1/weekend_fade-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-repricing-repro-2026-09-07/summary.json",
+      "sha256": "aa39925cc879e67a8b04a9f1139b986fd595899751c1f6cf91482cd3ff09d689",
+      "source": "data/weekend_repricing_2026-09-07/run1/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-replication-repro-2026-09-07/weekend_follow-events.json",
+      "sha256": "73b1128e512ed13671f2e748f6c64688e41232c4ce77dc27ee0a97f67d88d15d",
+      "source": "data/weekend_repricing_2026-09-07/replication_final/weekend_follow-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-replication-repro-2026-09-07/replication.json",
+      "sha256": "3ce101beba1c3a2a6c1f520b24841c867bef8f704a11ba305c1408cf879b4f9d",
+      "source": "data/weekend_repricing_2026-09-07/replication_final/replication.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-replication-repro-2026-09-07/weekend_fade-events.json",
+      "sha256": "aeb68116c29d5dbe980d6d4a60fc0a224c8448ff9a954c9be2cee017e4d82837",
+      "source": "data/weekend_repricing_2026-09-07/replication_final/weekend_fade-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/weekend-replication-repro-2026-09-07/summary.json",
+      "sha256": "e951d489d3bfd687ddeda821e1fd63e3d0365857a89efe990c4677538f4baea4",
+      "source": "data/weekend_repricing_2026-09-07/replication_final/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/overnight-repricing-repro-2026-09-07/overnight_fade-events.json",
+      "sha256": "44cfab90c1aabbe4fa51b7dea2b4c16f3cc546d064b7606485d3b46a67675dcc",
+      "source": "data/overnight_repricing_2026-09-07/run1/overnight_fade-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/overnight-repricing-repro-2026-09-07/summary.json",
+      "sha256": "b9e6f7cb1a09f723b6fe864ba4ec5a455b177a7fb089cb6ae9d84809977e6e99",
+      "source": "data/overnight_repricing_2026-09-07/run1/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/overnight-repricing-repro-2026-09-07/overnight_follow-events.json",
+      "sha256": "420e074dc3455475962811fe0b6585857be00cfb670ab02e2a6d9ab93ad7d819",
+      "source": "data/overnight_repricing_2026-09-07/run1/overnight_follow-events.json"
+    }
+  ],
+  "ruff_check": true,
+  "ruff_format": true,
+  "verified_tests": 213
+}

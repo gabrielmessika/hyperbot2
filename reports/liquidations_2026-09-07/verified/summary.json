@@ -1,0 +1,244 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "/workspaces/hyperbot2/scripts/fetch_liquidation_study.py": "2bae1de522589a85ea2a19090334555bc9f90d22db1bbee611b493f016e9be28",
+    "/workspaces/hyperbot2/scripts/investigate_liquidations.py": "030a7d2e963fcf12575f6b24ab224aea9bec5565d737fc3b35265d15b53c8e2f",
+    "/workspaces/hyperbot2/scripts/investigate_pairs.py": "a8154a0b7843d36c172bf726942611e8b4c36a9eb893d820127a80b87d801c61",
+    "src/hyperbot2/research/liquidations.py": "c8c88554468157683180e1df9479798788ca7930b52d9b907cd084b763a70471"
+  },
+  "decision": "INSUFFICIENT_SAMPLE",
+  "distinct_event_days": 1,
+  "end_ms_exclusive": 1788652800000,
+  "events": 1,
+  "independent_holdout": false,
+  "limits": [
+    "180-day protocol blocked by provider history entitlement",
+    "liquidation coverage uncertified; absent hours not zeros",
+    "liquidator/liquidated identity fields suspicious and unused",
+    "raw/aggregate consistency does not prove source completeness",
+    "hourly open fills are hypothetical; publication delay unmeasured",
+    "OI buckets treated as available only after hour end",
+    "funding oracle approximated by hourly price",
+    "bootstrap withheld below 30 events/20 days",
+    "no portfolio, risk qualification or monthly return estimate"
+  ],
+  "observation_days": 21,
+  "primary_horizon_hours": 6,
+  "promotion_authorized": false,
+  "quality": {
+    "BTC": {
+      "complete_hourly_oi": 672,
+      "hours_in_range": 672,
+      "hours_with_60_prior_positive": 103,
+      "max_prior_positive_hours": 70,
+      "positive_long_hours": 161,
+      "published_volume_hours": 287,
+      "unpublished_volume_hours_not_imputed": 385
+    },
+    "ETH": {
+      "complete_hourly_oi": 672,
+      "hours_in_range": 672,
+      "hours_with_60_prior_positive": 0,
+      "max_prior_positive_hours": 52,
+      "positive_long_hours": 105,
+      "published_volume_hours": 205,
+      "unpublished_volume_hours_not_imputed": 467
+    }
+  },
+  "raw_events_verified": 1,
+  "run_id": "liquidation-rebound-pilot-2026-09-07",
+  "scenarios": {
+    "base": {
+      "1": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "15.43348809692230524867208000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "2.297805239024218100832139610",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "24": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "31.25281339626766812856096000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "15.45674707180411306263948795",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "6": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "-3.086697619384461049734415000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-16.77023851086148441089758586",
+        "paired_events": 0,
+        "positive_net_events": 0
+      }
+    },
+    "cost_stress": {
+      "1": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "15.43348809692230524867208000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-12.70695128430280249120871179",
+        "paired_events": 0,
+        "positive_net_events": 0
+      },
+      "24": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "31.25281339626766812856096000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "0.4361919662009952928696879610",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "6": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "-3.086697619384461049734415000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-31.75540094608721773153267444",
+        "paired_events": 0,
+        "positive_net_events": 0
+      }
+    },
+    "delay_stress": {
+      "1": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "-44.55973187112349594853158300",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-57.58527947974541570311391842",
+        "paired_events": 0,
+        "positive_net_events": 0
+      },
+      "24": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "25.16918572547609569427144000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "9.382246089595276789158240273",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "6": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "-5.264982728288366956454740000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-18.94554548063330459253262398",
+        "paired_events": 0,
+        "positive_net_events": 0
+      }
+    },
+    "zero_cost_control": {
+      "1": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "15.43348809692230524867208000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "15.43348809692230524867208000",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "24": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "31.25281339626766812856096000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "31.25281339626766812856095000",
+        "paired_events": 0,
+        "positive_net_events": 1
+      },
+      "6": {
+        "bootstrap_matched": null,
+        "bootstrap_net": null,
+        "events": 1,
+        "mean_gross_bps": "-3.086697619384461049734415000",
+        "mean_matched_excess_bps": null,
+        "mean_net_bps": "-3.086697619384461049734416000",
+        "paired_events": 0,
+        "positive_net_events": 0
+      }
+    }
+  },
+  "source_hashes": {
+    "data/liquidations_2026-09-07/event_raw/manifest.json": "bc17f865d3b25a393e6cf38082e9d88e1606f0bb2644b11bc7b4b881aaa1521b",
+    "data/liquidations_2026-09-07/event_raw/response-000.json": "e92f1213a6306aa7972bb073039b705a1ad3eb2aa4d39ed62468e94d29cf52be",
+    "data/liquidations_2026-09-07/event_raw_continued/manifest.json": "713ccdd886b89f8eb72277cbb26a6f8171ce68f2b1b19f3bff09d108d0f33e8e",
+    "data/liquidations_2026-09-07/event_raw_continued/response-000.json": "c9cf64f09722485743ff3d67325420b3708efd8dd0de68ad87b980635a0fa188",
+    "data/liquidations_2026-09-07/event_raw_continued/response-001.json": "b3779926176d71ff1cb2e2c770b4919a5e21fdf287d2c90a3f1f97beb46a4c19",
+    "data/liquidations_2026-09-07/pilot/manifest.json": "d88be5135c8c3ff099461be9e9f2fa5f2ee36ab158f2f55b05eefadfc881f473",
+    "data/liquidations_2026-09-07/pilot/response-000.json": "8b3c4da926ba169d3d3af1497bc87be52f6795cbdedda74f46aeb7bbbfa5f07a",
+    "data/liquidations_2026-09-07/pilot/response-001.json": "0e0b607fcf51ba97c3ed6405b78cb3e2ead308d4cf809cf56b347a57d0e9d0dc",
+    "data/liquidations_2026-09-07/pilot/response-002.json": "a20be9566bf8cc6b1d02d54d28e79808d7ba6a535449057768a9131519d6d779",
+    "data/liquidations_2026-09-07/pilot/response-003.json": "4b7475f83db5b0834e37092015574fd34a31e5962e43a42cf1b2872101546a51",
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83",
+    "reports/liquidations_2026-09-07/PILOT_PROTOCOL.md": "2423e234bebfea269a7e60de9adf5644284d8f898c8c97ad9c67cc073c2699b5",
+    "reports/liquidations_2026-09-07/PROTOCOL.md": "4aa9c8e5b5c8d5aa055723312519504dda5a9952589bb61ff184160bd979eae9",
+    "reports/liquidations_2026-09-07/pilot_registration.json": "1a567517d1430f8248c423f3e3065c5fa8dc9e93fd167fdae9ed3909466e723e",
+    "reports/liquidations_2026-09-07/study_registration.json": "7298660c484e5ef1366f63c9026a4295bb11ef76da591047fb787488d9e4572f"
+  },
+  "start_ms": 1786233600000,
+  "warmup_days": 7
+}

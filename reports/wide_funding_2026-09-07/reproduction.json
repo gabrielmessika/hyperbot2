@@ -1,0 +1,69 @@
+{
+  "all_exact": true,
+  "mypy_source_files": 52,
+  "results": [
+    {
+      "match": true,
+      "reproduced": "tmp/volume-shocks-repro-2026-09-07/continuation-events.json",
+      "sha256": "10667081c5071b987c3732259d21b3c6c6a5ca463502564bd689b961c4bb99c6",
+      "source": "data/volume_shocks_2026-09-07/final/continuation-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/volume-shocks-repro-2026-09-07/summary.json",
+      "sha256": "0216bcd9882f1d260ee5e946d508da26dfb4ae5931b69bce2f5efce774515d47",
+      "source": "data/volume_shocks_2026-09-07/final/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/volume-shocks-repro-2026-09-07/rejection-events.json",
+      "sha256": "e601b7277d5b056f58c8e2c73329dcb5f5741b3522412fed03a2be9a9d052171",
+      "source": "data/volume_shocks_2026-09-07/final/rejection-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/cross-venue-repro-2026-09-07/basis_reversion-events.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source": "data/cross_venue_2026-09-07/run2/basis_reversion-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/cross-venue-repro-2026-09-07/funding_differential-events.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "source": "data/cross_venue_2026-09-07/run2/funding_differential-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/cross-venue-repro-2026-09-07/summary.json",
+      "sha256": "f88065d785e64dfa9c87ad58601d71f4650961b0ec39202822217826ce1e4cc0",
+      "source": "data/cross_venue_2026-09-07/run2/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/order-flow-repro-2026-09-07/absorbed_pressure-events.json",
+      "sha256": "429a739fcc6030fe1bd071f09e0a5902559b43ee16ee75c74a30f32cf1593279",
+      "source": "data/order_flow_2026-09-07/final/absorbed_pressure-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/order-flow-repro-2026-09-07/summary.json",
+      "sha256": "cc62d219f2a1c92de6cde07ff1bae79f0dce851e7d52844085a03e88be199084",
+      "source": "data/order_flow_2026-09-07/final/summary.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/order-flow-repro-2026-09-07/accepted_pressure-events.json",
+      "sha256": "9e863f4e74ae0467e55f7a72b23a3e7a69d27bce85c2766a85eaa99a258303d0",
+      "source": "data/order_flow_2026-09-07/final/accepted_pressure-events.json"
+    },
+    {
+      "match": true,
+      "reproduced": "tmp/cashcat-hedge-repro-2026-09-07/summary.json",
+      "sha256": "1dc27a39a1dea0d84b89be03de4828da83ee18feb188c3a5e59d70b142facbe9",
+      "source": "data/wide_funding_2026-09-07/cashcat_verified/summary.json"
+    }
+  ],
+  "ruff_check": true,
+  "ruff_format": true,
+  "verified_tests": 210
+}

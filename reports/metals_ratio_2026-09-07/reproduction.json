@@ -1,0 +1,207 @@
+{
+  "artifacts": [
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/quality.json",
+      "sha256": "8ae7b2fe970e56f220b2ae6a0c34cf19b8cf86a77ed0bfc10bcdf79a1bd8b94b"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/summary.json",
+      "sha256": "d35887ead466cc3fa8453329656b32c1281823b0374d0710e3c193b095f214e5"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-base-infra-0.json",
+      "sha256": "0ddaca51fdbe72be9490ac7b4035f848bfc6b7cddb45a89d2f90d8a325dd24ba"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-base-infra-20.json",
+      "sha256": "d3a19773a5620cafb0218cb64d1f0d91cc43a26cbcff20f0612c708df91f3b70"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-cost_stress-infra-0.json",
+      "sha256": "185b13ddd4500c09baa6ff159487c1554597e8f3bb5e3562105e0f9c2d9e9664"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-cost_stress-infra-20.json",
+      "sha256": "3ea99f43cc7d6f15d9a285b1ab41093ca4f6fae1b9755450cf6949666e754856"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-delay-infra-0.json",
+      "sha256": "f811abcc2e9dcc0b9ba34f64de6b356329744e09a5b27aec0946d350a62d6c9d"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-delay-infra-20.json",
+      "sha256": "f130f1e59c65716f72c9c34c7b6c3dd0533715333f6979253c0ebe039395271a"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "f6b3433e0ae2fb7ba763f2f00e73fe165938326f05a8ac426a8411d234eb84d9"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "e19745989a7d070e8dc2cca186aaeadf95ba711bd3abd7f12bf862d0e64e1ebe"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-zero_cost-infra-0.json",
+      "sha256": "551e191e26fcfc2c07ac543763997cc20db15c450a115bc694d15094cc1dd584"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-0.5-zero_cost-infra-20.json",
+      "sha256": "13867e96fd474ee6338cb690be8d8aec5b61e6f4a269bcf1cbb188e5e618d464"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-base-infra-0.json",
+      "sha256": "8dc493d005bf0588f0d30537cb339ca16595af901546ac501e3a15893db7cfb0"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-base-infra-20.json",
+      "sha256": "e9b28dc171c2ecb078ae246c6fda7ee505211a50036c0043efd7a15e9bde7796"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-cost_stress-infra-0.json",
+      "sha256": "4ede00a9d1c2170a4054ae1cd2c314699899c4f55c531319bcb0601261e3f457"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-cost_stress-infra-20.json",
+      "sha256": "3bebdf7e7c1d54db26115478b4525225aec356fac56f4bf67010675bc846e336"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-delay-infra-0.json",
+      "sha256": "47d8696b088c0c18bedf8c52d5aaccbf446656bb26b38500ddd77c1f2b7001a8"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-delay-infra-20.json",
+      "sha256": "5315f1533de06b5a18f7f2c7e375affdac2d45fbd2c9c7b8891e1cfb15914173"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-funding_adverse-infra-0.json",
+      "sha256": "bf5aaebb5e8d863776336c9eec66dc241f1b312aafe3ee75438e48634130acda"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-funding_adverse-infra-20.json",
+      "sha256": "2e53b928f4052e461c39b59f845acbec84bcbce628aa40d6583d7a13925b0d73"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-zero_cost-infra-0.json",
+      "sha256": "b86eddf38ef4c435f18d09a94e5afa6688fe35a458df5cf35f9f260b6d64b2d3"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1-zero_cost-infra-20.json",
+      "sha256": "0919ceb6c4c8529acaa4db16539d87fe243a549334ca60acf3804380cea8b20d"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-base-infra-0.json",
+      "sha256": "b5f075c797db6df1bee61dab693a9edd76f1f1b552198bcd60d90434fe8d9a6f"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-base-infra-20.json",
+      "sha256": "e13a1da265de1fdeab9cf3cc4ed2057e7bf4a38418f01546d1143ff1d2777387"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-cost_stress-infra-0.json",
+      "sha256": "1eb5b738028bf327983c41c56e868f6e0a4c3590dca09863f718f6421816575a"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-cost_stress-infra-20.json",
+      "sha256": "a268c556d3aa69e5770d31a463e1064c14f262e1b0353c0f7241e45c3484c1c2"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-delay-infra-0.json",
+      "sha256": "fabe57817f3e84e17362801b94edcfbbb554aeeddd5d194558ba22a9a972e7fc"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-delay-infra-20.json",
+      "sha256": "fcbb5bbb4f9f46e0be8ac80420b0540c7a7d305f8b84d664fd26cba4747b4148"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "05307ff6aa7671a9b4794aeb920b274e149b6aaf372c53f50bdf3735a1ce1941"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "b8b28df8acc73642bc9813a67e115bc7d176e0330d3456758553e1227b2186f0"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-zero_cost-infra-0.json",
+      "sha256": "7f1d25b7e4d5d126d82c12f68cab272323e41f9985492b12744ce0fda743ca8f"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/reproduced/cap-1.5-zero_cost-infra-20.json",
+      "sha256": "fbab9d03c57308584fbee8f816f6555a967b9f009e48da5ba36464b5f2693e6f"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/audit/summary.json",
+      "matched": true,
+      "right": "data/metals_ratio_2026-09-07/audit_reproduced/summary.json",
+      "sha256": "5644d6d8c0e442511a2f97bf8160270c0eb226dcd7a143e83ff3ef9eb751f3b6"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "61 source files passed",
+  "pytest": "239 passed",
+  "ruff_check": "passed",
+  "ruff_format": "210 files already formatted"
+}

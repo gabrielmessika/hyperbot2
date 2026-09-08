@@ -1,0 +1,571 @@
+{
+  "acquisition_code_sha256": "a60ec0b5dcd162d34a2acf8598510734a1bdd4a75138fe3d5f3ba46abe73ec87",
+  "artifacts": [
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-base-infra-0.json",
+      "sha256": "ed0033c041df61a614231ec6a064db593c870a6a6fcfa7cac1e422260b876297"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-base-infra-20.json",
+      "sha256": "3eb77091833445be2f22a727b47d093db647325911b5a7c55fb0e50261047025"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-cost_stress-infra-0.json",
+      "sha256": "07bc2d7cff6738cc8be0a3cdc144a86814738fe5364efbcabc00806ed8283568"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-cost_stress-infra-20.json",
+      "sha256": "e3ae6bf1a392606048fb0d855bd87610c58be7b12b4ed8aed696fae94033ec8b"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-delay-infra-0.json",
+      "sha256": "cf41e9a27baeb64aa1dc36abffb1fd92fd5c1f7e75e5830413549f4c6a345522"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-delay-infra-20.json",
+      "sha256": "57e8ae1309359ae4fc3a87c5a102992aef56188a9d8d66edf69fe86e1ee0d10e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-funding_adverse-infra-0.json",
+      "sha256": "83ae909839f52dadd655cee3ca203315ea80605e2ad68b30b0cf71f0bb9708dc"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-funding_adverse-infra-20.json",
+      "sha256": "e8c833ca7e834dbf6feb20749d63c8f27f5beb7f2f2a181eec6ef57469e90a10"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-zero_cost-infra-0.json",
+      "sha256": "188b609e350cfb7beb395a362d79b6b4fae77032d8d294968bd7d03890876701"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-funding72-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-funding72-zero_cost-infra-20.json",
+      "sha256": "b01b5e1540af0324437889376121e1c61d770f8798a82e4d3a8eea1034bb36c4"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-base-infra-0.json",
+      "sha256": "ac0386b84b5def022c2bf98147bc72959aa46aeed0df4574d31def02253fccab"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-base-infra-20.json",
+      "sha256": "b53be673313149e84bb481dd7d7920be82c2f3a026b71c651af4a083ae0f82e6"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-cost_stress-infra-0.json",
+      "sha256": "aef8f26786f01d2f32acb7f0ab13b9a557000980e586317e5eabe90d871652ff"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-cost_stress-infra-20.json",
+      "sha256": "378797c619261713bdce198f90259238f16c3071d46a256cfbdb7977c9eff209"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-delay-infra-0.json",
+      "sha256": "dea37d2dea8c57bd17365708878f3a1ed755ff8ce896273359d48fd0bd495a8e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-delay-infra-20.json",
+      "sha256": "c294e8f157cd1674bd80e896ac9faf3be2712c37f3e3a93c5b377c9036c25e14"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-funding_adverse-infra-0.json",
+      "sha256": "69afbb57aae63351c8e0ce9d2fd498668176a395c3dd452b3d05a299e051974e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-funding_adverse-infra-20.json",
+      "sha256": "80bb13382ff8fc8b2872245ded7a087a83cdf1b68c7633a73a12336bba5bfa4f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-zero_cost-infra-0.json",
+      "sha256": "bc2d1523f4c900dfae38bbbd1b0ac50c7eeaa8e4be8ef431ff3c306f64fbf865"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-grid_long-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-grid_long-zero_cost-infra-20.json",
+      "sha256": "c3469ddd953ef77b0b0ee92a8ea13c67ac77d65fc3d5f2f6018b889a5ba39ede"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-base-infra-0.json",
+      "sha256": "aecfc787423723355c167103735d82262ebb469ad2e13660f44ee090422773ec"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-base-infra-20.json",
+      "sha256": "a06ec77323fa0f931ee73e9ad8bdd693bae9867a34f0e1f2565ad5d26a0ab6d3"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-cost_stress-infra-0.json",
+      "sha256": "755a53c104a92a1c0ef52f2dc5517af29847a38f78db22065a71e59d15240126"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-cost_stress-infra-20.json",
+      "sha256": "b81cca16fe6550b066b5e63f1f62183300add496c20ef97cd09a7c0587775fbc"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-delay-infra-0.json",
+      "sha256": "8498827fb6ec444449c5dc6120f1547d62a1373ff58aea0fa4b540effd7a6e12"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-delay-infra-20.json",
+      "sha256": "966e2370d12a7991b39ada54bea8eddbfaa5c215b566a10d4dbe5484bc689fb5"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-funding_adverse-infra-0.json",
+      "sha256": "c2aef1fe583fc1b5233abb13e4d635da3ed3e68107813546fa3cffcd350f4527"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-funding_adverse-infra-20.json",
+      "sha256": "f666191756d9d914ad3218ff8148eb2a087fa9401efcc70d9a667d2d715bb762"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-zero_cost-infra-0.json",
+      "sha256": "ed7cbda6e0d3755d9f207b72a8b8d56cc5052ce271f5c388e3788743db720f7b"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/continuous-hold_equal-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/continuous-hold_equal-zero_cost-infra-20.json",
+      "sha256": "c9164546839d11017cea11facf28b9bae53cfd49e19afb73500b760df8cbf642"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-base-infra-0.json",
+      "sha256": "bfe157a6ed61e2b4d8bccab2a0f6a50016c5df12116b73288fe2e690d219edf3"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-base-infra-20.json",
+      "sha256": "c3387a72408ce2af16ec06701325906ea758ceb32872e8d8f46242278e0b305c"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-cost_stress-infra-0.json",
+      "sha256": "d3db39fee457e2d4d794cae326f179e10410ae39f2516ee58bd093e2c3f2148d"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-cost_stress-infra-20.json",
+      "sha256": "538536dd915da3a0157ca2527ac1faef6ce07596fb9461c0d9eb9296858467df"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-delay-infra-0.json",
+      "sha256": "e7e8cec5d55d9a35a877a1a05b1e108e038023973d20cca81e58f30967a0c57d"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-delay-infra-20.json",
+      "sha256": "373105d6805fd19ec5b9867c4303f41bf479cc083a909060396fc738030b51ff"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-funding_adverse-infra-0.json",
+      "sha256": "f5557ad888f9dbe82ac17987d879072294ef7fce15cab2174a00cd9eaa19eb4e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-funding_adverse-infra-20.json",
+      "sha256": "c4e9eae0e9794d0c959f0d340ca91961174ca78a76fd20c2887d21a34f41e933"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-zero_cost-infra-0.json",
+      "sha256": "51260227c3c0e2a7b9f1d4363c3ec5b8aaf17f915d17c0bee0ff870ef1ef53c3"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-funding72-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-funding72-zero_cost-infra-20.json",
+      "sha256": "69e346edf789397846a76ff9ff1052c26afa71500fdc25bd5b2a520440a01b88"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-base-infra-0.json",
+      "sha256": "3cf2abc9b6974c27a5baee8190c32ce667a0ead84749b2bc33deaf02598ca371"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-base-infra-20.json",
+      "sha256": "2808729f4f28accb5b09fbe3d70657a867a3badeaf14510c076633c7c438ea77"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-cost_stress-infra-0.json",
+      "sha256": "4219e8449131d23cd641c2cf54a4c458a8e8340054312b76fed53657b358b758"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-cost_stress-infra-20.json",
+      "sha256": "cc98ea05ad3cd6bdaa467341a2a2ffccda99d14322756e81f132a72b6cc18fe2"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-delay-infra-0.json",
+      "sha256": "a87359d2cc4a31474011ca67c0228241e7df023282c36d8c7eb54ec3c3d8bc9d"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-delay-infra-20.json",
+      "sha256": "3c8a2a8c56e25554d57d27c5fb301b4aa1d86d04d5cafe78e28c32c53fd855c2"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-funding_adverse-infra-0.json",
+      "sha256": "3c56f31d75a3a81b19db68bf875324652b938cb7ebed102d316566bd566a2882"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-funding_adverse-infra-20.json",
+      "sha256": "f8a61ef23419fe9add0ed2dce6159c987b86c91492be1d258b569a25766c5e5b"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-zero_cost-infra-0.json",
+      "sha256": "72b9343d1dfbbb56e0b95e06ceea1a00fcd593fe85c908ffdceca36f524dae10"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-grid_long-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-grid_long-zero_cost-infra-20.json",
+      "sha256": "b1e278a098cd091356b920ea631ad9f5f87a4f1a544a85fb5f0c5e149e3e52d1"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-base-infra-0.json",
+      "sha256": "8056a931a6701819674e7be950abcd03d201e05495abc9102ba346cc4ac327c5"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-base-infra-20.json",
+      "sha256": "71ef8197eaa4f6f90b468f7b8218895df086f65bf87663d90da98127b108fbe8"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-cost_stress-infra-0.json",
+      "sha256": "e81b26469acae6d27b5148d7a1ecabd647fde3598d75c1943c768f00e65f4c7e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-cost_stress-infra-20.json",
+      "sha256": "36a4dc5cee634d26d2056f5c6bb1945cb135fe8694e99289c594f3bbb0dff32b"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-delay-infra-0.json",
+      "sha256": "6bf38243e4d2858bfb8a402da4b5b2c5e4ae8516a655cfb66dc34b897fdcd46f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-delay-infra-20.json",
+      "sha256": "0cab2af141ce9dd7bf08239d05a578515306c1688210e2c2cdb8ac7f9b694037"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-funding_adverse-infra-0.json",
+      "sha256": "5a300ef16a0c3724ca8ee78972ba32dc1fbf32f717ba5b7115557cf7093116c1"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-funding_adverse-infra-20.json",
+      "sha256": "5f8d49570b7adf62d84deaa7bd4b636be7e8f3cf03aff4aae586bb4556a1a336"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-zero_cost-infra-0.json",
+      "sha256": "417845a5977db5553cdc082616ca3cc32c1931e2c7ac3863e61ee3877070763c"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/older-hold_equal-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/older-hold_equal-zero_cost-infra-20.json",
+      "sha256": "1e9c2519d7fa1bc7b9d65ab3e40f43458a79296a53fc9a9392060f378d55f432"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/quality.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/quality.json",
+      "sha256": "66e6585e3be2847e5b42629d2e6e350e30be61466f43f2ac08734ad7a97db147"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-base-infra-0.json",
+      "sha256": "5e8a733ccc5cf06db5fb16479777846ddbaa8d7d2ace011af5ba7c55009a0f0e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-base-infra-20.json",
+      "sha256": "1f66cb7eae0961f62b41bd9fbc383b277232deaa3ad4b1935cd63727a6188c51"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-cost_stress-infra-0.json",
+      "sha256": "e08d9a292639de01dd4940e035779bd88d3e2c20b5a37e582c7fb7caa2d77e3f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-cost_stress-infra-20.json",
+      "sha256": "bb05839e73a8309b38ecfe41ac7f122a9a06faa7025e0daf00b9020542371fda"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-delay-infra-0.json",
+      "sha256": "60fb0c91b2634637f3d4fdd6cf2b64553c339f512e78c6b6d6660b6402457d1f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-delay-infra-20.json",
+      "sha256": "e0050d53e3158825b0560ba734237551cc5d926a9c3208e20ef43261e94e91b4"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-funding_adverse-infra-0.json",
+      "sha256": "80bed9a981aef2cf22217d974842705adbaa7982b9c360d696f7a682974d3c62"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-funding_adverse-infra-20.json",
+      "sha256": "4d4c4cc56c07c4337df9f760ee727511e32f9319a139077b0a6f93417f22a47a"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-zero_cost-infra-0.json",
+      "sha256": "2e88e81404dbaf24e8710f689fa0f6508b0fbf8b7390e1e76acd814d8fc36e6f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-funding72-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-funding72-zero_cost-infra-20.json",
+      "sha256": "b5587d26e23a289af7e562c7f3583d9b0c1e02cd5a6d5ccb5672c44f075ee697"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-base-infra-0.json",
+      "sha256": "a69721ce978995f9340b6ccaa746fa2973636893bc52d76e6f9e028490839bda"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-base-infra-20.json",
+      "sha256": "f529a26bff2fa1321ea3d87ec404e33e9ae84980de35c24834bb2730a3f7fe5e"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-cost_stress-infra-0.json",
+      "sha256": "eac5cf7619c42db7798a71a1782024e5dabe0485598af2d6d48622c943b81a31"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-cost_stress-infra-20.json",
+      "sha256": "11bcbdd6cd9276cc5e87039c0a53d40f70e15a37bd4598d172d2551627d27221"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-delay-infra-0.json",
+      "sha256": "f61d0b302bb8c4b39dbe4c5d941ea0c0bb40fc632b158ccc1ea054307cc8ec9a"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-delay-infra-20.json",
+      "sha256": "f9bf417bee2ad2cf7eb409b16d62a3f2a29e5b288ec84b867491cf735c68ccf6"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-funding_adverse-infra-0.json",
+      "sha256": "69b2181ab9435cb76b45c2c42e7b0447daf59b54e73f59da7e75c56b7be77b60"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-funding_adverse-infra-20.json",
+      "sha256": "bde5bb4e5c440cff27f8bfbc1575b8f4ba0888639072fe043cf83b4a56eab703"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-zero_cost-infra-0.json",
+      "sha256": "60c285449329172115a6908418606b6382d72d322f64a84d5c2535dae06462b8"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-grid_long-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-grid_long-zero_cost-infra-20.json",
+      "sha256": "a8f0164631df7e416033b8eac594a72e8f7ef9c2503f27ab1aef849aaf55574f"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-base-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-base-infra-0.json",
+      "sha256": "9732499d6bfb5675a99e33d0c4ff6bd3189db1625ffcd1d069ceb292f8523228"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-base-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-base-infra-20.json",
+      "sha256": "83a19ac14a4ae8c5aab264b1b76aac4eb276e72c53f556320d5aee7d3e087424"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-cost_stress-infra-0.json",
+      "sha256": "64a0eff99216f993686415f07f495055963c163686f9e34a3e3ea61b4c071422"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-cost_stress-infra-20.json",
+      "sha256": "2f615e569e82567fa78b5b29de81f1c02382c0a035949e16b3db4dbd5bafe319"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-delay-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-delay-infra-0.json",
+      "sha256": "ad362c3d0ec0e4d84ddb2b2c8d96e6baac980d40d57962f84dc635cc992ecd67"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-delay-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-delay-infra-20.json",
+      "sha256": "7da1fbd4362b88de876be3e67ded2b3273cc4ce42c7dc7eb1b144a71e9e6774d"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-funding_adverse-infra-0.json",
+      "sha256": "6cafd25526e84b04d42cfe2d60dabb2d3da2791e997d7fb1d8358148de4ad3ac"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-funding_adverse-infra-20.json",
+      "sha256": "1fcf9657ef051752aace437abbd74f79faebb862e3cf83db9eba014a400b82bc"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-zero_cost-infra-0.json",
+      "sha256": "75ac22f8106737c547293c01dfb679139ee9d3c181f39859bb3388d09692c089"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/recent-hold_equal-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/recent-hold_equal-zero_cost-infra-20.json",
+      "sha256": "432f247df9d41c23655b08503a57471bf89d7bd256be710d0b1c6d323bcccedb"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/selection.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/selection.json",
+      "sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102"
+    },
+    {
+      "left": "data/funding_transfer_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/funding_transfer_2026-09-07/reproduced/summary.json",
+      "sha256": "103b2165bde15e377e89345c2918e68de407626a50f335dc5b4ead1facaebc7d"
+    }
+  ],
+  "documentation": {
+    "data/funding_transfer_2026-09-07/documentation/fees.json": "03e312144a5320ecd57b598b0daf8f9e9c5c96398570b4c249d6ec5ca84f1809",
+    "data/funding_transfer_2026-09-07/documentation/rate_limits.json": "8ed60d9678a29a41b2a3b715743c3d5ae588c674589307519b05fa141e621bb9"
+  },
+  "initial_economic_results_unchanged": true,
+  "live_enabled": false,
+  "ruff": "check and format passed, 235 files",
+  "source_engine_unchanged_from_251_test_run": true
+}

@@ -1,0 +1,191 @@
+{
+  "code_version": "source-sha256:e38d4635f300db133045ec5f29a5ac44e138210a1647744882474b855491daf0",
+  "criteria": {
+    "positive_paired_lower_bound": false,
+    "positive_required_cost_scenarios": false,
+    "thirty_events_and_days": true
+  },
+  "decision": "FUNDING_CLOCK_HYPOTHESIS_NOT_CONFIRMED",
+  "distinct_days": 62,
+  "events": 113,
+  "events_by_coin": {
+    "ENA": 11,
+    "FARTCOIN": 3,
+    "INJ": 1,
+    "JUP": 1,
+    "TAO": 1,
+    "WLD": 1,
+    "XMR": 45,
+    "ZEC": 50
+  },
+  "events_by_side": {
+    "-1": 74,
+    "1": 39
+  },
+  "live_enabled": false,
+  "native_fills_qualified": false,
+  "network_data_calls": 0,
+  "portfolio_simulated": false,
+  "promotion_authorized": false,
+  "protocol_sha256": "ac7d3cc3f3ebecf754a3ad384c7f5db0c48805684fc1ba2dcc448a5ea2636bba",
+  "results": {
+    "base": {
+      "contribution_sum_event_bps": {
+        "ENA": "-385.2883466445147015945744975",
+        "FARTCOIN": "358.9295209031721427196367822",
+        "INJ": "-270.6604742212233820886544411",
+        "JUP": "-21.94674940350000294965159252",
+        "TAO": "-455.5379340135379260942162726",
+        "WLD": "-449.9112111216720242614640827",
+        "XMR": "-222.2612797353332070167516461",
+        "ZEC": "-1018.095710675306415173107692"
+      },
+      "mean_control_net_bps": "7.087076274898901895539260673",
+      "mean_primary_net_bps": "-21.81214322930898687131666765",
+      "n": 113,
+      "paired_advantage_bootstrap": {
+        "block_days": 7,
+        "lower_95": -71.17584507897284,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 17.534798974997383
+      },
+      "primary_mean_bootstrap": {
+        "block_days": 7,
+        "lower_95": -54.35373126756415,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 21.037384815124508
+      },
+      "profit_factor": "0.6719554672108065166483531533",
+      "worst_event_bps": "-498.4635673889472992069083398"
+    },
+    "cost_stress": {
+      "contribution_sum_event_bps": {
+        "ENA": "-550.6682506890467238043974721",
+        "FARTCOIN": "313.5459820849195052569738770",
+        "INJ": "-285.9424852847687635191718226",
+        "JUP": "-36.96754945837530025066152379",
+        "TAO": "-471.0141121974869182663311089",
+        "WLD": "-465.3814798530438878493946921",
+        "XMR": "-897.3143199281444147808965794",
+        "ZEC": "-1769.052489946209551686699494"
+      },
+      "mean_control_net_bps": "-7.907535005107136495870482977",
+      "mean_primary_net_bps": "-36.83889119709872614956264442",
+      "n": 113,
+      "paired_advantage_bootstrap": {
+        "block_days": 7,
+        "lower_95": -71.2194187448048,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 17.518339147136132
+      },
+      "primary_mean_bootstrap": {
+        "block_days": 7,
+        "lower_95": -69.40631174814833,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 6.035788297522488
+      },
+      "profit_factor": "0.5053060768541743498698820502",
+      "worst_event_bps": "-513.9848281191048305524042745"
+    },
+    "delay": {
+      "contribution_sum_event_bps": {
+        "ENA": "-449.4407402327830948201663741",
+        "FARTCOIN": "569.3668815937121928558148815",
+        "INJ": "50.06705950055721704966808226",
+        "JUP": "165.7206602034692652816277541",
+        "TAO": "70.77117801699187695737079470",
+        "WLD": "146.9134292256375150462618476",
+        "XMR": "-922.1889290166647727739068942",
+        "ZEC": "-900.8161153213993168644967569"
+      },
+      "mean_control_net_bps": "7.087076274898901895539260673",
+      "mean_primary_net_bps": "-11.23545642504848776343209439",
+      "n": 113,
+      "paired_advantage_bootstrap": {
+        "block_days": 7,
+        "lower_95": -59.699964707467906,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 18.973943113804726
+      },
+      "primary_mean_bootstrap": {
+        "block_days": 7,
+        "lower_95": -32.723874524619696,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 19.92626806655831
+      },
+      "profit_factor": "0.8130091520733605628143377866",
+      "worst_event_bps": "-601.9156986195066412196138685"
+    },
+    "funding_adverse": {
+      "contribution_sum_event_bps": {
+        "ENA": "-385.2883466445147015945744975",
+        "FARTCOIN": "358.9295209031721427196367822",
+        "INJ": "-270.6604742212233820886544411",
+        "JUP": "-21.94674940350000294965159252",
+        "TAO": "-455.5379340135379260942162726",
+        "WLD": "-449.9112111216720242614640827",
+        "XMR": "-222.2612797353332070167516461",
+        "ZEC": "-1018.095710675306415173107692"
+      },
+      "mean_control_net_bps": "7.087076274898901895539260673",
+      "mean_primary_net_bps": "-21.81214322930898687131666765",
+      "n": 113,
+      "paired_advantage_bootstrap": {
+        "block_days": 7,
+        "lower_95": -71.17584507897284,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 17.534798974997383
+      },
+      "primary_mean_bootstrap": {
+        "block_days": 7,
+        "lower_95": -54.35373126756415,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 21.037384815124508
+      },
+      "profit_factor": "0.6719554672108065166483531533",
+      "worst_event_bps": "-498.4635673889472992069083398"
+    },
+    "zero_cost": {
+      "contribution_sum_event_bps": {
+        "ENA": "-242.0539321344445176177974286",
+        "FARTCOIN": "398.2601400549759065395998609",
+        "INJ": "-257.4389836175192243396857238",
+        "JUP": "-8.936550491510277033065236818",
+        "TAO": "-442.1593830334190231362467866",
+        "WLD": "-436.5374402549123738714816782",
+        "XMR": "362.9606568350969487476504456",
+        "ZEC": "-367.6530839398329079149666277"
+      },
+      "mean_control_net_bps": "20.08066946850842691461715959",
+      "mean_primary_net_bps": "-8.792553775058101492265426348",
+      "n": 113,
+      "paired_advantage_bootstrap": {
+        "block_days": 7,
+        "lower_95": -71.14061833467406,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 17.548135222046103
+      },
+      "primary_mean_bootstrap": {
+        "block_days": 7,
+        "lower_95": -41.32486585221202,
+        "replicates": 5000,
+        "seed": 20260907,
+        "upper_95": 34.03477394259874
+      },
+      "profit_factor": "0.8552572370326258921026652886",
+      "worst_event_bps": "-485.0485494639484914722457659"
+    }
+  },
+  "run_id": "funding-clock-20260907-v1",
+  "schedule_matches": 113,
+  "script_sha256": "3577fc9875b40942551466689b4e7509102f601cf4adc06c2e42b9563caf04b1"
+}

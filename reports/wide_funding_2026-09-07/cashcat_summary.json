@@ -1,0 +1,428 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/investigate_cashcat_hedge.py": "9bdb228b0943870a690f5972ca4316dfbbfa6c00d4ddc133591996cbf99eea74",
+    "src/hyperbot2/research/cash_carry.py": "1a38b1b5222e86ec95cf50181491af861fc32aace54771219ce19467f0d6314b",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "data_cost_usd": 0,
+  "decision": "HEDGE_ECONOMICS_NOT_CONFIRMED",
+  "end_ms": 1788652800000,
+  "limits": [
+    "selected on latest-month funding; no independent portfolio holdout",
+    "20% maintenance stress, not exact historical liquidation formula",
+    "hourly traded prices, no executable quotes or exact funding oracle",
+    "no transfers; no profit credited beyond margin stress breach",
+    "fees and conversion costs assumed; network withdrawals unqualified",
+    "spot contract checked, HL underlying mapping unqualified",
+    "no prospective funding persistence or live authorization"
+  ],
+  "metadata": {
+    "native": {
+      "marginTableId": 3,
+      "maxLeverage": 3,
+      "name": "CASHCAT",
+      "szDecimals": 0
+    },
+    "spot_book": {
+      "asks": [
+        [
+          "0.2157",
+          "695.53"
+        ],
+        [
+          "0.2158",
+          "695.2"
+        ],
+        [
+          "0.2161",
+          "331.92"
+        ],
+        [
+          "0.2162",
+          "6943.28"
+        ],
+        [
+          "0.2163",
+          "3107.18"
+        ],
+        [
+          "0.2164",
+          "7035.84"
+        ],
+        [
+          "0.2165",
+          "24081.5"
+        ],
+        [
+          "0.2166",
+          "6942"
+        ],
+        [
+          "0.2167",
+          "7205.04"
+        ],
+        [
+          "0.2168",
+          "468.22"
+        ],
+        [
+          "0.2169",
+          "6479.99"
+        ],
+        [
+          "0.217",
+          "4802.84"
+        ],
+        [
+          "0.2171",
+          "6479.99"
+        ],
+        [
+          "0.2173",
+          "461.15"
+        ],
+        [
+          "0.2174",
+          "8099.95"
+        ],
+        [
+          "0.2175",
+          "460.52"
+        ],
+        [
+          "0.2176",
+          "7288.69"
+        ],
+        [
+          "0.2177",
+          "460.2"
+        ],
+        [
+          "0.2178",
+          "22962.67"
+        ],
+        [
+          "0.2179",
+          "7133.84"
+        ]
+      ],
+      "bids": [
+        [
+          "0.2154",
+          "696.25"
+        ],
+        [
+          "0.2153",
+          "1159.22"
+        ],
+        [
+          "0.2152",
+          "9068.19"
+        ],
+        [
+          "0.2151",
+          "463.5"
+        ],
+        [
+          "0.215",
+          "15505.91"
+        ],
+        [
+          "0.2149",
+          "19459.49"
+        ],
+        [
+          "0.2148",
+          "809.2"
+        ],
+        [
+          "0.2147",
+          "737.45"
+        ],
+        [
+          "0.2146",
+          "7289.19"
+        ],
+        [
+          "0.2145",
+          "5325.86"
+        ],
+        [
+          "0.2143",
+          "6938.51"
+        ],
+        [
+          "0.2142",
+          "812.75"
+        ],
+        [
+          "0.2141",
+          "561.79"
+        ],
+        [
+          "0.214",
+          "642.27"
+        ],
+        [
+          "0.2139",
+          "9770.86"
+        ],
+        [
+          "0.2138",
+          "2400.1"
+        ],
+        [
+          "0.2137",
+          "6479.99"
+        ],
+        [
+          "0.2136",
+          "8.13"
+        ],
+        [
+          "0.2135",
+          "81.17"
+        ],
+        [
+          "0.2134",
+          "23547.9"
+        ]
+      ],
+      "sequence": "96279429",
+      "time": 1788776127981
+    },
+    "spot_currency": {
+      "chains": [
+        {
+          "addressRegex": "^(0x)[0-9A-Fa-f]{40}$",
+          "chainId": "robinhood",
+          "chainName": "Robinhood",
+          "confirms": 5000,
+          "contractAddress": "0x020bfc650a365f8bb26819deaabf3e21291018b4",
+          "depositMinSize": null,
+          "isDepositEnabled": true,
+          "isWithdrawEnabled": true,
+          "maxDeposit": null,
+          "maxWithdraw": null,
+          "memoRegex": "",
+          "needTag": false,
+          "preConfirms": 200,
+          "withdrawFeeRate": "0",
+          "withdrawMinFee": "10",
+          "withdrawMinSize": "20",
+          "withdrawPrecision": 8,
+          "withdrawalMinFee": "10",
+          "withdrawalMinSize": "20"
+        }
+      ],
+      "confirms": null,
+      "contractAddress": null,
+      "currency": "CASHCAT",
+      "fullName": "Cash Cat",
+      "isDebitEnabled": false,
+      "isMarginEnabled": false,
+      "name": "CASHCAT",
+      "precision": 8
+    },
+    "spot_symbol": {
+      "baseCurrency": "CASHCAT",
+      "baseIncrement": "0.01",
+      "baseMaxSize": "10000000000",
+      "baseMinSize": "1",
+      "callauctionFirstStageStartTime": 1784106000000,
+      "callauctionIsEnabled": false,
+      "callauctionPriceCeiling": "0.7",
+      "callauctionPriceFloor": "0.0001",
+      "callauctionSecondStageStartTime": 1784109000000,
+      "callauctionThirdStageStartTime": 1784109300000,
+      "enableTrading": true,
+      "feeCategory": 3,
+      "feeCurrency": "USDT",
+      "isMarginEnabled": false,
+      "makerFeeCoefficient": "1.00",
+      "market": "USDS",
+      "minFunds": "0.1",
+      "name": "CASHCAT-USDT",
+      "priceIncrement": "0.0001",
+      "priceLimitRate": "0.05",
+      "quoteCurrency": "USDT",
+      "quoteIncrement": "0.01",
+      "quoteMaxSize": "99999999",
+      "quoteMinSize": "0.1",
+      "st": false,
+      "symbol": "CASHCAT-USDT",
+      "takerFeeCoefficient": "1.00",
+      "tradingStartTime": 1784109600000
+    }
+  },
+  "promotion_authorized": false,
+  "protocol_sha256": "b9c0a096823779476525c1dabdffaec250f3699ddedf0ad9d8eceb3db7105ed0",
+  "run_id": "cashcat-hedge-2026-09-07",
+  "segments": {
+    "older": {
+      "base": {
+        "first_breach_ms": 1785967200000,
+        "funding_received_to_breach": "17.4744394992174750",
+        "margin_equity_at_adverse_price": "102.8624302317324750",
+        "max_open_basis_bps_to_breach": "316.1142500000000000000000000",
+        "minimum_margin_buffer_usdc": "-80.0116697682675250",
+        "planned_exit_net_usdc": null,
+        "quantity": "4850",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "cost_stress": {
+        "first_breach_ms": 1785967200000,
+        "funding_received_to_breach": "17.4780424764338085",
+        "margin_equity_at_adverse_price": "102.4055863064083085",
+        "max_open_basis_bps_to_breach": "316.1142500000000000000000000",
+        "minimum_margin_buffer_usdc": "-80.5062196935916915",
+        "planned_exit_net_usdc": null,
+        "quantity": "4851",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "delay_day": {
+        "first_breach_ms": 1785960000000,
+        "funding_received_to_breach": "23.9861686538935552",
+        "margin_equity_at_adverse_price": "115.4743583855471552",
+        "max_open_basis_bps_to_breach": "316.1142500000000000000000000",
+        "minimum_margin_buffer_usdc": "-66.1800096144528448",
+        "planned_exit_net_usdc": null,
+        "quantity": "8176",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "funding_half": {
+        "first_breach_ms": 1785967200000,
+        "funding_received_to_breach": "8.72331213817584500",
+        "margin_equity_at_adverse_price": "94.11130287069084500",
+        "max_open_basis_bps_to_breach": "316.1142500000000000000000000",
+        "minimum_margin_buffer_usdc": "-88.76279712930915500",
+        "planned_exit_net_usdc": null,
+        "quantity": "4850",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "zero_cost_control": {
+        "first_breach_ms": 1785967200000,
+        "funding_received_to_breach": "17.4708365220011415",
+        "margin_equity_at_adverse_price": "103.2692565220011415",
+        "max_open_basis_bps_to_breach": "316.1142500000000000000000000",
+        "minimum_margin_buffer_usdc": "-79.5671374779988585",
+        "planned_exit_net_usdc": null,
+        "quantity": "4849",
+        "status": "MARGIN_STRESS_BREACH"
+      }
+    },
+    "selected_month": {
+      "base": {
+        "first_breach_ms": 1787580000000,
+        "funding_received_to_breach": "27.3067419792541011",
+        "margin_equity_at_adverse_price": "130.2713516582506011",
+        "max_open_basis_bps_to_breach": "116.3208301404853128991060100",
+        "minimum_margin_buffer_usdc": "-48.9186043417493989",
+        "planned_exit_net_usdc": null,
+        "quantity": "4873",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "cost_stress": {
+        "first_breach_ms": 1787580000000,
+        "funding_received_to_breach": "27.1890646590069564",
+        "margin_equity_at_adverse_price": "131.4920459883369564",
+        "max_open_basis_bps_to_breach": "116.3208301404853128991060100",
+        "minimum_margin_buffer_usdc": "-46.9256980116630436",
+        "planned_exit_net_usdc": null,
+        "quantity": "4852",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "delay_day": {
+        "first_breach_ms": 1786330800000,
+        "funding_received_to_breach": "6.3658225364032156",
+        "margin_equity_at_adverse_price": "156.0611420928432156",
+        "max_open_basis_bps_to_breach": "99.86388261851015801354402000",
+        "minimum_margin_buffer_usdc": "-13.8380659071567844",
+        "planned_exit_net_usdc": null,
+        "quantity": "5314",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "funding_half": {
+        "first_breach_ms": 1787572800000,
+        "funding_received_to_breach": "13.27311356370909855",
+        "margin_equity_at_adverse_price": "164.91899324270559855",
+        "max_open_basis_bps_to_breach": "116.3208301404853128991060100",
+        "minimum_margin_buffer_usdc": "-4.53470875729440145",
+        "planned_exit_net_usdc": null,
+        "quantity": "4873",
+        "status": "MARGIN_STRESS_BREACH"
+      },
+      "zero_cost_control": {
+        "first_breach_ms": 1787580000000,
+        "funding_received_to_breach": "27.3459677526698160",
+        "margin_equity_at_adverse_price": "130.0651677526698160",
+        "max_open_basis_bps_to_breach": "116.3208301404853128991060100",
+        "minimum_margin_buffer_usdc": "-49.3821922473301840",
+        "planned_exit_net_usdc": null,
+        "quantity": "4880",
+        "status": "MARGIN_STRESS_BREACH"
+      }
+    }
+  },
+  "source_hashes": {
+    "data/wide_funding_2026-09-07/cashcat_boundaries/fx_klines_1.json": "498bd56af3adda2b9d75f60c00f977d16a687d17eb6ef1f482b1a7e17cebe180",
+    "data/wide_funding_2026-09-07/cashcat_boundaries/hl/request-000.json": "9460b7dd6cd757011ff13130e563da3248fc95d46405d224a70ced74854d9e0a",
+    "data/wide_funding_2026-09-07/cashcat_boundaries/hl/request-001.json": "752ab89d94f5eda30ad2ffa6dd1b57842f76a60c8ba74e86a12af9eddb4ce22f",
+    "data/wide_funding_2026-09-07/cashcat_boundaries/manifest.json": "37055dd71f52d9c90ac462d8fa9f0419de1a4f6a7edc830bca3f8a12dda7e036",
+    "data/wide_funding_2026-09-07/cashcat_boundaries/spot_klines.json": "38fecb18388f8d86060e5df0df67a1b6559d9553dc1430c7524fbf86c7a1bf50",
+    "data/wide_funding_2026-09-07/cashcat_hedge/fx_klines_1.json": "7ff233a8f44fd8acc60690ec2c17a5a64d46c184654df9534b1b97e6fafbff72",
+    "data/wide_funding_2026-09-07/cashcat_hedge/fx_klines_2.json": "e59f7e1fd13ae6ecc2cab9ddc6db1140b8eaef684bafff883442dfc225da536e",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-000.json": "451ac635f2a9ef86a62a44c5c09d862cacf993573d48fb100a3db70cea724f2a",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-001.json": "33984aec54258e4e73db4b411ad45dce3cd1c2589bac08dc6d286a04299c22bb",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-002.json": "a2a1934c0c046e10967bc98110d9b6e4cf4760d6eb966a21b2ef75d355fa1574",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-003.json": "8fa9a28bf7e100b2e55f3eeb4cfcb54e28bd018e2cfaf29919f923ceaf33380d",
+    "data/wide_funding_2026-09-07/cashcat_hedge/manifest.json": "b8526dea3150c9bf37eb535f0fb64c84cfd6ca92a1253a2b041a63ec02155f33",
+    "data/wide_funding_2026-09-07/cashcat_hedge/spot_book.json": "d9260d25ecbf574cddf9292bb99947a39feec8f10b67125de36dea1eb3068032",
+    "data/wide_funding_2026-09-07/cashcat_hedge/spot_currency.json": "a2a5723056be49df01e20f41a1a5d9456cc5b5cc762abf16637a2919962cf5de",
+    "data/wide_funding_2026-09-07/cashcat_hedge/spot_klines.json": "6bdb67bab3f9e352247ec2c58e48ef40693280bd3cbf83b7227d69cc43b7b79d",
+    "data/wide_funding_2026-09-07/cashcat_hedge/spot_symbol.json": "27cef2f2b4b18f283b27739fe61fa9c5175d2c996e5f95364f4a5d1704bde0e0",
+    "data/wide_funding_2026-09-07/history/manifest.json": "7825283567b49c700f9193269c7a481a4a1ebf8cb382833cac45a9686545ecb9",
+    "data/wide_funding_2026-09-07/history/request-000.json": "ef56ba574aaec7ef1367eb20392534ef8f4c9fb905d51447fda80af6e572cf49",
+    "data/wide_funding_2026-09-07/history/request-001.json": "b095a5181617289e41635bb07fb25c46a37d90574029855ad7bda48c853fc0c1",
+    "data/wide_funding_2026-09-07/history/request-002.json": "d3450b4c2608d4a37696eaf0c93698a6eb65c814a3e8c4cd354adf46294de4f9",
+    "data/wide_funding_2026-09-07/history/request-003.json": "be848c1591de031884dc51f0f0ff7694e2eff874353b83c38248b3bfe986fa08",
+    "data/wide_funding_2026-09-07/history/request-004.json": "d44679815a730d2ac3a4e7c9804b54bb6f09885d8695a877aeb5bcbb7500e077",
+    "data/wide_funding_2026-09-07/history/request-005.json": "85fd956d455b3d0781c258eaf5aaef59cee75bb667d712292d4bcc76497ac654",
+    "data/wide_funding_2026-09-07/history/request-006.json": "fb6f223e204695726d01d46a4bffb692ee9f82b5946d55f75cefffddde14d1ff",
+    "data/wide_funding_2026-09-07/history/request-007.json": "50f387e29b075a1a03815221f7ec2a8a2ca4cb42f34469b32e126d8a438fe80d",
+    "data/wide_funding_2026-09-07/history/request-008.json": "84546bcfd897268a420c642eef1524d2ad1838c5b0abf04f1a9ba5397af98e6f",
+    "data/wide_funding_2026-09-07/history/request-009.json": "86b9bc5fbaba12876c95e5e8a682d3104c72e7e0e5180a654f6a976742b30d23",
+    "data/wide_funding_2026-09-07/history/request-010.json": "dd9653878ef5543292b6caeb3c6dfb9df07745b7269fbf80fcfa2948c64a8d90",
+    "data/wide_funding_2026-09-07/history/request-011.json": "fa1de5bbb11bd7856702943b64c800ad118500759ce39db113898c725564de46",
+    "data/wide_funding_2026-09-07/history/request-012.json": "8aff5d2090a906a956093b13fd1c9d1ba2508bfcabf413a8237fe9c36cc4ff1c",
+    "data/wide_funding_2026-09-07/history/request-013.json": "16eb07dbdaf3f46ab005c58f61cf2b7d953806a1c50bd88909677806b56e43b3",
+    "data/wide_funding_2026-09-07/history/request-014.json": "843f178a30a0e63dbf951733bcc8c61c7ab987de377d78cbadf7be5a3a4e4693",
+    "data/wide_funding_2026-09-07/history/request-015.json": "2756ea9f7e51068a11efcbab12a5d0bea1077c58944007512ebdb340dccf4a27",
+    "data/wide_funding_2026-09-07/history/request-016.json": "dd03ac0c5e6147288815f7a6511c45d210dcaf8d247f5900b3930ea4296ebfcc",
+    "data/wide_funding_2026-09-07/history/request-017.json": "cc7473db532d35e6ba12caeea1ca77def8aa53ec01e237b854428e2f3e29359d",
+    "data/wide_funding_2026-09-07/history/request-018.json": "ad6cce1cc7835eae9e2461d9c5585e8bff2722827fa38b45401616d3dff2df4b",
+    "data/wide_funding_2026-09-07/history/request-019.json": "e9272620119260e56dfb1803d22f36c6cfb4e2a0ef7987148b90ad069da1245c",
+    "data/wide_funding_2026-09-07/history/request-020.json": "67e2b760a6801e1a3db07632f949130b8a913aa993a7d1c6823b2c52a0b735b4",
+    "data/wide_funding_2026-09-07/history/request-021.json": "011cd01a1f00b13db6684bb36131b3bb53a11e0017b54e4c2b9ee04540e6fdbb",
+    "data/wide_funding_2026-09-07/history/request-022.json": "cf64f62f03a267ae53a29a3e1f040812c424d8ca3de1ecb113ba2b18ea13c52b",
+    "data/wide_funding_2026-09-07/history/request-023.json": "ec22dca195741d0c273fb9e82a5e6bb0322a2a66b401de547d3405ba43f70195",
+    "data/wide_funding_2026-09-07/history/request-024.json": "cfc0b13880b1c5e86e3250d8d905c9c950c06b12fd01ad01381b66f685c99b70",
+    "data/wide_funding_2026-09-07/history/request-025.json": "46591aaea8f2a94c899cc28d6d30c77ddd7ef5f95d897deb13ee62831d656016",
+    "data/wide_funding_2026-09-07/history/request-026.json": "feb777b9d944469696ffa53631428ab7423c9ac87a81c35f96657e1c3725ff35",
+    "data/wide_funding_2026-09-07/history/request-027.json": "9f34aa0a126ee84447431ec23a7c0492478177639e3953322ab49c718bbc0d8f",
+    "data/wide_funding_2026-09-07/history/request-028.json": "205ab39b2f7c6c042c0339e89532f013a6c93803166e0a88108e1bf6149f31d2",
+    "data/wide_funding_2026-09-07/history/request-029.json": "2dc24f7dbc92d836437f5f44f5a2bb9e670e9d756ea47ee7664edabb97ab1e35",
+    "data/wide_funding_2026-09-07/history/request-030.json": "371830a63dada5a4f883adb1985b37fc442e5c6cc600a7e8c8a057a4dfbb403f",
+    "data/wide_funding_2026-09-07/history/request-031.json": "d19eee40c7c80e043deb100e982950146d8becd163238135c2018eb819ffafc8",
+    "data/wide_funding_2026-09-07/history/request-032.json": "9b93a51b7cef9ffa2695aaa117910a0e833e5b785adf9c0d7e38b6a703692b82",
+    "data/wide_funding_2026-09-07/history/request-033.json": "7e28dd4a9285d190bb22a4ff304a4a437bcac5091a47f6c66dd2e70cd7cc326d",
+    "data/wide_funding_2026-09-07/history/request-034.json": "c5d33ca2f7f7a12fe89d82d400855a46c52e1f751203b621ae8ba5526e049be9",
+    "data/wide_funding_2026-09-07/history/request-035.json": "29f910bda6683172161e4ada57a1ccb5067bf83dd75f5307a107fe9e36cfc786",
+    "data/wide_funding_2026-09-07/history/request-036.json": "29566dfd83a4920b90fa60d1cfc5b31adab764785aa2b29765a23f75d3484ca0",
+    "data/wide_funding_2026-09-07/history/request-037.json": "618c35bb5ce7e5327bbbb1d76c2846faeb4df505ea98ce6184717ee38fd0f7b8",
+    "data/wide_funding_2026-09-07/history/request-038.json": "414783f80227f573f5d5a25c639fc7c4d8881c374c0539764d16bb30455edeca",
+    "data/wide_funding_2026-09-07/meta.json": "f625341e088befcb028d74329d350fd804f59a582e652b32b285452c5ba00928"
+  },
+  "split_ms": 1786060800000,
+  "start_ms": 1784160000000
+}

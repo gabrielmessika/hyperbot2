@@ -1,0 +1,9 @@
+{
+  "2024_pnl_computed": false,
+  "corrected_bars": 22,
+  "corrected_coins": 11,
+  "corrected_hours_per_coin": 8784,
+  "default_2025_quality_identical": true,
+  "default_2025_reference_sha256": "f2f40b8189922674d915098cecc65c17998f007bc253037d827f428bb3c77fe4",
+  "raw_rejection": "zero-volume transfer asset: ARB"
+}

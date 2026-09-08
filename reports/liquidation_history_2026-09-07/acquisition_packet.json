@@ -1,0 +1,278 @@
+{
+  "acceptance": [
+    "exact core symbol and half-open UTC coverage",
+    "raw trade id, transaction hash, liquidated account, direction and method semantics",
+    "explicit incomplete partitions and no zero imputation",
+    "raw/volume cross-check and native fixed-sample verification",
+    "checksums, schema version, provider metadata and time coverage",
+    "new study registration before new event returns; previously seen pilot not holdout"
+  ],
+  "actual_export_quote_usd": null,
+  "api_alternative_published_monthly_usd": "49.00",
+  "api_requests_after_access_change": [
+    {
+      "parameters": {
+        "end": 1775692800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1773100800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1775692800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1773100800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1778284800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1775692800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1778284800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1775692800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1780876800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1778284800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1780876800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1778284800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1783468800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1780876800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1783468800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1780876800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1786060800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1783468800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1786060800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1783468800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1788652800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1786060800000
+      },
+      "route": "/v1/hyperliquid/liquidations/BTC/volume"
+    },
+    {
+      "parameters": {
+        "end": 1788652800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1786060800000
+      },
+      "route": "/v1/hyperliquid/openinterest/BTC"
+    },
+    {
+      "parameters": {
+        "end": 1775692800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1773100800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1775692800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1773100800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    },
+    {
+      "parameters": {
+        "end": 1778284800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1775692800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1778284800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1775692800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    },
+    {
+      "parameters": {
+        "end": 1780876800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1778284800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1780876800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1778284800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    },
+    {
+      "parameters": {
+        "end": 1783468800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1780876800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1783468800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1780876800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    },
+    {
+      "parameters": {
+        "end": 1786060800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1783468800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1786060800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1783468800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    },
+    {
+      "parameters": {
+        "end": 1788652800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1786060800000
+      },
+      "route": "/v1/hyperliquid/liquidations/ETH/volume"
+    },
+    {
+      "parameters": {
+        "end": 1788652800000,
+        "interval": "1h",
+        "limit": 1000,
+        "start": 1786060800000
+      },
+      "route": "/v1/hyperliquid/openinterest/ETH"
+    }
+  ],
+  "coins": [
+    "BTC",
+    "ETH"
+  ],
+  "end_utc_exclusive": "2026-09-06T00:00:00Z",
+  "export_schema_keys": [
+    "liquidations",
+    "oi"
+  ],
+  "historical_prices_and_funding_already_present": true,
+  "items": [
+    {
+      "data_type": "liquidations",
+      "exchange": "hyperliquid",
+      "published_minimum_usd": "12.50",
+      "symbol": "BTC"
+    },
+    {
+      "data_type": "oi",
+      "exchange": "hyperliquid",
+      "published_minimum_usd": "2.50",
+      "symbol": "BTC"
+    },
+    {
+      "data_type": "liquidations",
+      "exchange": "hyperliquid",
+      "published_minimum_usd": "12.50",
+      "symbol": "ETH"
+    },
+    {
+      "data_type": "oi",
+      "exchange": "hyperliquid",
+      "published_minimum_usd": "2.50",
+      "symbol": "ETH"
+    }
+  ],
+  "one_time_export_published_minimum_usd": "30.00",
+  "payment_authorized": false,
+  "prepared_ms": 1788772890271,
+  "promotion_authorized": false,
+  "protocol": "reports/liquidations_2026-09-07/PROTOCOL.md",
+  "public_market_urls": [
+    "https://0xarchive.io/data/hyperliquid/perpetuals/btc",
+    "https://0xarchive.io/data/hyperliquid/perpetuals/eth"
+  ],
+  "purchase_created": false,
+  "start_utc": "2026-03-10T00:00:00Z",
+  "venue": "Hyperliquid core perpetuals"
+}

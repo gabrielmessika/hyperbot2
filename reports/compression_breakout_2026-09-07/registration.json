@@ -1,0 +1,9 @@
+{
+  "code_version": "source-sha256:13fb3fc8b84ab32130e8cfec26db87910c4fd27740af8e98e307fb84088d50c9",
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "protocol_sha256": "86d0a165f35974f5f6149c826b4d34e4020c1dd93a08f01b421dea5bf4b87e89",
+  "registered_ms": 1788794344801,
+  "script_sha256": "3777543791a2380134f0d390c193decbf7483293fd21ab15f08e1969197697ea",
+  "universe_sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102"
+}

@@ -1,0 +1,138 @@
+{
+  "coverage_qualified": false,
+  "excluded": [
+    {
+      "coin": "LIT",
+      "onboard_ms": 1766511000000,
+      "reason": "contract_begins_after_2025_start",
+      "status": "TRADING",
+      "symbol": "LITUSDT"
+    },
+    {
+      "coin": "PUMP",
+      "onboard_ms": 1752132600000,
+      "reason": "contract_begins_after_2025_start",
+      "status": "TRADING",
+      "symbol": "PUMPUSDT"
+    },
+    {
+      "coin": "XPL",
+      "onboard_ms": 1755855000000,
+      "reason": "contract_begins_after_2025_start",
+      "status": "TRADING",
+      "symbol": "XPLUSDT"
+    }
+  ],
+  "financial_results_computed": false,
+  "promotion_authorized": false,
+  "schemas": {
+    "fundingRate": {
+      "archive": "ARBUSDT-fundingRate-2025-01.zip",
+      "first_row": "1735689600015,8,0.00010000",
+      "header": "calc_time,funding_interval_hours,last_funding_rate",
+      "last_row": "1738339200000,8,0.00010000",
+      "provider_checksum_passed": true,
+      "rows_including_header": 94
+    },
+    "klines": {
+      "archive": "ARBUSDT-1h-2025-01.zip",
+      "first_row": "1735689600000,0.721800,0.731800,0.720700,0.731300,3847871.5,1735693199999,2795865.4557800,12807,1974380.9,1434610.9403700,0",
+      "header": "open_time,open,high,low,close,volume,close_time,quote_volume,count,taker_buy_volume,taker_buy_quote_volume,ignore",
+      "last_row": "1738364400000,0.641200,0.642700,0.637200,0.641200,2958805.9,1738367999999,1893614.2146200,9917,1317351.5,843078.8660900,0",
+      "provider_checksum_passed": true,
+      "rows_including_header": 745
+    }
+  },
+  "selected_by_metadata": [
+    {
+      "coin": "ARB",
+      "onboard_ms": 1679554800000,
+      "status": "TRADING",
+      "symbol": "ARBUSDT"
+    },
+    {
+      "coin": "BNB",
+      "onboard_ms": 1581321600000,
+      "status": "TRADING",
+      "symbol": "BNBUSDT"
+    },
+    {
+      "coin": "DOGE",
+      "onboard_ms": 1594371600000,
+      "status": "TRADING",
+      "symbol": "DOGEUSDT"
+    },
+    {
+      "coin": "ENA",
+      "onboard_ms": 1712061000000,
+      "status": "TRADING",
+      "symbol": "ENAUSDT"
+    },
+    {
+      "coin": "FARTCOIN",
+      "onboard_ms": 1734720300000,
+      "status": "TRADING",
+      "symbol": "FARTCOINUSDT"
+    },
+    {
+      "coin": "INJ",
+      "onboard_ms": 1660633200000,
+      "status": "TRADING",
+      "symbol": "INJUSDT"
+    },
+    {
+      "coin": "JUP",
+      "onboard_ms": 1706725800000,
+      "status": "TRADING",
+      "symbol": "JUPUSDT"
+    },
+    {
+      "coin": "LINK",
+      "onboard_ms": 1579248000000,
+      "status": "TRADING",
+      "symbol": "LINKUSDT"
+    },
+    {
+      "coin": "NEAR",
+      "onboard_ms": 1602748800000,
+      "status": "TRADING",
+      "symbol": "NEARUSDT"
+    },
+    {
+      "coin": "TAO",
+      "onboard_ms": 1712845800000,
+      "status": "TRADING",
+      "symbol": "TAOUSDT"
+    },
+    {
+      "coin": "UNI",
+      "onboard_ms": 1600412400000,
+      "status": "TRADING",
+      "symbol": "UNIUSDT"
+    },
+    {
+      "coin": "WLD",
+      "onboard_ms": 1690200000000,
+      "status": "TRADING",
+      "symbol": "WLDUSDT"
+    },
+    {
+      "coin": "XMR",
+      "onboard_ms": 1580716800000,
+      "status": "TRADING",
+      "symbol": "XMRUSDT"
+    },
+    {
+      "coin": "XRP",
+      "onboard_ms": 1578298800000,
+      "status": "TRADING",
+      "symbol": "XRPUSDT"
+    },
+    {
+      "coin": "ZEC",
+      "onboard_ms": 1580889600000,
+      "status": "TRADING",
+      "symbol": "ZECUSDT"
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd",
+    "src/hyperbot2/research/equity_weekend.py": "aaa7371909ab722da971efdf3787f803a08400919046494aa3a76e2008db7cfb",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "data_cost_usd": 0,
+  "eligible_weekends": 24,
+  "end_ms_exclusive": 1788652800000,
+  "frames_ms": [
+    [
+      1771617600000,
+      1771776000000,
+      1771779600000,
+      1771858800000
+    ],
+    [
+      1772222400000,
+      1772380800000,
+      1772384400000,
+      1772463600000
+    ],
+    [
+      1772827200000,
+      1772982000000,
+      1772985600000,
+      1773064800000
+    ],
+    [
+      1773428400000,
+      1773586800000,
+      1773590400000,
+      1773669600000
+    ],
+    [
+      1774033200000,
+      1774191600000,
+      1774195200000,
+      1774274400000
+    ],
+    [
+      1774638000000,
+      1774796400000,
+      1774800000000,
+      1774879200000
+    ],
+    [
+      1775847600000,
+      1776006000000,
+      1776009600000,
+      1776088800000
+    ],
+    [
+      1776452400000,
+      1776610800000,
+      1776614400000,
+      1776693600000
+    ],
+    [
+      1777057200000,
+      1777215600000,
+      1777219200000,
+      1777298400000
+    ],
+    [
+      1777662000000,
+      1777820400000,
+      1777824000000,
+      1777903200000
+    ],
+    [
+      1778266800000,
+      1778425200000,
+      1778428800000,
+      1778508000000
+    ],
+    [
+      1778871600000,
+      1779030000000,
+      1779033600000,
+      1779112800000
+    ],
+    [
+      1780081200000,
+      1780239600000,
+      1780243200000,
+      1780322400000
+    ],
+    [
+      1780686000000,
+      1780844400000,
+      1780848000000,
+      1780927200000
+    ],
+    [
+      1781290800000,
+      1781449200000,
+      1781452800000,
+      1781532000000
+    ],
+    [
+      1782500400000,
+      1782658800000,
+      1782662400000,
+      1782741600000
+    ],
+    [
+      1783710000000,
+      1783868400000,
+      1783872000000,
+      1783951200000
+    ],
+    [
+      1784314800000,
+      1784473200000,
+      1784476800000,
+      1784556000000
+    ],
+    [
+      1784919600000,
+      1785078000000,
+      1785081600000,
+      1785160800000
+    ],
+    [
+      1785524400000,
+      1785682800000,
+      1785686400000,
+      1785765600000
+    ],
+    [
+      1786129200000,
+      1786287600000,
+      1786291200000,
+      1786370400000
+    ],
+    [
+      1786734000000,
+      1786892400000,
+      1786896000000,
+      1786975200000
+    ],
+    [
+      1787338800000,
+      1787497200000,
+      1787500800000,
+      1787580000000
+    ],
+    [
+      1787943600000,
+      1788102000000,
+      1788105600000,
+      1788184800000
+    ]
+  ],
+  "limits": [
+    "native perpetual Friday price is not an external fair-value benchmark",
+    "historical fee/deployer/oracle settings not qualified",
+    "hourly opens hypothetical; no portfolio, margin or size simulation",
+    "two-rule correction only; no broad research-selection correction"
+  ],
+  "promotion_authorized": false,
+  "protocol_sha256": "c05e1e50aa57f7abeaf7b51daeea6771e7b81374b676155618497cf137aeb52b",
+  "run_id": "weekend-repricing-2026-09-07",
+  "source_hashes": {
+    "data/weekend_repricing_2026-09-07/replication_history/manifest.json": "ba09cf90dc175b7ea7d682b6c25e204d586feccd9661df197f7777131e565b62",
+    "data/weekend_repricing_2026-09-07/replication_history/request-000.json": "01af8f29ebfcc337a6575f105a9a96c7b85d71ddd783c5c6dfd3b7c8574b9f5e",
+    "data/weekend_repricing_2026-09-07/replication_history/request-001.json": "b90d068d59a83fdff7fdf5b0a025194bf24ce7a5324d7f41b7e6642537a584b6",
+    "data/weekend_repricing_2026-09-07/replication_history/request-002.json": "b3cf3e4951cc48a7a12d43a5349b312ed843d9707d0042b7ef3e530ecb5e5dff",
+    "data/weekend_repricing_2026-09-07/replication_history/request-003.json": "7293485ee9e8c7c4dce8701102415058d7786232c66001180416c1b3bd02f02b",
+    "data/weekend_repricing_2026-09-07/replication_history/request-004.json": "ee9b9118e18df44ecc81b8852e5007ffcc92a05b469caea0bef6707502ce3e16",
+    "data/weekend_repricing_2026-09-07/replication_history/request-005.json": "f443837183af7895615833572fc2f2e96c9287751dfdaea3c50c44cb17f01512",
+    "data/weekend_repricing_2026-09-07/replication_history/request-006.json": "8e64c2a20883c12a8e5cce2cf66adbc1d1830aaad005b1f2e9796fa76bf339a5",
+    "data/weekend_repricing_2026-09-07/replication_history/request-007.json": "5c955ff19c376f5fa1bef8534f5d3732d47dae84f473bc29b9713b6fe04a7dc2",
+    "data/weekend_repricing_2026-09-07/replication_history/request-008.json": "b857d638b56c10ba2601339b16a52dcda8409789fa64304ba5dbe3b279045264",
+    "data/weekend_repricing_2026-09-07/replication_history/request-009.json": "7c56d12b9206e9bff9a1d5df610c6d97a1f6fa9ceb21a088ebe96b879ba4b79f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-010.json": "785ea4de4c5c1901e6e6d12bf7513c2cf8ce62a1dcbeb0b374668ad6a5a7bced",
+    "data/weekend_repricing_2026-09-07/replication_history/request-011.json": "6cd9f8f7510e2994db6aa9799e1ee4e5e55f74a2bb72a23a26f65aa90205fd84",
+    "data/weekend_repricing_2026-09-07/replication_history/request-012.json": "d786007020a4038d4a0b7193f32c8c15561c75a2f9151f54350e89c012881083",
+    "data/weekend_repricing_2026-09-07/replication_history/request-013.json": "1160f1c0eb588554a3e1f9f981fec019f2e5f5c1c59b45dec51e34c0c7f1aa10",
+    "data/weekend_repricing_2026-09-07/replication_history/request-014.json": "e4fd0bf8862b7aedeecf227e06a5afeb02bce38abc29b087b473fd97b3d3696d",
+    "data/weekend_repricing_2026-09-07/replication_history/request-015.json": "3b1150699d1aa1b2d1970658d20682023ce2d36825e851a3304ca22e736b3a54",
+    "data/weekend_repricing_2026-09-07/replication_history/request-016.json": "1065757209eef40cd4aa78598039c16c91e47df1088d4e2c437f4f5b261d64be",
+    "data/weekend_repricing_2026-09-07/replication_history/request-017.json": "25c507881cb692220701c4f8d3d105268450dd88a98c398d828bc0ff50f9b458",
+    "data/weekend_repricing_2026-09-07/replication_history/request-018.json": "118338bb1ce8386b256b952c2abe27199e380d606e0aa0a6466284c01edfc4e9",
+    "data/weekend_repricing_2026-09-07/replication_history/request-019.json": "703146a22fa0fff54a53a05e99af0b6bc03c5655837c4a2e94c6554a29acc61f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-020.json": "e33332f43e2ba8937d8b5c34cf0b78f12dc157d5a902ca1566d9b004e25f3a67",
+    "data/weekend_repricing_2026-09-07/replication_history/request-021.json": "bd68c87d9789c95e1661d6bc36a954f7d10f922cf9a3aafa0fdd395247306ff7"
+  },
+  "start_ms": 1770854400000,
+  "strategies": {
+    "weekend_fade": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_positive": false,
+        "five_positive_blocks": false,
+        "positive_without_best": true,
+        "profit_factor_above_1_2": true
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "interval": null,
+      "scenarios": {
+        "base": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "527.2071102292365991119135932"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "1123.678887563271955535236066"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "495.0527847980152479788165526",
+            "1760.689779366642538333225287",
+            "-25.2332479449238933047464350",
+            "-469.2221456985286436005047762",
+            "-1349.351664915907417768165148",
+            "687.8724193648405034066386868",
+            "551.0780728223702196018854913"
+          ],
+          "events": 25,
+          "mean_net_bps": "66.03543991170034218588598636",
+          "profit_factor": "1.513867326330652771507233064",
+          "sum_net_bps": "1650.885997792508554647149659",
+          "sum_without_best_bps": "1104.179182762577328413538736",
+          "worst_event_bps": "-646.9493871320405540292996046"
+        },
+        "cost_stress": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "260.1273785101260152932315490"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "786.5023551599209842762891043"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "421.5963545337886553889416156",
+            "1662.011429439768612398801260",
+            "-145.5517734829472163031028233",
+            "-540.9716456665617718682919317",
+            "-1423.359864974690664530232700",
+            "568.9639278661203500622062223",
+            "503.9413059545690344211990101"
+          ],
+          "events": 25,
+          "mean_net_bps": "41.86518934680187998278082616",
+          "profit_factor": "1.301718209867946275309742164",
+          "sum_net_bps": "1046.629733670046999569520654",
+          "sum_without_best_bps": "523.0905520044541915297012679",
+          "worst_event_bps": "-671.9197000998331446164058122"
+        },
+        "delay_stress": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "71.68192353077239954117909690"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-188.8290358951739895260155215"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "247.6178412832384464918464686",
+            "2004.719100667124485417313183",
+            "-337.4217996521166123130393768",
+            "-1200.146994321081182295490426",
+            "-1638.834730850814432703014585",
+            "511.3359846480723859918582162",
+            "295.5834858611753194256900943"
+          ],
+          "events": 25,
+          "mean_net_bps": "-4.685884494576063599393457008",
+          "profit_factor": "0.9754295486299124330996996660",
+          "sum_net_bps": "-117.1471123644015899848364252",
+          "sum_without_best_bps": "-790.1408681040748522483058951",
+          "worst_event_bps": "-630.9309430177504332234190750"
+        },
+        "funding_adverse": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "362.1155244381847236354214816"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "881.4866114816083836817077151"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "417.7621107439286845112398389",
+            "1706.309466457448872899079467",
+            "-141.0396733922703068681089092",
+            "-509.2698362486070006103841789",
+            "-1417.762462370865045505483657",
+            "651.6070771152139657339757586",
+            "535.9954536149439371568108765"
+          ],
+          "events": 25,
+          "mean_net_bps": "49.74408543679172429268516788",
+          "profit_factor": "1.366121060487938761872760951",
+          "sum_net_bps": "1243.602135919793107317129197",
+          "sum_without_best_bps": "705.4573876270724086151857636",
+          "worst_event_bps": "-673.4305676727442602356715615"
+        },
+        "zero_cost": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "707.6901306932998160559226461"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "1381.454417705716820374395933"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "548.5411942837248621593196423",
+            "1834.002208014283683452797791",
+            "33.9572347152497073356001482",
+            "-410.3801539472718099721493620",
+            "-1304.542657138286122789716738",
+            "786.6955003828990782345259793",
+            "600.8712220884172380099411158"
+          ],
+          "events": 25,
+          "mean_net_bps": "83.56578193596066545721274316",
+          "profit_factor": "1.689561749311144766272362516",
+          "sum_net_bps": "2089.144548399016636430318579",
+          "sum_without_best_bps": "1522.868973881417489722280181",
+          "worst_event_bps": "-636.0708534621578099838969404"
+        }
+      }
+    },
+    "weekend_follow": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_positive": false,
+        "five_positive_blocks": false,
+        "positive_without_best": false,
+        "profit_factor_above_1_2": false
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "interval": null,
+      "scenarios": {
+        "base": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "-1016.512870404809466348740062"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-1741.590994360951824254222505"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-629.6076617180846669279668896",
+            "-1941.465015183183927730034095",
+            "-195.2841107794490684767931532",
+            "337.6253030010555308538776681",
+            "1213.969006935832840246424853",
+            "-905.8229501900871399058602301",
+            "-637.5184368318448586626107215"
+          ],
+          "events": 25,
+          "mean_net_bps": "-110.3241545906304516241185027",
+          "profit_factor": "0.5007921954566986962605388269",
+          "sum_net_bps": "-2758.103864765761290602962568",
+          "sum_without_best_bps": "-3359.404246066498541889234485",
+          "worst_event_bps": "-589.2338206388587501155833994"
+        },
+        "cost_stress": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "-1283.558061673912158704515972"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-2078.623887234646546051608092"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-703.1033383567577578024936539",
+            "-2040.298994808758580939353208",
+            "-315.5655840777650871226444468",
+            "265.8401267165755763840335056",
+            "1140.077250194270067999135319",
+            "-1024.548372414218844704943828",
+            "-684.5830361619040785698577526"
+          ],
+          "events": 25,
+          "mean_net_bps": "-134.4872779563423481902449626",
+          "profit_factor": "0.4310850246725549654379004777",
+          "sum_net_bps": "-3362.181948908558704756124066",
+          "sum_without_best_bps": "-3938.551578417661455498924349",
+          "worst_event_bps": "-612.3663612513533788715067464"
+        },
+        "delay_stress": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "-561.4593756036909817203235767"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-433.1088474413719244780513937"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-383.5541630625676774331943789",
+            "-2186.136351533169989162445391",
+            "115.9628948210549260065219392",
+            "1068.889831817968788138155472",
+            "1502.696100898487399526756743",
+            "-729.7452001514568979944141509",
+            "-382.6813358353794552797552030"
+          ],
+          "events": 25,
+          "mean_net_bps": "-39.78272892180251624793499875",
+          "profit_factor": "0.8112854884653457618167769737",
+          "sum_net_bps": "-994.5682230450629061983749687",
+          "sum_without_best_bps": "-1579.926608151239710353549448",
+          "worst_event_bps": "-718.7960397788161230336876335"
+        },
+        "funding_adverse": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "-1053.260703539620051985203231"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-1881.369907296698373039735902"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-679.3352044701599665486458778",
+            "-1961.746697258073504074877318",
+            "-208.9493544296258618430204251",
+            "311.4834889619157404615449402",
+            "1191.368600313475247816491821",
+            "-921.7301822399393834951921208",
+            "-665.7212617139106973412401529"
+          ],
+          "events": 25,
+          "mean_net_bps": "-117.3852244334527370009975654",
+          "profit_factor": "0.4782014214887797054204745707",
+          "sum_net_bps": "-2934.630610836318425024939134",
+          "sum_without_best_bps": "-3533.356919925113820906743821",
+          "worst_event_bps": "-594.3953544804468758144036857"
+        },
+        "zero_cost": {
+          "active_weekends": 15,
+          "assets": {
+            "xyz:COIN": {
+              "n": 11,
+              "sum_net_bps": "-707.6901306932998160559226461"
+            },
+            "xyz:MSTR": {
+              "n": 14,
+              "sum_net_bps": "-1381.454417705716820374395933"
+            }
+          },
+          "blocks_30d_sum_bps": [
+            "-548.5411942837248621593196423",
+            "-1834.002208014283683452797791",
+            "-33.9572347152497073356001482",
+            "410.3801539472718099721493620",
+            "1304.542657138286122789716738",
+            "-786.6955003828990782345259793",
+            "-600.8712220884172380099411158"
+          ],
+          "events": 25,
+          "mean_net_bps": "-83.56578193596066545721274316",
+          "profit_factor": "0.5918694598807722624653522925",
+          "sum_net_bps": "-2089.144548399016636430318579",
+          "sum_without_best_bps": "-2725.215401861174446414215519",
+          "worst_event_bps": "-566.2755745175991467080383981"
+        }
+      }
+    }
+  }
+}

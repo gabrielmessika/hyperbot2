@@ -1,0 +1,17 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd",
+    "/workspaces/hyperbot2/scripts/replicate_weekend_repricing.py": "1c1b2b349c5f5bca3e3f01d1b88d61b4bc0e0af10afe84438165581558e94115"
+  },
+  "coins": [
+    "xyz:COIN",
+    "xyz:MSTR"
+  ],
+  "parent_protocol_sha256": "c05e1e50aa57f7abeaf7b51daeea6771e7b81374b676155618497cf137aeb52b",
+  "promotion_authorized": false,
+  "protocol_sha256": "d25a0922ffaad1d42857f73533125246dd0d7fa0f5de7b56a807d21576565b55",
+  "raw": "data/weekend_repricing_2026-09-07/replication_history",
+  "result_sha256": "e951d489d3bfd687ddeda821e1fd63e3d0365857a89efe990c4677538f4baea4",
+  "run_id": "weekend-replication-2026-09-07",
+  "selected_after_initial_results": true
+}

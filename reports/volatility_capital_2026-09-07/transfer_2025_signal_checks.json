@@ -1,0 +1,9 @@
+{
+  "baskets": 47,
+  "historical_quality_identical": true,
+  "historical_selections_identical": true,
+  "intended_entries": {
+    "all_assets_control": 517,
+    "volatility_extremes": 282
+  }
+}

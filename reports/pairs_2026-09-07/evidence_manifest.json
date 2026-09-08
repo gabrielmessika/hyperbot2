@@ -1,0 +1,32 @@
+{
+  "files": {
+    "data/pairs_2026-09-07/metadata.json": "4f1e471b4ca61d54776b3af30026700011cdcab8fc03814d4be79ab33dd22716",
+    "data/pairs_2026-09-07/run-001/base-1.json": "0df025b51fa51c5eafcd9769c504c4ba2bbbeaa40984e91fcd0d009bc75d423a",
+    "data/pairs_2026-09-07/run-001/base-2.json": "53f625585717e6b9c6e2c19d182e5043fc652c5dceb514bdaa10dfa3d7e940d5",
+    "data/pairs_2026-09-07/run-001/base-3.json": "afddddfc218db005c42c3fa822676448da51f41cea12615e5e8b4729c7a1a056",
+    "data/pairs_2026-09-07/run-001/base-4.json": "53f2dfc793dfd877e47b87c15c1668b27367e56b8447f30950345192a68de79c",
+    "data/pairs_2026-09-07/run-001/base-5.json": "38811db4160a92144b78ce35d9345139755a9c713f10d7755beee905a66d6225",
+    "data/pairs_2026-09-07/run-001/cost_stress-1.json": "540b8351ea4a62513dccc6547df0ad0a0b04653a1196df76043b463e2b712066",
+    "data/pairs_2026-09-07/run-001/cost_stress-2.json": "1d05097120ec67522332b6e8f533c0f922bb7d991691170141cc58ef99a530f3",
+    "data/pairs_2026-09-07/run-001/cost_stress-3.json": "4cedbe169d4a9114d42e038c04b24d0c39bc5fe3f8438065ba1c664afdc9add0",
+    "data/pairs_2026-09-07/run-001/cost_stress-4.json": "a77cea189e2488c18933940c3ed7f5b3100afbe186f63f61a30e2c5f5724c784",
+    "data/pairs_2026-09-07/run-001/cost_stress-5.json": "d785e94c92066e915862e6b142526a2ff32d10a49a5949120fc0dae275daba13",
+    "data/pairs_2026-09-07/run-001/delay_stress-1.json": "41bbe3907a6f82d7ed7849b4919fbf4f840f5eac1979ecf2310b358e20a23135",
+    "data/pairs_2026-09-07/run-001/delay_stress-2.json": "f49e878c65e80ed2b88fd5e2fb8b514a90ab8ba7d90ae6c73794ee4085e6fa8f",
+    "data/pairs_2026-09-07/run-001/delay_stress-3.json": "16763300ea4f92ba2791f9de1b2101280b0dcb8745cb2cdcb88c31cee4664a1e",
+    "data/pairs_2026-09-07/run-001/delay_stress-4.json": "ac129ac3bf4fdd522e9ead2b2d2934c566d6473929684740d22ef2333b345f3a",
+    "data/pairs_2026-09-07/run-001/delay_stress-5.json": "7eb630334cbe79626ac8326f2cc2603e5c9f8b534e1c6cdf1409d80c24d3a0ce",
+    "data/pairs_2026-09-07/run-001/events.json": "5c9992aa440d092630c7b3a646839685cd323dfb20456032be73ceaba9d58020",
+    "data/pairs_2026-09-07/run-001/features.json": "dc64e543076fc726f227cedcc4c6b43b7de088d96c9ff47fb956e3fc3098bd59",
+    "data/pairs_2026-09-07/run-001/summary.json": "edbbfcc7493abb8eff73c8f639f1f27e7fcaa87e1de23d661a3a5b077bb13694",
+    "data/pairs_2026-09-07/run-001/zero_cost_control-1.json": "46e206fdd29317cd69299bbc871803e766f8d92efa4501b9576b478ea434f165",
+    "data/pairs_2026-09-07/run-001/zero_cost_control-2.json": "acca68df0eb5d9722c398db33e67615fd1e0ef71d839ff8bf910d6502eacd55d",
+    "data/pairs_2026-09-07/run-001/zero_cost_control-3.json": "f0840ee3b7d35e6548d797a95e28aaa2ca4f06d579893116ead500b6f36e458b",
+    "data/pairs_2026-09-07/run-001/zero_cost_control-4.json": "6e9a68593346e6cbdb8be1ce0b1bbe38c1718d6097891ff07084d70ea3e13ebe",
+    "data/pairs_2026-09-07/run-001/zero_cost_control-5.json": "fa2209f7fa369a38dc310ca83b4fc47ee65dab752190fcd831106d8fe4300b93"
+  },
+  "independent_holdout": false,
+  "raw_in_git": false,
+  "run_id": "btc-eth-pairs-2026-09-07",
+  "source_history_manifest_sha256": "953ccb8f8b1359a91fa164025b6bd075886d15880e3579a267db660d13676e61"
+}

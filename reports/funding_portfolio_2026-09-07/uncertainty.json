@@ -1,0 +1,151 @@
+{
+  "limits": [
+    "52 days with overlapping blocks and selected strategy/sizing",
+    "interval is not family-corrected or a prediction",
+    "best-cycle subtraction does not rerun allocation or later trades",
+    "bootstrap returns do not rerun the drawdown stop"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "179.5513273365024060",
+      "best_cycle_usd": "140.8557376377918500",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6791257103968581855561760941",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.037824391009984394,
+        0.41236324476392716
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "0",
+      "observed_monthly_compound": "0.173921720184357800315495221",
+      "scenario": "base"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "141.199580881108019733333111",
+      "best_cycle_usd": "139.0693274371588250",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6805967601630340685652717605",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.018970247147441985,
+        0.38717231683467423
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "20",
+      "observed_monthly_compound": "0.153199745010762411491810706",
+      "scenario": "base"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "171.9196617442439157",
+      "best_cycle_usd": "140.2190858934199400",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6859312365347157860738270502",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.03417659638996069,
+        0.4070175801903927
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "0",
+      "observed_monthly_compound": "0.169675104460498490051063464",
+      "scenario": "cost_stress"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "133.748720932064948733333111",
+      "best_cycle_usd": "138.4906534016674600",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6874265915553887717642038744",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.01529681163910203,
+        0.38179380997947365
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "20",
+      "observed_monthly_compound": "0.149021546082120315977853432",
+      "scenario": "cost_stress"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "130.5513036950770106",
+      "best_cycle_usd": "94.2969210628453498",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.5698365208085090398876849127",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.009396533641392955,
+        0.29987809647552627
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "0",
+      "observed_monthly_compound": "0.124130414659087802172219638",
+      "scenario": "delay"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "93.067955981784205433333145",
+      "best_cycle_usd": "93.0818663965960770",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.5705786391161769096246535727",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        -0.009625800516520296,
+        0.27604396942785503
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "20",
+      "observed_monthly_compound": "0.103501216444629488042416191",
+      "scenario": "delay"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "178.8758061055840640",
+      "best_cycle_usd": "140.7839658644026152",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6802515743613914556818663341",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.037476277632698896,
+        0.41168580624259316
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "0",
+      "observed_monthly_compound": "0.173538373128882419961915478",
+      "scenario": "funding_adverse"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "140.580529594963536633333111",
+      "best_cycle_usd": "139.0519063074395688",
+      "block_days": 14,
+      "cashcat_share_net_trading": "0.6817387005714049098176566479",
+      "days": 52,
+      "descriptive_monthly_95_interval": [
+        0.01860441476129198,
+        0.3864911609434996
+      ],
+      "distinct_entry_days": 24,
+      "draws": 10000,
+      "monthly_infra": "20",
+      "observed_monthly_compound": "0.152868959470249551140003599",
+      "scenario": "funding_adverse"
+    }
+  ],
+  "script_sha256": "8c07b9ff8587670d297d21df5b9cb4af14d8591530bc8e107271022336c7473f",
+  "sources": {
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-base-infra-0.json": "1201f95e323b06d46036ecc488daf4e5a4bc7125fd5896a7b4d60763e7baf336",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-base-infra-20.json": "477a1267ed329e88b5dde8335d0aead1f0ee664a605def700242fd7a6f8e3f53",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-cost_stress-infra-0.json": "0b9c9f475ea628accd8ee26e4a3f0b9f3a6588c4bd9c1a3381cc36ab602318d5",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-cost_stress-infra-20.json": "e63711078cda403e3b7b90f335d6d318bdff11c765f462ddee26a6c7f345de36",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-delay-infra-0.json": "3f5db914fe15678b351b739d73b183c80ab63f2f1b407a19492de8d644ddb499",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-delay-infra-20.json": "f95ecd4118eb80179d0fd2573e47286ce6e629ebb4d5254bb1f8f04d7c596e7a",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-funding_adverse-infra-0.json": "d9bf52523881a8ae706647b716e321522d2af7ab42c5a4e46b26e856f4b4cdbc",
+    "data/funding_portfolio_2026-09-07/reduced_run1/funding72-cap-0.4-funding_adverse-infra-20.json": "df0748adf3988b9c7d0e9be0fe008c8f72847f17473699c1342ee045cda94964"
+  }
+}

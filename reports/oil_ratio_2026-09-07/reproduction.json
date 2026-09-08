@@ -1,0 +1,394 @@
+{
+  "documentation_snapshots": {
+    "data/oil_ratio_2026-09-07/documentation/commodities.json": "ca04a2c4722142c2ef53daf0df86b0b0aeb3ed58fabd60d9c50a5f4fa6062911",
+    "data/oil_ratio_2026-09-07/documentation/oracle.json": "6587a2823973329bcd8a02a0be77e8d76654b8aba092191e12316157ebe9782b",
+    "data/oil_ratio_2026-09-07/documentation/rolls.json": "e46d5231575082519ddc53004c259937c49b0330f35621cbbf434dc1ab17ea7f"
+  },
+  "live_enabled": false,
+  "mypy": "62 source files passed",
+  "oil_artifacts": [
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/quality.json",
+      "sha256": "301f49f08238c8c0318f639a0b680229c7a5b61b6b648189e2db9ea711a3e653"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/summary.json",
+      "sha256": "e81f2fad855638c3e0f371fa768c4b899f5e688ffc353be19746a9d3525e6dd9"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-base-infra-0.json",
+      "sha256": "b40aa1bbf7bcaffeb0a3e6e2cf50fe8d23d4ce8b2c40deb78f6b9c476ff92eb4"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-base-infra-20.json",
+      "sha256": "ac7ad673593963ad332d1059e0685a15e21be0ad3e0dbe362697df8172979a0b"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-cost_stress-infra-0.json",
+      "sha256": "aa7f34173cb3503646ac1cc303602db162b6c7f2166098c1b058c8a440cc87c3"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-cost_stress-infra-20.json",
+      "sha256": "cb3d6d3b56032a699fa37df2f19c231c043f9bf8f80263df71566e2592362cd5"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-delay-infra-0.json",
+      "sha256": "045f5e6c7c5b442589f5df651f179568107a09b01295df37c43aa7bcf7030869"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-delay-infra-20.json",
+      "sha256": "b4f08706735aa10f7727f45a0b72a582de7853346e0118f05d18cf3ba2ed8697"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "51adf25fce6cafacd3770ab60dba162997b97f56a92705fbccb7be3bae52d2de"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "7d3604644f4867ea520b50d266027c4f9aca16986fabd90ecaedfad1bd4217c5"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-zero_cost-infra-0.json",
+      "sha256": "96d9f0f9486bcc66a2de7d9f51cfeb31fb5d2741f7e4d416d98b4787681c1b04"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-0.5-zero_cost-infra-20.json",
+      "sha256": "bf70a2c12dd036acb15ad22d936c082469c3f9b48c284829939ad67ec387342a"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-base-infra-0.json",
+      "sha256": "902f434d13b68de248f05bfe24c52cc26dd010ed7103f94d7b53c55252e6b58f"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-base-infra-20.json",
+      "sha256": "f26e9f5376256ee10a77ae3f26509f053f8054f2440b9c2f74228b0d0eaf1aa4"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-cost_stress-infra-0.json",
+      "sha256": "b767369ca920a81f60d8937dc851b4869c1c154320f6bda2b5bb45c22c71a2c9"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-cost_stress-infra-20.json",
+      "sha256": "8467a480d2204fba535dd269f9487b2032f47aaa50748fa79150dcedc0f92957"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-delay-infra-0.json",
+      "sha256": "97111d8154cef50b2db2efadfac66fae816ba918a88e60c2ae3d704bce228a37"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-delay-infra-20.json",
+      "sha256": "600dae4b6a8e668578ded5e1fd8b988d02d05ad438331bea472d95f7cf5d20e3"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-funding_adverse-infra-0.json",
+      "sha256": "4630874c05977ab46948d309de6071ed5c641767618c39aa9dfd0265da8f553f"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-funding_adverse-infra-20.json",
+      "sha256": "bf1f7615046ebdd6240a486ef98ce8b597bda89d862094e62ba3d5685b3197ff"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-zero_cost-infra-0.json",
+      "sha256": "543295af13dfda4ca1dfb4cfeff402f642e52d62abad0cdf603c7ada1ab29f20"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1-zero_cost-infra-20.json",
+      "sha256": "ad0cbb1e36ceafc80476832d16b3273bf2933353e368bf4f850cae2c243f597a"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-base-infra-0.json",
+      "sha256": "c43b09a2b16e5c9c8acbe76e5d643348226ec3f90300dd8a742f230c9d97cc41"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-base-infra-20.json",
+      "sha256": "c8f6c3a0c489c02074547aa12d69819f6590df428534c881a31a29cee6da07f9"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-cost_stress-infra-0.json",
+      "sha256": "fb38e437df5aad1a65c21cfa589f4f422b983d40fe73ee3114ae503e95c3a08f"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-cost_stress-infra-20.json",
+      "sha256": "03f72196b9beb6de145e3f2048a405a0f83cf3f78370d2fb64bd20c4c0ddce77"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-delay-infra-0.json",
+      "sha256": "2026e4506c61b2f96de98a08d330c5a714427f073bbe5a244653fcf37c763d7c"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-delay-infra-20.json",
+      "sha256": "cbfa2a55ee8b883535931ba8467f60f1117dc711433dc1ebac78bc43a9613795"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "27665ec06af9c95eceec4d4f1b2b0e29f8c6a99e96996826b34fde3d76e28637"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "4b770ef112b7235094fc3e4cde6c3aaae8a8f3459d11f823ff546bedb9e435e5"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-zero_cost-infra-0.json",
+      "sha256": "9f7c0a7ca1a546f1dfe74c7b9bc86fe52ff30734006b1e26dfa8143689087d48"
+    },
+    {
+      "left": "data/oil_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/reproduced/cap-1.5-zero_cost-infra-20.json",
+      "sha256": "f63bca51fdeeb132310c42770f1ca3f74772f385c2fe6f7aa84e661c2ef6257c"
+    }
+  ],
+  "pytest": "241 passed",
+  "ruff_check": "passed",
+  "ruff_format": "216 files already formatted",
+  "unchanged_metals_artifacts": [
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/quality.json",
+      "sha256": "8ae7b2fe970e56f220b2ae6a0c34cf19b8cf86a77ed0bfc10bcdf79a1bd8b94b"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-base-infra-0.json",
+      "sha256": "0ddaca51fdbe72be9490ac7b4035f848bfc6b7cddb45a89d2f90d8a325dd24ba"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-base-infra-20.json",
+      "sha256": "d3a19773a5620cafb0218cb64d1f0d91cc43a26cbcff20f0612c708df91f3b70"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-cost_stress-infra-0.json",
+      "sha256": "185b13ddd4500c09baa6ff159487c1554597e8f3bb5e3562105e0f9c2d9e9664"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-cost_stress-infra-20.json",
+      "sha256": "3ea99f43cc7d6f15d9a285b1ab41093ca4f6fae1b9755450cf6949666e754856"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-delay-infra-0.json",
+      "sha256": "f811abcc2e9dcc0b9ba34f64de6b356329744e09a5b27aec0946d350a62d6c9d"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-delay-infra-20.json",
+      "sha256": "f130f1e59c65716f72c9c34c7b6c3dd0533715333f6979253c0ebe039395271a"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "f6b3433e0ae2fb7ba763f2f00e73fe165938326f05a8ac426a8411d234eb84d9"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "e19745989a7d070e8dc2cca186aaeadf95ba711bd3abd7f12bf862d0e64e1ebe"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-zero_cost-infra-0.json",
+      "sha256": "551e191e26fcfc2c07ac543763997cc20db15c450a115bc694d15094cc1dd584"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-0.5-zero_cost-infra-20.json",
+      "sha256": "13867e96fd474ee6338cb690be8d8aec5b61e6f4a269bcf1cbb188e5e618d464"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-base-infra-0.json",
+      "sha256": "8dc493d005bf0588f0d30537cb339ca16595af901546ac501e3a15893db7cfb0"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-base-infra-20.json",
+      "sha256": "e9b28dc171c2ecb078ae246c6fda7ee505211a50036c0043efd7a15e9bde7796"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-cost_stress-infra-0.json",
+      "sha256": "4ede00a9d1c2170a4054ae1cd2c314699899c4f55c531319bcb0601261e3f457"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-cost_stress-infra-20.json",
+      "sha256": "3bebdf7e7c1d54db26115478b4525225aec356fac56f4bf67010675bc846e336"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-delay-infra-0.json",
+      "sha256": "47d8696b088c0c18bedf8c52d5aaccbf446656bb26b38500ddd77c1f2b7001a8"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-delay-infra-20.json",
+      "sha256": "5315f1533de06b5a18f7f2c7e375affdac2d45fbd2c9c7b8891e1cfb15914173"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-funding_adverse-infra-0.json",
+      "sha256": "bf5aaebb5e8d863776336c9eec66dc241f1b312aafe3ee75438e48634130acda"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-funding_adverse-infra-20.json",
+      "sha256": "2e53b928f4052e461c39b59f845acbec84bcbce628aa40d6583d7a13925b0d73"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-zero_cost-infra-0.json",
+      "sha256": "b86eddf38ef4c435f18d09a94e5afa6688fe35a458df5cf35f9f260b6d64b2d3"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1-zero_cost-infra-20.json",
+      "sha256": "0919ceb6c4c8529acaa4db16539d87fe243a549334ca60acf3804380cea8b20d"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-base-infra-0.json",
+      "sha256": "b5f075c797db6df1bee61dab693a9edd76f1f1b552198bcd60d90434fe8d9a6f"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-base-infra-20.json",
+      "sha256": "e13a1da265de1fdeab9cf3cc4ed2057e7bf4a38418f01546d1143ff1d2777387"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-cost_stress-infra-0.json",
+      "sha256": "1eb5b738028bf327983c41c56e868f6e0a4c3590dca09863f718f6421816575a"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-cost_stress-infra-20.json",
+      "sha256": "a268c556d3aa69e5770d31a463e1064c14f262e1b0353c0f7241e45c3484c1c2"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-delay-infra-0.json",
+      "sha256": "fabe57817f3e84e17362801b94edcfbbb554aeeddd5d194558ba22a9a972e7fc"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-delay-infra-20.json",
+      "sha256": "fcbb5bbb4f9f46e0be8ac80420b0540c7a7d305f8b84d664fd26cba4747b4148"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "05307ff6aa7671a9b4794aeb920b274e149b6aaf372c53f50bdf3735a1ce1941"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "b8b28df8acc73642bc9813a67e115bc7d176e0330d3456758553e1227b2186f0"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-zero_cost-infra-0.json",
+      "sha256": "7f1d25b7e4d5d126d82c12f68cab272323e41f9985492b12744ce0fda743ca8f"
+    },
+    {
+      "left": "data/metals_ratio_2026-09-07/run1/cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/oil_ratio_2026-09-07/metals_compatibility/cap-1.5-zero_cost-infra-20.json",
+      "sha256": "fbab9d03c57308584fbee8f816f6555a967b9f009e48da5ba36464b5f2693e6f"
+    }
+  ]
+}

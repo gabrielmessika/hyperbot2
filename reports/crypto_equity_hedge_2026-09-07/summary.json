@@ -1,0 +1,565 @@
+{
+  "code_version": "source-sha256:325d7e75b219d8808d7365e4d4a8d0ff1c8cea7986500bd438a9432207119c1f",
+  "decision_counts": {
+    "HEDGE_MODEL_REJECTED": 16,
+    "INVALID_SESSION_OR_WARMUP": 40,
+    "NO_SIGNAL": 179,
+    "SIGNAL": 15
+  },
+  "end_ms_exclusive": 1788652800000,
+  "limitations": [
+    "prior exploration of these periods",
+    "fractional unverified fills",
+    "no depth, min-size, or liquidation qualification",
+    "constant notional proxy without stop execution",
+    "fee timeline incomplete"
+  ],
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "protocol_sha256": "059e2782bb66bbcf42894d9c01668c865ee65c5583b4329013551d03acf8a4df",
+  "results": {
+    "continuation": {
+      "all": {
+        "bootstrap_97_5_mean_bps": [
+          -93.00358802685528,
+          111.53112685264226
+        ],
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 3,
+            "proxy_usd": "-24.29843346469041825563958400"
+          },
+          "xyz:MSTR": {
+            "fills": 10,
+            "proxy_usd": "-1.37706982395278077130351378"
+          }
+        },
+        "calendar_days": "180",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "-25.67550328864319902694309779",
+            "fills": 13,
+            "mean_net_bps": "-19.75038714511015309764853676",
+            "monthly_after_20_infra": "-24.27925054810719983782384963",
+            "profit_factor": "0.6807831792736116871171836599",
+            "realized_only_drawdown_usd": "68.83674266195207033026044928",
+            "rejected": 0,
+            "without_best_proxy_usd": "-58.42928925713767766414948208",
+            "worst_trade_usd": "-14.26707651863600356616167734"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "-46.0596079066438371933571901",
+            "fills": 13,
+            "mean_net_bps": "-35.43046762049525937950553085",
+            "monthly_after_20_infra": "-27.67660131777397286555953168",
+            "profit_factor": "0.5094656109927489482179662377",
+            "realized_only_drawdown_usd": "83.82664792857003714830176629",
+            "rejected": 0,
+            "without_best_proxy_usd": "-76.94807932773921569230859259",
+            "worst_trade_usd": "-15.89317906862421554467922913"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "-17.37782209840858129175600026",
+            "fills": 13,
+            "mean_net_bps": "-13.36755546031429330135076943",
+            "monthly_after_20_infra": "-22.89630368306809688195933338",
+            "profit_factor": "0.7564451255569663144710649528",
+            "realized_only_drawdown_usd": "58.81396685035591331821881636",
+            "rejected": 0,
+            "without_best_proxy_usd": "-50.90053911106687270757748041",
+            "worst_trade_usd": "-18.07020975311869621723481543"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "-28.3346328031635851553898218",
+            "fills": 13,
+            "mean_net_bps": "-21.79587138704891165799217062",
+            "monthly_after_20_infra": "-24.7224388005272641925649703",
+            "profit_factor": "0.6562753944161187409657991198",
+            "realized_only_drawdown_usd": "71.13984561079915201465557869",
+            "rejected": 0,
+            "without_best_proxy_usd": "-60.93465381058304845621757695",
+            "worst_trade_usd": "-14.53775936137611149370704587"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "-7.781145666770447392807264441",
+            "fills": 13,
+            "mean_net_bps": "-5.985496666746497994467126493",
+            "monthly_after_20_infra": "-21.29685761112840789880121074",
+            "profit_factor": "0.8868582458000046957230722297",
+            "realized_only_drawdown_usd": "55.84295754141569637936407814",
+            "rejected": 0,
+            "without_best_proxy_usd": "-42.19807847187953219869632683",
+            "worst_trade_usd": "-12.91475265506695925737579946"
+          }
+        },
+        "signals": 13
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "gates": {
+        "20_dates_each_segment": false,
+        "all_paid_scenarios_positive_each_segment": false,
+        "bootstrap_lower_positive": false,
+        "monthly_research_filter_ge_30": false,
+        "profit_factor_ge_1_2": false
+      },
+      "old": {
+        "bootstrap_97_5_mean_bps": [
+          -60.58609242568226,
+          185.48097524308164
+        ],
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 2,
+            "proxy_usd": "-13.51643858923938035705151237"
+          },
+          "xyz:MSTR": {
+            "fills": 7,
+            "proxy_usd": "27.33250644797108858777544597"
+          }
+        },
+        "calendar_days": "113",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "13.81606785873170823072393359",
+            "fills": 9,
+            "mean_net_bps": "15.35118650970189803413770399",
+            "monthly_after_20_infra": "-16.33201738263759958476355745",
+            "profit_factor": "1.337460980572742904265663065",
+            "realized_only_drawdown_usd": "29.34517151457716307259341790",
+            "rejected": 0,
+            "without_best_proxy_usd": "-18.9377181097627704064824507",
+            "worst_trade_usd": "-14.26707651863600356616167734"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "-0.30986182180956953569427786",
+            "fills": 9,
+            "mean_net_bps": "-0.3442909131217439285491976222",
+            "monthly_after_20_infra": "-20.08226420048041669089228616",
+            "profit_factor": "0.9935642616434881731117993090",
+            "realized_only_drawdown_usd": "38.07690184373576949063885405",
+            "rejected": 0,
+            "without_best_proxy_usd": "-31.19833324290494803464568035",
+            "worst_trade_usd": "-15.89317906862421554467922913"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "5.31697413452011732789900498",
+            "fills": 9,
+            "mean_net_bps": "5.907749038355685919887783311",
+            "monthly_after_20_infra": "-18.58841394658757947046929071",
+            "profit_factor": "1.116836930737581236839218150",
+            "realized_only_drawdown_usd": "36.11917061742721469856381112",
+            "rejected": 0,
+            "without_best_proxy_usd": "-28.20574287813817408792247517",
+            "worst_trade_usd": "-18.07020975311869621723481543"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "12.44658899708025661281515888",
+            "fills": 9,
+            "mean_net_bps": "13.82954333008917401423906542",
+            "monthly_after_20_infra": "-16.69559584148311771341190472",
+            "profit_factor": "1.298816931795213004633733985",
+            "realized_only_drawdown_usd": "30.35862381055531024645059801",
+            "rejected": 0,
+            "without_best_proxy_usd": "-20.15343201033920668801259627",
+            "worst_trade_usd": "-14.53775936137611149370704587"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "26.40577786830520859164915001",
+            "fills": 9,
+            "mean_net_bps": "29.33975318700578732405461112",
+            "monthly_after_20_infra": "-12.98961649514021010841173009",
+            "profit_factor": "1.763470679015672036664211966",
+            "realized_only_drawdown_usd": "21.65603400634004039490766369",
+            "rejected": 0,
+            "without_best_proxy_usd": "-8.01115493680387621423991238",
+            "worst_trade_usd": "-12.91475265506695925737579946"
+          }
+        },
+        "signals": 9
+      },
+      "recent": {
+        "bootstrap_97_5_mean_bps": null,
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 1,
+            "proxy_usd": "-10.78199487545103789858807163"
+          },
+          "xyz:MSTR": {
+            "fills": 3,
+            "proxy_usd": "-28.70957627192386935907895975"
+          }
+        },
+        "calendar_days": "67",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "-39.49157114737490725766703138",
+            "fills": 4,
+            "mean_net_bps": "-98.72892786843726814416757845",
+            "monthly_after_20_infra": "-37.68279305106339130940314837",
+            "profit_factor": "0E+25",
+            "realized_only_drawdown_usd": "39.49157114737490725766703138",
+            "rejected": 0,
+            "without_best_proxy_usd": "-33.52059732520587386532735805",
+            "worst_trade_usd": "-12.76583811100692123434544104"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "-45.74974608483426765766291224",
+            "fills": 4,
+            "mean_net_bps": "-114.3743652120856691441572806",
+            "monthly_after_20_infra": "-40.48496093350788104074458757",
+            "profit_factor": "0E+25",
+            "realized_only_drawdown_usd": "45.74974608483426765766291224",
+            "rejected": 0,
+            "without_best_proxy_usd": "-37.9853137552813808597324675",
+            "worst_trade_usd": "-14.45025732494915990845174881"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "-22.69479623292869861965500524",
+            "fills": 4,
+            "mean_net_bps": "-56.7369905823217465491375131",
+            "monthly_after_20_infra": "-30.16184905952031281477089787",
+            "profit_factor": "0.1218236509299647295243041119",
+            "realized_only_drawdown_usd": "25.84309661375174470609816126",
+            "rejected": 0,
+            "without_best_proxy_usd": "-25.84309661375174470609816126",
+            "worst_trade_usd": "-11.34665268079028207272493017"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "-40.78122180024384176820498068",
+            "fills": 4,
+            "mean_net_bps": "-101.9530545006096044205124517",
+            "monthly_after_20_infra": "-38.26024856727336198576342418",
+            "profit_factor": "0E+25",
+            "realized_only_drawdown_usd": "40.78122180024384176820498068",
+            "rejected": 0,
+            "without_best_proxy_usd": "-34.5107312715799766896891917",
+            "worst_trade_usd": "-13.10021734106165180465215923"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "-34.18692353507565598445641445",
+            "fills": 4,
+            "mean_net_bps": "-85.46730883768913996114103612",
+            "monthly_after_20_infra": "-35.30757770227268178408496170",
+            "profit_factor": "0E+25",
+            "realized_only_drawdown_usd": "34.18692353507565598445641445",
+            "rejected": 0,
+            "without_best_proxy_usd": "-29.72457271501437219950490158",
+            "worst_trade_usd": "-11.2097005468832618612021574"
+          }
+        },
+        "signals": 4
+      }
+    },
+    "fade": {
+      "all": {
+        "bootstrap_97_5_mean_bps": [
+          -140.7191413210545,
+          67.22972258863466
+        ],
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 3,
+            "proxy_usd": "18.92428894621186277491148657"
+          },
+          "xyz:MSTR": {
+            "fills": 10,
+            "proxy_usd": "-28.82692374537656766758920106"
+          }
+        },
+        "calendar_days": "180",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "-9.90263479916470489267771449",
+            "fills": 13,
+            "mean_net_bps": "-7.617411383972849917444395762",
+            "monthly_after_20_infra": "-21.65043913319411748211295242",
+            "profit_factor": "0.8521017978822045355678187021",
+            "realized_only_drawdown_usd": "54.89976543689660975948806741",
+            "rejected": 0,
+            "without_best_proxy_usd": "-21.29499548318900505120890811",
+            "worst_trade_usd": "-36.05163684661031684866333099"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "-30.28988701099924924661521284",
+            "fills": 13,
+            "mean_net_bps": "-23.29991308538403788201170218",
+            "monthly_after_20_infra": "-25.04831450183320820776920214",
+            "profit_factor": "0.5960911401613429232808354517",
+            "realized_only_drawdown_usd": "65.75810769851776397044734937",
+            "rejected": 0,
+            "without_best_proxy_usd": "-40.05569079967582390816145871",
+            "worst_trade_usd": "-37.91796705886937566869232634"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "-18.18470061970137499294937178",
+            "fills": 13,
+            "mean_net_bps": "-13.98823124592413460996105522",
+            "monthly_after_20_infra": "-23.03078343661689583215822863",
+            "profit_factor": "0.7391694300285161435155145830",
+            "realized_only_drawdown_usd": "50.93080231780303708986238341",
+            "rejected": 0,
+            "without_best_proxy_usd": "-34.48047817871422925134796277",
+            "worst_trade_usd": "-36.78909666197661276091527943"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "-12.77328874422439618469653335",
+            "fills": 13,
+            "mean_net_bps": "-9.825606726326458603612717962",
+            "monthly_after_20_infra": "-22.12888145737073269744942222",
+            "profit_factor": "0.8122044324777449386102458770",
+            "realized_only_drawdown_usd": "56.42951361385580616209386188",
+            "rejected": 0,
+            "without_best_proxy_usd": "-24.06489179997392508277487105",
+            "worst_trade_usd": "-36.23412970417766333488093995"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "7.781145666770447392807264441",
+            "fills": 13,
+            "mean_net_bps": "5.985496666746497994467126493",
+            "monthly_after_20_infra": "-18.70314238887159210119878926",
+            "profit_factor": "1.127575917274055417274161139",
+            "realized_only_drawdown_usd": "48.06181187464524898655681370",
+            "rejected": 0,
+            "without_best_proxy_usd": "-5.133606988296511864568535019",
+            "worst_trade_usd": "-34.41693280510908480588906239"
+          }
+        },
+        "signals": 13
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "gates": {
+        "20_dates_each_segment": false,
+        "all_paid_scenarios_positive_each_segment": false,
+        "bootstrap_lower_positive": false,
+        "monthly_research_filter_ge_30": false,
+        "profit_factor_ge_1_2": false
+      },
+      "old": {
+        "bootstrap_97_5_mean_bps": [
+          -215.79145909005334,
+          37.60384779809363
+        ],
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 2,
+            "proxy_usd": "9.838365369123517784613840972"
+          },
+          "xyz:MSTR": {
+            "fills": 7,
+            "proxy_usd": "-48.32307675217367787642297375"
+          }
+        },
+        "calendar_days": "113",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "-38.48471138305016009180913278",
+            "fills": 9,
+            "mean_net_bps": "-42.76079042561128899089903642",
+            "monthly_after_20_infra": "-30.21718001319915754649799985",
+            "profit_factor": "0.4252216972542008811256831453",
+            "realized_only_drawdown_usd": "54.89976543689660975948806741",
+            "rejected": 0,
+            "without_best_proxy_usd": "-49.8770720670744602503403264",
+            "worst_trade_usd": "-36.05163684661031684866333099"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "-52.61306904798789618837061479",
+            "fills": 9,
+            "mean_net_bps": "-58.4589656088754402093006831",
+            "monthly_after_20_infra": "-33.96807142866935297036388004",
+            "profit_factor": "0.2984165069989056620305531521",
+            "realized_only_drawdown_usd": "65.75810769851776397044734937",
+            "rejected": 0,
+            "without_best_proxy_usd": "-62.37887283666447084991686066",
+            "worst_trade_usd": "-37.91796705886937566869232634"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "-29.94214552860929831697086151",
+            "fills": 9,
+            "mean_net_bps": "-33.26905058734366479663429057",
+            "monthly_after_20_infra": "-27.94924217573698185406306058",
+            "profit_factor": "0.5383454968540133513006957208",
+            "realized_only_drawdown_usd": "50.93080231780303708986238341",
+            "rejected": 0,
+            "without_best_proxy_usd": "-46.2379230876221525753694525",
+            "worst_trade_usd": "-36.78909666197661276091527943"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "-40.36567052511882019737671067",
+            "fills": 9,
+            "mean_net_bps": "-44.8507450279098002193074563",
+            "monthly_after_20_infra": "-30.71654969693420005240089664",
+            "profit_factor": "0.4065354540655265140531318697",
+            "realized_only_drawdown_usd": "56.42951361385580616209386188",
+            "rejected": 0,
+            "without_best_proxy_usd": "-51.65727358086834909545504837",
+            "worst_trade_usd": "-36.23412970417766333488093995"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "-26.40577786830520859164915001",
+            "fills": 9,
+            "mean_net_bps": "-29.33975318700578732405461112",
+            "monthly_after_20_infra": "-27.01038350485978989158826991",
+            "profit_factor": "0.5670635820030625860788177214",
+            "realized_only_drawdown_usd": "48.06181187464524898655681370",
+            "rejected": 0,
+            "without_best_proxy_usd": "-39.32053052337216784902494947",
+            "worst_trade_usd": "-34.41693280510908480588906239"
+          }
+        },
+        "signals": 9
+      },
+      "recent": {
+        "bootstrap_97_5_mean_bps": null,
+        "by_asset": {
+          "xyz:COIN": {
+            "fills": 1,
+            "proxy_usd": "9.085923577088344990297645599"
+          },
+          "xyz:MSTR": {
+            "fills": 3,
+            "proxy_usd": "19.49615300679711020883377269"
+          }
+        },
+        "calendar_days": "67",
+        "scenarios": {
+          "base": {
+            "constant_notional_proxy_usd": "28.58207658388545519913141829",
+            "fills": 4,
+            "mean_net_bps": "71.45519145971363799782854572",
+            "monthly_after_20_infra": "-7.20205526094681110486652912",
+            "profit_factor": null,
+            "realized_only_drawdown_usd": "0",
+            "rejected": 0,
+            "without_best_proxy_usd": "18.80536576685484310426585297",
+            "worst_trade_usd": "2.81415769851464722142436603"
+          },
+          "cost_stress": {
+            "constant_notional_proxy_usd": "22.32318203698864694175540195",
+            "fills": 4,
+            "mean_net_bps": "55.80795509247161735438850488",
+            "monthly_after_20_infra": "-10.00454535657224763801996928",
+            "profit_factor": null,
+            "realized_only_drawdown_usd": "0",
+            "rejected": 0,
+            "without_best_proxy_usd": "14.23158392288505422547778592",
+            "worst_trade_usd": "1.02140205225111526574305977"
+          },
+          "delay": {
+            "constant_notional_proxy_usd": "11.75744490890792332402148973",
+            "fills": 4,
+            "mean_net_bps": "29.39361227226980831005372432",
+            "monthly_after_20_infra": "-14.73547242884719851163216878",
+            "profit_factor": "3.419178096142869204268646941",
+            "realized_only_drawdown_usd": "4.86009894337831539927853994",
+            "rejected": 0,
+            "without_best_proxy_usd": "3.40162876900023010886837053",
+            "worst_trade_usd": "-4.86009894337831539927853994"
+          },
+          "funding_adverse": {
+            "constant_notional_proxy_usd": "27.59238178089442401268017732",
+            "fills": 4,
+            "mean_net_bps": "68.9809544522360600317004433",
+            "monthly_after_20_infra": "-7.64520218765921312865066687",
+            "profit_factor": null,
+            "realized_only_drawdown_usd": "0",
+            "rejected": 0,
+            "without_best_proxy_usd": "18.27345970834274532537429211",
+            "worst_trade_usd": "2.65447063917404344169436462"
+          },
+          "zero_cost": {
+            "constant_notional_proxy_usd": "34.18692353507565598445641445",
+            "fills": 4,
+            "mean_net_bps": "85.46730883768913996114103612",
+            "monthly_after_20_infra": "-4.69242229772731821591503830",
+            "profit_factor": null,
+            "realized_only_drawdown_usd": "0",
+            "rejected": 0,
+            "without_best_proxy_usd": "22.97722298819239412325425705",
+            "worst_trade_usd": "4.46235082006128378495151287"
+          }
+        },
+        "signals": 4
+      }
+    }
+  },
+  "run_id": "crypto-equity-return-hedge-20260907-v1",
+  "scripts": {
+    "/workspaces/hyperbot2/scripts/investigate_crypto_equity_hedge.py": "140d522ff58ed41246a0b8b90370942515c8539b8bde8f1009da904604c258c2",
+    "scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd"
+  },
+  "sources": {
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83",
+    "data/weekend_repricing_2026-09-07/replication_history/manifest.json": "ba09cf90dc175b7ea7d682b6c25e204d586feccd9661df197f7777131e565b62",
+    "data/weekend_repricing_2026-09-07/replication_history/request-000.json": "01af8f29ebfcc337a6575f105a9a96c7b85d71ddd783c5c6dfd3b7c8574b9f5e",
+    "data/weekend_repricing_2026-09-07/replication_history/request-001.json": "b90d068d59a83fdff7fdf5b0a025194bf24ce7a5324d7f41b7e6642537a584b6",
+    "data/weekend_repricing_2026-09-07/replication_history/request-002.json": "b3cf3e4951cc48a7a12d43a5349b312ed843d9707d0042b7ef3e530ecb5e5dff",
+    "data/weekend_repricing_2026-09-07/replication_history/request-003.json": "7293485ee9e8c7c4dce8701102415058d7786232c66001180416c1b3bd02f02b",
+    "data/weekend_repricing_2026-09-07/replication_history/request-004.json": "ee9b9118e18df44ecc81b8852e5007ffcc92a05b469caea0bef6707502ce3e16",
+    "data/weekend_repricing_2026-09-07/replication_history/request-005.json": "f443837183af7895615833572fc2f2e96c9287751dfdaea3c50c44cb17f01512",
+    "data/weekend_repricing_2026-09-07/replication_history/request-006.json": "8e64c2a20883c12a8e5cce2cf66adbc1d1830aaad005b1f2e9796fa76bf339a5",
+    "data/weekend_repricing_2026-09-07/replication_history/request-007.json": "5c955ff19c376f5fa1bef8534f5d3732d47dae84f473bc29b9713b6fe04a7dc2",
+    "data/weekend_repricing_2026-09-07/replication_history/request-008.json": "b857d638b56c10ba2601339b16a52dcda8409789fa64304ba5dbe3b279045264",
+    "data/weekend_repricing_2026-09-07/replication_history/request-009.json": "7c56d12b9206e9bff9a1d5df610c6d97a1f6fa9ceb21a088ebe96b879ba4b79f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-010.json": "785ea4de4c5c1901e6e6d12bf7513c2cf8ce62a1dcbeb0b374668ad6a5a7bced",
+    "data/weekend_repricing_2026-09-07/replication_history/request-011.json": "6cd9f8f7510e2994db6aa9799e1ee4e5e55f74a2bb72a23a26f65aa90205fd84",
+    "data/weekend_repricing_2026-09-07/replication_history/request-012.json": "d786007020a4038d4a0b7193f32c8c15561c75a2f9151f54350e89c012881083",
+    "data/weekend_repricing_2026-09-07/replication_history/request-013.json": "1160f1c0eb588554a3e1f9f981fec019f2e5f5c1c59b45dec51e34c0c7f1aa10",
+    "data/weekend_repricing_2026-09-07/replication_history/request-014.json": "e4fd0bf8862b7aedeecf227e06a5afeb02bce38abc29b087b473fd97b3d3696d",
+    "data/weekend_repricing_2026-09-07/replication_history/request-015.json": "3b1150699d1aa1b2d1970658d20682023ce2d36825e851a3304ca22e736b3a54",
+    "data/weekend_repricing_2026-09-07/replication_history/request-016.json": "1065757209eef40cd4aa78598039c16c91e47df1088d4e2c437f4f5b261d64be",
+    "data/weekend_repricing_2026-09-07/replication_history/request-017.json": "25c507881cb692220701c4f8d3d105268450dd88a98c398d828bc0ff50f9b458",
+    "data/weekend_repricing_2026-09-07/replication_history/request-018.json": "118338bb1ce8386b256b952c2abe27199e380d606e0aa0a6466284c01edfc4e9",
+    "data/weekend_repricing_2026-09-07/replication_history/request-019.json": "703146a22fa0fff54a53a05e99af0b6bc03c5655837c4a2e94c6554a29acc61f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-020.json": "e33332f43e2ba8937d8b5c34cf0b78f12dc157d5a902ca1566d9b004e25f3a67",
+    "data/weekend_repricing_2026-09-07/replication_history/request-021.json": "bd68c87d9789c95e1661d6bc36a954f7d10f922cf9a3aafa0fdd395247306ff7",
+    "data/weekend_repricing_2026-09-07/xyz_meta.json": "bb94edc88c9fdef2c546c33730d616b4aa7a642301e7ca604ea7ed2a2665b22c"
+  },
+  "start_ms": 1773100800000
+}

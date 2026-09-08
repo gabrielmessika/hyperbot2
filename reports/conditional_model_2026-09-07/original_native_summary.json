@@ -1,0 +1,427 @@
+{
+  "code_version": "source-sha256:31264ba557f1c11e75de1a14adc0e993bc117a5820c186257a8bc6bcb7401fea",
+  "coins": [
+    "ARB",
+    "BNB",
+    "DOGE",
+    "ENA",
+    "FARTCOIN",
+    "INJ",
+    "JUP",
+    "LINK",
+    "LIT",
+    "NEAR",
+    "PUMP",
+    "TAO",
+    "UNI",
+    "WLD",
+    "XMR",
+    "XPL",
+    "XRP",
+    "ZEC"
+  ],
+  "config": {
+    "fill_model": "hourly-open-proxy-at-plus-60s",
+    "panel": "original_native",
+    "protocol_sha256": "0952277288c012716d475fc2a1706e3f67dc1f66f15668aefa33834742d26100",
+    "scenarios": {
+      "base": [
+        "0.00045",
+        "0.0002",
+        0,
+        "signed"
+      ],
+      "cost_stress": [
+        "0.0009",
+        "0.0005",
+        0,
+        "signed"
+      ],
+      "delay": [
+        "0.00045",
+        "0.0002",
+        1,
+        "signed"
+      ],
+      "funding_adverse": [
+        "0.00045",
+        "0.0002",
+        0,
+        "adverse"
+      ],
+      "zero_cost": [
+        "0",
+        "0",
+        0,
+        "zero"
+      ]
+    }
+  },
+  "config_sha256": "c6f534bdab1c33e75c2b01c42eff649652473fbaf04d6346cd1810ec0afa6372",
+  "decision": "CROSS_PANEL_REVIEW_REQUIRED",
+  "end_ms": 1788652800000,
+  "evaluated_rows": 6966,
+  "evaluation_start_ms": 1780272000000,
+  "historical_venue": "Hyperliquid",
+  "live_enabled": false,
+  "monthly_fits": 4,
+  "native_fills_qualified": false,
+  "network_data_calls": 0,
+  "normalized_mse_all_predictions": {
+    "intercept_control": 1.0880424194841403,
+    "ridge": 1.0940325305286753
+  },
+  "panel": "original_native",
+  "portfolio_simulated": false,
+  "promotion_authorized": false,
+  "results": {
+    "intercept_control": {
+      "by_coin": {},
+      "by_side": {},
+      "criteria": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "thirty_events_and_days": false
+      },
+      "distinct_days": 0,
+      "events": 0,
+      "panel_filter_pass": false,
+      "scenarios": {
+        "base": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "cost_stress": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "delay": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "funding_adverse": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        },
+        "zero_cost": {
+          "contribution_sum_event_bps": {},
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": null,
+            "replicates": 0,
+            "seed": 20260907,
+            "upper_95": null
+          },
+          "mean_net_bps": null,
+          "monthly_event_sums_not_portfolio_returns": {},
+          "profit_factor": null,
+          "worst_net_bps": null
+        }
+      }
+    },
+    "ridge": {
+      "by_coin": {
+        "ARB": 9,
+        "DOGE": 1,
+        "ENA": 12,
+        "FARTCOIN": 11,
+        "INJ": 3,
+        "JUP": 5,
+        "LINK": 1,
+        "LIT": 14,
+        "NEAR": 2,
+        "PUMP": 8,
+        "TAO": 3,
+        "UNI": 6,
+        "WLD": 19,
+        "XMR": 5,
+        "XPL": 14,
+        "XRP": 2,
+        "ZEC": 29
+      },
+      "by_side": {
+        "-1": 16,
+        "1": 128
+      },
+      "criteria": {
+        "positive_central_lower_bound": false,
+        "positive_paid_scenarios": false,
+        "thirty_events_and_days": false
+      },
+      "distinct_days": 28,
+      "events": 144,
+      "panel_filter_pass": false,
+      "scenarios": {
+        "base": {
+          "contribution_sum_event_bps": {
+            "ARB": "216.2282473692171812149855085",
+            "DOGE": "-16.72255344856153605723086204",
+            "ENA": "-277.6328076455909164037560365",
+            "FARTCOIN": "-788.8504636345968817120539359",
+            "INJ": "239.0483027458668890342962150",
+            "JUP": "-1635.993147281974460717800580",
+            "LINK": "45.33138164274794615489398853",
+            "LIT": "31.7728503946213457715147095",
+            "NEAR": "335.8127793528076048585905088",
+            "PUMP": "-783.3344184030421125490484780",
+            "TAO": "-119.9804882353147185532128940",
+            "UNI": "-166.5480579926366300516792525",
+            "WLD": "-1259.984748581691372565215769",
+            "XMR": "-1570.557550804345831655815949",
+            "XPL": "-1313.337755610193549265888247",
+            "XRP": "-64.32757955109046784702320784",
+            "ZEC": "-482.2925046042784845813964182"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -183.40854877329843,
+            "replicates": 5000,
+            "seed": 20260907,
+            "upper_95": 5.725611409613827
+          },
+          "mean_net_bps": "-52.85672579366705552031833818",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 135,
+              "sum_event_net_bps": "-6500.628472284825162256512382"
+            },
+            "2026-07": {
+              "n": 2,
+              "sum_event_net_bps": "-565.3852687852964756823465338"
+            },
+            "2026-09": {
+              "n": 7,
+              "sum_event_net_bps": "-545.3547732179343569869817825"
+            }
+          },
+          "profit_factor": "0.7334154598765085859137982801",
+          "worst_net_bps": "-1479.331261559807024625179095"
+        },
+        "cost_stress": {
+          "contribution_sum_event_bps": {
+            "ARB": "80.9770439293813574166641083",
+            "DOGE": "-31.70694175665778689068774380",
+            "ENA": "-455.7902599286430853786331109",
+            "FARTCOIN": "-956.2498546986869959731612981",
+            "INJ": "194.5530618622825521080265580",
+            "JUP": "-1711.624609522787551705884645",
+            "LINK": "30.28170356908643295337329205",
+            "LIT": "-177.0668835522063379586596269",
+            "NEAR": "305.4554251673691000642769556",
+            "PUMP": "-903.4480326280052877795523550",
+            "TAO": "-164.8615062473997039588533011",
+            "UNI": "-256.9050236403188377927843098",
+            "WLD": "-1542.822140786637395697817954",
+            "XMR": "-1644.029181242028112753008490",
+            "XPL": "-1523.062850191369280106554941",
+            "XRP": "-94.26314226043757105177557991",
+            "ZEC": "-918.4551777964257423852703034"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -198.30572360232213,
+            "replicates": 5000,
+            "seed": 20260907,
+            "upper_95": -9.270789979480657
+          },
+          "mean_net_bps": "-67.8404053453019739367382135",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 135,
+              "sum_event_net_bps": "-8523.502191753599633710823409"
+            },
+            "2026-07": {
+              "n": 2,
+              "sum_event_net_bps": "-595.7142230327318895825879818"
+            },
+            "2026-09": {
+              "n": 7,
+              "sum_event_net_bps": "-649.8019549371527235968913545"
+            }
+          },
+          "profit_factor": "0.6718152815237194800515415482",
+          "worst_net_bps": "-1495.878056254924597492828173"
+        },
+        "delay": {
+          "contribution_sum_event_bps": {
+            "ARB": "-148.8040482488767539773546634",
+            "DOGE": "135.7401600987248028177580887",
+            "ENA": "2186.328279854117869607578028",
+            "FARTCOIN": "-215.0705875563479799628778273",
+            "INJ": "267.4053484658933328039050149",
+            "JUP": "-1091.688183029635838507768977",
+            "LINK": "153.7331652166697170743250504",
+            "LIT": "1290.715791720683873677238436",
+            "NEAR": "636.8199500757464883658381140",
+            "PUMP": "-1266.979908550649652361018907",
+            "TAO": "-218.4259738287088575146581566",
+            "UNI": "585.5201032366726351378319590",
+            "WLD": "432.9173427656075417638845097",
+            "XMR": "-1250.834143415909958808325966",
+            "XPL": "-1597.876918337464530810478678",
+            "XRP": "167.2109431760304069096948434",
+            "ZEC": "-1260.309156113599540729773484"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -125.15481445579081,
+            "replicates": 5000,
+            "seed": 20260907,
+            "upper_95": 30.120237740616755
+          },
+          "mean_net_bps": "-8.288873850493378086904184819",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 135,
+              "sum_event_net_bps": "288.9545276894722545270816047"
+            },
+            "2026-07": {
+              "n": 2,
+              "sum_event_net_bps": "-1124.213372380843186801848234"
+            },
+            "2026-09": {
+              "n": 7,
+              "sum_event_net_bps": "-358.3389897796755122394359837"
+            }
+          },
+          "profit_factor": "0.9526660619848339872191933359",
+          "worst_net_bps": "-2138.716880052958899724562820"
+        },
+        "funding_adverse": {
+          "contribution_sum_event_bps": {
+            "ARB": "214.7867607492615233595905273",
+            "DOGE": "-17.63090275058289097874836099",
+            "ENA": "-280.7400570638284595482702316",
+            "FARTCOIN": "-793.1864025988222440697383289",
+            "INJ": "238.0450127956449100967205515",
+            "JUP": "-1636.859781980086863625899119",
+            "LINK": "44.56857213141341039988858793",
+            "LIT": "30.5184609443700332674469755",
+            "NEAR": "334.4951656449377389895552429",
+            "PUMP": "-790.8870476093989245518461670",
+            "TAO": "-122.7450195895770600211451308",
+            "UNI": "-168.1484354519162804540283181",
+            "WLD": "-1300.542417074150586612111289",
+            "XMR": "-1576.586673136672500945729023",
+            "XPL": "-1317.685541748942341968754126",
+            "XRP": "-68.79739122059736248799551090",
+            "ZEC": "-692.9312657390835719994455800"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -183.63041503300533,
+            "replicates": 5000,
+            "seed": 20260907,
+            "upper_95": 2.9806623857510344
+          },
+          "mean_net_bps": "-54.89115947012521854965631459",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 135,
+              "sum_event_net_bps": "-6792.087652768850499999876477"
+            },
+            "2026-07": {
+              "n": 2,
+              "sum_event_net_bps": "-566.8845377112466141636510422"
+            },
+            "2026-09": {
+              "n": 7,
+              "sum_event_net_bps": "-545.3547732179343569869817825"
+            }
+          },
+          "profit_factor": "0.7247990471541566149690172499",
+          "worst_net_bps": "-1479.331261559807024625179095"
+        },
+        "zero_cost": {
+          "contribution_sum_event_bps": {
+            "ARB": "338.7767026105551409424064336",
+            "DOGE": "-4.138962322091377606878688349",
+            "ENA": "-117.6002404630054531170569810",
+            "FARTCOIN": "-637.2500022664192384650859387",
+            "INJ": "278.8364569585373985391897682",
+            "JUP": "-1567.923779207450012426375847",
+            "LINK": "58.16591724763829875005156552",
+            "LIT": "234.8045427441271499758488095",
+            "NEAR": "362.5594001459123916188209060",
+            "PUMP": "-679.2623914786264356451660123",
+            "TAO": "-80.7685454863370232255601050",
+            "UNI": "-85.38212716628476288523932306",
+            "WLD": "-1019.866229292566057523727780",
+            "XMR": "-1502.715835698942640578586359",
+            "XPL": "-1125.400376849127705461586268",
+            "XRP": "-40.24763277425978241708658835",
+            "ZEC": "-192.6030294464281146607446299"
+          },
+          "mean_bootstrap": {
+            "block_days": 7,
+            "lower_95": -169.60256714991854,
+            "replicates": 5000,
+            "seed": 20260907,
+            "upper_95": 17.89729705197609
+          },
+          "mean_net_bps": "-40.13900092183866822351928497",
+          "monthly_event_sums_not_portfolio_returns": {
+            "2026-06": {
+              "n": 135,
+              "sum_event_net_bps": "-4791.371490641184740255834810"
+            },
+            "2026-07": {
+              "n": 2,
+              "sum_event_net_bps": "-539.1111887704583842972799814"
+            },
+            "2026-09": {
+              "n": 7,
+              "sum_event_net_bps": "-449.5334533331250996336622448"
+            }
+          },
+          "profit_factor": "0.7899783538778127462848769726",
+          "worst_net_bps": "-1458.928939844970379321524360"
+        }
+      }
+    }
+  },
+  "run_id": "conditional-model-20260907-v1-original_native",
+  "script_sha256": "d9a3e52fc89aaf2a11841e2f5390f8502bafc2276819c6ac777fc18f5b0726c8",
+  "start_ms": 1771027200000,
+  "training_and_evaluation_rows": 14148
+}

@@ -1,0 +1,28 @@
+{
+  "client_sha256": "280957459e73b9aa8c3cb7dce0bdab5c2dec55485385f8ff78bc49c3bfa10164",
+  "coin_selection": "ARB, first alphabetically in existing eleven-asset cohort; no selection on returns",
+  "live_enabled": false,
+  "maximum_market_requests": 2,
+  "maximum_per_request_seconds": 20,
+  "maximum_per_response_bytes": 5000000,
+  "promotion_authorized": false,
+  "purpose": "Qualify free native 2025 coverage only; no new strategy or PnL",
+  "registered_at_utc": "2026-09-07T19:16:15.696884+00:00",
+  "requests": [
+    {
+      "req": {
+        "coin": "ARB",
+        "endTime": 1767225599999,
+        "interval": "4h",
+        "startTime": 1735689600000
+      },
+      "type": "candleSnapshot"
+    },
+    {
+      "coin": "ARB",
+      "endTime": 1735862399999,
+      "startTime": 1735689600000,
+      "type": "fundingHistory"
+    }
+  ]
+}

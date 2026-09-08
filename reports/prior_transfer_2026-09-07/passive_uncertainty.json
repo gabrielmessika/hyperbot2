@@ -1,0 +1,46 @@
+{
+  "limits": [
+    "overlapping 14-day blocks from a selected strategy and sizing",
+    "not corrected for the family of previous strategy searches",
+    "neither a predictive interval nor a proof of expected future profit",
+    "bootstrap returns do not rerun drawdown, allocations or execution",
+    "best-cycle subtraction does not rerun the portfolio"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "218.5557973860901759",
+      "best_cycle_usd": "73.97809603506550",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.026303476828713885,
+        0.1008482328944793
+      ],
+      "distinct_entry_days": 1,
+      "draws": 10000,
+      "input": "data/prior_transfer_2026-09-07/original_final/passive_0.5-base-infra-0.json",
+      "observed_monthly_compound": "0.038457005880500410216532108"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "217.6544828769199529",
+      "best_cycle_usd": "73.88359323506550",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.026366553252283452,
+        0.10087561433296169
+      ],
+      "distinct_entry_days": 1,
+      "draws": 10000,
+      "input": "data/prior_transfer_2026-09-07/original_final/passive_0.5-cost_stress-infra-0.json",
+      "observed_monthly_compound": "0.038339310320715388336206903"
+    }
+  ],
+  "script_sha256": "7d48cee8c101a4952e1e1842b2ac380b2f81e2db2a72c82bfb60ed1dca432f28",
+  "sources": {
+    "data/prior_transfer_2026-09-07/original_final/passive_0.5-base-infra-0.json": "47656503651a078b8316891e05890271e3be43bc132e84cf564f13b7d407249e",
+    "data/prior_transfer_2026-09-07/original_final/passive_0.5-cost_stress-infra-0.json": "7faeb761210d665ebb75f54ae6182492bac02eb392008a5bf9e0110061253ffc"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "artifacts": [
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-base-infra-0.json",
+      "sha256": "18baa07fa2a323b226f8b7f4d1dea28ffaf215519b22b958be8c9f24a8a27b3f"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-base-infra-20.json",
+      "sha256": "311fa7d2ea66942b8ed1cadca9d9fef439e2562c956265db9350342a9e16784e"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-cost_stress-infra-0.json",
+      "sha256": "f09ae6292806322784739907c4ff7575d6be2eb8c36b8a07b33f8694cce67add"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-cost_stress-infra-20.json",
+      "sha256": "4aa77f6eb34f22377b65bedef31475d7aab367db51c99eea37f3189f27cecbf3"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-delay-infra-0.json",
+      "sha256": "be5a1938044b716f3fda1fadecb189a5850fc5a1d88b034c5feee2a354a6a91f"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-delay-infra-20.json",
+      "sha256": "c9626692173f84dd454d70c18fa8657501cfda2bba8f8193313e77eaea32fea9"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-funding_adverse-infra-0.json",
+      "sha256": "2748475a08d98ba40203818e7b80846c465d4d353c70369ba16004567e28c2eb"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-funding_adverse-infra-20.json",
+      "sha256": "263e32d8bd1160fc32b88a565678b645aa8cafb8769bf016002490a7af48245c"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-signals.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-signals.json",
+      "sha256": "d2e35d10006a8b69cd71210842c43ef1c425ddabd54219bf5ac8fec1474985e2"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-zero_cost-infra-0.json",
+      "sha256": "9af0d4ded4dad4c84eb88ab28c470b3b5afb8713caee8e980568dd4c36755d04"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/continuous-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/continuous-zero_cost-infra-20.json",
+      "sha256": "e9066e12eac8783f9e2647ffd31fc91985a93e3add46836d08c5f53fba6cc9fc"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-base-infra-0.json",
+      "sha256": "13466d362cf919ad156b31fabc9e4fd6e77af53414dbed3408c572008426352e"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-base-infra-20.json",
+      "sha256": "34a599879ffee46bdb0f1bc2b3c128cb412791b8d351eb2f12e13b0e1a5dbdd7"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-cost_stress-infra-0.json",
+      "sha256": "b3237164a6b2dd4523384b72153d82c1e899789b57bb4f1fd0e1273e70f07f19"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-cost_stress-infra-20.json",
+      "sha256": "a92706b071f323a0594babf0fcea88e8aa9fe3c2c162660af912385eab38b35a"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-delay-infra-0.json",
+      "sha256": "26df690a23f78ab1baa74356074d94a4121409e78b2d331edeaa02e65ea5a59c"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-delay-infra-20.json",
+      "sha256": "518590da77081e750480737bf67457fcf823e3d4edc8f3502bbf03bac24ae5ec"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-funding_adverse-infra-0.json",
+      "sha256": "15f3771ad2a3cf8b037486c530533fd85163c88699489628cbb2fd6116f662cd"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-funding_adverse-infra-20.json",
+      "sha256": "19579806009b9a335f208964c04ea09cfc38df6b0d0f0e9ad049e2e5b9716e6b"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-signals.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-signals.json",
+      "sha256": "7cdb820a74cd8523c89bf5189debf7b690b4724b351a07b91a7d0d91afcaed13"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-zero_cost-infra-0.json",
+      "sha256": "2fbb1f131a25f399a544396ff9746c536fd612ed6c3e4379ea580db19e13354a"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/older-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/older-zero_cost-infra-20.json",
+      "sha256": "7481573004ceb2dad1b7030840065d66a6c31ff04251e14afa3156ec92266b38"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/quality.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/quality.json",
+      "sha256": "40697ab63f40d5dc2a439c04b5e6f839db89a1299a1c8a48a007ba608684eed0"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd20_run1/summary.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd20_reproduced/summary.json",
+      "sha256": "5dc8ed36fbb5a4ee681276b6513835d6e57bd1c80d6fe725cb8dc30250b86767"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-base-infra-0.json",
+      "sha256": "0f5704bc5834d8a4050a59e2555e9d016d9d9e77c9c0c79fc3520944384a7503"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-base-infra-20.json",
+      "sha256": "b572822d263f358971a04aa95f9d7ec6467210d9c824e41c8b504da37769db00"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-cost_stress-infra-0.json",
+      "sha256": "07d086d6ccc122cc22a9fcadb81817e048350a1bd57fde129eb5b3c292795508"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-cost_stress-infra-20.json",
+      "sha256": "087ca3c2de66da599cafe54f559d706ecdb3bf30e5725018e20719c798be077b"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-delay-infra-0.json",
+      "sha256": "4a27d22c9eeb6b2f42a4e1c481bc5dc592916a01763225e2c86a590163464a30"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-delay-infra-20.json",
+      "sha256": "1abd8d1135ab0e94cac255afebcf33ced43b73c087212ce6b2dcf6c4440ecea0"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-funding_adverse-infra-0.json",
+      "sha256": "578070729683012a3f7e80e87f3304ea194664f2bccd08521b215662bad0260f"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-funding_adverse-infra-20.json",
+      "sha256": "40ad8c3952a10a810fa0960f521042a4db1321418774adad309b38afd6f610b8"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-signals.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-signals.json",
+      "sha256": "d2e35d10006a8b69cd71210842c43ef1c425ddabd54219bf5ac8fec1474985e2"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-zero_cost-infra-0.json",
+      "sha256": "29cf43dbb03bbf73458a8590c39259517f89259b98460a093fca526a6e5d2d7d"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/continuous-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/continuous-zero_cost-infra-20.json",
+      "sha256": "82bbc349c053c9defacaf59e9a0ddd7445e2f7a6cde8d3d66e846ae967da1e02"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-base-infra-0.json",
+      "sha256": "0d151840a92cf1223abc133a534aa6266c0b350440d6f1fe702c639fd5e05675"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-base-infra-20.json",
+      "sha256": "210bf2680108ff7c998ecae66a135e74434de97225309343dde6d7f9d1398eb9"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-cost_stress-infra-0.json",
+      "sha256": "83d875ed209be23771189ecf1803defd8fa914e2a7296044e59412b1310dcdf1"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-cost_stress-infra-20.json",
+      "sha256": "aff99f1b77189e045b46297f21772bc26e7f42b0ca2ad53e6754a42d83bf7392"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-delay-infra-0.json",
+      "sha256": "63869d6a345a9469946a369a183c3df0c8cae474e7a808252c37c43e4c391b9d"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-delay-infra-20.json",
+      "sha256": "de5ebade7624c99973a08af3520fb421f18f62beb600177969dc377bc8748e66"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-funding_adverse-infra-0.json",
+      "sha256": "8088844c55a6d1a11d60fa8f0eddeacb1acece60c39ab08a32b5c0ec7200da13"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-funding_adverse-infra-20.json",
+      "sha256": "dd63ba27560fb7721dde73e61e151f0ec6f04599ecaf81a2677b7209b0d25b94"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-signals.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-signals.json",
+      "sha256": "7cdb820a74cd8523c89bf5189debf7b690b4724b351a07b91a7d0d91afcaed13"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-zero_cost-infra-0.json",
+      "sha256": "0eff66f34b562de9fe3e44a9c0d45a29cc470c0f9335609d9f0b2004935f06e5"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/older-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/older-zero_cost-infra-20.json",
+      "sha256": "c08019d46e505bd22ef07d79fa091b0160a2a8fc0b5820a7c1f3dd3ca5f5e1fa"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/quality.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/quality.json",
+      "sha256": "40697ab63f40d5dc2a439c04b5e6f839db89a1299a1c8a48a007ba608684eed0"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/dd30_run1/summary.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/dd30_reproduced/summary.json",
+      "sha256": "d1e28b1cb0f7b3bae75444290004515a6a99f67960699784da6680c89eec2f8e"
+    },
+    {
+      "left": "data/breakout_extension_2026-09-07/audit/uncertainty.json",
+      "matched": true,
+      "right": "data/breakout_extension_2026-09-07/audit_reproduced/uncertainty.json",
+      "sha256": "c892817262925bbb3f0173ae3ce2addfc2fd4eeafc6550d386fe0f67fa575463"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "67 sources passed",
+  "ruff": "check and format passed, 263 files",
+  "tests": "263 passed after research engine change"
+}

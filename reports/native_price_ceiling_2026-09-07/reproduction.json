@@ -1,0 +1,50 @@
+{
+  "basket_aggregate_checks": 420,
+  "config_sha256": "6531dc07b860dd7be73befdef3ebb111148ea9d4801fb3a7bd381f7b286a1049",
+  "exact_artifacts": [
+    {
+      "artifact": "quality",
+      "panel": "native_2025",
+      "sha256": "f96e006caa467812344f6a5ac1c8046db01393e6f37f810f55fe42c56c5bc9c9"
+    },
+    {
+      "artifact": "selections",
+      "panel": "native_2025",
+      "sha256": "fe18f283384adc0b1a98f705a82e3f7885569ada8bf01cc61411f3da1a95d879"
+    },
+    {
+      "artifact": "events",
+      "panel": "native_2025",
+      "sha256": "6d7c9c67ecf3000084af0bda9ed92e43996e1d9bdd56c7957633b7b4b112b2ab"
+    },
+    {
+      "artifact": "summary",
+      "panel": "native_2025",
+      "sha256": "2824e6f6f79583ee639dca0cfc5d565a8f6629ffbd3ae5bdca83a0f09107159b"
+    },
+    {
+      "artifact": "quality",
+      "panel": "native_2026",
+      "sha256": "9381a38ceac60a352ced502f7258ee9a1c384fe6b6895740a2b9881ce6ce3ab5"
+    },
+    {
+      "artifact": "selections",
+      "panel": "native_2026",
+      "sha256": "ea8826da8b484d373881c4822ea079da1e435ceefbf743dbac759be1ef04e83e"
+    },
+    {
+      "artifact": "events",
+      "panel": "native_2026",
+      "sha256": "ab11699519b64b7de89c6f1c1857e684eba31b8845b4197d2f7218ab109bae64"
+    },
+    {
+      "artifact": "summary",
+      "panel": "native_2026",
+      "sha256": "caf414f4f0f99a7486970496a43a8825640a7c541fde63461d4fd4696b0d7c46"
+    }
+  ],
+  "live_enabled": false,
+  "market_data_calls": 0,
+  "native_2026_rankings_identical_to_hourly_function": 23,
+  "price_signed_cash_ledger_checks": 1890
+}

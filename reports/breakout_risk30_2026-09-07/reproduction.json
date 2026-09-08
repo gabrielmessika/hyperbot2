@@ -1,0 +1,386 @@
+{
+  "artifacts": [
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/baseline_checks.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/baseline_checks.json",
+      "sha256": "67cd77d09452e4843144affd7a72e0ea7d581b91c472760ff09b7b7788efe5c3"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-base-infra-0.json",
+      "sha256": "6b323b30058635b4052c840d7565ad632ed0063cc98d8b995521187e845e91b1"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-base-infra-20.json",
+      "sha256": "a61145fbd9957fac9c83206c81544e7926465840e87ba6c6bde24a3089f56f11"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "32e36dc36432d968d96d20de5cca83d601277088fdbb447b4ffb3417ebb44642"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "4020628ceb136158400e147c82807a469d7168a19cc373ad1bb033b93d814314"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-delay-infra-0.json",
+      "sha256": "65501fada2aed60067119ab744c0afbb3023fb45ac8f247ff2203275898013ba"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-delay-infra-20.json",
+      "sha256": "8b06999ee40dc1d9e4cf74ae6f2c04b76eca829fc705c7d6e3735987588d7041"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "7b806655e29c94cab2a12599071f3716c8ce06a91f689d711faec2aece5f096a"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "2983ad10024401014967dbabc41ea7374c486eff3d708456aac4a2b7214a818f"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "204ad2737ccc1d615e2814e9da832e46dad71d27e23d75c916ead50b053d8a4a"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "f278fab7046301e4c4439ab351b61ecd945542e20c9e76a4df9b64e5a5e49a9c"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-base-infra-0.json",
+      "sha256": "ba942ded3eca10ca9cac93aa2c8f0ad1d9b38b173ac022fc47fe0ef7f05e3789"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-base-infra-20.json",
+      "sha256": "81060563a8e4863076691f63fd57337e2f8fc35bd3f446e56f9bd7ff865427d5"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-cost_stress-infra-0.json",
+      "sha256": "fb6358ec686514e93a0c81e6ee6298978475b30575fa26a2ec13282d4121af5d"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-cost_stress-infra-20.json",
+      "sha256": "a12a50a038dadf9dabb12b949dc8069b40c962dca298298c6991b436ddf2ca36"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-delay-infra-0.json",
+      "sha256": "11ff6036ce0a96bd647979faabc4b924f02a23d8f30dec015509d62ef8cf2ece"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-delay-infra-20.json",
+      "sha256": "3cd236841f05c14d0e2093223d157ace486b56402112e8cdf872879c243fe0d4"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-funding_adverse-infra-0.json",
+      "sha256": "ed3896f2ab4ce4caa68b188927213f26922359c79b3dd97512261f29cdcd9d12"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-funding_adverse-infra-20.json",
+      "sha256": "f22b590cf63e72b65d69e0a421f24eb6ea5c928a99021135f77a91ca1523bac6"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-zero_cost-infra-0.json",
+      "sha256": "e6d93dd2539e255951e68cdafdecf00e305cd8797945b6f905ac4100182007c6"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1-zero_cost-infra-20.json",
+      "sha256": "e70f560011e2665967101e47597a68cec21186d0ceb17b218142caa69263cd97"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-base-infra-0.json",
+      "sha256": "eaa386d7cce96b7e1db8a62b59f7f2c431a6ac20ddb2114f274413fbbf1d1276"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-base-infra-20.json",
+      "sha256": "fb96e42392e4d0d3da7bc7454d890dc240da8cb72a1349cecc7618214abb3db3"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "de2777b005406132f354bc741b97d7a1319de332ffa8069527a86f30408bdaba"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "862d41db4a3848bcdb8665e127afd0c6d1025596321de0334fcb1fb7fd89780c"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-delay-infra-0.json",
+      "sha256": "9d83bbe968484f1e10ea5094388e2eabb9737bf7aa9a6648b29f64528c7a5b24"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-delay-infra-20.json",
+      "sha256": "ada08a7526ad2b2b999e6e4bb167b36e4d9d98d072b544500b4316eb5df53e16"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "3f5ea758baa13c01e56c52062e98b1b4cf040c18d7fd5b31f5b35386415dd9ac"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "5685e432b0ae0b433aecf2eea456e5ba819b651823cb1750155be8f36a34e8f6"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "b69eab2f483812f5b85e9e79059c5e35245eb5999589bbbb90b526f4c8f8bca2"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.2-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.2-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "da8cdc0a221a3472afe24e563f48f3e6e4e9ea473831e8a94e434bedfc179ea6"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-base-infra-0.json",
+      "sha256": "d38114c543a2b4de3fdbb1334980eda6a1f775e0df2cbec066dd5d914e892cab"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-base-infra-20.json",
+      "sha256": "dfd6226b24e7488e5791f7b06b5e57449ecbcce29cae7824a612c3c70216db83"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "9c93577e83f74d81cb41af72f05d280261b39eb84daf004e6bdcde866e558a10"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "f5ec2f872f4bf6f2f5b899da7f713bbb4d06f7af10f2b21a45931c7b3aec98b8"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-delay-infra-0.json",
+      "sha256": "b2b71d845f52657463c5d2ed3f3a446d1149e847eb81699a907b97a6a30e1773"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-delay-infra-20.json",
+      "sha256": "0122b9d1e3d1e6ac9b8c95420f3ce29bef033b45fb1cf852a11c480fd221ed06"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "62fd6226cb8bdced83b442388b9a595a6f0ba68adf597baf29992b1ad01b93bc"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "a39de9585e28046b7ab4ccdca87b473e22dac478f31c5996e1e7c9d79efc46cc"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "545e8a2ecc2d787f8d39b7d66bc5a62dc4fc78866199b9480a898ba1a9f86e41"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "9aef6aef306e126919627b16a28e1961020ffafb1fa2f25fee72cad4094aef8f"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-base-infra-0.json",
+      "sha256": "1e40cda29d860d349dbdf81daf92a5d8a4c4727b46499b68715341c20e1cd5ab"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-base-infra-20.json",
+      "sha256": "fcee37cf063083b90ba74fe3e7ee211e735eeabb5a8b7276ac7b6896d0445d41"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-cost_stress-infra-0.json",
+      "sha256": "d5ef8208fc6961cd274847d7ef66389d489f0e8cfdc6fc27497d1a174e273010"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-cost_stress-infra-20.json",
+      "sha256": "2579cb9168bb2debbf21522f7e56ab1afd7300eea326f7fc57c99ec64f52c772"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-delay-infra-0.json",
+      "sha256": "2f07a4a42c6547cb9b196b44dd1eeef25cde12bf64fc1fa48a597d435ba185fb"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-delay-infra-20.json",
+      "sha256": "35a26d5073439e5e31ec6f0fcfe4bac3e32f973f6e2403de11a93180c8ffcac5"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-funding_adverse-infra-0.json",
+      "sha256": "90dce3336194e1ebc28992c800dd6f422824ef3082f6ee3580a989e4fd47dbe1"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-funding_adverse-infra-20.json",
+      "sha256": "517f9af4722a3255545c14926afd797df9571689ae02f59ce9b6cb720fc4a848"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-zero_cost-infra-0.json",
+      "sha256": "6798ee2242c1bf5efda05ae43b6f630f840ffd822fbf72c4a09eb0305686fee0"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1-zero_cost-infra-20.json",
+      "sha256": "1aa7e40556a1b58471888c5b003124fcfd519c1800f9f941e45b091aa30a3491"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-base-infra-0.json",
+      "sha256": "de03a34305f8830ab128f9e52ae8587e8dba16ecc7825509fcf125545efe58b6"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-base-infra-20.json",
+      "sha256": "c6bd4727872e80731c90dd071826c7aff4b9d1bd55837648882b9d45e10b2d0e"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "cdc8ce2e96c96b108c78010e4fc9f9972231c83e2779f620536d0bc53242a306"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "136191527964ed945d18c0dfed24d2addf5485c89e1f29aea462384168d851bb"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-delay-infra-0.json",
+      "sha256": "deac53cd6080555a4d00e82c3eab4e769f6e39c9e795e4d1f528afc0e538c0d7"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-delay-infra-20.json",
+      "sha256": "65c44e5d567ca91faad9cb6001fe426f1cb894dfda7871017c1270ae57f63e55"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "22d92645371efeb8000dcfa34221f70f03a310925cbd1b5aed56293e2dedbc05"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "7ed0f143bd28f173fd1ae2d1c6e526f964e511b57965216852bd1e682c90a39e"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "eec0cb587df00508b62346595eef5022c384ac9175a2e0887d83029e5de2a5cc"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/dd-0.3-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/dd-0.3-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "d335a299392cfc471f518cd7566de524b1de1e6905df9ea89d4e352ac09ef239"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/quality.json",
+      "sha256": "f0c89a6e90f6b29d03c5806a627787d44cb7ea99e3b611eba42fd34a091733b0"
+    },
+    {
+      "left": "data/breakout_risk30_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/breakout_risk30_2026-09-07/reproduced/summary.json",
+      "sha256": "c6ebd8e795556cf7cb6c0ad7f8a55e9ee98e80240ab5c8313202207e776a6224"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "67 sources passed",
+  "ruff": "check and format passed, 261 files",
+  "tests": "263 passed"
+}

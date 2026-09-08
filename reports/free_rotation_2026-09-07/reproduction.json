@@ -1,0 +1,35 @@
+{
+  "count": 6,
+  "exact_matches": [
+    {
+      "original": "data/free_rotation_2026-09-07/final/carry_relative-events.json",
+      "reproduction": "tmp/free-rotation-repro-2026-09-07/carry_relative-events.json",
+      "sha256": "0964af11dd55e6f1eab3ac3b680f3817d57f23d0db8beab481480087a7cba96f"
+    },
+    {
+      "original": "data/free_rotation_2026-09-07/final/momentum7d-events.json",
+      "reproduction": "tmp/free-rotation-repro-2026-09-07/momentum7d-events.json",
+      "sha256": "6d03aa0e8c879a23efab6af509ae9c070857a371540e566586863e30e1aaa491"
+    },
+    {
+      "original": "data/free_rotation_2026-09-07/final/summary.json",
+      "reproduction": "tmp/free-rotation-repro-2026-09-07/summary.json",
+      "sha256": "7559321eba5aae54fb752ae8fada72e3b7114696938ba51a563b72d5723f9af4"
+    },
+    {
+      "original": "data/free_rotation_2026-09-07/final/trend30d-events.json",
+      "reproduction": "tmp/free-rotation-repro-2026-09-07/trend30d-events.json",
+      "sha256": "e1d8aae32bcfb2bc92f7376c06b15201674fb4507f0bf2efff6b137945884aca"
+    },
+    {
+      "original": "data/free_rotation_2026-09-07/long_final/events.json",
+      "reproduction": "tmp/long-trend-repro-2026-09-07/events.json",
+      "sha256": "306a8ff723b2eaed0fc147d5caef4c9360e25199476d3b2890a49b192b8025eb"
+    },
+    {
+      "original": "data/free_rotation_2026-09-07/long_final/summary.json",
+      "reproduction": "tmp/long-trend-repro-2026-09-07/summary.json",
+      "sha256": "6d52e2c78c7e3b4b641ceebb4e862f88804e1c37a2468fb635416ae4e05e3b03"
+    }
+  ]
+}

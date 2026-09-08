@@ -1,0 +1,15 @@
+{
+  "decision": "SHARED_STRATEGY_GENERALIZATION_NOT_CONFIRMED",
+  "live_enabled": false,
+  "mypy_sources": 70,
+  "next_hypothesis": "slower trend with past-volatility position weights and fixed gross cap, no removal of losing assets",
+  "original_native_control": "passive_0.5 positive in 2026, fails 2025 transfer",
+  "prior_transfer_passes": [],
+  "promotion_authorized": false,
+  "recent_native_candidate_promotion_suspended": true,
+  "research_active": true,
+  "ruff_files": 288,
+  "target_10_percent_demonstrated": false,
+  "tests_passed": 298,
+  "total_exact_artifacts": 98
+}

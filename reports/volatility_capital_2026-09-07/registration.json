@@ -1,0 +1,25 @@
+{
+  "before_first_capital_diagnostic_pnl": true,
+  "code_version": "source-sha256:aed540548c4825d3751d25fcb735f0bc62c9e1ddf1e553b54ace407cd580586a",
+  "inputs": {
+    "data/volatility_long_2024_2026-09-07/native_2026_v2_run1/quality.json": "7b39b85327d259aa72536f0238cff278b406ef9b4e70d691800b86a54dc496ce",
+    "data/volatility_long_2024_2026-09-07/native_2026_v2_run1/selections.json": "92ef2d43a132d66d30844eea636ed5c684c5692a69f665188cc3adb11f6af207",
+    "data/volatility_long_2024_2026-09-07/october_api_audit/manifest.json": "5f18bea55d93f4c7ff6bc4968fdf19bb0f4be54a8bafbb05a57db6419a2f9482",
+    "data/volatility_long_2024_2026-09-07/transfer_2024_v2_run1/quality.json": "0064b4a4cad137faff10c7943d8291d7e3e7d119953405bf54d58b40e1ed9042",
+    "data/volatility_long_2024_2026-09-07/transfer_2024_v2_run1/selections.json": "f06f0f48469e516d99f700501ea00bc22bdf05b7dea9fd126e4a112d5eba21ff",
+    "data/volatility_long_2024_2026-09-07/transfer_2025_v2_run1/quality.json": "48737956e602bd0570b0ceffb83b98ba54b2cbcbc08f46fc36cb76cdc332ea73",
+    "data/volatility_long_2024_2026-09-07/transfer_2025_v2_run1/selections.json": "480b1ae53f68eb98079b9fd5b66882da55f0c131c992631f79f99096db59489a",
+    "data/wide_funding_2026-09-07/meta.json": "f625341e088befcb028d74329d350fd804f59a582e652b32b285452c5ba00928",
+    "reports/prior_transfer_2026-09-07/qualification.json": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+    "reports/volatility_long_2024_2026-09-07/qualification.json": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671",
+    "reports/volatility_long_2024_2026-09-07/review_v2.json": "4a84c7206bd01abc42ec30f68d8866a4432d87fdc9eae5441163ee96bafadbcb"
+  },
+  "live_enabled": false,
+  "planned_simulations": 240,
+  "previous_statistical_gate_failed": true,
+  "prior_event_pnl_known": true,
+  "promotion_authorized": false,
+  "protocol_sha256": "f633002b02ffefba7ce70e3dc91ba50cfb1f8c4130d21c36b33b04cb32f5599f",
+  "registered_at_utc": "2026-09-07T18:26:33.380470+00:00",
+  "script_sha256": "c8f5558783c573e18fae0ef0c788000fd9f0457f3734c14a7c4c806c6a80fed9"
+}

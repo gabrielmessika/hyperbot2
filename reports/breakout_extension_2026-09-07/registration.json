@@ -1,0 +1,13 @@
+{
+  "code_version": "source-sha256:ffaf2e168b751f138206b804ff107fec4ce70d9cc4a455c236d018f57ca2be0e",
+  "data_cost_usd": 0,
+  "drawdown_limits": [
+    "0.2",
+    "0.3"
+  ],
+  "live_enabled": false,
+  "protocol_sha256": "aa4e05c4534541cda27afac4a7015f43360288d305042adc412d56bda87934a5",
+  "registered_ms": 1788795040689,
+  "script_sha256": "740fc58361305d61b3bc78474b7fed8c17cd56f9ad01f722c991711dface6965",
+  "universe_sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102"
+}

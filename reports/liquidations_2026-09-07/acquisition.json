@@ -1,0 +1,46 @@
+{
+  "acquisition_wait_ms": 9266,
+  "bytes": 1698943,
+  "first_request_ms": 1788771377681,
+  "last_response_ms": 1788771863366,
+  "manifests": [
+    {
+      "bytes": 69044,
+      "path": "data/liquidations_2026-09-07/access/manifest.json",
+      "requests": 8,
+      "sha256": "763f34581bf8a6bf570539e06702c37550f5cc53cd4d42c688f6c4ecc426a70a"
+    },
+    {
+      "bytes": 415767,
+      "path": "data/liquidations_2026-09-07/event_raw/manifest.json",
+      "requests": 1,
+      "sha256": "bc17f865d3b25a393e6cf38082e9d88e1606f0bb2644b11bc7b4b881aaa1521b"
+    },
+    {
+      "bytes": 650519,
+      "path": "data/liquidations_2026-09-07/event_raw_continued/manifest.json",
+      "requests": 2,
+      "sha256": "713ccdd886b89f8eb72277cbb26a6f8171ce68f2b1b19f3bff09d108d0f33e8e"
+    },
+    {
+      "bytes": 448,
+      "path": "data/liquidations_2026-09-07/history/manifest.json",
+      "requests": 1,
+      "sha256": "c88daaa6ba8a4b1288bd621a6c9f87f70ce2117e712c21cde96076026bf203a3"
+    },
+    {
+      "bytes": 563165,
+      "path": "data/liquidations_2026-09-07/pilot/manifest.json",
+      "requests": 4,
+      "sha256": "d88be5135c8c3ff099461be9e9f2fa5f2ee36ab158f2f55b05eefadfc881f473"
+    }
+  ],
+  "promotion_authorized": false,
+  "request_count": 16,
+  "run_id": "liquidation-access-2026-09-07",
+  "secret_file_committed": false,
+  "status_counts": {
+    "200": 15,
+    "403": 1
+  }
+}

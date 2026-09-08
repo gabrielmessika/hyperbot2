@@ -1,0 +1,9 @@
+{
+  "decision": "FUNDING_CLOCK_HYPOTHESIS_NOT_CONFIRMED",
+  "live_enabled": false,
+  "native_replication_justified": false,
+  "next_family": "past-only conditional return model with chronological training/testing and fixed costs",
+  "portfolio_test_justified": false,
+  "promotion_authorized": false,
+  "research_active": true
+}

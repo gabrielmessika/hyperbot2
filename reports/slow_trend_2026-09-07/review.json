@@ -1,0 +1,9 @@
+{
+  "cross_period_passes": [],
+  "decision": "SLOW_TREND_CROSS_PERIOD_SCREEN_FAILED",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "research_active": true,
+  "target_10_percent_demonstrated": false,
+  "terminal_residual_cases": 5
+}

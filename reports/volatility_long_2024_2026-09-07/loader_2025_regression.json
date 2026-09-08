@@ -1,0 +1,7 @@
+{
+  "coins": 15,
+  "coverage_and_checksums_revalidated": true,
+  "full_quality_match": true,
+  "hours_per_coin": 8760,
+  "reference_sha256": "f2f40b8189922674d915098cecc65c17998f007bc253037d827f428bb3c77fe4"
+}

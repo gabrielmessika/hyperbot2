@@ -1,0 +1,10 @@
+{
+  "clarification": "Gap reduction measured from entry open, not signal close; this prevents crediting a pre-entry move.",
+  "files": {
+    "scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "scripts/investigate_pairs.py": "a8154a0b7843d36c172bf726942611e8b4c36a9eb893d820127a80b87d801c61",
+    "src/hyperbot2/research/pairs.py": "3fefc22c10190957c1f8df44f80ca97cdefc78108f99bbcbb98c830638bfcd57"
+  },
+  "independent_holdout": false,
+  "locked_ms": 1788770802324
+}

@@ -1,0 +1,31 @@
+{
+  "artifacts": [
+    {
+      "left": "data/korea_opening_2026-09-07/run1/decisions.json",
+      "matched": true,
+      "right": "data/korea_opening_2026-09-07/reproduced/decisions.json",
+      "sha256": "39330042296d601a0e567fa06b91438aef650f1f170d2c79046c540c26bb688d"
+    },
+    {
+      "left": "data/korea_opening_2026-09-07/run1/events.json",
+      "matched": true,
+      "right": "data/korea_opening_2026-09-07/reproduced/events.json",
+      "sha256": "b7dba110e1870c97728141fd97b8dd42b3385b4ca164396eda553a6247bcda98"
+    },
+    {
+      "left": "data/korea_opening_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/korea_opening_2026-09-07/reproduced/quality.json",
+      "sha256": "0b05931b0fad08ed9b840e67d7376942f20d5f4eed8c3697c8ff34a24812d51f"
+    },
+    {
+      "left": "data/korea_opening_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/korea_opening_2026-09-07/reproduced/summary.json",
+      "sha256": "baa288e98e93033723a59bbaf44527b70c0fc43570a3ee5a03a89004b44b1657"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "66 sources passed",
+  "ruff": "check and format passed, 251 files"
+}

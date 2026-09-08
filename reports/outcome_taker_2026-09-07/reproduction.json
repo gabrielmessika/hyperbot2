@@ -1,0 +1,33 @@
+{
+  "artifacts": [
+    {
+      "left": "data/outcome_taker_2026-09-07/extract/books.json",
+      "matched": true,
+      "right": "data/outcome_taker_2026-09-07/extract_verified/books.json",
+      "sha256": "f544c6587797bcf75f3515bc9d01caa635cc9ba2bcadc7233febde5ed704fa84"
+    },
+    {
+      "left": "data/outcome_taker_2026-09-07/extract/markets.json",
+      "matched": true,
+      "right": "data/outcome_taker_2026-09-07/extract_verified/markets.json",
+      "sha256": "3aad713730f0b38f1fc76b0051d6de42fc9b34b1f714e11698c952eb1625fd65"
+    },
+    {
+      "left": "data/outcome_taker_2026-09-07/final/events.json",
+      "matched": true,
+      "right": "data/outcome_taker_2026-09-07/reproduction/events.json",
+      "sha256": "4ee7d4ef0034889c6ef06aa596cc34e48abeb3028cad9df1c0ec70ecfc5778b1"
+    },
+    {
+      "left": "data/outcome_taker_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/outcome_taker_2026-09-07/reproduction/summary.json",
+      "sha256": "aca1a30f87f76a74d4eb82458a52abc1e369d82a4c97df7fa5ea27418cea270d"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "54 source files passed",
+  "pytest": "216 passed",
+  "ruff_check": "passed",
+  "ruff_format": "166 files already formatted"
+}

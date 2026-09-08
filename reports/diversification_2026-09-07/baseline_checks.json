@@ -1,0 +1,52 @@
+[
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-0.json",
+    "sha256": "0f5704bc5834d8a4050a59e2555e9d016d9d9e77c9c0c79fc3520944384a7503"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-base-infra-20.json",
+    "sha256": "b572822d263f358971a04aa95f9d7ec6467210d9c824e41c8b504da37769db00"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-0.json",
+    "sha256": "07d086d6ccc122cc22a9fcadb81817e048350a1bd57fde129eb5b3c292795508"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-cost_stress-infra-20.json",
+    "sha256": "087ca3c2de66da599cafe54f559d706ecdb3bf30e5725018e20719c798be077b"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-delay-infra-0.json",
+    "sha256": "4a27d22c9eeb6b2f42a4e1c481bc5dc592916a01763225e2c86a590163464a30"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-delay-infra-20.json",
+    "sha256": "1abd8d1135ab0e94cac255afebcf33ced43b73c087212ce6b2dcf6c4440ecea0"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-funding_adverse-infra-0.json",
+    "sha256": "578070729683012a3f7e80e87f3304ea194664f2bccd08521b215662bad0260f"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-funding_adverse-infra-20.json",
+    "sha256": "40ad8c3952a10a810fa0960f521042a4db1321418774adad309b38afd6f610b8"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-zero_cost-infra-0.json",
+    "sha256": "29cf43dbb03bbf73458a8590c39259517f89259b98460a093fca526a6e5d2d7d"
+  },
+  {
+    "economic_match": true,
+    "path": "data/breakout_extension_2026-09-07/dd30_run1/continuous-zero_cost-infra-20.json",
+    "sha256": "82bbc349c053c9defacaf59e9a0ddd7445e2f7a6cde8d3d66e846ae967da1e02"
+  }
+]

@@ -1,0 +1,52 @@
+{
+  "book_universe_markets": 115,
+  "feature_csvs": {
+    "hip4_outcome_mainnet": {
+      "dates": 41,
+      "log_minus_implied_loop_ms": {
+        "maximum": 27943,
+        "median": 22824,
+        "minimum": 4239,
+        "p95": 25359
+      },
+      "logged_at_or_after_expiry": 10,
+      "markets": 110,
+      "native_reference_exchange_timestamps_in_csv": false,
+      "rows": 1563
+    },
+    "hip4_outcome_mainnet_paper": {
+      "dates": 41,
+      "log_minus_implied_loop_ms": {
+        "maximum": 27615,
+        "median": 23029,
+        "minimum": 3974,
+        "p95": 25501
+      },
+      "logged_at_or_after_expiry": 13,
+      "markets": 110,
+      "native_reference_exchange_timestamps_in_csv": false,
+      "rows": 1490
+    }
+  },
+  "interpretation": "use logged availability time, never loop-start seconds_left; no legacy probability used",
+  "live_enabled": false,
+  "markets_with_predecision_reference_record": 42,
+  "quote_timestamp_status": {
+    "binance:exchange_timestamp_missing": 31,
+    "bybit:exchange_timestamp_missing": 42,
+    "coinbase:age_le_60s": 41,
+    "coinbase:stale_or_future": 1,
+    "hyperliquid:exchange_timestamp_missing": 42,
+    "kraken:exchange_timestamp_missing": 42,
+    "okx:age_le_60s": 42
+  },
+  "run_id": "expiry-reference-quality-20260907-v1",
+  "script_sha256": "9c41328688a714a406359a18102a552655e8f015e2d8bce6bf16fdff8eb56388",
+  "selection_limitation": "decision log only records legacy detected opportunities; missing references are not a random sample",
+  "sources": {
+    "/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet/decisions.jsonl": "9e4ab76cfcea7bf70ed5c4228b3b28490c260f5beea356b66611d97f78a4ae00",
+    "/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet/short_expiry_features.csv": "321956e0de296b1ba144d630a77a660e99d9f82dcf2d1aff8eecdb20fa7b3f43",
+    "/workspaces/trident/server-data/hip4/logs/hip4_outcome_mainnet_paper/short_expiry_features.csv": "da98cb90f8ea4a6d6f47c8108accb4a4c1e7f977421db4f5e10233907e2b56fd",
+    "data/outcome_taker_2026-09-07/extract_verified/markets.json": "3aad713730f0b38f1fc76b0051d6de42fc9b34b1f714e11698c952eb1625fd65"
+  }
+}

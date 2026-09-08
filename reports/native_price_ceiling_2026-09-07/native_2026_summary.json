@@ -1,0 +1,127 @@
+{
+  "baskets": 23,
+  "code_version": "source-sha256:9297ae2463df6c3732d8a89fd20bcd57e990c62de3ecd68958ec80f1ed31698f",
+  "coins": [
+    "ARB",
+    "BNB",
+    "DOGE",
+    "INJ",
+    "LINK",
+    "NEAR",
+    "UNI",
+    "WLD",
+    "XRP"
+  ],
+  "criteria": {
+    "positive_central_lower_bound": false,
+    "positive_price_ceilings": true,
+    "twenty_baskets": true
+  },
+  "end_ms_exclusive": 1788652800000,
+  "funding_included": false,
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "panel": "native_2026",
+  "portfolio_simulated": false,
+  "price_ledger_checks": 621,
+  "promotion_authorized": false,
+  "protocol_sha256": "4cf68c0e30aef515922da4008aca854f6082f697a42c1db3861e88261474d941",
+  "results": {
+    "all_assets_control": {
+      "central_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -179.67926571901532,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 510.20454820390506
+        },
+        "mean_net_bps": "129.1236210588453298882739673",
+        "positive_baskets": 12,
+        "worst_basket_bps": "-978.760416822761232913328468"
+      },
+      "cost_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -194.4928974634971,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 494.66670908753173
+        },
+        "mean_net_bps": "113.9858226611495571753807124",
+        "positive_baskets": 12,
+        "worst_basket_bps": "-992.7352109996846699486945122"
+      },
+      "delay_4h_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -161.9787058953003,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 450.556352978637
+        },
+        "mean_net_bps": "119.2491048958878453364052550",
+        "positive_baskets": 10,
+        "worst_basket_bps": "-1123.857271021914190485473788"
+      }
+    },
+    "volatility_extremes": {
+      "central_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -170.09439471508017,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 502.79990729582875
+        },
+        "mean_net_bps": "130.9397473841910360489946761",
+        "positive_baskets": 11,
+        "worst_basket_bps": "-1172.438157513278735840841142"
+      },
+      "cost_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -184.91808820343763,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 487.26984122097866
+        },
+        "mean_net_bps": "115.8000425030460825983712966",
+        "positive_baskets": 11,
+        "worst_basket_bps": "-1186.209637965849378464322678"
+      },
+      "delay_4h_ceiling": {
+        "mean_bootstrap": {
+          "block_days": 7,
+          "lower_95": -165.82169572596635,
+          "replicates": 5000,
+          "seed": 20260907,
+          "upper_95": 463.7751734862555
+        },
+        "mean_net_bps": "123.1248010790828158742479513",
+        "positive_baskets": 11,
+        "worst_basket_bps": "-1260.886276363203035334013331"
+      }
+    }
+  },
+  "run_id": "native-price-ceiling-20260907-v1-native_2026",
+  "scenario_config": {
+    "central_ceiling": [
+      "0.00045",
+      "0.0002",
+      0
+    ],
+    "cost_ceiling": [
+      "0.0009",
+      "0.0005",
+      0
+    ],
+    "delay_4h_ceiling": [
+      "0.00045",
+      "0.0002",
+      1
+    ]
+  },
+  "script_sha256": "8d2815b66df4a6b85c9c967a56298677a8516c724d564f62cbdf277f3aa59eff",
+  "start_ms": 1771027200000
+}

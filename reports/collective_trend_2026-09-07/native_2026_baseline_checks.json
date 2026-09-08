@@ -1,0 +1,202 @@
+[
+  {
+    "full_match": true,
+    "sha256": "9e52392781a12af2d7d461dff941ce0504467682d620990ef7a819424d191551",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-base-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "baefb3f39b3d3d04f285005f361c3b01cee20c1f89ac6bd00ea6aba982c94ebb",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-base-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "e9aad7672b72b28b36bad9fa38562caefa81f6ca2e3b14176d36f14eae101f6a",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "fc395ee35d534cb4e2fcbd77e1800c256642ea76088142f1e2a828c221a51c8b",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "3675303664afbe4e729a850cf055ec466bcc37fb0052327b472c7ee89b0e723d",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-delay-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "4520cdd5c0f31fd9f77c9416e0031df791c4876c2f3b9c467c3233e3177e9d53",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-delay-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "e3c96290d78ed417af964c57cfd6344c5cc842f56736d4adc4f163766b102bce",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "c776bd0df7e7ff07c8f2e186a3db0e3badf3ba03c28cf1c55a0f9ff73e419ae1",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "274171cb5f96d21be8e7c7755a158c0fd64ae08746bbceffabe8394b85828d2c",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "ad2c9a083402f35a891ab1cc010fa4fc2a702a2d74b7a11c34ad907bccbb45f4",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "15f80a601de473f28b3fd48809349e8e52a929179891ad5f394840114f8836cf",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-base-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "cf361f2f8a0d19254b97a83cdc214aceeee99f9b76b050dcc4dcdcc34474260c",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-base-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "6dd43e13d0144f8529d151efd79309b149b8847c2780d065731c1fff68f8deba",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "4d7de7d1d7d92a04fbb1dfb9d0b635bdb20c51960c36198349ebbadf7fcd5bc9",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "2386d12e1a8a27dc4ff30973ad5f15e5e9f60d1ab0560f50d87610ad4017608d",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-delay-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "fd8a355426c3c352f9603b6ae0b4aeb3a63c005c2d9c9f3c57c4c7f0ff753266",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-delay-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "218a328585c0759d8f0e10f28bea37b0fcc506bf4fc140f7a6d92dbe15c4ca37",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "dcb8087fb1aeed5427850c774771a7e20318503af5606fe9edc0e15271c33cd4",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "60a01d7cd78fde5c97b78c6d9aef8305e7a82540b1d292f8e357ea17ac379221",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "e328de1e1d32b04afdb00e566f81e7d9abefa81438f69400343ed9dd86eeb5a4",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "8f86c35220fca5e7d5c8fb8dc48b59cf445f6f5c06ef3507bbc3740a2e218db8",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-base-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "cdda23e040e36bc6bd3de5fb3e35c10ddbf19371f6bed4ad01f68250ba35dc67",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-base-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "a425615d8082abb4d413ed309830086abb050d57442d229af006158351632b23",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "670443c6363c3d98313a82eeae26f85a6afa38f2312156b3c275448afb4c449e",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "1c8b26fd09dd2f9a35f702e7355a3870f1d7e66da9693da6429c28f56fe56dcf",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-delay-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "9d77a3fcf15f073acbe17f2b75135ee8289d9996bf7db45a1cf5fb93b64bf839",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-delay-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "6af55d7367aa390783a3d95db34e0ff3985a3111543ea2167372e297394deb5b",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "c7585807caa9b2afce06bfa6354544c662192b98ef44abe390afd48e5cd486aa",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "5c1bb189f7260577961be2c3e386ccb96fcc486637b3bba6db373319a0061be6",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "d5f0b125a3aed56a3dc6472f3e2662ef8805739a846d53ccd5672224ef091167",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "e9c4447e574ed088f454d143cc105c73a2c7d312feb5d4b29d67b99f83e25bbb",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-base-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "3b097fe31ae46531a41b60caa85a3926396b5d17e818b760de76d4c2667382d9",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-base-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "62707717aff2b3bdd9c4327ae1c3b6a196515decb89b438077bc3e941c69f01e",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "761789a6b55304df1df48b278b7ed9d709d08eb65ccb45aeae051bc617e9f130",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "e2b2cad5d65e9cb1aec490986a5daa1d1951c4f61647933e799189a039bbdd86",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-delay-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "543b196fa775a3d03890dd42e8b386fa853a08b20b0bad7bf898cc13cad3bd19",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-delay-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "b161667721348403583159687f206d00beb91c3ca58927f846ef16590e718f69",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "fd1671ffd03fc94bbee60372e7539c281c5961efb2df6d0b7f4d04c2c76a7de3",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-20.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "3d98c9a1e16d9874eae348d3dc0204cddfcea86c3ae74a9f51ca8a647614ccfa",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-0.json"
+  },
+  {
+    "full_match": true,
+    "sha256": "1af19383d00260db920d04b3c1a6a6e64b9faeb59598a65200745e5b1853bcd1",
+    "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-20.json"
+  }
+]

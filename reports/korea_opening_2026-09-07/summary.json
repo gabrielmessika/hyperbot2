@@ -1,0 +1,248 @@
+{
+  "code_version": "source-sha256:7fcf0ccd584c9f516643e92e69d13079e5f46e2b8cb447e3ce32d6328ae5072b",
+  "decision": "HYPOTHESIS_NOT_CONFIRMED",
+  "exclusions": {
+    "calendar": 82,
+    "model_or_threshold": 74,
+    "warmup_or_degenerate": 20
+  },
+  "live_enabled": false,
+  "new_network_calls": 0,
+  "older": {
+    "base": {
+      "constant_1000_gross_notional_proxy_usd": "42.61238191940267696964855239",
+      "events": 3,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "142.0412730646755898988285080",
+      "monthly_proxy_after_20_infra_usd": "-10.01272298763999758523862053",
+      "monthly_proxy_before_infra_usd": "9.987277012360002414761379469",
+      "months_proxy_usd": {
+        "2026-04": "1.774738705655281185437119027",
+        "2026-05": "40.83764321374739578421143337"
+      },
+      "profit_factor": "8.367990724674966197912161067",
+      "without_best_proxy_usd": "-4.00870803196021610496537747",
+      "worst_event_proxy_usd": "-5.783446737615497290402496494"
+    },
+    "cost_stress": {
+      "constant_1000_gross_notional_proxy_usd": "35.85158926408038886617590549",
+      "events": 3,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "119.5052975469346295539196850",
+      "monthly_proxy_after_20_infra_usd": "-11.59728376623115885949002215",
+      "monthly_proxy_before_infra_usd": "8.402716233768841140509977852",
+      "months_proxy_usd": {
+        "2026-04": "-0.456946961044679967701734541",
+        "2026-05": "36.30853622512506883387764003"
+      },
+      "profit_factor": "5.231904891703419264948367515",
+      "without_best_proxy_usd": "-8.47173794816770261528086617",
+      "worst_event_proxy_usd": "-8.014790987123022647579131632"
+    },
+    "delay": {
+      "constant_1000_gross_notional_proxy_usd": "12.57352554672240258719718571",
+      "events": 3,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "41.91175182240800862399061903",
+      "monthly_proxy_after_20_infra_usd": "-17.05307994998693689362565960",
+      "monthly_proxy_before_infra_usd": "2.946920050013063106374340401",
+      "months_proxy_usd": {
+        "2026-04": "4.854917511464961950699940432",
+        "2026-05": "7.718608035257440636497245277"
+      },
+      "profit_factor": "2.260649104446842345204792434",
+      "without_best_proxy_usd": "-5.11893286638424476530097859",
+      "worst_event_proxy_usd": "-9.973850377849206716000919023"
+    },
+    "funding_adverse": {
+      "constant_1000_gross_notional_proxy_usd": "40.63195493134198790305370774",
+      "events": 3,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "135.4398497711399596768456925",
+      "monthly_proxy_after_20_infra_usd": "-10.47688556296672158522178725",
+      "monthly_proxy_before_infra_usd": "9.52311443703327841477821275",
+      "months_proxy_usd": {
+        "2026-04": "1.641229883485826303372162325",
+        "2026-05": "38.99072504785616159968154541"
+      },
+      "profit_factor": "6.685359291090604605646057079",
+      "without_best_proxy_usd": "-5.50554006560347525967541748",
+      "worst_event_proxy_usd": "-7.146769949089301563047579808"
+    },
+    "zero_cost": {
+      "constant_1000_gross_notional_proxy_usd": "43.59228626121521556962098482",
+      "events": 3,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "145.3076208707173852320699494",
+      "monthly_proxy_after_20_infra_usd": "-9.78305790752768385087008168",
+      "monthly_proxy_before_infra_usd": "10.21694209247231614912991832",
+      "months_proxy_usd": {
+        "2026-04": "2.44020554355351980046318059",
+        "2026-05": "41.15208071766169576915780423"
+      },
+      "profit_factor": "8.443710409181797686587323728",
+      "without_best_proxy_usd": "-3.41605213775609191405397035",
+      "worst_event_proxy_usd": "-5.856257681309611714517150941"
+    }
+  },
+  "portfolio_drawdown_qualified": false,
+  "promotion_authorized": false,
+  "protocol_sha256": "a0e289a3d950a6581a3adca2ed422d6d70a4717c808b74d859854aa51d2fe1e9",
+  "recent": {
+    "base": {
+      "constant_1000_gross_notional_proxy_usd": "-33.97954486631021296177653687",
+      "events": 1,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-339.7954486631021296177653687",
+      "monthly_proxy_after_20_infra_usd": "-39.60358357671743055487107896",
+      "monthly_proxy_before_infra_usd": "-19.60358357671743055487107896",
+      "months_proxy_usd": {
+        "2026-07": "-33.97954486631021296177653687"
+      },
+      "profit_factor": "0E+25",
+      "without_best_proxy_usd": "0E-25",
+      "worst_event_proxy_usd": "-33.97954486631021296177653687"
+    },
+    "cost_stress": {
+      "constant_1000_gross_notional_proxy_usd": "-36.26784553410137222763064878",
+      "events": 1,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-362.6784553410137222763064878",
+      "monthly_proxy_after_20_infra_usd": "-40.92375703890463782363306660",
+      "monthly_proxy_before_infra_usd": "-20.92375703890463782363306660",
+      "months_proxy_usd": {
+        "2026-07": "-36.26784553410137222763064878"
+      },
+      "profit_factor": "0E+25",
+      "without_best_proxy_usd": "0E-25",
+      "worst_event_proxy_usd": "-36.26784553410137222763064878"
+    },
+    "delay": {
+      "constant_1000_gross_notional_proxy_usd": "-15.21114999739828502152521202",
+      "events": 1,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-152.1114999739828502152521202",
+      "monthly_proxy_after_20_infra_usd": "-28.77566346003747212780300694",
+      "monthly_proxy_before_infra_usd": "-8.775663460037472127803006935",
+      "months_proxy_usd": {
+        "2026-07": "-15.21114999739828502152521202"
+      },
+      "profit_factor": "0E+25",
+      "without_best_proxy_usd": "0E-25",
+      "worst_event_proxy_usd": "-15.21114999739828502152521202"
+    },
+    "funding_adverse": {
+      "constant_1000_gross_notional_proxy_usd": "-34.43945758422379236894510465",
+      "events": 1,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-344.3945758422379236894510465",
+      "monthly_proxy_after_20_infra_usd": "-39.86891783705218790516063731",
+      "monthly_proxy_before_infra_usd": "-19.86891783705218790516063731",
+      "months_proxy_usd": {
+        "2026-07": "-34.43945758422379236894510465"
+      },
+      "profit_factor": "0E+25",
+      "without_best_proxy_usd": "0E-25",
+      "worst_event_proxy_usd": "-34.43945758422379236894510465"
+    },
+    "zero_cost": {
+      "constant_1000_gross_notional_proxy_usd": "-33.59479061246409925914760855",
+      "events": 1,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-335.9479061246409925914760855",
+      "monthly_proxy_after_20_infra_usd": "-39.38160996872928803412362031",
+      "monthly_proxy_before_infra_usd": "-19.38160996872928803412362031",
+      "months_proxy_usd": {
+        "2026-07": "-33.59479061246409925914760855"
+      },
+      "profit_factor": "0E+25",
+      "without_best_proxy_usd": "0E-25",
+      "worst_event_proxy_usd": "-33.59479061246409925914760855"
+    }
+  },
+  "run_id": "korea-opening-20260907-v1",
+  "scenarios": {
+    "base": {
+      "constant_1000_gross_notional_proxy_usd": "8.63283705309246400787201552",
+      "events": 4,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "21.5820926327311600196800388",
+      "monthly_proxy_after_20_infra_usd": "-18.56119382448458933202133075",
+      "monthly_proxy_before_infra_usd": "1.438806175515410667978669253",
+      "months_proxy_usd": {
+        "2026-04": "1.774738705655281185437119027",
+        "2026-05": "40.83764321374739578421143337",
+        "2026-07": "-33.97954486631021296177653687"
+      },
+      "profit_factor": "1.217107332845654488569632269",
+      "without_best_proxy_usd": "-37.98825289827042906674191434",
+      "worst_event_proxy_usd": "-33.97954486631021296177653687"
+    },
+    "cost_stress": {
+      "constant_1000_gross_notional_proxy_usd": "-0.41625627002098336145474329",
+      "events": 4,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-1.040640675052458403636858225",
+      "monthly_proxy_after_20_infra_usd": "-20.06937604500349722690912388",
+      "monthly_proxy_before_infra_usd": "-0.06937604500349722690912388167",
+      "months_proxy_usd": {
+        "2026-04": "-0.456946961044679967701734541",
+        "2026-05": "36.30853622512506883387764003",
+        "2026-07": "-36.26784553410137222763064878"
+      },
+      "profit_factor": "0.9906960182097816899381725741",
+      "without_best_proxy_usd": "-44.73958348226907484291151495",
+      "worst_event_proxy_usd": "-36.26784553410137222763064878"
+    },
+    "delay": {
+      "constant_1000_gross_notional_proxy_usd": "-2.63762445067588243432802631",
+      "events": 4,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "-6.594061126689706085820065775",
+      "monthly_proxy_after_20_infra_usd": "-20.43960407511264707238800438",
+      "monthly_proxy_before_infra_usd": "-0.439604075112647072388004385",
+      "months_proxy_usd": {
+        "2026-04": "4.854917511464961950699940432",
+        "2026-05": "7.718608035257440636497245277",
+        "2026-07": "-15.21114999739828502152521202"
+      },
+      "profit_factor": "0.8952700253573070422901417731",
+      "without_best_proxy_usd": "-20.33008286378252978682619061",
+      "worst_event_proxy_usd": "-15.21114999739828502152521202"
+    },
+    "funding_adverse": {
+      "constant_1000_gross_notional_proxy_usd": "6.19249734711819553410860309",
+      "events": 4,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "15.48124336779548883527150772",
+      "monthly_proxy_after_20_infra_usd": "-18.96791710881363407764856615",
+      "monthly_proxy_before_infra_usd": "1.032082891186365922351433848",
+      "months_proxy_usd": {
+        "2026-04": "1.641229883485826303372162325",
+        "2026-05": "38.99072504785616159968154541",
+        "2026-07": "-34.43945758422379236894510465"
+      },
+      "profit_factor": "1.148907407919067173547568531",
+      "without_best_proxy_usd": "-39.94499764982726762862052213",
+      "worst_event_proxy_usd": "-34.43945758422379236894510465"
+    },
+    "zero_cost": {
+      "constant_1000_gross_notional_proxy_usd": "9.99749564875111631047337627",
+      "events": 4,
+      "execution_data_exclusions": 0,
+      "mean_net_bps": "24.99373912187779077618344068",
+      "monthly_proxy_after_20_infra_usd": "-18.33375072520814728158777062",
+      "monthly_proxy_before_infra_usd": "1.666249274791852718412229378",
+      "months_proxy_usd": {
+        "2026-04": "2.44020554355351980046318059",
+        "2026-05": "41.15208071766169576915780423",
+        "2026-07": "-33.59479061246409925914760855"
+      },
+      "profit_factor": "1.253415209002924078075632122",
+      "without_best_proxy_usd": "-37.0108427502201911732015789",
+      "worst_event_proxy_usd": "-33.59479061246409925914760855"
+    }
+  },
+  "script_sha256": "48653df2696ad577563c4a0d89ecb3694a680f73fadb692ca4c3255747bdd8e9",
+  "signals": 4
+}

@@ -1,0 +1,46 @@
+{
+  "limits": [
+    "overlapping 14-day blocks from a selected strategy and sizing",
+    "not corrected for the family of previous strategy searches",
+    "neither a predictive interval nor a proof of expected future profit",
+    "bootstrap returns do not rerun drawdown, allocations or execution",
+    "best-cycle subtraction does not rerun the portfolio"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "377.3388998678118268",
+      "best_cycle_usd": "161.3765659993035224",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.022728384190326332,
+        0.16111641675270388
+      ],
+      "distinct_entry_days": 193,
+      "draws": 10000,
+      "input": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-0.json",
+      "observed_monthly_compound": "0.065425978823702350127958346"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "104.5177882332310846",
+      "best_cycle_usd": "132.0188110974631760",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.054070952521149955,
+        0.12289493141150289
+      ],
+      "distinct_entry_days": 193,
+      "draws": 10000,
+      "input": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-0.json",
+      "observed_monthly_compound": "0.031715248370439729061803596"
+    }
+  ],
+  "script_sha256": "7d48cee8c101a4952e1e1842b2ac380b2f81e2db2a72c82bfb60ed1dca432f28",
+  "sources": {
+    "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-0.json": "0d1294a621284dc74988885ca3cd5bd07e13469f33fbd4516072b41b979eae0e",
+    "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-0.json": "e233b5c18176ea5847be7e00337c5cb974dc46e691062f7fa5bd63bc5b6c5397"
+  }
+}

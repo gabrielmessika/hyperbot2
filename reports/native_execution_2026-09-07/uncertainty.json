@@ -1,0 +1,46 @@
+{
+  "limits": [
+    "overlapping 14-day blocks from a selected strategy and sizing",
+    "not corrected for the family of previous strategy searches",
+    "neither a predictive interval nor a proof of expected future profit",
+    "bootstrap returns do not rerun drawdown, allocations or execution",
+    "best-cycle subtraction does not rerun the portfolio"
+  ],
+  "post_selection_descriptive": true,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "accounting_net_without_best_cycle_usd": "283.9038363907848635000000029",
+      "best_cycle_usd": "254.3582992341494549000000001",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.022730180836800083,
+        0.16118100322226464
+      ],
+      "distinct_entry_days": 192,
+      "draws": 10000,
+      "input": "data/native_execution_2026-09-07/run1/native-dd-0.3-base-infra-0.json",
+      "observed_monthly_compound": "0.065379812497456165067315824"
+    },
+    {
+      "accounting_net_without_best_cycle_usd": "0.3121920726167632000000042",
+      "best_cycle_usd": "206.1803325722898543999999998",
+      "block_days": 14,
+      "days": 204,
+      "descriptive_monthly_95_interval": [
+        -0.055812946739382405,
+        0.1178787749734586
+      ],
+      "distinct_entry_days": 192,
+      "draws": 10000,
+      "input": "data/native_execution_2026-09-07/run1/native-dd-0.3-cost_stress-infra-0.json",
+      "observed_monthly_compound": "0.027990063874424574195184907"
+    }
+  ],
+  "script_sha256": "7d48cee8c101a4952e1e1842b2ac380b2f81e2db2a72c82bfb60ed1dca432f28",
+  "sources": {
+    "data/native_execution_2026-09-07/run1/native-dd-0.3-base-infra-0.json": "a592958c635af2d42f9ffdd4d4e99affe13a0bf1cf75827d33f43f2eed6e36f5",
+    "data/native_execution_2026-09-07/run1/native-dd-0.3-cost_stress-infra-0.json": "22c1c3049b0943e08bffe318a1876235ba975962c6bf5889ba3a99f01d64e2c6"
+  }
+}

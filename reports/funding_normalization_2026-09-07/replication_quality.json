@@ -1,0 +1,180 @@
+{
+  "assets": {
+    "ARB": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "BNB": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "CASHCAT": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "DOGE": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "ENA": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "FARTCOIN": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "INJ": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "JUP": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "LINK": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "LIT": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "NEAR": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "PUMP": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "TAO": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "UNI": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "WLD": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "XMR": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "XPL": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "XRP": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    },
+    "ZEC": {
+      "funding_offset_ms_max": 135,
+      "funding_offset_ms_min": 0,
+      "hours": 528,
+      "zero_volume_hours": 0
+    }
+  },
+  "sources": {
+    "data/funding_normalization_2026-09-07/replication_history/manifest.json": "46857a863399b48fa8fd78bd388d6867f10231776d3d8b397303752f9b419e89",
+    "data/funding_normalization_2026-09-07/replication_history/request-000.json": "1b6ac9f4352eb5f91be6f28aa78bc63d857cae3ebe0469188ae2f3b484626c6b",
+    "data/funding_normalization_2026-09-07/replication_history/request-001.json": "bc1ce5624df664697787269f7ac7166aa31dd5a52980807620991be8c67536bd",
+    "data/funding_normalization_2026-09-07/replication_history/request-002.json": "79edc798b10bfc88625ae47033f6cafd97dd3fa9bc945e35631ce40da2a1a543",
+    "data/funding_normalization_2026-09-07/replication_history/request-003.json": "9c45adad1fab305022b04c3503710df3cc0b91e3421d46eaad5f86a5ade3cf62",
+    "data/funding_normalization_2026-09-07/replication_history/request-004.json": "8673c7abf09f1bbbf271c446e0644948e56d7aa0ef1c9f9b0ae25523ec685e7e",
+    "data/funding_normalization_2026-09-07/replication_history/request-005.json": "7ea6de3fb97d4f81f392e30657970be504f7a172624a26f35fa82cf8f12db9be",
+    "data/funding_normalization_2026-09-07/replication_history/request-006.json": "615dd6555e0f1c36d704092fc035986220ef20afd3465683ee02195c461213dd",
+    "data/funding_normalization_2026-09-07/replication_history/request-007.json": "e10a70b54be081dcfcda405c4ce859104f734f0a1e66cda709c30259a689b895",
+    "data/funding_normalization_2026-09-07/replication_history/request-008.json": "ebb3065d48f09c843f680e556041b0479bbb11971dd5d7fac7cc7f7697287427",
+    "data/funding_normalization_2026-09-07/replication_history/request-009.json": "b90e55e54fbc75ce60feb1ed9d5d11c6708b1e70f934ddc49f6a4c98dccefc21",
+    "data/funding_normalization_2026-09-07/replication_history/request-010.json": "50df547508158b57bb6aced59d600095ee762a060975feaf400c72ac012980d3",
+    "data/funding_normalization_2026-09-07/replication_history/request-011.json": "9c7459f3b4f79417493670d7595af3365bdf70c0e7bd5788793ba36203fd275e",
+    "data/funding_normalization_2026-09-07/replication_history/request-012.json": "bfa8c93b47c044524780d6b2a2c23616800b0a674f2aa958db783ba2d9aeceab",
+    "data/funding_normalization_2026-09-07/replication_history/request-013.json": "d66e7bcca057a933e7a94cd5d7c9657fd1602ddb7219b5db5320b7efb4860fc7",
+    "data/funding_normalization_2026-09-07/replication_history/request-014.json": "9c0aca6ddf7e2fed30c7e66a90cfb7824dd9f90f8623a7e4d10c8dc14f2f384d",
+    "data/funding_normalization_2026-09-07/replication_history/request-015.json": "33237b55575595b3b87323febacab6e4270ad52ad85d397e8c91d228dfc1109a",
+    "data/funding_normalization_2026-09-07/replication_history/request-016.json": "b80fd16e4ac47ca595cc69a223ea4f1cee1908d4bb3e4cc594dcbd63f8aa34dc",
+    "data/funding_normalization_2026-09-07/replication_history/request-017.json": "0c829f5b57ae8e00e5dd82ae7a8c76a704985c7e3145bb44c4a9cc636ecf2469",
+    "data/funding_normalization_2026-09-07/replication_history/request-018.json": "73bc1ac22becf5d3385b64d78d5807511a8440ba77183f0fa0a09759e81a9593",
+    "data/funding_normalization_2026-09-07/replication_history/request-019.json": "2196abde66acfd141081082d48940995c775b739d6a348d25f35f3eb46159a3e",
+    "data/funding_normalization_2026-09-07/replication_history/request-020.json": "06a219815606ab24cf925a9e3f6af22a63187d1199b9f17de92102cca79ba573",
+    "data/funding_normalization_2026-09-07/replication_history/request-021.json": "ebd9f8340a345181926b0c6c5938ce784273cc8666e30ddd91879ef148f0e1d4",
+    "data/funding_normalization_2026-09-07/replication_history/request-022.json": "3b3f754bea7f199368f60393788fa700c9c0ba60984531ea9d3cd137c28a9d57",
+    "data/funding_normalization_2026-09-07/replication_history/request-023.json": "335e9cb896a079e73641813bb70583821e3226658906429748b3c5e452f4a5d8",
+    "data/funding_normalization_2026-09-07/replication_history/request-024.json": "62d995aace93608760b7725b64b7b2bd28a94844ee4f36284b342bb438c8c516",
+    "data/funding_normalization_2026-09-07/replication_history/request-025.json": "2f6aef54240145eccb81c8621fb370211dc42a61a6d513f1fb985b63b9d0e45c",
+    "data/funding_normalization_2026-09-07/replication_history/request-026.json": "a8c70034897432ed8ac18a1ab276adb137b041d9c719c3428a03fefcc6264e9b",
+    "data/funding_normalization_2026-09-07/replication_history/request-027.json": "39c90d26490ab37c2b5dcef11bbaa8b12aedb65b8e1e7eaaecb3e47a75a0683f",
+    "data/funding_normalization_2026-09-07/replication_history/request-028.json": "b6764180d375373c70d235e2132fc4254bc12547ccf871d13dc29965de345451",
+    "data/funding_normalization_2026-09-07/replication_history/request-029.json": "f4010b7fa8ce26478a2b5ee64b2c6595c52a4bd8782af7288de74703958581c2",
+    "data/funding_normalization_2026-09-07/replication_history/request-030.json": "5a292325e0e214f488f45113d1cf7299e01338de0b1325207e5bccebc0011555",
+    "data/funding_normalization_2026-09-07/replication_history/request-031.json": "3bd10ced015d4e94945a6bfba4f929f819b5806a32268cd67985ff318ddc3b0c",
+    "data/funding_normalization_2026-09-07/replication_history/request-032.json": "ac13a52a9886742461e68f7de61716a445c41dc8ad2517a1ba7944f46b91769c",
+    "data/funding_normalization_2026-09-07/replication_history/request-033.json": "d15228e82ae1b021ec5cb95d209a4b48a69bd51b0bb696849f733f0f00a74ff0",
+    "data/funding_normalization_2026-09-07/replication_history/request-034.json": "ed74d08a4b12dab6322266ab329c3f3c54c3556db192071d7c5bdd09bbe50a78",
+    "data/funding_normalization_2026-09-07/replication_history/request-035.json": "d45b1f7a9cde7a9e0d5c3303961c048ba50cc92447fa0e345951c9c3689a9eeb",
+    "data/funding_normalization_2026-09-07/replication_history/request-036.json": "7e64f35471a202c0e9e23f51e980e7379483c014ecf6b06980a35f012beec946",
+    "data/funding_normalization_2026-09-07/replication_history/request-037.json": "767b8760ecac704e14049a07111840ab9e62081a805e960e8cfeebe03d74606c",
+    "data/funding_normalization_2026-09-07/replication_history/request-038.json": "0ba4ea359a76b5cc52a5bd4dffb619a1a88c74d26f4598a51f1c70b5d8040833",
+    "data/funding_normalization_2026-09-07/replication_history/request-039.json": "e33479a10211ce39910afe69e308cc8cf56a99a322f74cc85db6e5c2b6b1d3fe",
+    "data/funding_normalization_2026-09-07/replication_history/request-040.json": "6504514d7139da63486c74c47628eb330f08e3068d761271efaeadd49f13d8f3",
+    "data/funding_normalization_2026-09-07/replication_history/request-041.json": "1aced6c1ae477a18a9281b431c9ae3c21b0a0b9b1dd31dae0e29d585810dc609",
+    "data/funding_normalization_2026-09-07/replication_history/request-042.json": "b82c0867844d439710601c7ab2b27aa4b3596eae6d2d56859bb692ec85d3044e",
+    "data/funding_normalization_2026-09-07/replication_history/request-043.json": "e1d7ec05f0281520d2efea0faaeffeee03f5f4da1bc3d4fe629537e9de9cbe28",
+    "data/funding_normalization_2026-09-07/replication_history/request-044.json": "55831c3c8fb6d025ec7f9e37da9403d4b47cca55536362566a0e3d0e8bf92b6a",
+    "data/funding_normalization_2026-09-07/replication_history/request-045.json": "710de81e04da4712d4a29839014993861f63c8990d04d6faf065181d35ce16d7",
+    "data/funding_normalization_2026-09-07/replication_history/request-046.json": "65453b984384cfa26af27a2849464becea2fd66dfd75f6425bed2f7038331e3a",
+    "data/funding_normalization_2026-09-07/replication_history/request-047.json": "0ca9d2ab8683c85328a567018d937398e000790bf37763ef31c48ee67521fff8",
+    "data/funding_normalization_2026-09-07/replication_history/request-048.json": "34eed81f773f5f503ca8513ee638c3e97d336cf031eab7201ce2366e2c6cff89",
+    "data/funding_normalization_2026-09-07/replication_history/request-049.json": "01d3bc56dcee27425a10520e56e55496c6cc835bfe9c5d88eaf1e52bec6e95f1",
+    "data/funding_normalization_2026-09-07/replication_history/request-050.json": "374664532ce0461f74471ab444613fd93e2869c56a8a206945214fd29157c91b",
+    "data/funding_normalization_2026-09-07/replication_history/request-051.json": "b76b91d07f0db7cbb409955d0512c229af69df043e425f888107bac25570a743",
+    "data/funding_normalization_2026-09-07/replication_history/request-052.json": "0f4dc2043f0aaec2a73250d0e883f43b24a5b837f50d8d5c21b15d3f7a318486",
+    "data/funding_normalization_2026-09-07/replication_history/request-053.json": "81542e8c8baf87118cc094f6a19f18d63e01a37825d3961d73679f8a4d7fe213",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-000.json": "451ac635f2a9ef86a62a44c5c09d862cacf993573d48fb100a3db70cea724f2a",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-001.json": "33984aec54258e4e73db4b411ad45dce3cd1c2589bac08dc6d286a04299c22bb",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-002.json": "a2a1934c0c046e10967bc98110d9b6e4cf4760d6eb966a21b2ef75d355fa1574",
+    "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-003.json": "8fa9a28bf7e100b2e55f3eeb4cfcb54e28bd018e2cfaf29919f923ceaf33380d",
+    "data/wide_funding_2026-09-07/cashcat_hedge/manifest.json": "b8526dea3150c9bf37eb535f0fb64c84cfd6ca92a1253a2b041a63ec02155f33"
+  }
+}

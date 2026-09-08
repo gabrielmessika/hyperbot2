@@ -1,0 +1,808 @@
+{
+  "live_enabled": false,
+  "network_data_calls": 0,
+  "promotion_authorized": false,
+  "results": [
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 89,
+      "sha256": "9e52392781a12af2d7d461dff941ce0504467682d620990ef7a819424d191551",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "baefb3f39b3d3d04f285005f361c3b01cee20c1f89ac6bd00ea6aba982c94ebb",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "e9aad7672b72b28b36bad9fa38562caefa81f6ca2e3b14176d36f14eae101f6a",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "fc395ee35d534cb4e2fcbd77e1800c256642ea76088142f1e2a828c221a51c8b",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 89,
+      "sha256": "3675303664afbe4e729a850cf055ec466bcc37fb0052327b472c7ee89b0e723d",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "4520cdd5c0f31fd9f77c9416e0031df791c4876c2f3b9c467c3233e3177e9d53",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "e3c96290d78ed417af964c57cfd6344c5cc842f56736d4adc4f163766b102bce",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "c776bd0df7e7ff07c8f2e186a3db0e3badf3ba03c28cf1c55a0f9ff73e419ae1",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "274171cb5f96d21be8e7c7755a158c0fd64ae08746bbceffabe8394b85828d2c",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "ad2c9a083402f35a891ab1cc010fa4fc2a702a2d74b7a11c34ad907bccbb45f4",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 89,
+      "sha256": "15f80a601de473f28b3fd48809349e8e52a929179891ad5f394840114f8836cf",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "cf361f2f8a0d19254b97a83cdc214aceeee99f9b76b050dcc4dcdcc34474260c",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "6dd43e13d0144f8529d151efd79309b149b8847c2780d065731c1fff68f8deba",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "4d7de7d1d7d92a04fbb1dfb9d0b635bdb20c51960c36198349ebbadf7fcd5bc9",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 89,
+      "sha256": "2386d12e1a8a27dc4ff30973ad5f15e5e9f60d1ab0560f50d87610ad4017608d",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "fd8a355426c3c352f9603b6ae0b4aeb3a63c005c2d9c9f3c57c4c7f0ff753266",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "218a328585c0759d8f0e10f28bea37b0fcc506bf4fc140f7a6d92dbe15c4ca37",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "dcb8087fb1aeed5427850c774771a7e20318503af5606fe9edc0e15271c33cd4",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 88,
+      "sha256": "60a01d7cd78fde5c97b78c6d9aef8305e7a82540b1d292f8e357ea17ac379221",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 82,
+      "sha256": "e328de1e1d32b04afdb00e566f81e7d9abefa81438f69400343ed9dd86eeb5a4",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-0.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "8f86c35220fca5e7d5c8fb8dc48b59cf445f6f5c06ef3507bbc3740a2e218db8",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "cdda23e040e36bc6bd3de5fb3e35c10ddbf19371f6bed4ad01f68250ba35dc67",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "a425615d8082abb4d413ed309830086abb050d57442d229af006158351632b23",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "670443c6363c3d98313a82eeae26f85a6afa38f2312156b3c275448afb4c449e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 72,
+      "sha256": "1c8b26fd09dd2f9a35f702e7355a3870f1d7e66da9693da6429c28f56fe56dcf",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "9d77a3fcf15f073acbe17f2b75135ee8289d9996bf7db45a1cf5fb93b64bf839",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "6af55d7367aa390783a3d95db34e0ff3985a3111543ea2167372e297394deb5b",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "c7585807caa9b2afce06bfa6354544c662192b98ef44abe390afd48e5cd486aa",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "5c1bb189f7260577961be2c3e386ccb96fcc486637b3bba6db373319a0061be6",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "d5f0b125a3aed56a3dc6472f3e2662ef8805739a846d53ccd5672224ef091167",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "e9c4447e574ed088f454d143cc105c73a2c7d312feb5d4b29d67b99f83e25bbb",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "3b097fe31ae46531a41b60caa85a3926396b5d17e818b760de76d4c2667382d9",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "62707717aff2b3bdd9c4327ae1c3b6a196515decb89b438077bc3e941c69f01e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "761789a6b55304df1df48b278b7ed9d709d08eb65ccb45aeae051bc617e9f130",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 72,
+      "sha256": "e2b2cad5d65e9cb1aec490986a5daa1d1951c4f61647933e799189a039bbdd86",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "543b196fa775a3d03890dd42e8b386fa853a08b20b0bad7bf898cc13cad3bd19",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "b161667721348403583159687f206d00beb91c3ca58927f846ef16590e718f69",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 70,
+      "sha256": "fd1671ffd03fc94bbee60372e7539c281c5961efb2df6d0b7f4d04c2c76a7de3",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "3d98c9a1e16d9874eae348d3dc0204cddfcea86c3ae74a9f51ca8a647614ccfa",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 71,
+      "sha256": "1af19383d00260db920d04b3c1a6a6e64b9faeb59598a65200745e5b1853bcd1",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/volatility_extremes-cap-1.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "7175c36e640cc456c439351781a873eae0bf63e53e1710fe373d869cad3cf40c",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "585216504125d3b765729c55ac084b0268c08c78a651265cfd79963a0fd896da",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "0b7b48f7cf47fb74da2d29bbd36e9dca1436498da2a6f6fd9ef38efdca72ba48",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "ac36869bd6ec796bf3f48dabdeb223af2a092c12e6b3e8ce1c1928aa9ff0b14e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "344a82f1402ca2939b236a13ba8ef60aab2bd2cfc829096d3f651bfbe9870d46",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 52,
+      "sha256": "f76c42bb0c8257cdc2938f0d7df78f009c8be942a059be67d21008bc885fa5e3",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 54,
+      "sha256": "da38a7af4145dcf67b36a554e8f7eea4093b92dbf47c43de9c4a3299403702e5",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "914da0b5e18e7a7502f23a5cb42483a7e061b1f066c0745261596fc54d6e77f9",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "17437bc4e4730624cc1dc2d6e901b2083843c03b7abdbea6082bbb75154d2803",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 54,
+      "sha256": "563474f26e37eb88384e8edb0e813b84be8e970240feac16e65f244cb6c598b3",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "22fa3f7b03812493cb1ff2adba5377ebd4afad712711f7b7de49de50bba45ce1",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "3d562059a605c8d5d82a3ffa9dd5a3fc6e0e496e590cc2bfa1f7ddfcdc090cb8",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "ad30b4776ded5a4cf8ef817f5e1072a1182dcad024aa2ed8ffc1fa076963dcdb",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "9348e6f46005af41e1ad30caf9624e8e0cd7d30e43c6039a5260c60a411fa82d",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 56,
+      "sha256": "c58c332ddb8111fc598e46a3f76fce2b6acec4dc5daf83e4c1ac8eb53e14899a",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 52,
+      "sha256": "1547eb5b9ef0c5a33e059e84f5e6f402df70a4425449b3b52907ea54852a7e7e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 54,
+      "sha256": "e48d57ce765e4eb17af9eb14e6d39111f754c4cebd33cb4474bb440a4b01157e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "8a2cd3a8c83844c7f6ff53961d8b488fe43592487e6b0f2d4fdecdb4657a4944",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 55,
+      "sha256": "2c36a3594f9b9535ad622ea29b3c6ae336c28972ed6805cb7fbe23052361f089",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 54,
+      "sha256": "a9772c2c8ccaae44e65c76df6ba06920886690344c469db3ce9072fdd62cd2f9",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-0.5-dd-0.3-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "6511c85827ff8f7473b4c50af5078a4d604ca0adf8f92a4451ccf9587bc7bbc6",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 79,
+      "sha256": "339b9adfff1db9e204b65893c40a528ca1bae911813de39b9e8264bce33ae3b0",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "c3c90a41020ad0974ceb172dfcc2d508e60e46206f1a417db16c0cbd294b2eb2",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "2d736e44dc7acbd9ca82423ea64ef3169ec523458621b8d94ad37012df676269",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 84,
+      "sha256": "2d0e4191c3cf90ae6da07747538d8ec449a5b1e43d85f2e2fc08bc691e40ac29",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "e17b19bde69dcd96b39e327be7c40ffc6b6cf275aa2c6e1df6a668e4d623dc40",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 79,
+      "sha256": "950e4cdb465ba9d7578dd48d8b0ac95232fd3be2d56c18e01a86b914554b0b57",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "6472d5b7947dc0878929901072f5984f1c5b2f25f15e0bcee1df3b7c573cb225",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "10f1955450f6d9cda920d6e38a925f499c02e1012383215cddd51b365ea2d9fd",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "bf3f19ae6b4b2d2f8de919571237816f67f735e02d8ea7178efbad3713f7607d",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.2-zero_cost-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "75292df1e1482df11ce6149e064c489ad7f43579a49f77450a3ee75e533e8a72",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-base-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 79,
+      "sha256": "537c0fa7f20596ddc900fd031c5265f514b424e6d2b49b0c5738c5356898e0f9",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-base-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "e7ae2b68d2fb0d6e482506931f286a704cefd004cfa6db91edf6788f07698ebb",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "b71e8f16b6098eb9e881f797928bd286e34803e38c0306d9d91e74cdfb7aa55e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-cost_stress-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 84,
+      "sha256": "97759d7c4337333d86023aa707a35e3f052d42edb39d5b36b878a6e383202e51",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-delay-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "e09fb5feb2493d8bcbd020c5f8458dc96b4902ab94e54dbd152855555e369d65",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-delay-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 79,
+      "sha256": "093fa49e284dfcfe3991a528d7e29429eb8ea28c2e21c3ca83909a8403e1613e",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 81,
+      "sha256": "6d3b2d7b022eb9a111e908e450b9b0191c62a570703cc23ec7515c615eb8a578",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-funding_adverse-infra-20.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 83,
+      "sha256": "e5280589e33593faf723980eb001b2d391bac8f686538000ad46a5c7ae09507d",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-0.json"
+    },
+    {
+      "entry_capital_and_halt_passed": true,
+      "funding_and_fees_passed": true,
+      "hours": 4896,
+      "independent_equity_passed": true,
+      "minimums_lots_ticks_passed": true,
+      "orders": 80,
+      "sha256": "e6a11280bd2d2eb09a4f1ff1a19019d964a342745b97f255b791e17cd4734ee6",
+      "source": "data/volatility_capital_2026-09-07/native_2026_run1/all_assets_control-cap-1.5-dd-0.3-zero_cost-infra-20.json"
+    }
+  ],
+  "script_sha256": "2c40adab211e1780379b3cd1773b298c360087733c99715e86f6aec2074a742c"
+}

@@ -1,0 +1,1516 @@
+{
+  "counts": {
+    "ARB": 23,
+    "BNB": 23,
+    "DOGE": 23,
+    "ENA": 23,
+    "FARTCOIN": 23,
+    "INJ": 23,
+    "JUP": 23,
+    "LINK": 23,
+    "NEAR": 23,
+    "TAO": 23,
+    "UNI": 23,
+    "WLD": 23,
+    "XMR": 23,
+    "XRP": 23,
+    "ZEC": 23
+  },
+  "records": [
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "32.35500181524533615610632958",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "42.29239687041181670582790449",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "26.31029695496169953073004623",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "21.07409860459592079033619408",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "14.25062154828255848790505512",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "26.35502295639593103323628201",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "25.69331961381519321607718603",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "27.16527189578869076668591069",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "17.00100904338637014868383781",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "22.59039837957659323088937946",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "21.01056344974149786598759043",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "22.96738632174982035810695732",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "31.66315506487253452868313137",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "37.30507330817979560817048928",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.38471077394769308862773197",
+          "side": -1
+        }
+      },
+      "time_ms": 1774224000000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "34.48690813966085409620103105",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "52.71597679496004747491042684",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "30.27778305198102611564586803",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "21.00869837856913796274941861",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "16.69903428608104053912717100",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "34.44012534743242651253780039",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "30.04867157863110325538314017",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "33.49618032321107242433139292",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "21.44976634556522772875923349",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "19.45427901036528564965787427",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "33.33485429366678834527806398",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "18.28391847097139680920366490",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "36.95145751960783858335994175",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "40.88907165310607927984579634",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.47935898725632091425989031",
+          "side": -1
+        }
+      },
+      "time_ms": 1774828800000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "33.29353072636869672375485166",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "55.55832929544546028947913636",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "41.20543916440785516662364985",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "23.27824408987155624640875827",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "17.65906885709879632668744683",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "37.40459013797339518899765840",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "32.67465331510981471998825409",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "37.10206843607960629602238592",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "31.23430120132960027826589080",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "20.03137070209807718897838853",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "28.23705534656358884131878418",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "19.71134441176461415701038520",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "35.89157669821816571619140574",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "48.00652446684677717477183741",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.90447720002472328142293574",
+          "side": 1
+        }
+      },
+      "time_ms": 1775433600000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "27.12459233690223636534660845",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "54.55871944608030609438632969",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "40.26537991687555222683999808",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "20.42662817957091256118913514",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "13.37063432005476934349729810",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "33.69767959745987848419563503",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "29.57438005715817624509407812",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "33.74703647827208860998648568",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "31.02902006506362678393345395",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "16.28801587567076592764547011",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "27.31370207411163280346093879",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "17.05818386686168926014180259",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "31.84740331272548085482435480",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "44.23974582808495996931816198",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "13.75342944736823647328120207",
+          "side": 1
+        }
+      },
+      "time_ms": 1776038400000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "24.00269176577893333210245600",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "50.80061934041483440559038226",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "40.74329313729634434926021469",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "16.96412039720256785920019890",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "14.36928685608321574254051774",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "29.58590206680002887937380596",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "26.16177101042006517541950839",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "32.01505883980134937679369757",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "34.34110750405222547070752085",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "17.02852824630107464882337310",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "25.66150453272205407228111902",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "15.98932684237802624575576098",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "35.31403997193222670383747654",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "45.31717465011978973246065505",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "15.72781747174860966898216557",
+          "side": 1
+        }
+      },
+      "time_ms": 1776643200000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "26.92789752895087249815321065",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "54.87233562524854355851159376",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "47.81643482542403150736974808",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "19.01932159064756277702715526",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "15.22797573410388398352639009",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "30.52043106222188103806906767",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "27.24414937692750450796519235",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "37.16463582476179831699370072",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "38.44633204430172714902296116",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "21.61101463191840250128139019",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "27.65266457451780090544654391",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "19.70905441005963660201241703",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "30.88479900880333479169459515",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "53.43438853149208150789471572",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.52103099743600458309895957",
+          "side": 1
+        }
+      },
+      "time_ms": 1777248000000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "26.32105065695059241231219518",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "62.75186791756369349241969297",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "45.19086943809194554079075873",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "20.47051416576561246543010870",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "15.52963341282172855340907346",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "28.50111283253061337751228872",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "27.92588165996877219843564497",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "38.90042788331852521611471785",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "38.41989862419232157769637260",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "19.72043674877548879643518632",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "35.23287968148330964337749013",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "20.19012185767100695381377750",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "32.58519144441330168923554351",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "52.49465514987679821135063727",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.20371109680146372225548549",
+          "side": 1
+        }
+      },
+      "time_ms": 1777852800000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "24.85433096466566679928494186",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "64.70696013361645977395746258",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "42.39645506239566278536841880",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "19.11194919216039216112651653",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "18.24511370923486474083911314",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "26.78811093954909887399911171",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "21.76650765273609202960889332",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "38.63008930857239034616700922",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "26.21813321256331789942672704",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "26.00431200479053559813883894",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "33.82082690725555319727324331",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "21.17754907231916842713110254",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "36.44950438915142971574276665",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "52.44026356208742737198134413",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "18.29529632431913242903499577",
+          "side": 1
+        }
+      },
+      "time_ms": 1778457600000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "27.90300132769819461204201957",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "72.51542656009432724070617050",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "43.32665112705647297038675114",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "23.08500136200450655349660510",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "20.23550627360069908828939906",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "25.88090257078317593981592908",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "19.56297880051408701806607558",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "43.04559997839707139764298640",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "28.21756623069875070673828228",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "27.12774505880293575231304075",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "37.08526556207317991578103784",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "30.97152038463699985762823346",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "34.64403857234871649996301210",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "53.94951398494478018446842242",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "16.45196142412028850132137492",
+          "side": 1
+        }
+      },
+      "time_ms": 1779062400000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.70736405770059505531337034",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "78.75427903531419964403042242",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "43.40590446766858030025994730",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "23.32039224655063103207830875",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.16610934440401802278371976",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "21.24019921438452944789302094",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "17.75636574703010262026521241",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "43.45203247362717262271638442",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "18.99751373500360495537883225",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "25.49979952275067652432884670",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "33.53208645734780661524902784",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "25.18110378766816800796195903",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "42.23242681376074569961258003",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "55.24326158328355729719418868",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "14.28084789446951033421133858",
+          "side": 1
+        }
+      },
+      "time_ms": 1779667200000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.35724322870767800007368124",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "41.93568337683421058075489347",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "48.59573807499955266995920859",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "22.42170179202201324670061484",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.73111807789759195817306401",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "18.30204323847282046613648461",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "17.37267192245036020198485975",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "42.53937043766736133312802784",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "16.17376598349786020400462888",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "26.96052372889519944357573340",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "31.58817367106475696472006435",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "14.07092302535277574637875469",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "25.78463602799400615522275218",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "55.60128953232656911802225180",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "13.42089336706333529076354736",
+          "side": 1
+        }
+      },
+      "time_ms": 1780272000000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "31.35202990916562532801067720",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "31.85231425741120165321561472",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "34.34825818120575923835430499",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "17.84620113796150065738389362",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "16.52597109063199815011657229",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "14.94644540045881333236110072",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "18.07263951973310518671622646",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "32.64522655528104969978997925",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "11.99305531352851657187410889",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "22.23217755961838196441678878",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "30.64620423000173588797190166",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "8.528275553656364816780792558",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "17.45260297269467472844509898",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "38.40473271289631612039881708",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "10.10973057928440057916872495",
+          "side": -1
+        }
+      },
+      "time_ms": 1780876800000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.07697142165739939623723670",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "31.50569673230718478921421308",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "34.52588965255811875268980616",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "16.05098142702787698414245787",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "16.44912794735919529390641068",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "14.16991040711923101598044363",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "17.74264393601564954287946332",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "32.22316164135588990552227364",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "11.64041853764385401676790457",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "16.52481039707837468732495952",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "32.35865447822780800919186841",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "8.273719921810556619765434007",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "14.84201938599822395353759849",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "38.18509154646251217470710700",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "10.02608156793531708557553578",
+          "side": -1
+        }
+      },
+      "time_ms": 1781481600000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "29.43511719890446762757173668",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "31.12895611123140567057762281",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "36.64034484633255301479554328",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "15.25129309894029604789837632",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "17.11153403833399467088379662",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "15.11370219857589935302266426",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "17.82604849337992030468074753",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "33.28064658221934907686434469",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "12.10217090065331823017115484",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "16.90546688222427160268772234",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "22.83227697108407396108025373",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "8.055899880182355861540352644",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "14.86405967745852250267744639",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "35.45466462543439427250318149",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "10.53452417711103325275729499",
+          "side": -1
+        }
+      },
+      "time_ms": 1782086400000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.47093692513072432469254031",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "30.82508997062546499977258592",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "34.79810807742027548544432941",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "15.19226584633086502693350854",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "16.23596505895148884608932140",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "16.30074842028864084057828184",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "18.49704226573600112873708580",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "32.71006420726083572154448019",
+          "side": -1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "13.89842154926806882593264241",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "17.31416648650863327482325801",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "23.35966464878810717287470606",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "8.498999144786137202755775439",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "16.47475386567839540597867522",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "35.17357736452985460198563821",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "11.02660636615057504999250902",
+          "side": -1
+        }
+      },
+      "time_ms": 1782691200000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "37.10986524860079777497512769",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "52.38856900263771729790747978",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "44.96575198022986467202546725",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "19.25359959380808696737350190",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.36672974788330056735192060",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "19.84505616837849876522907293",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "22.39880707902797114724035845",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "40.04729754773988908419429332",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "21.20952916848734240376259597",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "19.45891735863386612578907531",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "22.48864573309073583705511361",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "11.45619667265870046950063966",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "23.60881234172992959543588162",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "39.29396329368440590431582196",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "15.80594958295343084611683529",
+          "side": 1
+        }
+      },
+      "time_ms": 1783296000000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.83663780797292777854583482",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "63.73456048156887470980329659",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "51.24899841777071221336891098",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "23.22412477719455399706369345",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.90841875030488077375416300",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "24.72882394542781921228839231",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "21.73628275230122031304745642",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "47.85841487929801330312058992",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "26.06736800086892950769998109",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "21.23541852708728369287863465",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "22.98840317615304576434844840",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "15.47042414253832297515982334",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "40.50259372585054486148679463",
+          "side": -1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "46.28300243535434351496969824",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "20.30844140594427977021442980",
+          "side": 1
+        }
+      },
+      "time_ms": 1783900800000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "27.37470543322071641962296601",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "69.40436346799310682714616623",
+          "side": -1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "50.64148779783965724667209762",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "28.08332417336586262008931189",
+          "side": -1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.13943109392233614298620604",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "23.57099395037181864615541090",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "22.29548480687928642043380304",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "43.13476932406864098535761411",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "29.99406210964654029728216692",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "44.17354430781937499018088308",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "31.52760719527038868202396341",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "19.19395502140639700519443347",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "47.36794459902115908966159237",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "51.59745595379572483331823716",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "19.82504147062055318436792879",
+          "side": 1
+        }
+      },
+      "time_ms": 1784505600000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "28.65864465909724372162169502",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "77.14423788168301137649937501",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "48.01040566822313701662437065",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "28.26610503470302615803055321",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.42588747066998419753554200",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "31.73150631339502533938385740",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "26.18696795274435139092287996",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "43.95081493778104194783821648",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "31.59464303301009213889020104",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "42.06549596285020546432263220",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "30.21497431502444934444203574",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "19.94620313755179195367145698",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "44.39658534100034234713475865",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "53.44961904218748777636339236",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "20.68809804691499840853088969",
+          "side": 1
+        }
+      },
+      "time_ms": 1785110400000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "27.00807014989813609043732779",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "74.44856076619343921353988620",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "50.42146629427385454411278359",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "24.09958342056134522166386940",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "24.92076303972432930231549616",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "29.62218431972275037519864809",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "30.88980591627212928964141371",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "41.11877794837603745196981520",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "33.70834038992993665764330515",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "40.15244266606193770577895385",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "29.26253733183407951832427659",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "24.92230788858248417920892388",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "46.86286430569326092670287189",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "54.55732941813359264821126306",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "22.32453181282795299185824167",
+          "side": 1
+        }
+      },
+      "time_ms": 1785715200000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "40.11298358940110864992487633",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "83.56523735180628612230427100",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "53.89405199882852232508400386",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "24.79236282824862702746803906",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "26.46132316521239301491881212",
+          "side": -1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "28.48755054320468126156743377",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "39.25090038798700386549310645",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "42.79408980113101308156697588",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "34.97238054997261240085365240",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "38.74255312217074031637502625",
+          "side": -1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "27.25706940126763027561564162",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "25.42533521582966216589208358",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "47.33581823234180143000387799",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "55.74672650033811684511100582",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "23.37482948831049792750988015",
+          "side": 1
+        }
+      },
+      "time_ms": 1786320000000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "36.63434039314370752728394893",
+          "side": -1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "84.43694677484906950169898691",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "53.60426037786999717580262542",
+          "side": -1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "25.37743868696013614619784810",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "29.73521198958024928197755736",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "30.00163043364609695525860495",
+          "side": -1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "42.75336003273971780881684913",
+          "side": -1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "40.29688601654278133620336107",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "40.56377518915431672137793972",
+          "side": -1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "43.32629805189610957601869366",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "24.60266752978194392329329660",
+          "side": -1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "26.51353306374995513317371059",
+          "side": -1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "41.41895055466312093682417586",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "62.36874511291716560348917090",
+          "side": -1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "37.95295066509747330928397340",
+          "side": -1
+        }
+      },
+      "time_ms": 1786924800000
+    },
+    {
+      "assets": {
+        "ARB": {
+          "raw_inverse_volatility": "23.17282224854835322146511508",
+          "side": 1
+        },
+        "BNB": {
+          "raw_inverse_volatility": "58.55150996076620697909683906",
+          "side": 1
+        },
+        "DOGE": {
+          "raw_inverse_volatility": "30.78871673858034491162390855",
+          "side": 1
+        },
+        "ENA": {
+          "raw_inverse_volatility": "14.23071959963603250642579705",
+          "side": 1
+        },
+        "FARTCOIN": {
+          "raw_inverse_volatility": "19.99395451836201888582165527",
+          "side": 1
+        },
+        "INJ": {
+          "raw_inverse_volatility": "22.57588059853015859212995370",
+          "side": 1
+        },
+        "JUP": {
+          "raw_inverse_volatility": "29.44941293672841308672268471",
+          "side": 1
+        },
+        "LINK": {
+          "raw_inverse_volatility": "27.47791422480332554768238277",
+          "side": 1
+        },
+        "NEAR": {
+          "raw_inverse_volatility": "26.31708042067308421300355244",
+          "side": 1
+        },
+        "TAO": {
+          "raw_inverse_volatility": "30.97102390090955862790782907",
+          "side": 1
+        },
+        "UNI": {
+          "raw_inverse_volatility": "20.53034855820690152668633690",
+          "side": 1
+        },
+        "WLD": {
+          "raw_inverse_volatility": "22.43313878032535390429634535",
+          "side": 1
+        },
+        "XMR": {
+          "raw_inverse_volatility": "40.67382682834939279910158157",
+          "side": 1
+        },
+        "XRP": {
+          "raw_inverse_volatility": "23.76365021999108825665285701",
+          "side": 1
+        },
+        "ZEC": {
+          "raw_inverse_volatility": "17.27292862850906704105055480",
+          "side": 1
+        }
+      },
+      "time_ms": 1787529600000
+    }
+  ]
+}

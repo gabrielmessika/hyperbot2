@@ -1,0 +1,30 @@
+{
+  "before_first_weekly_carry_pnl": true,
+  "code_version": "source-sha256:8894d4982dc56579c0f2ce5f5f2071688d219879d143b427c2bec872c06ef119",
+  "historical_periods_reused": true,
+  "inputs": {
+    "data/prior_transfer_2026-09-07/archives/manifest.json": "b78b3438403dbfa235b95145f76c1738372ce88f25c313a7dc716db1895c7fcb",
+    "data/volatility_long_2024_2026-09-07/archives/manifest.json": "0d1769a633c09e65b76c507723b77c0194b03d3e4fd018e335a0d328afe63f5f",
+    "data/volatility_long_2024_2026-09-07/october_api_audit/manifest.json": "5f18bea55d93f4c7ff6bc4968fdf19bb0f4be54a8bafbb05a57db6419a2f9482",
+    "reports/collective_trend_2026-09-07/continuous_2024_2025_quality.json": "3dcf04a5b058e7a1d9a1c4cb995715acccc39dbcd3dfbba0223f51a7bfb53333",
+    "reports/collective_trend_2026-09-07/native_2026_quality.json": "0403729c7d24b8a7276cfccc5d94ad80bbcf463a80ec340e71c1d39328fafeb2",
+    "reports/collective_trend_2026-09-07/review.json": "266d6567e2ee5902643257c64f93a2e744d65df4dfbb0e228481bc88cf530990",
+    "reports/prior_transfer_2026-09-07/qualification.json": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+    "reports/volatility_long_2024_2026-09-07/qualification.json": "5b155459c70e9bf9ecaae62c5a09d3aea0bf1afeabaee527aff7f175a6ace671"
+  },
+  "live_enabled": false,
+  "panels": [
+    "native_2026",
+    "continuous_2024_2025"
+  ],
+  "prior_related_failures_known": true,
+  "promotion_authorized": false,
+  "protocol_sha256": "170c1bbd582c6f855204e1d56256fb3b3c854fdef84b3b26f73720147d052792",
+  "registered_at_utc": "2026-09-07T19:04:48.540993+00:00",
+  "script_sha256": "7b4bd7ec85be104af36c603a5d836dbfb84989e3189b1ad290169c089eb62e44",
+  "supersedes_before_any_pnl": {
+    "path": "reports/weekly_carry_2026-09-07/registration.json",
+    "reason": "Formatting-only line wrap and explicit registration_v2 path; no economic rule or input change.",
+    "sha256": "d9ae2a60920eaae4e53bda6f1e9d459101bc21ef37ffcb96a3bcd8f901991a3a"
+  }
+}

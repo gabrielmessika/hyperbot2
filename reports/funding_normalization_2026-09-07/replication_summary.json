@@ -1,0 +1,233 @@
+{
+  "code_version": "source-sha256:3b0f1669f4d4cfe08d9db32600c84b31371c46dd8b0b9531336de0e7a3280c4d",
+  "criteria": {
+    "all_paid_scenarios_positive": true,
+    "positive_without_best": true,
+    "profit_factor_above_1_2": true
+  },
+  "decision": "PORTFOLIO_RESEARCH_REQUIRED",
+  "distinct_entry_days": 6,
+  "end_ms_exclusive": 1786060800000,
+  "limitations": [
+    "short prior period, not independent of all previous work",
+    "event returns, not portfolio returns or drawdown",
+    "hourly open execution and funding oracle proxies"
+  ],
+  "live_enabled": false,
+  "primary_horizon_hours": 72,
+  "promotion_authorized": false,
+  "protocol_sha256": "47173fee239d1f06493c629978d16471ddb0f6aea949ecfca6031c4bd917378c",
+  "run_id": "funding-normalization-prior-20260907-v1",
+  "scripts": {
+    "/workspaces/hyperbot2/scripts/replicate_funding_normalization.py": "3ea1b6874d0f99cca21a6de990e7dd24cfe3617941939560fada3b4aba165f19",
+    "scripts/investigate_funding_normalization.py": "61c1fce6167e5df6e825e89bdd9ceaa2dbeed3681869d0b7982fef429bcabf2a"
+  },
+  "start_ms": 1784160000000,
+  "statistics": {
+    "base": {
+      "block_days": 10,
+      "blocks": {
+        "0": {
+          "events": 5,
+          "sum_net_bps": "-83.2024150445296105305037052"
+        },
+        "1": {
+          "events": 5,
+          "sum_net_bps": "12264.39700331348826206135761"
+        }
+      },
+      "by_coin": {
+        "CASHCAT": {
+          "events": 6,
+          "sum_net_bps": "11688.65316641858936534994673"
+        },
+        "XMR": {
+          "events": 4,
+          "sum_net_bps": "492.5414218503692861809071752"
+        }
+      },
+      "by_side": {
+        "-1": {
+          "events": 1,
+          "sum_net_bps": "-272.1930795609175419606454993"
+        },
+        "1": {
+          "events": 9,
+          "sum_net_bps": "12453.38766782987619349149940"
+        }
+      },
+      "events": 10,
+      "mean_net_bps": "1218.11945882689586515308539",
+      "median_net_bps": "359.2167803607015384449914208",
+      "positive_fraction": 0.7,
+      "profit_factor": "4.397998614117692940600433827",
+      "sum_net_bps": "12181.19458826895865153085390",
+      "sum_without_best_bps": "1857.53497665467753262778905",
+      "worst_event_bps": "-3151.376020631217278504921348"
+    },
+    "cost_stress": {
+      "block_days": 10,
+      "blocks": {
+        "0": {
+          "events": 5,
+          "sum_net_bps": "-158.4119959180927858104638975"
+        },
+        "1": {
+          "events": 5,
+          "sum_net_bps": "12175.71985776459391570260591"
+        }
+      },
+      "by_coin": {
+        "CASHCAT": {
+          "events": 6,
+          "sum_net_bps": "11585.89263240354519748259689"
+        },
+        "XMR": {
+          "events": 4,
+          "sum_net_bps": "431.4152294429559324095451236"
+        }
+      },
+      "by_side": {
+        "-1": {
+          "events": 1,
+          "sum_net_bps": "-287.4658478719872091271536833"
+        },
+        "1": {
+          "events": 9,
+          "sum_net_bps": "12304.77370971848833901929569"
+        }
+      },
+      "events": 10,
+      "mean_net_bps": "1201.730786184650112989214201",
+      "median_net_bps": "343.8172344277679822008789722",
+      "positive_fraction": 0.7,
+      "profit_factor": "4.313556609981918596744272676",
+      "sum_net_bps": "12017.30786184650112989214201",
+      "sum_without_best_bps": "1719.64599441204226349502736",
+      "worst_event_bps": "-3163.136792717795033365872482"
+    },
+    "delay": {
+      "block_days": 10,
+      "blocks": {
+        "0": {
+          "events": 5,
+          "sum_net_bps": "-1254.899105753902958948413387"
+        },
+        "1": {
+          "events": 5,
+          "sum_net_bps": "8521.452333304895125001149196"
+        }
+      },
+      "by_coin": {
+        "CASHCAT": {
+          "events": 6,
+          "sum_net_bps": "6689.825123992436820710986443"
+        },
+        "XMR": {
+          "events": 4,
+          "sum_net_bps": "576.7281035585553453417493668"
+        }
+      },
+      "by_side": {
+        "-1": {
+          "events": 1,
+          "sum_net_bps": "-252.3158746265681888806175798"
+        },
+        "1": {
+          "events": 9,
+          "sum_net_bps": "7518.869102177560354933353389"
+        }
+      },
+      "events": 10,
+      "mean_net_bps": "726.6553227550992166052735809",
+      "median_net_bps": "349.2977219241335204638076786",
+      "positive_fraction": 0.8,
+      "profit_factor": "3.166488461587200099677828783",
+      "sum_net_bps": "7266.553227550992166052735809",
+      "sum_without_best_bps": "206.272307395728496162183806",
+      "worst_event_bps": "-3101.753789897475691876444755"
+    },
+    "funding_adverse": {
+      "block_days": 10,
+      "blocks": {
+        "0": {
+          "events": 5,
+          "sum_net_bps": "-84.3799596129959899646928288"
+        },
+        "1": {
+          "events": 5,
+          "sum_net_bps": "12244.68066158354397419054441"
+        }
+      },
+      "by_coin": {
+        "CASHCAT": {
+          "events": 6,
+          "sum_net_bps": "11686.02815632243737189619746"
+        },
+        "XMR": {
+          "events": 4,
+          "sum_net_bps": "474.2725456481106123296541199"
+        }
+      },
+      "by_side": {
+        "-1": {
+          "events": 1,
+          "sum_net_bps": "-282.7203167858457471854233219"
+        },
+        "1": {
+          "events": 9,
+          "sum_net_bps": "12443.02101875639373141127490"
+        }
+      },
+      "events": 10,
+      "mean_net_bps": "1216.030070197054798422585158",
+      "median_net_bps": "358.6280080764683487278968590",
+      "positive_fraction": 0.7,
+      "profit_factor": "4.382237824609409184141386875",
+      "sum_net_bps": "12160.30070197054798422585158",
+      "sum_without_best_bps": "1837.93432889121733526770974",
+      "worst_event_bps": "-3151.376020631217278504921348"
+    },
+    "zero_cost": {
+      "block_days": 10,
+      "blocks": {
+        "0": {
+          "events": 5,
+          "sum_net_bps": "363.0361086832556303816798136"
+        },
+        "1": {
+          "events": 5,
+          "sum_net_bps": "12668.48680576553836996613064"
+        }
+      },
+      "by_coin": {
+        "CASHCAT": {
+          "events": 6,
+          "sum_net_bps": "12413.04937320062048673834422"
+        },
+        "XMR": {
+          "events": 4,
+          "sum_net_bps": "618.4735412481735136094662355"
+        }
+      },
+      "by_side": {
+        "-1": {
+          "events": 1,
+          "sum_net_bps": "-244.5146370353657848722432173"
+        },
+        "1": {
+          "events": 9,
+          "sum_net_bps": "13276.03755148415978522005367"
+        }
+      },
+      "events": 10,
+      "mean_net_bps": "1303.152291444879400034781045",
+      "median_net_bps": "399.4993220636739777773429808",
+      "positive_fraction": 0.7,
+      "profit_factor": "4.825341486177458927536236688",
+      "sum_net_bps": "13031.52291444879400034781045",
+      "sum_without_best_bps": "2474.92885806455717129352441",
+      "worst_event_bps": "-3052.044609665427509293680297"
+    }
+  }
+}

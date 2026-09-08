@@ -1,0 +1,386 @@
+{
+  "artifacts": [
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-base-infra-0.json",
+      "sha256": "977ff729d27df355beecf9bb838b0d0144b17b9655e27cdce829d42fff9e5865"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-base-infra-20.json",
+      "sha256": "eb57e691c0e968b7435dbb2e272ee1f70251510da11f68d27fa4bab44873b491"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "796d0b40f31c5900db2004ca7697cfcd064a56bb157c17ba72a9bc32c2cf184b"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "5f4d5ff3a56172793f0979f450d43dc8a96b99d290ed1a3b3c4af69ce6b260e0"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-delay-infra-0.json",
+      "sha256": "3cb0feca61e741b982aee5f0029094339b166999efe3cac046c98df2019fe4c3"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-delay-infra-20.json",
+      "sha256": "5bf8491cfa2a9eb3d534c5e79ea70a2281f82e50bf1e2463e076274b9907261b"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "6603f69ef3f0010e9170c61f0366a48f83874779ae67869c08f2556eaaf8d2f8"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "2537aa872bcb0e789f60204a0d5f4d8f65b88ed247ef8bfa9f208a27324b0747"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "fc43b9a77295f13d5c4df74f1351567f97d4781caa7e4351c12e132d3edd57a9"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "a959a6322f23ad711ecea4b84d5fd2f6fca026d98c6f983a3b39ab2dccedf7ec"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-base-infra-0.json",
+      "sha256": "131713aefa6e5e2e7214f19b36f5ff612797589c91a6040a1c84ba6906228f04"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-base-infra-20.json",
+      "sha256": "cd04b0c4f4948f3d095d02772ec45480862614cec08bd1d838dc3afb09d1f59a"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-cost_stress-infra-0.json",
+      "sha256": "2f56242576c47a968b9c04bcc264de33eadba448bd92417bee3a5a7912e30037"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-cost_stress-infra-20.json",
+      "sha256": "a583ecc27a46adfb8393649644e8afa7d9733d010f8389592ad25de989b643c8"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-delay-infra-0.json",
+      "sha256": "292559b2b2e02ecdfaaa5130992d3dcf473ccc3d81b279b521d41b0f9482f8d7"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-delay-infra-20.json",
+      "sha256": "bc40c59cea4922d0c54f5b5d7e24e4350d4fee6bc9b22d7f852527362e122913"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-funding_adverse-infra-0.json",
+      "sha256": "03aec5040064c8597e6b85eb333defa1d1a097023855c61d4b7768ca9bf2d474"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-funding_adverse-infra-20.json",
+      "sha256": "59059abdae6b43ff123d56748e2ecce84859badc1275927f31383161bf082ca4"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-zero_cost-infra-0.json",
+      "sha256": "28a66a09d4b897595623dd40a816a2a6f4050cc3b8d245d02dd8c4a67e4cdbab"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1-zero_cost-infra-20.json",
+      "sha256": "701c9d91740b58d007f58bb8ca23d84fae6a1746c02a15ba7c8b4c99b8de3ab4"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-base-infra-0.json",
+      "sha256": "d079b5cab09d56575e08f6af04af1e730a80a7756a763fbf2df8c2428ca87ae1"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-base-infra-20.json",
+      "sha256": "97a1863dff507576dc0cf750dc146edbcc21f3f2c117329144fd1a41fa0d9454"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "9a237733886108ea55b3ad76d1c0bde706572206fff2904b44a75b20efca72f6"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "d99218a8c018bf868f89efdff78d30bf380c6e5d29c838b37d09203836075a10"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-delay-infra-0.json",
+      "sha256": "fe88beb752c18fc7387647841a8eaaf44066de5c1940622d65f8cc2277855f9c"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-delay-infra-20.json",
+      "sha256": "2722c48899238369b05c126e5e905668c6abf7130bee5ed545b033d8873d216b"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "4ea313f7b3dda398bacf1e1c8de25ba36dd47f8d90a3017dc5acc10db91f0a7f"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "31f9b0deda9fc8b8373f17c0f540df0845ed49d76145431992aaed092d4e0966"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "8bec67f434b4635f83b5932d0a12808ea6412deb41d4335b0aabe683014b84fe"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/hold_equal-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/hold_equal-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "0facfab85761d6e6a248f285b227a782f9d20944ed64243318a4537af216fc8d"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/quality.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/quality.json",
+      "sha256": "fe191757aedbbe01875cb88a5b8d2181cc8e9ed6bda7d57e3509f047688ed17a"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/selections.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/selections.json",
+      "sha256": "9cab944288bf85d759362fdb3edef4ed9f565959be8a1fb12030adc87f767911"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/summary.json",
+      "sha256": "dd7b3f5f9b416103989cf63d451f8312d2ec4f6070496cd2fc23d58f15940a59"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-base-infra-0.json",
+      "sha256": "cb1f8fa4b5cc41bf6e5b353cd7569b5f95184456969aa0facb90c7c6b892f092"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-base-infra-20.json",
+      "sha256": "ee22821d6904333db1ff7ee81220d5ef1cd0d0440b0a262745ecdd35a9585dad"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "df38014c480460cd44ff4fc9ddd52e858061ce7fd994f0e5e45f10fc126b5ee8"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "a9e6fa595dfae70d1f74ff7b2fa95b55d9f21da11e751453e00262b5f9270084"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-delay-infra-0.json",
+      "sha256": "f4abeb75feccd272ba5ccb5c38f2a9b0937d1f69a70f12acc2ec2605826a0383"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-delay-infra-20.json",
+      "sha256": "9b8b4e9d048a28d99a9153e3a2f9c178d65f454ff3f40718a17deefd924fd37b"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "b0099212799602ce772e77a4bd9af22218388fb0e160b3747c44f4e07b5b2153"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "2672ee5e91432e17bb0b9812ea1d8a77e5afebfe6563f3c0fe887bde7037585d"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "f9295c7adc0940ff70fa9a6fc2c2168d29cd4ec6ffebf792144665565ce3be27"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "313ed3ce4eb1f6282448e1317158de45935f4a8522dd37661a762ce1cdd524b8"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-base-infra-0.json",
+      "sha256": "29fa8b73cc3ea8d36ef85baf1e3895807248802f4deab9ee37313f03810a2552"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-base-infra-20.json",
+      "sha256": "a97292785857134578c1ebc6293ad5dcff22cd5df63590517353496f0c93e266"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-cost_stress-infra-0.json",
+      "sha256": "53d1356655155603c5ec7e7e3be95c53fdbf7b7c0fdbd2ef150ba344e3280393"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-cost_stress-infra-20.json",
+      "sha256": "73580982e3823531c2d40bab7db09d72e83a675de5c9d5cc9e7e0a7ee6fe9273"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-delay-infra-0.json",
+      "sha256": "f7f3b960c7d8ca61fc4e542d145c29a94582b772c5d72fb62886efce5c0b4371"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-delay-infra-20.json",
+      "sha256": "1b1211467441f6d7d300600ac4c6e150b2c052bf4413966bf20bd9d369a0bbff"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-funding_adverse-infra-0.json",
+      "sha256": "dddda157804df99e0ffb69aba6b1c2b10307f788a624a42d79a2a2c305c205bb"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-funding_adverse-infra-20.json",
+      "sha256": "121fb68300f28b9dd285c88340302ee1fc7dfb68d81bccd724bcd67abda2a04d"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-zero_cost-infra-0.json",
+      "sha256": "fa33280b6ef12da3e01538ac351efac27875a016707ffb0cfc48ee33f55b7dd3"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1-zero_cost-infra-20.json",
+      "sha256": "08dfb5efa183f1a9ec5b0aa36f876e4310589e87d101df1239d07f3c9a7a8278"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-base-infra-0.json",
+      "sha256": "ebd7f4bec9822a064730e2de7930575e62d1350ec835b7b1aa7ffb260df2876a"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-base-infra-20.json",
+      "sha256": "4e1d3d5b55be365350e4726e9c3127037a07a44347644d6edc303cde23c258fa"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "06a5af642349447682db4795ba62a585785ebaeb143a2d0560d2601226701685"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "781e10cb2c267f09d09d21eef1aa1de0c04e6a7b5972455754ace82bbaec809c"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-delay-infra-0.json",
+      "sha256": "ebbb808e9046891fb72f508723476b1231d907539ac5b6fd79a2f2416b7353fd"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-delay-infra-20.json",
+      "sha256": "fb69f17817187eca7e4609fb71176fd18cc2f3cee0b21b691ec0df958e436369"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "70958ef036a82a4778aa5a8ea51517734eb04e0c033c9420c5cedd1fb96ec6a3"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "99b7577e99be1df8dc1411e145afc0dc521cfdf1900cd2bd2c6b27f6698c1042"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "eb03db8012749c2d9a4aca14848ddeab85426b039eb39c9149034172705a19ab"
+    },
+    {
+      "left": "data/weekly_relative_2026-09-07/run1/weekly_relative-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/weekly_relative_2026-09-07/reproduced/weekly_relative-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "e590e29b610e1939d68c67b5ceee87772d77c33dbdb82fcddeb0f9c0ffa84d60"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "66 sources passed",
+  "ruff": "check and format passed, 245 files",
+  "tests": "257 passed"
+}

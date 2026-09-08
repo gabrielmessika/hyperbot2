@@ -1,0 +1,21 @@
+{
+  "acquisition_complete": true,
+  "all_study_processes_finished": true,
+  "archives": 264,
+  "data_cost_usd": 0,
+  "decision": "OLDER_YEAR_OFFICIAL_SOURCES_DISAGREE_CORRECTION_REQUIRED",
+  "disputed_bars": 22,
+  "live_enabled": false,
+  "matched_panel_artifacts_reproduced": 8,
+  "mypy_sources": 74,
+  "new_year_pnl_computed": false,
+  "next_action": "Explicit immutable REST overlay for the two disputed hours across all eleven assets; register source-priority amendment before any 2024 PnL, test default rejection and unaffected histories, then rerun matched panels and 2024.",
+  "promotion_authorized": false,
+  "public_calls": 542,
+  "raw_2024_panel_qualified": false,
+  "response_bytes": 5709699,
+  "ruff_check_passed": true,
+  "ruff_format_files": 312,
+  "tests_passed": 321,
+  "unchanged_october_bars": 8162
+}

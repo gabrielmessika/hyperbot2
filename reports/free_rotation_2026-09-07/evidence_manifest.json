@@ -1,0 +1,1037 @@
+{
+  "additional_spend_usd": 0,
+  "code_hashes": {
+    "scripts/fetch_research_history.py": "bdc44785e8c89d0c44d1dba54001987fb7c008b6a08ee582a1c35dc256cdd699",
+    "scripts/investigate_free_rotation.py": "0ab55b10eec5c5751ba099aedf831577e18aebb9c870e7a9e9a5cc58c800d245",
+    "scripts/investigate_long_trend.py": "a93da13d7cf679dc30f113f8eb7a5270db104d7d6235dc15da0f7b9e4924489b",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8"
+  },
+  "files": [
+    {
+      "bytes": 379,
+      "path": "data/free_rotation_2026-09-07/daily/index-001.json",
+      "sha256": "3ff1c8e9ca3364febcdff5d2939a9a6cf762df244753abaab0a3e63441cc0363"
+    },
+    {
+      "bytes": 755,
+      "path": "data/free_rotation_2026-09-07/daily/index-002.json",
+      "sha256": "f6c196bd904c4b774505f54af953d299c750184290b1604d60eeda7a63b9236c"
+    },
+    {
+      "bytes": 1131,
+      "path": "data/free_rotation_2026-09-07/daily/index-003.json",
+      "sha256": "b69eb71a6f8fedda59c18b03c691fddf37e17c5fd00e4f1ed7bdaa5c869cbf33"
+    },
+    {
+      "bytes": 1508,
+      "path": "data/free_rotation_2026-09-07/daily/index-004.json",
+      "sha256": "4e9fa7ea993df12ba1e36ea07b50c53ba30f6a54fa182d7cd6a4427c1363c8b1"
+    },
+    {
+      "bytes": 1734,
+      "path": "data/free_rotation_2026-09-07/daily/manifest.json",
+      "sha256": "2c7edc1f192f18fde588e0a332fd4476c54bcf0ad09b7e10b633fc2adf9e6b77"
+    },
+    {
+      "bytes": 150453,
+      "path": "data/free_rotation_2026-09-07/daily/request-000.json",
+      "sha256": "65ccec879814a2541c26cbd562f56c4daa6f0c5c5471abdd788a01d197a56e2b"
+    },
+    {
+      "bytes": 147640,
+      "path": "data/free_rotation_2026-09-07/daily/request-001.json",
+      "sha256": "703bfbe68160346d13a576b24cca7e96b4688de3477becd6a3749a67b50938ec"
+    },
+    {
+      "bytes": 149616,
+      "path": "data/free_rotation_2026-09-07/daily/request-002.json",
+      "sha256": "f10a673336b793074db943c05983f7fe24d7d62a2f7f0bfabdeade180da49f11"
+    },
+    {
+      "bytes": 150495,
+      "path": "data/free_rotation_2026-09-07/daily/request-003.json",
+      "sha256": "1e6103a89bf6e5cba95f3de57d05cde94d1854b6c31409b739f761740f033b46"
+    },
+    {
+      "bytes": 743413,
+      "path": "data/free_rotation_2026-09-07/final/carry_relative-events.json",
+      "sha256": "0964af11dd55e6f1eab3ac3b680f3817d57f23d0db8beab481480087a7cba96f"
+    },
+    {
+      "bytes": 756289,
+      "path": "data/free_rotation_2026-09-07/final/momentum7d-events.json",
+      "sha256": "6d03aa0e8c879a23efab6af509ae9c070857a371540e566586863e30e1aaa491"
+    },
+    {
+      "bytes": 29511,
+      "path": "data/free_rotation_2026-09-07/final/summary.json",
+      "sha256": "7559321eba5aae54fb752ae8fada72e3b7114696938ba51a563b72d5723f9af4"
+    },
+    {
+      "bytes": 170442,
+      "path": "data/free_rotation_2026-09-07/final/trend30d-events.json",
+      "sha256": "e1d8aae32bcfb2bc92f7376c06b15201674fb4507f0bf2efff6b137945884aca"
+    },
+    {
+      "bytes": 698065,
+      "path": "data/free_rotation_2026-09-07/long_final/events.json",
+      "sha256": "306a8ff723b2eaed0fc147d5caef4c9360e25199476d3b2890a49b192b8025eb"
+    },
+    {
+      "bytes": 48657,
+      "path": "data/free_rotation_2026-09-07/long_final/summary.json",
+      "sha256": "6d52e2c78c7e3b4b641ceebb4e862f88804e1c37a2468fb635416ae4e05e3b03"
+    },
+    {
+      "bytes": 330,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-001.json",
+      "sha256": "b58db47ddee08373e1432583c240e1bd800e920e232103b12438b3b4f9eafc7e"
+    },
+    {
+      "bytes": 657,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-002.json",
+      "sha256": "7766006405d18e27df274736c6c4c069aaaa65156a24b72b2300ca18a01dc18e"
+    },
+    {
+      "bytes": 984,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-003.json",
+      "sha256": "53084c9356903d2d7f88c91612acff25ae6a5ff9a1c80537dee0f16f4800209c"
+    },
+    {
+      "bytes": 1311,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-004.json",
+      "sha256": "ec7a38a612d5f2c890560b5dbf5e921d1d32820ee55e340b25baa67fb4251c66"
+    },
+    {
+      "bytes": 1638,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-005.json",
+      "sha256": "b9890b87e20cf38c7a770da52c6a96068973ad81117d685f190c3274fcab5c73"
+    },
+    {
+      "bytes": 1965,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-006.json",
+      "sha256": "e9984b0a0b4f88391b646faf518c4e3befbc28f287d063d339fe6e625a51d473"
+    },
+    {
+      "bytes": 2292,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-007.json",
+      "sha256": "038e07ab30d9943c42d168566958ee1887c998b100e39640a5b34502f0172e61"
+    },
+    {
+      "bytes": 2619,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-008.json",
+      "sha256": "85af03e008c1d11536c900294934f0a364c08cbae80772a86c9512d86472478c"
+    },
+    {
+      "bytes": 2946,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-009.json",
+      "sha256": "a955041f307d7d26aaffae24e86d8c05b9582de0cfe4e635a08b7e3b7cc8991a"
+    },
+    {
+      "bytes": 3273,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-010.json",
+      "sha256": "ac6a74fe69fdd743aff643cd4ca29be1ff0f0023557458d0dcbb6eabdf1696cf"
+    },
+    {
+      "bytes": 3600,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-011.json",
+      "sha256": "167c9396225ef79c30250bf029f0688eee33936ddd09fc4253efab5521d4254c"
+    },
+    {
+      "bytes": 3927,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-012.json",
+      "sha256": "ad7627dc2a7ae6fc1e523956d31a88367c7808a726b902368eb252d2065f6e72"
+    },
+    {
+      "bytes": 4254,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-013.json",
+      "sha256": "e5ea25f58f91b84ef64f2322115d6d572fdadf1a09dfc3d048868345c2b896c4"
+    },
+    {
+      "bytes": 4581,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-014.json",
+      "sha256": "a4b1ae81e347d74b6a22e19dcbbec468b6cca649bc2a2d50538bde6c6ab354ed"
+    },
+    {
+      "bytes": 4908,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-015.json",
+      "sha256": "c5c511bdcacdf6fb31d1d31a03236c20a75520265007bdd1594b63a1b5142b0c"
+    },
+    {
+      "bytes": 5235,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-016.json",
+      "sha256": "36ab0939f2c1033aa8b376c8cc6dedb81cdcfeff9886f345c81ad7cd3309c51b"
+    },
+    {
+      "bytes": 5562,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-017.json",
+      "sha256": "b00a5e43ed47401ec727d5cb8b47dc5fabeca527d668724039ff38502db4bdda"
+    },
+    {
+      "bytes": 5889,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-018.json",
+      "sha256": "61bc471449662789ce2ea15eaed1d41f06e3498101120c01700cafd888eb71d4"
+    },
+    {
+      "bytes": 6216,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-019.json",
+      "sha256": "7f4b03ebe742058758efd56a5df8c0139faffc3ace789973a9b6a919cff4bc0f"
+    },
+    {
+      "bytes": 6543,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-020.json",
+      "sha256": "d9550a61485634d4f8ee2254002db30dae8d6638c98202bec5fd555066f0a3ec"
+    },
+    {
+      "bytes": 6870,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-021.json",
+      "sha256": "76edd0574b62d0fc8de44739de078c0198a71d621d48e1ceae88fb763d382e47"
+    },
+    {
+      "bytes": 7197,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-022.json",
+      "sha256": "5f8263dbca19f936348aac848f6d30f94f38df75a988a5d7adfced61cc79257c"
+    },
+    {
+      "bytes": 7524,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-023.json",
+      "sha256": "f099b7199ebf91c22a1ee86b360459447f5735e086b28d6734adb9dca544b618"
+    },
+    {
+      "bytes": 7851,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-024.json",
+      "sha256": "fa116e8ffecfa43a1ec8fa975a0b2f3c7a8604f0fb94b0b2b119d48d316458ca"
+    },
+    {
+      "bytes": 8178,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-025.json",
+      "sha256": "c825a621fa1a313b1e1fa31584e49841ba1dfc88e3398f3c37f9c935d5137bd6"
+    },
+    {
+      "bytes": 8505,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-026.json",
+      "sha256": "5e0c75a208631150fb12fb1272e6e10486b51620bce942200de7ddb3e75136cb"
+    },
+    {
+      "bytes": 8832,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-027.json",
+      "sha256": "cb5c7cc9edb6e72bd9d4c715a2e85a2ac892d0ac120383ec1651c88135b13f76"
+    },
+    {
+      "bytes": 9159,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-028.json",
+      "sha256": "dfcff68c043ec14b53594ffc0150ad85082c1766eaaece9c626da94488784681"
+    },
+    {
+      "bytes": 9486,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-029.json",
+      "sha256": "58b0f1b23d241e50d6839542716449f09ba39961961d16de3215562a7ef70967"
+    },
+    {
+      "bytes": 9813,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-030.json",
+      "sha256": "5ca484bc7359da08a8b72886823bd18fc466cffe209ace72d53eabaa5bdb01c9"
+    },
+    {
+      "bytes": 10140,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-031.json",
+      "sha256": "44fb07dbb0673473194db1f4291b14759cf2e6d99e2092e0a68991d552e5d745"
+    },
+    {
+      "bytes": 10467,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-032.json",
+      "sha256": "49fe9c9b16b0b1041701769f37044e0dbc0ed9173e8045ee0a257afc39011434"
+    },
+    {
+      "bytes": 10794,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-033.json",
+      "sha256": "4b50284c9045b2562420f2a72ed9b9eef48a8834675c5b6f17c4bb9ac0a88d2c"
+    },
+    {
+      "bytes": 11121,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-034.json",
+      "sha256": "a101f277f38c30be1d6f8f0d793a85e8c4b849a92c3c9bb3eee6cf19e80b6ba2"
+    },
+    {
+      "bytes": 11448,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-035.json",
+      "sha256": "56cedcb0b83a10859069882d33f477987d738743146df7e8ffb7a1ce27b9d3a4"
+    },
+    {
+      "bytes": 11775,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-036.json",
+      "sha256": "9d56eca4412963e0306eff89acd8efdd7eadd57a6b5534f1dcda7f9550d0dae0"
+    },
+    {
+      "bytes": 12102,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-037.json",
+      "sha256": "0873ea9d8d11e4184fb76238a46fba9944fc85f36900ff20bae109f952b209bb"
+    },
+    {
+      "bytes": 12429,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-038.json",
+      "sha256": "bbc834ed7a9bd44109a44df4a30537c9bc8de7d791df0a282b2dd9f358d1317c"
+    },
+    {
+      "bytes": 12756,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-039.json",
+      "sha256": "4d36d1376ccf49cf07fea47f75e93a95cf07117f94edb0eaa23727051bf4f36f"
+    },
+    {
+      "bytes": 13083,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-040.json",
+      "sha256": "821f3948dda80a672be981c038603d663e71969eb4d81e851a352ac3bf9a5c38"
+    },
+    {
+      "bytes": 13410,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-041.json",
+      "sha256": "b9fadf4559403405a18ea3809bde7c6844fd5e1b62bd077831aea5ba29c0343c"
+    },
+    {
+      "bytes": 13737,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-042.json",
+      "sha256": "83057db1dbecdeedd08ea1c64ad2d8ba5d0aad8767ebf5076bfab17937e83499"
+    },
+    {
+      "bytes": 14064,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-043.json",
+      "sha256": "7ab73e9c9d1bbec84b639b77d8e183adbf6b3d0d7280151d27acda2eac391393"
+    },
+    {
+      "bytes": 14391,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-044.json",
+      "sha256": "5d7644adc5693047b25c54e93c18a20b93f93ff3e7dee7548da6685241d51c40"
+    },
+    {
+      "bytes": 14718,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-045.json",
+      "sha256": "0ec42197a8821c5bd94a1db5d9a9158a7b3cab4c2950f6a66df66736ebf9d135"
+    },
+    {
+      "bytes": 15045,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-046.json",
+      "sha256": "fbfc35d7da39bece5d8827fecca9aa3f16a4332bd2740bd11a98a7ae1c48ce09"
+    },
+    {
+      "bytes": 15372,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-047.json",
+      "sha256": "873a4f41055b656a5a4297cec23a9218bd5a6fdae7cfdd09d2a789b8d763614c"
+    },
+    {
+      "bytes": 15699,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-048.json",
+      "sha256": "88e2fc8c7547b9109306a5e01474bd278746adccac65c8d44c0f57989fc1fe6e"
+    },
+    {
+      "bytes": 16026,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-049.json",
+      "sha256": "414f022f6b1f3f0920a2b4f204a0196e3775d42569419ae6d91ff8e189f8c09c"
+    },
+    {
+      "bytes": 16353,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-050.json",
+      "sha256": "15a64807e5d01203c935d136c0463d68a3e774449ad73ee62f7cb30547235c51"
+    },
+    {
+      "bytes": 16680,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-051.json",
+      "sha256": "bd00787477a58312acfb4370646493b2fed221de2cef6ef24fd27c11d821bd0d"
+    },
+    {
+      "bytes": 17007,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-052.json",
+      "sha256": "177f197a2f27cfaf6145d9c81f3b936eb9c61e9c271081bac509c548ec079eb0"
+    },
+    {
+      "bytes": 17334,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-053.json",
+      "sha256": "7d247941c3f264d8f10a8276138bb1d44f4313dfb03a892ac5f5b2c8679230a1"
+    },
+    {
+      "bytes": 17661,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-054.json",
+      "sha256": "02519b3993b7de0247c41c89794fdce19424a65920911088566b9edd5c0abd98"
+    },
+    {
+      "bytes": 17988,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-055.json",
+      "sha256": "64866a5498f42292d71f61be11852e244444c8faaa075d95b884ade4c8a566c7"
+    },
+    {
+      "bytes": 18315,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-056.json",
+      "sha256": "82eb791dc17386c77c6372562daabc041e68067f42f00f853c431ad01486ac73"
+    },
+    {
+      "bytes": 18642,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-057.json",
+      "sha256": "69e795e3b3b98deed5fe8c54220ba8fb4d5eb61731bc82fab7152825b39c334e"
+    },
+    {
+      "bytes": 18969,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-058.json",
+      "sha256": "886a9bd637b95c9bb24448668208afb0f8a343969245b847f76e6b66d01a00c1"
+    },
+    {
+      "bytes": 19296,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-059.json",
+      "sha256": "5689146a13aa4f5a8ab94b88593af5d416ca7d11b08ae858c8d35edbc68b2eb1"
+    },
+    {
+      "bytes": 19623,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-060.json",
+      "sha256": "b0d33f7dab8f258707f43cfd21d8cdcd505038d7d8086ab8cca28976ec083fb9"
+    },
+    {
+      "bytes": 19950,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-061.json",
+      "sha256": "cdd82a28a2a8b2136fc98da9187563131a7ca4a5f4f0a4460dc323bf3d2ff6fd"
+    },
+    {
+      "bytes": 20277,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-062.json",
+      "sha256": "c6f6f14d4f39d75a5bb10e0bb9b7d9d0d83bd95cbd9ee33635a9eb751a14b1f3"
+    },
+    {
+      "bytes": 20604,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-063.json",
+      "sha256": "5aae2472f13f1a718099a3fe48df1b037149b9504c517068cbff83ce63f10ab6"
+    },
+    {
+      "bytes": 20931,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-064.json",
+      "sha256": "989ee39183322656c8405b2ae433453d58728383eed5b7093152265b768961a4"
+    },
+    {
+      "bytes": 21258,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-065.json",
+      "sha256": "920bd7f99c5d8f23ba8d65d2eafcc8d7806de3111810e793e1987c015f70050d"
+    },
+    {
+      "bytes": 21585,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-066.json",
+      "sha256": "6d76fa78b301b957d947bba0eba7cbbc39ff88bfd670d93cdc7193cf9bb79225"
+    },
+    {
+      "bytes": 21912,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-067.json",
+      "sha256": "9bc721cc7f95f1aa817b41e22e97dba901aad165be139791a4df12193e50593f"
+    },
+    {
+      "bytes": 22239,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-068.json",
+      "sha256": "5fbebb229d9253bd4e4970bcd9e0e172cf9edf09a0e49e1a6001715841a49b6d"
+    },
+    {
+      "bytes": 22566,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-069.json",
+      "sha256": "cdc1cd5a794a8a658e97c13e38870e7c9643c72832b3a3d851bf0b1b7b069d28"
+    },
+    {
+      "bytes": 22894,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-070.json",
+      "sha256": "bf7a705db7881cef0a8b548535b6c8b5793ed9609541f557415ee11fd83fead8"
+    },
+    {
+      "bytes": 23222,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-071.json",
+      "sha256": "65d0ffcdb4c116f3cbf2f233fdfbce74103a9c10dabffeb8c0ca5267d7f241ca"
+    },
+    {
+      "bytes": 23550,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-072.json",
+      "sha256": "bb5c46c684514a073c20cbd9bf1ad2f68eb3c073f82d9d06640ed79c04c0bb29"
+    },
+    {
+      "bytes": 23878,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-073.json",
+      "sha256": "1c1bdbc7153b31a416e4f96fe11343a5b6ba3b58667ebefbda9270c8a1e45f46"
+    },
+    {
+      "bytes": 24206,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-074.json",
+      "sha256": "3b0758e1301f7e533d166b9ff20595a5052d76de09284a52d10371ab4520f608"
+    },
+    {
+      "bytes": 24534,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-075.json",
+      "sha256": "33bdef1c49a9111135b88116154e450e8d29e3c34e94d521edf84a5569069bc5"
+    },
+    {
+      "bytes": 24862,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-076.json",
+      "sha256": "f43740694814c156873949a54bcc4080db36ce3ce80d5d5e030e14b1b5667013"
+    },
+    {
+      "bytes": 25190,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-077.json",
+      "sha256": "0ce7ea9208e615f5f9e137dc90fb845dcf5af513441bf535db24a9ae9e3b0a47"
+    },
+    {
+      "bytes": 25518,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-078.json",
+      "sha256": "fe4f36ca24e4cbc3432ed729257c4c20be08aca11e5ca78d66091ec3f64988c6"
+    },
+    {
+      "bytes": 25846,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-079.json",
+      "sha256": "86da41c11f5a798afa75d791b2f77273979fd10adc5e8639ead92638e63d979a"
+    },
+    {
+      "bytes": 26174,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-080.json",
+      "sha256": "9d72f19525f71a1721a52b400e9732d0304a99bd67efd80d7db465b0fb6b22fa"
+    },
+    {
+      "bytes": 26502,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-081.json",
+      "sha256": "2bbbf8ca65150315d5fc35240907a60702488f7dbe4cc6c6721347f59eaf3b8e"
+    },
+    {
+      "bytes": 26830,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-082.json",
+      "sha256": "eb0844d935d1dc442cc28f87549be66e679c3aa24b9851e8c97ab948fa950781"
+    },
+    {
+      "bytes": 27158,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-083.json",
+      "sha256": "f3db3b772a8ce9cfd0f2b38ca48e421c5526cbb9f051d15568a353c50f651e67"
+    },
+    {
+      "bytes": 27486,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-084.json",
+      "sha256": "34b083ecd632fec29ff3dfc03cdd0f737a8db40a14d71848c99bf104f4d9a680"
+    },
+    {
+      "bytes": 27814,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-085.json",
+      "sha256": "71b267e6e1cdf0db9168cb2649d97af86994b4940e0a138d6b795670825bfb72"
+    },
+    {
+      "bytes": 28142,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-086.json",
+      "sha256": "282c490c45c9ecf8bd4cf786b33999a03ac1ebd8d67a08ea451afbd8300abc4e"
+    },
+    {
+      "bytes": 28470,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-087.json",
+      "sha256": "f346ad1003fe51a591e90d17c630283a1455f000b608c662b4f276a8461a2c8e"
+    },
+    {
+      "bytes": 28798,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-088.json",
+      "sha256": "2603171e6748f294b2ec05784635564e108c623c6ab59419e1be8857e0931545"
+    },
+    {
+      "bytes": 29126,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-089.json",
+      "sha256": "eccba6d78a505e436f38aecd8c88ad1fc7d2814fa76f0730e9408d8133ae0fb9"
+    },
+    {
+      "bytes": 29454,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-090.json",
+      "sha256": "3d811401a3dd23ffb07e739fca4a95be5ca1753815d3ec5ec404076c49f5f9d4"
+    },
+    {
+      "bytes": 29782,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-091.json",
+      "sha256": "dcd58a34107a752f70361d14449945d1433ec6b7c91275cf5aae55319a32fc57"
+    },
+    {
+      "bytes": 30110,
+      "path": "data/free_rotation_2026-09-07/old_funding/index-092.json",
+      "sha256": "6adb5f4a7462e2ac50f30c07604ad56baac7ed6bd27ab1dfce260d202cf89b92"
+    },
+    {
+      "bytes": 32290,
+      "path": "data/free_rotation_2026-09-07/old_funding/manifest.json",
+      "sha256": "d21ec9c1e19adefd93398f2f82fd48845419e3d530a4f069714465852c51fbb2"
+    },
+    {
+      "bytes": 65616,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-000.json",
+      "sha256": "61d3a945ae0b48556b4ef58cdf3149c5d32c296a7e6ace297ffea7e19ae5b3a9"
+    },
+    {
+      "bytes": 65220,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-001.json",
+      "sha256": "013dc45824f8b0b86a631cbb96c759058bd2ff091157af046d8b80220275ee2d"
+    },
+    {
+      "bytes": 65272,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-002.json",
+      "sha256": "eed8480563b372c8f26e66caa98593c9ed26f25cfeb54f666fc6e02a1b5475ab"
+    },
+    {
+      "bytes": 65130,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-003.json",
+      "sha256": "51867d3b90be3168c72bf0e72e800e05f96cfd2644391bd9771a4112b041878e"
+    },
+    {
+      "bytes": 65914,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-004.json",
+      "sha256": "edf88a44fae016db9e719d2f33e1cca22e923f1e996ce2e9aa6f0ce58ee52fd5"
+    },
+    {
+      "bytes": 66123,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-005.json",
+      "sha256": "cfc98583d2b4821a996bced8035acc272810e00df27ced093656bb5f222cee16"
+    },
+    {
+      "bytes": 65913,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-006.json",
+      "sha256": "7dc56d8267fa585b869e375575902b746547c3c69f724e3d74e1c627dafbbbd9"
+    },
+    {
+      "bytes": 65288,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-007.json",
+      "sha256": "8d45e59b23fd481efd2d4c544e2bffe287133f7f4da7939eda164fe0cbe4049b"
+    },
+    {
+      "bytes": 65457,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-008.json",
+      "sha256": "98293011430e2f60ce202b93c10690ec5cd817d27100bbe86ee841e75aa2ed5e"
+    },
+    {
+      "bytes": 65744,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-009.json",
+      "sha256": "5df72124bbb684c0933e6821a972ff3b220e17c3ee75d5fc1f15b689286e899f"
+    },
+    {
+      "bytes": 65438,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-010.json",
+      "sha256": "9fb112537f2b1e4c770d0073c5509ffd731fa54f4a442b0c3a2b0bbf0da7d01d"
+    },
+    {
+      "bytes": 65583,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-011.json",
+      "sha256": "bc30d3072123dc92d6689528cc6890329ee074ddd9dfc57b97255ef7aa284481"
+    },
+    {
+      "bytes": 65254,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-012.json",
+      "sha256": "6f90eadd39b449558d06db3a96a325fd0c9a3a4b5a12c5dfb4226148b8a9f4db"
+    },
+    {
+      "bytes": 65070,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-013.json",
+      "sha256": "7b7378a790c271bafa6910e385bd907193275dbdf3e4491cd32861ec557c5a95"
+    },
+    {
+      "bytes": 65559,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-014.json",
+      "sha256": "52b09fde2d8b5135c7538ae055111673e49010001b146c2b73386d7a8dea5b71"
+    },
+    {
+      "bytes": 65272,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-015.json",
+      "sha256": "1d63e714566888a4a0fd0046fbc270b69cd78e19c4956150d19303129a1020ce"
+    },
+    {
+      "bytes": 65254,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-016.json",
+      "sha256": "b467d21d276d058cf9aa7ad7ffea3b78c1285faf5c5fc3955a584eae31e65a7e"
+    },
+    {
+      "bytes": 66265,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-017.json",
+      "sha256": "df7f0dd603a578e9907434bd90997e65bc47cdfdced530597cb10d84360ec226"
+    },
+    {
+      "bytes": 65858,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-018.json",
+      "sha256": "696dcfe7e407019f45ef0f5d2f890140de6a4d4b22524720c1ca99f7e80c1ff8"
+    },
+    {
+      "bytes": 65722,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-019.json",
+      "sha256": "9689284c4ba69e961fdd4e605734fa01771c983cbcab3016a41abbe84c1ea568"
+    },
+    {
+      "bytes": 66259,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-020.json",
+      "sha256": "e958dea5a0dffef426e7b073090ddcf132f1e393783af516d1e805ff5b1c2980"
+    },
+    {
+      "bytes": 66447,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-021.json",
+      "sha256": "3de3119b227f5066ed457b5101e06f27f2259e286d4abff0612c2be561018897"
+    },
+    {
+      "bytes": 5568,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-022.json",
+      "sha256": "f4ff24a869747659d43a1ec89c4e802cca0e4943e18970ae89fa8ce0e47ac9ac"
+    },
+    {
+      "bytes": 65737,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-023.json",
+      "sha256": "9d1bd600b06a2c0536de6f9445a6f64ec907fe452de35ae2f40a6de9ec09bd61"
+    },
+    {
+      "bytes": 65177,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-024.json",
+      "sha256": "3932aa02bb8c521caedec58206b9a94601dc877bdbd03ce2c149c5c6dfefa7a8"
+    },
+    {
+      "bytes": 65386,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-025.json",
+      "sha256": "cde28a2b450f189089091f116228b518bed16ed009cfaef2a2ea115108f68153"
+    },
+    {
+      "bytes": 65700,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-026.json",
+      "sha256": "5805eb7f64447649276228f8994e3ff7dae41651eccbf6d574d5f74c42faa404"
+    },
+    {
+      "bytes": 66427,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-027.json",
+      "sha256": "95b9c81b4388c6bb3e4b7358681196adc04e366003abc7530b028288301c5099"
+    },
+    {
+      "bytes": 66455,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-028.json",
+      "sha256": "0475e1b959f3ef31bc073a5f6dc5f39e7dbfa7ad496060805b7daa54506d9568"
+    },
+    {
+      "bytes": 66679,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-029.json",
+      "sha256": "e46d00c97722ea1b3186425b03eb8f8c18cbb6f794f2bf0b1e6de0deb5850da1"
+    },
+    {
+      "bytes": 65664,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-030.json",
+      "sha256": "44aa49de9b1745433261fc6c0d62bd37d71ed34823928b138a731cc6a67ac315"
+    },
+    {
+      "bytes": 65193,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-031.json",
+      "sha256": "cfa75836188942fbd3ae04f0a89b123ae331b0e73270f8e197b3530eac7e2ea8"
+    },
+    {
+      "bytes": 66146,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-032.json",
+      "sha256": "8c739cdec17732c731b018cbc6a0fc5a5ef319afa2e9fa56cc69af74ebff2fa8"
+    },
+    {
+      "bytes": 65437,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-033.json",
+      "sha256": "84c72abe26311b83f26b9a5f14e5312fb30ec8e23a5295f513dedacf9c1d3995"
+    },
+    {
+      "bytes": 65811,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-034.json",
+      "sha256": "f01a673e1aded88fc84ab0f2a5ae0b9d1b6eeb21aa030fb44ea2795da40f4c82"
+    },
+    {
+      "bytes": 65610,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-035.json",
+      "sha256": "2db3da25398fb2134ab6f24e97f6ce91234a3bb44bbb5a44e37a0d793d76391b"
+    },
+    {
+      "bytes": 65305,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-036.json",
+      "sha256": "7842e9f67ef74a4ed3325b3640d5c6c7f37e4f764e02a7969dda32006c045d86"
+    },
+    {
+      "bytes": 65816,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-037.json",
+      "sha256": "a7e32624ddc7d9439bd6ee63f349e0ef3e33d6d9d0250b9a2f9d29da82b11201"
+    },
+    {
+      "bytes": 65734,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-038.json",
+      "sha256": "7d84cbb09f3662eb194051055160be484eabdb597b4ada575da3ec63f9f46576"
+    },
+    {
+      "bytes": 65496,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-039.json",
+      "sha256": "04bea5710113b0250b7626644d476219f1bb00beae49007136c727d73b58c437"
+    },
+    {
+      "bytes": 65571,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-040.json",
+      "sha256": "872b556225a2444c0cd4c70d41c3426177497ebe069501463921c241e48440a3"
+    },
+    {
+      "bytes": 65770,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-041.json",
+      "sha256": "b5ece90b164c21b464bce431841155ca9c80e49b6dfda2563dc4db6615a924a9"
+    },
+    {
+      "bytes": 65577,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-042.json",
+      "sha256": "1a1b097894f104a0cbece4377bd46f0be8fc5eaa301d8e341637f0d42b1f93ee"
+    },
+    {
+      "bytes": 66301,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-043.json",
+      "sha256": "4194aa2392e8f40d5b7f6882c8cc5f6b5323dfc7790f58a30dd6dbf69b072435"
+    },
+    {
+      "bytes": 66307,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-044.json",
+      "sha256": "cda67bb75d165ee4523518753fc449f5ebc087c9ef4887eeabe32dadb2e4015e"
+    },
+    {
+      "bytes": 5583,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-045.json",
+      "sha256": "195844127dc649bca1f6c4b7cc3e07837bd143f6620248a3a0b6362f8a777b61"
+    },
+    {
+      "bytes": 65539,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-046.json",
+      "sha256": "0efa57e2a622711914c7e122900527d9719acfbdb2dc1dad06e107c0d92ec799"
+    },
+    {
+      "bytes": 65507,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-047.json",
+      "sha256": "9eac472932a3c74435b6a6ce4c46e5a6792b8851c889f88894fabd7892874f8b"
+    },
+    {
+      "bytes": 65426,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-048.json",
+      "sha256": "87f677d60a73aed9c5c08f3e62ff47136cbcaba12c326d840b7726dd8b87d4c3"
+    },
+    {
+      "bytes": 65937,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-049.json",
+      "sha256": "074cbac6c219edaac1beb201918ee30c23da4743bf6a66e83da2354756ffdd17"
+    },
+    {
+      "bytes": 66375,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-050.json",
+      "sha256": "f2c0b338fb770470137c26a4050c55917da335b476b33bfb3accc11f61c0fd48"
+    },
+    {
+      "bytes": 66347,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-051.json",
+      "sha256": "bcdc81747886ed84e946733faef116921ceb6b5cb71461792fa82114ccd0b8ad"
+    },
+    {
+      "bytes": 66427,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-052.json",
+      "sha256": "0a99e8d9f97650177ca1c6912bf642c185e2a8f7904ffd977c5f810ee02fccfe"
+    },
+    {
+      "bytes": 65482,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-053.json",
+      "sha256": "f349c4284c77f4530674691ae53c81e8d6ea07074771fdc71f47809e4a5a7a87"
+    },
+    {
+      "bytes": 65733,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-054.json",
+      "sha256": "6ff61c2743467b3abc939d4562330f1ef027995b513ecc3571247f145f51dbfd"
+    },
+    {
+      "bytes": 65856,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-055.json",
+      "sha256": "760c20249c662f229c64e77c26d571f2a4fcc801ebe69641cb8fef3ecde11659"
+    },
+    {
+      "bytes": 65861,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-056.json",
+      "sha256": "7329a75b30de3bfff59ef6c86996213923183d2cad2b1be663b1157fe1cfc642"
+    },
+    {
+      "bytes": 65584,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-057.json",
+      "sha256": "cb89bcf6dfb741b5e73a07ef75faeb52671255b4136ef0074fa4b8720427d55e"
+    },
+    {
+      "bytes": 65502,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-058.json",
+      "sha256": "0f34753023da929a51dff17ef3afffc5ea8e43d4fd54171c9cbc0ad7d6dde0ae"
+    },
+    {
+      "bytes": 65239,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-059.json",
+      "sha256": "fa7abf347010034e6d34901356471397f02856217a7aa07dc889e55caca89fd8"
+    },
+    {
+      "bytes": 65804,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-060.json",
+      "sha256": "a1d77b647b2fc5984b99b8fad4ee1528b43ecad6fc86edeae6bef175615ed799"
+    },
+    {
+      "bytes": 65987,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-061.json",
+      "sha256": "07133a0f20207bbb426bfdafc81c9e42f9c2544f81844a8722c66b11bfc4072e"
+    },
+    {
+      "bytes": 66642,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-062.json",
+      "sha256": "b2684fe27fd6779235b56d71d573cd5138f390846a80b8ef2ffa84ec5da9d48f"
+    },
+    {
+      "bytes": 66394,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-063.json",
+      "sha256": "14a9efb280b0b85929a296cb70583bc9a3a903ef3d89a16d13f4215a2190024d"
+    },
+    {
+      "bytes": 65825,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-064.json",
+      "sha256": "d969f60ee7aefc3d4e4ab570f8456db1a05040d2eb788490bd9ab5a114034db4"
+    },
+    {
+      "bytes": 65792,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-065.json",
+      "sha256": "c432fc3fd6ea85a25891bb986bf582fb720c74cd779c6f693abc1ea14a23d488"
+    },
+    {
+      "bytes": 66904,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-066.json",
+      "sha256": "74478e7f5bb55955d73765da4288d8cb87e1fd38ca53a71af7e08accfc3ceeb9"
+    },
+    {
+      "bytes": 66971,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-067.json",
+      "sha256": "1491577b0ea8e7686678975c57c8b16fd67e56ad7adac69cda4a710abfcfb93b"
+    },
+    {
+      "bytes": 5599,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-068.json",
+      "sha256": "284a8641a304a9fea62f481f165c408a08f56cf93815ce2b533054656d24cb2d"
+    },
+    {
+      "bytes": 66488,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-069.json",
+      "sha256": "abd7a47fd5ace5739535d3b27d881895bd1f8a2033f794aef873defc5ebfe7ec"
+    },
+    {
+      "bytes": 66130,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-070.json",
+      "sha256": "e3c0f40170736d13e7c33cd05c8c8b27db8b320d05addd4e1d6840e889464b06"
+    },
+    {
+      "bytes": 66041,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-071.json",
+      "sha256": "716e4977c33cabd9f09ed6c432fd6b361ef4dd1f62d646dfc1d45a336cadcdd2"
+    },
+    {
+      "bytes": 65799,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-072.json",
+      "sha256": "122e0336fcfe50f408f96605569cae946e7112edc0f9ab5b260e0a11845e3b5f"
+    },
+    {
+      "bytes": 65771,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-073.json",
+      "sha256": "1da322f16dc385948bcbb076af4db1528f90074b9911834a9365ce8006582015"
+    },
+    {
+      "bytes": 65841,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-074.json",
+      "sha256": "a431402e8aff65087cdcfe0868557e3315210be98ae436dc0c04d974b03b7a36"
+    },
+    {
+      "bytes": 65843,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-075.json",
+      "sha256": "f521ce3945ac3faed2c25b70e5513868637f6e3bf35b63fae9aa423fd8ac6a60"
+    },
+    {
+      "bytes": 66005,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-076.json",
+      "sha256": "5cffdd896a746fc2a789c31f828671444b849f5ce5618ce268c9207d27f6d848"
+    },
+    {
+      "bytes": 66012,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-077.json",
+      "sha256": "517b76298b3c690342f99940eb10808cb5128906b9e7e7428575d4bd6c6d0d91"
+    },
+    {
+      "bytes": 65809,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-078.json",
+      "sha256": "d9b902a9558a52cecbc8eedb07754ad12a1aebbc5d15a11a5da836f9c4197852"
+    },
+    {
+      "bytes": 65967,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-079.json",
+      "sha256": "547a71e35ada1a79cde5055e93a1aad02fc068e936622f438ee0f551d62a6a8a"
+    },
+    {
+      "bytes": 66079,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-080.json",
+      "sha256": "213aee09f51fe206b73360b7aaaa8609fa45ab8b74e65e5ce01d782a37b3dd65"
+    },
+    {
+      "bytes": 65749,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-081.json",
+      "sha256": "5ae2a3437a10a7dbd890035ce68e8906c9047c66835a5c72b633614dfaac03bb"
+    },
+    {
+      "bytes": 65956,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-082.json",
+      "sha256": "9a81c7c64229c00bdfb987f17ec7b5901753010a418ccb95ede7f16e9a6c54cc"
+    },
+    {
+      "bytes": 66059,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-083.json",
+      "sha256": "df17514ecd55d2b45cb2b9078cf96a7a5df7f8a2193b298e703a284761eb6515"
+    },
+    {
+      "bytes": 65823,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-084.json",
+      "sha256": "4d0a170297703dc8de9a253020d9038eef5b232c5c9beb3bd81afcc27e67a056"
+    },
+    {
+      "bytes": 65812,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-085.json",
+      "sha256": "a18244381e218aef2c4f683269557ad8e01f8ff76780fcf48d41a38148855b1d"
+    },
+    {
+      "bytes": 65622,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-086.json",
+      "sha256": "37db5a0d59863e7b68b61e931a68f7db37453b3aa4dba433bd17245cb1cc6031"
+    },
+    {
+      "bytes": 65563,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-087.json",
+      "sha256": "950913d7800930d58cb01c7096b329eafc11a44a2af3e9381ebaddcdf14d026e"
+    },
+    {
+      "bytes": 65575,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-088.json",
+      "sha256": "49342aafc250ab94a25dfd8373611058f9ce6576b13c3997d2d6a56f83adc931"
+    },
+    {
+      "bytes": 65798,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-089.json",
+      "sha256": "94df0c12c378b69e761c61c90e93464bfe9776863b8ab2db75340f2d2221d280"
+    },
+    {
+      "bytes": 66220,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-090.json",
+      "sha256": "146ba90db28d756ccd401e9fc4f7d93770255e05c3c2766cd6099dd60c87da0a"
+    },
+    {
+      "bytes": 4198,
+      "path": "data/free_rotation_2026-09-07/old_funding/request-091.json",
+      "sha256": "628b81ae028cf68d506ad04c367aba9ae558b046e2b9e2c676e987bc46f5e4c6"
+    },
+    {
+      "bytes": 743413,
+      "path": "data/free_rotation_2026-09-07/run1/carry_relative-events.json",
+      "sha256": "0964af11dd55e6f1eab3ac3b680f3817d57f23d0db8beab481480087a7cba96f"
+    },
+    {
+      "bytes": 756289,
+      "path": "data/free_rotation_2026-09-07/run1/momentum7d-events.json",
+      "sha256": "6d03aa0e8c879a23efab6af509ae9c070857a371540e566586863e30e1aaa491"
+    },
+    {
+      "bytes": 29520,
+      "path": "data/free_rotation_2026-09-07/run1/summary.json",
+      "sha256": "4cc0819e0a8d7c260a56b91276669dcd0810690679d66456beb69fef3c4de15d"
+    },
+    {
+      "bytes": 170442,
+      "path": "data/free_rotation_2026-09-07/run1/trend30d-events.json",
+      "sha256": "e1d8aae32bcfb2bc92f7376c06b15201674fb4507f0bf2efff6b137945884aca"
+    }
+  ],
+  "http_response_bytes": 4300441,
+  "promotion_authorized": false,
+  "public_data_requests": 96,
+  "run_id": "free-rotation-2026-09-07",
+  "secrets_used": false,
+  "server_modified": false
+}

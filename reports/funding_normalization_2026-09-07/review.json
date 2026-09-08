@@ -1,0 +1,17 @@
+{
+  "decision": "REPLICATION_EVENT_SCREEN_PASSED_PORTFOLIO_UNQUALIFIED",
+  "drawdown_20pct_validated": false,
+  "evidence": {
+    "controls.json": "62f4ce89e64bc79bef0eb4d2141bba12432fbabede825865ea7ecd9cae0c605f",
+    "replication_controls.json": "217e340889f895dda38df20ece79558a7e513606e34fd27d36b6280c55a0c1d7",
+    "replication_reproduction.json": "df6c7a208a880d2be844d0b3ba4974f280f6b4a7ac12bd68e0769d5c8a7372d3",
+    "replication_summary.json": "9fd577f052709bd4362bb47e4441dd763fe58161eea44146d6726405eed10913",
+    "summary.json": "861a9ea47cd6d9c17d6a6d924d6418500bac4804f0667b722aea92f21d353bd8"
+  },
+  "exploratory_72h_replication": "positive in all four paid scenarios, positive without best event",
+  "next_step": "register continuous 52-day portfolio and simple-exposure controls before sizing results",
+  "portfolio_return_validated": false,
+  "primary_24h_decision": "HYPOTHESIS_NOT_CONFIRMED",
+  "promotion_authorized": false,
+  "replication_cashcat_share_percent": "95.95654253545289430599285966"
+}

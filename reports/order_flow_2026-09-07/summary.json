@@ -1,0 +1,1490 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/evaluate_alternatives.py": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+    "/workspaces/hyperbot2/scripts/investigate_cross_venue.py": "54555b20192e2c444d9caedc74673e59432194ff6df45d0efb7fde2d0db701c2",
+    "/workspaces/hyperbot2/scripts/investigate_order_flow.py": "e9d232452b970e16be6bd15fee6ec2eadb09b9ed1112ee75d19c540a2d5a88a5",
+    "/workspaces/hyperbot2/scripts/investigate_volume_shocks.py": "6b954fd0968819d8d3dcf1836f92efcdcb8ec2cc554ed90f30f09feb37c3d53c",
+    "src/hyperbot2/research/order_flow.py": "082ab1aa0fbdf59bb95eed463343444f32481f1a75b547caad60057840d28edb",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "end_ms_exclusive": 1788652800000,
+  "incremental_data_cost_usd": 0,
+  "independent_holdout": false,
+  "limits": [
+    "external USDC contract flow, not all Binance flow",
+    "prior price history reused; local two-rule correction only",
+    "no receipt-time or executable quote evidence; hourly-open fills hypothetical",
+    "funding valued with hourly price proxy; no risk-sized portfolio"
+  ],
+  "network_calls": 0,
+  "promotion_authorized": false,
+  "protocol_sha256": "3ef593679fbcf9428aa01a1e205cbb65f38e1d0dd694a374e7ef2b6e88a8ce80",
+  "run_id": "order-flow-2026-09-07",
+  "source_hashes": {
+    "data/cross_venue_2026-09-07/binance/request-000.json": "dc5d7eb5b50672a6713f9451afa2a0d35e13d547075ca5e7d8f0e1e86e5dae8c",
+    "data/cross_venue_2026-09-07/binance/request-001.json": "3f0b8597a70b4f6e23e4fc0165859cf43678644aa40d9f2d615c22026b6bf09c",
+    "data/cross_venue_2026-09-07/binance/request-002.json": "24d47644a84d12b2d2e2bde272515f98022a228091b4845b9208b5240f9e7d2b",
+    "data/cross_venue_2026-09-07/binance/request-003.json": "6a7af55d58e37337b902f71491a7d3eaec00ebf70f182cfa7c2c8a7e9ca4ab62",
+    "data/cross_venue_2026-09-07/binance/request-004.json": "da3c180f123d0dfc7569629ad4a7f81a45fd11807802e243f3f93be3707bb1f1",
+    "data/cross_venue_2026-09-07/binance/request-005.json": "6a2710d2225b99c12c2fb239a1ccc9a1a8bee86ab2e5650678748cd25b986469",
+    "data/cross_venue_2026-09-07/binance/request-006.json": "194b7f33d0b10065f5c70388168669e3c5fa17abd13bc9fed761a82270b2db3f",
+    "data/cross_venue_2026-09-07/binance/request-007.json": "f8fd2488d4a60a0d6d733190e2831b00e85a8fc1fec4df2299ce655a6efddb88",
+    "data/cross_venue_2026-09-07/binance/request-008.json": "895aff1a771a8aa7fb95ca792896092b217f8b090fa03a04aa2c742ee9a585e2",
+    "data/cross_venue_2026-09-07/binance/request-009.json": "d67bacc8369a5c4d3e05b062a69eb92a2524d927c38cee5a740aa452bb1029ab",
+    "data/cross_venue_2026-09-07/binance/request-010.json": "64883a7d5c3d543e85396ddb0774fca823a468196f9c05cf9307c182d01f62a1",
+    "data/cross_venue_2026-09-07/binance/request-011.json": "8fb629c7ba25d2d383cfafc1c924aff004d4468e56320bdc977f7908ae47fc89",
+    "data/cross_venue_2026-09-07/binance/request-012.json": "8c12e6cae5d94d00bc9090b16aa6d4edf5482cfaab9a3e063c1825c0f504359a",
+    "data/cross_venue_2026-09-07/binance/request-013.json": "9e893b25216b242e806e4e8416f3a996c0e148e0cb04bd933181b9f3d3363e04",
+    "data/cross_venue_2026-09-07/binance/request-014.json": "d417ed4d374934ebcfbcb585bd5a8b5451ec148330660f16e18b84f3ebb25a56",
+    "data/cross_venue_2026-09-07/binance/request-015.json": "164283c4426cd809d096d38338378e19b7f5003a819a816ea66453420c895d80",
+    "data/cross_venue_2026-09-07/binance/request-016.json": "6f1487790d2171a6671d860a1b75a9b66a6e16b494c345d11e3732e17d8c0178",
+    "data/cross_venue_2026-09-07/binance/request-017.json": "88cd7d0809706b85f8c653a518c65a60358759c9327a9def4716c813a8fffa72",
+    "data/cross_venue_2026-09-07/binance/request-018.json": "9564edf6ffe8cc3366fab83ab06f914059cb3ba80ba21921cc84cfc03316e21a",
+    "data/cross_venue_2026-09-07/binance/request-019.json": "154e1f01157e7346fc1aa182dd224424089113a2ac4c15d2fb45cbbd2080ce6e",
+    "data/cross_venue_2026-09-07/binance/request-020.json": "9ad80bdb43880e4fec66c22d893efa9d05e21cd249ea2ccc05d62ba32b8fd1da",
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+  },
+  "start_ms": 1773100800000,
+  "strategies": {
+    "absorbed_pressure": {
+      "criteria": {
+        "all_cost_scenarios_positive": false,
+        "corrected_interval_lower_positive": false,
+        "four_positive_blocks": false,
+        "positive_without_best": false,
+        "profit_factor_above_1_2": false
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "horizons": {
+        "1": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "-50.71274531702716345398947391",
+              "0",
+              "-30.66208216205974402999260402",
+              "-2.655570984136968830630209611",
+              "21.41527702175330339178131270",
+              "112.0907292811261500777613985"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "53.35135070858825766013185801"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-44.14613140575730096788882679"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "40.27038853682462046268739243"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "3.533971988546826939637887404",
+            "positive_fraction": 0.42857142857142855,
+            "profit_factor": "1.269066532129435330245369551",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "31.75123306736099516622406049"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "17.72437477229458198870636316"
+              }
+            },
+            "sum_net_bps": "49.47560783965557715493042365",
+            "sum_without_best_bps": "-19.88326635428306538887112583",
+            "worst_event_bps": "-44.14613140575730096788882679"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "-80.75198861571280657258349391",
+              "0",
+              "-60.69076532623938435552984936",
+              "-17.65620420910011561133577171",
+              "-68.55379219282213288991845900",
+              "67.15144868901961712342099895"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-6.58476991114350691204796443"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-59.19020930018589258303752774"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "-94.72632244352542281086108288"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-11.46437868963248730756761251",
+            "positive_fraction": 0.42857142857142855,
+            "profit_factor": "0.4720061361449665095354426215",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-103.1957878666508803300297790"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-57.30551378820394197591679604"
+              }
+            },
+            "sum_net_bps": "-160.5013016548548223059465751",
+            "sum_without_best_bps": "-214.9352541684563560942958231",
+            "worst_event_bps": "-59.19020930018589258303752774"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "-38.88305689027832796489308594",
+              "0",
+              "-32.90841172538857294486612349",
+              "1.888246195893766562293952258",
+              "-231.3040589670708625947437405",
+              "50.84937415341761669819792509"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-74.75991147170352899682076560"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "0.2689631300730055955442291557"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "-175.8669588917958568427345361"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-17.88270765953045573171507661",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.3157777025239787395404854877",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-213.1139554958362801365870763"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-37.24395173759010010742399620"
+              }
+            },
+            "sum_net_bps": "-250.3579072334263802440110725",
+            "sum_without_best_bps": "-343.0587811331589529941636397",
+            "worst_event_bps": "-139.7168924508353261769115176"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "-51.22429902776985080248833346",
+              "0",
+              "-30.91508787818615280885619024",
+              "-2.905365606858071506995551587",
+              "20.63967100025037212454723544",
+              "111.6339831243121334371150949"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "52.64159883564783224062196817"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-44.14613140575730096788882679"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "38.73343418185789917058911364"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "3.373492972267745031665875359",
+            "positive_fraction": 0.42857142857142855,
+            "profit_factor": "1.254748507481329465167835463",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "30.01863491923556168149421599"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "17.21026669251286876182803903"
+              }
+            },
+            "sum_net_bps": "47.22890161174843044332225502",
+            "sum_without_best_bps": "-22.08959538398883606143861006",
+            "worst_event_bps": "-44.14613140575730096788882679"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "-24.88751417839910639879559563",
+              "0",
+              "-4.76534782173782159799138477",
+              "10.21344813766176679724366184",
+              "99.12811667071510117710984170",
+              "150.9646239278823174298415789"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "104.9316420424039436529639716"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-31.06777554727081540961667145"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "156.7894602409891291640608018"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "16.47523762400873267195772157",
+            "positive_fraction": 0.6428571428571429,
+            "profit_factor": "3.134302487320538140910450526",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "147.8319826948693199856338455"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "82.82134404125293742177425647"
+              }
+            },
+            "sum_net_bps": "230.6533267361222574074081020",
+            "sum_without_best_bps": "148.3819926499793311289760969",
+            "worst_event_bps": "-31.06777554727081540961667145"
+          }
+        },
+        "24": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "-564.5124181776880927215162009",
+              "0",
+              "-270.1839972890554828955934426",
+              "-98.86971618621388112966295183",
+              "193.7878417586483580429046912",
+              "513.8994041433751348697286680"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-597.7113133714201149579830943"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-221.1696288769750891197262491"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "593.0020564974612402435701073"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-16.13420612506671170243851687",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.8873833045888296765102169409",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-573.8089107613353791810189113"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "347.9300250104014153468796752"
+              }
+            },
+            "sum_net_bps": "-225.8788857509339638341392362",
+            "sum_without_best_bps": "-1067.305605976673730766257556",
+            "worst_event_bps": "-654.1199419058442698330693468"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "-594.3796410326607243844286563",
+              "0",
+              "-300.0448015060192263181111556",
+              "-113.9732834904698467477025433",
+              "103.8791859446846243572795650",
+              "467.6660626996233226232954113"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-657.9158620639072561218610192"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-236.3999647643819998135957377"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "457.4633494434474054657893781"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-31.20374838463156074783338419",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.7959797786983681515248515156",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-709.4038126871083669543771186"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "272.5513353022665164847097398"
+              }
+            },
+            "sum_net_bps": "-436.8524773848418504696673787",
+            "sum_without_best_bps": "-1262.389600642353202896712654",
+            "worst_event_bps": "-669.8069361071299934637785060"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "-517.0681523871333612115661347",
+              "0",
+              "-260.3870354744378420191916050",
+              "-53.14183951261586599706378444",
+              "22.6537727168564836363409873",
+              "664.4892317295043314078043698"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-665.4310919836025890179033372"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-150.5669952848910659818150317"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "672.5440643406674008160422019"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-10.24671592341616101311972621",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.9251183552270616983237227137",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-629.7264536507334083569439863"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "486.2724307229071541732678193"
+              }
+            },
+            "sum_net_bps": "-143.4540229278262541836761669",
+            "sum_without_best_bps": "-1212.987311166495332590192269",
+            "worst_event_bps": "-677.6984407985014928759552703"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "-579.7182887212900951512033683",
+              "0",
+              "-276.7975108890341514710025829",
+              "-104.1465846421168550249371650",
+              "178.5965952723865169946928843",
+              "502.5445841668018470011407060"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-615.6796469479720714019801966"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-223.2043035452038309392114539"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "559.3627456799231646898821246"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-19.96580034380376697509353759",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.8636798159301281795176714145",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-612.1260803174728627235493011"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "332.6048755042201250722397752"
+              }
+            },
+            "sum_net_bps": "-279.5212048132527376513095262",
+            "sum_without_best_bps": "-1120.947925038992504583427846",
+            "worst_event_bps": "-660.1344320903929434140518008"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "-545.6106130188850550261317303",
+              "0",
+              "-247.1684626182676256228123427",
+              "-88.43036109064112011790714812",
+              "270.7277465934614100847347538",
+              "553.6261911558089508636980201"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-554.1070100633961677503449507"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-208.3930790555396233629672116"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "705.6445901404123512948937151"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-4.061107069894531415601317664",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.9701812087132883583501683010",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-473.0553355478712427597726838"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "416.1998365693478029413542366"
+              }
+            },
+            "sum_net_bps": "-56.8554989785234398184184473",
+            "sum_without_best_bps": "-917.4202375794609328096490754",
+            "worst_event_bps": "-643.5773783428320911880754056"
+          }
+        },
+        "6": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "-245.9931157291581988382784168",
+              "0",
+              "-201.1177617952596554535168346",
+              "8.695593374049798647366029590",
+              "-62.83476098800504486651062653",
+              "228.9557495687513842598330040"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-241.4356570729084934705328769"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-69.31882443265251845895419405"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "38.4601859359392956783802266"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-19.44959254068726544650763174",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.6845332284619905777219069356",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-92.15193925055769222367996938"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-180.1423563190640240274268750"
+              }
+            },
+            "sum_net_bps": "-272.2942955696217162511068443",
+            "sum_without_best_bps": "-541.5679404160219385279558906",
+            "worst_event_bps": "-179.4725397558436791122591110"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "-275.8790029121622726706802578",
+              "0",
+              "-230.9529014397314616402791187",
+              "-6.293576968590049462409778624",
+              "-152.7022415731747094182984588",
+              "183.6313083549747439874952898"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-301.3096667171490351863488920"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-84.38911685510090864187470849"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "-96.4976309664338053759487236"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-34.44260103847741065744088029",
+            "positive_fraction": 0.2857142857142857,
+            "profit_factor": "0.5199174064027329254507174666",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-227.2315486306318831370769167"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-254.9648659080518660670954074"
+              }
+            },
+            "sum_net_bps": "-482.1964145386837492041723241",
+            "sum_without_best_bps": "-736.1844881710760667377373872",
+            "worst_event_bps": "-194.2866329350306557360280092"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "-229.4855166898905102543352136",
+              "0",
+              "-183.5072073572589815266812385",
+              "-55.52676166915795479530745025",
+              "-73.11316222128378532272611785",
+              "60.92360594940912936361137427"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-325.7844992379329387598846506"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-85.27651203552760869036627166"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "-69.6480307147215550851877237"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-34.33636014201300732395990329",
+            "positive_fraction": 0.2857142857142857,
+            "profit_factor": "0.4977344011353203784634113924",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-405.2886718073005883843006309"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-75.4203701808815141511380151"
+              }
+            },
+            "sum_net_bps": "-480.7090419881821025354386460",
+            "sum_without_best_bps": "-683.9099398182651891322534324",
+            "worst_event_bps": "-181.5970174846469954105240881"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "-249.1707653319784121601258628",
+              "0",
+              "-202.6216909914206911063399323",
+              "7.222887114508061084220360598",
+              "-67.26106597132570372248636153",
+              "226.2223471718470779292436094"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-245.6729886659738354539453692"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-69.31882443265251845895419405"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "29.3835250902566859374113766"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-20.40059200059783342682058476",
+            "positive_fraction": 0.35714285714285715,
+            "profit_factor": "0.6725994888466882730945536488",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "-102.1188901604272751755859797"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-183.4893978479423927999022069"
+              }
+            },
+            "sum_net_bps": "-285.6082880083696679754881866",
+            "sum_without_best_bps": "-554.8819328547698902523372329",
+            "worst_event_bps": "-179.8519408993258937011716688"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "-221.3282638937993888996486196",
+              "0",
+              "-175.6758314660184636652034299",
+              "20.94403288988868634371485087",
+              "14.33526353622612772775542184",
+              "267.7124880603685301157390203"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 4,
+                "sum_net_bps": "-191.3419066639987796256749644"
+              },
+              "ETH": {
+                "n": 1,
+                "sum_net_bps": "-55.92199598508746773731000861"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 9,
+                "sum_net_bps": "153.2515917757517389853422165"
+              }
+            },
+            "events": 14,
+            "mean_net_bps": "-6.715165062381036312688768314",
+            "positive_fraction": 0.42857142857142855,
+            "profit_factor": "0.8747059359969122846671493126",
+            "sides": {
+              "-1": {
+                "n": 9,
+                "sum_net_bps": "20.75804465991456064669604858"
+              },
+              "1": {
+                "n": 5,
+                "sum_net_bps": "-114.7703555332490690243388050"
+              }
+            },
+            "sum_net_bps": "-94.0123108733345083776427564",
+            "sum_without_best_bps": "-377.3908741316833544538533112",
+            "worst_event_bps": "-166.2905025034373621812332997"
+          }
+        }
+      },
+      "primary_interval": null
+    },
+    "accepted_pressure": {
+      "criteria": {
+        "all_cost_scenarios_positive": true,
+        "corrected_interval_lower_positive": false,
+        "four_positive_blocks": true,
+        "positive_without_best": true,
+        "profit_factor_above_1_2": true
+      },
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "horizons": {
+        "1": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "-197.3521996832504192493535375",
+              "-298.7398100771630946211845697",
+              "-746.2387320184382665690678992",
+              "396.9384607703568418136252940",
+              "-86.56448525663855660215384462",
+              "-73.11298643331222179190103549"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-507.9389518068077584596221297"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-193.3047824552197865626271664"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-303.8260184364181719977862961"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "-9.220823419251795568991152211",
+            "positive_fraction": 0.3394495412844037,
+            "profit_factor": "0.6354784771766622082898986636",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "-842.2267375766528716808411619"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-162.8430151217928453391944304"
+              }
+            },
+            "sum_net_bps": "-1005.069752698445717020035591",
+            "sum_without_best_bps": "-1311.916586705029348260204530",
+            "worst_event_bps": "-188.8810511555060188802152578"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "-422.5016301246557506347933783",
+              "-583.6517878684595258692493332",
+              "-1121.278393421409051634187495",
+              "126.5359071409800112528870354",
+              "-386.4741931883276930884548594",
+              "-253.3929206268065233258308489"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-1017.810609014367213380400541"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-674.0411311425935338826430216"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-948.9112779317177860365853166"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "-24.22718365218971131467549433",
+            "positive_fraction": 0.22018348623853212,
+            "profit_factor": "0.3272526109242989851686072814",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "-1742.978268315076132635995969"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-897.7847497736024006636329090"
+              }
+            },
+            "sum_net_bps": "-2640.763018088678533299628882",
+            "sum_without_best_bps": "-2932.285391560833411569106078",
+            "worst_event_bps": "-203.6851153716714808232300079"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "34.93121266115292383171216673",
+              "-422.9853752624442747964169038",
+              "-54.65893644758915580629049073",
+              "-352.4329085307365018724402748",
+              "-377.4430171562452415334764196",
+              "121.3073266721101037805494278"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-372.5952727146780408269529153"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-146.8357552134240234884619777"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-531.8506701356500820809476012"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "-9.644786220768368315562958661",
+            "positive_fraction": 0.3761467889908257,
+            "profit_factor": "0.6252327155881018045743700516",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "-473.5320210940255222854974120"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-577.7496769697266241108650821"
+              }
+            },
+            "sum_net_bps": "-1051.281698063752146396362494",
+            "sum_without_best_bps": "-1356.671349280327796233531810",
+            "worst_event_bps": "-132.5817365908654951787561592"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "-198.9855684437363151194193107",
+              "-300.4339471378630151592072629",
+              "-748.8824013183066590666754176",
+              "395.8498176930269574814253914",
+              "-88.81521838923422426327978622",
+              "-74.55846572617230543637390457"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-511.7821605492490164359630753"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-196.3335982901378175277350583"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-307.7100244828987275998321569"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "-9.319502599287023500582846697",
+            "positive_fraction": 0.3394495412844037,
+            "profit_factor": "0.6326514760867395173833893172",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "-850.8777075901789552394811634"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-164.9480757321066063240491272"
+              }
+            },
+            "sum_net_bps": "-1015.825783322285561563530290",
+            "sum_without_best_bps": "-1322.672617328869192803699229",
+            "worst_event_bps": "-188.8810511555060188802152578"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "-1.81248676975598279659429970",
+              "-51.72721394613208498819761312",
+              "-421.4686860719378539721391134",
+              "632.1065978625172938789930412",
+              "172.9011105550036634095505364",
+              "83.02292509217988546908660144"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-66.53884127823004794251286294"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "223.6978251175624422164531456"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "255.8632628825425267267588701"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "3.789194924053898357804579385",
+            "positive_fraction": 0.5137614678899083,
+            "profit_factor": "1.212264819706025267624115709",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "-64.61825228031006873098071095"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "477.6404990021849897316798636"
+              }
+            },
+            "sum_net_bps": "413.0222467218749210006991530",
+            "sum_without_best_bps": "92.7769096347500906754264165",
+            "worst_event_bps": "-175.9103521420995682590017462"
+          }
+        },
+        "24": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "545.0428030905510817676529792",
+              "-362.1141603115768718254885675",
+              "747.9596584356855945539075013",
+              "700.6670302675957638298166300",
+              "-387.6737305403001816260032034",
+              "1004.978863934484459760231991"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "886.1039357411138947702715029"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "70.2093210900827674641862062"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "1292.547208045243184225659622"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "20.63174738418752152715703973",
+            "positive_fraction": 0.4954128440366973,
+            "profit_factor": "1.250276853961789086172166703",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "2352.405214223222231066880169"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-103.5447493467823846067628344"
+              }
+            },
+            "sum_net_bps": "2248.860464876439846460117331",
+            "sum_without_best_bps": "1150.877717326930115533367451",
+            "worst_event_bps": "-702.0921597020661819820701976"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "320.8026122858257574405392388",
+              "-647.1155854903050719267063338",
+              "377.4096918713576015074661702",
+              "428.7763151652018872563626574",
+              "-686.8701831186792533114633725",
+              "823.3539093452089626324848893"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "375.6518775661455312526108912"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-408.8481229133641089436812062"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "649.5530054058284612897535653"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "5.654649174849631959620947260",
+            "positive_fraction": 0.48623853211009177,
+            "profit_factor": "1.062743356107740731700543440",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "1454.957448068116141336572366"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-838.6006880095062577378891152"
+              }
+            },
+            "sum_net_bps": "616.3567600586098835986832513",
+            "sum_without_best_bps": "-465.4690796477081641991390967",
+            "worst_event_bps": "-716.3568205810944486536616278"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "800.7309695278794936447182067",
+              "-484.9659206855540599694303055",
+              "1210.054860448053987932185487",
+              "302.7394657741816574239777910",
+              "-748.5371944479659685226986905",
+              "700.1715070942073959481010681"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "914.3576964399588701783837585"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-297.5034248965893305369704423"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "1163.339416167432966815440239"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "16.33205218083305051795278493",
+            "positive_fraction": 0.5137614678899083,
+            "profit_factor": "1.185260970627978094771036858",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "1896.728092366953693224033742"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-116.5344046561511867671801884"
+              }
+            },
+            "sum_net_bps": "1780.193687710802506456853557",
+            "sum_without_best_bps": "750.063013641430304705512166",
+            "worst_event_bps": "-528.6910199433871815749906990"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "491.7445897369317002596126770",
+              "-400.2535917470327370531017019",
+              "681.4294965457745522318870219",
+              "669.3182485496764560471971646",
+              "-450.1015849873220259795678489",
+              "972.2986219341178031963980822"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "786.7980495918996533494762686"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "-5.1403414099232454536268175"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "1182.778071850169340806575946"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "18.02234660579950228167362749",
+            "positive_fraction": 0.4954128440366973,
+            "profit_factor": "1.214189896429425368811280784",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "2128.427903747646516526329672"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "-163.9921237155007678239042774"
+              }
+            },
+            "sum_net_bps": "1964.435780032145748702425396",
+            "sum_without_best_bps": "866.957472768185586612961188",
+            "worst_event_bps": "-705.3399193189529173033214186"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "730.8075615462410058360527504",
+              "-112.4151720743135940687111689",
+              "1065.777995030490685818058208",
+              "952.4980111233476624020875204",
+              "-140.3410370566971248809452692",
+              "1168.850394731193351163578013"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "1309.769069234724347569731693"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "490.7841169225103622671456394"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "1864.624567143027276433242721"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "33.62548397523176134192770692",
+            "positive_fraction": 0.5504587155963303,
+            "profit_factor": "1.438596721574296929981670538",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "3058.846638552823505033966213"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "606.3311147474384812361538406"
+              }
+            },
+            "sum_net_bps": "3665.177753300261986270120054",
+            "sum_without_best_bps": "2550.520754142764986091407296",
+            "worst_event_bps": "-690.4369332234130255564715581"
+          }
+        },
+        "6": {
+          "base": {
+            "blocks_30d_sum_bps": [
+              "332.9626756584525174963178434",
+              "156.4966687502071373409263471",
+              "932.2785106285320410856127752",
+              "393.7723851133179588390633528",
+              "-436.7896930742456265926062610",
+              "479.4359751889652828902972174"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "433.6131707595361020469609822"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "1438.788507233778512559709213"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-14.24515572808530354705891953"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "17.04730754371770010146432362",
+            "positive_fraction": 0.5137614678899083,
+            "profit_factor": "1.419765251478522842498121470",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "948.4116572551497860427174573"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "909.7448650100795250168938201"
+              }
+            },
+            "sum_net_bps": "1858.156522265229311059611275",
+            "sum_without_best_bps": "1373.238927755218142163160026",
+            "worst_event_bps": "-215.2242015311472747719340779"
+          },
+          "cost_stress": {
+            "blocks_30d_sum_bps": [
+              "108.7238701262765449633312533",
+              "-128.8570116111532213921289274",
+              "558.3069166863562206230820731",
+              "123.4590304673853136415623605",
+              "-736.8008246895325449082143418",
+              "298.3664636834732120450610155"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "-76.1879240587851960065864020"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "957.4146322171850004676265227"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-658.0282634955942794883466880"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "2.047692152869775458465077369",
+            "positive_fraction": 0.46788990825688076,
+            "profit_factor": "1.042442431886159927478220512",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "49.53253732673694584314921483"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "173.6659073360685791295442184"
+              }
+            },
+            "sum_net_bps": "223.1984446628055249726934332",
+            "sum_without_best_bps": "-246.2076533710364475537702362",
+            "worst_event_bps": "-230.0007234659517800412583455"
+          },
+          "delay_stress": {
+            "blocks_30d_sum_bps": [
+              "-148.0506034491197687903067936",
+              "354.7427269921948734975409893",
+              "820.0105563677837733804704102",
+              "289.5585770784795245347235059",
+              "-269.6384379724275660831181938",
+              "243.0187766257700940813146973"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "476.2310638527077476879838607"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "639.7935490164651546822112611"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "173.6169827735080282504294937"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "11.83157427195120119835435428",
+            "positive_fraction": 0.47706422018348627,
+            "profit_factor": "1.322911298736770426073650969",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "965.6128355565488376943226655"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "324.0287600861320929263019495"
+              }
+            },
+            "sum_net_bps": "1289.641595642680930620624617",
+            "sum_without_best_bps": "796.9469406626438195437014654",
+            "worst_event_bps": "-235.1715310131909900935027987"
+          },
+          "funding_adverse": {
+            "blocks_30d_sum_bps": [
+              "322.7876008983020287490989315",
+              "145.7398759630245255140074379",
+              "915.7039085921140027043883748",
+              "387.2006759022661859143224343",
+              "-451.8597619456172618953547626",
+              "471.7810297325450887479108812"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "410.0449849023922537197712999"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "1420.314008160505580313489432"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "-39.00566392026326429888743713"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "16.43443421231774834618691097",
+            "positive_fraction": 0.5137614678899083,
+            "profit_factor": "1.401467037888645790097679148",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "897.2925209205168160304409083"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "894.0608082221177537039323879"
+              }
+            },
+            "sum_net_bps": "1791.353329142634569734373296",
+            "sum_without_best_bps": "1306.940174918172969675207718",
+            "worst_event_bps": "-215.4164192702882930367839713"
+          },
+          "zero_cost": {
+            "blocks_30d_sum_bps": [
+              "528.2374552236644802386222348",
+              "403.4365320818053952450912559",
+              "1255.697356233964083351375406",
+              "633.8250337845154223861604250",
+              "-179.9770827895601780740138991",
+              "638.5363957187277491597234181"
+            ],
+            "coins": {
+              "BTC": {
+                "n": 34,
+                "sum_net_bps": "871.0029388045639534560928342"
+              },
+              "ETH": {
+                "n": 32,
+                "sum_net_bps": "1859.307681802635513419142008"
+              },
+              "HYPE": {
+                "n": 0,
+                "sum_net_bps": "0"
+              },
+              "SOL": {
+                "n": 43,
+                "sum_net_bps": "549.4450696459174854317239971"
+              }
+            },
+            "events": 109,
+            "mean_net_bps": "30.08950174544143992942164073",
+            "positive_fraction": 0.5596330275229358,
+            "profit_factor": "1.870689470252537888596624542",
+            "sides": {
+              "-1": {
+                "n": 60,
+                "sum_net_bps": "1713.572331114160249371939036"
+              },
+              "1": {
+                "n": 49,
+                "sum_net_bps": "1566.183359138956702935019804"
+              }
+            },
+            "sum_net_bps": "3279.755690253116952306958840",
+            "sum_without_best_bps": "2781.147096722518775177085726",
+            "worst_event_bps": "-202.1270793564221434415053177"
+          }
+        }
+      },
+      "primary_interval": {
+        "block_days": 7,
+        "confidence": 0.975,
+        "lower": -6.667195068124751,
+        "replicates": 5000,
+        "upper": 42.77160836379079
+      }
+    }
+  }
+}

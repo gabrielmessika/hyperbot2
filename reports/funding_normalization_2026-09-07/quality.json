@@ -1,0 +1,263 @@
+{
+  "altcoins_30d": {
+    "assets": {
+      "ARB": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "BNB": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "CASHCAT": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "DOGE": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "ENA": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "FARTCOIN": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "INJ": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "JUP": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "LINK": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "LIT": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "NEAR": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "PUMP": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "TAO": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "UNI": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "WLD": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "XMR": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "XPL": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "XRP": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      },
+      "ZEC": {
+        "funding_offset_ms_max": 134,
+        "funding_offset_ms_min": 0,
+        "hours": 720,
+        "zero_volume_hours": 0
+      }
+    },
+    "sources": {
+      "data/funding_normalization_2026-09-07/history/manifest.json": "4e494496ff5a2479ec845f259f4c27326a8a9e2a58a0cd87b71ca23b09f79e65",
+      "data/funding_normalization_2026-09-07/history/request-000.json": "d80dc71ddbf8eae920d83724e9bae9676f565a48decebd79d1061b030c264727",
+      "data/funding_normalization_2026-09-07/history/request-001.json": "cfef9f39c89ce0b1cadadf125d02ee6b0bb8fd4a2c93ce3695cf7d4891792068",
+      "data/funding_normalization_2026-09-07/history/request-002.json": "3bb6905bbbed74a70473a3fab4686738c640a40538eb3e09275b63f24b72f714",
+      "data/funding_normalization_2026-09-07/history/request-003.json": "301e5afd07228f71d31c1abe89b1c81f6135cb0d0d46946b381f021cced29ee9",
+      "data/funding_normalization_2026-09-07/history/request-004.json": "fd18ec99f9b49a0306e9b6ca26eaa876cf1237101df0e3ed1f2e78d6af83ed6e",
+      "data/funding_normalization_2026-09-07/history/request-005.json": "f57e84416e516c7959fe8e0d62add61f2b8eaa741347997976d4cd0dc5104987",
+      "data/funding_normalization_2026-09-07/history/request-006.json": "ebc4d8b3a433d375480e535f888e596f1550a0e7c9776fcf1953ce2940d417db",
+      "data/funding_normalization_2026-09-07/history/request-007.json": "ee00e191bf2f4a7d10c83876d48185cd61e3bbe40224636ada7f8bc70952e9e9",
+      "data/funding_normalization_2026-09-07/history/request-008.json": "d229201600b02ea376fd12cca45399c8a37fd8e18122fd4c855a107a5c2e1894",
+      "data/funding_normalization_2026-09-07/history/request-009.json": "d697b8c9f6330d7232e7d6950594e2dd0baebc642d1314c2f8f96fdb324de367",
+      "data/funding_normalization_2026-09-07/history/request-010.json": "46cf698b0acfa6f1e352674a194cd7eb386302938e28bbff11a0a28ba3056fcb",
+      "data/funding_normalization_2026-09-07/history/request-011.json": "d1ba5bf026a0858f0220532726f308c647eb3db34d4189fda557f2d4ffb2801b",
+      "data/funding_normalization_2026-09-07/history/request-012.json": "f7054c07dff4b4702114f1ce6a69e11c45aec4355db22516de899256f278ddc4",
+      "data/funding_normalization_2026-09-07/history/request-013.json": "7a3be85c6f3eeafc7f11326a2ff7c4e3c9fa4de880dc6f3e070bb8c49407aea2",
+      "data/funding_normalization_2026-09-07/history/request-014.json": "fc1455078448bfcc95b0ae4dccf9b43cd588c6ff396c8478320f2090615e1c76",
+      "data/funding_normalization_2026-09-07/history/request-015.json": "e8ea96d496823ee1dc67d7fc2163d07dbedda3b506f347445ccc6983480faaec",
+      "data/funding_normalization_2026-09-07/history/request-016.json": "85dc25953366b06f5a2d017307413fa84d65b457a818f65f0e1533f6bcb0305c",
+      "data/funding_normalization_2026-09-07/history/request-017.json": "3a8ab4d95896a10086d42215d672b752f2499b2c4814c16585c679b103260d34",
+      "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-000.json": "451ac635f2a9ef86a62a44c5c09d862cacf993573d48fb100a3db70cea724f2a",
+      "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-001.json": "33984aec54258e4e73db4b411ad45dce3cd1c2589bac08dc6d286a04299c22bb",
+      "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-002.json": "a2a1934c0c046e10967bc98110d9b6e4cf4760d6eb966a21b2ef75d355fa1574",
+      "data/wide_funding_2026-09-07/cashcat_hedge/hl/request-003.json": "8fa9a28bf7e100b2e55f3eeb4cfcb54e28bd018e2cfaf29919f923ceaf33380d",
+      "data/wide_funding_2026-09-07/cashcat_hedge/manifest.json": "b8526dea3150c9bf37eb535f0fb64c84cfd6ca92a1253a2b041a63ec02155f33",
+      "data/wide_funding_2026-09-07/history/manifest.json": "7825283567b49c700f9193269c7a481a4a1ebf8cb382833cac45a9686545ecb9",
+      "data/wide_funding_2026-09-07/history/request-000.json": "ef56ba574aaec7ef1367eb20392534ef8f4c9fb905d51447fda80af6e572cf49",
+      "data/wide_funding_2026-09-07/history/request-001.json": "b095a5181617289e41635bb07fb25c46a37d90574029855ad7bda48c853fc0c1",
+      "data/wide_funding_2026-09-07/history/request-002.json": "d3450b4c2608d4a37696eaf0c93698a6eb65c814a3e8c4cd354adf46294de4f9",
+      "data/wide_funding_2026-09-07/history/request-003.json": "be848c1591de031884dc51f0f0ff7694e2eff874353b83c38248b3bfe986fa08",
+      "data/wide_funding_2026-09-07/history/request-004.json": "d44679815a730d2ac3a4e7c9804b54bb6f09885d8695a877aeb5bcbb7500e077",
+      "data/wide_funding_2026-09-07/history/request-005.json": "85fd956d455b3d0781c258eaf5aaef59cee75bb667d712292d4bcc76497ac654",
+      "data/wide_funding_2026-09-07/history/request-006.json": "fb6f223e204695726d01d46a4bffb692ee9f82b5946d55f75cefffddde14d1ff",
+      "data/wide_funding_2026-09-07/history/request-007.json": "50f387e29b075a1a03815221f7ec2a8a2ca4cb42f34469b32e126d8a438fe80d",
+      "data/wide_funding_2026-09-07/history/request-008.json": "84546bcfd897268a420c642eef1524d2ad1838c5b0abf04f1a9ba5397af98e6f",
+      "data/wide_funding_2026-09-07/history/request-009.json": "86b9bc5fbaba12876c95e5e8a682d3104c72e7e0e5180a654f6a976742b30d23",
+      "data/wide_funding_2026-09-07/history/request-010.json": "dd9653878ef5543292b6caeb3c6dfb9df07745b7269fbf80fcfa2948c64a8d90",
+      "data/wide_funding_2026-09-07/history/request-011.json": "fa1de5bbb11bd7856702943b64c800ad118500759ce39db113898c725564de46",
+      "data/wide_funding_2026-09-07/history/request-012.json": "8aff5d2090a906a956093b13fd1c9d1ba2508bfcabf413a8237fe9c36cc4ff1c",
+      "data/wide_funding_2026-09-07/history/request-013.json": "16eb07dbdaf3f46ab005c58f61cf2b7d953806a1c50bd88909677806b56e43b3",
+      "data/wide_funding_2026-09-07/history/request-014.json": "843f178a30a0e63dbf951733bcc8c61c7ab987de377d78cbadf7be5a3a4e4693",
+      "data/wide_funding_2026-09-07/history/request-015.json": "2756ea9f7e51068a11efcbab12a5d0bea1077c58944007512ebdb340dccf4a27",
+      "data/wide_funding_2026-09-07/history/request-016.json": "dd03ac0c5e6147288815f7a6511c45d210dcaf8d247f5900b3930ea4296ebfcc",
+      "data/wide_funding_2026-09-07/history/request-017.json": "cc7473db532d35e6ba12caeea1ca77def8aa53ec01e237b854428e2f3e29359d",
+      "data/wide_funding_2026-09-07/history/request-018.json": "ad6cce1cc7835eae9e2461d9c5585e8bff2722827fa38b45401616d3dff2df4b",
+      "data/wide_funding_2026-09-07/history/request-019.json": "e9272620119260e56dfb1803d22f36c6cfb4e2a0ef7987148b90ad069da1245c",
+      "data/wide_funding_2026-09-07/history/request-020.json": "67e2b760a6801e1a3db07632f949130b8a913aa993a7d1c6823b2c52a0b735b4",
+      "data/wide_funding_2026-09-07/history/request-021.json": "011cd01a1f00b13db6684bb36131b3bb53a11e0017b54e4c2b9ee04540e6fdbb",
+      "data/wide_funding_2026-09-07/history/request-022.json": "cf64f62f03a267ae53a29a3e1f040812c424d8ca3de1ecb113ba2b18ea13c52b",
+      "data/wide_funding_2026-09-07/history/request-023.json": "ec22dca195741d0c273fb9e82a5e6bb0322a2a66b401de547d3405ba43f70195",
+      "data/wide_funding_2026-09-07/history/request-024.json": "cfc0b13880b1c5e86e3250d8d905c9c950c06b12fd01ad01381b66f685c99b70",
+      "data/wide_funding_2026-09-07/history/request-025.json": "46591aaea8f2a94c899cc28d6d30c77ddd7ef5f95d897deb13ee62831d656016",
+      "data/wide_funding_2026-09-07/history/request-026.json": "feb777b9d944469696ffa53631428ab7423c9ac87a81c35f96657e1c3725ff35",
+      "data/wide_funding_2026-09-07/history/request-027.json": "9f34aa0a126ee84447431ec23a7c0492478177639e3953322ab49c718bbc0d8f",
+      "data/wide_funding_2026-09-07/history/request-028.json": "205ab39b2f7c6c042c0339e89532f013a6c93803166e0a88108e1bf6149f31d2",
+      "data/wide_funding_2026-09-07/history/request-029.json": "2dc24f7dbc92d836437f5f44f5a2bb9e670e9d756ea47ee7664edabb97ab1e35",
+      "data/wide_funding_2026-09-07/history/request-030.json": "371830a63dada5a4f883adb1985b37fc442e5c6cc600a7e8c8a057a4dfbb403f",
+      "data/wide_funding_2026-09-07/history/request-031.json": "d19eee40c7c80e043deb100e982950146d8becd163238135c2018eb819ffafc8",
+      "data/wide_funding_2026-09-07/history/request-032.json": "9b93a51b7cef9ffa2695aaa117910a0e833e5b785adf9c0d7e38b6a703692b82",
+      "data/wide_funding_2026-09-07/history/request-033.json": "7e28dd4a9285d190bb22a4ff304a4a437bcac5091a47f6c66dd2e70cd7cc326d",
+      "data/wide_funding_2026-09-07/history/request-034.json": "c5d33ca2f7f7a12fe89d82d400855a46c52e1f751203b621ae8ba5526e049be9",
+      "data/wide_funding_2026-09-07/history/request-035.json": "29f910bda6683172161e4ada57a1ccb5067bf83dd75f5307a107fe9e36cfc786",
+      "data/wide_funding_2026-09-07/history/request-036.json": "29566dfd83a4920b90fa60d1cfc5b31adab764785aa2b29765a23f75d3484ca0",
+      "data/wide_funding_2026-09-07/history/request-037.json": "618c35bb5ce7e5327bbbb1d76c2846faeb4df505ea98ce6184717ee38fd0f7b8",
+      "data/wide_funding_2026-09-07/history/request-038.json": "414783f80227f573f5d5a25c639fc7c4d8881c374c0539764d16bb30455edeca"
+    }
+  },
+  "majors_180d": {
+    "assets": {
+      "BTC": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 0
+      },
+      "ETH": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 0
+      },
+      "HYPE": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 0
+      },
+      "SOL": {
+        "funding_offset_ms_max": 261,
+        "funding_offset_ms_min": 0,
+        "hours": 4320,
+        "zero_volume_hours": 0
+      }
+    },
+    "sources": {
+      "data/search_2026-09-06/history/manifest.json": "953ccb8f8b1359a91fa164025b6bd075886d15880e3579a267db660d13676e61",
+      "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+      "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+      "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+      "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+      "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+      "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+      "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+      "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+      "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+      "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+      "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+      "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+      "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+      "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+      "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+      "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+      "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+      "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+      "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+      "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+      "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+      "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+      "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+      "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+      "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+      "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+      "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+      "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+      "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+      "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+      "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+      "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+      "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+      "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+      "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+      "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+      "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+      "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+      "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+      "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+      "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+      "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+      "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+      "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+      "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+      "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+    }
+  }
+}

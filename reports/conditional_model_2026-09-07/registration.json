@@ -1,0 +1,13 @@
+{
+  "causality_tests_passed": 5,
+  "code_version": "source-sha256:31264ba557f1c11e75de1a14adc0e993bc117a5820c186257a8bc6bcb7401fea",
+  "live_enabled": false,
+  "native_selection_sha256": "78c0358beb3937e9a36fafe67913e5ebeb352c354fd86b1d45e7da2395a71102",
+  "network_data_calls": 0,
+  "prior_periods_already_explored": true,
+  "protocol_sha256": "0952277288c012716d475fc2a1706e3f67dc1f66f15668aefa33834742d26100",
+  "qualification_sha256": "b18f00079ad6f4156738446b11b3c4475fad9c39eaa2a0149ce4f2b33f13ca00",
+  "registered_at_utc": "2026-09-07T17:39:12.794438+00:00",
+  "registered_before_first_conditional_model_pnl": true,
+  "script_sha256": "d9a3e52fc89aaf2a11841e2f5390f8502bafc2276819c6ac777fc18f5b0726c8"
+}

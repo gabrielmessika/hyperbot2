@@ -1,0 +1,1449 @@
+{
+  "code_hashes": {
+    "/workspaces/hyperbot2/scripts/investigate_overnight_repricing.py": "95e03f15f11186f83e91ab8c2c91e3d2d9b17d7f76e6f076288512169cce7691",
+    "/workspaces/hyperbot2/scripts/investigate_weekend_repricing.py": "17d8c7eada3df4aa4dc2f0aeecfd79ceb2dde77f8adc2da7e1da227a622255fd",
+    "src/hyperbot2/research/equity_weekend.py": "aaa7371909ab722da971efdf3787f803a08400919046494aa3a76e2008db7cfb",
+    "src/hyperbot2/research/rotation.py": "5223909bcc94febbced56226aea29953b209e4569ff9d21c8e755e38bac567b8",
+    "src/hyperbot2/research/volume.py": "145d2ae6d2e3d69d176108ccbaa86b475f468aa400044b8f4bc227cd47b1ef63"
+  },
+  "data_cost_usd": 0,
+  "eligible_dates": 112,
+  "end_ms_exclusive": 1788652800000,
+  "limits": [
+    "internally reserved windows, not a globally pristine holdout",
+    "historical fees/oracles, corporate events and fills unqualified",
+    "native previous-day reference, not an external fair value",
+    "event bps, no portfolio or intraposition risk simulation"
+  ],
+  "network_calls": 0,
+  "promotion_authorized": false,
+  "protocol_sha256": "9fcdc2f38635e9a54d48775d714e884ce994410559a14390644c74842723af89",
+  "run_id": "overnight-repricing-2026-09-07",
+  "source_hashes": {
+    "data/weekend_repricing_2026-09-07/history/manifest.json": "ecf91a59dec479f50b52b37f27093a7e4b67226b433355ee6f1b45061a01cbaa",
+    "data/weekend_repricing_2026-09-07/history/request-000.json": "b11a241941ce898411e4f4c1fe2e6b3b79847deffeb7e3c1d9df9a6fa4407830",
+    "data/weekend_repricing_2026-09-07/history/request-001.json": "cddc114ce9237d86c54e6309d4a90d39f58ad10695d57bc918039aa3f83e6136",
+    "data/weekend_repricing_2026-09-07/history/request-002.json": "a9a5f7c0541b012a450323dea875c4edf5f6ad61b0b9d650768a7f6c391579b2",
+    "data/weekend_repricing_2026-09-07/history/request-003.json": "4db255587ce95eb74204660fb10e6a6cfcd074b9c47c78ed4f0ecf50fd6b2464",
+    "data/weekend_repricing_2026-09-07/history/request-004.json": "0130df9d1f08ec8a4a1589e77366cdd6b9a0d811c8e14e990994b0dead9fd27d",
+    "data/weekend_repricing_2026-09-07/history/request-005.json": "3004cfca8abfcb16689b3a516a29cb257661966713139da2a794994c8509ae6a",
+    "data/weekend_repricing_2026-09-07/history/request-006.json": "4b135b89d0c134580a086681183eedb9d78a80a7be5394bfa6fa78c25e492259",
+    "data/weekend_repricing_2026-09-07/history/request-007.json": "d0fe8ca3ab9080c9755aae81ded6773d25693b5823c9f0563a4478cf8f7f9597",
+    "data/weekend_repricing_2026-09-07/history/request-008.json": "43b6ef3b436d515c80a22635bcb1e148b0e07cc1cd13ff0eab416d00fd73eae3",
+    "data/weekend_repricing_2026-09-07/history/request-009.json": "a852962fb6b40d8b8eb0939aa0fb7ae3f33ee4d3eef6b3414f9409d1cf9d3210",
+    "data/weekend_repricing_2026-09-07/history/request-010.json": "603014a558c7a987b0e2e4e9e7df44437580d0de4177007d350bdfe654a24b68",
+    "data/weekend_repricing_2026-09-07/history/request-011.json": "6cf46126daced86b7d7b0c9e2f8bbe730394deab55b663c7192d0e39318e3b47",
+    "data/weekend_repricing_2026-09-07/history/request-012.json": "e929bb5fcfecc06c7c7fb4113cf5f15313559d12053bb31e5ac86cea0ab90129",
+    "data/weekend_repricing_2026-09-07/history/request-013.json": "0fdcb3930fe9646d57b6f77fe90be0a16e28c70b0b84b34f3ecbd9233ee36dd4",
+    "data/weekend_repricing_2026-09-07/history/request-014.json": "7c8305b4ff2d55b54ca769055643df06c371794750ae0afa515ccd1ca7a24551",
+    "data/weekend_repricing_2026-09-07/history/request-015.json": "fa7a88dad12843aa655098650be1f17be76cccb0e75beaef7ad042814af44f8b",
+    "data/weekend_repricing_2026-09-07/history/request-016.json": "0086b1cf2cadd47da0c2b55898769045a6696a8ddaec57b1413e2c969e009489",
+    "data/weekend_repricing_2026-09-07/history/request-017.json": "f1774ea9692619193600b491cf745ec2b99d0c20132d8b2ee994b1ebdf47e360",
+    "data/weekend_repricing_2026-09-07/history/request-018.json": "dc74c753b9bae4f02af7ab4296761a54e07e3dd3133784a540f7ca013b734fc4",
+    "data/weekend_repricing_2026-09-07/history/request-019.json": "981a94fa9439c41f5530e6b4c2eef2887adf6f09ded4106db14b3e550df2d605",
+    "data/weekend_repricing_2026-09-07/history/request-020.json": "d69f05e467aa339a1564c717c00c1c8b118efd7b255113db4d14fec9aba91ee1",
+    "data/weekend_repricing_2026-09-07/history/request-021.json": "81645790555e0ab0a00c97a62e1cc1a8eb957f6c47d4cb024e61c4716e371b86",
+    "data/weekend_repricing_2026-09-07/history/request-022.json": "75167371d805d03e5866fb9d43e7deb552cb725dc18cd1152a1ac21748b7b8c7",
+    "data/weekend_repricing_2026-09-07/history/request-023.json": "17fb89f686be69b9b5bd5a7f40e4243ef415b6f4362090c452b1edd7b6630414",
+    "data/weekend_repricing_2026-09-07/history/request-024.json": "93fd570086db5ffadf08b9c7f74d55b61f3e7a750b373c21e9aacfcf0ca87980",
+    "data/weekend_repricing_2026-09-07/history/request-025.json": "c2da4ad8346e98db919340ea15535b0141a61f1db1c55807f7864f88513ac5a8",
+    "data/weekend_repricing_2026-09-07/history/request-026.json": "bf5e8bfb45e2940ebb07230eca7b97430f420a78383b1b24ead3d72a9aa5b057",
+    "data/weekend_repricing_2026-09-07/history/request-027.json": "bd27be77a0041bd63e519695fef0c3e722a9df620dc95726bb28ea4f35bc31c2",
+    "data/weekend_repricing_2026-09-07/history/request-028.json": "a1784bbcdc6d021fe9100afd0bf6c3c729435899a9ed03ac1b0e82145c8b2ff1",
+    "data/weekend_repricing_2026-09-07/history/request-029.json": "5cf121eadede1871324eb406a0ff3cd46fae5e0e0c79f08d13b2848daa7cbe4c",
+    "data/weekend_repricing_2026-09-07/history/request-030.json": "e0972b8f909b8799043ce8ec1bd0fe074042fc417e7d06dc94676250bdbad71e",
+    "data/weekend_repricing_2026-09-07/history/request-031.json": "a43d0ec7752c81a29830e832a7e34d51487b95bad28be2e5ebdb30066ff7433b",
+    "data/weekend_repricing_2026-09-07/history/request-032.json": "2efa915b6ae6a2094d8f24b0d74039a58a8d169c1f1d9a7263480d1016920711",
+    "data/weekend_repricing_2026-09-07/history/request-033.json": "5a1c242840e8ddbdc2271665765af798696f9122e7c4e2caa827551a0b06f0a0",
+    "data/weekend_repricing_2026-09-07/history/request-034.json": "e63753e366e418bd5ae533e063020f2e14b3417903a753c137804c1419162471",
+    "data/weekend_repricing_2026-09-07/history/request-035.json": "f587964d30fb7ca67e63c43f206f622634c25efa009b26c6da881430c264ef76",
+    "data/weekend_repricing_2026-09-07/history/request-036.json": "a3d368c3b484b34e47e6fc9093f25ce148316ffaa73adcf48c7793e60b6f4e80",
+    "data/weekend_repricing_2026-09-07/history/request-037.json": "1fe9fcdd1796babf3f5e06789772658fba222a018ac894d64c2b7b9b18f27ec6",
+    "data/weekend_repricing_2026-09-07/history/request-038.json": "46ddfe10b2744aa0cbdba2b7bdb6b611b96fb4ac218ac7974ab3f69fa2d67682",
+    "data/weekend_repricing_2026-09-07/history/request-039.json": "68515f680455aeff7dcfd1c794a51884755a9b04d7c45043e7fada9e101c6d81",
+    "data/weekend_repricing_2026-09-07/history/request-040.json": "0bafd95e98b8ca28d8c59c7d8c37d6e0df5bdfd016a5676171db7821ec0798a2",
+    "data/weekend_repricing_2026-09-07/history/request-041.json": "528fa6b0f8f9c780006f66e494e91f7dd022db07fcd977b6f214d3582a7defa1",
+    "data/weekend_repricing_2026-09-07/history/request-042.json": "d2913788b11e5781c6dca1cbea35636e967be9f237c71ada6d0b4eab0df6a863",
+    "data/weekend_repricing_2026-09-07/history/request-043.json": "bf822afdadb48688ba4a7e25f408392dc8be9cc230589b7f4ef12a3f738ac628",
+    "data/weekend_repricing_2026-09-07/history/request-044.json": "0a1e5a9dfb998f7b72ea965402cc056b9c611e9d091c97348620e07394fa26dc",
+    "data/weekend_repricing_2026-09-07/history/request-045.json": "ec8380b2804567abcf6a4724f1f362c4e823412ec9deae3a8eb0bc5b1c2c9cfc",
+    "data/weekend_repricing_2026-09-07/history/request-046.json": "415456bbf53e553bc33512339a95c0493824986156ed9d1de7a980002562f851",
+    "data/weekend_repricing_2026-09-07/history/request-047.json": "c6d86b33bb1cc3a34e52bbee50dcc53fc73355153c30a6d0eef7411f3af0b4da",
+    "data/weekend_repricing_2026-09-07/history/request-048.json": "8c4bec4c152017295792ba9831ec898e8393d78b3872704f73422de29c24eba6",
+    "data/weekend_repricing_2026-09-07/history/request-049.json": "c2494d387e8eb53e6f7204fa7bb546db64d01c9bcdea126eb29e6e16d61816df",
+    "data/weekend_repricing_2026-09-07/history/request-050.json": "456d4dd9ff0f50c66ea689b4fcf10d43cba581e8da4154ecb113065bde09a01b",
+    "data/weekend_repricing_2026-09-07/history/request-051.json": "aacee1426648d0bd23cded1f8f2dbe7d8c12a312d5a869d13f156e547dfa86f5",
+    "data/weekend_repricing_2026-09-07/history/request-052.json": "b559bee4f3f1bb63d31e0d1e199e9647131ba1f56f3afa0ca13329ddcbefb861",
+    "data/weekend_repricing_2026-09-07/history/request-053.json": "283ad35e8de35fad3c871e64c2a35f34468b74caa2d3c61f61847b29d810863a",
+    "data/weekend_repricing_2026-09-07/history/request-054.json": "7feafd93918155bd6d09f732e27dce226776e3ddb5e8a5b473dafa056bbf35cb",
+    "data/weekend_repricing_2026-09-07/replication_history/manifest.json": "ba09cf90dc175b7ea7d682b6c25e204d586feccd9661df197f7777131e565b62",
+    "data/weekend_repricing_2026-09-07/replication_history/request-000.json": "01af8f29ebfcc337a6575f105a9a96c7b85d71ddd783c5c6dfd3b7c8574b9f5e",
+    "data/weekend_repricing_2026-09-07/replication_history/request-001.json": "b90d068d59a83fdff7fdf5b0a025194bf24ce7a5324d7f41b7e6642537a584b6",
+    "data/weekend_repricing_2026-09-07/replication_history/request-002.json": "b3cf3e4951cc48a7a12d43a5349b312ed843d9707d0042b7ef3e530ecb5e5dff",
+    "data/weekend_repricing_2026-09-07/replication_history/request-003.json": "7293485ee9e8c7c4dce8701102415058d7786232c66001180416c1b3bd02f02b",
+    "data/weekend_repricing_2026-09-07/replication_history/request-004.json": "ee9b9118e18df44ecc81b8852e5007ffcc92a05b469caea0bef6707502ce3e16",
+    "data/weekend_repricing_2026-09-07/replication_history/request-005.json": "f443837183af7895615833572fc2f2e96c9287751dfdaea3c50c44cb17f01512",
+    "data/weekend_repricing_2026-09-07/replication_history/request-006.json": "8e64c2a20883c12a8e5cce2cf66adbc1d1830aaad005b1f2e9796fa76bf339a5",
+    "data/weekend_repricing_2026-09-07/replication_history/request-007.json": "5c955ff19c376f5fa1bef8534f5d3732d47dae84f473bc29b9713b6fe04a7dc2",
+    "data/weekend_repricing_2026-09-07/replication_history/request-008.json": "b857d638b56c10ba2601339b16a52dcda8409789fa64304ba5dbe3b279045264",
+    "data/weekend_repricing_2026-09-07/replication_history/request-009.json": "7c56d12b9206e9bff9a1d5df610c6d97a1f6fa9ceb21a088ebe96b879ba4b79f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-010.json": "785ea4de4c5c1901e6e6d12bf7513c2cf8ce62a1dcbeb0b374668ad6a5a7bced",
+    "data/weekend_repricing_2026-09-07/replication_history/request-011.json": "6cd9f8f7510e2994db6aa9799e1ee4e5e55f74a2bb72a23a26f65aa90205fd84",
+    "data/weekend_repricing_2026-09-07/replication_history/request-012.json": "d786007020a4038d4a0b7193f32c8c15561c75a2f9151f54350e89c012881083",
+    "data/weekend_repricing_2026-09-07/replication_history/request-013.json": "1160f1c0eb588554a3e1f9f981fec019f2e5f5c1c59b45dec51e34c0c7f1aa10",
+    "data/weekend_repricing_2026-09-07/replication_history/request-014.json": "e4fd0bf8862b7aedeecf227e06a5afeb02bce38abc29b087b473fd97b3d3696d",
+    "data/weekend_repricing_2026-09-07/replication_history/request-015.json": "3b1150699d1aa1b2d1970658d20682023ce2d36825e851a3304ca22e736b3a54",
+    "data/weekend_repricing_2026-09-07/replication_history/request-016.json": "1065757209eef40cd4aa78598039c16c91e47df1088d4e2c437f4f5b261d64be",
+    "data/weekend_repricing_2026-09-07/replication_history/request-017.json": "25c507881cb692220701c4f8d3d105268450dd88a98c398d828bc0ff50f9b458",
+    "data/weekend_repricing_2026-09-07/replication_history/request-018.json": "118338bb1ce8386b256b952c2abe27199e380d606e0aa0a6466284c01edfc4e9",
+    "data/weekend_repricing_2026-09-07/replication_history/request-019.json": "703146a22fa0fff54a53a05e99af0b6bc03c5655837c4a2e94c6554a29acc61f",
+    "data/weekend_repricing_2026-09-07/replication_history/request-020.json": "e33332f43e2ba8937d8b5c34cf0b78f12dc157d5a902ca1566d9b004e25f3a67",
+    "data/weekend_repricing_2026-09-07/replication_history/request-021.json": "bd68c87d9789c95e1661d6bc36a954f7d10f922cf9a3aafa0fdd395247306ff7"
+  },
+  "split_ms": 1780272000000,
+  "start_ms": 1770854400000,
+  "strategies": {
+    "overnight_fade": {
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "segments": {
+        "older": {
+          "criteria": {
+            "all_cost_scenarios_positive": false,
+            "corrected_interval_positive": false,
+            "positive_without_best": false,
+            "profit_factor_above_1_2": false,
+            "three_positive_blocks": false
+          },
+          "interval": {
+            "block_days": 7,
+            "confidence": 0.975,
+            "lower": -94.51699989530155,
+            "replicates": 5000,
+            "upper": -5.6266088048033565
+          },
+          "scenarios": {
+            "base": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "186.8390486011224254607373189"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-3282.581408306325398396691413"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-1493.637079750231914776729655"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-565.7622275930707116274782325"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3696.111300784409583776832711"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "220.4504006733716345585576256"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-497.4558803605636176859584276"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-4215.713974112852423381582464",
+                "-1112.956240695636780533556945",
+                "-2839.702285146773632494919151",
+                "-959.8859475648443298343369375"
+              ],
+              "events": 174,
+              "mean_net_bps": "-52.46125544551785727726664078",
+              "profit_factor": "0.5304277538792458383603581044",
+              "sum_net_bps": "-9128.258447520107166244395496",
+              "sum_without_best_bps": "-9694.777743811637788866560254",
+              "worst_event_bps": "-981.6237559987139944229068537"
+            },
+            "cost_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-172.8137082803268566538708802"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-4071.414359639924356465209473"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-2354.430314736528066881425717"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-853.9162488230858743071391765"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-4583.365735794938648191871297"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-235.4584113971162878222190454"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-1023.860534007267623754465740"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-5246.982736547209381020760433",
+                "-2382.085489788589795135948170",
+                "-4133.582621165983495708373014",
+                "-1532.608465177405042211119707"
+              ],
+              "events": 174,
+              "mean_net_bps": "-76.40953627976544663262184672",
+              "profit_factor": "0.3951642163582377344064246445",
+              "sum_net_bps": "-13295.25931267918771407620133",
+              "sum_without_best_bps": "-13838.64217556355355064110158",
+              "worst_event_bps": "-1007.081867793236403433056844"
+            },
+            "delay_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "326.6976325137860437858343144"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-2320.388719427546053629702128"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-1017.479327527264013104631426"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-805.4447345964620658823458932"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3651.192091995054503707451240"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-612.7006406808085031295207428"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-1792.806494989885900441013060"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-3082.773447610167935329790919",
+                "-236.4932188624407967653208171",
+                "-4481.760171812295849438295251",
+                "-2072.287538418330414575423191"
+              ],
+              "events": 174,
+              "mean_net_bps": "-56.74318607300709767878638029",
+              "profit_factor": "0.5500240703903843630275704527",
+              "sum_net_bps": "-9873.314376703234996108830170",
+              "sum_without_best_bps": "-10411.49396433660977232989717",
+              "worst_event_bps": "-1260.888773427275619058237878"
+            },
+            "entry_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "226.8662775629400579611835814"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-2365.667704982645459865785024"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-620.5805594164340623189455158"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-710.4742415551950067664266527"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3623.017966333260785764688678"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "16.79943090734026424429674282"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-603.5762431274032647623458177"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-2308.310138212585366608628637",
+                "-458.0746075350507248487681974",
+                "-3797.039917588568098490440466",
+                "-1116.226343608454067324874064"
+              ],
+              "events": 174,
+              "mean_net_bps": "-44.13592532726815090386615728",
+              "profit_factor": "0.5460414465672767185670459120",
+              "sum_net_bps": "-7679.651006944658257272711366",
+              "sum_without_best_bps": "-8275.828678990711669209602948",
+              "worst_event_bps": "-863.6855933547365210747067447"
+            },
+            "exit_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "286.3406309275050136101812930"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-3271.294213301811746460271766"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-1915.661894019247515554337696"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-658.9046173886763132852967728"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3734.323752726607450188119482"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-406.9952712377888737069703710"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-1683.454389022203705767500742"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-5043.471179357161483993446915",
+                "-883.9680761408991520611762468",
+                "-3544.855187249497845305437044",
+                "-1911.999064021272109992255324"
+              ],
+              "events": 174,
+              "mean_net_bps": "-65.42697417683235972041560649",
+              "profit_factor": "0.5329424974135552731945312541",
+              "sum_net_bps": "-11384.29350676883059135231553",
+              "sum_without_best_bps": "-11948.99338673933278761582730",
+              "worst_event_bps": "-1383.144934316771878835531125"
+            },
+            "funding_adverse": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "183.6988671889207832897762834"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-3286.907029039132757845993852"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-1510.679297536174264112869856"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-567.3648737324853078544134299"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3705.818954801187397921862690"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "210.4117922821750796140219389"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-503.6926425049429842903239914"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-4230.962113558237918525386691",
+                "-1123.894243868569331015456699",
+                "-2857.558664023636624183165877",
+                "-967.9371166923829753976563347"
+              ],
+              "events": 174,
+              "mean_net_bps": "-52.76064447208521177656129656",
+              "profit_factor": "0.5284097694208423698594774942",
+              "sum_net_bps": "-9180.352138142826849121665601",
+              "sum_without_best_bps": "-9745.945140295856444229695474",
+              "worst_event_bps": "-981.8871488602373795718974101"
+            },
+            "zero_cost": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "515.9760261610818394372341770"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "-2559.228050692794698406962205"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-709.4213208249394949874182058"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-301.4863901978642488403217289"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-2884.014555928078716730530169"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "634.7850995690201097674799291"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-15.7467485825129579553169559"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-3274.671177327859003435327768",
+                "48.63157148906475218404702478",
+                "-1657.762416627829643234496649",
+                "-435.3339180294642732300577654"
+              ],
+              "events": 174,
+              "mean_net_bps": "-30.56974678446027682595307564",
+              "profit_factor": "0.6915578759620147802902104601",
+              "sum_net_bps": "-5319.135940496088167715835161",
+              "sum_without_best_bps": "-5906.432746288726875305843082",
+              "worst_event_bps": "-958.5045737770117990189579743"
+            }
+          }
+        },
+        "validation": {
+          "criteria": {
+            "all_cost_scenarios_positive": false,
+            "corrected_interval_positive": false,
+            "positive_without_best": false,
+            "profit_factor_above_1_2": false,
+            "three_positive_blocks": false
+          },
+          "interval": {
+            "block_days": 7,
+            "confidence": 0.975,
+            "lower": -116.99087652075097,
+            "replicates": 5000,
+            "upper": 58.099239190909216
+          },
+          "scenarios": {
+            "base": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-233.9849425264192417222786604"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-2763.066525199009933199623732"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-1133.673650489806199742617385"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-443.3578308878225177153180562"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-1921.295139586915747893299534"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-1341.847256384277004177660144"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1197.297092455651232122709723"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "3915.205255727393452639848844",
+                "-4675.551197602028758389711703",
+                "-4958.154691422624672211084163",
+                "-3316.021804232641898612560217"
+              ],
+              "events": 170,
+              "mean_net_bps": "-53.14424963252883456807945432",
+              "profit_factor": "0.5857803855279379547228804532",
+              "sum_net_bps": "-9034.522437529901876573507234",
+              "sum_without_best_bps": "-10086.84750897099265385184152",
+              "worst_event_bps": "-939.9993913228101821420558015"
+            },
+            "cost_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-521.3983197419287698458657729"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-3506.980154325870422262177510"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-1831.416965887466586465592836"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-779.1659674919867176234358966"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-2805.921890360278009581005178"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-1991.373227041476094844027835"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1676.022388633460351745833500"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "2695.614221217123780129363415",
+                "-5995.282545032172553632438425",
+                "-6062.214565467077757438107191",
+                "-3750.396024200340421426756324"
+              ],
+              "events": 170,
+              "mean_net_bps": "-77.13105243224980560216434424",
+              "profit_factor": "0.4628260202613962394054809886",
+              "sum_net_bps": "-13112.27891348246695236793852",
+              "sum_without_best_bps": "-14139.01016982565608839353303",
+              "worst_event_bps": "-965.3961891202385020592612825"
+            },
+            "delay_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-424.2067415224304848086510999"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-3128.795585913084543609110179"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-881.1405749821745322074678126"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-77.3055682379455247278976572"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-2529.709215681527177338856034"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-783.0269338446235561738861483"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1878.755208876413685651613634"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "2760.561630396008432070539674",
+                "-3004.701802891313406562127486",
+                "-6215.700870100210823050872780",
+                "-3243.098786462683706975021969"
+              ],
+              "events": 170,
+              "mean_net_bps": "-57.07611664151882061480872095",
+              "profit_factor": "0.5674402907672666150373666092",
+              "sum_net_bps": "-9702.939829058199504517482561",
+              "sum_without_best_bps": "-10443.45919068764393659546972",
+              "worst_event_bps": "-1053.077072959997791478209836"
+            },
+            "entry_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-228.7615968677722880667454416"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-1630.266249052762848237146713"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-194.9411198034254941774706497"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "84.50450989663728815862570958"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-703.3876373046407082475521013"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-1492.146318317625590153528245"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1145.645129529057127456583969"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "3855.160587359086336722884316",
+                "-3333.603385931651367269844089",
+                "-4091.534675155762102871225827",
+                "-1740.666067250319634762215812"
+              ],
+              "events": 170,
+              "mean_net_bps": "-31.23907965281556922459059654",
+              "profit_factor": "0.7122837243858363493273728004",
+              "sum_net_bps": "-5310.643540978646768180401412",
+              "sum_without_best_bps": "-6232.175377145318345805487778",
+              "worst_event_bps": "-840.6372281845087705593019846"
+            },
+            "exit_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-427.1092659656731606052279710"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-4258.986122107703481307420912"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-1827.485108442625957999605910"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-609.6606775140364060098002359"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-3746.549468358953268340833218"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-634.2881322108603191758950837"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1930.228263745805875415710939"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "2816.534745607879299140976050",
+                "-4336.188148560189724785365357",
+                "-7081.708713757051486971260142",
+                "-4832.944921636296556238844820"
+              ],
+              "events": 170,
+              "mean_net_bps": "-79.02533551968034393443820159",
+              "profit_factor": "0.5000344246374015442643685080",
+              "sum_net_bps": "-13434.30703834565846885449427",
+              "sum_without_best_bps": "-14199.34840267800356756686747",
+              "worst_event_bps": "-1259.788276453505962529238683"
+            },
+            "funding_adverse": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-236.4186196821891316293434151"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-2769.687135860744350003524906"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-1144.765800458174041167162036"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-446.6535240343353240522081934"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-1935.505289077162315724583635"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-1350.678572168788941619845930"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-1200.285368573370204855862765"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "3896.578813439643475075511826",
+                "-4689.326920919861349830238437",
+                "-4970.851524207800854828125414",
+                "-3320.394678166745579469678853"
+              ],
+              "events": 170,
+              "mean_net_bps": "-53.43526064620449593560312283",
+              "profit_factor": "0.5840547258401867565257253322",
+              "sum_net_bps": "-9083.994309854764309052530881",
+              "sum_without_best_bps": "-10136.31938129585508633086517",
+              "worst_event_bps": "-942.1278653796685397906388781"
+            },
+            "zero_cost": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "30.19192971543119835230143095"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "-2080.874589830579552618062579"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-494.0228248850329511056838108"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-135.3467227489962199838212168"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-1112.554383528209231359803772"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-747.4103192149116694161522468"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-757.6625402386785876041584572"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "5032.769928684833455514747847",
+                "-3462.723095328088784735704092",
+                "-3949.354292797802395230240609",
+                "-2918.371991289919289284183792"
+              ],
+              "events": 170,
+              "mean_net_bps": "-31.16282029841751184550223911",
+              "profit_factor": "0.7295017150963034326822291653",
+              "sum_net_bps": "-5297.679450730977013735380648",
+              "sum_without_best_bps": "-6374.087365495056161376172125",
+              "worst_event_bps": "-917.8655982516845747586960481"
+            }
+          }
+        }
+      }
+    },
+    "overnight_follow": {
+      "decision": "HYPOTHESIS_NOT_CONFIRMED",
+      "segments": {
+        "older": {
+          "criteria": {
+            "all_cost_scenarios_positive": false,
+            "corrected_interval_positive": false,
+            "positive_without_best": true,
+            "profit_factor_above_1_2": false,
+            "three_positive_blocks": false
+          },
+          "interval": {
+            "block_days": 7,
+            "confidence": 0.975,
+            "lower": -38.218541415415224,
+            "replicates": 5000,
+            "upper": 50.484647865490224
+          },
+          "scenarios": {
+            "base": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-846.1421683649734816159473919"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "1836.047031871124758461927532"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-84.60965901576589074607745305"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "37.49622004870444460184342401"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2069.509443357827014520452741"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-1056.262437453129741906115539"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-467.7143594980007815089631331"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "2325.088251210309313728347597",
+                "-1214.035652399997886419869250",
+                "467.8325059721749997560743959",
+                "-90.5610338367001052574325670"
+              ],
+              "events": 174,
+              "mean_net_bps": "8.553586614630955872454713672",
+              "profit_factor": "1.108519933706455022389440570",
+              "sum_net_bps": "1488.324070945786321807120179",
+              "sum_without_best_bps": "553.1923760995507432566497083",
+              "worst_event_bps": "-608.9921410313222468915639954"
+            },
+            "cost_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-1205.685244865944563061216053"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "1047.186400895145613285400384"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-945.1770569594857056684907140"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "-250.6566795916686629424997547"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "1182.377336406270797378076824"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-1512.136412415432971572370321"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-994.0445549161005269954484507"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "1293.943268790249859462221604",
+                "-2483.127883194558698253724226",
+                "-825.5208647170125241347591919",
+                "-663.4307323258946566502862737"
+              ],
+              "events": 174,
+              "mean_net_bps": "-15.39158742211043689411809244",
+              "profit_factor": "0.8323527339519032171842176782",
+              "sum_net_bps": "-2678.136211447216019576548085",
+              "sum_without_best_bps": "-3587.850560092858729177600668",
+              "worst_event_bps": "-632.0935593665942184824625317"
+            },
+            "delay_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-987.8209805386339984806347202"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "869.0625588696506569788399045"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-565.0269938319061020059040501"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "276.9021685381901527117278625"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2023.222344025738351286318367"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-224.2916952464151998698066144"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "825.9912513065527047626454321"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "1183.365577455359683741455096",
+                "-2091.547839870893524816633973",
+                "2108.312905057490541282800186",
+                "1017.908010481219865175564868"
+              ],
+              "events": 174,
+              "mean_net_bps": "12.74734858116768141024819643",
+              "profit_factor": "1.143360412980165064894493158",
+              "sum_net_bps": "2218.038653123176565383186179",
+              "sum_without_best_bps": "1004.367021285150727927726452",
+              "worst_event_bps": "-580.7271480583883223355328935"
+            },
+            "entry_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-886.6298142047821002600221107"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "919.0745856004913639730247983"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-959.7318498841194534948210110"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "182.2161811503370914680073847"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "1995.506791943355549486480441"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-853.3175249129577441583979232"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-362.2553256247213524392403397"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "416.1637728281973559765868843",
+                "-1871.886328465559818591666363",
+                "1425.193589888673867122719730",
+                "65.39200981629195006739098883"
+              ],
+              "events": 174,
+              "mean_net_bps": "0.2003623222276054860633979393",
+              "profit_factor": "1.002724874073638889722357987",
+              "sum_net_bps": "34.86304406760335457503124143",
+              "sum_without_best_bps": "-782.6368695627853217880567967",
+              "worst_event_bps": "-638.5730325061483543853531891"
+            },
+            "exit_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-947.0015086078985992286554304"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "1819.949640170761288895115770"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "335.1775095550796064860775085"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "130.3516478574208213123096742"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2107.227827870182757753159639"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-429.2880255952338840448850295"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "717.3094776937347573073875896"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "3145.485411666431131542330844",
+                "-1441.088445043994273355966288",
+                "1171.318225738141146820223601",
+                "858.0113765834687434739215682"
+              ],
+              "events": 174,
+              "mean_net_bps": "21.45819867209222269241672254",
+              "profit_factor": "1.230735653116334912052075835",
+              "sum_net_bps": "3733.726568944046748480509722",
+              "sum_without_best_bps": "2398.116370673015551034462673",
+              "worst_event_bps": "-607.1770849202946078713430688"
+            },
+            "funding_adverse": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-848.2270281689908662424910203"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "1831.542612589819716378743646"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "-91.78125786435431402258456795"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "35.60811489088957373370710917"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2062.239661833626523765503790"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-1059.149305949266782703490220"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "-472.1816597422455808081955595"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "2318.411102109678343520469828",
+                "-1221.148543613450200928888838",
+                "458.0927396446174157501619837",
+                "-97.3041605513672882405497985"
+              ],
+              "events": 174,
+              "mean_net_bps": "8.379604239019990058052834328",
+              "profit_factor": "1.106229843403023201571284869",
+              "sum_net_bps": "1458.051137589478270101193173",
+              "sum_without_best_bps": "522.9194427432426915507227023",
+              "worst_event_bps": "-608.9921410313222468915639954"
+            },
+            "zero_cost": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 15,
+                  "sum_net_bps": "-515.9760261610818394372341770"
+                },
+                "xyz:COIN": {
+                  "n": 33,
+                  "sum_net_bps": "2559.228050692794698406962205"
+                },
+                "xyz:HOOD": {
+                  "n": 36,
+                  "sum_net_bps": "709.4213208249394949874182058"
+                },
+                "xyz:META": {
+                  "n": 12,
+                  "sum_net_bps": "301.4863901978642488403217289"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2884.014555928078716730530169"
+                },
+                "xyz:NVDA": {
+                  "n": 19,
+                  "sum_net_bps": "-634.7850995690201097674799291"
+                },
+                "xyz:TSLA": {
+                  "n": 22,
+                  "sum_net_bps": "15.7467485825129579553169559"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "3274.671177327859003435327768",
+                "-48.63157148906475218404702478",
+                "1657.762416627829643234496649",
+                "435.3339180294642732300577654"
+              ],
+              "events": 174,
+              "mean_net_bps": "30.56974678446027682595307564",
+              "profit_factor": "1.446010572302305800493235361",
+              "sum_net_bps": "5319.135940496088167715835161",
+              "sum_without_best_bps": "4360.631366719076368696877187",
+              "worst_event_bps": "-587.2968057926387075900079212"
+            }
+          }
+        },
+        "validation": {
+          "criteria": {
+            "all_cost_scenarios_positive": false,
+            "corrected_interval_positive": false,
+            "positive_without_best": true,
+            "profit_factor_above_1_2": false,
+            "three_positive_blocks": true
+          },
+          "interval": {
+            "block_days": 7,
+            "confidence": 0.975,
+            "lower": -102.07071967979364,
+            "replicates": 5000,
+            "upper": 73.03169441998445
+          },
+          "scenarios": {
+            "base": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-293.0629939866733776483997722"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "1399.061474390615574012059570"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-145.3796048818789645836475451"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-172.4382579139008244944132610"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "298.9203334790058513775348198"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "151.3008635054765257393250005"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "319.3156410306044945050137200"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-6151.998423754677161927706331",
+                "2255.543392781472231732407433",
+                "2934.450193614542419830025385",
+                "2519.722292981911789272746043"
+              ],
+              "events": 170,
+              "mean_net_bps": "9.163043856607348699455720741",
+              "profit_factor": "1.097409482401321766050953976",
+              "sum_net_bps": "1557.717455623249278907472526",
+              "sum_without_best_bps": "664.1040911677484650290899435",
+              "worst_event_bps": "-1099.123458559571883935386773"
+            },
+            "cost_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-580.5508832605697879450305351"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "654.9695861522166617987801616"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-843.1582824713082009753773824"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-508.3946910178437531361317617"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-585.9626796837070207138240918"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-498.1107271079689679318930852"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "-159.6300364272431253746934342"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-7372.091780644064780402910512",
+                "935.2669277311275946676678040",
+                "1830.851410001554033022170553",
+                "2085.135729094958958434902024"
+              ],
+              "events": 170,
+              "mean_net_bps": "-14.82845714009661290751864785",
+              "profit_factor": "0.8606613854833413286130591829",
+              "sum_net_bps": "-2520.837713816424194278170134",
+              "sum_without_best_bps": "-3389.094894499803138570365686",
+              "worst_event_bps": "-1124.758477618084536941225559"
+            },
+            "delay_stress": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-104.0793925972778257908062425"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "1763.946843757679678290062834"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-399.0727050690934745593957808"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-539.1864021343703123083071302"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "910.2311135134065480068834859"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-406.5029510926147370811851209"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "1000.355397848631170101482532"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-4997.170306421316465316776936",
+                "587.4029746495673610176719708",
+                "4192.722828105190938608910700",
+                "2442.736407892919212348928846"
+              ],
+              "events": 170,
+              "mean_net_bps": "13.09230531897859439211020341",
+              "profit_factor": "1.138100428619236236260676755",
+              "sum_net_bps": "2225.691904226361046658734580",
+              "sum_without_best_bps": "1219.293976892092469555420885",
+              "worst_event_bps": "-782.5378333784642764464826383"
+            },
+            "entry_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-298.8944313341265455483142119"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "263.8824513664363227842880453"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-1084.445897941632572873345412"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-700.4930103999671815231570416"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "-922.1468521577855002508912520"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "301.3637231162755980453099549"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "266.7934252028204607613515105"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-6095.506689863123293236886580",
+                "911.4418051634064443298830084",
+                "2066.936164628411354983050435",
+                "943.1881279233260753191947303"
+              ],
+              "events": 170,
+              "mean_net_bps": "-12.78788583616458481532210828",
+              "profit_factor": "0.8685199711268723617390758881",
+              "sum_net_bps": "-2173.940592147979418604758407",
+              "sum_without_best_bps": "-2968.451707745888650758848203",
+              "worst_event_bps": "-965.7732324804730214752274741"
+            },
+            "exit_delay_only": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-100.5665896233309440934372039"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "2896.470126629258703801275661"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "547.5878867649131061151066898"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-6.6456749088968715308328295"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "2130.151687931530227666452632"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "-555.0152657880838267892255994"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "1052.695445048586829021089608"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-5049.607433732113226550725726",
+                "1921.004536279495854923803846",
+                "5059.595368103665787357134993",
+                "4033.685145402928808460215849"
+              ],
+              "events": 170,
+              "mean_net_bps": "35.08633891796457190700252329",
+              "profit_factor": "1.357955145350998043931787961",
+              "sum_net_bps": "5964.677616053977224190428960",
+              "sum_without_best_bps": "4752.106266451925316232920115",
+              "worst_event_bps": "-811.0924815124729664349917164"
+            },
+            "funding_adverse": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-296.8203703695627829921577348"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "1392.019829912271918098324784"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "-156.7285673005764725456516150"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "-175.9953775635109427771858665"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "289.5418430810129711506479038"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "144.1694638984500618266411945"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "314.9871417292652995156338296"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-6169.081483689976273199336798",
+                "2235.988995567768365813266773",
+                "2927.967189000415773230451594",
+                "2516.299262509142186431870922"
+              ],
+              "events": 170,
+              "mean_net_bps": "8.889258608160882660448544053",
+              "profit_factor": "1.094364350343027166200022439",
+              "sum_net_bps": "1511.173963387350052276252489",
+              "sum_without_best_bps": "617.5605989318492383978699065",
+              "worst_event_bps": "-1100.500780735775770070300209"
+            },
+            "zero_cost": {
+              "active_dates": 50,
+              "assets": {
+                "xyz:AMZN": {
+                  "n": 12,
+                  "sum_net_bps": "-30.19192971543119835230143095"
+                },
+                "xyz:COIN": {
+                  "n": 31,
+                  "sum_net_bps": "2080.874589830579552618062579"
+                },
+                "xyz:HOOD": {
+                  "n": 29,
+                  "sum_net_bps": "494.0228248850329511056838108"
+                },
+                "xyz:META": {
+                  "n": 14,
+                  "sum_net_bps": "135.3467227489962199838212168"
+                },
+                "xyz:MSTR": {
+                  "n": 37,
+                  "sum_net_bps": "1112.554383528209231359803772"
+                },
+                "xyz:NVDA": {
+                  "n": 27,
+                  "sum_net_bps": "747.4103192149116694161522468"
+                },
+                "xyz:TSLA": {
+                  "n": 20,
+                  "sum_net_bps": "757.6625402386785876041584572"
+                }
+              },
+              "blocks_30d_sum_bps": [
+                "-5032.769928684833455514747847",
+                "3462.723095328088784735704092",
+                "3949.354292797802395230240609",
+                "2918.371991289919289284183792"
+              ],
+              "events": 170,
+              "mean_net_bps": "31.16282029841751184550223911",
+              "profit_factor": "1.370798696296399220981039387",
+              "sum_net_bps": "5297.679450730977013735380648",
+              "sum_without_best_bps": "4379.813852479292438976684600",
+              "worst_event_bps": "-1076.407914764079147640791477"
+            }
+          }
+        }
+      }
+    }
+  }
+}

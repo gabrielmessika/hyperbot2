@@ -1,0 +1,278 @@
+{
+  "artifacts": [
+    {
+      "left": "data/diversification_2026-09-07/run1/summary.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/reproduced/summary.json",
+      "sha256": "f1ceeedfe0195ad258a2cd7f292800adc8766f25119048637fcc66f094d9ddfa"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/baseline_checks.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/baseline_checks.json",
+      "sha256": "7d9224cdb443ca8b8fc366ed19a3bbede6b9d74f2a360481071c795627393d3d"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/quality.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/quality.json",
+      "sha256": "d6b500eb31cc35185ac565fa0a82b99367ba064420cc4c7439a9bc338faaf905"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-base-infra-0.json",
+      "sha256": "cf16269387c4f282945aef625d1b647de511b3d16a6d64a09e48b34ce71f1ec9"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-base-infra-20.json",
+      "sha256": "3a28c6161b74cdbc3d2c788b6a4ed59016e8809b05efcb719796c88217dd6e1f"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-cost_stress-infra-0.json",
+      "sha256": "1e600a8c8cea290bb10fa157c007e66d85d8017f9c95fb3d0cb8ba829ebb9497"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-cost_stress-infra-20.json",
+      "sha256": "f4ea633714ffa034a5e79ee971224c5589df4d03a6d7ae2af8d56c3e39fa8198"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-delay-infra-0.json",
+      "sha256": "1cb7f8bf4a865d716c1edbd3830bba9062e46c265926c7444f8e4c39be719240"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-delay-infra-20.json",
+      "sha256": "a85addb58661df5c2be8020ef93b1cdf7a9a8a92e01e060ef572be1d3bfe1e55"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "af3bdfb9e59bc32d2c4ae9e1f470bd27fd00ec0c0e2d7821e9ea830cdf312720"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "d94fa63e85b4ed14e65fbea27308281ec0c128fb0e27c27d7b8631326293c11e"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-zero_cost-infra-0.json",
+      "sha256": "5512b023e3efa354d24ac97832bca87bea9ad5eacfae5299d130946ce640ad1e"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-0.5-zero_cost-infra-20.json",
+      "sha256": "204724faf3f10f050bfdaacd6ed7aa22f91e37c9e31a80982061766ae6b12626"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-base-infra-0.json",
+      "sha256": "be85a476e2b1ab4e765835fa7243e0146adde3eac9a34f15391644757ea0a8ba"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-base-infra-20.json",
+      "sha256": "f2e300e16a493488a33e73c94073ad51b2895dba62aee1d0a21e24e77e804d21"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-cost_stress-infra-0.json",
+      "sha256": "974de0ca56528d9683730fb1acef454253fa6920e98c215954b0c804233d9821"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-cost_stress-infra-20.json",
+      "sha256": "09475f0644c317c181534de2d437bd4b51ebd14bc8eb6935d4bc013fbbbc72d3"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-delay-infra-0.json",
+      "sha256": "0db1d049c01ada93b0af4c7fe53703bbbcc0eaa0cda34efeebd077da63d0197b"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-delay-infra-20.json",
+      "sha256": "6321a6ced4b94b485d524d0126e60a48d27b60192f34cd20dd7143b56fe80d04"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-funding_adverse-infra-0.json",
+      "sha256": "60025dc215fb1be04aa488e951d6606381665f8e1ebb3c7c3bfd1b29b3873a68"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-funding_adverse-infra-20.json",
+      "sha256": "f2c63265519b2ee5ff0eb4b402334bef90333386b623e1581cdf8d832eb7d1e4"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-zero_cost-infra-0.json",
+      "sha256": "cc0d9b60dcedf784098ba4c18929871547b08f03977e03c233f1fbaa10d63595"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1-zero_cost-infra-20.json",
+      "sha256": "261213bbfc167c1a33c0464d8a69b8f58d0d5bdc59732d625dd6a71a25b2fc3d"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-base-infra-0.json",
+      "sha256": "0d1294a621284dc74988885ca3cd5bd07e13469f33fbd4516072b41b979eae0e"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-base-infra-20.json",
+      "sha256": "01d8f75c87d7989d410215e16290faa74d032a884c187e8b6e9b9cc0c4f22d03"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-cost_stress-infra-0.json",
+      "sha256": "e233b5c18176ea5847be7e00337c5cb974dc46e691062f7fa5bd63bc5b6c5397"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-cost_stress-infra-20.json",
+      "sha256": "3c9387f699e576ac32674577a9acbefa433d812fb97284345a0716bb5cc193b3"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-delay-infra-0.json",
+      "sha256": "3d915194c9252561e59f0378e8f4551f8248c4efc22af01ef6f89a3d4c26ddd5"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-delay-infra-20.json",
+      "sha256": "7ad77229271f9a2a2a299c42b9d2fd2eaca6776471931b4c319a744e43ef95e2"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "9d634bf619c7cda6490d220d198c22f3d3f2b6c307be7e0f8924f61a3a50d49b"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "cb8c0c1f90be7e951ebf356d0a8419ea2b37e19eecc0142327fc1d2021537122"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-zero_cost-infra-0.json",
+      "sha256": "745e86f687d70121be034555019af7125b211c54116a00d6aa9e292f03672d6d"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-1.5-zero_cost-infra-20.json",
+      "sha256": "ecf5ac086914e48ea9457a780d880d870fbd05b28ca021f3dca3fff418752a90"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-base-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-base-infra-0.json",
+      "sha256": "3f0b589e20daf031b64a8c09c28e440da222b18e52c5c7b99b4abaa0b3ec2be3"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-base-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-base-infra-20.json",
+      "sha256": "919074217b96fca18c8391392080d39fcc436354a4ddfc925f3ecc7c6a2aff27"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-cost_stress-infra-0.json",
+      "sha256": "855c89ad68662f24ff69ade16099e161de80270a6f0f23f7b4910d9db72f2cf6"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-cost_stress-infra-20.json",
+      "sha256": "9c85374fecc3f9c4ac950b79ef3fcf14d3db8a70fa4e50fcf316eb3751300c0e"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-delay-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-delay-infra-0.json",
+      "sha256": "64285ab548543ec1410b99f28ae8f99919c120f7dfbbdaf71e78b12d0799a96c"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-delay-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-delay-infra-20.json",
+      "sha256": "27de9b976fb5313f594e17d541117d106bc5e1d358579404ec555629f940be66"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-funding_adverse-infra-0.json",
+      "sha256": "842c7bda1bf2919971f1ae849dbe3f302df6f2311133a325af525f76976e6a78"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-funding_adverse-infra-20.json",
+      "sha256": "79e9e7368d0929fef9f5a5f8eb49434dffd3be825334cadb7530bfe96fc3eeae"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-zero_cost-infra-0.json",
+      "sha256": "0d46680de5f7159c3c07fb5313c2b34d21e7d10b8df32eb8d54c798af2d8d3c9"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/shared-cap-2-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/shared-cap-2-zero_cost-infra-20.json",
+      "sha256": "8ba93cb2f05c844c9477848e252600f25ecd241b5019363b01e0c9b729522281"
+    },
+    {
+      "left": "data/diversification_2026-09-07/portfolio_run1/summary.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/portfolio_reproduced/summary.json",
+      "sha256": "1d374b87308a41f1e8c30fc2c08c1d829ebe11495ccc0a6f077632121e7aa212"
+    },
+    {
+      "left": "data/diversification_2026-09-07/audit/uncertainty.json",
+      "matched": true,
+      "right": "data/diversification_2026-09-07/audit_reproduced/uncertainty.json",
+      "sha256": "6330cef3bf267ded8ec8fb56faa5c1aa2342e6f3e7ff8432ad4a057d3507a407"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "67 sources passed",
+  "ruff": "check and format passed, 268 files",
+  "tests": "267 passed"
+}

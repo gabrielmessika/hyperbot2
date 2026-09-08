@@ -1,0 +1,11 @@
+{
+  "decision": "FIXED_NATIVE_DELTAS_REQUIRE_EXECUTION_PLANNER",
+  "live_enabled": false,
+  "promotion_authorized": false,
+  "remaining": [
+    "causal native execution with retained small residual positions",
+    "independent validation"
+  ],
+  "research_candidate_retained": true,
+  "target_10_percent_demonstrated": false
+}

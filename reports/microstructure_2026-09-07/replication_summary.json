@@ -1,0 +1,348 @@
+{
+  "adapter_hash": "3f0d38bfc3631ee62960bcba286deaa5f983954e103132cc73ffa5cf0729e49f",
+  "code_version": "source-sha256:2707e204ab42c9a9172292562cc540b8c6e67cf9c172585b83ecca7c3a35024c",
+  "config_hash": "e56cc2f83320416b0796e3d3ad57a96c560da39bb4b00ce1beca34126fba3240",
+  "cost_model": "4.5bps fees and 1bp slippage per side; stress 7bps/3bps; signed funding with hourly perp open as oracle proxy",
+  "days": [
+    "2026-08-25",
+    "2026-08-26",
+    "2026-08-27"
+  ],
+  "execution_model": "causal received BBO at +1s; alternative +2s; 10% depth cap",
+  "groups": [
+    {
+      "base_by_coin": {
+        "BTC": "-5.818831797626850",
+        "ETH": "-5.464087150563036",
+        "HYPE": "-4.57191310702875"
+      },
+      "base_by_day": {
+        "2026-08-25": "-4.477270472033336",
+        "2026-08-26": "-6.412172120212050",
+        "2026-08-27": "-4.965389462973250"
+      },
+      "base_pnl_usd": "-15.854832055218636",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 1,
+      "evaluable_fraction": "0.7461928934010152284263959391",
+      "fills": 294,
+      "gross_negative_pnl_usd": "-21.006867969992806",
+      "gross_positive_pnl_usd": "5.152035914774170",
+      "horizon_seconds": 300,
+      "mean_mid_markout_bps": "0.3329752595595044048092687366",
+      "mean_net_bps": "-10.84804005265900840120617961",
+      "mean_stress_bps": "-19.84777287732794359210504138",
+      "monthly_proxy_after_infra": "-178.548320552186360",
+      "profit_factor": "0.2452548339016353785021236731",
+      "rule": "continuation",
+      "signals": 394,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 97,
+        "EXIT_QUOTE_MISSING": 3,
+        "EXPLORATORY_FILL": 294
+      },
+      "stress_pnl_usd": "-29.005293799482936",
+      "winning_fills": 81
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-5.209620641625950",
+        "ETH": "-5.585021278449156",
+        "HYPE": "-5.182958741717571"
+      },
+      "base_by_day": {
+        "2026-08-25": "-4.498548955044286",
+        "2026-08-26": "-6.844758520695391",
+        "2026-08-27": "-4.634293186053000"
+      },
+      "base_pnl_usd": "-15.977600661792677",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 2,
+      "evaluable_fraction": "0.7715736040609137055837563452",
+      "fills": 304,
+      "gross_negative_pnl_usd": "-20.910208162019397",
+      "gross_positive_pnl_usd": "4.932607500226720",
+      "horizon_seconds": 300,
+      "mean_mid_markout_bps": "0.1765531973816150615685740870",
+      "mean_net_bps": "-10.57351132554330212834176413",
+      "mean_stress_bps": "-19.57350813291328221621021154",
+      "monthly_proxy_after_infra": "-179.776006617926770",
+      "profit_factor": "0.2358947104690303058830463411",
+      "rule": "continuation",
+      "signals": 394,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 87,
+        "EXIT_QUOTE_MISSING": 3,
+        "EXPLORATORY_FILL": 304
+      },
+      "stress_pnl_usd": "-29.574269277397277",
+      "winning_fills": 84
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-5.218878512121000",
+        "ETH": "-6.830125506594690",
+        "HYPE": "-8.478282508291424"
+      },
+      "base_by_day": {
+        "2026-08-25": "-6.551773781650071",
+        "2026-08-26": "-7.961109671756837",
+        "2026-08-27": "-6.014403073600206"
+      },
+      "base_pnl_usd": "-20.527286527007114",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 1,
+      "evaluable_fraction": "0.7411167512690355329949238579",
+      "fills": 292,
+      "gross_negative_pnl_usd": "-37.359509781727285",
+      "gross_positive_pnl_usd": "16.832223254720171",
+      "horizon_seconds": 1800,
+      "mean_mid_markout_bps": "-0.8458895525546482914891846110",
+      "mean_net_bps": "-14.15532234837992266335475230",
+      "mean_stress_bps": "-23.15673038498909305962138072",
+      "monthly_proxy_after_infra": "-225.272865270071140",
+      "profit_factor": "0.4505472195181986016395343699",
+      "rule": "continuation",
+      "signals": 394,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 91,
+        "EXIT_QUOTE_MISSING": 11,
+        "EXPLORATORY_FILL": 292
+      },
+      "stress_pnl_usd": "-33.588002745274814",
+      "winning_fills": 100
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-4.913501435207500",
+        "ETH": "-7.463468558474883",
+        "HYPE": "-9.824499279748409"
+      },
+      "base_by_day": {
+        "2026-08-25": "-7.173262347795415",
+        "2026-08-26": "-8.218158773597266",
+        "2026-08-27": "-6.810048152038111"
+      },
+      "base_pnl_usd": "-22.201469273430792",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 2,
+      "evaluable_fraction": "0.7614213197969543147208121827",
+      "fills": 300,
+      "gross_negative_pnl_usd": "-37.980744482818543",
+      "gross_positive_pnl_usd": "15.779275209387751",
+      "horizon_seconds": 1800,
+      "mean_mid_markout_bps": "-0.9887763523755034404998540914",
+      "mean_net_bps": "-14.89471194164073103955319736",
+      "mean_stress_bps": "-23.89647881155925132454723527",
+      "monthly_proxy_after_infra": "-242.014692734307920",
+      "profit_factor": "0.4154546053336544373687080928",
+      "rule": "continuation",
+      "signals": 394,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 83,
+        "EXIT_QUOTE_MISSING": 11,
+        "EXPLORATORY_FILL": 300
+      },
+      "stress_pnl_usd": "-35.622578823737592",
+      "winning_fills": 99
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-4.9885874431697160",
+        "ETH": "-5.555629764645389",
+        "HYPE": "-3.05160923694145"
+      },
+      "base_by_day": {
+        "2026-08-25": "-5.203503664736016",
+        "2026-08-26": "-3.755496350599800",
+        "2026-08-27": "-4.6368264294207390"
+      },
+      "base_pnl_usd": "-13.5958264447565550",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 1,
+      "evaluable_fraction": "0.6992287917737789203084832905",
+      "fills": 272,
+      "gross_negative_pnl_usd": "-18.296685723941863",
+      "gross_positive_pnl_usd": "4.7008592791853080",
+      "horizon_seconds": 300,
+      "mean_mid_markout_bps": "1.398124240834829044242114271",
+      "mean_net_bps": "-10.06363353813323639195943909",
+      "mean_stress_bps": "-19.06375994713201621905831456",
+      "monthly_proxy_after_infra": "-155.9582644475655500",
+      "profit_factor": "0.2569240872424270097092920357",
+      "rule": "absorption",
+      "signals": 389,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 115,
+        "EXIT_QUOTE_MISSING": 2,
+        "EXPLORATORY_FILL": 272
+      },
+      "stress_pnl_usd": "-25.7643790503188550",
+      "winning_fills": 69
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-4.4978116418477660",
+        "ETH": "-5.796123645115417",
+        "HYPE": "-4.28919930959215"
+      },
+      "base_by_day": {
+        "2026-08-25": "-6.675623162262444",
+        "2026-08-26": "-4.301238298744700",
+        "2026-08-27": "-3.6062731355481890"
+      },
+      "base_pnl_usd": "-14.5831345965553330",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 2,
+      "evaluable_fraction": "0.7737789203084832904884318766",
+      "fills": 301,
+      "gross_negative_pnl_usd": "-19.900729127939141",
+      "gross_positive_pnl_usd": "5.3175945313838080",
+      "horizon_seconds": 300,
+      "mean_mid_markout_bps": "1.475940502105410248842864804",
+      "mean_net_bps": "-9.752344998912772049057357412",
+      "mean_stress_bps": "-18.75217447310025634736282489",
+      "monthly_proxy_after_infra": "-165.8313459655533300",
+      "profit_factor": "0.2672060152770132157181805820",
+      "rule": "absorption",
+      "signals": 389,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 86,
+        "EXIT_QUOTE_MISSING": 2,
+        "EXPLORATORY_FILL": 301
+      },
+      "stress_pnl_usd": "-28.0445301565696330",
+      "winning_fills": 76
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-4.3761781788455660",
+        "ETH": "-6.987292247850229",
+        "HYPE": "-2.953945296513571"
+      },
+      "base_by_day": {
+        "2026-08-25": "-2.823345125048112",
+        "2026-08-26": "-5.018772861866491",
+        "2026-08-27": "-6.4752977362947630"
+      },
+      "base_pnl_usd": "-14.3174157232093660",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 1,
+      "evaluable_fraction": "0.7197943444730077120822622108",
+      "fills": 280,
+      "gross_negative_pnl_usd": "-29.368656273757266",
+      "gross_positive_pnl_usd": "15.0512405505479000",
+      "horizon_seconds": 1800,
+      "mean_mid_markout_bps": "-0.2905158779644762535881470630",
+      "mean_net_bps": "-10.30307482220729767572280881",
+      "mean_stress_bps": "-19.30337919572905914152342672",
+      "monthly_proxy_after_infra": "-163.1741572320936600",
+      "profit_factor": "0.5124933333772279607014882404",
+      "rule": "absorption",
+      "signals": 389,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 101,
+        "EXIT_QUOTE_MISSING": 8,
+        "EXPLORATORY_FILL": 280
+      },
+      "stress_pnl_usd": "-26.8439933477340160",
+      "winning_fills": 100
+    },
+    {
+      "base_by_coin": {
+        "BTC": "-4.667419285762200",
+        "ETH": "-6.265934050875744",
+        "HYPE": "-3.480572280522679"
+      },
+      "base_by_day": {
+        "2026-08-25": "-2.265950345384446",
+        "2026-08-26": "-4.179734153161128",
+        "2026-08-27": "-7.968241118615049"
+      },
+      "base_pnl_usd": "-14.413925617160623",
+      "bootstrap_99_usd": null,
+      "delay_seconds": 2,
+      "evaluable_fraction": "0.7429305912596401028277634961",
+      "fills": 289,
+      "gross_negative_pnl_usd": "-29.972583454042966",
+      "gross_positive_pnl_usd": "15.558657836882343",
+      "horizon_seconds": 1800,
+      "mean_mid_markout_bps": "-0.4021310011776885769103665",
+      "mean_net_bps": "-10.04472667122406123578087809",
+      "mean_stress_bps": "-19.04572505899280413284051138",
+      "monthly_proxy_after_infra": "-164.139256171606230",
+      "profit_factor": "0.5190963221685067731039274443",
+      "rule": "absorption",
+      "signals": 389,
+      "status_counts": {
+        "DEPTH_INSUFFICIENT": 91,
+        "EXIT_QUOTE_MISSING": 9,
+        "EXPLORATORY_FILL": 289
+      },
+      "stress_pnl_usd": "-27.341033948067973",
+      "winning_fills": 103
+    }
+  ],
+  "live_enabled": false,
+  "loader_sha256": "80a1eb98413539ad01f6542ec8db65be483071eeb496384eea3d2403237b2c68",
+  "pilot_stop_rule_triggered": false,
+  "public_data_only": true,
+  "run_id": "microstructure-fixed-20260907-v1",
+  "script_sha256": "ab0eeb47c7acf4ab62848ed21f681fdbd68b197dfffac8f2e0fcbe1ea95bdd72",
+  "shadow_only": true,
+  "sources": {
+    "data/microstructure_2026-09-07/replication/2026-08-25/manifest.json": "4f0837e472809e6ea2daf5463554b64fbc0fccc07a6528122d3b0573dd92bb3c",
+    "data/microstructure_2026-09-07/replication/2026-08-25/seconds.csv.gz": "32947d3e92759cd4dcc42c26ce7d8b88d144005f9d41d07d659303f6d6bde8bc",
+    "data/microstructure_2026-09-07/replication/2026-08-26/manifest.json": "b39652bbd295b29e4f3badcaec8124aaf8ff13b0341f00ad252202814edc3699",
+    "data/microstructure_2026-09-07/replication/2026-08-26/seconds.csv.gz": "ff2ae11fc8ff7bb1e02176738b40f34552cb1ffe49baa41b75251247b75c84d2",
+    "data/microstructure_2026-09-07/replication/2026-08-27/manifest.json": "38068b7ff5990ad4616a25debf784f6e8034bea86a4cd109875c373ce33baa9c",
+    "data/microstructure_2026-09-07/replication/2026-08-27/seconds.csv.gz": "67dee500f13dd7b0102d4505209bb06589fbc1da0dfa8adfdbe0c4fa0f5e5f39",
+    "data/search_2026-09-06/history/request-000.json": "382f96f3a18ee6d5e4fa8d12a95bf40f3528139ac12fb3af14900ba9ba24ab1f",
+    "data/search_2026-09-06/history/request-001.json": "acfd0d6b182e3d371c78b649930cffcca8db7d4962bcd4aefece8d86b734eb88",
+    "data/search_2026-09-06/history/request-002.json": "0238f7ab7312cbf2d47adf9de4f002dd39760503ec5dbc39d6d85b0ad4266e1e",
+    "data/search_2026-09-06/history/request-003.json": "d0b88fb382bffde43d95a97f290d1e3ac65e89599bc75f233577b599931cc292",
+    "data/search_2026-09-06/history/request-004.json": "db6a8407800a1b437b26a3657d634bfe2c65a93381e1853ab892c7a4b8c08bbf",
+    "data/search_2026-09-06/history/request-005.json": "4802bf4e93f8fbd79769bb35dbbddcfc4a4d6952025f003c4f9bdb1edcaf588b",
+    "data/search_2026-09-06/history/request-006.json": "e0955fc13939bb2ff7b4519048fb71cac38e2d7f36ef323e6591a22df0afa0c6",
+    "data/search_2026-09-06/history/request-007.json": "732e25c35b45b8c3f5938d295251de6ef578243027417da1c3948475102bf0de",
+    "data/search_2026-09-06/history/request-008.json": "d43878e6e28bd56ce6b903285d060a30aa308ba7cea4099baf0568bd6547e0fd",
+    "data/search_2026-09-06/history/request-009.json": "50b8ee4c1f854b7ffda62e2423c94ed382e4e1921d54ea81f25a91645df82e17",
+    "data/search_2026-09-06/history/request-010.json": "3d618bc1294a490c60dd6b3c2d46046f2fbc813aec565b0dd321d62a9c001ed0",
+    "data/search_2026-09-06/history/request-011.json": "cbd65da41bfc30bd82c5a992f536636aa4eedf322bb3aa64b7f8c6b409d60d70",
+    "data/search_2026-09-06/history/request-012.json": "91efa7338cdf2cc733b5eebce8a38b292b9381281c29c8de91e6cdb092904876",
+    "data/search_2026-09-06/history/request-013.json": "1d40e942e676567c2a1eb5974ca11764dd99a25a910ba713a0660f554e77b6b3",
+    "data/search_2026-09-06/history/request-014.json": "d1ccc019bf960360685e88d90d33b1799eb7930449ac0ef50ba4844428984aca",
+    "data/search_2026-09-06/history/request-015.json": "bd4898289dc5ac9b284182b91f427634eb34db13b75f1b34463b6ebd538a5086",
+    "data/search_2026-09-06/history/request-016.json": "d5747e5e2ee6b378835b3e2a5178cbb27e569db19f22f8ba9bff9dffbf7d6686",
+    "data/search_2026-09-06/history/request-017.json": "82405626e08fe016b19d1175a427a145f2c2ebc6378574f1e6ccfd513b04dfc6",
+    "data/search_2026-09-06/history/request-018.json": "5668e55e8d2f299ac2ec223d0394f8fea0f7f40b76286ad24cf73bfb1da917db",
+    "data/search_2026-09-06/history/request-019.json": "9ebd052c0cb4f524dec0f15539c4bbed288ddc2db35a8f4dcfa8d82adc1f3734",
+    "data/search_2026-09-06/history/request-020.json": "abfc8f3421a82688f0214fd21d9cc0ec3015693e49fb3eb910c819496ccff94a",
+    "data/search_2026-09-06/history/request-021.json": "6d542b76f7dbea6581fc0b432cd6d19b2f418ecae6e5cdb42d0b1222911f3175",
+    "data/search_2026-09-06/history/request-022.json": "5bf0ad9730307647e87ec26d0b41b96fee8228a92338bb88f1f9c9826291448e",
+    "data/search_2026-09-06/history/request-023.json": "15643e7b07e113a387bdcf346572a9a6f3c4edf5185eddaaab545b5de569f20c",
+    "data/search_2026-09-06/history/request-024.json": "d9e2c42d6232cb674826c26cbab8742a4058f708e556b2b1bbe8f1eeb57a6f1f",
+    "data/search_2026-09-06/history/request-025.json": "26472c4fbae6b9ab873cccc44944d72693088b078078fc6deddc28870dbf355f",
+    "data/search_2026-09-06/history/request-026.json": "c0801a6c495b7cb0ff6f3054884c3412fc48ae4b807aaeb37f5b6fc27af7476e",
+    "data/search_2026-09-06/history/request-027.json": "157e6373b72756bb71d0371254843eefdabb9a7947d25024b4bcf019152323ab",
+    "data/search_2026-09-06/history/request-028.json": "53592bd9e9c7aa8b00f3396593083e0a0a7bca7fa8147f19e13f1035cbc54df9",
+    "data/search_2026-09-06/history/request-029.json": "a6f917482ec50773568151a653016aeac4848a0bd9477a54997d38acf460fb63",
+    "data/search_2026-09-06/history/request-030.json": "2ec3a8f67c6058890387b5e5164ef554e1cedafabed81e0d71602fa93cba0d4e",
+    "data/search_2026-09-06/history/request-031.json": "903f55fdf4e9d52d73916a60de5d825ca569ee222ecae5f369307c857ec80726",
+    "data/search_2026-09-06/history/request-032.json": "b7348f19c45b9f59b61e168a8a07c143510c08a20d17f468376708699171bda9",
+    "data/search_2026-09-06/history/request-033.json": "d8a7e847aeda8e73a975a07974ca6a9bb5437de841fe3b847d62e29d931e8f6c",
+    "data/search_2026-09-06/history/request-034.json": "26c4c5f84ee227e3b5fa52ac650e7a32b26675fedbc4de06734d24e92723d65b",
+    "data/search_2026-09-06/history/request-035.json": "30e90711bc80317210d39e3e45d5267f1cc70901a6637067276fa052b88894c9",
+    "data/search_2026-09-06/history/request-036.json": "a96dd6a077e2c50ce9a19b38183a3bed8b4836900ef26d17060beff87ea68498",
+    "data/search_2026-09-06/history/request-037.json": "69e1be72c8e3e43ade04fcb18f7fbb9c5a0cdf8873deec1793fc47f9b4f9c5ed",
+    "data/search_2026-09-06/history/request-038.json": "6e0696895629810151dead282b0dbbccf0c6e9bc9c6f9ada5fa07eda25f0082f",
+    "data/search_2026-09-06/history/request-039.json": "ec7f6098a6056665737218cd48ed68c5b293738adcd20c2c648eaa3b0c5af28e",
+    "data/search_2026-09-06/history/request-040.json": "c356eab5c9820f7a60f0fbfbe6d3fdd6ad6f75f856267b63e294aee1271f521f",
+    "data/search_2026-09-06/history/request-041.json": "a92c40e4c121084d4805e952cb31ba194a349edd116ec3c3ca0a49270a0f6bde",
+    "data/search_2026-09-06/history/request-042.json": "995e39a771318e7a292c28d2aa4592ea11035246b0981a58ef3ec5f1c80bb8f1",
+    "data/search_2026-09-06/history/request-043.json": "bb77a1d63e7e9f6bc067700763d962db1649b43c3d0ef395f06ba18ed636c02e",
+    "data/search_2026-09-06/history/request-044.json": "77c9912edfc72539a642e04924b8d59749edb025239c99f63bbc0c368a983815",
+    "data/search_2026-09-06/history/request-045.json": "e3e2b1edaea5a67183aaba50c9d948c02ef7ccb7abf3b9f60a446c80d66faf83"
+  },
+  "verdict": "HYPOTHESIS_NOT_CONFIRMED"
+}

@@ -1,0 +1,52 @@
+{
+  "artifacts": [
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/overnight_fade-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/overnight_fade-events.json",
+      "sha256": "92381c02ef81aa99930c893398beaf90b36c393f18a34b0e6b3b51712d04462c"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/overnight_follow-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/overnight_follow-events.json",
+      "sha256": "56da9d83ad64cb8a9ec465f9068014653da0559943473a55a5daeef58474a983"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/summary.json",
+      "sha256": "3e6d3c08fb08a0d539091ef3ccbd2304374fba03712cfc00dc619d79655020a2"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/weekend_initial_fade-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/weekend_initial_fade-events.json",
+      "sha256": "96924bc4ebda1045e7ff29e63f23a133a5c978643cb81e894c903a2d2aaa7fac"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/weekend_initial_follow-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/weekend_initial_follow-events.json",
+      "sha256": "6faade4c6270a1890a0755d4126304d9f100effce56b3a2e81658697b010a3d5"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/weekend_replication_fade-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/weekend_replication_fade-events.json",
+      "sha256": "6f75bbe16822a41ba3a9d209d2085c8b3b58558fe33ab74af18e458d8bfc5c46"
+    },
+    {
+      "left": "data/hip3_fee_review_2026-09-07/final/weekend_replication_follow-events.json",
+      "matched": true,
+      "right": "data/hip3_fee_review_2026-09-07/reproduced/weekend_replication_follow-events.json",
+      "sha256": "2914daf61dcebebc0411288d8bc094bef45722402a22d4a4420c2951e9a30a47"
+    }
+  ],
+  "live_enabled": false,
+  "mypy": "56 source files passed",
+  "pytest": "224 passed",
+  "raw_leg_comparisons": 5256,
+  "ruff_check": "passed",
+  "ruff_format": "180 files already formatted"
+}

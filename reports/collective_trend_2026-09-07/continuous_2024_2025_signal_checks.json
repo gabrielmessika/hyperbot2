@@ -1,0 +1,10 @@
+{
+  "baskets": 99,
+  "historical_sources_revalidated": true,
+  "intended_entries": {
+    "collective_trend": 252,
+    "unconditional_control": 594
+  },
+  "newly_covered_weeks": 5,
+  "previous_weekly_rankings_identical": 94
+}

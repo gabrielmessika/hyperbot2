@@ -1,0 +1,202 @@
+{
+  "artifacts": [
+    {
+      "left": "data/commodity_trend_2026-09-07/final/quality.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/quality.json",
+      "sha256": "0c275eb04a30aeb31abd1f8286892076717c0eee47d327fd50ec7c0b7f244828"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/summary.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/summary.json",
+      "sha256": "8e939ba7ada8e4997c389a637871b8b0feb203c822f352a49d73f3cec06f026d"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-base-infra-0.json",
+      "sha256": "d5d326b02969a88072666d936aa4f3a6cda03134b20505bbd0a4ef3ab133eb5a"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-base-infra-20.json",
+      "sha256": "8fffa03dbc85a82d2e76fd01fe5a8c36a374b343a1a3ec97f02df65acd868316"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-cost_stress-infra-0.json",
+      "sha256": "d2fe9df4e4bb43aefd3306e88bb4578051a0f8bfd4bae722927a3ccd2b0a639d"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-cost_stress-infra-20.json",
+      "sha256": "37bff6f7525a70c60c403b7e893764be5e2dfcb534883ec20cd76cdb29d470b6"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-delay-infra-0.json",
+      "sha256": "02f97b620b4ba89ff04c74faa4bdfe41913fec5e34cf4064572ace51843735f7"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-delay-infra-20.json",
+      "sha256": "4de773b2bf39af50a1257fb94b6b0bac5c2e39c892cb797a24c6d7e884638fab"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-0.json",
+      "sha256": "4a4d19824d7b825bbac3112df98881152903ebeeeb34aaafc879fc956b584a67"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-funding_adverse-infra-20.json",
+      "sha256": "796fa1cca050a2ef988756cc737f3b9173927643386aa88ea4b89ef4ba193703"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-zero_cost-infra-0.json",
+      "sha256": "5e6a77ad95a71a6b33bf4b49de3438b7c1743901a9108fa213e1813af1ed8352"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-0.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-0.5-zero_cost-infra-20.json",
+      "sha256": "066646e96d8831bd044222416c3d5518420403bd70ad06c39f4cdaa5cc4aa039"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-base-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-base-infra-0.json",
+      "sha256": "cf872b117ec486f05cf2153b8c3be0160e3e3850798f57d19de2a718e60cf68c"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-base-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-base-infra-20.json",
+      "sha256": "76b6a6cc7d4353ebb01ca70f59101d696b4bcf317bb902d21d22d2fce4f2a63f"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-cost_stress-infra-0.json",
+      "sha256": "bee2bdc96867e044a49f1c7a120d11a7c127b8c6c35cb763358b38c3177e877c"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-cost_stress-infra-20.json",
+      "sha256": "7586a6a66f7f7359b8e6688a3872bf42dcbc1b2d3cbb7223f9bc0f9a368be976"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-delay-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-delay-infra-0.json",
+      "sha256": "361225b6228813c98e35cac40b84b53c955bc8712e3ba2f659e542399218ea93"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-delay-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-delay-infra-20.json",
+      "sha256": "bcec791dc5aef6bd52481f1e05dd4bc048dbce2e05ceb63c6d8d2f75a68ad60c"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-funding_adverse-infra-0.json",
+      "sha256": "e32137fb8587cb41f5137aad4779f702d64fc73085f0ce09a5a78da1d7449124"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-funding_adverse-infra-20.json",
+      "sha256": "29211bdab90396fba761a75ad55f2dc2f460bc296f7047cf93a35b7536d7992c"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-zero_cost-infra-0.json",
+      "sha256": "e55aeb21c21a6b8baa1e01d05cf29305bfa70431beba14f20cea8a712899d279"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1-zero_cost-infra-20.json",
+      "sha256": "6d6446e69f491d2d8639eb6d733e38928a442ff67738f33b9d9c49c836144e52"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-base-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-base-infra-0.json",
+      "sha256": "bc8bb144f98c80cd86692e6daaece01693de30c46829ff4b2bcf8eee5af3a005"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-base-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-base-infra-20.json",
+      "sha256": "d3076eee6dfa6fa5392f30551a82232f2750e6359836c776b20556e69b1f76de"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-cost_stress-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-cost_stress-infra-0.json",
+      "sha256": "8e127696f9309871ae965a39d507bd66d9f781f1e2de8922f0d155daac65fd90"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-cost_stress-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-cost_stress-infra-20.json",
+      "sha256": "7f31144b374bcf3ae675ffed5a9f5f09710ff0fbb3e06e5d070dcadd9597dfa4"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-delay-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-delay-infra-0.json",
+      "sha256": "b3f3af6c3782b393113ed36f8ebdd3a80b19add767386089820536578986223c"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-delay-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-delay-infra-20.json",
+      "sha256": "d01cd027af7b7490cffd56e694449cbe5b3594c95bcf1ed7e467ba073dbfa1d0"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-funding_adverse-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-0.json",
+      "sha256": "19952ad1c50b7189c8b92b91a331a19b90e409cdf8599b75c0e33177c7dc3649"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-funding_adverse-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-funding_adverse-infra-20.json",
+      "sha256": "73873c02317c58fc38b31b8aa6f762223becc2106c6bc46bbf1cbc78105baad2"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-zero_cost-infra-0.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-zero_cost-infra-0.json",
+      "sha256": "3bcfb2b36dc3f285c7704c872c677d0ae7f8f45ca824a758d2395d7b16ea0102"
+    },
+    {
+      "left": "data/commodity_trend_2026-09-07/final/cap-1.5-zero_cost-infra-20.json",
+      "matched": true,
+      "right": "data/commodity_trend_2026-09-07/reproduced/cap-1.5-zero_cost-infra-20.json",
+      "sha256": "bd7d43f31d09ea403ec8ab34cec39b99b79a81c72da2c2478eb74d105bb87365"
+    }
+  ],
+  "first_run_30_scenarios_unchanged": true,
+  "live_enabled": false,
+  "mypy": "60 source files passed",
+  "pytest": "236 passed",
+  "ruff_check": "passed",
+  "ruff_format": "203 files already formatted"
+}
